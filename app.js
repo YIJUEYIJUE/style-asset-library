@@ -14,13 +14,15 @@
 
   /* ---------- 中英对照 / 补充说明覆盖层（data/i18n.txt） ---------- */
   // 按「提示词内容」挂载，不按 id：改标题、换 id、重新 ingest 都不会把译文弄丢。
-  // 算法必须与 scripts/merge_i18n.py 里的 i18n_key() 完全一致。
-  function i18nKey(s) {
-    const t = String(s || "").replace(/[^0-9A-Za-z\u4e00-\u9fff]/g, "").toLowerCase().slice(0, 120);
+  // 算法必须与 scripts/merge_i18n.py 里的 i18n_key() / i18n_key_short() 完全一致。
+  const normPrompt = (s) => String(s || "").replace(/[^0-9A-Za-z\u4e00-\u9fff]/g, "").toLowerCase();
+  function fnv1a36(t) {
     let h = 0x811c9dc5;
     for (let i = 0; i < t.length; i++) { h ^= t.charCodeAt(i) & 0xff; h = Math.imul(h, 0x01000193) >>> 0; }
     return h.toString(36);
   }
+  const i18nKey = (s) => fnv1a36(normPrompt(s));                    // 主键：整段提示词
+  const i18nKeyShort = (s) => fnv1a36(normPrompt(s).slice(0, 120)); // 副键：前 120 字，提示词被小改过也能挂上
 
   function parseI18n(text) {
     const map = new Map();
@@ -53,9 +55,15 @@
       }
       const map = parseI18n(txt);
       if (!map.size) return;
-      assets.forEach((a) => {
-        const e = map.get(i18nKey(a.prompt));
-        if (!e) return;
+      // 一个 key 只有唯一命中才套用。A003 / A004 这类开头完全一样的模板会撞副键，
+      // 撞了宁可不套用，也绝不能把译文 / 补充说明安到别的风格头上。
+      const push = (m, k, a) => { const arr = m.get(k); if (arr) arr.push(a); else m.set(k, [a]); };
+      const byFull = new Map(), byShort = new Map();
+      assets.forEach((a) => { push(byFull, i18nKey(a.prompt), a); push(byShort, i18nKeyShort(a.prompt), a); });
+      map.forEach((e, k) => {
+        const hit = byFull.get(k) || byShort.get(k);
+        if (!hit || hit.length !== 1) return;
+        const a = hit[0];
         if (e.zh && !a.zh) a.zh = e.zh;
         if (e.en && !a.en) a.en = e.en;
         if (e.note && !a.note) a.note = e.note;   // styles.json 里已有就不覆盖
