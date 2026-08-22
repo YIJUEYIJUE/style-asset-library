@@ -8,6 +8,7 @@
 
   let assets = [], categories = [], heroIds = [], catTree = [];
   let current = "ALL", model = "ALL", q = "", selected = null, visible = [];
+  let openKind = "";      // 侧栏当前展开的大类（手风琴，一次只开一个）
   let onlyPicks = false, moved = false;
   let promptLang = "o";   // 看片台当前页签：o=原文 / z=译文，跨风格保持
 
@@ -62,11 +63,19 @@
     } catch (err) { /* 覆盖层缺失不影响主流程 */ }
   }
 
-  const hasCJK = (s) => /[\u4e00-\u9fff]/.test(String(s || ""));
-  // 另一个语言版本：英文提示词配中文译文，中文提示词配英文译文
+  // 原版是不是中文：按汉字与拉丁字母的比例判，掺了几个英文单词的中文提示词依然算中文
+  function isCN(s) {
+    const t = String(s || "");
+    const cjk = (t.match(/[\u4e00-\u9fff]/g) || []).length;
+    const lat = (t.match(/[A-Za-z]/g) || []).length;
+    return cjk > 0 && cjk * 3 >= lat;
+  }
+  // 另一个语言版本。硬规矩：原版本来就是中文的，不给它配中文译文，页签直接不出现。
   function altOf(a) {
-    if (a && a.zh && String(a.zh).trim()) return { text: String(a.zh), label: "中文译文" };
-    if (a && a.en && String(a.en).trim()) return { text: String(a.en), label: "English" };
+    if (!a) return { text: "", label: "中文译文" };
+    const cn = isCN(a.prompt);
+    if (!cn && a.zh && String(a.zh).trim()) return { text: String(a.zh), label: "中文译文" };
+    if (cn && a.en && String(a.en).trim()) return { text: String(a.en), label: "English" };
     return { text: "", label: "中文译文" };
   }
 
@@ -173,8 +182,31 @@
     $("#grid").innerHTML = visible.length
       ? visible.map(card).join("")
       : `<p class="emptyState">${onlyPicks ? "挑选夹还是空的，先去卡片右上角点 ✓。" : "没有匹配的资产，换个关键词或清空筛选试试。"}</p>`;
+    updateClearChip();
     if (canvasOpen) rebuildCanvas();
     syncPicks();
+  }
+
+  // 只要有任何筛选在生效，就在模型筛选条尾巴上挂一个「清空筛选」
+  function updateClearChip() {
+    const bar = $("#filterBar");
+    if (!bar) return;
+    const dirty = current !== "ALL" || model !== "ALL" || !!q.trim() || onlyPicks;
+    let btn = bar.querySelector("[data-clear]");
+    if (dirty && !btn) {
+      btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "chip clearAll";
+      btn.dataset.clear = "1";
+      btn.textContent = "✕ 清空筛选";
+      bar.appendChild(btn);
+    } else if (!dirty && btn) btn.remove();
+  }
+
+  function clearAllFilters() {
+    current = "ALL"; openKind = ""; model = "ALL"; q = ""; onlyPicks = false;
+    const s = $("#search"); if (s) s.value = "";
+    renderCats(); renderCatChips(); renderFilters(); renderGrid();
   }
 
   function renderFilters() {
@@ -182,6 +214,7 @@
     $("#filterBar").innerHTML =
       `<button class="chip${model === "ALL" ? " on" : ""}" data-model="ALL">全部模型</button>` +
       models.map((m) => `<button class="chip${model === m ? " on" : ""}" data-model="${esc(m)}">${esc(m)}</button>`).join("");
+    updateClearChip();
   }
 
   /* 横向胶囊（只用在窄屏网格库，展厅不放）：全部资产 › 大类 › 当前大类下的子分类 */
@@ -191,7 +224,7 @@
     h += catTree.map((g) => {
       const key = isFlat(g) ? g.subs[0].name : KIND + g.kind;
       const on = current === key || (!isFlat(g) && ak === g.kind);
-      return `<button class="chip${on ? " on" : ""}" data-cat="${esc(key)}">${esc(g.kind)} <i>${g.count}</i></button>`;
+      return `<button class="chip${on ? " on" : ""}" data-cat="${esc(key)}"${on ? ' title="再点一次取消"' : ""}>${esc(g.kind)} <i>${g.count}</i></button>`;
     }).join("");
     const g = catTree.find((x) => x.kind === ak);
     if (g && !isFlat(g)) {
@@ -207,14 +240,35 @@
     // #canvasChips 故意不填：展厅只有「全部」
   }
 
-  function setCat(cat) {
-    current = cat || "ALL";
+  /* 分类点击总入口。规矩统一：点中的就是已经选中的那一个 → 再点一次撤销。
+     - 大类：第一下展开并筛选，第二下收起并回到「全部资产」
+     - 子分类：第二下退回它所属的大类（大类保持展开）
+     - 扁平分类（没有子分类）：第二下回到「全部资产」 */
+  function pickCat(key) {
+    if (!key || key === "ALL") {
+      current = "ALL"; openKind = "";
+    } else if (key.startsWith(KIND)) {
+      const kind = key.slice(KIND.length);
+      const showing = openKind === kind && (current === key || splitCat(current).kind === kind);
+      if (showing) { openKind = ""; current = "ALL"; }
+      else { openKind = kind; current = key; }
+    } else {
+      const kind = splitCat(key).kind;
+      const g = catTree.find((x) => x.kind === kind);
+      if (current === key) {
+        if (g && !isFlat(g)) { current = KIND + kind; openKind = kind; }
+        else { current = "ALL"; openKind = ""; }
+      } else {
+        current = key;
+        openKind = (g && !isFlat(g)) ? kind : "";
+      }
+    }
     renderCats();
     renderCatChips();
     renderGrid();
   }
 
-  /* 侧栏：大类可展开出子分类 */
+  /* 侧栏：大类可展开出子分类，再点一次收起 */
   function renderCats() {
     const box = $("#catList");
     if (!box) return;
@@ -223,15 +277,16 @@
     catTree.forEach((g) => {
       if (isFlat(g)) {
         const s = g.subs[0];
-        html += `<button class="cat${on(s.name)}" data-cat="${esc(s.name)}"><b>${esc(s.name)}</b><span>${esc(s.tone)}</span><i>${s.count}</i></button>`;
+        const act = current === s.name;
+        html += `<button class="cat${act ? " active" : ""}" data-cat="${esc(s.name)}"${act ? ' title="再点一次回到全部"' : ""}><b>${esc(s.name)}</b><span>${esc(s.tone)}</span><i>${s.count}</i></button>`;
         return;
       }
       const key = KIND + g.kind;
-      const open = current === key || g.subs.some((s) => s.name === current);
+      const open = openKind === g.kind;
       html += `<div class="catGroup${open ? " open" : ""}">
-        <button class="cat catKind${on(key)}" data-cat="${esc(key)}"><b>${esc(g.kind)}</b><span>${g.subs.length} 个子分类</span><i>${g.count}</i></button>
+        <button class="cat catKind${on(key)}" data-cat="${esc(key)}" aria-expanded="${open}" title="${open ? "点此收起" : "点此展开"}"><b>${esc(g.kind)}</b><span>${g.subs.length} 个子分类 · ${open ? "点此收起" : "点此展开"}</span><i>${g.count}</i></button>
         <div class="catSubs">${g.subs.map((s) =>
-          `<button class="catSub${on(s.name)}" data-cat="${esc(s.name)}"><b>${esc(s.label)}</b><i>${s.count}</i></button>`).join("")}</div>
+          `<button class="catSub${on(s.name)}" data-cat="${esc(s.name)}"${current === s.name ? ' title="再点一次回到大类"' : ""}><b>${esc(s.label)}</b><i>${s.count}</i></button>`).join("")}</div>
       </div>`;
     });
     box.innerHTML = html;
@@ -368,7 +423,7 @@
     if (on) strip.scrollLeft = on.offsetLeft - strip.clientWidth / 2 + on.clientWidth / 2;
   }
 
-  /* 提示词区：原文/译文页签 + 独立的补充说明栏（动态插入，不动 index.html） */
+  /* 提示词区：原文/译文页签 + 字数 + 独立的补充说明栏（动态插入，不动 index.html） */
   function ensurePromptUI() {
     const info = document.querySelector(".modalInfo");
     if (!info) return;
@@ -378,8 +433,8 @@
     if (!document.getElementById("mLangTabs")) {
       const tabs = document.createElement("div");
       tabs.id = "mLangTabs";
-      tabs.className = "ptabs";
-      tabs.innerHTML = `<button class="pt on" type="button" data-t="o">原文</button><button class="pt" type="button" data-t="z">中文译文</button>`;
+      tabs.className = "ptabs show";
+      tabs.innerHTML = `<button class="pt on" type="button" data-t="o">原文</button><button class="pt" type="button" data-t="z">中文译文</button><span class="pchars" id="mChars"></span>`;
       pt.insertAdjacentElement("afterend", tabs);
       tabs.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -413,6 +468,10 @@
     const txt = t === "z" ? alt.text : ((a && a.prompt) || "");
     pb.textContent = txt || "暂未补充提示词";
     pb.classList.toggle("empty", !txt);
+    const ch = document.getElementById("mChars");
+    if (ch) ch.textContent = txt ? `${txt.length} 字` : "";
+    const cp = $("#copy");
+    if (cp) cp.title = t === "z" ? `复制${alt.label}（不含补充说明）` : "复制提示词原文（不含补充说明）";
   }
 
   function detail(id, push = true) {
@@ -438,9 +497,10 @@
     ensurePromptUI();
     const tabs = document.getElementById("mLangTabs");
     if (tabs) {
-      tabs.classList.toggle("show", !!alt.text);
+      tabs.classList.add("show");
+      tabs.classList.toggle("noalt", !alt.text);   // 没有对照版本就只留字数，不出页签
       const ob = tabs.querySelector('[data-t="o"]'), zb = tabs.querySelector('[data-t="z"]');
-      if (ob) ob.textContent = "原文 · " + (hasCJK(a.prompt) ? "中文" : "EN");
+      if (ob) ob.textContent = "原文 · " + (isCN(a.prompt) ? "中文" : "EN");
       if (zb) zb.textContent = alt.label;
     }
     setLang(alt.text ? promptLang : "o");
@@ -679,12 +739,14 @@
   .spec{padding:7px 9px}
   .spec b{font-size:12px}
 }
-/* 提示词：原文 / 译文页签 */
-.ptabs{display:none;gap:6px;margin:0 0 8px;flex-wrap:wrap}
+/* 提示词：原文 / 译文页签 + 字数 */
+.ptabs{display:none;align-items:center;gap:6px;margin:0 0 8px;flex-wrap:wrap}
 .ptabs.show{display:flex}
 .pt{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11.5px;letter-spacing:.02em;line-height:1.5;padding:4px 11px;border-radius:999px;cursor:pointer}
 .pt:hover{background:rgba(17,16,13,.05)}
 .pt.on{background:#11100d;border-color:#11100d;color:#fbf9f4}
+.ptabs.noalt .pt{display:none}
+.pchars{margin-left:auto;font-size:10.5px;letter-spacing:.04em;color:#9a9182;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;flex:0 0 auto}
 .promptBox.empty{color:#9a9182;font-style:italic}
 /* 补充说明：与提示词彻底分家，不进复制 */
 .noteWrap{display:none;margin:14px 0 0}
@@ -702,6 +764,10 @@
 .catGroup{margin:0 0 2px}
 .catSubs{display:none}
 .catGroup.open .catSubs{display:block;margin:2px 0 10px 14px;padding-left:10px;border-left:1px solid rgba(17,16,13,.16)}
+/* 大类右下角的小箭头：合起来朝下，展开后朝上，一眼看出还能再点一次 */
+.cat.catKind{position:relative}
+.cat.catKind::after{content:"";position:absolute;right:15px;bottom:13px;width:7px;height:7px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(45deg);opacity:.4;transition:transform .2s ease,opacity .2s ease;pointer-events:none}
+.catGroup.open>.cat.catKind::after{transform:rotate(-135deg);opacity:.75}
 .catSub{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 10px;margin:2px 0;border:0;background:transparent;border-radius:9px;cursor:pointer;text-align:left;font:inherit;color:#51493b}
 .catSub b{font-weight:600;font-size:12.5px}
 .catSub i{font-style:normal;font-size:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#8a7d63}
@@ -710,7 +776,17 @@
 .catSub.active i{color:#173fe8}
 .chip i{font-style:normal;opacity:.5;font-size:.86em;margin-left:3px}
 .chip.sub{border-style:dashed}
+.chip.clearAll{border-style:dashed;opacity:.8}
 .chipSep{display:inline-flex;align-items:center;padding:0 1px;color:#8a7d63;font-size:12px;flex:0 0 auto}
+/* 图片没加载出来时给个说明，不要留一块灰底 */
+.imgFail{position:relative}
+.imgFail img{opacity:0}
+.imgFail::after{content:"图片缺失";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:.08em;color:#9a9182;background:repeating-linear-gradient(45deg,rgba(17,16,13,.045) 0 8px,transparent 8px 16px)}
+/* 键盘可达性 */
+.asset:focus-visible,.cat:focus-visible,.catSub:focus-visible,.chip:focus-visible,.pt:focus-visible,.noteCopy:focus-visible,.stripItem:focus-visible,.shotBtn:focus-visible,.openingCard:focus-visible{outline:2px solid #173fe8;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
+}
 `;
 
   function applyLayoutFixes() {
@@ -728,6 +804,13 @@
     const cc = $("#canvasChips");
     if (cc) { cc.style.display = "none"; cc.innerHTML = ""; }
     liftModalAboveCanvas();
+    // 无障碍：看片台是对话框，toast 要能被读屏播报
+    const md = $("#modal");
+    if (md) { md.setAttribute("role", "dialog"); md.setAttribute("aria-modal", "true"); md.setAttribute("aria-label", "看片台"); }
+    const ts = $("#toast");
+    if (ts) { ts.setAttribute("role", "status"); ts.setAttribute("aria-live", "polite"); }
+    const sb = $("#search");
+    if (sb) sb.setAttribute("aria-label", "搜索标题、标签、提示词原文与中文译文");
     // 提示词块上移到标题/按钮下面，规格卡片挪到最后
     const info = document.querySelector(".modalInfo");
     if (info) {
@@ -883,12 +966,16 @@
     $$("#exportBtn").onclick = exportPicks;
     $$("#mPick").onclick = (e) => { e.stopPropagation(); if (selected) togglePick(selected.id); };
     $$("#search").oninput = (e) => { q = e.target.value; renderGrid(); };
-    $$("#catList").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); };
+    $$("#catList").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) pickCat(b.dataset.cat); };
     $$("#filterBar").onclick = (e) => {
       const b = e.target.closest(".chip"); if (!b) return;
-      model = b.dataset.model; renderFilters(); renderGrid();
+      if (b.dataset.clear) { clearAllFilters(); return; }
+      const m = b.dataset.model;
+      if (!m) return;
+      model = (model === m && m !== "ALL") ? "ALL" : m;   // 再点一次取消这个模型筛选
+      renderFilters(); renderGrid();
     };
-    $$("#catChips").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); };
+    $$("#catChips").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) pickCat(b.dataset.cat); };
     $$("#mPrev").onclick = (e) => { e.stopPropagation(); step(-1); };
     $$("#mNext").onclick = (e) => { e.stopPropagation(); step(1); };
     $$("#close").onclick = closeDetail;
@@ -924,7 +1011,15 @@
       const t = e.target;
       const typing = !!t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
       const open = $("#modal").classList.contains("show");
-      if (typing) { if (e.key === "Escape") { t.blur(); if (open) closeDetail(); } return; }
+      if (typing) {
+        // 搜索框里按 Esc：先清空关键词，已经空了才失焦
+        if (e.key === "Escape") {
+          if (t.id === "search" && t.value) { t.value = ""; q = ""; renderGrid(); return; }
+          t.blur();
+          if (open) closeDetail();
+        }
+        return;
+      }
       if (e.key === "/" && !open) { e.preventDefault(); showLib(); $("#search").focus(); }
       if (e.key === "Escape") { if (lightboxOpen()) closeLightbox(); else if (open) closeDetail(); else closeCanvas(); }
       if (open && e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
@@ -936,6 +1031,7 @@
       }
       // L 切换原文 / 译文
       if (open && (e.key === "l" || e.key === "L")) { e.preventDefault(); setLang(promptLang === "o" ? "z" : "o"); }
+      if (open && (e.key === "c" || e.key === "C")) { e.preventDefault(); const b = $("#copy"); if (b) b.click(); }
       if (open && (e.key === "f" || e.key === "F")) { if (selected) togglePick(selected.id); }
       if (!open && canvasOpen && (e.key === "0" || e.key === "r" || e.key === "R")) recenter();
       if (e.key === "Enter" && !$("#library").classList.contains("show")) showLib();
