@@ -513,7 +513,7 @@
   }
 
   function bind() {
-    // 图片 404 时给容器打标记，显示「图片缺失」而不是一块灰底
+    // 图片 404 时���容器打标记，显示「图片缺失」而不是一块灰底
     document.addEventListener("error", (e) => {
       const img = e.target;
       if (!img || img.tagName !== "IMG") return;
