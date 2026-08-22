@@ -6,10 +6,16 @@ Notion 导出附件时，图片文件名 = 提示词全文，但会把 、 / : �
 同名附件还会被加上 (1)。所以文件名只能用来「认人」，入库的提示词一律取 xlsx 原文。
 匹配方式：两边都去掉标点/空白/下划线后做全文精确比对（只比前几十字会把同头不同尾的升级版弄混）。
 
+备注列的硬规定：
+表格里那一列补充 / 备注 / 适用说明是「说明文字」，**不属于提示词正文**，
+入库后存在独立的 note 字段，前端也单独一栏展示，永远不能拼进 prompt。
+早期版本只找「适用/说明/备注」三个词，而表头写的是「补充」，结果整列静静丢掉了。
+
 用法：
   python3 scripts/import_xlsx.py --zip 附件.zip --xlsx 表格.xlsx            # 追加入库
   python3 scripts/import_xlsx.py --zip a.zip --xlsx a.xlsx --reset        # 先清空旧库
   python3 scripts/import_xlsx.py --zip a.zip --xlsx a.xlsx --dry-run      # 只看匹配结果，不入库
+  可选 --note-col 补充（表头名字奇怪时手动指定备注列）
   可选 --titles titles.json（{"1": "标题一", "2": "标题二"}）手工指定标题
 """
 import argparse
@@ -23,6 +29,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 IMG_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".bmp", ".tif", ".tiff", ".avif"}
+
+# 备注列的别名——写全一点，别再因为表头换个说法就整列丢掉
+NOTE_KEYS = ("补充", "备注", "备註", "注释", "注记", "适用", "说明", "说明文字", "remark", "Remark", "note", "Note")
 
 
 def norm(s: str) -> str:
@@ -47,7 +56,7 @@ def unpack(zip_path: Path, out_dir: Path):
     return items
 
 
-def read_xlsx(xlsx_path: Path):
+def read_xlsx(xlsx_path: Path, note_col: str = None):
     from openpyxl import load_workbook
 
     wb = load_workbook(xlsx_path, data_only=True)
@@ -57,15 +66,30 @@ def read_xlsx(xlsx_path: Path):
         raise SystemExit("xlsx 是空的")
     header = [str(c or "") for c in rows[0]]
 
-    def find(*keys, default=None):
+    def find(*keys, default=None, skip=()):
         for i, h in enumerate(header):
+            if i in skip:
+                continue
             if any(k in h for k in keys):
                 return i
         return default
 
-    i_prompt = find("提示词", "prompt", "Prompt", default=0)
-    i_refs = find("效果", "图片", "参考")
-    i_note = find("适用", "说明", "备注")
+    i_prompt = find("提示词", "prompt", "Prompt", "文本", default=0)
+    i_refs = find("效果", "图片", "参考", skip=(i_prompt,))
+    if note_col:
+        i_note = find(note_col, skip=(i_prompt, i_refs) if i_refs is not None else (i_prompt,))
+        if i_note is None:
+            raise SystemExit(f"表头里找不到备注列「{note_col}」；当前表头：{header}")
+    else:
+        i_note = find(*NOTE_KEYS, skip=(i_prompt, i_refs) if i_refs is not None else (i_prompt,))
+    if i_note is None:
+        # 兵底：三列表且剩下那列没被认出来，就当备注列，总好过静静丢掉
+        rest = [i for i in range(len(header)) if i != i_prompt and i != i_refs]
+        if len(rest) == 1:
+            i_note = rest[0]
+
+    print(f"· 列识别：提示词=「{header[i_prompt]}」· 参考图=「{header[i_refs] if i_refs is not None else '—'}」· 备注=「{header[i_note] if i_note is not None else '—（本次无备注列）'}」")
+
     out = []
     for k, r in enumerate(rows[1:], 1):
         prompt = str(r[i_prompt] or "").strip() if i_prompt < len(r) else ""
@@ -93,6 +117,7 @@ def main():
     ap.add_argument("--xlsx", required=True)
     ap.add_argument("--category", help="不填则用 xlsx 的工作表名")
     ap.add_argument("--default-model", default="通用")
+    ap.add_argument("--note-col", help="手动指定备注列的表头关键字（默认自动识别 补充/备注/适用/说明）")
     ap.add_argument("--titles", help="JSON：{\"1\": \"标题\"} 按行号覆盖自动标题")
     ap.add_argument("--reset", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
@@ -100,7 +125,7 @@ def main():
 
     work = ROOT / "incoming" / Path(args.zip).stem
     imgs = unpack(Path(args.zip), work / "files")
-    sheet, rows = read_xlsx(Path(args.xlsx))
+    sheet, rows = read_xlsx(Path(args.xlsx), args.note_col)
     category = (args.category or sheet).strip()
     titles = json.loads(Path(args.titles).read_text(encoding="utf-8")) if args.titles else {}
 
@@ -125,7 +150,10 @@ def main():
         flag = "  " if (r["want"] in (0, got)) else "!!"
         if flag == "!!":
             ok = False
-        print(f"{flag} 行{r['row']:>2}：{got} 张（表格标注 {r['want'] or '?'}）· {auto_title(r)[:26]}")
+        mark = " 备" if r["note"] else ""
+        print(f"{flag} 行{r['row']:>2}：{got} 张（表格标注 {r['want'] or '?'}）{mark} · {auto_title(r)[:26]}")
+    n_note = sum(1 for r in rows if r["note"])
+    print(f"· 带补充说明的行：{n_note} / {len(rows)}（补充说明存 note 字段，不进提示词）")
     if unmatched:
         ok = False
         print("✗ 对不上行的图：" + ", ".join(f"{m['n']:03d}" for m in unmatched))
@@ -163,7 +191,10 @@ def main():
     cmd = [sys.executable, str(ROOT / "scripts" / "ingest.py"), "--manifest", str(manifest)]
     if args.reset:
         cmd.append("--reset")
-    return subprocess.call(cmd)
+    rc = subprocess.call(cmd)
+    if rc == 0:
+        print("· 英文提示词记得补中文对照：python3 scripts/merge_i18n.py --check")
+    return rc
 
 
 if __name__ == "__main__":
