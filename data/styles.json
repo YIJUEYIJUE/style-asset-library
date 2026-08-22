@@ -1,11 +1,91 @@
 {
  "version": 1,
- "count": 11,
+ "count": 33,
  "cats": [
   {
    "name": "海报排版——模板",
    "tone": "COLLECTION",
    "count": 11
+  },
+  {
+   "name": "摄影——日系胶片",
+   "tone": "COLLECTION",
+   "count": 5
+  },
+  {
+   "name": "摄影——生活纪实",
+   "tone": "COLLECTION",
+   "count": 2
+  },
+  {
+   "name": "摄影——电影感",
+   "tone": "COLLECTION",
+   "count": 2
+  },
+  {
+   "name": "时尚——服装展示",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "摄影——民国国风",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "插画——古风仙侠",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "摄影——手机摄影",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "插画——艺术壁画",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "二次元——游戏角色",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "海报——构成主义",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "二次元——校园",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "人像——身份参考",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "摄影——写实人像",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "摄影——特殊视角",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "卡通——3D角色",
+   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "角色设定——Agent",
+   "tone": "COLLECTION",
+   "count": 1
   }
  ],
  "hero": [
@@ -409,6 +489,794 @@
     }
    ],
    "srcHash": "23fd7b7e6387fa34",
+   "needsPrompt": false
+  },
+  {
+   "id": "A012",
+   "seq": "012",
+   "title": "悬浮穿搭平铺展示",
+   "category": "时尚——服装展示",
+   "kind": "时尚",
+   "tone": "",
+   "palette": "#93AEB8 / #A6C1CC / #AFC9D3",
+   "model": "通用",
+   "tags": [
+    "时尚",
+    "服装",
+    "平铺",
+    "穿搭"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Complete [STYLE] outfit floating in its exact worn position around  an invisible body with every piece suspended mid-breath, mid-billow.  LOOK (bottom to top): [FOOTWEAR] → [BOTTOMS] → [TOP] → [LAYER] →  [ACCESSORIES] → [JEWELLERY] → [HEADWEAR]  FABRIC PHYSICS: each material true to its weight, wool hangs,  silk drapes, denim holds its crease, leather keeps its shape.  Every edge lifting slightly as if caught in one silent gust.  LABELS: hairline leader to floating label box. \"[GARMENT]\" uppercase / \"[FABRIC]\" italic / \"[ONE DEFINING DETAIL]\"  LIGHTING: soft directional from upper left + warm fill from below  catching linings and sole edges + cool rim outlining the silhouette. BACKGROUND: [COLOR] seamless, fashion-forward. TITLE: \"[LOOK NAME]\" elegant serif type, top right. SUBTITLE: \"[MOOD / OCCASION]\" italic.  Mood: high-concept levitation editorial, the outfit exists,  the person is imagination. 4K, extraordinary fabric fidelity, tack sharp.",
+   "img": "assets/full/A012.webp",
+   "thumb": "assets/thumb/A012.webp",
+   "w": 1200,
+   "h": 670,
+   "shots": [
+    {
+     "img": "assets/full/A012.webp",
+     "thumb": "assets/thumb/A012.webp",
+     "w": 1200,
+     "h": 670
+    }
+   ],
+   "srcHash": "c2b69806fec96b50",
+   "needsPrompt": false
+  },
+  {
+   "id": "A013",
+   "seq": "013",
+   "title": "民国名媛国风全身",
+   "category": "摄影——民国国风",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#261C14 / #4D3A29 / #6E583E",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "民国",
+    "国风",
+    "旗袍",
+    "人像"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "真实摄影，民国雅致国风主题，竖幅全身照，优雅温婉的民国名媛，身穿藕粉豆绿撞色长款改良旗袍，拖地裙摆自然垂落，衣身绣淡彩缠枝莲纹，领口袖口镶鎏金宽边，搭配同色系刺绣披肩，垂手而立，姿态优雅，发型为复古波浪半披长发，搭配珍珠发箍与钻石耳坠，冷白皮，蜜桃般细腻的真人皮肤纹理，鹅蛋脸，五官立体，精致复古妆容，绝美桃花眼，长睫毛，优雅温婉的眼神，黄金比例完美身材。画面采用竖向三分法非对称构图，人物正对镜头，单点透视，中景人物实焦，背景民国洋房露台完全虚化。暖调柔光氛围，柔和暖调侧光 + 暖调侧逆光轮廓光，伦勃朗暖光，脸部正面柔和暖光补光，发丝暖金光晕，柔和明暗对比，适中反差，细碎暖光斑洒在脸上，光影聚焦人物全身，背景柔化微亮。整体以低饱和暖调为基底，藕粉 + 豆绿为主视觉色，鎏金与珍珠白为细节点缀，冷白肤色与暖调光影呼应提亮画面，色彩复古优雅有质感。胶片摄影，32K 高清画质，32K 细腻真人皮肤纹理，轻微对焦模糊，脸部绝对清晰，可控过曝 overexposure，暖调暗调，光影柔和对比，胶片颗粒质感，粒子高噪点，轻微漏光、泛暖白、复古褪色效果，朦胧复古美学，磨砂质感，复古高级感，电影质感，绝妙构图，层次丰富，写意国风氛围，情绪氛围感拉满，现场感，透视感，暖朦光朦，超现实高级感，获奖摄影作品。,girl",
+   "img": "assets/full/A013.webp",
+   "thumb": "assets/thumb/A013.webp",
+   "w": 788,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A013.webp",
+     "thumb": "assets/thumb/A013.webp",
+     "w": 788,
+     "h": 1400
+    }
+   ],
+   "srcHash": "d3fd6262c5eec56c",
+   "needsPrompt": false
+  },
+  {
+   "id": "A014",
+   "seq": "014",
+   "title": "地铁广角抓拍",
+   "category": "摄影——生活纪实",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#1C1B1A / #4C4B49 / #707270",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "街拍",
+    "纪实",
+    "地铁",
+    "生活"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "一位女性坐在地铁座位上看向窗外，画面采用从膝部附近向上看的广角透视，保留真实生活化、偶遇抓拍感；车厢灯光冷白，金属扶手与车门形成纵深线条，人物穿日常冬季外套，神情自然，摄影风格写实，浅景深，公共交通纪实感，但不带偷拍或窥视意味。",
+   "img": "assets/full/A014.webp",
+   "thumb": "assets/thumb/A014.webp",
+   "w": 360,
+   "h": 270,
+   "shots": [
+    {
+     "img": "assets/full/A014.webp",
+     "thumb": "assets/thumb/A014.webp",
+     "w": 360,
+     "h": 270
+    }
+   ],
+   "srcHash": "2a6e96c5f0b2628f",
+   "needsPrompt": false
+  },
+  {
+   "id": "A015",
+   "seq": "015",
+   "title": "古风仙侠女性半身",
+   "category": "插画——古风仙侠",
+   "kind": "插画",
+   "tone": "",
+   "palette": "#BDC3CD / #485459 / #929BA2",
+   "model": "GPT-Image",
+   "tags": [
+    "插画",
+    "古风",
+    "仙侠",
+    "人像"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "gpt image 2生成古风插画。 提示词： 一位成年东方幻想系女性角色，正面近景半身像构图，气质清冷、温柔、神秘而高贵。她拥有精致绝美的东方五官，瓷白通透的肌肤，柔和细腻的面部光影，眼神安静疏离，带有冰雪般的清澈感与淡淡忧郁。她的黑灰色长发被盘成华丽的古风双髻，发丝柔顺蓬松，层次自然，额前有轻薄碎发，发间点缀金色发饰、青绿色宝石、流苏、珠链与精致蝴蝶状饰品，整体华丽但不繁杂。 她身穿白色与墨绿色相间的华美古风长袍，服装具有东方宫廷感与仙侠气质，内层为洁白丝质衣襟，外层披着厚重柔软的白色狐裘披肩，毛绒质感细腻真实，边缘蓬松轻盈。衣袍下摆与袖口带有深墨绿渐变、黑色织纹、金色细线装饰，呈现高级、克制、冷艳的东方美学。人物双手纤细修长，优雅地握着一枝覆盖白雪的青竹，竹叶青翠清冷，枝叶上积着细腻雪花，形成冬日诗意。 画面背景为极浅暖白与淡青灰色渐变，干净留白，空中飘落柔软雪花、冰晶、微光粒子与淡淡金色光点，营造宁静、梦幻、唯美的冬日仙境氛围。整体色调以雪白、墨绿、青玉色、淡金色、冰蓝灰为主，画面明亮通透，光线柔和，具有水墨晕染感、东方插画质感与高级幻想美学。 风格为唯美东方幻想插画，古风仙侠美人，细腻厚涂，柔焦光影，雪景氛围，华丽发饰，精致服饰纹理，真实毛绒质感，清冷仙气，诗意留白，高级感，超高细节，精美人物立绘，梦幻氛围，画面干净优雅，壁纸级质量。",
+   "img": "assets/full/A015.webp",
+   "thumb": "assets/thumb/A015.webp",
+   "w": 383,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A015.webp",
+     "thumb": "assets/thumb/A015.webp",
+     "w": 383,
+     "h": 680
+    }
+   ],
+   "srcHash": "366bcd05cdf251d0",
+   "needsPrompt": false
+  },
+  {
+   "id": "A016",
+   "seq": "016",
+   "title": "手机CCD韩系抓拍",
+   "category": "摄影——手机摄影",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#49514D / #343125 / #161612",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "手机",
+    "CCD",
+    "抓拍",
+    "韩系"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "{   \"prompt\": {     \"style_and_tech\": \"mobile phone photo, old CCD camera aesthetic, harsh flash, grainy, dim messy indoor lighting, candid snapshot feeling, slight motion blur\",      \"subject\": \"young Korean female idol, soft innocent look\",      \"pose\": \"mid-action, slightly turning head toward camera as if just noticed being photographed, shoulders slightly raised\",      \"expression\": \"eyes widened slightly, lips parted in surprise, shy and caught-off-guard expression\",      \"clothing\": \"loose soft homewear (thin cardigan + inner top), slightly slipping off one shoulder but not revealing\",      \"vibe\": \"unprepared, intimate, accidental moment, evokes curiosity and protectiveness\"，   \"aspect ratio\":\"9:16\"    } }",
+   "img": "assets/full/A016.webp",
+   "thumb": "assets/thumb/A016.webp",
+   "w": 380,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A016.webp",
+     "thumb": "assets/thumb/A016.webp",
+     "w": 380,
+     "h": 680
+    }
+   ],
+   "srcHash": "32cd7b623163678e",
+   "needsPrompt": false
+  },
+  {
+   "id": "A017",
+   "seq": "017",
+   "title": "哭泣之龙穹顶壁画",
+   "category": "插画——艺术壁画",
+   "kind": "插画",
+   "tone": "",
+   "palette": "#0C0908 / #493C2D / #6B5840",
+   "model": "通用",
+   "tags": [
+    "插画",
+    "壁画",
+    "艺术",
+    "龙"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "A museum-grade, high-end mural inspired by the “Crying Dragon” of Nikko Toshogu Shrine, painted on a circular dome ceiling. The composition is strictly centered, viewed from a worm’s-eye perspective, creating a powerful sense of sacred architectural depth.\n\nA dragon of overwhelming presence emerges from the exact center of the dome, its head directed downward toward the viewer. Its body, claws, and surrounding clouds radiate outward in a swirling motion, forming a dynamic circular explosion from the center.\n\nThe entire scene is enveloped within the dome structure, with subtle architectural curvature and faint boundary cues that further emphasize the immersive sensation of looking up into an overhead space.\n\nLighting: a soft, sacred glow emanates from the center, gradually fading into darkness toward the edges. Mist, cloud voids, and delicate negative space create a breathable, atmospheric sense of depth.",
+   "img": "assets/full/A017.webp",
+   "thumb": "assets/thumb/A017.webp",
+   "w": 900,
+   "h": 602,
+   "shots": [
+    {
+     "img": "assets/full/A017.webp",
+     "thumb": "assets/thumb/A017.webp",
+     "w": 900,
+     "h": 602
+    }
+   ],
+   "srcHash": "2fd64288cb9f9be0",
+   "needsPrompt": false
+  },
+  {
+   "id": "A018",
+   "seq": "018",
+   "title": "2B机械美学特写",
+   "category": "二次元——游戏角色",
+   "kind": "二次元",
+   "tone": "",
+   "palette": "#040607 / #362922 / #543B2B",
+   "model": "通用",
+   "tags": [
+    "二次元",
+    "2B",
+    "尼尔",
+    "角色"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "2B, facies in proximo, elegantia mechanica et desiderium tacitum; capilli albi in bob nitido, frons pura; oculi velati (caecum fascia nigrum, si canonice), sed expressio per labra et mala loquitur; labra humida, glossum densum; cutis roscida cum poris subtilibus; angulus humilis, warm rimlight aureum ad labra, low-key; focus in labris et textura cutis, cinematic close-up, hyper-detail.",
+   "img": "assets/full/A018.webp",
+   "thumb": "assets/thumb/A018.webp",
+   "w": 1400,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A018.webp",
+     "thumb": "assets/thumb/A018.webp",
+     "w": 1400,
+     "h": 1400
+    }
+   ],
+   "srcHash": "b79070390e1847d7",
+   "needsPrompt": false
+  },
+  {
+   "id": "A019",
+   "seq": "019",
+   "title": "日系负片浴室镜",
+   "category": "摄影——日系胶片",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#191E23 / #87806E / #736E61",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "日系",
+    "胶片",
+    "负片",
+    "室内"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Japanese negative film aesthetic, bathroom mirror scene, soft diffused indoor light, slight highlight bloom, low contrast, muted tones, subtle film grain  subject standing in front of mirror, casually adjusting hair or touching face, direct gaze through mirror reflection toward camera, relaxed posture, face fully visible, natural expression  water stains, imperfect mirror reflections, slightly cluttered sink area, intimate everyday atmosphere, quiet and distant mood, not staged, “caught in a real moment”",
+   "img": "assets/full/A019.webp",
+   "thumb": "assets/thumb/A019.webp",
+   "w": 900,
+   "h": 601,
+   "shots": [
+    {
+     "img": "assets/full/A019.webp",
+     "thumb": "assets/thumb/A019.webp",
+     "w": 900,
+     "h": 601
+    }
+   ],
+   "srcHash": "bbac4729e17fd6eb",
+   "needsPrompt": false
+  },
+  {
+   "id": "A020",
+   "seq": "020",
+   "title": "日系负片闲适时刻",
+   "category": "摄影——日系胶片",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#969188 / #43403A / #86796B",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "日系",
+    "胶片",
+    "负片",
+    "生活"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Japanese negative film aesthetic, idle moment, soft natural light, slight overexposure highlights, low contrast, muted faded colors, subtle grain\n\nsubject sitting or lying casually, body completely relaxed, no active movement, face fully visible, direct or unfocused gaze toward camera, neutral expression\n\nminimal environment, soft shadows, imperfect composition, stillness emphasized, quiet detached mood, “nothing happening but everything present” --ar: 2: 3",
+   "img": "assets/full/A020.webp",
+   "thumb": "assets/thumb/A020.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A020.webp",
+     "thumb": "assets/thumb/A020.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "688c6b4dfb9b56b5",
+   "needsPrompt": false
+  },
+  {
+   "id": "A021",
+   "seq": "021",
+   "title": "日系负片公交站剪影",
+   "category": "摄影——日系胶片",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#19171A / #211F20 / #E6E6E0",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "日系",
+    "胶片",
+    "负片",
+    "街头"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Japanese negative film aesthetic, close-up street silhouette portrait at bus stop, tight framing, head-and-shoulder composition, subject positioned very close to camera, soft but directional backlight, slight overexposure highlights, low contrast color base, muted faded tones, subtle film grain\n\na stunning beautiful japanese girl leaning lightly against bus stop panel, side profile close-up, face and outline clearly defined but mostly in shadow, rim light tracing hair and facial contour, face fully visible (no obstruction), calm gaze slightly toward light or softly toward camera, natural and unposed expression\n\nbackground compressed and minimal, urban elements blurred and partially cropped, strong light source behind subject, imperfect composition (tight crop, partial cut-off), quiet waiting mood, cinematic but understated, “memory-like realism” --2:3",
+   "img": "assets/full/A021.webp",
+   "thumb": "assets/thumb/A021.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A021.webp",
+     "thumb": "assets/thumb/A021.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "f762c30abeb22f40",
+   "needsPrompt": false
+  },
+  {
+   "id": "A022",
+   "seq": "022",
+   "title": "构成主义薇尔莉特海报",
+   "category": "海报——构成主义",
+   "kind": "海报",
+   "tone": "",
+   "palette": "#313859 / #F6EAD6 / #8B798A",
+   "model": "通用",
+   "tags": [
+    "海报",
+    "构成主义",
+    "矢量",
+    "薇尔莉特"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Constructivist graphic design poster, pure color block style, vector graphic style, no substitutions, no shadows, no lighting effects. The theme is Violet Evergarden, with colors matching the character design. The character’s body proportions should align with the art style. Clothing is represented using large areas of solid color. Half-body or mostly half-body composition, with the character centered. Geometric shapes (squares, circles, diagonal lines) surround the character to construct the visual layout. The shapes participate in the composition but must not cover the face. All color details must be solid color blocks. Edges should be sharp, clean, and textureless. Overall style: modern graphic design poster, not illustration. 9:16 vertical format.",
+   "img": "assets/full/A022.webp",
+   "thumb": "assets/thumb/A022.webp",
+   "w": 383,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A022.webp",
+     "thumb": "assets/thumb/A022.webp",
+     "w": 383,
+     "h": 680
+    }
+   ],
+   "srcHash": "badff19117504ab8",
+   "needsPrompt": false
+  },
+  {
+   "id": "A023",
+   "seq": "023",
+   "title": "JK制服榻榻米躺拍",
+   "category": "二次元——校园",
+   "kind": "二次元",
+   "tone": "",
+   "palette": "#20271B / #5C5F56 / #424231",
+   "model": "通用",
+   "tags": [
+    "二次元",
+    "JK",
+    "制服",
+    "日系"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Prompt: A Japanese teenage girl wearing a white sailor school uniform with a navy blue collar, lying on a traditional Japanese tatami floor, staring directly at the camera while holding a manga book in front of her face, covering her mouth and chin so that only her eyes and part of her nose are visible. Overhead top-down camera angle directly above her. Long black hair naturally spread across the tatami mat. Surrounded by vintage analog cameras, a retro cassette tape recorder, disposable camera, Japanese soda can, and small aesthetic accessories. Warm afternoon sunlight streaming through a window, creating dramatic striped shadows. Cinematic lighting, nostalgic Japanese youth aesthetic, moody atmosphere, soft shadows, photorealistic, realistic skin texture, ultra detailed, editorial photography style, 35mm film look, cozy retro Japanese room, authentic tatami texture, shallow depth of field, high realism.",
+   "img": "assets/full/A023.webp",
+   "thumb": "assets/thumb/A023.webp",
+   "w": 544,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A023.webp",
+     "thumb": "assets/thumb/A023.webp",
+     "w": 544,
+     "h": 680
+    }
+   ],
+   "srcHash": "d5c5b88b51399374",
+   "needsPrompt": false
+  },
+  {
+   "id": "A024",
+   "seq": "024",
+   "title": "电影感情侣俯拍",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#2C3535 / #978475 / #4E4E45",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "电影感",
+    "情侣",
+    "人像"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "A cinematic top-down portrait in aesthetic style of a young couple lying side by side on a textured fabric surface, both wearing modest casual clothing with soft natural fabrics, their bodies relaxed and close to each other, heads slightly turned toward one another, **smiling, laughing, and chatting joyfully**, capturing a candid happy moment, gentle and natural expressions full of warmth, soft golden hour sunlight entering from one side, creating subtle light gradients and deep quiet shadows without harsh patterns, light softly dominating parts of the composition, low saturation with pale soft tones, slightly faded colors with warm ivory, beige, and subtle greenish tint, clean and airy atmosphere, delicate highlight bloom, underexposed shadows with minimal detail, shallow depth of field, very soft focus, fine film grain, Fuji Pro 400H film look, natural lighting, minimalist composition, **peaceful yet cheerful mood**, nostalgic Japanese cinematic feeling, intimate and heartfelt moment, understated elegance, poetic visual tone",
+   "img": "assets/full/A024.webp",
+   "thumb": "assets/thumb/A024.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A024.webp",
+     "thumb": "assets/thumb/A024.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "c338df2b7ee094c2",
+   "needsPrompt": false
+  },
+  {
+   "id": "A025",
+   "seq": "025",
+   "title": "理光GR日系街拍",
+   "category": "摄影——日系胶片",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#050607 / #383836 / #4C4A46",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "日系",
+    "胶片",
+    "负片",
+    "理光GR"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Japanese negative film aesthetic, Ricoh GR III street photography style, photorealistic urban fashion portrait, candid editorial snapshot feeling, full-body composition, pronounced low-angle shot from near ground level to elongate the legs, subtle tilted framing, razor-sharp focus on the subject with soft imperfect focus falloff, shallow depth of field, slightly overexposed highlights, low contrast, muted faded colors, soft highlight bloom, nostalgic cinematic atmosphere, subtle analog film texture, fine heavy grain, Fujifilm Pro 400H and Classic Negative inspired tones.\n\nA beautiful young chinese Internet Celebrity in her early 20s, petite and slender, with very long straight legs and a light graceful figure, fair cool-toned skin, delicate balanced facial features, clear natural skin texture, soft glossy lips, refined clean makeup, long straight black hair with natural volume and soft flowing movement, a few loose strands brushing across her face, calm cool expression with a slightly shy and playful mood, gazing softly into the camera.\n\nShe stands sideways beside a dark gray stone building wall and a matte black door in a stylish urban street scene. Her legs are crossed and extended naturally, and the strong low-angle perspective makes her legs appear especially long and elegant. Her posture is relaxed yet fashion-forward, giving a casual street-style model presence.\n\nShe wears a Miu Miu-inspired youthful luxury outfit: a slightly oversized button-up shirt paired with a chic pleated mini skirt, styled in a refined preppy fashion-girl way, cinched at the waist with a slim black leather belt and a polished metallic buckle. She carries a small black shoulder bag decorated with cute cartoon keychain charms. Minimal elegant jewelry, subtle earrings, refined youthful styling. Black loafers or polished platform loafers complete the look.\n\nBackground features deep gray textured stone walls, a matte black doorway, gray tiled pavement, and quiet urban architecture. Soft midday natural light mixes with darker moody shadows, creating a bright yet restrained street-fashion atmosphere. Gentle side light, soft hair rim light, dappled sunlight on the wall, rich light-and-shadow layering, bright clean subject against a dark-toned background, cinematic street-style mood.\n\nRealistic iPhone 15 Pro Max snapshot texture, intentionally natural composition, slightly accidental framing, memory-like realism, urban cool girl vibe, sweet but restrained, lazy playful mood, polished yet candid, high-end fashion street photography, ultra-detailed face, realistic anatomy, natural proportions, no distortion, no extra limbs, no broken fingers, no warped shoes, no plastic skin, no exaggerated body shape, no text, no watermark --ar 2:3",
+   "img": "assets/full/A025.webp",
+   "thumb": "assets/thumb/A025.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A025.webp",
+     "thumb": "assets/thumb/A025.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "e789076998b929c6",
+   "needsPrompt": false
+  },
+  {
+   "id": "A026",
+   "seq": "026",
+   "title": "日系负片韩系idol",
+   "category": "摄影——日系胶片",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#A6B1BB / #393A39 / #51514E",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "日系",
+    "胶片",
+    "负片",
+    "idol"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Use case: photorealistic-natural\nAsset type: portrait image, target size 1200x1600 vertical\nPrimary request: Create a Japanese negative film aesthetic portrait of an adult Korean female idol on empty outdoor stadium stairs after rehearsal.\nScene/backdrop: concrete stadium steps, faded seat rows, open summer sky, a small plastic bag moving in the wind.\nSubject: adult Korean female idol in her mid-20s, calm and distant, lightly tired, hair blown across her face.\nWardrobe: oversized white team-style shirt with no visible logo, high-waisted navy shorts, white socks and trainers.\nPose/action: sitting on the concrete stair edge, one hand supporting behind, one knee bent, the other leg extended down a step, torso subtly turned toward camera.\nProp: striped sports towel around one wrist, cold glass bottle drink with condensation held near her cheek.\nStyle/medium: photorealistic candid editorial photo, Japanese negative film aesthetic.\nComposition/framing: vertical, steps create repeating lines, slightly imperfect crop and open sky.\nLighting/mood: late afternoon natural sunlight, slightly overexposed highlights, low contrast, nostalgic reflective mood.\nColor palette: white, navy, concrete gray, faded seat blue.\nConstraints: adult subject only, tasteful non-explicit fashion portrait, no logos, no text, no watermark.",
+   "img": "assets/full/A026.webp",
+   "thumb": "assets/thumb/A026.webp",
+   "w": 510,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A026.webp",
+     "thumb": "assets/thumb/A026.webp",
+     "w": 510,
+     "h": 680
+    }
+   ],
+   "srcHash": "16fb5793a9e7152b",
+   "needsPrompt": false
+  },
+  {
+   "id": "A027",
+   "seq": "027",
+   "title": "天台酒吧双人夜景",
+   "category": "摄影——生活纪实",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#171614 / #100E0B / #66472A",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "生活",
+    "天台",
+    "情侣",
+    "夜景"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "A wide half-body shot of two young people standing at the railing of an open-air rooftop club bar, authentic daily life photography, natural candid moment. She leans back lightly against him — both looking out at the city lights below, drinks in hand, a comfortable weight to the silence between them.\nEast Asian young woman in her early 20s. Almond-shaped eyes with natural double eyelids, slightly elongated eye corners, expression soft and open — the kind of face that appears when the music is behind you and the city is in front. Straight refined nose with a delicate bridge. Skin tone fair to light beige (NC10–NC20). Skin subsurface scattering visible under warm rooftop bar light mixed with distant city glow, specular micro-highlights on her bare shoulders and collarbone, fine foundation powder grain perceptible. She wears a rose-gold satin slip dress on thin straps — the fabric catching the city light, hem above the knee, moving faintly in the night breeze. He stands close behind her, hands loosely on the railing beside hers. Two or three stray hairs lift and cross her cheek displaced by the rooftop breeze, natural unplanned imperfection, not geometrically symmetrical.\nMixed artificial light sources — warm amber rooftop bar lanterns cast a soft glow across both figures from behind. The vast city light grid spreads below and behind them, bokeh points of orange and white light filling the distance. A light wind is implied in the fabric movement and lifted hair. The mood is gentle and warm — quiet contentment, a small almost-smile, sense of stillness above the city. Subtle ISO 400 film grain in shadow areas, photographic noise texture not CG render smoothness. Aspect ratio 3:2. No watermark, no text overlay, not cartoon, not digitally painted, not illustration, not anime.",
+   "img": "assets/full/A027.webp",
+   "thumb": "assets/thumb/A027.webp",
+   "w": 680,
+   "h": 453,
+   "shots": [
+    {
+     "img": "assets/full/A027.webp",
+     "thumb": "assets/thumb/A027.webp",
+     "w": 680,
+     "h": 453
+    }
+   ],
+   "srcHash": "90e0242271c34ea4",
+   "needsPrompt": false
+  },
+  {
+   "id": "A028",
+   "seq": "028",
+   "title": "火车窗电影感人像",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#121213 / #7C6960 / #42342E",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "电影感",
+    "火车",
+    "车窗",
+    "人像"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "A cinematic train-window portrait, where sunlight, wind, and reflection meet\n\nPrompt:\nUse the uploaded portrait only to preserve the person’s real facial features, hairstyle, hairline, skin tone, and natural presence. Create a cinematic photorealistic close-up portrait inside a moving train or bus, the person sitting beside a window, looking outside in profile. Strong sunlight cuts across the face, wind-blown hair partially covering the eyes and lips, soft reflection on the glass, blurred scenery outside the window, subtle golden dust particles and film grain. Natural skin texture, realistic eyes, authentic phone-photo feeling, moody cinematic lighting, shallow depth of field, high detail, vertical composition, 9:16\n\nNegative Prompt:\nwatermark, text, logo, anime, cartoon, plastic skin, over-smoothed face, fake makeup, distorted face, bad eyes, extra fingers, deformed hands, low quality, overexposed, AI look, unnatural reflection, copied reference face",
+   "img": "assets/full/A028.webp",
+   "thumb": "assets/thumb/A028.webp",
+   "w": 383,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A028.webp",
+     "thumb": "assets/thumb/A028.webp",
+     "w": 383,
+     "h": 680
+    }
+   ],
+   "srcHash": "a14216272523fbe2",
+   "needsPrompt": false
+  },
+  {
+   "id": "A029",
+   "seq": "029",
+   "title": "人像身份参考工作流",
+   "category": "人像——身份参考",
+   "kind": "人像",
+   "tone": "",
+   "palette": "#0A100B / #353829 / #1E2216",
+   "model": "通用",
+   "tags": [
+    "人像",
+    "参考",
+    "工作流",
+    "写实"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Use the uploaded portrait only as the identity reference. Preserve the person’s real facial features, face shape, skin tone, and recognizable hairstyle. Do not copy the original outfit, background, pose, lighting, or image quality from the uploaded portrait.\n\nCreate a realistic cinematic portrait of the same person sitting quietly on an old green-tiled rooftop under dense tree shadows. The person is relaxed, looking slightly downward with a soft calm expression. Surround the scene with dark green foliage, hanging red pomegranate fruits, scattered sunlight, and natural leaf-shaped shadows across the face, body, and roof tiles. Add a vintage handheld camera placed casually nearby as a storytelling detail.\n\nChoose an outfit that best matches the person’s appearance and personality, different from the scene inspiration: natural, clean, elegant, lightweight, and suitable for a dreamy outdoor summer portrait. Keep the styling tasteful and realistic.\n\nLow-angle composition, full-body or three-quarter body framing, cinematic natural light, strong contrast between deep shadow and bright sun patches, soft film grain, subtle lens flare, dreamy atmosphere, realistic skin texture, natural body proportions, authentic photography, shallow depth of field, poetic summer mood, high-detail editorial photo, no text, no logo, no watermark.\n\nNegative Prompt：\n\nwatermark, logo, text, Chinese characters, AI-generated mark, over-smoothed skin, plastic skin, fake face, anime style, cartoon style, 3D render, doll-like face, distorted body, bad anatomy, extra fingers, missing fingers, deformed hands, deformed feet, unnatural legs, awkward pose, blurry face, low resolution, harsh filter, over-sharpened, messy composition, duplicated person, wrong identity, copied outfit from input portrait, copied background from input portrait.",
+   "img": "assets/full/A029.webp",
+   "thumb": "assets/thumb/A029.webp",
+   "w": 383,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A029.webp",
+     "thumb": "assets/thumb/A029.webp",
+     "w": 383,
+     "h": 680
+    }
+   ],
+   "srcHash": "0b879671ef862a89",
+   "needsPrompt": false
+  },
+  {
+   "id": "A030",
+   "seq": "030",
+   "title": "韩系idol码头写真",
+   "category": "摄影——写实人像",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#2F3234 / #FCFBF8 / #8E8378",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "idol",
+    "韩系",
+    "写实",
+    "人像"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Fictional adult Korean female idol in her mid-20s, no real celebrity likeness, small ferry pier waiting area, weathered wooden railing, faded life ring, silver water glare behind. Adult idol with calm remote expression, subtle sensuality through relaxed weight shift, summer wind moving hair and skirt fabric. Navy sailor-collar blouse with short sleeves, off-white wrap skirt, canvas tote folded beside her. Leaning against the railing with torso slightly turned, one hand holding a pair of cheap sunglasses near her temple, the other hand resting on the rail, one ankle crossed in front. Photorealistic candid editorial photo, Japanese negative film, soft natural sunlight, slight overexposed highlights, low contrast, muted faded colors, subtle grain. Vertical frame with bright water overexposed at edge, imperfect candid crop. Adult subject only, tasteful non-explicit, no logos, no readable text, no watermark.",
+   "img": "assets/full/A030.webp",
+   "thumb": "assets/thumb/A030.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A030.webp",
+     "thumb": "assets/thumb/A030.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "14e331033d8b1e67",
+   "needsPrompt": false
+  },
+  {
+   "id": "A031",
+   "seq": "031",
+   "title": "鱼眼俯拍咖啡男",
+   "category": "摄影——特殊视角",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "#0A0A07 / #5A4F40 / #352C21",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "鱼眼",
+    "俯拍",
+    "特殊视角"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "Ultra wide fisheye lens shot from a high overhead angle looking down at a stylish man mid sip from a matte teal ceramic mug held close to his lips. He has short buzzed dark hair, a thin mustache, tinted amber gold aviator sunglasses, a small nose ring, and visible hand/finger tattoos including a star motif on his knuckles, with a gold ring on his finger. He wears a brown houndstooth tweed blazer over a deep maroon patterned shirt, paired with a textured tie visible below. Setting is a vintage style bathroom with glossy teal square tiles, cream trim, an old fashioned white framed window with multiple glass panes letting in soft directional daylight and casting sharp shadow lines across the white wall and ceiling. A vintage mirrored medicine cabinet is visible in the upper left, reflecting more tiled surfaces. Warm, cinematic film grain color grading with teal and warm skin tone contrast, shallow depth of field softening the background, sharp focus on face and mug. Composition emphasizes the extreme fisheye distortion, hand and mug dominating the foreground, face centered and slightly distorted from the wide lens. Correct anatomy: five fingers per hand, natural joint bends, no distorted or extra digits, accurate proportions on hand holding mug. Photorealistic, high detail, editorial fashion photography style, 4K clarity, no text, no watermark, no logos. Aspect ratio 16:9.",
+   "img": "assets/full/A031.webp",
+   "thumb": "assets/thumb/A031.webp",
+   "w": 1400,
+   "h": 604,
+   "shots": [
+    {
+     "img": "assets/full/A031.webp",
+     "thumb": "assets/thumb/A031.webp",
+     "w": 1400,
+     "h": 604
+    }
+   ],
+   "srcHash": "7eec8ace84182b36",
+   "needsPrompt": false
+  },
+  {
+   "id": "A032",
+   "seq": "032",
+   "title": "UE5青蛙卡通角色",
+   "category": "卡通——3D角色",
+   "kind": "卡通",
+   "tone": "",
+   "palette": "#E2CCA5 / #4E4826 / #D5E0E1",
+   "model": "通用",
+   "tags": [
+    "卡通",
+    "3D",
+    "角色",
+    "UE5",
+    "青蛙"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "生成这个场景结合的远景图，大场景，在距离仙人掌远处加入一些岩石，场景距离拉远。场景要合理化，不要有角色，光源在右前方。\n风格参考：UE5 实时渲染，写实电影质感基底，材质超写实（植被肌理、泥土颗粒），肢体、表情、动作保留夸张弹性张力，兼顾高级氛围感与喜剧表现力。\n光影系统：明暗层次细腻，植被透光、泥土哑光，无死黑、无过曝，整体色调清新治愈、高级通透，电影胶片颗粒质感。",
+   "prompt": "主体内容：可爱的青蛙角色，圆润的身体，细小的四肢，丑萌丑萌的表情。搞怪。人性化的表情，卡通化处理。\n场景设定：沙漠巨大仙人掌旁\n风格参考：宠物小精灵剧场版角色形象参考，UE5 实时渲染，写实电影质感基底，叠加三渲二夸张卡通形变表演。材质超写实（植被肌理、泥土颗粒），肢体、表情、动作保留夸张弹性张力，兼顾高级氛围感与喜剧表现力。\n光影系统：明暗层次细腻，植被透光、泥土哑光，无死黑、无过曝，整体色调清新治愈、高级通透，电影胶片颗粒质感。",
+   "img": "assets/full/A032.webp",
+   "thumb": "assets/thumb/A032.webp",
+   "w": 1400,
+   "h": 781,
+   "shots": [
+    {
+     "img": "assets/full/A032.webp",
+     "thumb": "assets/thumb/A032.webp",
+     "w": 1400,
+     "h": 781
+    }
+   ],
+   "srcHash": "7cb6af57b13055db",
+   "needsPrompt": false
+  },
+  {
+   "id": "A033",
+   "seq": "033",
+   "title": "Agent Reyes角色设定",
+   "category": "角色设定——Agent",
+   "kind": "角色设定",
+   "tone": "",
+   "palette": "#0E1314 / #323B36 / #4E554E",
+   "model": "通用",
+   "tags": [
+    "角色设定",
+    "Agent",
+    "人设",
+    "参考"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.22",
+   "note": "",
+   "prompt": "IDENTITY LOCK — AGENT REYES:\nAdult female System Agent, pale ivory skin matching the Agent Voss tone family, deep auburn hair pulled back into a sleek low twist, no flyaways. Sharp angular brow, calm and impassive expression, natural eye color visible (no sunglasses — she reads threat data through an unseen internal feed instead, indicated only by a faint micro-flicker in her iris, never an overt glow). High stand-collar dark uniform in the same grey/black System palette, fitted cut, no jewelry beyond a thin metal collar clasp. Same vertical procedural posture and stillness as Voss and Korr. Photorealistic, cinematic 35mm film quality, consistent cool color grading.",
+   "img": "assets/full/A033.webp",
+   "thumb": "assets/thumb/A033.webp",
+   "w": 1312,
+   "h": 736,
+   "shots": [
+    {
+     "img": "assets/full/A033.webp",
+     "thumb": "assets/thumb/A033.webp",
+     "w": 1312,
+     "h": 736
+    },
+    {
+     "img": "assets/full/A033-2.webp",
+     "thumb": "assets/thumb/A033-2.webp",
+     "w": 1376,
+     "h": 768
+    }
+   ],
+   "srcHash": "dc12b579841a337a",
    "needsPrompt": false
   }
  ]

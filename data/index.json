@@ -12,6 +12,70 @@
   {
    "name": "海报排版——模板",
    "tone": "COLLECTION"
+  },
+  {
+   "name": "摄影——日系胶片",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "摄影——生活纪实",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "摄影——电影感",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "时尚——服装展示",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "摄影——民国国风",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "插画——古风仙侠",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "摄影——手机摄影",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "插画——艺术壁画",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "二次元——游戏角色",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "海报——构成主义",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "二次元——校园",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "人像——身份参考",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "摄影——写实人像",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "摄影——特殊视角",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "卡通——3D角色",
+   "tone": "COLLECTION"
+  },
+  {
+   "name": "角色设定——Agent",
+   "tone": "COLLECTION"
   }
  ]
 }
