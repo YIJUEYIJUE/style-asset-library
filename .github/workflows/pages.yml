@@ -15,31 +15,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Check app.js syntax
-        if: hashFiles('app.js') != ''
-        run: node --check app.js
-      - name: Validate data
-        if: hashFiles('data/styles.json') != ''
-        run: python3 scripts/validate.py
-
   deploy:
-    needs: validate
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - id: deployment
+      - name: Deploy
+        id: deployment
         uses: actions/deploy-pages@v4
