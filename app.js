@@ -1,5 +1,5 @@
 /* 风格资产库 — 静态站点前端
-   数据: data/styles.json   图片: assets/thumb (列表/画布) + assets/full (详情) */
+   数据: data/styles.json + data/i18n.txt   图片: assets/thumb (列表/画布) + assets/full (详情) */
 (() => {
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => document.querySelector(s) || document.createElement("div");
@@ -9,6 +9,66 @@
   let assets = [], categories = [], heroIds = [], catTree = [];
   let current = "ALL", model = "ALL", q = "", selected = null, visible = [];
   let onlyPicks = false, moved = false;
+  let promptLang = "o";   // 看片台当前页签：o=原文 / z=译文，跨风格保持
+
+  /* ---------- 中英对照 / 补充说明覆盖层（data/i18n.txt） ---------- */
+  // 按「提示词内容」挂载，不按 id：改标题、换 id、重新 ingest 都不会把译文弄丢。
+  // 算法必须与 scripts/merge_i18n.py 里的 i18n_key() 完全一致。
+  function i18nKey(s) {
+    const t = String(s || "").replace(/[^0-9A-Za-z\u4e00-\u9fff]/g, "").toLowerCase().slice(0, 120);
+    let h = 0x811c9dc5;
+    for (let i = 0; i < t.length; i++) { h ^= t.charCodeAt(i) & 0xff; h = Math.imul(h, 0x01000193) >>> 0; }
+    return h.toString(36);
+  }
+
+  function parseI18n(text) {
+    const map = new Map();
+    let key = null, field = null, buf = [];
+    const flush = () => {
+      if (key && field) {
+        const v = buf.join("\n").replace(/^\n+/, "").replace(/\s+$/, "");
+        if (v) { const e = map.get(key) || {}; e[field] = v; map.set(key, e); }
+      }
+      buf = [];
+    };
+    String(text || "").split(/\r?\n/).forEach((line) => {
+      const m = /^##\s+(\S+)\s+(zh|en|note)\s*$/.exec(line);
+      if (m) { flush(); key = m[1]; field = m[2]; return; }
+      if (key) buf.push(line);
+    });
+    flush();
+    return map;
+  }
+
+  async function loadI18n() {
+    try {
+      const inline = document.getElementById("i18n");   // 离线单文件构建时内联
+      let txt = "";
+      if (inline) txt = inline.textContent;
+      else {
+        const r = await fetch("data/i18n.txt", { cache: "no-cache" });
+        if (!r.ok) return;
+        txt = await r.text();
+      }
+      const map = parseI18n(txt);
+      if (!map.size) return;
+      assets.forEach((a) => {
+        const e = map.get(i18nKey(a.prompt));
+        if (!e) return;
+        if (e.zh && !a.zh) a.zh = e.zh;
+        if (e.en && !a.en) a.en = e.en;
+        if (e.note && !a.note) a.note = e.note;   // styles.json 里已有就不覆盖
+      });
+    } catch (err) { /* 覆盖层缺失不影响主流程 */ }
+  }
+
+  const hasCJK = (s) => /[\u4e00-\u9fff]/.test(String(s || ""));
+  // 另一个语言版本：英文提示词配中文译文，中文提示词配英文译文
+  function altOf(a) {
+    if (a && a.zh && String(a.zh).trim()) return { text: String(a.zh), label: "中文译文" };
+    if (a && a.en && String(a.en).trim()) return { text: String(a.en), label: "English" };
+    return { text: "", label: "中文译文" };
+  }
 
   /* ---------- 挑选夹（本地保存） ---------- */
   let picks = new Set();
@@ -87,7 +147,8 @@
       if (!ignoreCat && !matchCat(a)) return false;
       if (model !== "ALL" && a.model !== model) return false;
       if (!qq) return true;
-      return [a.title, a.category, a.kind, a.tone, a.model, a.palette, a.prompt, (a.tags || []).join(" ")]
+      // 搜索同时覆盖原文、译文和补充说明：搜中文也能命中英文提示词
+      return [a.title, a.category, a.kind, a.tone, a.model, a.palette, a.prompt, a.zh, a.en, a.note, (a.tags || []).join(" ")]
         .join(" ").toLowerCase().includes(qq);
     });
   }
@@ -99,7 +160,7 @@
     <span class="pickDot${picks.has(a.id) ? " on" : ""}" data-pick="${a.id}" title="加入挑选">✓</span>
     <div class="assetMeta"><span>${a.seq} / ${esc((a.category || "").replace("——模板", "").replace("（收集）", ""))}</span><span>${a.hot ?? ""}°</span></div>
     <h3>${esc(a.title)}</h3>
-    <div class="tags">${(a.tags || []).slice(0, 2).map((t, i) => `<span class="tag${i ? " mint" : ""}">${esc(t)}</span>`).join("")}</div>
+    <div class="tags">${(a.tags || []).slice(0, 2).map((t, i) => `<span class="tag${i ? " mint" : ""}">${esc(t)}</span>`).join("")}${altOf(a).text ? `<span class="tag lang">中英</span>` : ""}</div>
   </button>`;
 
   function renderGrid() {
@@ -237,6 +298,7 @@
     toast(add ? "已加入挑选" : "已移出挑选");
   }
   async function copyText(text, ok) {
+    if (!text) { toast("没有可复制的内容"); return; }
     try { await navigator.clipboard.writeText(text); toast(ok); }
     catch (e) {
       const ta = document.createElement("textarea");
@@ -247,8 +309,14 @@
   }
   function exportPicks() {
     if (!picks.size) { toast("挑选夹还是空的"); return; }
-    const md = assets.filter((a) => picks.has(a.id)).map((a) =>
-      `## ${a.title}（${a.seq}）\n分类：${a.category} · 模型：${a.model || "通用"}\n\n${a.prompt || ""}`).join("\n\n---\n\n");
+    // 导出也要分开：提示词、译文、补充说明各自成段，不拌在一起
+    const md = assets.filter((a) => picks.has(a.id)).map((a) => {
+      const alt = altOf(a);
+      let s = `## ${a.title}（${a.seq}）\n分类：${a.category} · 模型：${a.model || "通用"}\n\n${a.prompt || ""}`;
+      if (alt.text) s += `\n\n### ${alt.label}\n${alt.text}`;
+      if (a.note) s += `\n\n### 补充说明（不属于提示词）\n${a.note}`;
+      return s;
+    }).join("\n\n---\n\n");
     copyText(md, `已复制 ${picks.size} 条挑选的提示词`);
   }
 
@@ -300,6 +368,53 @@
     if (on) strip.scrollLeft = on.offsetLeft - strip.clientWidth / 2 + on.clientWidth / 2;
   }
 
+  /* 提示词区：原文/译文页签 + 独立的补充说明栏（动态插入，不动 index.html） */
+  function ensurePromptUI() {
+    const info = document.querySelector(".modalInfo");
+    if (!info) return;
+    const pt = info.querySelector(".promptTitle");
+    const pb = document.getElementById("mPrompt");
+    if (!pt || !pb) return;
+    if (!document.getElementById("mLangTabs")) {
+      const tabs = document.createElement("div");
+      tabs.id = "mLangTabs";
+      tabs.className = "ptabs";
+      tabs.innerHTML = `<button class="pt on" type="button" data-t="o">原文</button><button class="pt" type="button" data-t="z">中文译文</button>`;
+      pt.insertAdjacentElement("afterend", tabs);
+      tabs.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const b = e.target.closest("[data-t]");
+        if (b) setLang(b.dataset.t);
+      });
+    }
+    if (!document.getElementById("mNoteWrap")) {
+      const w = document.createElement("div");
+      w.id = "mNoteWrap";
+      w.className = "noteWrap";
+      w.innerHTML = `<div class="noteTitle"><b>补充说明</b><span class="noteHint">不属于提示词正文</span><button class="noteCopy" type="button" id="mNoteCopy">复制</button></div><div class="noteBox" id="mNote"></div>`;
+      pb.insertAdjacentElement("afterend", w);
+      const nc = document.getElementById("mNoteCopy");
+      if (nc) nc.addEventListener("click", (e) => {
+        e.stopPropagation();
+        copyText(selected && selected.note ? String(selected.note) : "", "补充说明已复制");
+      });
+    }
+  }
+
+  function setLang(t) {
+    const a = selected;
+    const alt = altOf(a);
+    if (t === "z" && !alt.text) t = "o";
+    promptLang = t;
+    const tabs = document.getElementById("mLangTabs");
+    if (tabs) tabs.querySelectorAll("[data-t]").forEach((b) => b.classList.toggle("on", b.dataset.t === t));
+    const pb = document.getElementById("mPrompt");
+    if (!pb) return;
+    const txt = t === "z" ? alt.text : ((a && a.prompt) || "");
+    pb.textContent = txt || "暂未补充提示词";
+    pb.classList.toggle("empty", !txt);
+  }
+
   function detail(id, push = true) {
     const a = byId(id);
     if (!a) return;
@@ -308,6 +423,7 @@
     showShot(0);
     const p = pool();
     const idx = p.findIndex((x) => x.id === a.id);
+    const alt = altOf(a);
     $("#mIndex").textContent = `${idx < 0 ? 1 : idx + 1} / ${p.length}`;
     $("#mKicker").textContent = `${a.seq} / ${esc(a.category || "")}`;
     $("#mTitle").textContent = a.title;
@@ -315,8 +431,24 @@
     $("#mModel").textContent = a.model || "通用";
     $("#mPal").textContent = a.palette || "—";
     $("#mUpdated").textContent = a.updated || "—";
-    $("#mTags").innerHTML = (a.tags || []).map((t, i) => `<span class="tag${i === 1 ? " mint" : ""}">${esc(t)}</span>`).join("");
-    $("#mPrompt").textContent = [a.prompt, a.note].filter(Boolean).join("\n\n———\n\n") || "暂未补充提示词";
+    $("#mTags").innerHTML = (a.tags || []).map((t, i) => `<span class="tag${i === 1 ? " mint" : ""}">${esc(t)}</span>`).join("")
+      + (alt.text ? `<span class="tag lang">中英对照</span>` : "");
+
+    // 提示词只放提示词；补充说明另起一栏，不再用一条横线拼在后面
+    ensurePromptUI();
+    const tabs = document.getElementById("mLangTabs");
+    if (tabs) {
+      tabs.classList.toggle("show", !!alt.text);
+      const ob = tabs.querySelector('[data-t="o"]'), zb = tabs.querySelector('[data-t="z"]');
+      if (ob) ob.textContent = "原文 · " + (hasCJK(a.prompt) ? "中文" : "EN");
+      if (zb) zb.textContent = alt.label;
+    }
+    setLang(alt.text ? promptLang : "o");
+    const nw = document.getElementById("mNoteWrap"), nb = document.getElementById("mNote");
+    const note = a.note ? String(a.note).trim() : "";
+    if (nw) nw.classList.toggle("show", !!note);
+    if (nb) nb.textContent = note;
+
     const info = document.querySelector(".modalInfo");
     if (info) info.scrollTop = 0;               // 换风格时回到顶部，提示词始终在第一屏
     renderStrip(p, idx < 0 ? 0 : idx);
@@ -529,7 +661,7 @@
     } else targets.forEach((el) => el.classList.add("in"));
   }
 
-  /* ---------- 布局修补（分类 UI 复位 + 看片台提示词可见） ---------- */
+  /* ---------- 布局修补（分类 UI 复位 + 看片台提示词可见 + 中英切换） ---------- */
   const FIX_CSS = `
 /* 看片台：信息栏自己滚动，提示词跟在标题下面并撑满剩余空间 */
 .modalInfo{display:flex;flex-direction:column;min-height:0;overflow:auto;overscroll-behavior:contain}
@@ -547,6 +679,23 @@
   .spec{padding:7px 9px}
   .spec b{font-size:12px}
 }
+/* 提示词：原文 / 译文页签 */
+.ptabs{display:none;gap:6px;margin:0 0 8px;flex-wrap:wrap}
+.ptabs.show{display:flex}
+.pt{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11.5px;letter-spacing:.02em;line-height:1.5;padding:4px 11px;border-radius:999px;cursor:pointer}
+.pt:hover{background:rgba(17,16,13,.05)}
+.pt.on{background:#11100d;border-color:#11100d;color:#fbf9f4}
+.promptBox.empty{color:#9a9182;font-style:italic}
+/* 补充说明：与提示词彻底分家，不进复制 */
+.noteWrap{display:none;margin:14px 0 0}
+.noteWrap.show{display:block}
+.noteTitle{display:flex;align-items:center;gap:8px;margin:0 0 6px}
+.noteTitle b{font-size:11.5px;letter-spacing:.08em;color:#51493b;font-weight:600}
+.noteHint{font-size:10.5px;color:#9a9182;flex:1 1 auto}
+.noteCopy{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer;flex:0 0 auto}
+.noteCopy:hover{background:rgba(17,16,13,.05)}
+.noteBox{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#51493b;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;max-height:210px;overflow:auto}
+.tag.lang{background:rgba(23,63,232,.1);color:#173fe8}
 /* 分类（只在网格库）：侧栏两级 + 900~1100px 之间也要有胶囊 */
 @media (max-width:1100px){ .catChips{display:flex} }
 .canvasChips{display:none !important}
@@ -590,6 +739,7 @@
         info.insertBefore(pb, specs);
       }
     }
+    ensurePromptUI();   // 页签与补充说明栏要在搜完位置之后插
   }
 
   function bindCanvas() {
@@ -750,13 +900,20 @@
       if (b) showShot(Number(b.dataset.shot));
     };
     $$("#modal").onclick = (e) => { if (e.target.id === "modal") closeDetail(); };
-    $$("#copy").onclick = () => copyText(selected?.prompt || "", "Prompt 已复制");
+    // 复制跟随当前页签，并且永远不带补充说明
+    $$("#copy").onclick = () => {
+      if (!selected) return;
+      const alt = altOf(selected);
+      const zh = promptLang === "z" && alt.text;
+      copyText(zh ? alt.text : (selected.prompt || ""), zh ? `${alt.label}已复制` : "Prompt 已复制");
+    };
 
     document.addEventListener("click", (e) => {
       if (e.target.closest && e.target.closest("#canvas")) return;   // 展厅的点击在 pointerup 里处理
       const p = e.target.closest("[data-pick]");
       if (p) { e.preventDefault(); e.stopPropagation(); togglePick(p.dataset.pick); return; }
       if (e.target.closest("[data-cat]")) return;
+      if (e.target.closest("[data-t]")) return;   // 中英切换不算选中卡片
       const c = e.target.closest("[data-id]");
       if (c && !moved) detail(c.dataset.id);
     });
@@ -777,6 +934,8 @@
         const d = e.key === "ArrowDown" ? 1 : -1;
         if (shots.length > 1) showShot(shotIdx + d); else step(d);
       }
+      // L 切换原文 / 译文
+      if (open && (e.key === "l" || e.key === "L")) { e.preventDefault(); setLang(promptLang === "o" ? "z" : "o"); }
       if (open && (e.key === "f" || e.key === "F")) { if (selected) togglePick(selected.id); }
       if (!open && canvasOpen && (e.key === "0" || e.key === "r" || e.key === "R")) recenter();
       if (e.key === "Enter" && !$("#library").classList.contains("show")) showLib();
@@ -791,6 +950,7 @@
         : await (await fetch("data/styles.json", { cache: "no-cache" })).json();
       assets = d.assets; categories = d.cats || []; heroIds = d.hero || [];
       if (!Array.isArray(assets)) throw new Error("bad");
+      await loadI18n();   // 译文 / 补充说明覆盖层，拿不到也不影响主流程
       const liveIds = new Set(assets.map((a) => a.id));
       let pruned = false;
       [...picks].forEach((id) => { if (!liveIds.has(id)) { picks.delete(id); pruned = true; } });
