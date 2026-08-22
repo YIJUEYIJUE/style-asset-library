@@ -24,7 +24,7 @@
   }
   function showCover() { closeCanvas(); $("#library").classList.remove("show"); $("#cover").classList.remove("hide"); resetCoverTop(); }
 
-  /* ---------- 分类：category 用「——」分两级，前半段=大类(kind)，后半段=子分类 ---------- */
+  /* ---------- 分类（只给网格库用）：category 用「——」分两级 ---------- */
   const KIND = "KIND:";
   function splitCat(name) {
     const s = String(name || "").trim() || "未分类";
@@ -78,11 +78,13 @@
   const catCount = () => catTree.reduce((n, g) => n + g.subs.length, 0);
 
   /* ---------- filtering ---------- */
-  function list() {
+  // opts.ignoreCat：展厅专用——展厅永远是「全部」，不跟网格库的分类筛选走
+  function list(opts) {
+    const ignoreCat = !!(opts && opts.ignoreCat);
     const qq = q.trim().toLowerCase();
     return assets.filter((a) => {
       if (onlyPicks && !picks.has(a.id)) return false;
-      if (!matchCat(a)) return false;
+      if (!ignoreCat && !matchCat(a)) return false;
       if (model !== "ALL" && a.model !== model) return false;
       if (!qq) return true;
       return [a.title, a.category, a.kind, a.tone, a.model, a.palette, a.prompt, (a.tags || []).join(" ")]
@@ -121,7 +123,7 @@
       models.map((m) => `<button class="chip${model === m ? " on" : ""}" data-model="${esc(m)}">${esc(m)}</button>`).join("");
   }
 
-  /* 横向胶囊（窄屏 + 无限画布）：全部资产 › 大类 › 当前大类下的子分类 */
+  /* 横向胶囊（只用在窄屏网格库，展厅不放）：全部资产 › 大类 › 当前大类下的子分类 */
   function chipsHtml() {
     const ak = activeKind();
     let h = `<button class="chip${current === "ALL" ? " on" : ""}" data-cat="ALL">全部资产 <i>${assets.length}</i></button>`;
@@ -139,10 +141,9 @@
   }
 
   function renderCatChips() {
-    const html = chipsHtml();
-    const a = $("#catChips"), b = $("#canvasChips");
-    if (a) a.innerHTML = html;
-    if (b) b.innerHTML = html;
+    const a = $("#catChips");
+    if (a) a.innerHTML = chipsHtml();
+    // #canvasChips 故意不填：展厅只有「全部」
   }
 
   function setCat(cat) {
@@ -252,7 +253,10 @@
   }
 
   /* ---------- 详情：看片 + 挑选 ---------- */
-  function pool() { return visible.length ? visible : assets; }
+  function pool() {
+    if (canvasOpen && canvasList.length) return canvasList;   // 展厅里前/后一张按展厅自己的列表翻
+    return visible.length ? visible : assets;
+  }
 
   let shots = [], shotIdx = 0;
 
@@ -316,6 +320,7 @@
     const info = document.querySelector(".modalInfo");
     if (info) info.scrollTop = 0;               // 换风格时回到顶部，提示词始终在第一屏
     renderStrip(p, idx < 0 ? 0 : idx);
+    liftModalAboveCanvas();
     $("#modal").classList.add("show");
     syncPicks();
     if (push) history.replaceState(null, "", `#${a.id}`);
@@ -367,10 +372,25 @@
   let SPHERE_R = 1700, CELL = 326;
   let camLon = 0, camLat = 0, camZoom = 1;
   let tiltX = 0, tiltY = 0, tiltTX = 0, tiltTY = 0, tiltRunning = false;
-  let canvasOpen = false, canvasPool = [];
+  let canvasOpen = false, canvasPool = [], canvasList = [];
   const cells = new Map();
 
   const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+
+  // 看片台必须盖在画布之上，否则在展厅里点开提示词等于没开
+  function liftModalAboveCanvas() {
+    const zOf = (el) => {
+      if (!el) return 0;
+      const v = parseInt(getComputedStyle(el).zIndex, 10);
+      return Number.isFinite(v) ? v : 0;
+    };
+    const base = zOf($("#canvas"));
+    if (!base) return;
+    [["#modal", 2], ["#lightbox", 3], ["#toast", 4]].forEach(([sel, k]) => {
+      const el = $(sel);
+      if (el && zOf(el) <= base) el.style.zIndex = String(base + k);
+    });
+  }
 
   function sizeSphere() {
     SPHERE_R = Math.round((window.innerWidth < 760 ? 1120 : 1700) * R_SCALE);
@@ -445,8 +465,9 @@
   }
 
   function rebuildCanvas() {
+    canvasList = list({ ignoreCat: true });   // 展厅永远铺全部，不跟网格库的分类走
     canvasPool = [];
-    (visible || []).forEach((a) => {
+    canvasList.forEach((a) => {
       const ss = (a.shots && a.shots.length) ? a.shots : [{ thumb: a.thumb }];
       ss.forEach((s) => canvasPool.push({ id: a.id, seq: a.seq, title: a.title, category: a.category, model: a.model, thumb: s.thumb }));
     });
@@ -466,13 +487,13 @@
     strideR = n > 1 ? ((rowJump % n) || 1) : 1;
     const sub = $("#canvasSub");
     if (sub) sub.textContent = canvasPool.length
-      ? `${canvasPool.length} 张展图 · ${catLabel(current)} · 拖拽旋转 · 滚轮缩放 · 点击看提示词`
-      : (onlyPicks ? "挑选夹还是空的" : "没有符合条件的展品");
+      ? `全部资产 · ${canvasList.length} 条风格 / ${canvasPool.length} 张展图 · 拖拽旋转 · 滚轮缩放 · 点击看提示词`
+      : (onlyPicks ? "挑选夹还是空的" : "没有符合搜索条件的展品");
     const empty = $("#canvasEmpty");
     if (empty) {
       empty.textContent = onlyPicks
         ? "挑选夹还是空的 —— 在展板右上角点 ✓ 先收几件"
-        : "没有符合当前筛选的展品 —— 换个分类或关键词";
+        : "没有符合当前搜索的展品 —— 清空搜索框试试";
       empty.classList.toggle("show", !canvasPool.length);
     }
     renderSphere();
@@ -485,6 +506,7 @@
     showLib();
     canvasEl().classList.add("show");
     canvasOpen = true;
+    liftModalAboveCanvas();
     sizeSphere();
     rebuildCanvas();
     requestAnimationFrame(renderSphere);
@@ -525,8 +547,9 @@
   .spec{padding:7px 9px}
   .spec b{font-size:12px}
 }
-/* 分类：侧栏两级 + 900~1100px 之间也要有胶囊（原来这一段谁都不显示） */
+/* 分类（只在网格库）：侧栏两级 + 900~1100px 之间也要有胶囊 */
 @media (max-width:1100px){ .catChips{display:flex} }
+.canvasChips{display:none !important}
 .catGroup{margin:0 0 2px}
 .catSubs{display:none}
 .catGroup.open .catSubs{display:block;margin:2px 0 10px 14px;padding-left:10px;border-left:1px solid rgba(17,16,13,.16)}
@@ -548,11 +571,14 @@
       st.textContent = FIX_CSS;
       document.head.appendChild(st);
     }
-    // 分类筛选 UI 之前被内联 display:none 关掉了，这里交还给 CSS 断点
-    [".side", "#catChips", "#canvasChips"].forEach((sel) => {
+    // 网格库恢复分类；展厅（无限画布）保持「只有全部」，不放分类胶囊
+    [".side", "#catChips"].forEach((sel) => {
       const el = document.querySelector(sel);
       if (el && el.style.display === "none") el.style.display = "";
     });
+    const cc = $("#canvasChips");
+    if (cc) { cc.style.display = "none"; cc.innerHTML = ""; }
+    liftModalAboveCanvas();
     // 提示词块上移到标题/按钮下面，规格卡片挪到最后
     const info = document.querySelector(".modalInfo");
     if (info) {
@@ -571,8 +597,19 @@
     const pointers = new Map();
     let down = false, sx = 0, sy = 0, oLon = 0, oLat = 0, dragged = 0;
     let vx = 0, vy = 0, lastX = 0, lastY = 0, lastT = 0, pinch = 0;
+    let downEl = null, pinched = false;
     const SENS = STEP_DEG / 80;
     const LAT_MIN = () => -ROW_HALF * STEP_DEG, LAT_MAX = () => ROW_HALF * STEP_DEG;
+
+    // vp 调了 setPointerCapture，浏览器会把后续的 click 重定向到 vp 本身，
+    // 于是全局的 closest("[data-id]") 永远拿不到展板——展厅的点击在这里自己结算
+    function tapAt(el) {
+      if (!el || !el.closest) return;
+      const pk = el.closest("[data-pick]");
+      if (pk) { togglePick(pk.dataset.pick); return; }
+      const w = el.closest("[data-id]");
+      if (w) detail(w.dataset.id);
+    }
 
     const start = (x, y) => {
       down = true; sx = x; sy = y; oLon = camLon; oLat = camLat;
@@ -610,9 +647,12 @@
 
     vp.addEventListener("pointerdown", (e) => {
       pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-      if (pointers.size === 1) { start(e.clientX, e.clientY); vp.setPointerCapture(e.pointerId); }
-      else if (pointers.size === 2) {
-        down = false; moved = true;
+      if (pointers.size === 1) {
+        downEl = e.target;
+        start(e.clientX, e.clientY);
+        vp.setPointerCapture(e.pointerId);
+      } else if (pointers.size === 2) {
+        down = false; moved = true; pinched = true;
         const [p1, p2] = [...pointers.values()];
         pinch = Math.hypot(p1.x - p2.x, p1.y - p2.y) || 1;
       }
@@ -632,19 +672,23 @@
       tiltTX = -(e.clientY / window.innerHeight - 0.5) * 2 * 3.5;
       if (!tiltRunning) { tiltRunning = true; requestAnimationFrame(tick); }
     });
-    const release = (e) => {
+    const finish = (e, allowTap) => {
       pointers.delete(e.pointerId);
       if (pointers.size < 2) pinch = 0;
+      const wasDrag = dragged > 8 || pinched;
+      const el = downEl;
       end();
       if (!pointers.size) {
-        down = false; dragged = 0;
+        down = false; dragged = 0; downEl = null;
         vp.classList.remove("dragging");
+        if (allowTap && !wasDrag) tapAt(el);
+        pinched = false;
         setTimeout(() => { moved = false; }, 60);
       }
     };
-    vp.addEventListener("pointerup", release);
-    vp.addEventListener("pointercancel", release);
-    vp.addEventListener("pointerleave", (e) => { if (down) release(e); });
+    vp.addEventListener("pointerup", (e) => finish(e, true));
+    vp.addEventListener("pointercancel", (e) => finish(e, false));
+    vp.addEventListener("pointerleave", (e) => { if (down) finish(e, false); });
 
     function tick() {
       tiltY += (tiltTY - tiltY) * 0.08;
@@ -695,7 +739,6 @@
       model = b.dataset.model; renderFilters(); renderGrid();
     };
     $$("#catChips").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); };
-    $$("#canvasChips").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); };
     $$("#mPrev").onclick = (e) => { e.stopPropagation(); step(-1); };
     $$("#mNext").onclick = (e) => { e.stopPropagation(); step(1); };
     $$("#close").onclick = closeDetail;
@@ -710,6 +753,7 @@
     $$("#copy").onclick = () => copyText(selected?.prompt || "", "Prompt 已复制");
 
     document.addEventListener("click", (e) => {
+      if (e.target.closest && e.target.closest("#canvas")) return;   // 展厅的点击在 pointerup 里处理
       const p = e.target.closest("[data-pick]");
       if (p) { e.preventDefault(); e.stopPropagation(); togglePick(p.dataset.pick); return; }
       if (e.target.closest("[data-cat]")) return;
