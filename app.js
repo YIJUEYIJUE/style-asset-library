@@ -6,7 +6,7 @@
   const esc = (s) =>
     String(s || "").replace(/[&<>"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 
-  let assets = [], categories = [], heroIds = [];
+  let assets = [], categories = [], heroIds = [], catTree = [];
   let current = "ALL", model = "ALL", q = "", selected = null, visible = [];
   let onlyPicks = false, moved = false;
 
@@ -24,12 +24,65 @@
   }
   function showCover() { closeCanvas(); $("#library").classList.remove("show"); $("#cover").classList.remove("hide"); resetCoverTop(); }
 
+  /* ---------- 分类：category 用「——」分两级，前半段=大类(kind)，后半段=子分类 ---------- */
+  const KIND = "KIND:";
+  function splitCat(name) {
+    const s = String(name || "").trim() || "未分类";
+    const i = s.indexOf("——");
+    if (i > 0 && i + 2 < s.length) return { kind: s.slice(0, i), sub: s.slice(i + 2) };
+    return { kind: s, sub: s };
+  }
+  const kindOf = (a) => (a && a.kind) ? a.kind : splitCat(a && a.category).kind;
+  const isFlat = (g) => g.subs.length === 1 && g.subs[0].label === g.kind;
+
+  function catLabel(cat) {
+    if (!cat || cat === "ALL") return "全部资产";
+    if (cat.startsWith(KIND)) return cat.slice(KIND.length);
+    return cat;
+  }
+  function matchCat(a) {
+    if (current === "ALL") return true;
+    if (current.startsWith(KIND)) return kindOf(a) === current.slice(KIND.length);
+    return a.category === current;
+  }
+  function activeKind() {
+    if (current === "ALL") return "";
+    return current.startsWith(KIND) ? current.slice(KIND.length) : splitCat(current).kind;
+  }
+
+  // 以 assets 为准统计，data/styles.json 里的 cats 只用来取 tone / 排序参考
+  function buildCatTree() {
+    const count = new Map(), tone = new Map(), order = [];
+    assets.forEach((a) => {
+      const c = (a.category || "").trim() || "未分类";
+      if (!count.has(c)) { count.set(c, 0); order.push(c); }
+      count.set(c, count.get(c) + 1);
+    });
+    (categories || []).forEach((c) => { if (c && c.name) tone.set(c.name, c.tone || ""); });
+    const known = (categories || []).map((c) => c && c.name).filter((n) => n && count.has(n));
+    const names = known.concat(order.filter((n) => !known.includes(n)));
+
+    const groups = new Map();
+    names.forEach((name) => {
+      const { kind, sub } = splitCat(name);
+      if (!groups.has(kind)) groups.set(kind, { kind, count: 0, subs: [] });
+      const g = groups.get(kind);
+      const n = count.get(name) || 0;
+      g.count += n;
+      g.subs.push({ name, label: sub, tone: tone.get(name) || "COLLECTION", count: n });
+    });
+    catTree = [...groups.values()].sort((a, b) => b.count - a.count || b.subs.length - a.subs.length);
+    catTree.forEach((g) => g.subs.sort((a, b) => b.count - a.count));
+    return catTree;
+  }
+  const catCount = () => catTree.reduce((n, g) => n + g.subs.length, 0);
+
   /* ---------- filtering ---------- */
   function list() {
     const qq = q.trim().toLowerCase();
     return assets.filter((a) => {
       if (onlyPicks && !picks.has(a.id)) return false;
-      if (current !== "ALL" && a.category !== current) return false;
+      if (!matchCat(a)) return false;
       if (model !== "ALL" && a.model !== model) return false;
       if (!qq) return true;
       return [a.title, a.category, a.kind, a.tone, a.model, a.palette, a.prompt, (a.tags || []).join(" ")]
@@ -49,8 +102,11 @@
 
   function renderGrid() {
     visible = list();
-    $("#listTitle").textContent = onlyPicks ? "我的挑选" : current === "ALL" ? "全部资产" : current;
-    $("#listSub").textContent = `${visible.length} 个结果 · 点击卡片看大图与提示词，右上角 ✓ 加入挑选`;
+    $("#listTitle").textContent = onlyPicks ? "我的挑选" : catLabel(current);
+    const scope = onlyPicks ? "" : current === "ALL"
+      ? `共 ${catCount()} 个分类 · `
+      : current.startsWith(KIND) ? `大类 · ` : `${splitCat(current).kind} · `;
+    $("#listSub").textContent = `${scope}${visible.length} 个结果 · 点击卡片看大图与提示词，右上角 ✓ 加入挑选`;
     $("#grid").innerHTML = visible.length
       ? visible.map(card).join("")
       : `<p class="emptyState">${onlyPicks ? "挑选夹还是空的，先去卡片右上角点 ✓。" : "没有匹配的资产，换个关键词或清空筛选试试。"}</p>`;
@@ -65,36 +121,69 @@
       models.map((m) => `<button class="chip${model === m ? " on" : ""}" data-model="${esc(m)}">${esc(m)}</button>`).join("");
   }
 
+  /* 横向胶囊（窄屏 + 无限画布）：全部资产 › 大类 › 当前大类下的子分类 */
+  function chipsHtml() {
+    const ak = activeKind();
+    let h = `<button class="chip${current === "ALL" ? " on" : ""}" data-cat="ALL">全部资产 <i>${assets.length}</i></button>`;
+    h += catTree.map((g) => {
+      const key = isFlat(g) ? g.subs[0].name : KIND + g.kind;
+      const on = current === key || (!isFlat(g) && ak === g.kind);
+      return `<button class="chip${on ? " on" : ""}" data-cat="${esc(key)}">${esc(g.kind)} <i>${g.count}</i></button>`;
+    }).join("");
+    const g = catTree.find((x) => x.kind === ak);
+    if (g && !isFlat(g)) {
+      h += `<span class="chipSep">›</span>` + g.subs.map((s) =>
+        `<button class="chip sub${current === s.name ? " on" : ""}" data-cat="${esc(s.name)}">${esc(s.label)} <i>${s.count}</i></button>`).join("");
+    }
+    return h;
+  }
+
   function renderCatChips() {
-    const chips = [{ name: "ALL", label: "全部资产" }].concat(categories.map((c) => ({ name: c.name, label: c.name })));
-    const html = chips
-      .map((c) => `<button class="chip${current === c.name ? " on" : ""}" data-cat="${esc(c.name)}">${esc(c.label)}</button>`)
-      .join("");
-    $("#catChips").innerHTML = html;
-    $("#canvasChips").innerHTML = html;
+    const html = chipsHtml();
+    const a = $("#catChips"), b = $("#canvasChips");
+    if (a) a.innerHTML = html;
+    if (b) b.innerHTML = html;
   }
 
   function setCat(cat) {
-    current = cat;
-    document.querySelectorAll(".cat").forEach((x) => x.classList.toggle("active", x.dataset.cat === cat));
+    current = cat || "ALL";
+    renderCats();
     renderCatChips();
     renderGrid();
   }
 
+  /* 侧栏：大类可展开出子分类 */
   function renderCats() {
-    $("#catList").innerHTML =
-      `<button class="cat active" data-cat="ALL"><b>全部资产</b><span>ALL ASSETS</span><i>${assets.length}</i></button>` +
-      categories.map((c) => `<button class="cat" data-cat="${esc(c.name)}"><b>${esc(c.name)}</b><span>${esc(c.tone)}</span><i>${c.count}</i></button>`).join("");
+    const box = $("#catList");
+    if (!box) return;
+    const on = (v) => (current === v ? " active" : "");
+    let html = `<button class="cat${current === "ALL" ? " active" : ""}" data-cat="ALL"><b>全部资产</b><span>ALL ASSETS</span><i>${assets.length}</i></button>`;
+    catTree.forEach((g) => {
+      if (isFlat(g)) {
+        const s = g.subs[0];
+        html += `<button class="cat${on(s.name)}" data-cat="${esc(s.name)}"><b>${esc(s.name)}</b><span>${esc(s.tone)}</span><i>${s.count}</i></button>`;
+        return;
+      }
+      const key = KIND + g.kind;
+      const open = current === key || g.subs.some((s) => s.name === current);
+      html += `<div class="catGroup${open ? " open" : ""}">
+        <button class="cat catKind${on(key)}" data-cat="${esc(key)}"><b>${esc(g.kind)}</b><span>${g.subs.length} 个子分类</span><i>${g.count}</i></button>
+        <div class="catSubs">${g.subs.map((s) =>
+          `<button class="catSub${on(s.name)}" data-cat="${esc(s.name)}"><b>${esc(s.label)}</b><i>${s.count}</i></button>`).join("")}</div>
+      </div>`;
+    });
+    box.innerHTML = html;
   }
 
   function byId(id) { return assets.find((x) => x.id === id); }
 
   function initOpening() {
     const heroAssets = heroIds.map(byId).filter(Boolean);
-    $("#openingCollage").innerHTML = heroAssets.slice(0, 5).map((a, i) =>
+    const hero = heroAssets.length ? heroAssets : assets;
+    $("#openingCollage").innerHTML = hero.slice(0, 5).map((a, i) =>
       `<button class="openingCard c${i + 1}" data-id="${esc(a.id)}"><img src="${esc(a.thumb)}" alt="${esc(a.title)}" loading="eager" decoding="async"><b>${esc(a.title)} · ${a.seq}</b></button>`).join("");
     $("#countAll").textContent = assets.length;
-    const cc = $("#countCats"); if (cc) cc.textContent = categories.length;
+    const cc = $("#countCats"); if (cc) cc.textContent = catCount();
     const cover = $("#cover"), stage = $("#openingStage");
     const update = () => {
       const max = Math.max(1, stage.offsetHeight - window.innerHeight);
@@ -106,11 +195,19 @@
   }
 
   function renderHeroContent() {
-    const wide = assets[21] || assets[0];
+    if (!assets.length) return;
+    // 按比例取样，避免写死下标（库里只有几十条时 assets[35] 之类会取空）
+    const at = (r) => assets[Math.min(assets.length - 1, Math.max(0, Math.round((assets.length - 1) * r)))];
+    const wide = at(0.34) || assets[0];
     const wideImg = $("#wideImg");
-    wideImg.src = wide.thumb; wideImg.alt = wide.title; wideImg.loading = "lazy"; wideImg.decoding = "async";
-    const small = [assets[35], assets[52], assets[75]].filter(Boolean);
-    $("#smallFeatures").innerHTML = small.map((a, i) =>
+    if (wideImg) { wideImg.src = wide.thumb; wideImg.alt = wide.title; wideImg.loading = "lazy"; wideImg.decoding = "async"; }
+    const seen = new Set([wide.id]), small = [];
+    [0.08, 0.55, 0.88, 0.3, 0.7, 0].forEach((r) => {
+      const a = at(r);
+      if (small.length < 3 && a && !seen.has(a.id)) { seen.add(a.id); small.push(a); }
+    });
+    const box = $("#smallFeatures");
+    if (box) box.innerHTML = small.map((a, i) =>
       `<div class="smallFeature reveal"><img src="${esc(a.thumb)}" alt="${esc(a.title)}" loading="lazy" decoding="async"><div><b>${["资产索引", "详情层", "无限画布"][i]}</b><span>${esc(a.title)} / ${a.seq}</span></div></div>`).join("");
   }
 
@@ -216,6 +313,8 @@
     $("#mUpdated").textContent = a.updated || "—";
     $("#mTags").innerHTML = (a.tags || []).map((t, i) => `<span class="tag${i === 1 ? " mint" : ""}">${esc(t)}</span>`).join("");
     $("#mPrompt").textContent = [a.prompt, a.note].filter(Boolean).join("\n\n———\n\n") || "暂未补充提示词";
+    const info = document.querySelector(".modalInfo");
+    if (info) info.scrollTop = 0;               // 换风格时回到顶部，提示词始终在第一屏
     renderStrip(p, idx < 0 ? 0 : idx);
     $("#modal").classList.add("show");
     syncPicks();
@@ -324,7 +423,6 @@
 
   function renderSphere() {
     if (!canvasPool.length) { cells.forEach((el) => el.remove()); cells.clear(); return; }
-    if (!canvasPool.length) return;
     const halfH = (Math.atan2(window.innerWidth / 2, 1500) * 180 / Math.PI) / camZoom + STEP_DEG;
     const halfV = (Math.atan2(window.innerHeight / 2, 1500) * 180 / Math.PI) / camZoom + STEP_DEG;
     const c0 = Math.floor((camLon - halfH) / STEP_DEG), c1 = Math.ceil((camLon + halfH) / STEP_DEG);
@@ -368,7 +466,7 @@
     strideR = n > 1 ? ((rowJump % n) || 1) : 1;
     const sub = $("#canvasSub");
     if (sub) sub.textContent = canvasPool.length
-      ? `${canvasPool.length} 张展图 · 拖拽旋转 · 滚轮缩放 · 点击看提示词`
+      ? `${canvasPool.length} 张展图 · ${catLabel(current)} · 拖拽旋转 · 滚轮缩放 · 点击看提示词`
       : (onlyPicks ? "挑选夹还是空的" : "没有符合条件的展品");
     const empty = $("#canvasEmpty");
     if (empty) {
@@ -407,6 +505,65 @@
       }), { root: $("#cover"), rootMargin: "0px 0px 28% 0px", threshold: 0.04 });
       targets.forEach((el) => io.observe(el));
     } else targets.forEach((el) => el.classList.add("in"));
+  }
+
+  /* ---------- 布局修补（分类 UI 复位 + 看片台提示词可见） ---------- */
+  const FIX_CSS = `
+/* 看片台：信息栏自己滚动，提示词跟在标题下面并撑满剩余空间 */
+.modalInfo{display:flex;flex-direction:column;min-height:0;overflow:auto;overscroll-behavior:contain}
+.modalInfo>*{flex:0 0 auto}
+.modalInfo>.promptBox{flex:1 1 auto;max-height:none;min-height:132px}
+.modalMedia{overflow:hidden}
+@media (max-width:760px){
+  .modalCard{grid-template-columns:1fr;grid-template-rows:minmax(110px,.82fr) minmax(0,1.18fr) auto;max-height:93svh}
+  .modalMedia{max-height:none;min-height:0;padding:12px}
+  .modalInfo{padding:16px 16px 18px}
+  .modalInfo h2{font-size:23px;margin:6px 44px 8px 0}
+  .promptTitle{margin:12px 0 7px}
+  .promptTitle .hint{display:none}
+  .specs{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:12px 0 0}
+  .spec{padding:7px 9px}
+  .spec b{font-size:12px}
+}
+/* 分类：侧栏两级 + 900~1100px 之间也要有胶囊（原来这一段谁都不显示） */
+@media (max-width:1100px){ .catChips{display:flex} }
+.catGroup{margin:0 0 2px}
+.catSubs{display:none}
+.catGroup.open .catSubs{display:block;margin:2px 0 10px 14px;padding-left:10px;border-left:1px solid rgba(17,16,13,.16)}
+.catSub{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 10px;margin:2px 0;border:0;background:transparent;border-radius:9px;cursor:pointer;text-align:left;font:inherit;color:#51493b}
+.catSub b{font-weight:600;font-size:12.5px}
+.catSub i{font-style:normal;font-size:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#8a7d63}
+.catSub:hover{background:rgba(17,16,13,.055)}
+.catSub.active{background:rgba(23,63,232,.1);color:#173fe8}
+.catSub.active i{color:#173fe8}
+.chip i{font-style:normal;opacity:.5;font-size:.86em;margin-left:3px}
+.chip.sub{border-style:dashed}
+.chipSep{display:inline-flex;align-items:center;padding:0 1px;color:#8a7d63;font-size:12px;flex:0 0 auto}
+`;
+
+  function applyLayoutFixes() {
+    if (!document.getElementById("salFix")) {
+      const st = document.createElement("style");
+      st.id = "salFix";
+      st.textContent = FIX_CSS;
+      document.head.appendChild(st);
+    }
+    // 分类筛选 UI 之前被内联 display:none 关掉了，这里交还给 CSS 断点
+    [".side", "#catChips", "#canvasChips"].forEach((sel) => {
+      const el = document.querySelector(sel);
+      if (el && el.style.display === "none") el.style.display = "";
+    });
+    // 提示词块上移到标题/按钮下面，规格卡片挪到最后
+    const info = document.querySelector(".modalInfo");
+    if (info) {
+      const specs = info.querySelector(".specs");
+      const pt = info.querySelector(".promptTitle");
+      const pb = document.getElementById("mPrompt");
+      if (specs && pt && pb && pt.compareDocumentPosition(specs) & Node.DOCUMENT_POSITION_PRECEDING) {
+        info.insertBefore(pt, specs);
+        info.insertBefore(pb, specs);
+      }
+    }
   }
 
   function bindCanvas() {
@@ -513,7 +670,7 @@
   }
 
   function bind() {
-    // 图片 404 时���容器打标记，显示「图片缺失」而不是一块灰底
+    // 图片 404 时给容器打标记，显示「图片缺失」而不是一块灰底
     document.addEventListener("error", (e) => {
       const img = e.target;
       if (!img || img.tagName !== "IMG") return;
@@ -532,13 +689,13 @@
     $$("#exportBtn").onclick = exportPicks;
     $$("#mPick").onclick = (e) => { e.stopPropagation(); if (selected) togglePick(selected.id); };
     $$("#search").oninput = (e) => { q = e.target.value; renderGrid(); };
-    $$("#catList").onclick = (e) => { const b = e.target.closest(".cat"); if (b) setCat(b.dataset.cat); };
+    $$("#catList").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); };
     $$("#filterBar").onclick = (e) => {
       const b = e.target.closest(".chip"); if (!b) return;
       model = b.dataset.model; renderFilters(); renderGrid();
     };
-    $$("#catChips").onclick = (e) => { const b = e.target.closest(".chip"); if (b) setCat(b.dataset.cat); };
-    $$("#canvasChips").onclick = (e) => { const b = e.target.closest(".chip"); if (b) setCat(b.dataset.cat); };
+    $$("#catChips").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); };
+    $$("#canvasChips").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); };
     $$("#mPrev").onclick = (e) => { e.stopPropagation(); step(-1); };
     $$("#mNext").onclick = (e) => { e.stopPropagation(); step(1); };
     $$("#close").onclick = closeDetail;
@@ -555,6 +712,7 @@
     document.addEventListener("click", (e) => {
       const p = e.target.closest("[data-pick]");
       if (p) { e.preventDefault(); e.stopPropagation(); togglePick(p.dataset.pick); return; }
+      if (e.target.closest("[data-cat]")) return;
       const c = e.target.closest("[data-id]");
       if (c && !moved) detail(c.dataset.id);
     });
@@ -600,10 +758,12 @@
         const c = $("#countAll"); if (c) c.textContent = "0";
         return;
       }
+      buildCatTree();
     } catch (err) {
       $("#boot").textContent = "数据载入失败：请通过 http(s) 打开本页（本地可运行 python3 -m http.server）";
       return;
     }
+    applyLayoutFixes();
     initOpening(); renderHeroContent(); renderCats(); renderFilters(); renderCatChips(); renderGrid(); initReveal(); bind();
     document.addEventListener("load", (e) => {
       if (e.target.tagName === "IMG") e.target.classList.add("ready");
