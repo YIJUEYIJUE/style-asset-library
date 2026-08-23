@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 93,
+ "count": 94,
  "cats": [
   {
    "name": "风格参考——综合",
@@ -60,7 +60,7 @@
   {
    "name": "摄影——写实人像",
    "tone": "COLLECTION",
-   "count": 3
+   "count": 4
   },
   {
    "name": "摄影——动物",
@@ -3313,6 +3313,32 @@
    "thumb": "assets/thumb/A093.webp",
    "w": 383,
    "h": 680
+  },
+  {
+   "id": "A094",
+   "seq": "094",
+   "title": "韩系清透美妆肖像",
+   "category": "摄影——写实人像",
+   "kind": "摄影",
+   "tone": "清透、韩系美妆、纯白背景",
+   "palette": "雪白 / 冷黑 / 淡粉",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "写实人像",
+    "美妆",
+    "韩系",
+    "高白背景"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Ultra close-up beauty portrait, head-and-shoulders framing, face filling most of the frame, pure white seamless studio background, high-key studio lighting, soft diffused frontal light, luminous airy atmosphere, clean commercial beauty photography, Korean beauty editorial style, delicate youthful East Asian girl, short black bob haircut, neat see-through bangs, large glossy violet-gray eyes, subtle eyeliner, soft lower lashes, tiny nose, glossy pale pink lips, porcelain fair skin, smooth refined skin texture, soft blush, bright catchlights in the eyes, slight wind-blown wispy strands across the face, slender neck and collarbones, white tank top straps only slightly visible, minimal composition, dreamy clean white negative space, ultra polished retouching, soft glow, beauty campaign aesthetic, ethereal, fresh, innocent, high detail, sharp eyes, soft skin, premium studio portrait. Preserve visible pores, fine facial hair, and natural skin tones—no skin smoothing or glossy",
+   "img": "assets/full/A094.webp",
+   "thumb": "assets/thumb/A094.webp",
+   "w": 1120,
+   "h": 1400
   }
  ]
 }
