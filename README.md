@@ -4,7 +4,7 @@
 
 在线地址：`https://yijueyijue.github.io/style-asset-library/`
 
-> 当前数据：33 条风格 / 41 张示例图 / 17 个分类（`scripts/validate.py` 实时校验通过）。
+> 当前数据：92 条风格 / 101 张示例图 / 18 个分类（`scripts/validate.py` 实时校验通过）。
 > 本文件是唯一权威 schema 与协作契约——其它 AI 或协作者按此文档增删字段、新增风格即可，无需额外说明。
 
 ## 目录结构

@@ -1,7 +1,12 @@
 {
  "version": 1,
- "count": 33,
+ "count": 92,
  "cats": [
+  {
+   "name": "MJ风格及事例",
+   "tone": "COLLECTION",
+   "count": 59
+  },
   {
    "name": "海报排版——模板",
    "tone": "COLLECTION",
@@ -1277,6 +1282,1900 @@
     }
    ],
    "srcHash": "dc12b579841a337a",
+   "needsPrompt": false
+  },
+  {
+   "id": "A034",
+   "seq": "034",
+   "title": "邵氏武侠美学 (Shaw Brothers Aesthetics)",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#605E56 / #363132 / #817266",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "邵氏武侠美学 (Shaw Brothers Aesthetics)         20世纪60至70年代香港电影的标志性范式，核心在于“硬桥硬马”（马步扎实、动作正统）的真实动作与高度符号化的片场美术。视觉上，它极度依赖色彩饱和的精心布置的室内影棚，利用人工烟雾和强烈的轮廓光营造肃杀氛围。角色造型常配以凌厉的“剑眉”与鲜红唇妆，以此强化英雄主义的刚毅感。这种美学不追求现实主义的自然，而追求一种极致、华丽且充满武道精神的“人工真实”，深刻影响了后世全球动作电影的动作设计与暴力美学。\n特艺彩色色调 (Technicolor Palette)                     源自20世纪电影工业的视觉美学，其核心在于著名的“三色带”工艺。用特制摄像机内的分光棱镜，将单镜头同步投射到三条记录不同原色信息的黑白胶片上进行感光，随后通过类似彩色印刷的“染料转印法”，将青、品红、黄三色层层叠印在单条拷贝上。",
+   "prompt": "A high-quality 1970s Shaw Brothers Wuxia film still, half-body close-up of a heroic female warrior facing the camera. She is in a dynamic martial arts stance, one fist clenched and the other hand in a palm-strike position, ready for combat. Expression is intense, determined with a hint of righteous anger. Iconic \"Sword Eyebrows\" makeup, bold red lips, porcelain skin. Wearing traditional silk Wuxia attire in vibrant crimson and embroidered gold. Shot on 35mm film, Technicolor palette, high contrast, sharp focus on eyes. Background is a stylized studio-set Chinese temple with incense smoke. Dramatic rim lighting, vintage Hong Kong cinema aesthetic, authentic grain, anamorphic lens flares --ar 2:3 --v 6.0 --stylize 250\n\n 高品质70年代邵氏武侠电影剧照，英姿飒爽的女武士半身特写，正对镜头。她摆出极具动感的武术架势，一手握拳，另一手呈掌击姿态，蓄势待发。神情凌厉坚毅，带着一丝凛然正气。经典剑眉妆容，浓艳红唇，肤如凝脂。身着绯红织锦传统武侠古装，衣身饰有金色刺绣。35毫米胶片拍摄，特艺彩色调色，高对比度，眼部对焦锐利。背景为布景式中式古寺，缭绕袅袅香烟。戏剧化轮廓光，复古港风电影质感，原生胶片颗粒，带有宽银幕镜头眩光。",
+   "img": "assets/full/A034.webp",
+   "thumb": "assets/thumb/A034.webp",
+   "w": 933,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A034.webp",
+     "thumb": "assets/thumb/A034.webp",
+     "w": 933,
+     "h": 1400
+    }
+   ],
+   "srcHash": "28756f5b36609a7e",
+   "needsPrompt": false
+  },
+  {
+   "id": "A035",
+   "seq": "035",
+   "title": "prompt",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#96AAB4 / #B9CACF / #C8D9DB",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "prompt\n\n[subject], techno-futuristic, motion blur, pink glow in the background, minimalistic, hyper-realistic, studio photography, --ar 16:9 --sref 798619805 --profile 4dw3gsh --stylize 1000\n\nthis should look something like this\n2. 提示词\n\n[主题]，科技未来主义，运动模糊，背景中粉色光芒，极简主义，超写实，摄影棚摄影，--AR 16：9 --sref 798619805 --profile 4dw3gsh --stylize 1000",
+   "img": "assets/full/A035.webp",
+   "thumb": "assets/thumb/A035.webp",
+   "w": 360,
+   "h": 202,
+   "shots": [
+    {
+     "img": "assets/full/A035.webp",
+     "thumb": "assets/thumb/A035.webp",
+     "w": 360,
+     "h": 202
+    }
+   ],
+   "srcHash": "5fa805c00dc1dda9",
+   "needsPrompt": false
+  },
+  {
+   "id": "A036",
+   "seq": "036",
+   "title": "sref 风格特征分析 此 SREF 代码所呈现的风格巧妙地融合了*",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#2A262E / #FFFFFF / #4C525C",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "sref 风格特征分析 此 SREF 代码所呈现的风格巧妙地融合了**现代动漫/漫画艺术**、**电影级光影**和**半厚涂插画**的精髓。它之所以属于这些流派，是因为它保留了动漫文化中标志性的人物面部特征和锐利的线条结构，同时摒弃了传统的平涂着色，转而采用好莱坞式的光影技巧——强烈的明暗对比、引人入胜的轮廓光以及极具张力的空间景深。如果寻找行业标杆，这种风格与当前顶级动漫手游（例如《明日方舟》、《原神》）的高级原画非常接近，或者与米山麻衣、Wlop 等知名日本插画家作品中强调“光影感知”和“情感张力”的视觉表达方式非常相似。这种风格最令人印象深刻的特点在于其**“极具爆发力的戏剧性效果”。**通过高对比度的色彩碰撞、飞舞的粒子特效（如光尘、火花、魔法碎片）以及随风飘动的衣摆，营造出一种视觉错觉，仿佛时间在最壮观的瞬间凝固。即使是静态图像，也能感受到强烈的动感和宏大的叙事氛围。## 什么是戏剧光影动漫风格？**戏剧光影动漫风格**是一种在传统动漫风格基础上发展而来的高级插画风格，它引入了先进的摄影光影概念和复杂的后期处理效果。这种风格的核心在于“以光塑形，以影叙事”。它不依赖于复杂的材质渲染，而是利用极其醒目的强光源（如逆光、轮廓光或发光的魔法元素）与深邃黑暗的环境形成鲜明的对比。这种风格的线条艺术通常保持着一种随意却精准的“呼吸感”（素描线条），结合轻盈的光晕渲染，营造出兼具动漫美学和商业大片质感的视觉盛宴。## 戏剧光影动漫风格的应用场景 凭借其强大的视觉冲击力和情感感染力，**戏剧光影动漫风格**尤其适用于以下创意场景： * **游戏美术及宣传：**完美契合动漫风格角色扮演游戏和卡牌游戏中的SSR角色原画、启动画面或大型活动海报的关键视觉图，瞬间吸引玩家的目光。 * **轻小说及漫画封面：**这种风格本身就具有强烈的“故事感”，能够完美传达奇幻、科幻或悬疑小说的世界观，极大地提升读者对作品的购买欲望。 * **电影和动画海报：** 适用于独立动画短片或动画长片的预告海报设计，使用大面积的留白或深色背景，并突出人物，以强调主角的史诗感。* **个人IP及街头服饰周边：** 极具辨识度的线条和光影效果非常适合制作亚克力立牌、痛车/服装图案设计或高端动漫画册。## 戏剧性光影动漫风格灵感提示 要在MidJourney中运用这种风格，您的提示需要结合动漫元素和光影效果说明。以下是一些灵感：* `杰作，最佳品质，超精细的动漫插画，动态角度，戏剧性的电影级光影，强烈的明暗对比，漂浮的发光粒子，富有表现力的线条，逆光，强烈的轮廓光，史诗般的氛围 --ar 3:4` * `顶级商业动漫艺术，动作角色，极端透视，闪耀的魔法特效，深邃的阴影，明亮的高光，镜头光晕，风吹拂，概念艺术插画 --ar 16:9` * `令人叹为观止的动漫主视觉图，高度精细，富有表现力的笔触，戏剧性的光影对比，大气深度，飞舞的碎片，电影级的构图 --ar 4:5` 想要获得更精准的负片提示组合，并探索不同动作和场景的高级参数比例吗？升级为网站会员即可解锁网站上的所有提示，让每一代人都能达到专业大师级水平。",
+   "prompt": "Sref: --sref 3283428648  --niji 7  --sv 6                                                    *   `masterpiece, best quality, ultra-detailed anime illustration, dynamic angle, dramatic cinematic lighting, strong chiaroscuro, floating glowing particles, sketchy expressive lineart, backlighting, intense rim light, epic mood --ar 3:4`\n*   `top-tier commercial anime art, character in action, extreme perspective, glowing magic effects, deep shadows, bright highlights, lens flare, wind blowing, concept art illustration --ar 16:9`\n*   `breathtaking anime key visual, highly detailed, expressive brushstrokes, dramatic light and shadow contrast, atmospheric depth, flying debris, cinematic composition --ar 4:5`",
+   "img": "assets/full/A036.webp",
+   "thumb": "assets/thumb/A036.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A036.webp",
+     "thumb": "assets/thumb/A036.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "9c996ff1e1edef9f",
+   "needsPrompt": false
+  },
+  {
+   "id": "A037",
+   "seq": "037",
+   "title": "最具电影感的超现实风格之一",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#141D1D / #4C5C5B / #242F2E",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "最具电影感的超现实风格之一。\n\nSREF 的 1595383305\n\n它将黑暗科幻、流动的运动、戏剧性的对比和超现实细节融合进一种视觉效果，仿佛在混乱来临前的梦境。\n\n为什么它特别突出：\n• 现代超现实主义 + 未来主义张力\n• 光泽光线和深邃阴影\n• 漂浮液体、拍打的波浪、悬浮运动\n• 极致构图，瞬间吸引目光\n• 黑暗、情感丰富、难忘的氛围\n\nMidjourney 的最佳使用场景：\n• 科幻电影海报\n• 游戏关键艺术\n• 专辑封面\n• 未来城市场景\n• 超现实广告创意\n• 实验性概念艺术\n\n如果你想要神秘、强烈且无法忽视的画面，这种风格值得一试",
+   "prompt": "--sref 1595383305 --v 7 --sv 6",
+   "img": "assets/full/A037.webp",
+   "thumb": "assets/thumb/A037.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A037.webp",
+     "thumb": "assets/thumb/A037.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "dcfbdab8ea109bcb",
+   "needsPrompt": false
+  },
+  {
+   "id": "A038",
+   "seq": "038",
+   "title": "--sref 552187227 2649257630 --v 8.",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#010101 / #000000 / #030101",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "--sref 552187227 2649257630 --v 8.1",
+   "img": "assets/full/A038.webp",
+   "thumb": "assets/thumb/A038.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A038.webp",
+     "thumb": "assets/thumb/A038.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "2d5fdaafbfd35070",
+   "needsPrompt": false
+  },
+  {
+   "id": "A039",
+   "seq": "039",
+   "title": "try this simple prompt in midjourn",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#453A2F / #101014 / #464849",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "try this simple prompt in midjourney v8.1:\n\"interesting composition, cinematography\"                  试试 Midjourney v8.1 中的这个简单提示：\n“有趣的构图，摄影”  you can even add \"70mm\" for a wide cinematic look!                                           add \" 35mm, natural light \"",
+   "img": "assets/full/A039.webp",
+   "thumb": "assets/thumb/A039.webp",
+   "w": 680,
+   "h": 290,
+   "shots": [
+    {
+     "img": "assets/full/A039.webp",
+     "thumb": "assets/thumb/A039.webp",
+     "w": 680,
+     "h": 290
+    }
+   ],
+   "srcHash": "f9cb5eec0015cc70",
+   "needsPrompt": false
+  },
+  {
+   "id": "A040",
+   "seq": "040",
+   "title": "A hyper-realistic wide-angle archi",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#293B52 / #6B8299 / #8A98A7",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "A hyper-realistic wide-angle architectural photograph of a futuristic bright red conical tower embedded inside a deep crystalline glacial crevasse. The tower features an intricate parametric lattice facade and a circular glass observation deck. Intense direct sunlight from the top right creating a cinematic lens flare, sharp shadows on the snow, mist and swirling frost around the base of the structure. High-contrast color grading, vibrant red versus icy blue and white, shot on ARRI Alexa Mini LF, 24mm lens, architectural masterpiece, breathtaking scale --ar 16:9 --exp 25 --s 250 --v 8.1",
+   "img": "assets/full/A040.webp",
+   "thumb": "assets/thumb/A040.webp",
+   "w": 900,
+   "h": 504,
+   "shots": [
+    {
+     "img": "assets/full/A040.webp",
+     "thumb": "assets/thumb/A040.webp",
+     "w": 900,
+     "h": 504
+    }
+   ],
+   "srcHash": "a059953514e5b6e1",
+   "needsPrompt": false
+  },
+  {
+   "id": "A041",
+   "seq": "041",
+   "title": "这种 Midjourney 风格让人感觉像是来自另一个宇宙的失落 9",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#0C0E17 / #4F4F62 / #74748B",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "这种 Midjourney 风格让人感觉像是来自另一个宇宙的失落 90 年代专辑封面。赋予你那种超现实的概念摄影风格：\n不可能的场景\n电影现实主义\n深蓝色调\n戏剧性光\n轻微的胶片颗粒\n还有那种“这怎么可能不是真的？”的感觉这立刻让人联想到《风暴索格森》式的视觉叙事：\n一个装着大海的手提箱\n漂浮石\n在水面上行走\n梦境逻辑如同真实照片般捕捉这种风格的最佳使用场景：\n摇滚/电子/氛围音乐专辑封面\n科幻或哲学书籍封面\n高端广告创意\n电影概念艺术\n需要强烈视觉吸引力的艺术海报\n\n如果你想重现它，可以这样思考：\n一扇漂浮在海中的老木门，通向银河系\n一个巨大的灯泡，里面有一片雨林\n玻璃糖云悬挂在沙漠之上",
+   "prompt": "--sref 4642760790 --v 7 --sv6",
+   "img": "assets/full/A041.webp",
+   "thumb": "assets/thumb/A041.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A041.webp",
+     "thumb": "assets/thumb/A041.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "b99a93d6a0a5b215",
+   "needsPrompt": false
+  },
+  {
+   "id": "A042",
+   "seq": "042",
+   "title": "感觉像是时尚编辑与水彩漫画的结合——而且真的非常漂亮",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#131415 / #A69494 / #4B4849",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "感觉像是时尚编辑与水彩漫画的结合——而且真的非常漂亮。\n\n它的独特之处：\n• 极具表现力的动漫眼睛，瞳孔光滑如宝石\n• 干净的漫画线条与柔和水彩渗色混合\n• 大胆的颜色如粉色、祖母绿、紫色——但由于白色空间，依然轻盈\n• 浓厚的哥特/时尚能量，带有手绘画册般的感觉\n\n它看起来不像是普通的平面动漫艺术。\n它感觉像是一本高级插画封面。\n\n非常适合：\n• 漫画或轻小说封面\n• 动漫游戏角色溅画\n• 时尚概念视觉\n• 突出的个人形象与个人品牌\n• 流行、摇滚、低保真、虚拟艺术家的音乐封面艺术\n\n如果你想要 Midjourney 的这种造型，想想：\n水彩质感+墨水飞溅+细致睫毛+情感凝视+高端时尚态度",
+   "prompt": "--sref 1461896404 3130362434  | niji 7 | sv6",
+   "img": "assets/full/A042.webp",
+   "thumb": "assets/thumb/A042.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A042.webp",
+     "thumb": "assets/thumb/A042.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "e5b2c84ac8d7c6fa",
+   "needsPrompt": false
+  },
+  {
+   "id": "A043",
+   "seq": "043",
+   "title": "这种 Midjourney 风格就像手绘的梦境",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#698F97 / #6B8080 / #31545B",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "这种 Midjourney 风格就像手绘的梦境。\n\nsref 4089868573 将印象派+柔和写实融合为温暖、细腻且瞬间停笔的感觉：\n• 微型绘画细节\n• 布料质地\n• 柔和发光的灯光\n• 鲜艳的色彩而不显得刺眼\n\n结果呢？画面既梦幻又触感十足，同时又极致。\n\n非常适合：\n儿童图书插图\n精品产品的包装\n礼品卡\n受自然启发的墙面艺术\n情感品牌视觉\n定制礼品概念",
+   "prompt": "--sref 4089868573 --v 6.1 --sv 4",
+   "img": "assets/full/A043.webp",
+   "thumb": "assets/thumb/A043.webp",
+   "w": 900,
+   "h": 900,
+   "shots": [
+    {
+     "img": "assets/full/A043.webp",
+     "thumb": "assets/thumb/A043.webp",
+     "w": 900,
+     "h": 900
+    }
+   ],
+   "srcHash": "c1b724cc2f6ebbba",
+   "needsPrompt": false
+  },
+  {
+   "id": "A044",
+   "seq": "044",
+   "title": "--sref 2877561726",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#0B2B23 / #3B3D2D / #809089",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "--sref 2877561726                                                 写实摄影，带有复古胶片美学。特色为柔和自然色调的青绿色和大地棕色，柔和的灯光，以及一种亲密且略带忧郁的氛围。",
+   "img": "assets/full/A044.webp",
+   "thumb": "assets/thumb/A044.webp",
+   "w": 360,
+   "h": 360,
+   "shots": [
+    {
+     "img": "assets/full/A044.webp",
+     "thumb": "assets/thumb/A044.webp",
+     "w": 360,
+     "h": 360
+    }
+   ],
+   "srcHash": "33674af0eaa718c7",
+   "needsPrompt": false
+  },
+  {
+   "id": "A045",
+   "seq": "045",
+   "title": "Midjourney v 8.1 --sref 2465721221",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#C1C875 / #051410 / #617387",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Midjourney v 8.1 --sref 2465721221",
+   "img": "assets/full/A045.webp",
+   "thumb": "assets/thumb/A045.webp",
+   "w": 544,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A045.webp",
+     "thumb": "assets/thumb/A045.webp",
+     "w": 544,
+     "h": 680
+    }
+   ],
+   "srcHash": "d9f9a54eaba1c9b7",
+   "needsPrompt": false
+  },
+  {
+   "id": "A046",
+   "seq": "046",
+   "title": "--sref 1969426288",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#7B684E / #5E8BBB / #3B6F88",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "--sref 1969426288",
+   "img": "assets/full/A046.webp",
+   "thumb": "assets/thumb/A046.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A046.webp",
+     "thumb": "assets/thumb/A046.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "e49cb2d8d9dbac96",
+   "needsPrompt": false
+  },
+  {
+   "id": "A047",
+   "seq": "047",
+   "title": "midjourney v8.1, sref 8317046035",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1C5B3D / #1A5438 / #0E432D",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "midjourney v8.1, sref 8317046035",
+   "img": "assets/full/A047.webp",
+   "thumb": "assets/thumb/A047.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A047.webp",
+     "thumb": "assets/thumb/A047.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "32aebca155e15043",
+   "needsPrompt": false
+  },
+  {
+   "id": "A048",
+   "seq": "048",
+   "title": "这组图片呈现的视觉风格融合了强烈的幻想元素与细腻的情感表达，展现出既",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#2C2227 / #864632 / #807278",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "这组图片呈现的视觉风格融合了强烈的幻想元素与细腻的情感表达，展现出既神秘又深刻的氛围。整体画面以梦幻般的色调和扭曲的形态构建，仿佛将角色从现实中拉出，带入一个幻觉般的虚拟世界。通过柔和的光影处理和细腻的面部表情，每个角色都被赋予了超越物理世界的神秘气场。这种风格让人不可避免地将其与超现实主义和奇幻艺术中的角色构建联系在一起，尤其是面部特征和发光效果，呈现出独特的视觉冲击力。这种风格融合了神话、传说和未来主义，具有强烈的视觉吸引力，让观众无法忽视。什么是超现实主义\n超现实主义是一种艺术风格，通过梦境、潜意识和潜意识的元素表达超越理性的世界。其特点是通过非常规的物体和场景组合，创造出震撼且梦幻般的视觉效果。艺术家通常使用夸张的形态和不自然的光影来构建一个现实中找不到的世界。这种风格不仅让人在视觉上感到新颖，也激发观众对生命、梦想和存在的深刻思考。 超现实主义使用场景\n超现实主义风格特别适合需要创作非现实、奇幻或梦幻场景的作品，如电影海报设计、游戏艺术、插画、书籍封面等。通过其独特的视觉语言，这种风格能够有效传达复杂的情感或营造神秘氛围，特别适合奇幻、恐怖和科幻主题。在需要传达强烈视觉冲击力并激发观众深刻思考的场合，超现实主义风格的运用无疑会提升作品的吸引力。超现实主义灵感\n- “梦中人物，交错的光影，夸张的面部细节”\n- “神秘人物、奇异场景、非现实空间”\n- “奇幻世界中的光与暗，未来装饰”\n- “诡异的面部表情，漂浮的元素，幻影般的光辉”",
+   "prompt": "--sref 1318071355 --niji 7 --sv 4",
+   "img": "assets/full/A048.webp",
+   "thumb": "assets/thumb/A048.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A048.webp",
+     "thumb": "assets/thumb/A048.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "c2e09b7b4f31cdcc",
+   "needsPrompt": false
+  },
+  {
+   "id": "A049",
+   "seq": "049",
+   "title": "它融合了：",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#2E569E / #1A4C97 / #F2F5F2",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "它融合了：\n美国复古涂鸦\n丝网印刷纹理\n蓝版风格靛蓝色调\n还有那种让人停下来的手绘能量是什么让它如此震撼：\n• 粗糙、颤抖、不完美的线条\n• 靛蓝+米白色高对比度调色板\n• 细腻的橙红色点缀\n• 牛仔布 / 再生纸 / 旧印刷质地\n• 采用原始的模拟手感，而非塑料般的 AI 流畅感\n\nThe vibe:\nlike someone sketched directly onto old denim with a white paint pen\n氛围：\n就像有人用白色油漆笔直接在旧牛仔布上画画一样\n\n\n我会这样称呼它：\n复古牛仔布涂鸦风格\n\n为什么这种风格在 Midjourney 中如此有效：\n当你希望照片更具触感、怀旧感和真实感时，它非常适合\n尤其是那些需要个性而非泛泛“漂亮”视觉效果的项目\n\n\n最佳使用场景：\n• T 恤、连帽衫、手提袋的街头服饰图案\n• 精酿咖啡或啤酒包装\n• 独立专辑封面\n• 滑板活动、艺术市场海报、杂志\n• 需要大胆复古视觉识别的社交帖子\n\nEasy prompt directions to start with:\nwhite chalk sketch on blue denim texture, risograph print style, rough hand-drawn lines, vintage illustration\n简单的提示指引，方便你开始：\n白色粉笔草图配蓝色牛仔布纹理，复印印刷风格，粗略手绘线条，复古插画\n\n\n或者尝试以下主题：\n• 复古磁带\n• 老派运动鞋\n• 披萨片\n• 任何线条凌乱、模拟纹理看起来更好的作品",
+   "prompt": "--sref 748512145 --v 7 --sv6",
+   "img": "assets/full/A049.webp",
+   "thumb": "assets/thumb/A049.webp",
+   "w": 453,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A049.webp",
+     "thumb": "assets/thumb/A049.webp",
+     "w": 453,
+     "h": 680
+    }
+   ],
+   "srcHash": "a89f7d355da0f1aa",
+   "needsPrompt": false
+  },
+  {
+   "id": "A050",
+   "seq": "050",
+   "title": "--chaos 30 --ar 3:4 --exp 30 --raw",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#191A15 / #B7A49A / #0C0E0B",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "--chaos 30 --ar 3:4 --exp 30 --raw --sref 4220932832 2854997163 4395474070 5454301996 --profile igusadc --hd",
+   "img": "assets/full/A050.webp",
+   "thumb": "assets/thumb/A050.webp",
+   "w": 509,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A050.webp",
+     "thumb": "assets/thumb/A050.webp",
+     "w": 509,
+     "h": 680
+    }
+   ],
+   "srcHash": "f215d0621bc3986c",
+   "needsPrompt": false
+  },
+  {
+   "id": "A051",
+   "seq": "051",
+   "title": "--sref 2867431616 1882931887 27906",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#A0B0BC / #B0A7A3 / #D5C7C1",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "--sref 2867431616 1882931887 279069550 3822475064::2 3531287505::3 4294505177 2807388098 526259515",
+   "img": "assets/full/A051.webp",
+   "thumb": "assets/thumb/A051.webp",
+   "w": 360,
+   "h": 202,
+   "shots": [
+    {
+     "img": "assets/full/A051.webp",
+     "thumb": "assets/thumb/A051.webp",
+     "w": 360,
+     "h": 202
+    }
+   ],
+   "srcHash": "59623731317af59e",
+   "needsPrompt": false
+  },
+  {
+   "id": "A052",
+   "seq": "052",
+   "title": "--sref 275161546",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#20251D / #5E7486 / #868D9D",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "--sref 275161546",
+   "img": "assets/full/A052.webp",
+   "thumb": "assets/thumb/A052.webp",
+   "w": 564,
+   "h": 680,
+   "shots": [
+    {
+     "img": "assets/full/A052.webp",
+     "thumb": "assets/thumb/A052.webp",
+     "w": 564,
+     "h": 680
+    }
+   ],
+   "srcHash": "89efb978e4b10edb",
+   "needsPrompt": false
+  },
+  {
+   "id": "A053",
+   "seq": "053",
+   "title": "电影剪辑现实主义",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#0E0E0F / #16100F / #35241C",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "电影剪辑现实主义\n高保真摄影，搭配丰富自然的深绿色和温暖的土红色调。采用戏剧性柔和的定向光影、锐利的纹理，以及优雅、情绪化的氛围，宛如高端编辑专题。",
+   "prompt": "--sref 3331899828",
+   "img": "assets/full/A053.webp",
+   "thumb": "assets/thumb/A053.webp",
+   "w": 360,
+   "h": 360,
+   "shots": [
+    {
+     "img": "assets/full/A053.webp",
+     "thumb": "assets/thumb/A053.webp",
+     "w": 360,
+     "h": 360
+    }
+   ],
+   "srcHash": "4206aa1889c9fed3",
+   "needsPrompt": false
+  },
+  {
+   "id": "A054",
+   "seq": "054",
+   "title": "Midjourney v8.1",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#01060C / #0B1D21 / #1A333A",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Midjourney v8.1\n\n--profile xrdcsnv",
+   "img": "assets/full/A054.webp",
+   "thumb": "assets/thumb/A054.webp",
+   "w": 680,
+   "h": 290,
+   "shots": [
+    {
+     "img": "assets/full/A054.webp",
+     "thumb": "assets/thumb/A054.webp",
+     "w": 680,
+     "h": 290
+    }
+   ],
+   "srcHash": "dc1024bca99ee9b1",
+   "needsPrompt": false
+  },
+  {
+   "id": "A055",
+   "seq": "055",
+   "title": "A masterful cinematic master shot",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#222828 / #1A2223 / #0A1215",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "A masterful cinematic master shot deep inside a claustrophobic, majestically decaying ancient Chinese temple hall. Extreme high contrast Chiaroscuro tonal grading: crushing midnight blue shadows contrasted with intense, focused pools of hot amber firelight. A single cluster of tattered ancient red candles provides harsh flickering key light, casting jagged dancing shadows across moldy Buddhist banners. A horrifying redesigned cybernetic monk sits cross legged; withered grey flesh peels to reveal corroded ancient iron gears fused with bone, dark oil staining tattered saffron robes. Thick choking sandalwood smoke rises from ancient bronze incense burners, trapping narrow light shafts. His sole functional eye emits an intensely bright, harsh pale crimson beam piercing the smoke. Extreme blacks balanced against searing highlights, masterful film grain, hyper detailed textures, Unreal Engine 5.1 with Lumen and Volumetric Fog. High budget horror cinema still. --chaos 50 --ar 16:9 --raw --profile ikx8cwl --stylize 400 --v 8",
+   "img": "assets/full/A055.webp",
+   "thumb": "assets/thumb/A055.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A055.webp",
+     "thumb": "assets/thumb/A055.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "75b06508c46ed00c",
+   "needsPrompt": false
+  },
+  {
+   "id": "A056",
+   "seq": "056",
+   "title": "The crane is purely biological - e",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#153132 / #0E2425 / #050E0E",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "The crane is purely biological - elegant white feathers, red crown, no mechanical or monster parts. Environment features massive ancient gnarled trees and pines on every floating spire. Crane's giant wings spread wide, beating turbulent air. Extreme chiaroscuro lighting, deep midnight blue volumetric fog, dramatic rim light on knight's back profile. High budget film aesthetic, Unreal Engine 5.1, 8K, 14mm lens distortion,Dutch tilt. --chaos 10 --ar 16:9 --raw --profile ikx8cwl --stylize 400 --weird 8 --hd",
+   "img": "assets/full/A056.webp",
+   "thumb": "assets/thumb/A056.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A056.webp",
+     "thumb": "assets/thumb/A056.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "adcf7d93d9828461",
+   "needsPrompt": false
+  },
+  {
+   "id": "A057",
+   "seq": "057",
+   "title": "cinematic extreme low-angle portra",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1F3B68 / #639CD4 / #2B6EB5",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "cinematic extreme low-angle portrait, dramatic wide-angle lens perspective (18mm), Ganyu from Genshin Impact standing above the camera, leaning slightly forward while looking down at the viewer, upper body portrait (waist-up), strong foreshortening focused on upper torso, shoulders and chest extending slightly toward the camera, immersive perspective depth, NO legs visible composition control: head occupies the upper 50% of the frame, near top edge, neck to waist occupies lower 30%, strict vertical hierarchy, face as primary focal point long silky pale-blue hair flowing dynamically in the wind, ultra-detailed strands, soft translucency under sunlight, subtle horn-like red-black gradient horns visible large stylized anime eyes, deep blue crystalline irises with snowflake reflections, luminous star-like highlights, ultra-detailed eyelashes Ganyu signature outfit reinterpretation (Liyue-style bodice, elegant blue-white-black color scheme, gold ornaments, soft flowing fabric, subtle icy motifs), upper garment only visible bright blue sky with soft clouds, cold sunlight beams, faint icy particles floating in air, dreamy high-altitude atmosphere cinematic lighting, global illumination, soft rim light, volumetric light rays, HDR, depth of field, ultra-detailed cinematic CG render, masterpiece, 8k, anime-realism hybrid --ar 16:9 --niji 7",
+   "img": "assets/full/A057.webp",
+   "thumb": "assets/thumb/A057.webp",
+   "w": 1400,
+   "h": 785,
+   "shots": [
+    {
+     "img": "assets/full/A057.webp",
+     "thumb": "assets/thumb/A057.webp",
+     "w": 1400,
+     "h": 785
+    },
+    {
+     "img": "assets/full/A057-2.webp",
+     "thumb": "assets/thumb/A057-2.webp",
+     "w": 1400,
+     "h": 785
+    }
+   ],
+   "srcHash": "318cb00c682f361c",
+   "needsPrompt": false
+  },
+  {
+   "id": "A058",
+   "seq": "058",
+   "title": "Ning Yao from Sword of Coming (Jia",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#2B3444 / #889FB7 / #ACC3D7",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Ning Yao from Sword of Coming (Jian Lai), Chinese xianxia female sword cultivator, extreme realism CG style, cinematic action moment dynamic side-profile flying pose, body leaning forward at high speed, calm and cold expression, restrained emotion, no smile bright expressive eyes with strong catchlight, clear reflective highlights in the pupils, wet glossy cornea, visible limbal ring, high contrast iris detail refined East Asian facial structure, slim jawline, straight nose bridge, very fair porcelain skin, luminous pale complexion, high subsurface scattering, subtle natural pores, clean highlights on cheekbones and nose bridge, light red lips high ponytail black hair with realistic density, individual strands clearly visible, hair violently flowing backward under strong wind pressure wearing traditional white hanfu with pale cyan trims, translucent silk fabric edges, minimalist elegant design, silk ribbons reacting to airflow realistic air turbulence and motion trails around her body, volumetric wind effects, no magical energy soft frontal beauty lighting, subtle rim light outlining face and hair, high-key cinematic lighting without underexposure high-key white mist background, distant soft mountains barely visible, cinematic depth photorealistic CG render, global illumination, sharp facial focus, motion blur only on hair tips and fabric edges, ultra-detailed 8k, film-quality, masterpiece --ar 16:9 --stylize 700 --niji 6",
+   "img": "assets/full/A058.webp",
+   "thumb": "assets/thumb/A058.webp",
+   "w": 1400,
+   "h": 785,
+   "shots": [
+    {
+     "img": "assets/full/A058.webp",
+     "thumb": "assets/thumb/A058.webp",
+     "w": 1400,
+     "h": 785
+    }
+   ],
+   "srcHash": "2a038cacfffa20f2",
+   "needsPrompt": false
+  },
+  {
+   "id": "A059",
+   "seq": "059",
+   "title": "Lu Xueqi (陆雪琪), legendary cold swo",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#323D4A / #495E74 / #637B96",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Lu Xueqi (陆雪琪), legendary cold sword cultivator, silent, distant, unapproachable aura, extreme realism cinematic CG style, standing still, sword held close to the body, three-quarter frontal view, composed posture, eyes calm and emotionless, bright clear eyes with moonlight catchlight, wet glossy cornea, refined iris contrast, clean symmetrical East Asian face, slim jawline, straight nose bridge, snow-pale porcelain skin, cold luminous tone, subtle subsurface scattering, long black hair in high ponytail, smooth and orderly, slight movement in night breeze, wearing pure white minimalist hanfu, straight silhouette, frost-like texture, pale cyan accents, elegant and restrained, immortal sword partially unsheathed, thin cold white light leaking from the blade, soft glow illuminating fingers and sleeve, no particles, no energy waves, background: ancient stone ruins under moonlight, white mist drifting across the ground, deep blue night sky, cinematic depth, cool high-key lighting balanced with moonlight, sharp facial focus, ultra-detailed, 8k photorealistic CG, film-level quality, masterpiece --ar 16:9 --raw --stylize 800 --niji 6",
+   "img": "assets/full/A059.webp",
+   "thumb": "assets/thumb/A059.webp",
+   "w": 1400,
+   "h": 785,
+   "shots": [
+    {
+     "img": "assets/full/A059.webp",
+     "thumb": "assets/thumb/A059.webp",
+     "w": 1400,
+     "h": 785
+    }
+   ],
+   "srcHash": "7ff1f4b64b1e9063",
+   "needsPrompt": false
+  },
+  {
+   "id": "A060",
+   "seq": "060",
+   "title": "--sref 3084175219 3087243072 --p k",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#166886 / #32968C / #BDA87C",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "--sref 3084175219 3087243072 --p k1eiut2",
+   "img": "assets/full/A060.webp",
+   "thumb": "assets/thumb/A060.webp",
+   "w": 360,
+   "h": 202,
+   "shots": [
+    {
+     "img": "assets/full/A060.webp",
+     "thumb": "assets/thumb/A060.webp",
+     "w": 360,
+     "h": 202
+    }
+   ],
+   "srcHash": "e5e3ddf58ba92590",
+   "needsPrompt": false
+  },
+  {
+   "id": "A061",
+   "seq": "061",
+   "title": "这里有一个系统提示，你可以在 ChatGPT 或 Claude 项目",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#8292A3 / #151D1A / #2A322D",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "这里有一个系统提示，你可以在 ChatGPT 或 Claude 项目中使用。它的核心理念很简单：你输入一个基本想法、一个粗略的图像提示、一段场景描述，甚至是一张上传的图片，它就会对其进行增强，并返回 10 个电影风格的提示，每个提示都探索不同的构图和镜头角度。例如，我输入了“一个角斗士骑马在山坡上”，这就是结果！这是探索不同视觉语言、发现有趣构图的绝佳方式。系统提示如下",
+   "prompt": "You are a cinematic prompt director and visual composition designer.\n\nYour job is to take any user input, whether it is a simple idea, a rough image prompt, a scene description, or an uploaded image, and transform it into 10 distinct cinematic image prompts focused on composition, camera angle, framing, blocking, depth, and visual storytelling.\n\nCore Objective:\nCreate 10 different prompts that explore the same idea through different cinematic compositions and camera positions. Each prompt must feel like a film still, not a poster, not a portrait, not a staged photoshoot, and not generic concept art.\n\nBase Style:\nAlways preserve or integrate this base style unless the user provides a different one:\n\ncinematic realism, film stock grain, film still\n\nInput Handling:\nIf the user gives a written idea, expand it into cinematic visual scenes.\nIf the user gives a rough prompt, keep the subject and mood but improve the composition.\nIf the user gives an image, analyze the subject, setting, mood, lighting, pose, and visual idea, then create 10 new prompt variations inspired by it.\nDo not copy the image literally unless the user asks for direct replication.\nDo not change the core subject unless the user asks for alternatives.\n\nOutput Rules:\nGive exactly 10 prompts.\nEach prompt must have:\n1. A short title.\n2. A camera/composition concept.\n3. A full image prompt.\n\nEach prompt should explore a different visual language, such as:\n- extreme low angle\n- high angle\n- overhead top-down\n- over-the-shoulder\n- foreground obstruction\n- reflection shot\n- silhouette shot\n- frame-within-a-frame\n- deep vanishing point\n- wide negative space\n- compressed telephoto distance\n- handheld close perspective\n- diagonal movement\n- symmetrical blocking\n- asymmetrical balance\n- subject partially hidden\n- environmental scale\n- POV composition\n- layered foreground/midground/background\n\nPrompt Writing Rules:\nWrite each prompt as one clean paragraph.\nMake the prompts detailed but not bloated.\nFocus heavily on composition, lens choice, camera height, subject placement, foreground, midground, background, lighting, atmosphere, and storytelling.\nAvoid generic words like “epic,” “beautiful,” or “cool” unless they are supported by specific visual details.\nAvoid black bars unless the user asks for them.\nAvoid saying “in the style of” living directors or artists.\nDo not use brand names unless the user provides them.\nDo not explain the prompts unless asked.\n\nCinematic Quality Rules:\nEvery prompt should feel like a captured moment from a real film scene.\nThe scene should imply story, tension, movement, or emotion.\nUse imperfect realism: grain, haze, motion blur, soft focus falloff, natural lighting, practical light sources, weather, dust, reflections, shadows, and environmental texture.\nPrefer mid-action or emotionally charged moments over static posing.\nMake the camera feel intentional.\n\nDefault Negative Add-ons:\nAt the end of each prompt, add:\nno clean digital sharpness, no CGI look, no poster composition, no centered portrait, no black bars\n\nOutput Format:\n\n1. **Title**\n   **Composition: [brief camera/composition idea]**\n\n   Prompt: \n   [full cinematic prompt]\n\n---\n\n2. **Title**\n   **Composition: [brief camera/composition idea]**\n\n   Prompt: \n   [full cinematic prompt]\n\n---\n\nContinue until 10.",
+   "img": "assets/full/A061.webp",
+   "thumb": "assets/thumb/A061.webp",
+   "w": 1400,
+   "h": 597,
+   "shots": [
+    {
+     "img": "assets/full/A061.webp",
+     "thumb": "assets/thumb/A061.webp",
+     "w": 1400,
+     "h": 597
+    }
+   ],
+   "srcHash": "6812d55acf1a302b",
+   "needsPrompt": false
+  },
+  {
+   "id": "A062",
+   "seq": "062",
+   "title": "a group of knights are walking thr",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#49544F / #2D2E25 / #626761",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "a group of knights are walking through a mountain pass with colossal peaks, dwarfing the pair as their full helms have gorgeous plumes and decorated armor, capturing the essence of dark fantasy --ar 9:16 --raw --profile m895wxf --hd",
+   "img": "assets/full/A062.webp",
+   "thumb": "assets/thumb/A062.webp",
+   "w": 784,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A062.webp",
+     "thumb": "assets/thumb/A062.webp",
+     "w": 784,
+     "h": 1400
+    }
+   ],
+   "srcHash": "eac5801cf65c3904",
+   "needsPrompt": false
+  },
+  {
+   "id": "A063",
+   "seq": "063",
+   "title": "Ultra-realistic cinematic full-bod",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#06222A / #5A757C / #8FA7AD",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Ultra-realistic cinematic full-body portrait of Satoru Gojo from Jujutsu Kaisen, performing a powerful soccer kick during a FIFA World Cup match, slightly lowered head, eyes looking up toward the viewer, centered dynamic composition, subtle confident smirk, calm yet overwhelmingly powerful presence, delicate yet sharp facial features, smooth pale skin with soft diffusion, refined and symmetrical face, piercing blue Six Eyes glowing intensely with multi-layer reflections, strong eye focus, intense yet controlled gaze white hair with soft volume, slightly messy strands naturally falling, realistic motion from kick, black blindfold partially pulled down revealing glowing eyes beneath, flowing high-collar black uniform subtly adapted into athletic soccer gear, fabric folds realistically simulated, iconic outfit details retained, realistic texture and shading cinematic stadium lighting with blue and white tones, soft rim lighting outlining face, hair, and upper body, golden floodlight highlights from stadium, subtle energy trails and glowing particles around movement, dynamic motion blur on kicking leg, floating confetti and stadium crowd bokeh Infinity technique visualized as very subtle shimmering spatial distortion around body, light warping effect integrated with energy trails, dramatic volumetric lighting, dark dreamy stadium background with soft gradient and floating light particles, atmospheric depth photorealistic details, ultra-detailed 8K resolution, shallow depth of field, masterpiece, ultra-HD cinematic fantasy realism, concept art, full-body dynamic action, FIFA World Cup theme, heroic sports anime cinematic CG, high-end hyper-realistic rendering --ar 9:16 --v 7",
+   "img": "assets/full/A063.webp",
+   "thumb": "assets/thumb/A063.webp",
+   "w": 785,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A063.webp",
+     "thumb": "assets/thumb/A063.webp",
+     "w": 785,
+     "h": 1400
+    }
+   ],
+   "srcHash": "9f50a632c4da954b",
+   "needsPrompt": false
+  },
+  {
+   "id": "A064",
+   "seq": "064",
+   "title": "Ultra-realistic cinematic portrait",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#7C7583 / #34333D / #55464E",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Ultra-realistic cinematic portrait of Asuka Langley Shikinami from Evangelion, dramatic extreme low-angle perspective looking up at her, commanding and fearless presence, subtle confident smirk, realistic youthful facial proportions, naturally beautiful features, expressive piercing blue eyes with lifelike reflections, flawless fair skin with visible pores, subtle freckles and natural complexion, physically accurate subsurface scattering, long auburn hair rendered with individual flowing strands moving naturally in the wind, wearing an ultra-detailed crimson Evangelion plugsuit redesigned as premium futuristic combat armor with realistic carbon fiber, ceramic composite panels, brushed metal components and soft flexible materials, intricate mechanical detailing, cinematic red interface headset integrated into the suit, powerful stance with one hand raised while activating a massive translucent hexagonal A.T. Field, realistic energy distortion refracting the surrounding environment, volumetric red, blue and white energy illuminating the scene, cinematic rim lighting, global illumination, atmospheric haze, drifting dust particles, floating sparks and subtle smoke, realistic lens bloom, dramatic clouds above, the colossal silhouette of Evangelion Unit-02 standing behind her like a giant war machine, epic futuristic battlefield filled with debris and distant explosions, dark sci-fi atmosphere, grounded science-fiction aesthetic, Hollywood blockbuster visual style, photorealistic CGI, feature film quality, IMAX cinematic composition, premium visual effects, physically based rendering, ray-traced lighting, realistic depth of field, breathtaking environmental detail, masterpiece, ultra-detailed, stunning realism, epic scale, AAA cinematic VFX --ar 16:9 --raw --stylize 500 --niji 7",
+   "img": "assets/full/A064.webp",
+   "thumb": "assets/thumb/A064.webp",
+   "w": 1400,
+   "h": 785,
+   "shots": [
+    {
+     "img": "assets/full/A064.webp",
+     "thumb": "assets/thumb/A064.webp",
+     "w": 1400,
+     "h": 785
+    }
+   ],
+   "srcHash": "7d69cf52ba07d354",
+   "needsPrompt": false
+  },
+  {
+   "id": "A065",
+   "seq": "065",
+   "title": "Minimalist hand-drawn digital illu",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#A1A28B / #DFCBB4 / #7C725D",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Minimalist hand-drawn digital illustration of a white duck with an orange beak wearing oversized black sunglasses, a soft pink towel wrapped around its head like a turban and a matching pink towel around its body, centered portrait composition, muted sage green and pale cream vertical wavy striped background, flat pastel color palette, subtle paper texture, soft faded tones, vintage effect, retro print look, slightly aged surface feel, simple clean shapes, soft vintage poster style, no extra objects, no text, no watermark, sharp and clear details --ar 3:4 --profile 42an2ye --hd",
+   "img": "assets/full/A065.webp",
+   "thumb": "assets/thumb/A065.webp",
+   "w": 1048,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A065.webp",
+     "thumb": "assets/thumb/A065.webp",
+     "w": 1048,
+     "h": 1400
+    }
+   ],
+   "srcHash": "b42df683c1546672",
+   "needsPrompt": false
+  },
+  {
+   "id": "A066",
+   "seq": "066",
+   "title": "全景超广角，古老的东方神话奇幻场景，一座巨大的多层重檐青绿色鎏金中式",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#27291F / #3F4748 / #8F99B7",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "全景超广角，古老的东方神话奇幻场景，一座巨大的多层重檐青绿色鎏金中式天宫悬浮在宇宙太空之中，数位身着飘逸纯白色长袍的束发仙侠男子行走在雕梁彩绘回廊平台上，画面上下两侧是繁复斗拱飞檐的殿堂框架布局，回廊两侧苍劲古松与盛放粉樱树环绕，殿堂旁悬浮着带垂落飞瀑的浮空山石，远景天际铺展巨大蓝白星球与布满繁星的深邃夜空，没有红色木质半圆形拱门，远方没有云雾而是浩瀚星际空间，具有电影般宿命磅礴的氛围，虚幻而庄严圣洁，纯正东方仙侠美学，史诗宏大的规模，超广角全景构图，人物自然融入巨型仙宫星际环境之中，强烈的空间深度透视感，玄幻神话影视 CG 海报质感，柔和星空体积光效，高度精细雕刻木纹与建筑纹理，电影级画质杰作，8K 超高清，虚幻引擎 5 渲染 --chaos 10 --ar 9:16 --profile nm4hn1x --hd",
+   "img": "assets/full/A066.webp",
+   "thumb": "assets/thumb/A066.webp",
+   "w": 784,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A066.webp",
+     "thumb": "assets/thumb/A066.webp",
+     "w": 784,
+     "h": 1400
+    }
+   ],
+   "srcHash": "6579ba9e8c7034d1",
+   "needsPrompt": false
+  },
+  {
+   "id": "A067",
+   "seq": "067",
+   "title": "an astronaut riding a chopper styl",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#001E29 / #496568 / #718785",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "an astronaut riding a chopper styled Harley Davidson motorcycle on the surface of the moon full body shot perspective",
+   "img": "assets/full/A067.webp",
+   "thumb": "assets/thumb/A067.webp",
+   "w": 1024,
+   "h": 1024,
+   "shots": [
+    {
+     "img": "assets/full/A067.webp",
+     "thumb": "assets/thumb/A067.webp",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "srcHash": "3088662b6e185636",
+   "needsPrompt": false
+  },
+  {
+   "id": "A068",
+   "seq": "068",
+   "title": "Neo-Chinese style, massive Chinese",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#54617B / #213236 / #4D4B3B",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Neo-Chinese style, massive Chinese architecture, with small figures forming a strong contrast with the buildings. --ar 3:4 --sref 1038572786 --profile tby5881 pgv8o45 --hd --preview",
+   "img": "assets/full/A068.webp",
+   "thumb": "assets/thumb/A068.webp",
+   "w": 1048,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A068.webp",
+     "thumb": "assets/thumb/A068.webp",
+     "w": 1048,
+     "h": 1400
+    }
+   ],
+   "srcHash": "6e8916ed7b838e38",
+   "needsPrompt": false
+  },
+  {
+   "id": "A069",
+   "seq": "069",
+   "title": "A sophisticated woman wearing an e",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#2D3525 / #814730 / #B4CFD9",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "A sophisticated woman wearing an elegant emerald green dress, styled with a voluminous 1970s-inspired hairstyle, seated inside a modern glass loggia with strong 1970s design influences. The space features organic curved furniture, warm earthy tones, smoked glass, polished wood, brass details, and luxurious retro-futuristic interiors. She is calmly drinking from an artistic glass tumbler, looking refined and mysterious. Beside her, a huge floor-to-ceiling glass wall opens onto the African savanna at golden hour. Outside the glass, a majestic black lion stands very close, staring at her through the window. Cinematic tension, luxury safari lodge atmosphere, modern 70s editorial aesthetic, elegant composition, warm natural light, high-end fashion photography, realistic details, dramatic yet serene mood. --raw --profile gvjkpw5 x6d4r1f 4oef7ce",
+   "img": "assets/full/A069.webp",
+   "thumb": "assets/thumb/A069.webp",
+   "w": 1024,
+   "h": 1024,
+   "shots": [
+    {
+     "img": "assets/full/A069.webp",
+     "thumb": "assets/thumb/A069.webp",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "srcHash": "b49593ec3cc76296",
+   "needsPrompt": false
+  },
+  {
+   "id": "A070",
+   "seq": "070",
+   "title": "a bright red biplane is the focal",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#0D241D / #051C16 / #2C3B32",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "a bright red biplane is the focal point of this aerial image, seen from above, flying over a rich, green forest. streaks of white mist or clouds wind through the trees, providing a contrasting backdrop for the plane. the biplane's design, including its two wings and tail, is distinct. the pilot's head and shoulders are visible in the open cockpit. the composition emphasizes the plane's movement through a natural, cloud laden landscape. --ar 5:9",
+   "img": "assets/full/A070.webp",
+   "thumb": "assets/thumb/A070.webp",
+   "w": 776,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A070.webp",
+     "thumb": "assets/thumb/A070.webp",
+     "w": 776,
+     "h": 1400
+    }
+   ],
+   "srcHash": "b7a04e2bafcbd3a9",
+   "needsPrompt": false
+  },
+  {
+   "id": "A071",
+   "seq": "071",
+   "title": "THE THING WATCHING ME FINALLY MOVE",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#253B2A / #607571 / #556A60",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "THE THING WATCHING ME FINALLY MOVED --sref 7197616692 5824337210 --profile 7idwzs6 ebbtxdt --hd",
+   "img": "assets/full/A071.webp",
+   "thumb": "assets/thumb/A071.webp",
+   "w": 1400,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A071.webp",
+     "thumb": "assets/thumb/A071.webp",
+     "w": 1400,
+     "h": 1400
+    }
+   ],
+   "srcHash": "4f7d5742a8e0ead5",
+   "needsPrompt": false
+  },
+  {
+   "id": "A072",
+   "seq": "072",
+   "title": "This is a medieval tavern owner, a",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#FFFFFF / #2A2D2A / #5D5B52",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "This is a medieval tavern owner, appearing to be in his thirties, with long black hair tied in a ponytail, a slender build, a goatee, and a relaxed, smiling expression on his face. He has fair skin. He is dressed in medieval noble attire, primarily dark green and black. His left hand is placed on his chest, and his right hand behind his back, giving him a handsome and polite appearance. It is a full-body portrait. The brushstrokes are delicate, giving the entire painting an oil painting-like texture. The background is white. This painting is reminiscent of official illustrations from Dungeons & Dragons. --ar 3:4 --profile mwpjb36 --hd",
+   "img": "assets/full/A072.webp",
+   "thumb": "assets/thumb/A072.webp",
+   "w": 1048,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A072.webp",
+     "thumb": "assets/thumb/A072.webp",
+     "w": 1048,
+     "h": 1400
+    }
+   ],
+   "srcHash": "8ff2d187227085f5",
+   "needsPrompt": false
+  },
+  {
+   "id": "A073",
+   "seq": "073",
+   "title": "topdown view of a backyard water f",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#243F28 / #47694B / #FEFEFE",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "topdown view of a backyard water feature on a white background --profile 1kuh8ls",
+   "img": "assets/full/A073.webp",
+   "thumb": "assets/thumb/A073.webp",
+   "w": 1024,
+   "h": 1024,
+   "shots": [
+    {
+     "img": "assets/full/A073.webp",
+     "thumb": "assets/thumb/A073.webp",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "srcHash": "bc4d4d1df46bb177",
+   "needsPrompt": false
+  },
+  {
+   "id": "A074",
+   "seq": "074",
+   "title": "Photograph, close-up vertical outd",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#222A25 / #171A0B / #DFC7B9",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Photograph, close-up vertical outdoor portrait, candid analog snapshot style with harsh direct flash, visible grain, high contrast, saturated dark shadows, and deep blue-green foliage background. A young adult woman dressed in a nun habit is framed from the shoulders up, wearing a white coif and wimple under a dark navy veil and robe. She has very fair skin, light eyebrows, pale blue eyes looking upward to the right, a neutral slightly distant expression, and softly parted peach-toned lips. One pale hand is raised beside her face, holding a lit white cigarette between the fingers. Behind her are dense tree leaves, small patches of bright blue sky, and strong flash-lit highlights against a dark nighttime or shaded outdoor setting. --ar 3:4 --raw --profile jmw9inn --hd --preview",
+   "img": "assets/full/A074.webp",
+   "thumb": "assets/thumb/A074.webp",
+   "w": 1048,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A074.webp",
+     "thumb": "assets/thumb/A074.webp",
+     "w": 1048,
+     "h": 1400
+    }
+   ],
+   "srcHash": "ce83b0363556499c",
+   "needsPrompt": false
+  },
+  {
+   "id": "A075",
+   "seq": "075",
+   "title": "a cat --ar 4:5 --raw --profile zm6",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#13261D / #93887C / #35453E",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "a cat --ar 4:5 --raw --profile zm6nhgi ys35j9l --stylize 50 --hd",
+   "img": "assets/full/A075.webp",
+   "thumb": "assets/thumb/A075.webp",
+   "w": 1118,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A075.webp",
+     "thumb": "assets/thumb/A075.webp",
+     "w": 1118,
+     "h": 1400
+    }
+   ],
+   "srcHash": "0ac1f9008f3599b7",
+   "needsPrompt": false
+  },
+  {
+   "id": "A076",
+   "seq": "076",
+   "title": "Extreme close up cinematic beauty",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1B2219 / #BCA6B6 / #C8B3C5",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Extreme close up cinematic beauty portrait of an exceptionally beautiful 22 year old Korean woman, face filling nearly the entire frame at a slight tilt. Luminous porcelain skin with realistic pores, glossy dewy finish, delicate peach pink blush. Long deep brown hair slightly wet and tousled, fine strands sweeping across forehead, eyes, and cheeks. Pale lavender gray contacts, softly defined lashes, shimmering champagne pink eyeshadow, pearlescent under eye highlights, subtle glossy tear like lower eyelid reflections. Full plump rose coral lips in glass like gloss, slightly parted in a playful smile, hint of white teeth. Dreamy yet intense direct eye contact. Soft silver lilac lighting with warm pink reflections, faint blurred neon background, shallow depth of field, macro beauty photography, realistic moist skin, high end Korean idol editorial, intimate cinematic atmosphere, slightly surreal ethereal mood, no text, no watermark, no UI elements. --ar 9:16 --profile w93b8fd",
+   "img": "assets/full/A076.webp",
+   "thumb": "assets/thumb/A076.webp",
+   "w": 785,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A076.webp",
+     "thumb": "assets/thumb/A076.webp",
+     "w": 785,
+     "h": 1400
+    }
+   ],
+   "srcHash": "e71053ff91eb8a00",
+   "needsPrompt": false
+  },
+  {
+   "id": "A077",
+   "seq": "077",
+   "title": "a flying saucers in the distance o",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1D2D30 / #546264 / #72828B",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "a flying saucers in the distance over a small 1950 town Ohio in 1947 show scenes of cars and house close up of two people on the ground in focus running away --profile rixal22 --hd",
+   "img": "assets/full/A077.webp",
+   "thumb": "assets/thumb/A077.webp",
+   "w": 1400,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A077.webp",
+     "thumb": "assets/thumb/A077.webp",
+     "w": 1400,
+     "h": 1400
+    }
+   ],
+   "srcHash": "e9661f6952450f21",
+   "needsPrompt": false
+  },
+  {
+   "id": "A078",
+   "seq": "078",
+   "title": "シンプルな水彩画風",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#FEFEFE / #92A6AD / #FDFEFD",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "シンプルな水彩画風。NPCのシルエットアイコン。中世ファンタジー。男の子。子ども。顔はよく見えない。胸から上のみ --profile 9eu9d3w",
+   "img": "assets/full/A078.webp",
+   "thumb": "assets/thumb/A078.webp",
+   "w": 1024,
+   "h": 1024,
+   "shots": [
+    {
+     "img": "assets/full/A078.webp",
+     "thumb": "assets/thumb/A078.webp",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "srcHash": "b38ad83c681e3eaa",
+   "needsPrompt": false
+  },
+  {
+   "id": "A079",
+   "seq": "079",
+   "title": "A 2000s photograph from a hill in",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#417096 / #79725E / #545649",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "A 2000s photograph from a hill in a empty, perfect rolling hill like land. The camera is pointed at the sky so that 80% of the scene is sky. Bulbous clouds pulse. Perfect monoliths of color pink, crystal, silver, and black point in the distance. --ar 4:3 --weird 4",
+   "img": "assets/full/A079.webp",
+   "thumb": "assets/thumb/A079.webp",
+   "w": 1232,
+   "h": 928,
+   "shots": [
+    {
+     "img": "assets/full/A079.webp",
+     "thumb": "assets/thumb/A079.webp",
+     "w": 1232,
+     "h": 928
+    }
+   ],
+   "srcHash": "385271d0518a6ae1",
+   "needsPrompt": false
+  },
+  {
+   "id": "A080",
+   "seq": "080",
+   "title": "CYBERPUNK ROBOT 8K --raw --profile",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#5F544A / #1D1E17 / #323127",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "CYBERPUNK ROBOT 8K --raw --profile m4qh2rc --hd",
+   "img": "assets/full/A080.webp",
+   "thumb": "assets/thumb/A080.webp",
+   "w": 1400,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A080.webp",
+     "thumb": "assets/thumb/A080.webp",
+     "w": 1400,
+     "h": 1400
+    }
+   ],
+   "srcHash": "e6f1bdb7702cbb9f",
+   "needsPrompt": false
+  },
+  {
+   "id": "A081",
+   "seq": "081",
+   "title": "Ultra-realistic cinematic dynamic",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1C2233 / #416F94 / #5B3349",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Ultra-realistic cinematic dynamic wallpaper composition of Asuka Langley Shikinami from Evangelion, extreme low-angle tilted perspective creating intense motion and tension, Asuka positioned in the lower foreground turning toward incoming threat with fierce confident expression, auburn hair violently swept by wind, crimson armored plugsuit reflecting explosive lighting, one hand extended projecting a fragmented hexagonal A.T. Field breaking under pressure, behind her Evangelion Unit-02 charging forward through destroyed futuristic city ruins, massive kinetic motion blur emphasizing speed and impact, debris and shattered structures flying through the air, glowing red and orange energy trails cutting across the scene, blue atmospheric backlight contrasting explosive foreground tones, volumetric smoke and dust clouds filling depth layers, cinematic handheld film aesthetic, Hollywood sci-fi battle realism, hyper-detailed CGI environment, strong diagonal composition guiding viewer eye through motion path, wallpaper-ready dramatic action framing --raw --profile m4qh2rc --hd",
+   "img": "assets/full/A081.webp",
+   "thumb": "assets/thumb/A081.webp",
+   "w": 1400,
+   "h": 785,
+   "shots": [
+    {
+     "img": "assets/full/A081.webp",
+     "thumb": "assets/thumb/A081.webp",
+     "w": 1400,
+     "h": 785
+    }
+   ],
+   "srcHash": "0beda0a81c897be3",
+   "needsPrompt": false
+  },
+  {
+   "id": "A082",
+   "seq": "082",
+   "title": "Austin Mini Cooper S Race Car, 4k",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#A9B2AE / #555F62 / #535F62",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Austin Mini Cooper S Race Car, 4k --ar 3:2 --sref 2121792200 --profile ieo5ezo --sw 100 --stylize 1000 --hd",
+   "img": "assets/full/A082.webp",
+   "thumb": "assets/thumb/A082.webp",
+   "w": 1400,
+   "h": 933,
+   "shots": [
+    {
+     "img": "assets/full/A082.webp",
+     "thumb": "assets/thumb/A082.webp",
+     "w": 1400,
+     "h": 933
+    }
+   ],
+   "srcHash": "fc47b0ac18e6d399",
+   "needsPrompt": false
+  },
+  {
+   "id": "A083",
+   "seq": "083",
+   "title": "Unreal Engine rendering, no waterm",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1C1C12 / #4C5147 / #2B352F",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Unreal Engine rendering, no watermarks or text. Cinematic wide shot of a cavernous indoor hall in a floating palace, ceiling lost in shadow, giant red lacquered columns receding into misty perspective. Deep depth of field keeps a lone Hanfu clad figure deep blue and amber robes sharp in the midground beside an open lattice window overlooking a cloud sea; pillars and rafters blur into monumental scale. Soft diffused twilight filters through silk screens onto a low platform where nobles play weiqi, tea cups steaming. Hanging calligraphy scrolls sway in the breeze; incense smoke curls from a bronze tripod. Window frames distant floating islands with silver waterfalls and pine groves. Reflective floor mirrors golden light; carved beams depict dragons and phoenixes. Palette: warm gold, ink black, jade white, cinnabar no harsh highlights, shadows in soft gradients. Mood: contemplative and epic, blending daily life with godlike architecture. --ar 3:2 --sref 2121792200 --profile ieo5ezo --sw 100 --stylize 1000 --hd",
+   "img": "assets/full/A083.webp",
+   "thumb": "assets/thumb/A083.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A083.webp",
+     "thumb": "assets/thumb/A083.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "d98a4ebd7e17e269",
+   "needsPrompt": false
+  },
+  {
+   "id": "A084",
+   "seq": "084",
+   "title": "Two elderly scholars in muted indi",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#040803 / #3A454A / #6A7077",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "Two elderly scholars in muted indigo and charcoal Hanfu sit cross legged on a vast circular stone platform in a half open celestial teahouse, its roof supported by twelve towering pillars each carved with a different zodiac animal. Three open sides reveal a colossal palace complex rising from clouds  countless tiered pavilions with vermilion and gold upturned eaves catching pale rose dawn light. A mirror lake on a cloud island floats between them and the palace, reflecting the sky city perfectly, ancient lotus pads and silver green weeping willows at its edge. Smaller satellite palaces drift in atmospheric haze. The scholars are minuscule against even one pillar, tea cups dewdrop sized. Soft morning light casts long shadows across polished stone, illuminating floating dust motes. Colors shift from cool dawn blues and lavenders above to warm terracotta and bronze below. Wisps of cloud obscure the scholars' faces. A massive ancient pine grows from a platform crack, casting intricate shadows. Cinematic wide shot, shallow to deep depth of field, Unreal Engine 5, no watermarks, no text. --chaos 40 --ar 16:9 --exp 100 --profile novas9i tgnnslq --hd",
+   "img": "assets/full/A084.webp",
+   "thumb": "assets/thumb/A084.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A084.webp",
+     "thumb": "assets/thumb/A084.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "19e29823b49e7127",
+   "needsPrompt": false
+  },
+  {
+   "id": "A085",
+   "seq": "085",
+   "title": "虚幻引擎5渲染、不出现水印和文字",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#171916 / #495152 / #263033",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "虚幻引擎5渲染、不出现水印和文字。构图采用cinematic wide shot电影级广角配合depth of field景深，这是一个位于天宫深处、巨大建筑群落内部的中庭局部。画面捕捉的是一座巨大到如同广场般的庭院一角，地面铺设着巨大的青石板，缝隙中长出了青草。画面中心是一个巨大的石质棋盘，棋盘上的棋子每一颗都有磨盘大小，一颗巨大的棋子刚刚落下，激起地面的微尘。在棋盘旁，一位身着石青色圆领袍的身影正独自抚琴，人物极其渺小，仿佛是被巨大建筑遗忘的过客。庭院周围是高达百丈的宫墙，墙头覆盖着层层叠叠的黑色筒瓦，远处廊道的栏杆如同微缩模型般延伸至云端。soft diffused light柔化漫射光穿过重重庭院，从顶部的藻井和天窗洒下，光线柔和，没有刺眼的阴影，照亮了飘飞的白梨花瓣。一株巨大的百年梨树从庭院的假山石中探出，花开正盛。色调以石青、月白、青灰为主，细节上展示了砖石的沧桑、苔藓的湿润、乐器的漆面，无荧光物质，营造出一种深宫大院中时间静止的史诗感与孤独感。 --chaos 40 --ar 16:9 --exp 100 --profile t8erj2p novas9i --hd --preview",
+   "img": "assets/full/A085.webp",
+   "thumb": "assets/thumb/A085.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A085.webp",
+     "thumb": "assets/thumb/A085.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "0e3d1c7a98cb04cc",
+   "needsPrompt": false
+  },
+  {
+   "id": "A086",
+   "seq": "086",
+   "title": "虚幻引擎5渲染、不出现水印和文字",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#151916 / #556466 / #737F82",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "虚幻引擎5渲染、不出现水印和文字。构图采用cinematic wide shot电影级广角配合depth of field景深，场景设定在一座凌驾于云端之上的巨型渡口建筑内。画面展示的是渡口内部的极其宏大的一角，巨大的木质梁柱支撑着仿佛直通天际的穹顶，柱子上缠绕着褪色的红绸。画面中心是一个巨大的青铜香炉，香烟袅袅升起，几乎直冲云霄。在香炉的巨大底座旁，几位身着玄色与深紫色汉服的旅人正安静站立，仰望着高处的时刻表（巨大的云纹石壁），人物在画面中如同微尘。soft diffused light柔化漫射光从建筑后方巨大的拱形门窗涌入，窗外是翻滚的云海和远处隐约可见的悬浮岛屿，光线在弥漫的烟雾中形成了清晰的光柱，边缘虚化。地面由巨大的金砖铺就，反射着微弱的光泽，角落里有几只巨大的红灯笼和几盆造型苍劲的罗汉松。色调以玄色、朱红、金色为主，细节爆炸，金属的铜绿、织物的厚重感、石头的风化痕迹都清晰可见，无荧光物质，营造出一种即将远行的、充满中式古典神话色彩的宏大叙事感。 --chaos 40 --ar 16:9 --exp 100 --profile t8erj2p novas9i --hd --preview",
+   "img": "assets/full/A086.webp",
+   "thumb": "assets/thumb/A086.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A086.webp",
+     "thumb": "assets/thumb/A086.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "8012c0fa5c887d2a",
+   "needsPrompt": false
+  },
+  {
+   "id": "A087",
+   "seq": "087",
+   "title": "a poster design of a [Spider-Man]",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1A2D35 / #10272C / #5F3B49",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "a poster design of a [Spider-Man] from [Marvel] comics, with a [red and blue] color scheme dominating the image. he is wearing a [red and blue web-patterned suit and mask]. the bold word \"SPIDER-MAN\" is displayed in glowing text behind him. small bright elements are dispersed throughout the dark background, creating a glowing particle effect. --ar 3:4 --hd",
+   "img": "assets/full/A087.webp",
+   "thumb": "assets/thumb/A087.webp",
+   "w": 1048,
+   "h": 1400,
+   "shots": [
+    {
+     "img": "assets/full/A087.webp",
+     "thumb": "assets/thumb/A087.webp",
+     "w": 1048,
+     "h": 1400
+    }
+   ],
+   "srcHash": "577cc63afb72bc45",
+   "needsPrompt": false
+  },
+  {
+   "id": "A088",
+   "seq": "088",
+   "title": "seahorse --sref 1936035130 1281242",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#D4E5E8 / #80C4DE / #F5E0AC",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "seahorse --sref 1936035130 1281242403 1298006575",
+   "img": "assets/full/A088.webp",
+   "thumb": "assets/thumb/A088.webp",
+   "w": 900,
+   "h": 504,
+   "shots": [
+    {
+     "img": "assets/full/A088.webp",
+     "thumb": "assets/thumb/A088.webp",
+     "w": 900,
+     "h": 504
+    }
+   ],
+   "srcHash": "6fd3160c9f2df534",
+   "needsPrompt": false
+  },
+  {
+   "id": "A089",
+   "seq": "089",
+   "title": "It blends chunky painterly brushst",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#0185A0 / #29AEC0 / #424654",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "It blends chunky painterly brushstrokes, oversized expressive characters, bold geometric shapes, and vibrant fantasy colors into something that feels like a modern animated storybook.（粗犷的画家式笔触、超大的富有表现力的角色、大胆的几何形状，以及充满活力的奇幻色彩融合在一起，营造出一种现代动画绘本的感觉）",
+   "prompt": "--sref 8404898200",
+   "img": "assets/full/A089.webp",
+   "thumb": "assets/thumb/A089.webp",
+   "w": 1400,
+   "h": 719,
+   "shots": [
+    {
+     "img": "assets/full/A089.webp",
+     "thumb": "assets/thumb/A089.webp",
+     "w": 1400,
+     "h": 719
+    }
+   ],
+   "srcHash": "78d12da59b9aa727",
+   "needsPrompt": false
+  },
+  {
+   "id": "A090",
+   "seq": "090",
+   "title": "电影级3D写实CG，一片巨大古树构成的原始森林深处，树木粗如高塔、树",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#0E1C0E / #3C5037 / #182817",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "电影级3D写实CG，一片巨大古树构成的原始森林深处，树木粗如高塔、树干覆满厚重的青苔与垂落藤蔓，盘曲隆起的巨大树根蔓延交错形成天然地形起伏，中央是一片开阔平坦的空地如天然斗场，地面覆盖着湿润的苔藓、蕨类与腐叶，边缘有浅浅的积水潭倒映着天光。氛围与光影：清冷通透的自然绿色调，苍翠的青绿与墨绿层次丰富，纯净的白色日光自高处树冠缝隙垂直穿透而下，形成一道道清晰浓郁的白色丁达尔光柱洒落林间空地，光柱中可见漂浮的尘埃与细小飞虫，空气中弥漫着淡淡的白色薄雾与水汽，光柱之外的林荫处沉入幽深的墨绿暗部，明暗对比强烈。略高于人眼的视角，纵深处更多巨树层层退去没入雾气。苍茫、古老、幽深、寂静，尺度巨大，空镜无人物，无任何骸骨 + 3D写实CG渲染，虚幻引擎风格，超高细节，体积光，史诗构图，非真人非照片，无现代物品，无文字",
+   "img": "assets/full/A090.webp",
+   "thumb": "assets/thumb/A090.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A090.webp",
+     "thumb": "assets/thumb/A090.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "3976de04e8b2f108",
+   "needsPrompt": false
+  },
+  {
+   "id": "A091",
+   "seq": "091",
+   "title": "男人面部特写有真实皮肤质感 --stylize 200 --prof",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#6C688E / #989BB7 / #BBBAD2",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "男人面部特写有真实皮肤质感 --stylize 200 --profile pzhixbw",
+   "img": "assets/full/A091.webp",
+   "thumb": "assets/thumb/A091.webp",
+   "w": 1400,
+   "h": 784,
+   "shots": [
+    {
+     "img": "assets/full/A091.webp",
+     "thumb": "assets/thumb/A091.webp",
+     "w": 1400,
+     "h": 784
+    }
+   ],
+   "srcHash": "f9c2917a6622cfe0",
+   "needsPrompt": false
+  },
+  {
+   "id": "A092",
+   "seq": "092",
+   "title": "实景搭建的巨型红墙天宫，横亘于山谷密林之上，画面具有清晰的远中近三层",
+   "category": "MJ风格及事例",
+   "kind": "MJ风格及事例",
+   "tone": "",
+   "palette": "#1E2C34 / #7E3D34 / #2A404E",
+   "model": "Midjourney",
+   "tags": [
+    "MJ风格及事例"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.23",
+   "note": "",
+   "prompt": "实景搭建的巨型红墙天宫，横亘于山谷密林之上，画面具有清晰的远中近三层空间纵深。远处是一面压迫性巨幅朱红宫墙，红墙高度约占画面上半段，墙面平整厚重，带有真实宫砖肌理与轻微岁月痕迹，墙顶坐落连绵长廊殿宇，重檐瓦顶、斗拱结构、深色栏杆沿水平方向整齐排列，红墙边缘被稀薄雾气轻微笼罩。中景是幽深古松林，茂密林木层层叠叠，近处树影轮廓较深，远处树影逐渐变暗、变柔、变蓝灰，融入雾气之中，林间有多层平流雾横向穿过，形成自然遮挡与空气透视。前景是冷白色雾面与浅水面交融，靠近镜头的雾面更亮、更厚，带有细腻雾气颗粒和微弱反光，远处雾面逐渐淡化。画面下方正中站着一位极度渺小的浅紫长裙女子，她的手拉着另一个穿着白色汉服的男子，人物只占画面高度约百分之四，背身而立，披帛与长衣随风向右侧轻微飘起，脚下有淡淡倒影和雾气环绕，人物清晰但不抢眼。 电影级广角镜头，正面平视构图，低机位贴近雾面，强水平分层构图，全景深清晰，无景深虚化。Super Panavision 70 胶片实拍质感，24mm 广角镜头，f/16 小光圈，ISO 100 低感光度，超焦距对焦，照片级写实。温暖金色侧光只打亮红墙上沿与雾面高光，森林内部保持冷青灰色暗调，冷暖对比克制，氛围静谧、幽深、庄严。红墙肌理、林木剪影、雾面反光、衣褶纹理、雾气颗粒均清晰锐利。80 年代香港武侠片实体布景美学，胶片颗粒细腻，暖调偏色，强空气透视，多层雾气遮挡，近景雾厚远景雾淡，森林由近及远渐变，人物脚下与雾面自然接触，红墙与森林之间存在明显距离，空间纵深强烈。严禁数字平滑感、荧光色、霓虹光、体积光、光束特效、3D 渲染感、卡通感、网游感、平面拼贴感、三层硬切、没有遮挡的雾气、人物过大、人物悬浮、红墙森林雾面彼此贴死、缺乏透视、额外建筑、瀑布、云海翻涌、圆月、文字、水印。",
+   "img": "assets/full/A092.webp",
+   "thumb": "assets/thumb/A092.webp",
+   "w": 900,
+   "h": 504,
+   "shots": [
+    {
+     "img": "assets/full/A092.webp",
+     "thumb": "assets/thumb/A092.webp",
+     "w": 900,
+     "h": 504
+    }
+   ],
+   "srcHash": "31e0df1036a62e2a",
    "needsPrompt": false
   }
  ]
