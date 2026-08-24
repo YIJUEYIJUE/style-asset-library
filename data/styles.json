@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 162,
+ "count": 175,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -246,7 +246,7 @@
   {
    "name": "风格参考——国风水墨",
    "tone": "NEW CATEGORY",
-   "count": 3
+   "count": 4
   },
   {
    "name": "风格参考——东方装饰插画",
@@ -290,6 +290,66 @@
   },
   {
    "name": "风格参考——日系柔焦",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——上海美术电影",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——燕云十六州",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——藤本树",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——古风真人",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——现代都市",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——和平精英",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——香港电影",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——AI真人",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——3D国创",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——游戏CG",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——3D乙游",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "风格参考——美式真人",
    "tone": "NEW CATEGORY",
    "count": 1
   }
@@ -5166,6 +5226,344 @@
    "thumb": "assets/thumb/A163.webp",
    "w": 383,
    "h": 680
+  },
+  {
+   "id": "A164",
+   "seq": "164",
+   "title": "上海美术电影",
+   "category": "风格参考——上海美术电影",
+   "kind": "风格参考",
+   "tone": "1979 上海美术电影制片厂手绘赛璐珞；粗黑勾线、零渐变零阴影、大块高饱和平涂",
+   "palette": "",
+   "model": "Oii Image 2",
+   "tags": [
+    "风格参考",
+    "上海美术电影",
+    "Shanghai Animation",
+    "手绘动画",
+    "cel"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "RedMatcha, ZaoDao, Merasgar, 《浪浪山小妖怪》style, Little Monsters Summer aesthetic, 1979 Shanghai Animation Film Studio hand-painted cel animation, character rendered with closed bold black contour lines and absolute zero gradient zero shadow, large blocks of vivid saturated flat pure color with hard edges on character, crisp character silhouette, decorative flowing costume line work, Peking opera inspired facial stylization, triangular slanted phoenix eyes with sharp upward black eyeliner, pale powdered white face with flat pink blush on cheekbones as single continuous red block, small cherry red lips, red bindi on forehead, slender dramatically arched eyebrows, background painted with soft round brush strokes, light and dark color blocks building atmospheric volume through xu-shi contrast, layered depth via stepped value masses, subtle ink wash diffusion in mid-ground and distance, 大写意手法, 大块软圆形笔刷用明暗色块塑造层次感, 小块水墨笔刷绘制黑色水墨塑造前景闭塞转折, small precise areas of black ink only for foreground occlusion and delicate corner turns, classic 2D animation texture, slight cel film grain, clean and simple visuals, very harmonious color scheme, refreshing colors, no gradient on character, no soft shading on character, no 3d render, no thick oil paint, no digital blur on character edges, no warm tint, no sepia, No text, no logo.",
+   "img": "assets/full/A164.webp",
+   "thumb": "assets/thumb/A164.webp",
+   "w": 788,
+   "h": 1400
+  },
+  {
+   "id": "A165",
+   "seq": "165",
+   "title": "燕云十六州",
+   "category": "风格参考——燕云十六州",
+   "kind": "风格参考",
+   "tone": "《燕云十六声》官方游戏内角色风格，AAA 级 3D 游戏渲染",
+   "palette": "",
+   "model": "Oii Image 2",
+   "tags": [
+    "风格参考",
+    "燕云十六州",
+    "Winds-Meet",
+    "国风3D",
+    "游戏"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Where Winds Meet (燕云十六声) official in-game character style, AAA 3D game render, narrow face shape,pointed chin,Smooth face shape,Big eyes,CG sculpt face,3D game model face, small head perfect body proportion, slender neck delicate bone structure, non-photorealistic idealized anatomy,Oriental Guofeng Xianxia aesthetics, dramatic chiaroscuro volumetric lighting, hyper-detailed embroidery silk metal fur textures, physics-simulated hair, atmospheric particles, warm-cold contrast, 8k,No logo Displaying facial muscle structures is prohibited.expressionless",
+   "img": "assets/full/A165.webp",
+   "thumb": "assets/thumb/A165.webp",
+   "w": 788,
+   "h": 1400
+  },
+  {
+   "id": "A166",
+   "seq": "166",
+   "title": "藤本树",
+   "category": "风格参考——藤本树",
+   "kind": "风格参考",
+   "tone": "画师 uki atsuya 的漫画触发词风格",
+   "palette": "",
+   "model": "NovelAI",
+   "tags": [
+    "风格参考",
+    "藤本树",
+    "Tatsuki Fujimoto",
+    "漫画",
+    "artist"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "artist:uki atsuya,",
+   "img": "assets/full/A166.webp",
+   "thumb": "assets/thumb/A166.webp",
+   "w": 390,
+   "h": 690
+  },
+  {
+   "id": "A167",
+   "seq": "167",
+   "title": "古风真人",
+   "category": "风格参考——古风真人",
+   "kind": "风格参考",
+   "tone": "亚洲古装写实摄影；哑光无反光皮肤、小头比例、全年龄真实古装人物",
+   "palette": "",
+   "model": "Oii Image 2",
+   "tags": [
+    "风格参考",
+    "古风真人",
+    "写实古装",
+    "Xianxia",
+    "photorealistic"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Asian historical costume photorealistic style. ultra-high resolution. depicting living breathing humans with natural blood flow and warmth. Character skin texture resembling dry sandpaper, face showing visible raw details, skin maintaining a strictly flat, non-reflective matte and heavily powdered chalky finish, light-absorbing skin surface, zero specular reflection, global diffuse lighting, gloss-free rendering, natural skin tone with authentic imperfections and organic texture, visible pores and fine vellus hair, realistic skin topography and natural ruddiness, small head proportion, child characters possessing authentic Asian facial features, age-appropriate proportions and hyperrealistic textile textures for adults children and elderly, children dressed in historically accurate traditional Hanfu evoking youthful innocence, highly expressive eyes and narrative-driven facial expressions, historically accurate diverse ancient hairstyles with voluminous dry matte hair strands and hyperrealistic individual hair detail, ancient garments with smooth low-frequency fabric texture, noise-free and detail-reduced textile surface, soft matte fabric finish, no visible grain or micro-texture on clothing, ancient garments with photorealistic material fidelity, scenes permitting natural imperfections, dark areas strictly avoiding crushed pure black, environmental details strictly adhering to real-world physics, all scene reflections completely eliminated, flat overcast lighting, zero directional light, subsurface scattering with zero surface gloss, raw unretouched photography, softbox lighting with heavy diffusion, matte skin shader, clay-like skin texture, dry matte complexion, flat lighting setup, Clean, uncluttered background with zero noise and no distracting details. Negative prompt：no visible muscle structure, no blocky facial planes, no pronounced muscle definition, no visible muscle undulations, no strong facial contours, no light reflection, no glossy finish, no sheen, no fabric noise, no textile grain, no clothing micro-details, no sharp fabric texture, no high-frequency textile patterns, no heavily retouched indoor photography, no excessive sharpening, no unattractive costumes or styling, no visible grain, no silicone or plastic-like skin texture, no harsh artificial lighting, no moist or translucent facial quality, no blurry low-resolution imagery, no hand-painted oil painting style, no CGI effects, no intense lighting, no wet appearance, no plastic-like facial texture, no porcelain-like facial finish, no facial highlights or specular spots, no harsh facial shadows, no oily skin, no greasy sheen, no shiny face, no specular reflections on skin, no skin gloss, no studio lighting, no wet hair.",
+   "img": "assets/full/A167.webp",
+   "thumb": "assets/thumb/A167.webp",
+   "w": 787,
+   "h": 1400
+  },
+  {
+   "id": "A168",
+   "seq": "168",
+   "title": "现代都市",
+   "category": "风格参考——现代都市",
+   "kind": "风格参考",
+   "tone": "现代剧集亚洲真人；偶像剧调色、超柔散射光、顶级神颜、全年龄真实",
+   "palette": "",
+   "model": "Oii Image 2",
+   "tags": [
+    "风格参考",
+    "现代都市",
+    "Modern Urban",
+    "真人剧集",
+    "偶像剧"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Modern drama Asian live-action style, integrated visual system of short drama cinematography + stunning god-level character aesthetics, romance idol drama color grading, diffused ultra-soft light, extremely low contrast, natural fair pink skin tone, diffused soft light, clean grain-free frame, characters with fully matte oil-free skin, realistic hair texture with natural slight frizz, light layered hair ends without harsh highlights, strict age-appropriate body proportions, adult female characters with top-tier real-life stunning beauty (soft delicate features or structured sharp bone structure), slender long-legged figure, visible matte frosted makeup (long lashes, eyeliner, blush, highlighted contact lens eyes), adult male characters with top-tier stunning beauty (sharp structured bone structure or soft delicate features), slender long-legged figure, children with authentic Asian child facial features, all ages (adult, child, elderly with matching proportions and realistic textured clothing), modern casual outfits, authentic cinematic camera shooting effect. Character skin texture exhibits visible raw details, skin kept strictly smooth, non-reflective matte with heavy chalky white powder sheen, zero mirror reflection, global diffuse lighting, no glossy rendering, natural skin tone with real flaws and organic texture, visible pores and fine vellus hairs. Negative prompt: silicone plastic skin, stiff expressions, harsh shadows, contact shadows, plastic surgery appearance, AI artifacts, grain texture, shiny oily reflective skin, CG render look, adultified child features, mature facial features on children, distorted head-to-body ratio, heavy cinematic color grading, harsh color correction, no visible undulations, no strong facial contours, no light reflection, no gloss, no shine, no fabric noise, no textile texture, no clothing micro-details, no sharp fabric texture, no high-frequency textile patterns, no heavily retouched indoor photography, no over-sharpening, no unattractive clothing or styling, no visible texture, no silicone or plastic-like skin texture, no harsh artificial lighting, no wet or translucent facial quality, no blurry low-resolution image, no hand-painted oil painting style, no CGI effects, no intense lighting, no wet appearance, no plastic-like facial texture, no porcelain-like facial treatment, no facial highlights or mirror spots, no harsh facial shadows, no oily skin, no greasy sheen, no glossy face, no mirror reflection on skin, no skin gloss, no studio lighting.",
+   "img": "assets/full/A168.webp",
+   "thumb": "assets/thumb/A168.webp",
+   "w": 788,
+   "h": 1400
+  },
+  {
+   "id": "A169",
+   "seq": "169",
+   "title": "和平精英",
+   "category": "风格参考——和平精英",
+   "kind": "风格参考",
+   "tone": "和平精英战术大逃杀；半写实 CG、AAA 实时游戏电影级渲染、UE5 式光照",
+   "palette": "",
+   "model": "Oii Nano2",
+   "tags": [
+    "风格参考",
+    "和平精英",
+    "Game for Peace",
+    "写实游戏CG",
+    "战术"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Game for Peace style,Game for Peace style,tactical battle royale aesthetic, semi-realistic CG visual aesthetic with AAA real-time game cinematic rendering quality; characters maintain game-accurate human proportions and optimized game face topology ; skin exhibits distinct AAA game-engine digital human rendering, withmatte game skin shader, and normal map micro-detail enhanced through real-time rendering, featuring a subtle synthetic digital-skin quality;hair rendered using high-density PBR real-time hair systems, with strong digital fiber definition and responsive real-time specular highlights, utilizing strand-based rendering technology similar to TressFX;character movement and posing retain slight game-like stiffness and procedural animation characteristics, tactical combat-ready stances and dynamic battle royale action poses; overall lighting uses Unreal Engine 5-style real-time cinematic illumination, volumetric fog and atmospheric scattering, slight depth of field, dynamic chromatic aberration, game cutscene camera, 4k game texture, masterpiece, sharp focus, octane render, game cinematic keyframe,",
+   "img": "assets/full/A169.webp",
+   "thumb": "assets/thumb/A169.webp",
+   "w": 787,
+   "h": 1400
+  },
+  {
+   "id": "A170",
+   "seq": "170",
+   "title": "香港电影",
+   "category": "风格参考——香港电影",
+   "kind": "风格参考",
+   "tone": "邵氏60年代港片；暖黄正色胶片、重颗粒、戏剧棚光、怀旧梦幻",
+   "palette": "",
+   "model": "Oii Image 2",
+   "tags": [
+    "风格参考",
+    "香港电影",
+    "Hong Kong Cinema",
+    "邵氏",
+    "复古胶片"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "[Style Background]: Distinctive aesthetic style of Shaw Brothers Studio's classic 1960s Hong Kong cinema. [Film Texture]: Vintage color process, retro photochemical color grading, soft focus effect, 35mm Eastman Color film camera paired with warm yellow orthochromatic filter, overlaid with heavy vintage film coarse grain. [Light and Shadow Aesthetics]: Dramatic studio lighting effect, cinematic Pro-Mist filter effect. [Costume and Composition]: Stylized wardrobe with rich textures, dramatic character positioning, cinematic composition, vintage lens blur effect. [Color and Atmosphere]: Vintage tungsten warm-tone front color filter, high-contrast early color film linear tone scale calibration, unified global warm color temperature masking system, color layers featuring large areas of earthy warm brown base, local high-saturation primary colors as visual conflict points, low-saturation gray transitional colors softly connecting color block boundaries, color grading boosting red and yellow channel saturation via curves while evenly suppressing cool tone luminance, global overlay of warm golden-brown environmental color mask to unify screen color temperature, leveraging RGB channel difference to enhance the color contrast between red-brown and cyan-black, bold and rich colors, low digital sharpness, creating an infectious atmosphere with a nostalgic and dreamy vibe. [Scene]: Scene allows natural imperfections, dark areas must avoid pure crushed blacks, environmental details must strictly adhere to real-world physics, all scene reflections must be significantly weakened. Scene has no details, serving as a clean background with no noise or details. [Character Skin Texture]: Character skin texture resembles dry sandpaper, clay-like skin texture, dry matte skin, visible raw skin details, skin kept strictly smooth, non-reflective matte with heavy chalky white powder sheen, zero mirror reflection, global diffuse lighting, no glossy rendering, natural skin tone with real flaws, visible pores and fine vellus hairs. [Negative Prompt]: no visible undulations, no strong facial contours, no light reflection, no gloss, no shine, no fabric noise, no textile texture, no clothing micro-details, no sharp fabric texture, no high-frequency textile patterns, no heavily retouched indoor photography, no over-sharpening, no unattractive clothing or styling, no visible texture, no silicone or plastic-like skin texture, no harsh artificial lighting, no wet or translucent facial quality, no hand-painted oil painting style, no CGI effects, no intense lighting, no wet appearance, no plastic-like facial texture, no porcelain-like facial treatment, no facial highlights or mirror spots, no harsh facial shadows, no oily skin, no greasy sheen, no glossy face, no mirror reflection on skin, no skin gloss, no studio lighting.",
+   "img": "assets/full/A170.webp",
+   "thumb": "assets/thumb/A170.webp",
+   "w": 787,
+   "h": 1400
+  },
+  {
+   "id": "A171",
+   "seq": "171",
+   "title": "国风水墨",
+   "category": "风格参考——国风水墨",
+   "kind": "风格参考",
+   "tone": "水墨旧漫风、二次元拟真、国风渲染、虚实结合构图",
+   "palette": "",
+   "model": "Seedream 4.5",
+   "tags": [
+    "风格参考",
+    "国风水墨",
+    "Guofeng Ink",
+    "水墨",
+    "二次元插画"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "水墨风格,漫画，旧漫风，二次元插画，正面视角，水彩风格，CG插画，二次元拟真，超现实，极繁风格，笔触，笔触感，磨砂肌理绘画，精致厚涂,cg插画厚涂，国风渲染，虚实结合构图张力,",
+   "img": "assets/full/A171.webp",
+   "thumb": "assets/thumb/A171.webp",
+   "w": 720,
+   "h": 1280
+  },
+  {
+   "id": "A172",
+   "seq": "172",
+   "title": "AI真人",
+   "category": "风格参考——AI真人",
+   "kind": "风格参考",
+   "tone": "纪实写实（建议垫图）；人文纪实摄影、哑光定妆粉肌、超写实发丝",
+   "palette": "",
+   "model": "Oii Nano Pro",
+   "tags": [
+    "风格参考",
+    "AI真人",
+    "Live-Action",
+    "纪实写实",
+    "documentary"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "documentary realism style,, ultimate details. Canon 5D Mark IV, humanistic documentary photography style. Arge area soft lighting from 45-degree front angle, shallow and soft shadows.Soft and even lighting throughout, no harsh light-shadow boundaries, no large areas of pure white blown-out highlights. no facial oil glare.adult characters with uniformly fair skin, breathtaking beauty, high facial attractiveness, and exquisite three-dimensional bone structure.character skin with a heavy matte setting powder finish, non-reflective, absolutely no facial highlights or shine.Characters universally possess highly attractive facial aesthetics. Natural composition, unretouched, unstaged, breathtaking god-tier character aesthetics, and a genuine everyday life atmosphere. Prioritize natural lighting. Clearly visible fabric and cloth textures, maintaining true tactile quality, no excessive sharpening. Completely remove any dirty textures from the bottom of the frame. Character small head, three-dimensional and exquisite bone structure, clean and well-proportioned facial features.Character skin presents a natural skin texture (no skin smoothing, zero retouching), skin looks like it has been set with oil-absorbing matte powder. Clearly visible skin details including pores and vellus hair, highly expressive eyes with natural luster, natural lip texture, detailed individual eyelashes, naturally fluffy and fresh hair strands (strictly no greasy appearance), excellent natural hair quality, and hyper-realistic individual hair strand rendering (completely matte hairstyle). Unrestricted by race, age, clothing, makeup, or environment; if makeup is present, it should be clearly visible. Real-world scene, absolutely no grain texture. Child characters must possess authentic child-like facial features, and all age groups (adults, children, elderly) must have accurate and matching anatomical proportions. Characters of all ages must possess breathtaking god-tier facial aesthetics. The scene is permitted to contain natural imperfections, the dark areas of the scene must avoid pure crushed blacks, the environmental details must strictly adhere to real-world physics, and all scene reflections must be significantly subdued. Negative prompt: no heavily retouched indoor photography, no commercial blockbuster aesthetic, no excessive sharpening, no AI-sculpted skin effects, no noise, no ugly clothing or styling, no graininess, no silicone plastic skin texture, no stiff expressions, no harsh artificial lighting effects, strictly prohibit facial oil glare, strictly prohibit bright facial highlights, strictly prohibit wet translucent facial texture, no blurry low resolution, no hand-painted oil painting, no skin smoothing.",
+   "img": "assets/full/A172.webp",
+   "thumb": "assets/thumb/A172.webp",
+   "w": 781,
+   "h": 1400
+  },
+  {
+   "id": "A173",
+   "seq": "173",
+   "title": "3D国创",
+   "category": "风格参考——3D国创",
+   "kind": "风格参考",
+   "tone": "3D 国风 CG、凡人修仙传 3D 风格",
+   "palette": "",
+   "model": "Seedream 5.0",
+   "tags": [
+    "风格参考",
+    "3D国创",
+    "Xianxia 3D",
+    "国风3D",
+    "CG"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "3D，3D国风,CG风格,凡人修仙传3D风格，CG，",
+   "img": "assets/full/A173.webp",
+   "thumb": "assets/thumb/A173.webp",
+   "w": 720,
+   "h": 1280
+  },
+  {
+   "id": "A174",
+   "seq": "174",
+   "title": "游戏CG",
+   "category": "风格参考——游戏CG",
+   "kind": "风格参考",
+   "tone": "中国 CG 雕塑脸标准、国风 CG、仙侠 3D 动画、UE5 路径追踪",
+   "palette": "",
+   "model": "Oii Nano Pro",
+   "tags": [
+    "风格参考",
+    "游戏CG",
+    "Game CG",
+    "国风CG",
+    "UE5"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Chinese CG sculpt facial standard, guofengcg, xianxia 3D animation aesthetic,Perfect World animation quality,Mortal Journey UE5 rendering style, Realistic surface materials with varying textures and layers, fine textures with roughness variation, gloss maps, and microscopic surface imperfections. Realistic and natural translucency on organic surfaces, accurate reflection and refraction effects responding to physical laws. PBR materials with metallic workflow, anisotropic reflections on brushed surfaces, subsurface scattering on skin and plant matter. Avoid flat shaders or plastic-like surfaces; materials must show wear, oxidation, and environmental storytelling.grounded physical presence with atmospheric depth. Strong sense of spatial depth and layering, natural depth of field with optical lens falloff, atmospheric haze and volumetric light scattering unifying character and environment. Natural shadows with contact occlusion and soft penumbra, high dynamic range lighting with natural color temperature variation.Photorealistic rendering with optical lens imperfections: chromatic aberration, subtle barrel distortion, film grain texture, and lens flare ghosts. Remove illustration features, no flat colors, no vector outlines, no hand-drawn or graphic textures. Final image must present hyper-detailed cinematic 3D character visualization, heroic silhouette design, unprocessed RAW capture aesthetic with integrated atmospheric haze, as if rendered in Unreal Engine 5 with path tracing, \"negative_prompt\": \"western facial featuresreal person,real person, natural, organic texture,messy background, bright colors, accessories, deformed features, soft skin, natural muscle definition,organic texture,cartoon, anime, cartoon face, big eyes,messy background, bright colors, accessories, deformed features\"",
+   "img": "assets/full/A174.webp",
+   "thumb": "assets/thumb/A174.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A175",
+   "seq": "175",
+   "title": "3D乙游",
+   "category": "风格参考——3D乙游",
+   "kind": "风格参考",
+   "tone": "超写实 3D 二次元融合、半透明分层发丝、梦幻浪漫氛围",
+   "palette": "",
+   "model": "Oii Nano2",
+   "tags": [
+    "风格参考",
+    "3D乙游",
+    "Deepspace 3D",
+    "二次元3D",
+    "乙女"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "hyper-realistic anime style, 细腻皮肤毛孔质感, 半透明分层发丝渲染, high-quality game CG, 超写实3D二次元融合, 类真实纹理, realistic facial proportions, no chibi, 柔和漫射自然光, 虚幻引擎风背景, soft cinematic lighting, warm pastel color palette, 浅景深背景, 通透空气感光影, 次世代3D建模质感, 局部高饱和度点缀元素, dreamy and romantic atmosphere, 差异化的长相, 避免长得和\"沈星回\"、\"黎深\"、\"祁煜\"、\"秦彻\"、\"夏以昼\"几个男主一模一样, 禁止扁平画风和手办质感以及真人照片质感.",
+   "img": "assets/full/A175.webp",
+   "thumb": "assets/thumb/A175.webp",
+   "w": 781,
+   "h": 1400
+  },
+  {
+   "id": "A176",
+   "seq": "176",
+   "title": "美式真人",
+   "category": "风格参考——美式真人",
+   "kind": "风格参考",
+   "tone": "ReelShort 短剧剧照；多元美国网剧卡司、写实白人顶级美学标准",
+   "palette": "",
+   "model": "Oii Nano Pro",
+   "tags": [
+    "风格参考",
+    "美式真人",
+    "Live-Action",
+    "ReelShort",
+    "写实剧集"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Still from ReelShort series, diverse American web TV cast, realistic racially diverse Caucasian and European features, facial area illuminated by 45-degree front angle soft lighting, shallow and soft shadows, evenly distributed overall lighting, no sharp light-shadow boundaries, no large areas of pure white halos, no oily sheen on the face, skin dry like rice paper, skin surface covered with a thick layer of oil-absorbing powder coating, shallow and soft shadows, natural composition, unretouched and unstaged, breathtaking god-tier character aesthetics, soft color grading, low contrast, authentic daily life atmosphere, characters have relaxed and natural poses with model-like quality, form-fitting clothing without bulkiness, characters possess extremely high facial folding, full and high cranial vault, broad and rounded forehead, highly developed and high-positioned brow bones forming a deep drop with the eye sockets, creating a deep and three-dimensional visual effect in the eye area, straight and tall nose bridge, extremely thin nasal bone, clear and exquisite nasal tip, smooth and natural seagull line, nasal wing width strictly controlled between the inner canthi of both eyes, showing perfect three-dimensional depth from front to side, full mandibular development, clear, sharp and tight jawline extending from the earlobe to the chin, rounded and slightly upturned chin, perfectly aligned with the forehead and nasal tip from a side view, conforming to ultimate aesthetic standards, facial features strictly following the golden ratio, balanced proportions of the rule of thirds and five eyes, highly symmetrical face, moderately positioned and flat cheekbones supporting facial three-dimensionality while ensuring tight and flat facial soft tissue, narrow and long eye fissures, sharp and distinct inner and outer eye corners, dense and curled eyelashes, clear and bright iris color, focused and powerful gaze, full and plump lips, obvious lip peaks and prominent lip beads, coordinated upper and lower lip proportions, ruddy and healthy lip color, facial skin showing visible raw details, skin kept strictly flat, non-reflective matte and heavy chalky matte finish, light-absorbing skin surface, zero specular reflection, global diffuse lighting, matte rendering, natural skin tones with authentic imperfections, visible pores and fine vellus hair, adult characters with stunning beauty, high facial attractiveness, attractive yet approachable premium series faces, high-end streaming romance aesthetic, emotional TV drama atmosphere, realism, adult characters having a nearly perfect eight-head or nine-head body ratio, small head proportions, slender yet powerful limb bones, long arm lines, evenly distributed muscles, tight and smooth skin without any excess fat or sagging, presenting a tall, perfectly proportioned, smooth muscle-lined, and healthy top-tier body aesthetic, child characters with authentic Caucasian facial features, age-appropriate proportions and hyperrealistic textile textures, highly expressive eyes and narrative-driven facial expressions, naturally fluffy and fresh hair strands, excellent natural hair quality, hyperrealistic individual hair strand rendering (completely matte hairstyle), natural imperfections allowed in scene, dark areas strictly avoiding crushed pure blacks, environmental details strictly adhering to real-world physics, all scene reflections completely eliminated, flat shadow lighting, zero directional light, zero surface gloss subsurface scattering, raw unretouched photography, matte skin shader, dry matte skin, zero noise and no distracting details, scene allows natural defects, dark areas of the scene must avoid pure crushed blacks, environmental details must strictly adhere to real-world physics, all scene reflections must be significantly reduced, negative prompt: no visible muscle structure, no blocky facial planes, no pronounced muscle definition, no visible undulations, no strong facial contours, no light reflection, no gloss, no shine, no fabric noise, no textile texture, no clothing micro-details, no sharp fabric texture, no high-frequency textile patterns, no heavily retouched interior photography, no excessive sharpening, no unattractive clothing or styling, no visible texture, no silicone or plastic-like skin texture, no harsh artificial lighting, no moist or translucent facial quality, no blurry low-resolution image, no hand-painted oil painting style, no CGI effects, no intense lighting, no wet appearance, no plastic-like facial texture, no porcelain-like facial treatment, no facial highlights or specular spots, no harsh facial shadows, no oily skin, no greasy sheen, no glossy face, no mirror reflection on skin, no skin gloss, no studio lighting, no wet hair, no famous celebrity faces, no well-known actors, no Asian faces, no harsh light-shadow boundaries.",
+   "img": "assets/full/A176.webp",
+   "thumb": "assets/thumb/A176.webp",
+   "w": 787,
+   "h": 1400
   }
  ]
 }
