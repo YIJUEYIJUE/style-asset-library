@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 105,
+ "count": 106,
  "cats": [
   {
    "name": "风格参考——综合",
@@ -236,6 +236,11 @@
    "name": "商业广告——饮料食品",
    "tone": "品牌广告",
    "count": 3
+  },
+  {
+   "name": "分镜故事板——历史电影",
+   "tone": "NEW CATEGORY",
+   "count": 1
   }
  ],
  "hero": [
@@ -3638,6 +3643,32 @@
    "thumb": "assets/thumb/A105.webp",
    "w": 933,
    "h": 1400
+  },
+  {
+   "id": "A106",
+   "seq": "106",
+   "title": "3×3 历史事件电影分镜",
+   "category": "分镜故事板——历史电影",
+   "kind": "分镜故事板",
+   "tone": "史诗、严肃、电影感、历史叙事",
+   "palette": "暖棕 / 冷灰 / 暗金",
+   "model": "通用",
+   "tags": [
+    "分镜",
+    "故事板",
+    "历史",
+    "电影",
+    "提示词工程"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "[HISTORICAL EVENT INPUT]: (buraya istediğin tarihi olayı yaz)  MASTER PROMPT – 9 KARELİK TARİHİ STORYBOARD HISTORICAL CINEMATIC STORYBOARD (3×3 GRID) A 3×3 cinematic storyboard grid, captured with a professional cinema camera, using anamorphic lens optics, visually narrating [HISTORICAL EVENT INPUT] across nine sequential frames. Each frame represents a distinct narrative beat of the historical event, progressing chronologically from cause to consequence. The overall tone is serious, cinematic, grounded, and historically respectful. No modern elements unless historically accurate. CAMERA & LENS (GLOBAL – IMPORTANT) Shot on professional cinema camera Anamorphic lens optics (2.39:1 cinematic feel within each grid cell) Subtle anamorphic traits: Horizontal light streaks Oval bokeh Mild edge distortion Camera always stable and deliberate No handheld look Composition inspired by high-end historical cinema LIGHTING (GLOBAL) Naturalistic, period-accurate lighting Strong use of: Directional sunlight Firelight / torchlight / candlelight (if era-appropriate) High contrast where drama demands Shadows used narratively, not cosmetically No modern beauty lighting Color palette reflects the emotional weight of the event ENVIRONMENT & SET Architecturally and culturally accurate to the historical period Materials must feel real: Stone, wood, iron, cloth, leather, dust, smoke Atmosphere: Smoke, haze, mist, dust, weather elements if relevant No futuristic or anachronistic details CHARACTERS (GENERIC TEMPLATE) Characters represent historical roles, not stylized heroes Clothing, posture, age, and expressions match the era Faces show: Fear, resolve, doubt, ambition, exhaustion, triumph (as relevant) No exaggerated acting, no modern expressions  3×3 GRID STRUCTURE – NARRATIVE FLOW FRAME 1 – Historical Tension Before the Event (Wide / Establishing) Wide anamorphic establishing shot Shows the world before the turning point Calm or tense atmosphere depending on context Visual foreshadowing of conflict or change FRAME 2 – Gathering Forces (Wide / Movement) Wider scene with preparations, crowds, or mobilization Subtle motion implied (marching, assembling, planning) Rising tension FRAME 3 – Key Figures Introduced (Medium / Authority) Medium shot of important historical figures or symbolic leaders Strong posture, controlled expressions Camera slightly lower to imply significance FRAME 4 – The Spark (Medium / Conflict Begins) First visible action that triggers the event Emotion breaks through restraint Lighting becomes more contrast-heavy FRAME 5 – The Turning Point (Close / Emotional Core) Close-up or tight medium shot The emotional heart of the historical moment Fear, determination, realization, or sacrifice clearly visible Shallow depth of field isolates the subject FRAME 6 – Chaos or Struggle (Wide / Dynamic Composition) Wider shot showing conflict, upheaval, or dramatic transformation Diagonal compositions Smoke, debris, motion frozen cinematically FRAME 7 – Consequence Unfolding (Medium / Aftermath) Immediate aftermath Characters reacting to what just happened Silence implied through visuals FRAME 8 – Resolution (Wide / Symbolic) Wide symbolic shot Power shift, victory, loss, or irreversible change Environment visually altered compared to Frame 1 FRAME 9 – Historical Echo (Wide / Final Statement) Final, emotionally resonant frame Feels like a history book cover Calm after chaos or heavy stillness Leaves the viewer reflecting on long-term impact NEGATIVE PROMPT (GLOBAL) anime, cartoon, illustration, fantasy, sci-fi, cyberpunk, neon colors, modern clothing, modern weapons, futuristic architecture, beauty lighting, glossy skin, exaggerated expressions, superhero poses, handheld camera, wide-angle distortion, modern cities, text overlays, subtitles, logos",
+   "img": "assets/full/A106.webp",
+   "thumb": "assets/thumb/A106.webp",
+   "w": 360,
+   "h": 201
   }
  ]
 }
