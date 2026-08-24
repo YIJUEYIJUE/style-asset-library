@@ -1,245 +1,241 @@
 {
  "version": 1,
- "count": 106,
+ "count": 137,
  "cats": [
   {
-   "name": "风格参考——综合",
-   "tone": "COLLECTION",
-   "count": 12
-  },
-  {
    "name": "海报排版——模板",
-   "tone": "COLLECTION",
    "count": 11
   },
   {
-   "name": "场景——东方神幻",
-   "tone": "COLLECTION",
-   "count": 7
+   "name": "时尚——服装展示",
+   "count": 6
   },
   {
-   "name": "摄影——电影感",
-   "tone": "COLLECTION",
-   "count": 7
-  },
-  {
-   "name": "摄影——日系胶片",
-   "tone": "COLLECTION",
-   "count": 5
-  },
-  {
-   "name": "二次元——动漫角色",
-   "tone": "COLLECTION",
-   "count": 3
-  },
-  {
-   "name": "摄影——科幻",
-   "tone": "COLLECTION",
-   "count": 3
-  },
-  {
-   "name": "二次元——游戏角色",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "人像——写实人像",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "插画——水彩",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "摄影——产品静物",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "摄影——写实人像",
-   "tone": "COLLECTION",
-   "count": 4
-  },
-  {
-   "name": "摄影——动物",
-   "tone": "COLLECTION",
-   "count": 2
+   "name": "摄影——民国国风",
+   "count": 1
   },
   {
    "name": "摄影——生活纪实",
-   "tone": "COLLECTION",
    "count": 2
-  },
-  {
-   "name": "摄影——风光",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "时尚——服装展示",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "角色设定——国风仙侠",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "角色设定——西幻",
-   "tone": "COLLECTION",
-   "count": 2
-  },
-  {
-   "name": "二次元——校园",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "人像——身份参考",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "卡通——3D角色",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——厚涂",
-   "tone": "COLLECTION",
-   "count": 1
   },
   {
    "name": "插画——古风仙侠",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——奇幻",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——手绘",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——新国风",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——日系动漫",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——极简",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——科幻",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "插画——艺术壁画",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "摄影——复古胶片",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "摄影——建筑空间",
-   "tone": "COLLECTION",
    "count": 1
   },
   {
    "name": "摄影——手机摄影",
-   "tone": "COLLECTION",
    "count": 1
   },
   {
-   "name": "摄影——民国国风",
-   "tone": "COLLECTION",
+   "name": "插画——艺术壁画",
    "count": 1
   },
   {
-   "name": "摄影——特殊视角",
-   "tone": "COLLECTION",
-   "count": 1
+   "name": "二次元——游戏角色",
+   "count": 2
+  },
+  {
+   "name": "摄影——日系胶片",
+   "count": 5
   },
   {
    "name": "海报——构成主义",
-   "tone": "COLLECTION",
+   "count": 1
+  },
+  {
+   "name": "二次元——校园",
+   "count": 1
+  },
+  {
+   "name": "摄影——电影感",
+   "count": 7
+  },
+  {
+   "name": "人像——身份参考",
+   "count": 3
+  },
+  {
+   "name": "摄影——写实人像",
+   "count": 4
+  },
+  {
+   "name": "摄影——特殊视角",
+   "count": 2
+  },
+  {
+   "name": "卡通——3D角色",
+   "count": 2
+  },
+  {
+   "name": "角色设定——Agent",
+   "count": 1
+  },
+  {
+   "name": "摄影——科幻",
+   "count": 3
+  },
+  {
+   "name": "插画——日系动漫",
+   "count": 1
+  },
+  {
+   "name": "风格参考——综合",
+   "count": 18
+  },
+  {
+   "name": "摄影——建筑空间",
+   "count": 1
+  },
+  {
+   "name": "插画——水彩",
+   "count": 2
+  },
+  {
+   "name": "插画——手绘",
+   "count": 1
+  },
+  {
+   "name": "摄影——复古胶片",
+   "count": 1
+  },
+  {
+   "name": "插画——奇幻",
+   "count": 1
+  },
+  {
+   "name": "场景——东方神幻",
+   "count": 7
+  },
+  {
+   "name": "角色设定——国风仙侠",
+   "count": 2
+  },
+  {
+   "name": "风格参考——提示词工程",
+   "count": 2
+  },
+  {
+   "name": "角色设定——西幻",
+   "count": 2
+  },
+  {
+   "name": "二次元——动漫角色",
+   "count": 4
+  },
+  {
+   "name": "插画——极简",
+   "count": 2
+  },
+  {
+   "name": "插画——新国风",
+   "count": 2
+  },
+  {
+   "name": "摄影——风光",
+   "count": 2
+  },
+  {
+   "name": "风格参考——恐怖",
+   "count": 1
+  },
+  {
+   "name": "摄影——产品静物",
+   "count": 2
+  },
+  {
+   "name": "摄影——动物",
+   "count": 2
+  },
+  {
+   "name": "人像——写实人像",
+   "count": 2
+  },
+  {
+   "name": "插画——科幻",
    "count": 1
   },
   {
    "name": "海报——电影海报",
-   "tone": "COLLECTION",
    "count": 1
   },
   {
-   "name": "角色设定——Agent",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "风格参考——恐怖",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "风格参考——提示词工程",
-   "tone": "COLLECTION",
-   "count": 1
-  },
-  {
-   "name": "商业广告——产品海报",
-   "tone": "品牌广告",
-   "count": 1
-  },
-  {
-   "name": "商业广告——服饰时尚",
-   "tone": "品牌广告",
-   "count": 3
-  },
-  {
-   "name": "商业广告——汽车",
-   "tone": "品牌广告",
-   "count": 1
-  },
-  {
-   "name": "商业广告——电子数码",
-   "tone": "品牌广告",
-   "count": 1
-  },
-  {
-   "name": "商业广告——美妆洗护",
-   "tone": "品牌广告",
-   "count": 1
-  },
-  {
-   "name": "商业广告——运动健康",
-   "tone": "品牌广告",
+   "name": "插画——厚涂",
    "count": 1
   },
   {
    "name": "商业广告——饮料食品",
-   "tone": "品牌广告",
    "count": 3
   },
   {
+   "name": "商业广告——汽车",
+   "count": 1
+  },
+  {
+   "name": "商业广告——服饰时尚",
+   "count": 3
+  },
+  {
+   "name": "商业广告——产品海报",
+   "count": 2
+  },
+  {
+   "name": "商业广告——运动健康",
+   "count": 1
+  },
+  {
+   "name": "商业广告——电子数码",
+   "count": 1
+  },
+  {
+   "name": "商业广告——美妆洗护",
+   "count": 1
+  },
+  {
    "name": "分镜故事板——历史电影",
-   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——科普信息图",
+   "count": 1
+  },
+  {
+   "name": "游戏——次世代画面",
+   "count": 2
+  },
+  {
+   "name": "场景——风光",
+   "count": 1
+  },
+  {
+   "name": "场景——生活纪实",
+   "count": 1
+  },
+  {
+   "name": "插画——综合",
+   "count": 1
+  },
+  {
+   "name": "角色设定——游戏角色",
+   "count": 1
+  },
+  {
+   "name": "摄影——运动",
+   "count": 1
+  },
+  {
+   "name": "分镜故事板——影视分镜",
+   "count": 1
+  },
+  {
+   "name": "游戏——地图场景",
+   "count": 1
+  },
+  {
+   "name": "摄影——艺术摄影",
+   "count": 1
+  },
+  {
+   "name": "场景——建筑空间",
    "count": 1
   }
  ],
@@ -3669,6 +3665,803 @@
    "thumb": "assets/thumb/A106.webp",
    "w": 360,
    "h": 201
+  },
+  {
+   "id": "A107",
+   "seq": "107",
+   "title": "食物的一生科普信息图",
+   "category": "插画——科普信息图",
+   "kind": "插画",
+   "tone": "小红书科普、极简浅色、真实摄影",
+   "palette": "米色/食材原色",
+   "model": "通用",
+   "tags": [
+    "科普",
+    "信息图",
+    "食物",
+    "时间切片",
+    "微距"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "以“{食物名称}的一生”为主题的科普信息图。\n\n画面中必须是“一个完整的单体食物”（如一个土豆 / 一把香蕉 / 一头大蒜），\n通过横向切片的方式，表现同一个食物在不同时间阶段的变化，而不是多个不同食物拼接。\n\n食物主体保持结构连续、形状一致，只是在不同切片区域呈现不同成熟度（像时间被切开）。\n\n画面为竖版3:4比例，主体居中横向展开，被均匀分割为4-6段：\n\n从左到右：未成熟 → 成熟 → 过熟 → 变质\n\n每一段体现真实变化：\n\n颜色变化（青→黄→黑等）\n质地变化（饱满→软化→皱缩→腐坏）\n特征变化（发芽、出水、霉变等）\n\n每个阶段配文字说明：\n\n阶段名称\n外观特点\n内部变化（糖分/淀粉/水分变化）\n食用建议（推荐/适合烹饪/不可食用）\n\n设计风格：\n\n极简浅色背景（米色）\n高真实感摄影风格\n清晰分割线（时间切片感）\n中文科普排版，小红书风格\n适当使用等标识\n\n画面顶部标题：“{食物名称}的一生”\n\n关键要求：必须表现为“同一个食物随时间变化的切片”，而不是多个独立个体拼接",
+   "img": "assets/full/A107.webp",
+   "thumb": "assets/thumb/A107.webp",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "A108",
+   "seq": "108",
+   "title": "GPT图像2 风格控制提示词",
+   "category": "风格参考——提示词工程",
+   "kind": "风格参考",
+   "tone": "控制 gptimage2 输出质感",
+   "palette": "——",
+   "model": "通用",
+   "tags": [
+    "提示词工程",
+    "风格控制",
+    "扁平",
+    "动漫上色"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "When outputting normally with gptimage2, it often gives off that impression of an old-school local image generation AI texture—like a gritty, shiny, glossy vibe—but if you just tack a little something onto the end to control the style, it might be worth a shot.  \nJust add stuff like  \n\"Flat\" \"Anime Coloring\" \"No Shadows\"  \nand you're good.",
+   "img": "assets/full/A108.webp",
+   "thumb": "assets/thumb/A108.webp",
+   "w": 856,
+   "h": 1179
+  },
+  {
+   "id": "A109",
+   "seq": "109",
+   "title": "多啦A梦末日都市 3D 游戏截图",
+   "category": "游戏——次世代画面",
+   "kind": "游戏",
+   "tone": "写实 3D 游戏截图",
+   "palette": "紫蓝闪电/废墟",
+   "model": "通用",
+   "tags": [
+    "游戏",
+    "3D",
+    "动作RPG",
+    "末日都市",
+    "次世代"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "\"A high-resolution, photorealistic 3D action RPG mobile game screenshot of an epic battle featuring Doraemon characters. The perspective is from behind the main player character, Nobita. The background is a post-apocalyptic urban scene of rubble, crumbling concrete, rebar, debris, small fires, and intense purple and blue lightning in a dark, cloudy night sky.  Characters:  Foreground Left: Doraemon, holding an elaborate, multi-barrel gatling-style cannon which hums with blue energy in his hand.  Foreground Center: Nobita, in a combat stance with his multi-layered slingshot weapon, wearing his classic yellow shirt, blue shorts, and glasses.  Middle Ground Center: Giant Gian (the boss), massive, muscular, intimidating, holding a spiked mace, with glowing sinister red eyes and surrounded by purple energy effects.  Nameplates: Doraemon (Lv. 30, HP: 2150/2420, MP: 860/1000), Nobita (Lv. 30, HP: 1980/2200, MP: 900/1000), Gian (Lv. ??, HP: 85670/100000, x4).  UI Elements (All in English):  Left Side Panel: The title is \"MISSIONS\" and \"TEAM\". The \"MAIN QUEST\" header is followed by \"Defeat Giant Gian\" and \"Defeat the Corrupted Gian [0/1]\". The \"DAILY TASKS\" header is followed by \"Use skill to hit Gian 3 times (2/3) [Check]\", \"Use item to restore HP 1 time (1/1) [Check]\", and \"Achieve 1 Perfect Dodge (0/1)\".  Right Side Panel: The header \"BOSS MISSION\" is followed by \"Defeat Giant Gian\" and \"Defeat the Corrupted Gian [0/1]\".  Bottom Right Skill Buttons: Labels (clockwise from top): \"Heavy Strike\", \"Basic Attack\" (with Doraemon head), \"Bamboo Copter Flight\", \"Item Bag\", \"Tumble Dodge\". Glowing blue skill icons are present.  Bottom Center Item Bar: Above the items, \"STAMINA VALUE\" followed by \"120/130\". The items are \"Dorayaki (15)\", \"Healing Drink (8)\", \"Bamboo Copter (5)\", \"Time Beam Camera (3)\".  Mini-Map: Top right corner mini-map with skull icon.  D-pad: English text virtual D-pad on the bottom left.  Screen Details: Cinematic lighting and effects. The cool blue of Doraemon's weapon light, warm orange firelight, cold purple lightning, and Gian's sinister red eyes. Detailed textures on clothing and weapons. All English text is clean, legible, and accurate. The low-angle emphasizes the scale difference and battle tension.\"",
+   "img": "assets/full/A109.webp",
+   "thumb": "assets/thumb/A109.webp",
+   "w": 900,
+   "h": 506
+  },
+  {
+   "id": "A110",
+   "seq": "110",
+   "title": "生物超模微距时尚封面",
+   "category": "时尚——服装展示",
+   "kind": "时尚",
+   "tone": "Hypebeast 街头高定 + Vogue Editorial",
+   "palette": "深色背景/材质对比",
+   "model": "通用",
+   "tags": [
+    "时尚",
+    "微距",
+    "editorial",
+    "生物",
+    "高定"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "生成一张高端时尚杂志封面感的微距摄影作品：主角是 {生物}，像超模一样站在画面中心，姿态自信、酷感十足，带强烈镜头感。它穿着 {服装}（为微型身体量身定制），服装必须呈现真实可触的材质与工艺细节，而不是贴图或涂抹效果，并与 {生物} 的天然质感形成强烈对比。整体氛围是 Hypebeast 街头高定 + Vogue Editorial，深色干净背景，影棚级布光（轮廓边缘光与蝴蝶光），浅景深微距镜头，细节锐利、质感高级、画面像正式封面大片。画面中不出现人类手、杂乱背景或多余主体。画幅比例 4:5。极简高定 editorial 封面",
+   "img": "assets/full/A110.webp",
+   "thumb": "assets/thumb/A110.webp",
+   "w": 1128,
+   "h": 1400
+  },
+  {
+   "id": "A111",
+   "seq": "111",
+   "title": "先锋运动时尚广告（网球拍）",
+   "category": "时尚——服装展示",
+   "kind": "时尚",
+   "tone": "先锋运动时尚大片",
+   "palette": "纯白/运动感",
+   "model": "通用",
+   "tags": [
+    "时尚",
+    "运动",
+    "先锋",
+    "广告",
+    "网球"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Avant-garde sports fashion advertisement, oversized tennis racket positioned like monumental sculpture, female athlete seated casually on the strings as if a suspended lounge, giant word “PRECISION” in bold typography behind, crisp white studio backdrop, reflective court-like floor, luxury sportswear editorial aesthetic, cinematic lighting, ultra-clean composition, 1:1",
+   "img": "assets/full/A111.webp",
+   "thumb": "assets/thumb/A111.webp",
+   "w": 900,
+   "h": 900
+  },
+  {
+   "id": "A113",
+   "seq": "113",
+   "title": "舞者姿态转珠宝展台概念设计",
+   "category": "商业广告——产品海报",
+   "kind": "商业广告",
+   "tone": "珠宝展示物件设计",
+   "palette": "白/金",
+   "model": "通用",
+   "tags": [
+    "产品",
+    "珠宝",
+    "概念设计",
+    "工业"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "conceptual design evolution, dancer pose transformed into an elegant jewelry stand design, sequential process from graceful dancer silhouette to gesture sketch to abstract flowing lines to final product form, extended arms and curved posture shaping necklace hooks and ring holders, refined sculptural silhouette, polished gold metal frame, marble base, delicate velvet accents, premium luxury jewelry display object, clean white studio background, pencil sketch studies on the top row, photorealistic jewelry stand on the bottom row, soft cinematic lighting, refined industrial design presentation layout, ultra detailed, 3:4",
+   "img": "assets/full/A113.webp",
+   "thumb": "assets/thumb/A113.webp",
+   "w": 510,
+   "h": 680
+  },
+  {
+   "id": "A114",
+   "seq": "114",
+   "title": "极简 3D 风景红日骆驼",
+   "category": "插画——极简",
+   "kind": "插画",
+   "tone": "极简 3D 艺术风景",
+   "palette": "灰蓝/红日",
+   "model": "通用",
+   "tags": [
+    "极简",
+    "3D",
+    "风景",
+    "红日"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "3D art style, minimalist landscape. Massive perfect red sun circle in clean grey sky. White sand dunes forming diagonal slopes, sharp ridges, subtle red distinct texture on the mountain ridges. Tiny silhouette of camel caravan at the bottom. High contrast, clean lines, photorealistic texture, ethereal lighting, --no ink, no messy clouds, no brushstrokes.",
+   "img": "assets/full/A114.webp",
+   "thumb": "assets/thumb/A114.webp",
+   "w": 900,
+   "h": 600
+  },
+  {
+   "id": "A115",
+   "seq": "115",
+   "title": "白色虚空中的 47000 张照片",
+   "category": "风格参考——综合",
+   "kind": "风格参考",
+   "tone": "超现实概念艺术",
+   "palette": "白/彩色",
+   "model": "通用",
+   "tags": [
+    "概念",
+    "超现实",
+    "装置",
+    "手机相册"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "A person standing alone in an empty white void, but physically attached to them by thin threads of light are roughly 47,000 floating printed photographs — the entire contents of their phone's camera roll — most of them are screenshots of text messages, memes, receipts, photographs of parking spots, blurry nothing, duplicate duplicate duplicate, only a handful are actual meaningful moments (a dying grandmother smiling, a wedding kiss, a newborn) and these precious few are buried in the mass, the person is bent slightly under the weight, the image asks without asking: what are you actually documenting, hyperrealistic photography, studio lighting, conceptual art gravitas, Andreas Gursky scale.",
+   "img": "assets/full/A115.webp",
+   "thumb": "assets/thumb/A115.webp",
+   "w": 900,
+   "h": 600
+  },
+  {
+   "id": "A116",
+   "seq": "116",
+   "title": "商务档案头像海报（保留身份）",
+   "category": "人像——身份参考",
+   "kind": "人像",
+   "tone": "正式商务档案头像",
+   "palette": "纯白/深蓝",
+   "model": "通用",
+   "tags": [
+    "人像",
+    "商务",
+    "证件照",
+    "身份保真"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "请基于我上传的人像照片生成一张正式商务档案头像海报。保留人物真实身份特征、五官比例、脸型基础和整体气质，不要改变人物身份。\n\n可以适度优化面部轮廓，使脸部线条更清晰、自然、上镜；平滑皮肤质感，减少瑕疵、暗沉和肤色不均，但不要过度磨皮，保留真实皮肤细节和自然光影。\n\n请根据人物脸型设计一款匹配的商务发型。发型应干净利落、成熟专业、适合正式场合，发丝自然、有层次，不夸张。请为人物搭配正式商务穿搭，例如深色西装外套、白色或浅色衬衫，可搭配领带。整体造型应高级、简洁、专业、可信赖。\n\n画面为正面半身肖像，人物居中，直视镜头，表情自然自信。背景为纯白色素色背景，光线柔和均匀，类似专业证件照、企业头像摄影或大学官网个人档案照。整体风格干净、正式、商务、高清写实摄影质感，方形比例 1:1。\n\n画面下方预留简洁信息栏，并添加现代简洁排版文字：\n姓名：[小泉柚奈]\n身份/职位：[高级平面设计]\n专业/部门/机构：[国际设计院]\n\n重要文字规则：\n如果用户输入的姓名、身份、职位、专业、部门、机构或其他需要显示在图片上的文字是中文或其他语言，请先将这些内容翻译成自然、准确、正式的英文，再放入图片中。除非用户明确要求保留中文，否则图片中不要显示中文文字。\n\n排版要求：\n第一行姓名使用深蓝色粗体大字号英文文字；第二行和第三行使用黑色常规字号英文文字。整体排版参考大学官网个人档案、学术会议人物介绍卡片或专业商务头像海报风格。",
+   "img": "assets/full/A116.webp",
+   "thumb": "assets/thumb/A116.webp",
+   "w": 680,
+   "h": 680
+  },
+  {
+   "id": "A117",
+   "seq": "117",
+   "title": "草地野花金色时刻俯拍场景",
+   "category": "场景——风光",
+   "kind": "场景",
+   "tone": "怀旧梦幻自然场景",
+   "palette": "绿/金",
+   "model": "通用",
+   "tags": [
+    "场景",
+    "自然",
+    "草地",
+    "金色时刻",
+    "俯拍"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "{\n  \"scene\": {\n    \"setting\": \"sunlit grassy field filled with small white daisies\",\n    \"time_of_day\": \"golden hour, late afternoon\",\n    \"environment\": \"lush green grass with scattered wildflowers, soft breeze implied through slight motion blur in grass tips\",\n    \"mood\": \"nostalgic, calm, dreamy, slightly melancholic\"\n  },\n  \"composition\": {\n    \"camera_angle\": \"top-down POV shot (first-person perspective)\",\n    \"framing\": \"legs and feet centered in lower third, UI floating mid-frame\",\n    \"depth\": \"moderate depth of field, foreground sharp, background slightly softened\",\n    \"focus_subject\": \"shoes and holographic music interface\"\n  },\n  \"subject\": {\n    \"appearance\": \"person standing on grass wearing beige pants and clean white sneakers\",\n    \"pose\": \"feet slightly apart, relaxed stance\",\n    \"identity\": \"not visible beyond legs (anonymous POV)\"\n  },\n  \"props\": {\n    \"footwear\": \"minimal white sneakers, slightly worn but clean\",\n    \"clothing\": \"light beige trousers with soft fabric folds\",\n    \"ground_details\": \"dense green grass with scattered small white daisies and occasional yellow highlights\"\n  },\n  \"ui_element\": {\n    \"type\": \"floating holographic music player\",\n    \"style\": \"glassmorphism, semi-transparent panels with soft blur and glow\",\n    \"layout\": \"three horizontal album cards, center card larger and in focus\",\n    \"content\": {\n      \"artist\": \"Lana Del Rey\",\n      \"tracks\": [\n        \"West Coast\",\n        \"Summertime Sadness\",\n        \"Dark Paradise\"\n      ]\n    },\n    \"controls\": \"minimal playback controls (play button, progress bar, skip icons)\",\n    \"effects\": \"soft glow, light refraction, subtle reflections, depth layering\"\n  },\n  \"lighting\": {\n    \"type\": \"natural sunlight\",\n    \"direction\": \"angled from top left\",\n    \"quality\": \"warm, diffused, golden tones\",\n    \"highlights\": \"soft bloom on UI edges and grass tips\",\n    \"shadows\": \"gentle, elongated shadows under legs and flowers\"\n  },\n  \"color_palette\": {\n    \"primary\": [\"lush green\", \"warm gold\", \"soft white\"],\n    \"secondary\": [\"beige\", \"muted yellow\"],\n    \"tone\": \"warm cinematic grading with slight vintage tint\"\n  },\n  \"effects\": {\n    \"bokeh\": \"subtle light orbs floating in foreground\",\n    \"particles\": \"tiny dust/pollen particles catching sunlight\",\n    \"lens\": \"slight lens flare, soft vignette\",\n    \"atmosphere\": \"dreamy haze, cinematic softness\"\n  },\n  \"rendering\": {\n    \"style\": \"ultra-realistic, cinematic photography\",\n    \"resolution\": \"high detail, 4k\",\n    \"texture\": \"sharp fabric texture, detailed grass strands\",\n    \"dynamic_range\": \"HDR, balanced highlights and shadows\"\n  },\n  \"camera\": {\n    \"lens\": \"35mm equivalent\",\n    \"aperture\": \"f/2.8\",\n    \"iso\": 100,\n    \"shutter_speed\": \"1/500\"\n  }\n}",
+   "img": "assets/full/A117.webp",
+   "thumb": "assets/thumb/A117.webp",
+   "w": 510,
+   "h": 680
+  },
+  {
+   "id": "A118",
+   "seq": "118",
+   "title": "现代工作室俯拍社交场景",
+   "category": "场景——生活纪实",
+   "kind": "场景",
+   "tone": "现代工作室社交场景",
+   "palette": "中性灰/自然光",
+   "model": "通用",
+   "tags": [
+    "场景",
+    "室内",
+    "社交",
+    "俯拍",
+    "极简"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "{\n  \"image_prompt\": {\n    \"type\": \"Ultra-wide cinematic top-down social scene\",\n\n    \"camera\": {\n      \"angle\": \"Top-down (bird’s-eye view)\",\n      \"lens\": \"Ultra wide-angle\",\n      \"distance\": \"Camera pulled far back to create strong negative space\",\n      \"framing\": \"Square table centered with large empty floor area around it\",\n      \"composition_style\": \"Minimalist, editorial, highly structured\"\n    },\n\n    \"scene\": {\n      \"environment\": \"Bright modern studio with soft natural daylight\",\n      \"floor_style\": \"Neutral concrete floor\",\n      \"lighting\": \"Soft diffused daylight with gentle shadows\",\n      \"mood\": \"Clean, modern, premium social atmosphere\"\n    },\n\n    \"characters\": {\n      \"count\": 4,\n      \"description\": \"Four real people sitting around a square table\",\n      \"clothing_style\": \"Casual modern clothing matching brand colors\",\n      \"actions\": [\n        \"Person holding a drink and looking down\",\n        \"Person picking up food from the table\",\n        \"Person holding a snack close to mouth\",\n        \"Person interacting with drink and food naturally\"\n      ],\n      \"interaction\": \"Natural, candid, relaxed social interaction\"\n    },\n\n    \"table_design\": {\n      \"type\": \"Custom physical prop inspired by a social media post interface\",\n      \"shape\": \"Square table\",\n\n      \"structure\": {\n        \"top_stripe\": \"White stripe ONLY at the top edge\",\n        \"bottom_stripe\": \"White stripe ONLY at the bottom edge\",\n        \"sides\": \"NO borders on left or right\"\n      },\n\n      \"top_bar_ui\": {\n        \"profile_image\": \"Minimal circular logo\",\n        \"username\": \"[brandname]\",\n        \"verification_icon\": \"Small blue verified checkmark\",\n        \"menu_icon\": \"Three dots aligned to the right\"\n      },\n\n      \"bottom_bar_ui\": {\n        \"left_icons\": [\n          \"Like icon\",\n          \"Comment icon\",\n          \"Share icon\"\n        ],\n        \"right_icon\": \"Save icon\"\n      },\n\n      \"center_area\": {\n        \"color\": \"[PRIMARY BRAND COLOR + HEX CODE]\",\n        \"content\": \"Highly detailed food matching the brand, arranged cleanly with strong visual appeal, glossy textures, realistic packaging, drinks, and signature items\"\n      }\n    },\n\n    \"composition\": {\n      \"negative_space\": \"Large empty floor area around the table\",\n      \"balance\": \"Table perfectly centered\",\n      \"visual_hierarchy\": \"Strong focus on table, clean surrounding space\"\n    },\n\n    \"visual_details\": {\n      \"realism\": \"Hyper-realistic textures\",\n      \"materials\": \"Realistic skin, fabric, packaging, and food textures\",\n      \"shadows\": \"Soft natural shadows\",\n      \"imperfections\": \"Subtle real-world imperfections for authenticity\"\n    },\n\n    \"technical_specs\": {\n      \"resolution\": \"8K\",\n      \"focus\": \"Sharp focus on table and food, slight blur on outer edges\",\n      \"style\": \"Photorealistic, editorial photography, DSLR quality\"\n    },\n\n    \"viral_intent\": {\n      \"goal\": \"Scroll-stopping visual with strong brand identity\",\n      \"shareability\": \"Designed for high engagement and retention\",\n      \"clarity\": \"Instantly understandable concept at a glance\"\n    }\n  }\n}",
+   "img": "assets/full/A118.webp",
+   "thumb": "assets/thumb/A118.webp",
+   "w": 360,
+   "h": 288
+  },
+  {
+   "id": "A119",
+   "seq": "119",
+   "title": "汉字意象徽记中国风 logo",
+   "category": "插画——新国风",
+   "kind": "插画",
+   "tone": "中式简约标志系统",
+   "palette": "水墨/雅致",
+   "model": "通用",
+   "tags": [
+    "logo",
+    "中国风",
+    "汉字",
+    "标志",
+    "文创"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "《汉字意象徽记》中国风logo提示词：\n\n请根据用户输入的【主题】【品牌名】【风格方向】【主色调】【画幅比例】，创作一张高完成度的「汉字意象徽记 / Hanzi Emblem Marks」风格视觉作品。\n\n【用户输入】\n主题文字 / 核心汉字：【主题】\n品牌名 / 名称：【品牌名】\n副标题 / 产品名：【产品名】\n短句文案 / 释义：【文案内容】\n风格方向：【风格方向】\n主色调：【主色调】\n辅助色：【辅助色】\n点缀色：【点缀色】\n画幅比例：【画幅比例】\n\n【创作目标】\n这不是普通海报，不是书法作品，也不是复杂国潮插画，而是一张以“汉字图形化标志”为核心的中式简约标志展示图。请将【主题】作为核心视觉主体，把汉字结构与其语义相关的东方意象进行图形融合，使其同时具备“可读性、图形性、识别度、品牌感、文化气质”。\n\n【核心视觉要求】\n1. 以【主题】汉字或词语为骨架，进行图形化重构。\n2. 主视觉必须是一个高识别度的汉字图形标志，看起来像可以真实用于品牌、文创、茶酒、民宿、文化项目中的标志系统。\n3. 图形融合应围绕【主题】的语义展开，将相关意象自然融入笔画或字形结构中，例如山、水、月、云、门、器物、财、茶、酒、庭院、竹、印章等，但不要堆砌，不要变成复杂插画。\n4. 保持“字即图，图即字”的关系：远看像一个完整 logo，近看能发现字形与意象结合。\n5. 整体风格要中式、简约、克制、雅致、留白充足，避免廉价国潮感，避免过多装饰。\n6. 色彩以低饱和为主，优先使用【主色调】与【辅助色】，必要时用少量【点缀色】做印章、小章、细节强调。\n7. 背景适合使用宣纸白、米白、暖白、浅灰纸面质感，也可有轻微压印感、微弱烫金感或细腻纸张肌理，但不要强烈3D效果。\n8. 画面以“logo 展示图”逻辑组织，而不是商业广告海报逻辑。\n\n【版式与结构要求】\n请采用清晰、稳定、可复用的版式结构：\n- 主标志区：画面中心或中上部放置汉字图形 logo，成为绝对视觉重心。\n- 名称识别区：放置【品牌名】、【产品名】或拼音/英文小字，作为识别补充。\n- 文案说明区：放置一句简洁的【文案内容】或释义，增强文化语义和系列感。\n- 细节收口区：可加入小印章、细线、分隔符、编号、小型注释等，提升作品展示感。\n\n【排版要求】\n1. 优先采用中轴式、居中式或准中轴式构图。\n2. 保持高留白，不要塞满信息。\n3. 视觉层级明确：主标志最大，品牌名次之，释义和拼音较小，小章最小。\n4. 版面具有作品集展示感、轻提案感、东方徽记感。\n5. 如果需要英文，可简洁少量，不要过度国际化而破坏中式气质。\n\n【风格气质参考】\n整体气质应具备：中式极简、东方意象、字图融合、印章气质、文人感、品牌感、安静、克制、雅致、收藏感。\n\n【质量要求】\n生成结果应精致、清晰、结构完整，具有成熟设计作品的完成度。重点不是炫技，而是“一个可被长期复用的中式汉字图形标志展示系统”。\n\n请输出一张统一风格、高完成度、适合社媒发布与作品集展示的视觉作品。\n\n请根据用户输入的【主题】【品牌名】【风格方向】【主色调】【画幅比例】，创作一张高完成度的「汉字意象徽记 / Hanzi Emblem Marks」风格视觉作品。\n\n【用户输入】\n主题文字 / 核心汉字：【主题】\n品牌名 / 名称：【品牌名】\n副标题 / 产品名：【产品名】\n短句文案 / 释义：【文案内容】\n风格方向：【风格方向】\n主色调：【主色调】\n辅助色：【辅助色】\n点缀色：【点缀色】\n画幅比例：【画幅比例】\n\n【创作目标】\n这不是普通海报，不是书法作品，也不是复杂国潮插画，而是一张以“汉字图形化标志”为核心的中式简约标志展示图。请将【主题】作为核心视觉主体，把汉字结构与其语义相关的东方意象进行图形融合，使其同时具备“可读性、图形性、识别度、品牌感、文化气质”。\n\n【核心视觉要求】\n1. 以【主题】汉字或词语为骨架，进行图形化重构。\n2. 主视觉必须是一个高识别度的汉字图形标志，看起来像可以真实用于品牌、文创、茶酒、民宿、文化项目中的标志系统。\n3. 图形融合应围绕【主题】的语义展开，将相关意象自然融入笔画或字形结构中，例如山、水、月、云、门、器物、财、茶、酒、庭院、竹、印章等，但不要堆砌，不要变成复杂插画。\n4. 保持“字即图，图即字”的关系：远看像一个完整 logo，近看能发现字形与意象结合。\n5. 整体风格要中式、简约、克制、雅致、留白充足，避免廉价国潮感，避免过多装饰。\n6. 色彩以低饱和为主，优先使用【主色调】与【辅助色】，必要时用少量【点缀色】做印章、小章、细节强调。\n7. 背景适合使用宣纸白、米白、暖白、浅灰纸面质感，也可有轻微压印感、微弱烫金感或细腻纸张肌理，但不要强烈3D效果。\n8. 画面以“logo 展示图”逻辑组织，而不是商业广告海报逻辑。\n\n【版式与结构要求】\n请采用清晰、稳定、可复用的版式结构：\n- 主标志区：画面中心或中上部放置汉字图形 logo，成为绝对视觉重心。\n- 名称识别区：放置【品牌名】、【产品名】或拼音/英文小字，作为识别补充。\n- 文案说明区：放置一句简洁的【文案内容】或释义，增强文化语义和系列感。\n- 细节收口区：可加入小印章、细线、分隔符、编号、小型注释等，提升作品展示感。\n\n【排版要求】\n1. 优先采用中轴式、居中式或准中轴式构图。\n2. 保持高留白，不要塞满信息。\n3. 视觉层级明确：主标志最大，品牌名次之，释义和拼音较小，小章最小。\n4. 版面具有作品集展示感、轻提案感、东方徽记感。\n5. 如果需要英文，可简洁少量，不要过度国际化而破坏中式气质。\n\n【风格气质参考】\n整体气质应具备：中式极简、东方意象、字图融合、印章气质、文人感、品牌感、安静、克制、雅致、收藏感。\n\n【质量要求】\n生成结果应精致、清晰、结构完整，具有成熟设计作品的完成度。重点不是炫技，而是“一个可被长期复用的中式汉字图形标志展示系统”。\n\n请输出一张统一风格、高完成度、适合社媒发布与作品集展示的视觉作品。",
+   "img": "assets/full/A119.webp",
+   "thumb": "assets/thumb/A119.webp",
+   "w": 360,
+   "h": 360
+  },
+  {
+   "id": "A120",
+   "seq": "120",
+   "title": "次世代游戏画面生成模板",
+   "category": "游戏——次世代画面",
+   "kind": "游戏",
+   "tone": "结构化游戏画面提示词",
+   "palette": "——",
+   "model": "通用",
+   "tags": [
+    "游戏",
+    "次世代",
+    "模板",
+    "画面生成"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "提示词模板：\n\n[必填：游戏名称]:\n例如: Cyberpunk 2077/Elden Ring/Star Citizen/Black Myth: Wukong/GTA VI/The Witcher 4\n\n[可选：具体场景描述]:\n例如: 夜之城中心的霓虹雨夜街道/艾尔登法环的黄金树下决战/星际公民的空间站对接舱/黑神话悟空的雷音寺内殿\n\n---\n\n次世代游戏画面生成提示词模板\n\n这是一个结构化提示词模板，请根据你想要生成的游戏画面，在每个冒号后填入具体内容。填写完成后删除所有「例如:」行，按以下格式输出最终提示词：\n\n【画面内容】游戏名称 + 画面主体描述 + 游戏特色动作与特效\n【技术规格】核心引擎 + 硬件配置/渲染技术 + 光影与物理系统 + 画质设置全开\n【输出设定】目标质感 + 排除元素 + 电影级构图 + 画质标准 + 纵横比\n\n 约束：必须严格遵守目标游戏的真实质感、美术风格、角色设定、武器装备、场景环境与技能特效，不得虚构或混淆。\n\n�� 目标质感：Authentic in-game screenshot aesthetic/Real gameplay capture look/Indistinguishable from actual game footage\n\n�� 排除元素：No HUD/No UI/No watermark/No brand logo/No text overlay/No unrelated icons/Clean screen\n\n�� 电影级构图：Cinematic composition/Dramatic camera angles/Professional cinematography/Dynamic framing/Depth of field focus\n\n---\n\n【画面内容】\n\n[画面主体描述]:\n例如: A lone samurai standing on a cliff at sunset/Massive mech battle in a destroyed metropolis/Underwater alien temple with bioluminescent creatures/Post-apocalyptic survivor camp in a frozen wasteland\n\n[游戏特色动作与特效]:\n例如: Black Myth Wukong - Immobilize Spell golden rings/Pillar Stance aerial spin attack/72 Transformations shapeshifting smoke/Red Tides blood rage aura | Elden Ring - Bloodflame Blade crimson fire trails/Moonveil katana azure slash wave/Golden Order seal incantation circles | Cyberpunk 2077 - Sandevistan time dilation blur/Mantis Blades arm extension/Cyberware malfunction glitch artifacts | GTA VI - Vehicle destruction debris/Motion blur drift smoke/Muzzle flash with shell casings\n---\n【技术规格】\n[核心引擎]:\n\n例如: Unreal Engine 5.4/Unity 6/CryEngine 5.11/RedEngine 4/idTech 8/Frostbite 4/Decima 2.0\n\n[硬件配置/渲染技术]:\n\n例如: RTX 5090 Blackwell/NVIDIA DLSS 4/Multi-Frame Generation/GDDR7 VRAM/Neural Rendering/Path Tracing Overdrive/AMD FSR 4/Intel Xe3 Ray Tracing\n[光影与物理系统]:\n\n例如: Lumen Global Illumination/Nanite Geometry/Real-time Fluid Physics/Ray Reconstruction/Volumetric Fog/Subsurface Scattering/Cloth Simulation/Destruction Physics/Caustic Reflections\n[画质设置全开]:\n\n例如: Ultra Settings/All Graphics Maxed Out/Ray Tracing Ultra/Shadow Quality Ultra/Texture Quality Ultra/Ambient Occlusion HBAO+/Screen Space Reflections Ultra/Volumetric Effects Ultra/Draw Distance Maximum/Particle Quality Ultra\n---\n\n【输出设定】\n[视角与构图]:\n\n例如: Low-angle Hero Shot/Dutch Angle tension/Over-the-shoulder tracking/Extreme Close-up detail/Wide Epic Establishing Shot/Crane Shot descent/Dolly Zoom vertigo/Split Diopter dual focus/Silhouette backlight/Golden Ratio composition/Rule of Thirds framing/Leading Lines depth/Foreground framing\n\n[画质标准]:\n\n例如: 16K Resolution/Lossless Raw/Max Fidelity/Hyper-Realistic Textures/8K HDR/Ultra Quality Preset/Native 4K No Upscaling\n[可选：纵横比]:\n\n例如: --ar 16:9/--ar 21:9/--ar 32:9/--ar 4:3/--ar 1:1",
+   "img": "assets/full/A120.webp",
+   "thumb": "assets/thumb/A120.webp",
+   "w": 680,
+   "h": 288
+  },
+  {
+   "id": "A121",
+   "seq": "121",
+   "title": "城市地标微缩 3D 卡通视图",
+   "category": "卡通——3D角色",
+   "kind": "卡通",
+   "tone": "侧面微缩 3D 卡通",
+   "palette": "陶瓷底座/写实材质",
+   "model": "通用",
+   "tags": [
+    "卡通",
+    "3D",
+    "城市",
+    "地标",
+    "微缩"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "以清晰的侧面微缩 3D 卡通视图展示 [您的城市] 最知名的三座地标建筑。使用极简的纹理，采用逼真的材质，并运用柔和自然的灯光和阴影。构图简洁明了，清晰地展现 [您的城市] 最知名的三座地标建筑，并严格按照从左到右的知名度递减顺序排列。最知名的建筑在视觉上必须明显比第二座更突出，第二座在视觉上必须明显弱于第一座，第三座必须明显弱于第二座。\n\n所有建筑物必须遵循准确的相对知名度层级所对应的视觉差异：如果建筑物在现实生活中更知名，那么在图像中也必须通过尺寸与视觉重点呈现出大致相同的差异。任何建筑物都不得在视觉上被随意拉伸或压缩。\n\n每栋建筑模型都应单独放置在一个纤薄简洁的陶瓷底座上。每个底座下方居中显示文字：\n建筑名称——半粗体无衬线字体，中等字号\n建成年份——较轻的无衬线字体，较小的字号，位于建筑名称文本的正下方\n\n画面中不得出现“知名度等级”“一级知名度”“二级知名度”“三级知名度”等相关字样，也不要直接使用“知名度”一词，仅通过画面构图、尺寸与视觉重点来体现三座建筑之间的知名度差异。\n\n保持字间距、行距和字距一致。使用中等大小的无衬线字体，在建筑物上方居中书写“[您的城市名称]”。\n\n建筑物顶部不得与上方文字重叠或接触。请使用基于真实世界参考资料的精确建筑比例与外观，并根据其真实知名度关系进行视觉层级表现。保持每个建筑模型拍摄角度一致，并采用相同的比例尺。\n\n避免使用透视错觉。采用正面正投影式渲染。不要夸大或过度修饰知名度差异的视觉表现，使其超出真实知名度层级的大致范围。\n\n使用 1080×1080 的正方形构图。使用干净、中性的背景。确保画面中没有多余的物体。",
+   "img": "assets/full/A121.webp",
+   "thumb": "assets/thumb/A121.webp",
+   "w": 680,
+   "h": 680
+  },
+  {
+   "id": "A122",
+   "seq": "122",
+   "title": "叶片微缩景观意境插画",
+   "category": "插画——综合",
+   "kind": "插画",
+   "tone": "叶片内嵌景观微缩",
+   "palette": "柔和/自然",
+   "model": "通用",
+   "tags": [
+    "插画",
+    "微缩",
+    "意境",
+    "植物",
+    "中式"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "提示词模板：\n\n[背景颜色，例如：极简纯白/淡雅青色/柔和灰调] 为背景 。画面中心是一片 [植物形态，例如：巨大的干枯荷叶/粉色荷花瓣/翠绿的芭蕉叶] ，[植物纹理，例如：叶脉清晰可见/边缘带有自然卷曲] 。在叶片的褶皱或中心区域，神奇地嵌入了 [容器内景观，例如：错落有致的徽派建筑群/一座带露台的木质孤屋/层峦叠嶂的远山] 。在 [叶茎或行动路径，例如：细长弯曲的叶茎上/叶片下方的白色沙石路径上] ，一名 [人物形象，例如：戴斗笠穿深蓝长袍的行者/背着竹筐的求索者/持杖行走的老僧]  正在 [动作，例如：孤独地行走/缓缓前行] 。[可选：装饰元素，例如：左下角点缀一枚红色印章/侧边竖排书法文字] 。视觉参数：\n[整体风格，例如：超现实主义/极简主义/微缩模型效果] 1 6，[光影效果，例如：柔和散射光/极致的虚实对比]，[相机参数，例如：高分辨率/微距摄影质感/景深虚化]。",
+   "img": "assets/full/A122.webp",
+   "thumb": "assets/thumb/A122.webp",
+   "w": 680,
+   "h": 680
+  },
+  {
+   "id": "A123",
+   "seq": "123",
+   "title": "银发狼耳幻想角色游戏海报",
+   "category": "角色设定——游戏角色",
+   "kind": "角色设定",
+   "tone": "冷峻幻想角色宣传海报",
+   "palette": "冷蓝/暗金",
+   "model": "通用",
+   "tags": [
+    "角色",
+    "游戏",
+    "幻想",
+    "男性",
+    "海报"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "提示词如下：\n一张高端游戏角色宣传海报，竖版构图，超近景半身特写。画面主体是一位冷峻神秘的年轻男性幻想角色，拥有银白色蓬松碎发，发丝细腻、层次丰富，头顶有明显的白色狼耳或兽耳，气质冷静、危险、克制。角色的脸部只露出一半，另一半被一把巨大的未来感狙击枪或重型机械武器遮挡，形成强烈的视觉压迫感。只露出一只眼睛，眼神锐利、安静、带有猎手般的压迫感。\n\n角色穿着深蓝色、黑色与金属金点缀结合的高领战斗服与轻甲，材质高级，包含皮革、金属、机械装甲结构与微微发亮的能量元件。领口高耸包裹脖颈，肩部有硬质护甲，服装质感厚重、冷峻、精密。武器靠近镜头，占据画面右侧大面积空间，设计为 futuristic sniper rifle，具有黑金金属结构、精细雕纹、机械分段、蓝色发光能量仓或瞄准模块，细节复杂，带有高科技与王者系幻想风格结合的感觉。\n\n背景为朦胧的冷色幻想战场或远景城堡废墟，整体虚化处理，以蓝灰色、雾气、微光和远方火光构成氛围。空气中漂浮雪花、碎冰、光尘、白色粒子，营造寒冷、肃杀、静谧的氛围。光线来自背后与侧上方，形成柔和的逆光与轮廓光，照亮银白头发边缘和武器金属边缘，使角色更立体。整体色调以冷蓝、灰白、深海军蓝、金属黑和少量暗金为主，氛围电影感强。\n\n海报左侧加入大面积中国书法风标题字，笔触凌厉、泼墨感强，深蓝色墨迹质感；旁边配小号竖排罗马字母和排版说明文字，形成游戏角色名海报设计。下方加入细长的小字 slogan 和英文排版，整体像顶级 MOBA 手游的英雄宣传海报。顶部可放一个低调金色游戏品牌标记或抽象徽章，底部加入居中的系列标语排版。\n\n风格关键词：高端游戏海报、男性英雄角色、半脸遮挡构图、超近景特写、银白狼耳少年、未来狙击枪、冷色电影感、王者荣耀风格、国风书法标题、蓝黑金配色、雪粒子、幻想战场背景、精致发丝、锐利眼神、高细节材质、顶级手游宣传视觉、史诗感、压迫感、帅气、神秘、超清细节。",
+   "img": "assets/full/A123.webp",
+   "thumb": "assets/thumb/A123.webp",
+   "w": 383,
+   "h": 680
+  },
+  {
+   "id": "A124",
+   "seq": "124",
+   "title": "彭罗斯不可能三角混凝土",
+   "category": "风格参考——综合",
+   "kind": "风格参考",
+   "tone": "极逼真混凝土结构",
+   "palette": "灰/混凝土",
+   "model": "通用",
+   "tags": [
+    "概念",
+    "超现实",
+    "建筑",
+    "不可能三角"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "“The Penrose impossible triangle built as a real concrete structure, aerial view, an architect standing on it casting a real shadow, extreme photorealism, no trace of digital manipulation.”",
+   "img": "assets/full/A124.webp",
+   "thumb": "assets/thumb/A124.webp",
+   "w": 900,
+   "h": 720
+  },
+  {
+   "id": "A125",
+   "seq": "125",
+   "title": "同脸概念时尚肖像（活影子）",
+   "category": "时尚——服装展示",
+   "kind": "时尚",
+   "tone": "同脸概念时尚",
+   "palette": "极简/强侧光",
+   "model": "通用",
+   "tags": [
+    "时尚",
+    "概念",
+    "人像",
+    "街装",
+    "身份锁定"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Ultra-realistic conceptual fashion portrait using the exact same face as the reference image (same eyes, same beard, same hairstyle, same glasses, strict identity lock, no variation).\n\nA young man standing in a minimal studio under strong angled light. His shadow on the wall is fully alive and different, sitting on the ground with a withdrawn, introspective posture.\n\n Face rules:\n\n* identical to reference image\n* no distortion, no reinterpretation\n* same proportions, same gaze, same skin texture\n\n⸻\n\n Outfit (THIS is where virality comes from)\n\nModern high-end streetwear with strong visual contrast:\n\n* cropped black bomber jacket (slightly glossy texture)\n* inner: fitted off-white tee (clean contrast)\n* pants: wide-leg cargos with structure (matte charcoal)\n* sneakers: chunky off-white premium sneakers\n* accessories: thin silver chain + subtle rings\n\nFit should look intentional, styled, not random\n\n⸻\n\n Lighting (make it hit)\n\n* strong side light (45° angle)\n* sharp shadow separation\n* shadow darker, slightly softer edges\n* subtle rim light on subject\n\n⸻\n\n Composition\n\n* subject standing slightly right\n* shadow sitting on left wall\n* clean negative space\n* cinematic balance\n\n⸻\n\n Typography (clean but impactful)\n\n* Top: NOT ME (bold, tight kerning)\n* Below small: BUT STILL ME\n* Bottom integrated in shadow: OTHER (slightly transparent, large)\n\n⸻\n\n Style direction\n\n* luxury campaign aesthetic\n* sharp focus, 8K\n* neutral beige background\n* high contrast but soft skin tones\n\n“editorial fashion campaign, Balenciaga style, high-end streetwear photography”",
+   "img": "assets/full/A125.webp",
+   "thumb": "assets/thumb/A125.webp",
+   "w": 453,
+   "h": 680
+  },
+  {
+   "id": "A126",
+   "seq": "126",
+   "title": "韩系女射手体育摄影",
+   "category": "摄影——运动",
+   "kind": "摄影",
+   "tone": "现场竞技体育摄影",
+   "palette": "宝蓝/白",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "运动",
+    "射箭",
+    "韩系",
+    "体育"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Ultra realistic sports photography, young East Asian female archer standing in a crowded indoor arena during a live competition, slim toned body, pale porcelain skin, delicate Korean visual beauty, soft oval face, straight black hair tied in a low ponytail with loose face-framing strands, calm confident expression, slight smile, focused elegant gaze. Natural Korean glass-skin makeup, smooth dewy skin, soft peach blush, subtle eyeliner, long lashes, gradient coral-red lips.\nWearing a fitted cropped royal-blue archery jersey with white trim, short sleeves, white athletic chest guard strapped diagonally across the torso, exposed waistline with toned abs, matching blue athletic skirt/pants with thin white stripe details, black waist belt, sporty professional archery styling.\nHolding a modern black-and-red recurve bow vertically in the right hand with visible stabilizer and sight details, arrows gathered in left hand, relaxed elegant posture, body slightly angled, shoulders relaxed, standing confidently after a shot.\nBackground filled with blurred audience, photographers, colorful arena bokeh lights, live sports event atmosphere, teammates in matching blue uniforms softly out of focus. Cinematic indoor stadium lighting, soft spotlight on subject, realistic shadows, high contrast between subject and dark crowd, shallow depth of field, telephoto lens compression, natural motion blur in background, premium broadcast photography look, ultra detailed skin texture, realistic fabric folds, glossy lighting reflections, 85mm sports portrait lens, f/1.8, HDR, 8K, candid professional competition moment.",
+   "img": "assets/full/A126.webp",
+   "thumb": "assets/thumb/A126.webp",
+   "w": 900,
+   "h": 790
+  },
+  {
+   "id": "A127",
+   "seq": "127",
+   "title": "武打 3D 破框分镜故事板",
+   "category": "分镜故事板——影视分镜",
+   "kind": "分镜故事板",
+   "tone": "8 格 3D 破框分镜",
+   "palette": "黑条/电影感",
+   "model": "通用",
+   "tags": [
+    "分镜",
+    "故事板",
+    "武打",
+    "破框",
+    "电影感"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create a realistic cinematic storyboard sheet in 16:9 format.  Make 8 sequential frames arranged in a clean 3x3 grid. Each panel should look like a realistic live-action keyframe, not a sketch.  Core concept: a martial-arts fight that creates a strong 3D pop-out frame-break effect in every shot.  Inside each panel, place fixed black cinematic bars on the top and bottom, like a 21:9 movie frame. The fighter repeatedly breaks outside these black bars toward the viewer.  Becareful with hands and follow pov order.",
+   "img": "assets/full/A127.webp",
+   "thumb": "assets/thumb/A127.webp",
+   "w": 900,
+   "h": 507
+  },
+  {
+   "id": "A128",
+   "seq": "128",
+   "title": "动漫插画转超写实照片",
+   "category": "风格参考——综合",
+   "kind": "风格参考",
+   "tone": "动漫转真实照片",
+   "palette": "——",
+   "model": "通用",
+   "tags": [
+    "风格转换",
+    "动漫",
+    "超写实",
+    "照片"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "将这张动漫/漫画插画转换为超写实照片。完全保留原图的构图、姿势、机位角度、光照方向、色彩基调、所有文字和每一个视觉元素，不做任何改动。将所有动漫渲染替换为真实材质和纹理：带有划痕、磨损和准确镜面反射的真实金属；带有自然微观细节的真实织物、皮革、皮肤和头发；物理正确的光照，带有柔和阴影和环境光遮蔽。最终效果应该看起来像是用专业相机在真实环境中拍摄的照片——不是3D渲染，不是绘画，而是一张真实的照片。",
+   "img": "assets/full/A128.webp",
+   "thumb": "assets/thumb/A128.webp",
+   "w": 679,
+   "h": 376
+  },
+  {
+   "id": "A129",
+   "seq": "129",
+   "title": "拉美女性高定编辑肖像（浮头）",
+   "category": "时尚——服装展示",
+   "kind": "时尚",
+   "tone": "高定编辑肖像",
+   "palette": "雾霾蓝灰",
+   "model": "通用",
+   "tags": [
+    "时尚",
+    "编辑",
+    "肖像",
+    "浮头",
+    "高定"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "\"High-fashion editorial studio portrait photograph. A Latina woman, early 20s. FLOATING HEAD ONLY — the image shows ONLY her head, cropped precisely at the chin/jawline. Absolutely NO neck, NO shoulders, NO torso, NO clothing of any kind. The entire head — crown, all hair, both ears, jawline — is fully contained within the frame with generous empty space above, below, and on all sides. Solid seamless muted dusty blue-grey (soft desaturated slate-blue) background fills all surrounding space. Dark wavy hair with one shaved undercut side, fine delicate line-art freckle tattoos near the temple. Warm olive skin, bold dark brows, thin nose chain connecting nostril to ear, deep-berry lips, intense striking expression. Soft even diffused studio lighting, sharp realistic skin texture, photorealistic editorial photography, not illustrated.",
+   "img": "assets/full/A129.webp",
+   "thumb": "assets/thumb/A129.webp",
+   "w": 360,
+   "h": 360
+  },
+  {
+   "id": "A130",
+   "seq": "130",
+   "title": "暗黑奇幻游戏地图全景",
+   "category": "游戏——地图场景",
+   "kind": "游戏",
+   "tone": "暗黑奇幻游戏地图",
+   "palette": "蓝黑/火山红",
+   "model": "通用",
+   "tags": [
+    "游戏",
+    "地图",
+    "奇幻",
+    "全景",
+    "战略"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create an epic dark fantasy cartographic panorama in a cinematic realistic digital painting style. The scene is a vast medieval coastal world viewed from a very high aerial three-quarter angle, like a game map or fantasy strategy map. In the foreground center is a huge fortified harbor city packed with stone buildings, cathedral towers, walls, docks, small ships, and bridges, surrounded by blue-black ocean and river deltas. A thin bright red route line with small arrowheads is drawn over the landscape, starting at the harbor city, curving across the sea to the right toward a volcanic island, then continuing back through the city and winding northward through forests, rivers, ruined keeps, mountain passes, and finally climbing a monumental vertical ice wall into a frozen northern wasteland. Count exactly 1 continuous red travel path, with multiple visible arrowheads along it. On the right, show a jagged black volcanic island with glowing orange lava, fire, smoke, and ash clouds. In the middle distance, show dark pine forests, scattered castles, villages, roads, rocky mountains, marshy river channels, and mist. Across the upper third, show a colossal icy cliff or glacier wall spanning the entire width of the land, with a frozen plateau beyond it containing snowfields, ancient ruins, spires, distant mountains, and storm clouds. Use cold desaturated blues, grays, charcoal, icy whites, muted browns, and small accents of fiery orange lava and vivid red for the route. Lighting is dramatic and overcast, with heavy clouds, fog banks, sea spray, and high-detail worldbuilding. No labels, no UI, no border, no watermark, no readable text. Aspect ratio 16:9, ultra-wide cinematic composition, highly detailed, sharp, atmospheric, epic scale.",
+   "img": "assets/full/A130.webp",
+   "thumb": "assets/thumb/A130.webp",
+   "w": 900,
+   "h": 507
+  },
+  {
+   "id": "A131",
+   "seq": "131",
+   "title": "白色大理石天使 3D 雕塑",
+   "category": "风格参考——综合",
+   "kind": "风格参考",
+   "tone": "电影级 3D 数字渲染",
+   "palette": "白/冰蓝",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "雕塑",
+    "天使",
+    "渲染",
+    "奇幻"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "A colossal, hyper-detailed white marble statue of an Angel with massive wings dominates the background standing in the middle, seamlessly carved into a fractured, icy glacial crevasse within a monumental brutalist temple hall. In the foreground, a lone figure in a red hooded cloak walks away from the camera, leading the eye into a midground populated by scattered, patterned marble floor. The artistic medium is a cinematic 3D digital render with the crisp fidelity of an Octane Render, blending classical Greco-Roman sculpture with futuristic sci-fi architecture. Bright, ethereal white volumetric light streams down from an opening above, casting soft shadows and illuminating mist around the base of the statue, creating a high-contrast teal-and-white color palette with an awe-inspiring, sterile atmosphere. The composition is rendered with an ultra-wide anamorphic lens, captured in 8k resolution with flawless texture mapping on the stone and hyper-realistic fabric folds. Add a glowing neon red FPV drone route line starting at the bottom right behind the clocked man with a circular marker and the word START, then curving upward in a smooth flowing S shaped path around the Angel sculpture, with arrow indicators along the route, ending near the top left beside the statue with a circular marker and the word END ar 16:9",
+   "img": "assets/full/A131.webp",
+   "thumb": "assets/thumb/A131.webp",
+   "w": 900,
+   "h": 506
+  },
+  {
+   "id": "A132",
+   "seq": "132",
+   "title": "角色参考转电影超现实主体",
+   "category": "风格参考——综合",
+   "kind": "风格参考",
+   "tone": "角色转电影级主体",
+   "palette": "——",
+   "model": "通用",
+   "tags": [
+    "电影感",
+    "超现实",
+    "角色参考",
+    "精细艺术"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create a photoreal surreal fine-art cinematic image in a 16:9 aspect ratio, using the supplied character image as the identity guide for the central figure.\n\nTranslate the character into a believable physical cinematic subject as if photographed in a high-end film production. Preserve the character’s recognizable identity through proportions, facial structure, silhouette, species traits, markings, skin, hair, fur, scales, feathers, eyewear if identity-critical, body markings, color relationships, material mood, and overall presence. Do not copy the reference outfit, pose, camera angle, lighting, background, or composition.\n\nThe image must look photographed, not illustrated: realistic anatomy, believable surface texture, real fabric behavior, practical volumetric light, true reflective materials, subtle film grain, cinematic realism. If the character is stylized or anime-like, reinterpret them as a believable adult photoreal subject while keeping them clearly recognizable.\n\nSCENE:\nA cube-shaped room made of fractured mirrors floats in a completely void-black dimension. No horizon, landscape, sky, or background exists beyond the cube. Through cracks and breaks, only absolute blackness is visible, with a few tiny star-like points and drifting dust in the deepest gaps.\n\nThe mirror cube should remain legible as architecture: visible floor plane, rear wall, side walls, and hints of ceiling structure. Use large broken mirror panels, elegant cracks, subtle misalignment, chipped edges, dust, scratches, warped reflections, and a few floating shards still aligned to the cube. Do not let the space become an abstract shard storm.\n\nSUBJECT:\nAt the center, the supplied character levitates full-body above the fractured reflective floor, suspended as though gently but irresistibly pulled upward from the chest or sternum by an unseen force.\n\nThe pose should emphasize a sacred sternum pull: chest lifted highest toward the descending presence above, back gracefully arched, shoulders open, neck exposed, head tilted upward, and feet trailing lower with toes pointed toward the mirror floor. The pose should feel weightless, vulnerable, calm, ritualistic, and controlled, not violent, broken, painful, or action-oriented.\n\nThe character should remain large and readable within the wide frame. The face, upward gaze, lifted chest, arched posture, hands, silhouette, sheer clothing, floating stance, liquid-glass drips from the feet, mirror ripples below, and light interaction must stay visible. One hand may hover near the chest or collar as if reacting to the invisible pull; the other may hang near the waist, hip, or side with relaxed fingers.\n\nUse the wide frame for lateral tension: mirror-born arms reaching inward from both sides, fragmented eyes or partial reflections in side panels, subtle reflected worlds near the edges, and one oversized descending hand dominating the upper center.\n\nCLOTHING:\nCreate a completely new scene-specific ceremonial outfit. Do not reproduce the original clothing, costume, armor, uniform, accessories, garment silhouette, exact cut, or decorative layout. The reference image guides identity, palette, presentation, and material mood only.\n\nChoose the outfit form based on the character’s apparent presentation:\n\n* Feminine-presenting: refined ceremonial short dress, layered wrap, fitted bodice with asymmetrical panels, sculptural slip, robe-coat, sleeveless ritual garment, or tailored fantasy-formal silhouette. Do not default to a pale nightgown.\n* Masculine-presenting: tailored ceremonial tunic, wrapped shirt, structured coat, robe-coat, narrow trousers, sash, mantle, boots, gloves, scarf panels, or formal void-court attire. Do not use gowns, skirts, bridal drapery, or lingerie styling.\n* Androgynous, nonhuman, armored, creature-like, or ambiguous: hybrid ceremonial tunic panels, wraps, robe-coat forms, sculptural drapery, sash elements, armor-like cloth, fitted layers, or character-specific materials.\n\nCOLOR LOCK:\nUse the supplied reference palette without copying the original outfit. Select one dominant clothing color from the reference and make it clearly visible across the main garment body, not only tiny trims or ribbons. Use one secondary color and one accent color in lining, trim, embroidery, translucent overlays, metallic thread, jewelry, closures, or edge details.\n\nDo not let the outfit collapse into generic white, silver, cream, beige, or bridal fabric unless those tones are truly dominant in the reference. Strong reds, blacks, golds, browns, blues, purples, greens, oranges, metallics, or other distinctive tones from the reference must appear clearly.\n\nMATERIALS:\nThe entire visible outfit should be sheer or translucent, not just trailing pieces. Bodice, tunic body, sleeves, skirt panels, robe layers, sash extensions, draped sections, and hanging fabric should all be light-reactive semi-transparent textiles.\n\nUse layered transparency, doubled folds, pleating, wrapped drapery, density shifts, and overlapping translucent panels for tasteful coverage. Do not rely on opaque base garments. Materials may include chiffon, gauze, organza, silk voile, sheer crepe, translucent satin, fine mesh, delicate veiling, sheer georgette, or transparent layered silk.\n\nThe outfit should glow and pop under fractured light: luminous edges, visible overlap, internal diffusion, transparent layering, refracted color, and soft tonal shifts where sheer layers cross. Keep it premium, ceremonial, and tasteful. No exposed nipples, exposed genitals, or see-through crotch detail.\n\nLIGHTING:\nSeveral tight beams of light enter through mirror cracks and openings. They should be irregular, asymmetrical, and varied: some strong and narrow, some thin, some softened by haze.\n\nThe crack-light should use complementary colors to the outfit palette, based on the dominant clothing color from the reference. Keep it cinematic and controlled, not rainbow or neon. Let colored light mix with clean white highlights so the image still feels photoreal.\n\nColored beams should pass through the sheer outfit, creating glowing edges, luminous separation, internal diffusion, tinted shadows, and layered color shifts. One strong narrow beam must illuminate the character’s face, one eye, cheekbone, throat, lifted chest, collarbone area, and upper torso so the identity and arched pose remain readable in the dark room.\n\nLighting should be fractured and sculptural across the face, shoulders, lifted torso, arms, legs, and clothing. Fine haze should reveal the beams without obscuring the subject. Tiny mirror dust and microscopic glass flecks may catch subtle colored and silver highlights.\n\nREFLECTIONS:\nThe mirrors must not show normal reflections. Avoid clean duplicates, complete reflected bodies, or tidy alternate-angle portraits. Reflections should be sparse, fragmented, and physically impossible: a single eye split across panels, a cheek at the wrong height, a shoulder bent through impossible geometry, hair or fabric fading into blackness, a hand without a body, or an empty panel where a reflection should be.\n\nShow approximately 7 to 11 mirror-born arms and hands emerging from fractured mirror surfaces around the character. They are not separate people in the room, but distorted reflection-anomalies. They should be translucent, silver-lit, fragmented by cracks, stretched across seams, interrupted by black void, and distorted by refraction.\n\nEach arm should behave differently: one hand pressed flat inside the glass, one split across mismatched panels, one too large from wrong reflection scale, one forearm bending through two mirror planes, fingers without a wrist, or an arm dissolving into haze and fractured light.\n\nTOP HAND:\nThe dominant surreal element is one very large mirror-born hand descending from above. It must be much larger than the other hands and dominate the upper composition. It reaches toward the character’s head and lifted chest with spread curved fingers, as if its invisible pull is raising the character by the sternum without touching them.\n\nThe fingers hover just above the character. The wrist fades into fractured mirror depth. The hand should feel like a gigantic reflection-event, not a physical limb floating in the room. It casts fractured shadows and warped highlights across the arched torso, sheer outfit, mirror panels, and floor. Subtle distorted light bands may stretch between the lifted chest and the hand, suggesting gravity reversal without becoming obvious magic beams.\n\nLIQUID GLASS AND MIRROR RIPPLES:\nThe character should look as though they have just been pulled upward through the mirror floor. Directly below the feet, the floor behaves like liquid glass: glossy, dark, reflective, and physically impossible.\n\nThin transparent strands of liquid mirror stretch from the feet and lower legs back toward the rippling floor, like elastic molten glass thinning into reflective threads and droplets. They should be clear, silver-edged, viscous, and catch the same crack-light colors as the room. Do not make the feet look wet from ordinary water.\n\nDirectly beneath the feet, show a nearly sealed circular extraction point: concentric glass ripples, warped reflection rings, cracks bending inward, and a subtle raised meniscus of reflective surface tension. It should look like the character passed through the mirror floor seconds ago, not like they are floating over a puddle.\n\nA few reverse-gravity droplets may float between the feet and floor, containing tiny distorted reflections of the character, descending hand, or mirror-born arms. Keep the effect elegant and controlled, not messy.\n\nSECONDARY SURREAL DETAILS:\nA few mirror panels may contain subtle reflected spaces that are not physically present: a moonlit ocean, a dark doorway in a pale desert, a distant version of the mirror cube, or a dim empty room. Keep them subtle and discoverable. Deep in one rear panel, include a thin vertical rectangle of white light like a distant narrow doorway.\n\nThe floor reflection beneath the levitating character should not match perfectly. It should feel like another moment, quieter and more distant, with a slightly altered gesture or emotional tone. The liquid-glass ripples should warp the reflected legs, mirror strands, descending hand, and nearby arm-fragments into subtle concentric distortions.\n\nOPTIONAL HIDDEN OBJECT:\nA tiny blood-red key may or may not appear. If present, it should be extremely subtle and visible only on close inspection: caught in a mirror crack, barely visible in the floor reflection, hanging from a shard edge, hidden in sheer fabric layers, obscured behind a reflected hand, or inside a dark mirror seam.\n\nThe key should be miniature dark translucent red glass, like ruby or coagulated light. It should not glow brightly, be centered, enlarged, isolated, or important to the composition.\n\nSURREAL VARIATION:\nIntroduce 1 to 2 major anomalies and 2 to 4 minor anomalies that fit the fractured mirror cube and the character’s identity. Let mirror distortions, reflected spaces, clothing details, impossible light behavior, and symbolic motifs subtly echo the character’s species traits, markings, symbolism, emotional tone, material mood, or design language.\n\nPossible major anomalies: a mirror panel reflecting a different time of day, the descending hand appearing crystalline or liquid-glass, a second impossible hand visible only in the floor reflection, a mirror wall folding into impossible depth, one critical panel showing no reflection, a subtly altered reflected version of the character, or an impossible corridor/chamber/landscape related to the character.\n\nPossible minor anomalies: one eye visible in a crack, a reflection blinking while the real character looks upward, a handprint in fogged glass, one beam stopping midair, a floating shard rotating wrong, hair/fabric/dust drifting against gravity, constellation-like cracks, or a reflected gesture delayed by a split second.\n\nMOOD:\nThe room should feel silent, watchful, suspended, sacred, intimate, and metaphysically wrong. The character should feel alone but not unaccompanied.\n\nVisual hierarchy:\n\n1. levitating central character\n2. oversized descending hand above head and chest\n3. surrounding mirror-born arms\n4. fractured complementary beams of light\n5. liquid-glass drips and rippling mirror floor\n6. smaller reflection anomalies\n7. void beyond the cube\n8. optional hidden blood-red key\n\nCAMERA / RENDERING:\nUse realistic cinematic camera language: 35mm or 50mm full-frame lens look, realistic perspective, controlled highlights, natural falloff, slight halation, high dynamic range, and subtle film grain.\n\nThe camera should feel moderately close in a wide 16:9 composition. The levitating character should occupy the central vertical third to half of the frame height, with enough space below to show the gap, liquid-glass strands, and rippling mirror surface, and enough space above to show the descending hand.\n\nUse heavy cinematic tilt-shift with a narrow focus plane across the character’s face, upper body, lifted chest, liquid-glass drips, mirror ripples, and nearest critical mirror details. Let foreground shards, distant arms, far panels, and room edges fall into controlled blur.\n\nSTYLE:\nPhotoreal surreal fine-art, cinematic realism, high-end film still, fractured mirror cube, void-black environment, full-body levitating character, upward gaze, arched back, lifted chest, invisible sternum pull, original scene-specific clothing, reference-derived palette, fully sheer light-reactive garments, complementary crack-light colors, liquid-glass drips from feet, rippling mirror surface below, warped floor reflection, reverse-gravity mirror droplets, sacred extraction through reflection, multiple mirror-born reaching arms, oversized descending hand, heavy cinematic tilt-shift, foreground mirror edges, eerie reflection anomalies, optional hidden tiny blood-red key, volumetric light, haze, floating shards, impossible reflections, premium detail.\n\nAVOID:\nCopying the reference outfit, same garment cut, exact accessories, using the reference as wardrobe, generic pale gown, bridal styling, forcing gowns onto masculine characters, opaque base garments, exposed nipples, exposed genitals, see-through crotch detail, broken spine pose, painful contortion, violent abduction, action pose, normal standing pose, simple upright floating pose, feet touching floor, ordinary water, puddles, splashing, wet footprints, slime, oil, lava, blood-like liquid, gore, messy fluid trails, obvious portal hole, magic circle, excessive droplets, liquid hiding the feet, normal mirror duplicates, complete reflected bodies, ordinary reflection logic, hands pasted in front of glass, physical hands protruding into the room, direct contact with the character, obvious hidden key, random rainbow lighting, uncontrolled neon, unrelated colors, heavy smoke, excessive debris, overt glamour, monsters, violence, sci-fi machinery, clutter, plastic skin, doll faces, childlike proportions, anime rendering, manga rendering, painterly illustration.",
+   "img": "assets/full/A132.webp",
+   "thumb": "assets/thumb/A132.webp",
+   "w": 360,
+   "h": 203
+  },
+  {
+   "id": "A133",
+   "seq": "133",
+   "title": "戏剧面具超现实拼贴",
+   "category": "风格参考——综合",
+   "kind": "风格参考",
+   "tone": "超现实电影拼贴",
+   "palette": "——",
+   "model": "通用",
+   "tags": [
+    "超现实",
+    "拼贴",
+    "面具",
+    "戏剧",
+    "身份"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Core Concept: A surreal cinematic collage of multiple traditional theatrical mask faces, shown only through narrow horizontal slices. Each strip reveals different eyes and facial expressions, creating a mysterious emotional identity-layer effect.\n\nMain Subject: Stacked close-up fragments of traditional Asian / Tibetan / Buddhist-style masks and painted theatrical faces, mostly focused on the eyes, brows, and forehead.\n\nVisual Style: Surreal editorial collage, cinematic art film aesthetic, symbolic identity concept, fragmented face composition, mysterious and psychological mood.\n\nComposition: Vertical poster frame. Multiple horizontal bands cut across the image. Each band shows a different mask or face. The strips are unevenly stacked from top to bottom, creating a layered “many identities / many emotions” visual.\n\nFacial Expressions: Calm sleepy eyes, suspicious eyes, angry demon eyes, worried eyes, surprised eyes, meditative eyes, fearful eyes, intense staring eyes.\n\nColor Palette: Dark black background, muted gold, bronze, ivory white, faded red, earthy green, warm brown, deep shadow tones.\n\nLighting: Low-key cinematic lighting, dramatic shadows, soft directional light on mask surfaces, museum-like atmosphere, warm highlights, dark negative space.\n\nTexture Details: Painted wooden mask texture, aged surface, handcrafted details, traditional patterns, soft dust, worn paint, carved facial features.\n\nMood / Theme: Mystery, hidden identity, inner conflict, transformation, cultural symbolism, emotional masks, fractured self.\n\nFull Image Prompt: Surreal cinematic vertical poster collage of traditional theatrical masks and painted ritual faces, shown through narrow horizontal sliced bands stacked from top to bottom, each strip revealing different eyes and expressions, calm sleepy eyes, angry demon eyes, worried eyes, suspicious side-glance, surprised stare, meditative mask face, fragmented identity concept, dark black background, Tibetan Buddhist / Asian ceremonial mask aesthetic, painted wooden texture, aged handcrafted surface, muted gold bronze ivory red green tones, dramatic low-key lighting, soft directional highlights, deep shadows, mysterious psychological art film mood, abstract editorial composition, symbolic emotional layers, high detail, cinematic realism, museum atmosphere, 35mm film still, vertical poster frame.\n\nNegative Prompt: blurry, low quality, modern human face, smiling selfie, text, logo, watermark, cartoon style, flat lighting, oversaturated colors, messy collage, distorted anatomy, extra full faces, bright background, plastic texture, random objects.",
+   "img": "assets/full/A133.webp",
+   "thumb": "assets/thumb/A133.webp",
+   "w": 900,
+   "h": 507
+  },
+  {
+   "id": "A134",
+   "seq": "134",
+   "title": "琥珀窗光树枝小鸟艺术摄影",
+   "category": "摄影——艺术摄影",
+   "kind": "摄影",
+   "tone": "诗意极简艺术摄影",
+   "palette": "深蓝/琥珀黄",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "艺术",
+    "光影",
+    "剪影",
+    "禅意"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "艺术摄影风格。画面中心是一束明亮的琥珀色矩形光影，像是傍晚的阳光穿过窗户投射在深蓝色（Dark Blue）的墙面上。\n前景是精细的树枝剪影，枝头点缀着几朵盛开的花朵，一只灵动的小鸟静静地停歇在枝头。\n关键视觉点：\n1. 剪影（Silhouette）：小鸟和花枝呈现出完全的深色剪影，在亮黄色的背景光下轮廓极其清晰。\n2. 色彩对比（Color Contrast）：深蓝色的环境背景色与中心温暖的黄色窗光形成鲜明的补色对比。\n3. 氛围：画面极其干净，充满诗意与禅意，极简构图，柔和的光影边缘。\n4. 4k分辨率，超高画质，电影级质感。",
+   "img": "assets/full/A134.webp",
+   "thumb": "assets/thumb/A134.webp",
+   "w": 383,
+   "h": 680
+  },
+  {
+   "id": "A135",
+   "seq": "135",
+   "title": "超宽都市立面连续长图",
+   "category": "场景——建筑空间",
+   "kind": "场景",
+   "tone": "超宽连续背景长图",
+   "palette": "真实/生活化",
+   "model": "通用",
+   "tags": [
+    "场景",
+    "都市",
+    "立面",
+    "长图",
+    "连续"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "生成一张【超宽连续背景场景长图】，单张完整图片，不要拼图，不要多宫格，不要分栏，横版 3:1。\n\n场景类型：【都市沿街店铺 / 雨夜霓虹街区 / 县城小镇店面 / 乡村街巷立面】\n时间氛围：【白天 / 午后 / 雨夜 / 夜景】\n主要内容：【填写店铺或建筑类型】\n画面气质：【真实 / 连续 / 生活化 / 实用】\n\n画面采用平视、正面视角，重点表现一整排连续展开的店面或建筑立面。不要斜拍，不要强透视，不要广角畸变，不要街道往远处消失，而是像一张平面化、正对面展开的连续立面长图。\n\n每个店面或建筑单元都要正面完整可见，门头、招牌、橱窗、门窗、入口、卷帘门、院墙、门前物件清晰可见。可以加入少量路灯、树木、自行车、电动车、三轮车、长椅、杂物等环境元素，以及极少量小人物点缀，但重点始终是连续背景本身。\n\n整体效果像短剧背景板、场景搭建参考图、连续环境设定长卷，突出“超宽横图一次性容纳完整空间信息”的优势。\n\n避免斜拍、强透视、拼图感、多宫格、人物过多、海报感、卡通感、低清晰度、额外大字标题。",
+   "img": "assets/full/A135.webp",
+   "thumb": "assets/thumb/A135.webp",
+   "w": 680,
+   "h": 227
+  },
+  {
+   "id": "A136",
+   "seq": "136",
+   "title": "3D 纸艺动漫英雄海报",
+   "category": "二次元——动漫角色",
+   "kind": "二次元",
+   "tone": "多层纸艺动漫海报",
+   "palette": "白/角色色",
+   "model": "通用",
+   "tags": [
+    "二次元",
+    "动漫",
+    "纸艺",
+    "海报",
+    "3D"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Ultra-detailed 3D layered papercraft anime poster, dynamic anime hero emerging from intricate paper-cut waves and swirling clouds, multi-layer shadow box design, handcrafted paper sculpture aesthetic, deep dimensional cut-paper artwork, crisp layered cardstock textures, bold action pose, dramatic perspective, vibrant character colors contrasting against elegant white paper background, Japanese traditional wave patterns, ornamental cloud motifs, floating paper fragments, cinematic lighting, high depth and relief, premium collectible poster design, intricate laser-cut details, fantasy adventure theme, highly detailed typography at the bottom, embossed lettering, luxury wall art, museum-quality paper engineering, sharp focus, clean composition, masterpiece, ultra detailed, 8k, trending on ArtStation.",
+   "img": "assets/full/A136.webp",
+   "thumb": "assets/thumb/A136.webp",
+   "w": 1400,
+   "h": 594
+  },
+  {
+   "id": "A137",
+   "seq": "137",
+   "title": "CCTV 监控视角照片",
+   "category": "摄影——特殊视角",
+   "kind": "摄影",
+   "tone": "高角度监控视角照片",
+   "palette": "噪点/暗淡",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "监控",
+    "CCTV",
+    "视角",
+    "概念"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "使用上传的图片作为素材，创建一张高角度CCTV监控摄像头视角的照片。检测图像中每一个可见的人物，并自动在每张脸部周围绘制白色矩形边框。对于最显眼的人物，添加一个大号放大插图：一个清晰增强的面部特写，显示在一个浮动矩形框中，用细白线连接。主画面保持轻微噪点和安全摄像头质感（柔和颗粒、轻微失真、暗淡色彩），而放大的面部框应更清晰、更明亮、更细致。无文字、无时间戳、除边框和连接线外无其他叠加元素。保持上传图片的原始场景布局、角度和环境。",
+   "img": "assets/full/A137.webp",
+   "thumb": "assets/thumb/A137.webp",
+   "w": 635,
+   "h": 859
+  },
+  {
+   "id": "A138",
+   "seq": "138",
+   "title": "暗厅策展人像（身份参考）",
+   "category": "人像——身份参考",
+   "kind": "人像",
+   "tone": "暗室策展人像",
+   "palette": "白/粉",
+   "model": "通用",
+   "tags": [
+    "人像",
+    "策展",
+    "身份参考",
+    "电影感",
+    "优雅"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Use my picture reference for the exact face, hairstyle, bangs, facial proportions, skin tone, body posture, and overall silhouette accuracy. Maintain high identity consistency from the reference image.\n\ncinematic portrait of a subjek standing alone in a dark exhibition room, She wearing vintage white shirt combined with pink outer, with black vintage material skirt , minimal make up front-profile pose with body facing camera , relaxed posture, one shoulder slightly lowered, hands adjust hair  calm mysterious expression, intellectual and elegant aura, positioned in the lower center of frame, surrounded by darkness with a single dramatic diagonal spotlight cutting across the scene from top right to bottom left, half of her body illuminated while the rest fades into shadow, colorful vintage Japanese mural wall behind her with retro cartoon illustrations and traditional art details, cinematic negative space composition, foreground shadows naturally framing the image like torn darkness, moody museum atmosphere, lonely artistic vibes, contemplative mood, realistic photography, subtle film grain, analog texture, muted blacks with vibrant mural accents\n\ncamera angle: eye-level shot, medium-close portrait framing, subject captured from side at approximately 70-degree profile angle, slight distance from subject for environmental storytelling, centered cinematic composition\n\ncamera settings:  cinematic low-light photography, shallow depth of field, realistic shadow falloff, Kodak Portra film color grading\n\nlighting: harsh focused spotlight from upper right creating strong diagonal beam and high contrast shadows, minimal ambient light, deep blacks, soft warm highlight on face and glasses edge\n\nvibes: mysterious, artistic, museum-core aesthetic, intelligent quiet energy, melancholic cinematic atmosphere, indie film still, luxury editorial photography, solitary night mood, understated elegance\n\nstyle: ultra realistic, cinematic photography, analog grain, editorial fashion portrait, natural skin texture, subtle imperfections, realistic color science, masterpiece quality\n\nnegative prompt: anime, smiling, overexposed, extra limbs, bad anatomy, colorful outfit, cyberpunk neon, blurry face, low quality, distorted hands, unrealistic skin, HDR overload, exaggerated makeup, busy composition, duplicate person",
+   "img": "assets/full/A138.webp",
+   "thumb": "assets/thumb/A138.webp",
+   "w": 800,
+   "h": 1400
   }
  ]
 }
