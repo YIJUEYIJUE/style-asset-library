@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 94,
+ "count": 105,
  "cats": [
   {
    "name": "风格参考——综合",
@@ -201,6 +201,41 @@
    "name": "风格参考——提示词工程",
    "tone": "COLLECTION",
    "count": 1
+  },
+  {
+   "name": "商业广告——产品海报",
+   "tone": "品牌广告",
+   "count": 1
+  },
+  {
+   "name": "商业广告——服饰时尚",
+   "tone": "品牌广告",
+   "count": 3
+  },
+  {
+   "name": "商业广告——汽车",
+   "tone": "品牌广告",
+   "count": 1
+  },
+  {
+   "name": "商业广告——电子数码",
+   "tone": "品牌广告",
+   "count": 1
+  },
+  {
+   "name": "商业广告——美妆洗护",
+   "tone": "品牌广告",
+   "count": 1
+  },
+  {
+   "name": "商业广告——运动健康",
+   "tone": "品牌广告",
+   "count": 1
+  },
+  {
+   "name": "商业广告——饮料食品",
+   "tone": "品牌广告",
+   "count": 3
   }
  ],
  "hero": [
@@ -3338,6 +3373,270 @@
    "img": "assets/full/A094.webp",
    "thumb": "assets/thumb/A094.webp",
    "w": 1120,
+   "h": 1400
+  },
+  {
+   "id": "A095",
+   "seq": "095",
+   "title": "乳制品品牌海报（OUT OF THE BOX）",
+   "category": "商业广告——饮料食品",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 乳制品",
+   "palette": "牛皮棕 / 天蓝 / 炭黑",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "饮料",
+    "海报"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Vertical advertising poster with a surreal playful concept, photorealistic rendering. The entire composition is shot from a first-person POV from inside a cardboard moving box looking straight up — the viewer sees the inside walls of the box converging toward a bright square opening at the top.Canvas: Vertical 3:4 portrait poster.Foreground / framing (fills ~70% of the image): The interior of an opened kraft-brown cardboard moving box, seen from the bottom looking up. The four inner walls of the box recede in strong one-point perspective toward the center-top of the frame, creating a natural vignette that guides the eye upward. The cardboard has realistic texture — visible corrugation, slight scuff marks, shipping creases, authentic warm kraft-paper tones. The inner flaps are fully opened outward so the square \"window\" at the top is clean and unobstructed. Subtle soft shadow along the inner corners of the box. The bottom edge of the frame shows the inside floor of the box, slightly out of focus.Sky opening (top of the composition, ~30% of the image): A bright, clear midday sky visible through the opening — soft pale cerulean-blue with a few fluffy cumulus clouds drifting across. Natural sunlight streams down into the box, subtly brightening the upper edges of the cardboard walls.Subjects (peeking down into the box from above, filling the sky opening): Two curious dairy cows framing the top opening — one on the left, one on the right — peering downward into the box with big gentle eyes. Both are Holstein cows (the classic black-and-white dairy breed):Left cow: Head tilted slightly, one ear perked up, one floppy. Big glossy dark eyes with long lashes. Pink muzzle visible, mouth slightly open as if mid-chew. Black and white patchy fur, visible fine hair detail. Looking directly down into the box at the viewer with a curious, almost questioning expression.Right cow: Head angled the other direction, slightly closer to the camera so her pink nose is prominent in the frame. Warm pink nostrils, soft breath visible. Wide innocent eyes, friendly expression. Black and white markings, one ear tag visible (generic yellow, no brand).Both cows are photographed with the same bright natural daylight as the sky. The perspective makes them appear enormous, like they've discovered something in a box much larger than themselves. Their heads lean in from outside the frame of the box opening, creating a playful \"what's in here?\" moment. Shallow depth of field keeps the cows sharp and the cardboard slightly softer.Main headline (bottom of poster, large bold sans-serif, deep charcoal-black): Horizontally aligned, slightly left-weighted, in a modern grotesk sans-serif: \"OUT OF / THE BOX.\" Clean confident typography, all caps, tight leading between the two lines.Sub-headline (directly below the main headline, smaller, medium-weight sans-serif, muted grey): Two-line supporting copy, center-aligned: \"Fresh milk, straight from the farm. / No middlemen, no long shelf lives, no surprises.\"Bottom-right corner: Small clean brand logo lockup — a minimalist circular glyph containing a stylized milk-drop or simple cow silhouette, next to the brand wordmark in bold clean sans: \"PASTURE & CO.\" (placeholder fictional brand name).Below the logo, a small tracked uppercase line: \"FIND US IN STORES · PASTUREANDCO.FARM\".Bottom-left corner: A small minimalist info block in tracked uppercase sans-serif, charcoal text on kraft background:\"DELIVERED FRESHEVERY MORNING— SINCE 2022\"Next to it, a tiny line-icon illustration of a milk bottle with a small sunrise motif behind it.Very bottom edge (thin strip, tiny tracked uppercase sans): \"FARM-TO-BOTTLE DAIRY · COW-TO-CUSTOMER · EST. 2022\".Palette: warm kraft-brown cardboard (#B8916B), bright cerulean sky (#A8C8E4), soft cumulus cloud white, natural black-and-white Holstein markings, pink muzzles, deep charcoal typography (#1A1A1A), muted grey support text (#6B6B6B).Typography: bold modern grotesk sans-serif for headline (like Neue Haas Grotesk Bold, Söhne Bold, or Inter Black), medium-weight sans for sub-copy, tracked uppercase sans for meta.Mood: clever, playful, wholesome, fresh, trustworthy, farm-direct.Finish: crisp commercial photography, bright natural daylight, subtle photographic texture, polished advertising quality. Shutterstock / Cannes Lion-quality dairy advertisement poster, 4k vertical.",
+   "img": "assets/full/A095.webp",
+   "thumb": "assets/thumb/A095.webp",
+   "w": 933,
+   "h": 1400
+  },
+  {
+   "id": "A096",
+   "seq": "096",
+   "title": "汽车时尚广告（Ferrari Drive Your Style）",
+   "category": "商业广告——汽车",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 汽车",
+   "palette": "粉彩 / 反光地板",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "汽车",
+    "时尚"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create a high-fashioned editorial advertisement featuring a Korean female model. The model should be striking a dynamic pose that exudes confidence and elegance, while wearing an avant-garde outfit perfectly color-matched to a sleek Ferrari car displayed prominently in the scene. The setting is minimalist, with a powder pastel background and a reflective floor to enhance a clean, sophisticated aesthetic. Bold, artistic typography should showcase the tagline “Drive Your Style” integrated within the composition. The overall style is modern and artistic, suitable for a high-end magazine spread.",
+   "img": "assets/full/A096.webp",
+   "thumb": "assets/thumb/A096.webp",
+   "w": 544,
+   "h": 680
+  },
+  {
+   "id": "A097",
+   "seq": "097",
+   "title": "运动饮料霓虹海报",
+   "category": "商业广告——饮料食品",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 饮料",
+   "palette": "霓虹粉 / 蓝",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "饮料",
+    "运动"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Use the \"Neon Kinetic Typographic Poster\" visual style as the locked visual system.\n\nCreate a 16:9 image.\n\nSubject: a street dancer holding a chilled citrus can\nSubject action: jumping toward the lens from a sunlit court\nProduct or prop: neon citrus drink can with condensation\nLocation: outdoor basketball court below a blue sky\nBackground elements: low-angle pavement, motion blur, warped neon type, lens flare, and film grain\nMain text: BURST\nSecondary text: cold energy\nAccent symbol: electric pink underline\nWardrobe style: oversized windbreaker, sporty shorts, bright socks, and reflective sunglasses\n\nStyle direction:\nA dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized\nwarped neon typography, film grain, and high-energy youth-culture campaign design.\n\nKeep visible:\n- Preserve the core visual identity: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.\n- Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.\n- Use an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward.\n- Add oversized warped neon yellow typography using MAIN_TEXT.\n- The typography should wrap around the composition and sit behind or partially around the subject.\n\nAvoid:\nAvoid small typography, clean corporate layout, symmetrical centered poster design, flat vector\nillustration, pastel palette, luxury minimalism, soft studio lighting, plain white background,\nlow contrast, overly polished 3D render, generic stock photo, tiny subject, unreadable clutter,\nand text that covers the subject's key action or product.\n\nDo not copy source content, real logos, watermarks, platform UI, QR codes, or exact\nreference layouts. Keep the visual system, but change the subject, text, and scene.",
+   "img": "assets/full/A097.webp",
+   "thumb": "assets/thumb/A097.webp",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "id": "A098",
+   "seq": "098",
+   "title": "街头服饰品牌编辑海报",
+   "category": "商业广告——服饰时尚",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 服饰",
+   "palette": "单色 / 粉彩",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "服饰",
+    "时尚"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create a premium high-fashion editorial poster for [BRAND NAME].\n\nTOPIC:\n[STREETWEAR / FASHION COLLECTION / EDITORIAL CAMPAIGN]\n\nSTYLE & ART DIRECTION:\n\nOversized typography editorial aesthetic\n\nMinimal futuristic fashion design\n\nKorean high-fashion poster influence\n\nLuxury streetwear branding\n\nAvant-garde magazine-cover atmosphere\n\nSoft monochromatic composition\n\nPinterest fashion-editorial aesthetic\n\nHigh-end commercial styling\n\nModern runway campaign design\n\nMinimal but bold visual hierarchy\n\nVogue-meets-streetwear atmosphere\n\nMAIN SUBJECT:\n\nA full-body fashion model prominently centered in the composition\n\nOversized luxury streetwear outfit\n\nFashion-forward silhouette and styling\n\nMinimal expressive pose\n\nElegant emotional neutrality\n\nRealistic luxury-fashion photography\n\nPremium editorial lighting\n\nModern runway attitude\n\nSoft futuristic mood\n\nClean symmetrical body positioning\n\nLAYOUT & COMPOSITION:\n\nSame exact editorial composition and hierarchy as the reference design\n\nMassive oversized typography placed behind the model\n\nTypography integrated into the composition as a graphic element\n\nStrong centered symmetry\n\nMinimal clean background\n\nSpacious luxury editorial layout\n\nMagazine-cover inspired balance\n\nMinimal distractions\n\nStrong visual focus on the fashion styling\n\nTEXT & TYPOGRAPHY:\n\nHuge bold geometric typography\n\nEditorial fashion font style\n\nOversized lettering occupying most of the background\n\nMinimal secondary micro typography\n\nLuxury magazine hierarchy\n\nMain title:\n\"[MAIN FASHION WORD]\"\n\nSupporting text:\n\"[COLLECTION / EDITORIAL SUBTITLE]\"\n\nDEPTH & LIGHTING:\n\nSoft editorial studio lighting\n\nLuxury fashion shadows\n\nSmooth pastel reflections\n\nMinimal contrast\n\nPremium commercial skin rendering\n\nHigh-end fashion atmosphere\n\nEXTRA DESIGN DETAILS:\n\nTiny editorial text blocks\n\nMagazine micro-details\n\nFashion-brand symbols\n\nMinimal graphic accents\n\nSoft texture overlays\n\nLuxury typography interaction\n\nEditorial spacing\n\nCOLOR PALETTE:\n\n[PRIMARY MONOCHROMATIC COLOR]\n\nSoft pastel tones\n\nWhite / cream highlights\n\nMinimal luxury contrast\n\nQUALITY:\n\nUltra realistic fashion photography\n\nPremium editorial poster design\n\nBehance-quality fashion campaign\n\nVogue-style streetwear composition\n\nSame exact visual identity and layout as the reference\n\nUltra high resolution",
+   "img": "assets/full/A098.webp",
+   "thumb": "assets/thumb/A098.webp",
+   "w": 480,
+   "h": 679
+  },
+  {
+   "id": "A099",
+   "seq": "099",
+   "title": "卫衣产品广告（SVG STUDIOS）",
+   "category": "商业广告——服饰时尚",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 服饰",
+   "palette": "橄榄绿 / 奶油 / 藏蓝",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "服饰",
+    "产品"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create a high-end fashion product advertisement poster in portrait 4:5 ratio, clean minimal editorial style using a reference product image. Background is a warm off-white to light khaki gradient studio setup, very minimal, soft, airy, with subtle warm tones. Main product: an olive army green oversized waffle-knit long sleeve crewneck shirt, ghost-hung on a silver metal clothing rack stand with a visible clamp at the top-right. The shirt hangs naturally with slight drape, front-facing. On the center chest, include white puff embroidery text: “SVG” (first line with 3 small 4-point star inside the V), “STUDIOS W.I.P” (second line), “MOVEMENT THROUGH UNITY” (third line, slightly smaller), “SS26 - 29213” (fourth line, smallest). Add a small dark navy woven label patch on the right hem side seam and a visible dark navy neck tag at the collar. Typography: top center minimal brand logo “SVG STUDIOS” in olive green clean sans-serif, top-left italic cursive “Field” with a small dark olive rectangle badge below reading “edition” in white, behind the shirt place massive ultra-condensed olive green text “WAFFLE TEE” partially hidden and cut by the product, bleeding off edges. lower-left include handwritten “SVG” and large cursive “Studios” in olive tone. Bottom section features three diagonal detail strips: macro waffle-knit texture, closeup puff embroidery stitching, and closeup dark navy neck label, all with warm studio lighting. Between strips include small text “Built for movement, designed for unity. The SVG Studios WIP Waffle Longsleeve — SS26 Collection” Footer includes 4 small barcode at bottom-left, centered text “• WWW. SVGSTUDIOS. COM • • •” in spaced caps olive tone, and small text “MADE IN MALAYSIA • SS26 COLLECTION”. Color palette is olive army green, warm cream, and dark navy only. Overall style is clean editorial fashion lookbook, military-inspired streetwear campaign, soft diffused lighting, high contrast product focus, photorealistic, ultra detailed, 8K quality.",
+   "img": "assets/full/A099.webp",
+   "thumb": "assets/thumb/A099.webp",
+   "w": 435,
+   "h": 680
+  },
+  {
+   "id": "A100",
+   "seq": "100",
+   "title": "饮料概念广告大师提示词",
+   "category": "商业广告——饮料食品",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 饮料",
+   "palette": "极简 / 品牌色",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "饮料",
+    "campaign"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "UNIVERSAL CONCEPTUAL DRINK ADVERTISING MASTER PROMPT\n\nACT AS:\nA Cannes Lions-winning conceptual advertising photographer, elite FMCG creative director, luxury still-life stylist, minimalist visual storyteller, and Apple-level commercial art director creating a world-class conceptual print campaign for a beverage brand.\nThe final image should feel like a fusion of:\n\n— Apple-level minimalist advertising\n— Cannes Lions conceptual print campaigns\n— high-end FMCG visual systems\n— premium billboard advertising\n— Dina Belenko-style object interaction\n— luxury still-life photography\n— iconic global beverage campaigns\n— emotionally intelligent visual storytelling\n— modern conceptual poster design\n\nThe image must feel:\nminimal, premium, intelligent, emotionally readable, physically believable, instantly understandable, and campaign-ready.\nNOT generic product photography.\nNOT cinematic AI wallpaper art.\nNOT splash-heavy beverage advertising.\nNOT cluttered compositions.\nNOT fantasy surrealism.\nNOT overdesigned social media graphics.\nNOT Behance-style visual overload.\nThis should look like a real campaign created by a top global creative agency.\nCORE CREATIVE PHILOSOPHY\nThe image must revolve around:\nONE instantly understandable visual metaphor.\nThe concept should be readable within:\n1–2 seconds.\nThe viewer should immediately understand:\nthe emotional effect of the product.\nThe product should not merely appear in the image.\n\nInstead:\nthe product itself must physically CREATE the concept.\nThe strongest concepts usually involve:\n\n— revealing\n— tearing\n— unzipping\n— cracking\n— freezing\n— opening\n— peeling\n— bending\n— splitting\n— transforming\n— interrupting\n— exposing\n— containing\nThe transformation must happen THROUGH the product —\nnot randomly around it.\nThe image should communicate:\nONE emotional truth,\nthrough ONE physical visual interruption.\nThe viewer’s first reaction should be:\n“Damn… that’s smart.”\nCONCEPT DEVELOPMENT SYSTEM\nBefore generating the image:\n\nIdentify the product’s emotional identity.\n\nExamples:\n\nSprite → cooling relief\nMirinda → fun interruption\nCoca-Cola → happiness inside\nMalta Guinness → strength within\nEnergy drink → explosive power\nCoffee → awakening\nJuice → real fruit purity\nChocolate → comfort and temptation\n\nThen:\ntransform THAT emotion into a physically integrated visual metaphor.\n\nThe strongest concepts usually follow this structure:\nPRODUCT\n\nONE PHYSICAL INTERRUPTION\n\nEMOTIONAL WORLD INSIDE\nExamples:\n\n— soda can opening into winter\n— juice bottle made from actual fruit\n— chocolate bar melting steel\n— energy drink tearing open lightning\n— coffee cup revealing sunrise\n— drink physically interrupting heat\n— happiness hidden inside packaging\n\nAvoid vague symbolism.\nAvoid concepts requiring explanation.\nAvoid decorative creativity.\nThe best conceptual advertising feels:\ninevitable.\nVISUAL EXECUTION STYLE\nThe image should feel:\nphotographed,\nnot illustrated.\nUse:\n— one dominant object\n— minimal supporting props\n— strong negative space\n— clean silhouette readability\n— graphic simplicity\n— elegant balance\n— centered or carefully asymmetrical framing\n— premium studio realism\nEverything must exist for a reason.\nNo decorative filler objects.\nThe concept itself should dominate the image.\nThe final result should resemble:\na real luxury billboard campaign photographed in studio.\nLIGHTING STYLE\nUse:\n— soft directional studio lighting\n— premium commercial reflections\n— tactile material realism\n— subtle gradients\n— controlled highlights\n— believable shadows\n— physically accurate textures\n\nLighting should feel:\nclean,\npremium,\nminimal,\nand art directed.\nAvoid:\n— cinematic fog\n— fantasy glow\n— dramatic VFX\n— overprocessed HDR\n— chaotic reflections\n— AI-style hyper-detail overload\n\nThe image should feel:\nphysically believable and commercially photographed.\nCOLOR PHILOSOPHY\nUse a tightly controlled palette.\n\nColors should feel:\nbrand-driven,\nminimal,\nintentional,\nand premium.\n\nPrefer:\n— monochromatic harmony\n— restrained saturation\n— clean background separation\n— strong product contrast\n— elegant gradients\n\nAvoid:\n— rainbow palettes\n— noisy environments\n— excessive color complexity\n\nBackgrounds should feel:\nminimal,\ngraphic,\nand billboard-ready.\n\nTYPOGRAPHY & COPY SYSTEM\n\nTypography should feel:\nrestrained,\npremium,\nand confident.\n\nUse:\n— small elegant copy\n— lots of breathing room\n— subtle hierarchy\n— premium sans-serif typography\n— Apple-like minimalism\nAvoid:\n— oversized poster typography\n— loud graphic layouts\n— explanatory headlines\n— cluttered text systems\nThe visual should work WITHOUT copy.\nCopy should only:\nsharpen the emotional punchline.\nGood conceptual copy examples:\n— “Open Cold.”\n— “Real Magic Is Inside.”\n— “Strength Starts Within.”\n— “Pause The Heat.”\n— “Fun Inside.”\n— “Freshness Within.”\n— “Open Happiness.”\nThe copy should complete the concept —\nnot explain it.\nEMOTIONAL GOAL\n\nThe image should create:\n— immediate visual pause\n— emotional recognition\n— admiration for the idea\n— desire for the product\n— billboard readability\n— premium campaign energy\n\nThe image should feel:\nsimple enough for mass audiences,\nsmart enough for creatives,\nand polished enough for luxury global brands.\n\nFINAL VISUAL QUALITY\nUltra photorealistic conceptual product photography.\nCannes Lions-worthy advertising realism.\n\nMinimalist conceptual campaign aesthetics.\n\nLuxury still-life execution.\nPhysically believable surrealism.\nGraphic advertising clarity.\nPremium commercial retouching.\nElegant studio realism.\nWorld-class FMCG campaign quality.\nAspect Ratio: 4:5\nUltra HD 8K\nStudio-quality realism\nGlobal campaign aesthetic\n\nFINAL CREATIVE FILTER\n\nBefore finalizing the image, ask:\n\nCan the idea be understood instantly?\n\nIs there only ONE dominant visual metaphor?\nDoes the product physically CREATE the concept?\n\nDoes the image feel photographed instead of AI-generated?\n\nIs the composition restrained enough?\nWould this still work on a billboard in 2 seconds?\nIs the concept emotionally tied to the product identity?\n\nDoes the image create a visual pause?\nIf not:\nsimplify further.\nThe strongest conceptual advertising feels:\nobvious,\nminimal,\nphysical,\nand emotionally inevitable.",
+   "img": "assets/full/A100.webp",
+   "thumb": "assets/thumb/A100.webp",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "A101",
+   "seq": "101",
+   "title": "银风衣时尚编辑海报（STATIC）",
+   "category": "商业广告——服饰时尚",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 时尚",
+   "palette": "金属灰 / 炭黑",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "时尚",
+    "编辑海报"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Editorial fashion poster with a model wearing an oversized reflective silver trench coat and geometric sunglasses standing against a smooth metallic gray background. Giant condensed serif typography reading 'STATIC' stretched vertically across the composition in deep charcoal. Minimal editorial microtext, clean luxury spacing, tiny abstract symbols, and sharp directional layout. High-fashion campaign aesthetic, monochrome palette with one accent color, modern art-direction style, bold typography-driven composition.",
+   "img": "assets/full/A101.webp",
+   "thumb": "assets/thumb/A101.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A102",
+   "seq": "102",
+   "title": "通用产品 campaign 海报",
+   "category": "商业广告——产品海报",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 产品",
+   "palette": "品牌色",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "产品",
+    "海报"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create a photorealistic premium product campaign poster in a 4:5 vertical aspect ratio.\nProduct: [PRODUCT NAME]\nBrand style: [BRAND / PREMIUM / LUXURY / TECH / BEAUTY / FOOD / DRINK]\nMain subject: A confident model holding or presenting the product close to the camera, with the product in sharp focus and the model slightly behind it. Use a strong perspective angle so the product feels powerful, premium, and hero-like.",
+   "img": "assets/full/A102.webp",
+   "thumb": "assets/thumb/A102.webp",
+   "w": 544,
+   "h": 680
+  },
+  {
+   "id": "A103",
+   "seq": "103",
+   "title": "运动水瓶 campaign（Aqua）",
+   "category": "商业广告——运动健康",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 运动",
+   "palette": "钴蓝 / 白",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "运动",
+    "水具"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Create a hyper-realistic sports advertising poster shot from an extreme wide-angle, low courtside perspective on a bright sunny day at an outdoor tennis court. In the extreme foreground, a male tennis player lunges dramatically toward the camera while thrusting a large matte cobalt-blue insulated water bottle toward the viewer, making the bottle the dominant object in the frame. The bottle is covered with visible condensation droplets and has a brushed metallic gold cap, with the white logo text {argument name=\"brand name\" default=\"Aqua\"} printed near the bottom. The athlete wears a clean white athletic t-shirt, bright blue tennis shorts, white wristbands, white socks, and white tennis shoes. His other arm stretches back holding a black tennis racket, with 1 bright yellow-green tennis ball visible near the racket on the right side of the image. The pose should feel dynamic and athletic, with one leg bent deeply and the other extended in a wide lunge across the blue hard court. Use strong midday sunlight, crisp shadows, vivid saturated blues, and a clear cloudless sky, with green trees and a dark fence line in the distant background. Compose it like a premium hydration brand campaign, with sharp focus on the bottle and athlete, dramatic foreshortening, commercial polish, and energetic motion. Add clean white ad typography integrated onto the court surface in the lower half: a smaller line reading {argument name=\"headline intro\" default=\"Play Hard\"}, a very large bold line reading {argument name=\"headline main\" default=\"Hydrate Smart\"}, and a smaller subheading reading {argument name=\"tagline\" default=\"Hydration that keeps up with every move.\"}. Place the {argument name=\"brand name\" default=\"Aqua\"} logo again in white at the top right, and a small website URL in white at the bottom right reading {argument name=\"website\" default=\"www.aqua.com\"}.",
+   "img": "assets/full/A103.webp",
+   "thumb": "assets/thumb/A103.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A104",
+   "seq": "104",
+   "title": "耳机电商信息图（Apple Pods）",
+   "category": "商业广告——电子数码",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 电子",
+   "palette": "白 / 彩虹光",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "电子",
+    "电商"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Prompt: High-impact e-commerce infographic for \"Apple Pods Pro 3\" wireless earbuds. Foreground: An extreme close-up of a hand holding an open, glossy white wireless earbud charging case toward the camera. Inside the case are two sleek white earbuds with black speaker accents. A tiny, glowing green LED status light is visible on the front of the case. The hand and case have a slight macro-lens blur to create a sense of depth. Central Subject: In the mid-ground, a smiling young woman with freckles and wavy pastel-pink hair. She is wearing a vibrant lime-green knit beanie and a psychedelic, black and white-striped long-sleeve shirt. One white earbud is tucked into her ear. Background & Lighting: A clean, soft-focus studio backdrop with a light-gray gradient. The scene is accented by diagonal rainbow prism lens flares and soft light leaks. Several blurred white earbuds float artistically in the background. The lighting is soft and professional, highlighting the glossy plastic of the product. Typography & Layout (Sans-Serif, White): Top Center (Background): Massive, bold text reading \"AIRPODS\" (positioned behind the model). Top Right: Bold text reading \"Apple Pods Pro 3\". Mid-Left: \"Premium sound and noise cancellation\" Mid-Right: Large, bold \"30\" with the text \"hours of battery life.\" Bottom-Right: Large, bold \"1\" with the text \"year warranty.\" Style: 8k resolution, commercial product photography, vibrant color palette, sharp focus on the product case, shallow depth of field, clean advertising aesthetic.",
+   "img": "assets/full/A104.webp",
+   "thumb": "assets/thumb/A104.webp",
+   "w": 452,
+   "h": 680
+  },
+  {
+   "id": "A105",
+   "seq": "105",
+   "title": "洗发水广告（Head & Shoulders）",
+   "category": "商业广告——美妆洗护",
+   "kind": "商业广告",
+   "tone": "品牌广告 · 洗护",
+   "palette": "电光蓝 / 冰蓝 / 白",
+   "model": "通用",
+   "tags": [
+    "商业广告",
+    "美妆",
+    "洗护"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.25",
+   "note": "",
+   "prompt": "Prompt : \n\nFORMAT:\n4:5 vertical hyper-commercial anti-dandruff shampoo campaign poster, ultra-high resolution (8K), global billboard + social media advertising ready\nStyle: modern FMCG sports campaign × cooling technology advertising × bold commercial graphic design × premium product photography\n\n CORE IDEA:\nCOOL THAT HITS INSTANTLY.\n\nA campaign designed around\ncooling freshness,\nactive confidence,\nand visible scalp energy.\n\nEverything in the composition reacts to the cooling effect.\n\n MASTER COMPOSITION:\n\nBACKGROUND:\nDeep electric-blue studio environment\n\nLayered with:\n- icy gradient transitions\n- cooling airflow streaks\n- frozen mist textures\n- glossy blue reflections\n- repeated typography overlays\n- subtle liquid wave distortions\n\nThe atmosphere should feel:\ncold,\nactive,\nhigh-performance,\ncommercially powerful.\n\nL\n\n MODEL:\n\nModern athletic male model\n\nExpression:\nfresh,\nfocused,\nconfident\n\nPose:\ndynamic upward head motion\nas if feeling an instant cooling rush\n\nHair:\nthick textured hair\nslightly lifted upward by cooling airflow\n\nWardrobe:\nminimal white + navy athletic styling\n\nSkin:\nfresh post-workout glow\nclean premium grooming look\n\n VISUAL ENERGY:\n\nCooling airflow explodes through the composition.\n\nAround the head and hair:\n\n- frozen vapor ribbons\n- icy motion streaks\n- cool mist arcs\n- airflow distortion waves\n- suspended water particles\n\nThe cooling flow moves diagonally across frame,\nphysically interacting with:\n- typography\n- layout blocks\n- product placement\n\nFeels:\nscientific,\nsporty,\npremium,\ncommercially exaggerated.\n\n PRODUCT HERO:\n\n[Head & Shoulders](chatgpt://generic-entity?number=0) Cool Menthol bottle\n\nPlacement:\nforeground lower-right\n\nAngle:\nperfect 3/4 hero perspective\n\nBottle details:\n- hyper-clean white reflections\n- metallic blue highlights\n- realistic water condensation\n- embossed logo texture\n- premium cosmetic-grade packaging\n- subtle glossy reflection beneath\n\nBottle should feel:\nfresh,\nclinical,\nhigh-performance.\n\n TYPOGRAPHY SYSTEM:\n\nMAIN HEADLINE:\n\n“STAY\nCOOL.”\n\nTypography style:\n- ultra-bold condensed sans-serif\n- oversized stacked layout\n- white + ice-blue typography\n- ultra-tight spacing\n- partially hidden behind cooling airflow\n\nSECONDARY TEXT:\n“24H MENTHOL FRESHNESS”\n\nBACKGROUND TYPOGRAPHY:\nRepeated low-opacity words:\n\nCOOL\nFRESH\nACTIVE\nCLEAN\nMENTHOL\nCONTROL\n\narranged vertically and horizontally\ninside the background textures\n\n FEATURE INFORMATION STRIP:\n\nBottom premium feature bar:\n\n□ ANTI-DANDRUFF\n□ COOL MENTHOL\n□ 24H FRESHNESS\n□ SCALP PROTECTION\n\nMinimal modern icon system.\n\n CTA SECTION:\n\nBOTTOM LEFT:\n\n“NEW HEAD & SHOULDERS COOL MENTHOL”\n\nCTA BUTTON:\nsolid white rectangular button\n\nTEXT:\n“TRY NOW”\n\nSecondary micro CTA:\n“Available Online & In Stores”\n\n WEBSITE + BRAND INFO:\n\nBOTTOM CENTER:\n\nhttp://headandshoulders.com\n\nBOTTOM MICROTEXT:\n\n“ADVANCED SCALP CARE · 2026 EDITION”\n\n COLOR SYSTEM:\n\nPRIMARY:\nelectric blue\nice blue\nwhite\n\nSECONDARY:\nsilver metallic gradients\n\nACCENTS:\ncool cyan glow highlights\n\nPalette should feel:\ncold,\nclean,\nsport-driven,\npremium FMCG.\n\n LIGHTING SYSTEM:\n\nMAIN LIGHT:\nstrong commercial beauty key light\n\nRIM LIGHT:\nicy blue edge highlights around model + bottle\n\nACCENT LIGHT:\ncool underglow beneath product\n\nATMOSPHERIC LIGHT:\nmist catching directional blue lighting\n\nREFLECTIONS:\nsharp cosmetic-grade highlights\n\nLighting should feel:\nsports-commercial,\npremium,\nhigh-energy.\n\n HYPER DETAILING:\n\n- ultra-real condensation droplets\n- frozen mist particle realism\n- detailed hair texture\n- premium packaging reflections\n- airflow distortion detail\n- billboard readability maintained\n- ultra-clean typography edges\n- high-end FMCG rendering quality\n\n COMPOSITION FLOW:\n\nUpper Frame:\nmassive typography dominance\n\nCenter:\nmodel + cooling airflow explosion\n\nLower-right:\nproduct hero\n\nLower-left:\nCTA + features\n\nEye flow:\nHeadline → Cooling Motion → Face → Product → CTA",
+   "img": "assets/full/A105.webp",
+   "thumb": "assets/thumb/A105.webp",
+   "w": 933,
    "h": 1400
   }
  ]
