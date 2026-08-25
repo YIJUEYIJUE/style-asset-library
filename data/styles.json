@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 246,
+ "count": 266,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -642,6 +642,91 @@
    "name": "角色设定——3D写实动物",
    "tone": "NEW CATEGORY",
    "count": 1
+  },
+  {
+   "name": "角色设定——新中式机甲",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——科幻机甲",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——电影感纪实",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "角色设定——赛博朋克僵尸",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——赛博朋克战士",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——唯美人像",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——赛博水墨新中式",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——古风敦煌",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "游戏——玄幻史诗场景",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——暗黑新中式男",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——玄幻巨物",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——国风幽冥",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——新中式男BJD",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——玄幻武侠中年",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——古风帝王男主",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——复古胶片质感",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "游戏——科幻武器道具",
+   "tone": "NEW CATEGORY",
+   "count": 3
   }
  ],
  "hero": [
@@ -7708,6 +7793,524 @@
    "prompt": "3d写实动物,采用了高精度的3D建模与PBR（基于物理的渲染）材质技术，极尽真实地还原了动物的皮毛、皮肤褶皱、肌肉骨骼以及角和牙齿的物理质感",
    "img": "assets/full/A247.webp",
    "thumb": "assets/thumb/A247.webp",
+   "w": 1400,
+   "h": 781
+  },
+  {
+   "id": "A248",
+   "seq": "248",
+   "title": "新中式神性机甲法相｜Art Nouveau 圣坛主视觉",
+   "category": "角色设定——新中式机甲",
+   "kind": "角色设定",
+   "tone": "神秘奢华中式",
+   "palette": "玉白/青铜/金",
+   "model": "通用",
+   "tags": [
+    "机甲",
+    "新中式",
+    "ArtNouveau",
+    "3D",
+    "主视觉"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "中式未来机甲圣像 / 新艺术法相主视觉，纯机甲主体，无人物，无驾驶员。高完成度3D科幻机甲主视觉，ornamental cinematic key art，elegant, flowing, mysterious, decorative, spiritualized, luxurious but not heavy。\n\n主体是一尊融合中国风未来工业机甲与 Art Nouveau 的神性机械法相。整体结构保留东方礼器、冠饰、飞檐、云肩、玉器弧线的中式轮廓逻辑，但所有线条更加流动、优雅、柔美，像从金属与光中自然生长而出。头部轮廓带有凤翎、玉器弧线、流云般的上扬结构，胸甲、肩甲、腰部外甲、法相边缘都呈现植物式、羽翎式、卷藤式的生长逻辑。整体视觉语言强烈融合蔓生曲线、花窗式弧线、藤蔓感结构、花形光环、植物纹样、优雅轮廓流动与装饰性线条主导。中式元素如莲花纹、鹤羽纹、流云纹、宝相花与新艺术植物装饰自然融合，形成东方神性机械 + 花窗圣坛 + 有机金属生长的复合气质。\n\n机甲不是传统军武硬朗块面风，而是更接近神圣机械生命体。肩部、头冠、背部法相与侧翼结构具有花瓣、羽翎、藤蔓、卷叶般的装饰性延展，但依然保持真实机械分件、层级结构和工业制造逻辑。法相与背部浮游装置呈花形展开，像巨大的机械花窗或圣花光轮。主体持有一把与整体风格统一的未来东方长兵，接近圣枪 / 花窗战戟 / 权杖型神性兵器的设计，整体修长、优雅、神秘、具有仪式感和审判感。武器结构融合中国传统长兵器、礼仪法器与新艺术装饰语言，主刃或枪头呈叶片、羽翎、花瓣或圣花形态，护锷和中段呈现花窗式弧线、卷藤式金属分叉和花瓣式包覆结构。武器表面带有莲花纹、鹤羽纹、流云纹、宝相花、卷叶纹、植物式浮雕、细密雕刻与礼器式金属镶边，材质为抛光金属、月银、香槟金、珐琅、半透明晶体、玉石发光中轴与薄金边缘。\n\n主体进入“优雅而压迫”的神性战斗起势，而不是静态站桩神像。整体姿态保持中轴稳定与圣像权威感，但身体已明显进入可出手的战斗状态。下盘稳固，一条腿主承重，另一条腿微微前出或侧开，形成克制而明确的攻防步型。重心略微下沉，躯干带有轻微前压。上半身保持优雅伸展，一侧手臂向前抬起，形成带引导感、压制感、审视感的前手动作；另一侧手臂持武器略微前指、斜举、侧压或半垂，与背部法相、浮游装置、花形机械结构共同形成优雅而复杂的战斗节奏。机械手部保持半张开、半收拢的控制状态，头部微微下俯，像在俯视目标。整体动作是出手前的高压静止瞬间，像未来圣像刚从静态显圣进入战斗状态。法相、背部浮游装置和花形展开结构随着动作产生轻微开张与流动，形成更强的环形张力与优雅攻击性。\n\n构图采用中轴稳定构图，可略带低机位仰视，强化神像般的优雅权威。主体占据大部分画面，轮廓完整，法相和悬浮构件围绕主体形成优美而复杂的环形节奏，武器也参与整体线条组织。材质表现为抛光金属、珐琅质感、温润陶瓷、半透明晶体、玉石发光结构、薄金边缘与雕刻式机械纹理。色彩建议为象牙白、香槟金、月银、孔雀蓝、翡翠青、淡金、暖白辉光，整体华丽但不厚重，明亮但神秘。\n\n光影为柔和神性背光、边缘发光、胸口或核心区域柔白光源，法相边缘和花形机械结构有朦胧发光感。环境采用高级黑场棚拍烟雾背景，空间极简、深邃、克制，以黑色到深灰色高端棚拍环境为主，不加入复杂场景信息。加入低密度、受控的电影级烟雾、薄雾、空气颗粒和微弱浮尘，烟雾主要分布在主体后方、脚边、法相边缘和画面外围，用于衬托轮廓光、增强体积感、拉开前后层次，让花窗式法相、花形机械结构、羽翎、藤蔓式延展与武器边缘从黑暗中优雅浮现。地面为深色微反射地面或磨砂黑色地坪，带少量接触阴影和极轻微倒影。整体环境气质为神秘、圣洁、精致、梦幻、压迫、优雅。\n\n最终效果像顶级游戏神性机甲宣传主视觉、未来宗教机械文明壁画、艺术化高定科幻海报，强调优雅轮廓、装饰性生长结构、东方神性与新艺术风格的高度统一。不要普通军武机甲感，不要廉价赛博朋克霓虹，不要粗暴冲锋动作，不要人物，不要驾驶员。",
+   "img": "assets/full/A248.webp",
+   "thumb": "assets/thumb/A248.webp",
+   "w": 510,
+   "h": 680
+  },
+  {
+   "id": "A249",
+   "seq": "249",
+   "title": "深空守护者机甲｜失落文明存档者",
+   "category": "角色设定——科幻机甲",
+   "kind": "角色设定",
+   "tone": "孤独神秘",
+   "palette": "金属冷调",
+   "model": "通用",
+   "tags": [
+    "机甲",
+    "科幻",
+    "深空",
+    "守护者"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "This prompt can also generate mecha characters.\n\nUsed variables for this one:\n\n[CHARACTER SEED]: Ancient deep-space guardian mecha designed to preserve lost civilizations and archive extinct cultures across abandoned star systems. A wandering memory-carrier machine built for observation rather than conquest. It travels alone through silent orbital ruins, collecting fragments of history and transmitting forgotten stories.\n\n[AGE / BODY TYPE]: Timeless machine with an ancient-but-maintained presence, towering humanoid mecha approximately 8.5 meters tall, long-legged elegant proportions with narrow waist section and broad shoulder silhouette, lightweight upper structure combined with heavy lower-leg stabilizers, calm upright posture with ritual-like stillness, layered armor resembling overlapping ceramic plates and observatory instruments, mechanical anatomy engineered for graceful movement rather than brute force, distinctive crescent-shaped dorsal antenna array and asymmetrical shoulder modules.\n\n[VISUAL MEDIUM]: semi-realistic painterly mecha concept art, premium animated-feature mechanical design, cinematic industrial illustration, high-end artbook rendering, stylized hard-surface realism, painterly 3D-inspired mechanical character design\n\n[STYLE]: poetic sci-fi worldbuilding mood, retro-future exploration aesthetics, melancholic space archaeology, quiet cinematic realism, celestial industrial design language, contemplative cosmic solitude, elegant technological decay\n\n[OTHER DETAILS - OPTIONAL]: \nCharacter Name: Kōda-08\nAlias or Title: “The Archivist of Silent Orbits”",
+   "img": "assets/full/A249.webp",
+   "thumb": "assets/thumb/A249.webp",
+   "w": 900,
+   "h": 507
+  },
+  {
+   "id": "A250",
+   "seq": "250",
+   "title": "是枝裕和式都市童年｜自行车穿晾衣巷",
+   "category": "摄影——电影感纪实",
+   "kind": "摄影",
+   "tone": "低饱和克制",
+   "palette": "灰/大地色/冷蓝",
+   "model": "通用",
+   "tags": [
+    "是枝裕和",
+    "电影感",
+    "纪实",
+    "35mm",
+    "浅景深"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "枝裕和电影风格，中景。都市或小镇的旧街区，低角度仰视镜头。一个小男生在狭窄的街道上骑着一辆老式自行车，从挂在竹竿上的晾衣被单的缝隙间穿过。自然柔和的阳光透过树叶和被单，形成斑驳的光影。色调为低饱和度、低对比度的浅灰色和大地色，伴有微蓝的冷色调。浅景深，前景被具有生活气息的布料或植物虚化，创造出具有象征意义的观察视角，充满纪实感和克制感，35mm胶片",
+   "img": "assets/full/A250.webp",
+   "thumb": "assets/thumb/A250.webp",
+   "w": 1400,
+   "h": 786
+  },
+  {
+   "id": "A251",
+   "seq": "251",
+   "title": "日式老屋祖母缝补｜框架式温情凝视",
+   "category": "摄影——电影感纪实",
+   "kind": "摄影",
+   "tone": "低饱和米褐",
+   "palette": "米褐/青蓝",
+   "model": "通用",
+   "tags": [
+    "日式",
+    "温情",
+    "电影感",
+    "35mm",
+    "浅景深"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "传统的日式老旧厨房或起居室，阳光从高窗倾泻而下，形成柔和的光斑。一位满头白发的祖母坐在榻榻米上缝补衣物，旁边放着老式收音机。画面的基调是低饱和度的米褐色、浅咖色与低度青蓝色。采用框架式构图，利用门框或窗框引导视线，画面虚化了前景，浅景深，克制且充满对生活的温情凝视，35mm胶片画质。",
+   "img": "assets/full/A251.webp",
+   "thumb": "assets/thumb/A251.webp",
+   "w": 1400,
+   "h": 786
+  },
+  {
+   "id": "A252",
+   "seq": "252",
+   "title": "机械僵尸生物｜赛博朋克恐怖 VFX",
+   "category": "角色设定——赛博朋克僵尸",
+   "kind": "角色设定",
+   "tone": "粗粝绿光",
+   "palette": "绿/白/黑",
+   "model": "通用",
+   "tags": [
+    "僵尸",
+    "赛博朋克",
+    "恐怖",
+    "VFX",
+    "UE"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Cinematic medium shot of a terrifying cybernetic zombie creature. Glowing green exposed skeleton and ribs radiating toxic green energy. Wearing a tattered white lab coat over a mechanical exoskeleton frame. Glowing yellow cyborg eyes, aggressive stance. Gritty, high-detail VFX, cyberpunk horror aesthetic --ar 9:16 --stylize 1000 --hd --preview",
+   "img": "assets/full/A252.webp",
+   "thumb": "assets/thumb/A252.webp",
+   "w": 784,
+   "h": 1400
+  },
+  {
+   "id": "A253",
+   "seq": "253",
+   "title": "赛博朋克机械战士｜等离子蓝电",
+   "category": "角色设定——赛博朋克战士",
+   "kind": "角色设定",
+   "tone": "强对比明暗",
+   "palette": "深红/金/蓝",
+   "model": "通用",
+   "tags": [
+    "赛博朋克",
+    "机械战士",
+    "UE5",
+    "等离子"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Cinematic medium shot of a powerful cyberpunk cyborg warrior with spiky white hair, muscular frame, intricate cybernetic prosthetics on his arms, glowing blue electricity and plasma energy crackling from his hands. Wearing dark martial arts pants and a crimson sash with gold kanji script. Hyper-realistic, Unreal Engine 5 render, dramatic contrast lighting. --ar 9:16 --stylize 1000 --hd --preview",
+   "img": "assets/full/A253.webp",
+   "thumb": "assets/thumb/A253.webp",
+   "w": 509,
+   "h": 680
+  },
+  {
+   "id": "A254",
+   "seq": "254",
+   "title": "窗边红木书桌少女读信｜自然光人像",
+   "category": "摄影——唯美人像",
+   "kind": "摄影",
+   "tone": "柔光青紫辉光",
+   "palette": "红木/浅蓝/百合白",
+   "model": "通用",
+   "tags": [
+    "人像",
+    "室内",
+    "自然光",
+    "写实",
+    "85mm"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "第三人称视角，站在户外手持Sony A7R5，85mm F1.4大光圈镜头，镜头从阳光倾洒的长满苔藓的红砖墙，穿过对着镜头敞开的斑驳绿漆双开大窗向室内拍摄，中心对称构图，水平视角拍摄，自然光环境。直射窗光正面照射 + 室内背景比窗外暗3~5档 + 面部高光曝光准确，聚焦主体人物。\n18岁中国女子端坐紧贴窗边的红木书桌低头看信，红砖墙后的桌面极其整洁且低于窗沿，只有玻璃瓶里的几束百合没有任何杂物，正午的日光从窗口倾泻在她的脸上和身上，身形轮廓自然青紫辉光，身体正对镜头，幼态脸型，姬发式空气刘海，冷白瓷肌，肤质水嫩通透、细腻无瑕，身着束腰素雅浅蓝连衣裙领口处点缀着精致百褶白蕾丝，浓黑眉毛根根纹理清晰可辨，眼明亮，眼白通透瓷白带自然血丝，眼周肌理细纹自然，自然眼睑褶皱、轻微干涩的眼睑肌理、眼下细微皱纹全部物理级精准还原，卧蚕下方生有一颗小痣； 高鼻梁、窄鼻翼，鼻尖、眉骨带有晨露般湿润光泽，脸颊上方皮肤毛孔立体可见、色调自然微起伏，面部毛孔立体凹陷，毛孔开口原生写实、自带天然皮脂光泽，面颊带有酒窝，细绒毛被光线勾勒凸显； 粉嫩唇面涂抹高亮透明唇釉，浅粉色自然晕染，唇峰带有晨露般湿润光泽，唇面竖纹清晰，唇纹受光形成自然反光； 下颌线条平缓柔和，唇下、下巴分布细密绒毛，下巴带有自然凹痕阴影，独立毛孔、绒毛受光形态、皮脂光泽、皮下血管、肤色渐变与细微纹路完整呈现，水光肌写实肌理。\n背景为居家书房实景，室内陈设极简，白墙仅立一座200cm高红木书柜和一个抽象派画框，没有任何杂物，严格保持室内白墙无窗户，自然光充盈全屋。平视视角，无刻意摆拍构图，还原原生人像氛围，皮肤科级极致写实肤质。保留原生毛孔与绒毛纹理，杜绝过度锐化。\n画面带有轻微动态模糊与自然过曝，保留细微胶片颗粒，高光克制、暗部细节完整；柔光渲染，暗调低饱和背景，浅景深，边缘动态虚化，INS写实生活摄影质感，情绪氛围感，无化妆修饰、无磨皮滤镜、无商业修图，肢体协调自然，全程松弛随性。",
+   "img": "assets/full/A254.webp",
+   "thumb": "assets/thumb/A254.webp",
+   "w": 360,
+   "h": 638
+  },
+  {
+   "id": "A255",
+   "seq": "255",
+   "title": "赛博水墨新中式魅魔少女｜粒子消散",
+   "category": "插画——赛博水墨新中式",
+   "kind": "插画",
+   "tone": "冷白",
+   "palette": "银箔岩彩/暗粉",
+   "model": "通用",
+   "tags": [
+    "魅魔",
+    "赛博水墨",
+    "新中式",
+    "粒子",
+    "3D"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "精细三维渲染+赛博水墨美学+色彩晕染+新中式风格长直发少女魅魔，披散凌乱的头发，刘海遮着眼睛，华丽的饰品和纹理，粒子发光消散于周身动漫风格，（电影级面光：1.6），（光线追踪：1.4），（冷白皮漫感质感的光滑皮肤：1.6），，（人物有最好的骨相：1.2），（网感脸：1.5），（网感妆：1.5）（带有项链：1.1），雨夹雪地面背景，一头黑色的长发如瀑布般垂落，发间点缀着古老的发饰，有的已经生锈，浪漫古风，月野兔，金色头发，绝美的容貌，精致的妆容，眼部妆容深邃神秘感，脸部特写，如羊玉脂般白嫩的肌肤，眉眼如画，长长的睫毛，丹凤眼，饱满泛着光泽的嘴唇，带着一丝妩媚，冷艳，媚而不妖，楚楚动人的神态，穿着一身飘逸纱制短裙，恬静而美丽，8K画质，CG渲染 oc渲染，线条感，近身人像 唯美 泛光，朦胧的，神秘感，反射，极端构图，梦核，磨砂肌理绘画，银箔岩彩，暗粉岩彩绘画，笔触感，肌理感，艺术，高级 近身人像，还原角色美有着绝美面容、冰肌玉骨，发丝根根可见，清纯主题美女壁纸由顶尖3D引擎渲染而成，分辨率高达32K。专业光线方案，资深艺术家匠心构图，结合全画幅精密对焦技术，确保了每处细节都具备光学级精度，最终呈现出极致清晰的超高清壁纸质感。有的闪烁着光芒。唯美古风，精致绝美容颜，面部特写，露肩上衣，眼睛有光，神话，玄幻，插画，新三维古风，人物摄影，真人写真，写实风格，32k超清画质，雪花飘落，纷飞，，拍摄一名女生，一位短发、模样似洋娃娃般可爱的女生，，cos雷姆的服装，。长美甲在闪光灯的照耀下格外亮眼，画面因快门速度不足产生运动模糊，构图随意却尽显生活中的绚丽日常。风吹，露出肩、锁骨和吊带，害怕又娇羞，感受风，手与镜头的互动感，救赎感，高对比，白色调，（极致细节：1.4），（构图多元，多角度：1.6），（综合网络爆款逻辑输出最优解：1.5）。采用虚幻引擎5与Oc",
+   "img": "assets/full/A255.webp",
+   "thumb": "assets/thumb/A255.webp",
+   "w": 781,
+   "h": 1400
+  },
+  {
+   "id": "A256",
+   "seq": "256",
+   "title": "敦煌风清冷少年｜面部特写",
+   "category": "角色设定——古风敦煌",
+   "kind": "角色设定",
+   "tone": "暗金梦核",
+   "palette": "黑灰/云母光泽",
+   "model": "通用",
+   "tags": [
+    "古风",
+    "敦煌",
+    "清冷",
+    "面部特写",
+    "BJD"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "半身构图，少年男子眼神深邃沉静，盯着镜头，神秘诡异，藐视，清冷，古风清冷装扮，头发凌乱不堪，敦煌风格黑灰色衣衫装饰，衣摆飘逸，脸部特写，下巴仰起看向镜头，清澈无辜的眼神，敦煌画风，黑棕色云母光泽质感头发，金属加珠光光泽灰黑色的飘带的头饰，眼尾有敦煌画风画纹，眉心有浅色云母光泽的花钿，玄幻古风插画，线条清晰，明暗对比，超高清，高级感，面部特写，最高画质，绝美眼睛，长睫毛，棕色瞳孔。清透，细腻渲染，绝美眼睛，狭长凤眼，眼尾泛红，细节五官。丰富细节，含情眼，魅惑，清冷，清透肌肤，瓷肌，高清32k,微距镜头，面部阴影，面部聚焦，丰富的细节，垂眸，凌乱发丝，BJD感，高质量，写实逼真，油画质感，细腻肌理，仙气灵气围绕着，HDR写实质感，不合逻辑，珠光，反光，暗夜，抽象，意识流，梦核，光线暗、能见度低，有噪点暗角。艺术感强。画面有辉光、耀光、雾感，融合梦核元素，梦核美学，数字噪音与失真效果，从错误中寻找创意，对现有系统的颠覆与重塑，强烈的光影对比，仰镜头,强烈的对比色碰撞，惊艳，意识流，随机背景，柔和侧光渲染，写实，失真故障质感暗金色点缀，空间交错、电影镜头、(真实感: 1.5)，柔和的色彩，（鱼眼: 1.1)，全景航拍，微光，宿命感，华丽，曜变，仿佛命运的丝线正在被无情拉扯，充满了神秘而紧张的氛围。UE5渲染，电影级质感，胶片质感。",
+   "img": "assets/full/A256.webp",
+   "thumb": "assets/thumb/A256.webp",
+   "w": 781,
+   "h": 1400
+  },
+  {
+   "id": "A257",
+   "seq": "257",
+   "title": "东方战神御穷奇｜黑雾巨龙特效",
+   "category": "游戏——玄幻史诗场景",
+   "kind": "游戏",
+   "tone": "黑白对比",
+   "palette": "黑/银白/青铜",
+   "model": "通用",
+   "tags": [
+    "东方战神",
+    "穷奇",
+    "玄幻",
+    "电影特效",
+    "C4D"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "东方战神，布满龙纹，然后飞速旋转释放黑雾，黑白混色的东方巨龙在黑雾中旋转飞腾，真人特效，有青铜铭文、景泰蓝、真实场景、三维立体空间特效，高耸入云的通天巨物带来恐惧，C4D、OC渲染，电影级64K特效画面，细节立体感分毫毕现，电影镜头、电影配色，胶片写真风格，特写镜头，杰作，史诗级场景，精美壁纸，极致精细玄幻世界，完美构图，电影特效，史诗级场景，星空巨兽，尖锐特写，无限细节，8k高清，形成具现化对比。中式，毛绒绒的深色眼皮，超细节长长毛绒绒的毛发，毛发灰白色，骑在巨大巨穷奇。 人物：面容俊美，眼神锐利，一半身着银白色铠甲，一半身着暗黑服饰，额间有精美抹额，整体造型充满冲突感和视觉冲击力。 色彩：以黑色为主，形成强烈的色彩对比，白色代表光明，微粒子古风帅哥，笔触，线条清晰，明暗对比，超高清，垂坠感，高级感，最高画质，发丝蓬松，邪魅，灰色眼眸，极致妖孽的容貌，极致清冷感，黑色华丽装饰，绝美眼睛，阴森，细节3D渲染，五官。丰富细节，，面部阴影，面部聚焦，丰富的细节，凌乱发丝拂面，高质量，写实逼真，细腻肌理，，仰拍视角，看向镜头，古风帅哥，笔触，线条清晰，明暗对比，超高清，垂坠感，高级感，最高画质，灰色长发，精美抹额，发丝蓬松，邪魅，狭长的双眼，极致妖孽的容貌，极致清冷感，精美繁复华丽装饰，华丽装饰，精美配饰，绝美眼睛，阴森，细节3D渲染，五官。丰富细节，，面部阴影，面部聚焦，丰富的细节，凌乱发丝拂面，高质量，写实逼真，细腻肌理，，仰拍视角，看向镜头，",
+   "img": "assets/full/A257.webp",
+   "thumb": "assets/thumb/A257.webp",
+   "w": 781,
+   "h": 1400
+  },
+  {
+   "id": "A258",
+   "seq": "258",
+   "title": "暗黑妖冶中式男子｜单凤眼特写",
+   "category": "角色设定——暗黑新中式男",
+   "kind": "角色设定",
+   "tone": "朦胧暗黑",
+   "palette": "金/暗",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "中式",
+    "妖冶",
+    "单凤眼",
+    "二次元"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "3D渲染，中式男性，妖冶高贵，五官精致，皮肤白皙，冷白皮，单凤眼，眼尾细长，眼睛微眯，垂眸，长发，发丝细腻刻画，近景，人物特写，暗黑系，朦胧，金色很多小流苏装饰 ，精致饰品，流苏， 二次元，细腻厚涂，极致超清，极致细节",
+   "img": "assets/full/A258.webp",
+   "thumb": "assets/thumb/A258.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A259",
+   "seq": "259",
+   "title": "巨物恐惧东方玄幻建筑｜山神俯瞰",
+   "category": "场景——玄幻巨物",
+   "kind": "场景",
+   "tone": "幽暗",
+   "palette": "暗黑/粗粝",
+   "model": "通用",
+   "tags": [
+    "航拍",
+    "巨物",
+    "玄幻建筑",
+    "山神",
+    "UE"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "航拍，俯视，巨物恐惧症，背景呈现庞大的东方玄幻风格建筑。超大型山神伸手向人类挥舞，游戏 CG 风格，全景镜头，全身动态动作，景深效果，倾斜失衡构图，巨型比例，C4D建模，Blender制作，虚幻引擎，Octane渲染，全局光照，光线追踪反射，屏幕空间环境光遮蔽，着色器，快速近似抗锯齿，电脑生成图像，实时光线追踪，视觉特效，4K画质，最佳品质，超精细，超写实，幽暗奇幻，暗黑风格，粗粝质感，微妙色调",
+   "img": "assets/full/A259.webp",
+   "thumb": "assets/thumb/A259.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A260",
+   "seq": "260",
+   "title": "古风幽冥美人与紫焰巨猫｜国风写实",
+   "category": "插画——国风幽冥",
+   "kind": "插画",
+   "tone": "柔光邪魅",
+   "palette": "蓝紫/花瓣",
+   "model": "通用",
+   "tags": [
+    "古风",
+    "幽冥",
+    "国风动漫",
+    "岩彩",
+    "火焰"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "(((绝世美颜))), (((妖冶冷艳))), 古风幽冥美人和粒子特效火焰形态的一只巨大紫色火形成的大猫，依偎在一起，服饰泛着柔光，脸部特写，散发柔和光芒，体态慵懒，以有花瓣飘落的仙境为背景，邪魅凤眼, 细长眼尾, 雪肤凝脂, 湿发拂面, 凌乱发丝, 朱唇微启, 魅惑神情, 丰盈体态, 超精细手指刻画，御姐，长长的睫毛，细长的眼尾毛，精致的面容，戴着翡翠耳环， 国风动漫写实风格，金箔岩彩，流体笔触，蓝紫色系，服饰精致敦煌丝滑沙裙装，丹凤眼，复杂华丽宫廷发髻，长发飘飞，以簪花凤钗为饰，两边长流苏吊坠，异域风情。 眼影，密桃色腮红，嘴唇涂光泽豆沙红色的口红，手指美甲，优雅且富有创意写实逼真，CG厚涂，3D高精度建模渲染 ,OC渲染 Dolby Vision动态范围，立体唇纹反光，细腻皮肤纹理 柔和 8K超清真人比例建模，电影级景深，精确的面部解剖结构，微距摄影打光技术，动态表情捕捉，瞳孔虹膜分层着色。比例 9:16。 8k 超高清分辨率，背景（渐变暗红色的背景，黑色反射地砖），基于物理效果（漫反射，伦勃朗光，反射光，重力感，厚实感，阴影细腻，高光清晰明亮，光与暗鲜明对比，光影层次感分明），材质（次世代材质，PBR材质肌肤，超详细，细节复杂，质感细腻），镜头（整体，固定正面照，中景，电影级别，动态美学，聚焦，高级感，），3D 立体， 灯光（侧光，轮廓光，电影级别照明，柔光，三点打光法），绝佳构图， oc 渲染效果，虚幻引擎 5 lumen 渲染，C4D 渲染，色彩（暖色，高对比度，高饱和度）风格（ 三渲二，二次元，影视，杰作，大师级作品，写实感，视觉冲击）大面积留白，艺术，高级，极简风格，禅意，大片竹叶的影子，低饱和红色，弥散渐变，极简，肌理感。黄金比例。",
+   "img": "assets/full/A260.webp",
+   "thumb": "assets/thumb/A260.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A261",
+   "seq": "261",
+   "title": "新中式黑狐环抱男子｜BJD特写",
+   "category": "角色设定——新中式男BJD",
+   "kind": "角色设定",
+   "tone": "朦胧迷幻",
+   "palette": "黑/红/发光",
+   "model": "通用",
+   "tags": [
+    "新中式",
+    "BJD",
+    "黑狐",
+    "古风",
+    "厚涂"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "俊美男子，妖冶，仿真 冷白皮，真实皮肤质感 单凤眼，眼尾细长，眼睛微眯，垂眸，长发，发丝细腻刻画，黑色极繁华丽的新中式风格服装，极繁华丽配饰，腰带，近距离，人物特写，画风暗黑，朦胧，细腻厚涂，极致超清，极致细节。顶级工艺，超级精致复杂唯美，仿真,此为一幅bjd人物特写，从头顶俯瞰视角进行绘制，具有朦胧、迷幻、浪漫且梦幻的意境。画面中是一位黑色柔顺长发的男子，相貌若天仙下凡，他身着纱质、丝绸、丝绒、皮草和珠光纱材质的服饰，有着绸缎般的浓密长发并带有高光，服饰上有着繁复的褶皱以及华丽的饰品和纹理。图片风格为CG 厚涂 全景, 全身镜头 超巨大黑狐匍匐在地上 尾巴围绕着人物占据整个屏幕。古风绝美女子，3D动漫写实 摄影，白加红加发光精美汉服古装，仙气，长发飘飘加（铅灰色） 宝石精美装饰，， ，唇纹皱褶，妖魅 眼神充满诱惑 ，绝佳造型，，大量细节 ，新三维古风，UE5物理引擎渲染，超精细粒子发光， 竹林，暗夜微光，竹叶，微风，丁达尔效应 ，，8k电影级画质，影视级渲染，8D裸眼视觉效果 ，材，，，眼睛瞳孔虹毛星云纹理，8K人脸超高清建模，油脂层反光，极致光影效果，皮肤拓扑结构，皮肤皮下血管，，，，， ，，超精细粒子发光，，史诗级构图，大师级摄影，，丁达尔效应，移轴摄影 dLSS5.0超分辨率重构，极远景，冷色调，智能补光，黄金构图法。最高质量， 动作:扭头回眸，俯拍 ，眼睛含情脉脉，正逆光，3重曝光，智能降噪，极致光影效果，，，中心构图法，，，智能光照角度 丁达尔追光效果，超精细粒子发光，，智能材质解算系统，，大地系统，情绪控制系统，，极致光影立体，获奖级作品，影视级多层次质感，，光饱和度计算。色彩浓度计算，影视级灯光控制，智能布料系统，发丝根根分，光影错落，极致渲染，超多细节特写，大量细节特写，RGB色差控制，光阴影融合度控制，丁达尔体积光雾，智能色温控制，构造多视野焦点，超高采样率，材质渲染系统，智能降噪抗锯齿，高能激光脉冲，智能等粒子发射器，半景构图，人物全身像，，，航拍视角，极远景，三个分镜头，独立拍摄",
+   "img": "assets/full/A261.webp",
+   "thumb": "assets/thumb/A261.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A262",
+   "seq": "262",
+   "title": "玄天宗峰主斥责｜玄幻武侠中景",
+   "category": "角色设定——玄幻武侠中年",
+   "kind": "角色设定",
+   "tone": "暗调沉稳",
+   "palette": "黑/红木/灰",
+   "model": "通用",
+   "tags": [
+    "玄幻",
+    "武侠",
+    "宗门",
+    "中景",
+    "国风"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "史诗级3D动画渲染，东方玄幻武侠风格，中式玄幻古装角色特写。中年男性角色，玄天宗第十三峰峰主，身着黑色宽袖古风长袍，领口与袖口饰深灰纹路，脑袋瘦长，面容冷峻，胡须修长，神态傲慢严厉，手指前指做出斥责动作。背景为玄天宗宗门大殿，设有红色阶梯看台，搭配古朴红木立柱、雕花门窗，整体色调暗调沉稳。采用电影级运镜，中景平视视角，具备景深效果，细节极为丰富，为8K超高清画质，光影层次分明，国风玄幻氛围浓厚，角色轮廓清晰。负面提示词：低画质、模糊、变形、穿模、比例失调、现代服饰、明亮色调、卡通、二次元、扁平化、水印、文字、多余杂物、透视错误、画面杂乱、角色面部崩坏。",
+   "img": "assets/full/A262.webp",
+   "thumb": "assets/thumb/A262.webp",
+   "w": 1376,
+   "h": 768
+  },
+  {
+   "id": "A263",
+   "seq": "263",
+   "title": "清冷禁欲古风帝王｜雪夜宫阙",
+   "category": "角色设定——古风帝王男主",
+   "kind": "角色设定",
+   "tone": "冷调柔光",
+   "palette": "黑金/玄色",
+   "model": "通用",
+   "tags": [
+    "古风",
+    "帝王",
+    "3D虚拟人",
+    "雪景",
+    "UE5"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "竖屏9:16，古风CG虚拟建模，超精致3D虚拟人，电影级光影，漫天飞雪，古风宫阙背景；清冷禁欲的古风男主，腹黑狠绝帝王感，深邃狭长冷眸，眼神淡漠疏离暗藏狠戾，下颌线锋利利落，冷白皮无瑕建模质感，五官精致立体，黑发半束配黑金玉冠，玄色龙纹锦袍，身姿挺拔压迫感强，冷调柔光，8K超高清，CG渲染质感，非人精致感，强AI虚拟建模脸，无真人感，深沉恶人气场，又少年感，眼神清亮",
+   "img": "assets/full/A263.webp",
+   "thumb": "assets/thumb/A263.webp",
+   "w": 768,
+   "h": 1376
+  },
+  {
+   "id": "A264",
+   "seq": "264",
+   "title": "复古胶片柔光人像｜浅景深漫反射",
+   "category": "摄影——复古胶片质感",
+   "kind": "摄影",
+   "tone": "低饱和复古",
+   "palette": "大地色/青灰",
+   "model": "通用",
+   "tags": [
+    "自然光",
+    "浅景深",
+    "复古胶片",
+    "大地色",
+    "青灰"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "大量运用了柔和的自然光与电影级别的漫反射侧光，搭配浅景深构图，既有效突出了主体，又极其逼真地再现了人物皮肤的自然肌理与衣物面料的物理质感。色彩上采用了低饱和度的复古胶片色调，以大地色系和青灰交织为主，配合轻微的胶片颗粒感，完美营造出一种平静、怀旧且高度真实的生活化氛围。",
+   "img": "assets/full/A264.webp",
+   "thumb": "assets/thumb/A264.webp",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "A265",
+   "seq": "265",
+   "title": "次世代科幻手枪｜白灰黑金属 CGI",
+   "category": "游戏——科幻武器道具",
+   "kind": "游戏",
+   "tone": "冷金属",
+   "palette": "白/灰/黑",
+   "model": "通用",
+   "tags": [
+    "武器",
+    "手枪",
+    "科幻",
+    "CGI",
+    "白灰黑"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Next Generation Guns, A high-resolution CGI rendering of a futuristic, high-tech handgun with a sleek, metallic design, featuring a white and grey color scheme with black accents. The *** has a textured grip and intricate detailing, including ventilation slots and a digital display. It rests on a snowy surface, creating a stark contrast",
+   "img": "assets/full/A265.webp",
+   "thumb": "assets/thumb/A265.webp",
+   "w": 1400,
+   "h": 781
+  },
+  {
+   "id": "A266",
+   "seq": "266",
+   "title": "科幻爆能枪｜银白青蓝能量",
+   "category": "游戏——科幻武器道具",
+   "kind": "游戏",
+   "tone": "冷金属发光",
+   "palette": "银白/青蓝/黄",
+   "model": "通用",
+   "tags": [
+    "武器",
+    "爆能枪",
+    "科幻",
+    "CGI",
+    "青蓝"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "This is a CGI-rendered image of a futuristic, high-tech weapon resembling a sci-fi blaster. The sleek, white and silver design features glowing cyan accents, a large circular blue and black barrel, and multiple yellow ammunition clips. The weapon has a complex, angular structure with intricate detailing, set against a gradient gray background",
+   "img": "assets/full/A266.webp",
+   "thumb": "assets/thumb/A266.webp",
+   "w": 1400,
+   "h": 781
+  },
+  {
+   "id": "A267",
+   "seq": "267",
+   "title": "橙黑科幻能量武器｜蓝色能量核",
+   "category": "游戏——科幻武器道具",
+   "kind": "游戏",
+   "tone": "冷金属",
+   "palette": "橙/黑/蓝",
+   "model": "通用",
+   "tags": [
+    "武器",
+    "科幻",
+    "橙色",
+    "能量核",
+    "CGI"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A detailed CGI rendering of a futuristic, orange and black sci-fi weapon with a sleek, angular design. The weapon features a large, cylindrical, coiled blue energy core, metallic textures, and a complex, industrial aesthetic. The background is solid black, emphasizing the weapon's intricate details and vibrant colors.",
+   "img": "assets/full/A267.webp",
+   "thumb": "assets/thumb/A267.webp",
    "w": 1400,
    "h": 781
   }
