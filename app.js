@@ -71,9 +71,13 @@
     } catch (err) { /* 覆盖层缺失不影响主流程 */ }
   }
 
-  // 原版是不是中文：按汉字与拉丁字母的比例判，掺了几个英文单词的中文提示词依然算中文
+  // Midjourney 参数段，只用于语种判定（不改动 prompt 原文）。与 merge_i18n.py 的 MJ_PARAM 必须一致。
+  const MJ_PARAM = /--[A-Za-z_]+(?:[ \t]+[^\s\u4e00-\u9fff]+)?/g;
+  // 原版是不是中文：按汉字与拉丁字母的比例判，掺了几个英文单词的中文提示词依然算中文。
+  // 判定前先剔掉 --ar 9:16 / --profile xxx / --stylize 200 这类参数，
+  // 否则「男人 --chaos 10 --ar 9:16 --profile wya46hy --stylize 200」会被参数里的英文压成「外文」。
   function isCN(s) {
-    const t = String(s || "");
+    const t = String(s || "").replace(MJ_PARAM, " ");
     const cjk = (t.match(/[\u4e00-\u9fff]/g) || []).length;
     const lat = (t.match(/[A-Za-z]/g) || []).length;
     return cjk > 0 && cjk * 3 >= lat;

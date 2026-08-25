@@ -46,6 +46,8 @@ DROP = re.compile(r"[^0-9A-Za-z\u4e00-\u9fff]")
 BLOCK = re.compile(r"^##\s+(\S+)\s+(zh|en|note)\s*$")
 CJK = re.compile(r"[\u4e00-\u9fff]")
 LAT = re.compile(r"[A-Za-z]")
+# Midjourney 参数段，只用于语种判定（不改动 prompt 原文）。与 app.js 的 MJ_PARAM 必须一致。
+MJ_PARAM = re.compile(r"--[A-Za-z_]+(?:[ \t]+[^\s\u4e00-\u9fff]+)?")
 DIGITS = "0123456789abcdefghijklmnopqrstuvwxyz"
 FIELDS = ("zh", "en", "note")
 SHORT_LEN = 120
@@ -88,8 +90,13 @@ def is_cn(s) -> bool:
 
     规矩（用户定的）：原版本来就是中文的，不需要中文译文，也不强制配英文。
     只有原版不是中文的，才必须补 zh。
+
+    判定前先剔掉 Midjourney 参数（--ar 9:16 / --profile xxx / --stylize 200 …），
+    否则「男人 --chaos 10 --ar 9:16 --profile wya46hy --stylize 200」这类
+    中文主体会被参数里的英文字母压成「外文」而误报缺译文。
+    参数值只吃同一行内的单个 token 且不含汉字，避免把中文正文当参数值吞掉。
     """
-    t = str(s or "")
+    t = MJ_PARAM.sub(" ", str(s or ""))
     cjk = len(CJK.findall(t))
     lat = len(LAT.findall(t))
     return cjk > 0 and cjk * 3 >= lat
