@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 230,
+ "count": 246,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -560,6 +560,86 @@
   },
   {
    "name": "场景——建筑奇观",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——3D机甲（战锤斗篷）",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——3D机甲玩具（红银Gundam）",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——3D机甲（红甲BF-02）",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——次世代古建",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——3D国风人物",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "人像——3D古风CG",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——3D国风仙侠",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "人像——复古写实",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——电影CG巨兽",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——3D国漫武侠",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——3D仙侠",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——外星科幻",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——复古武侠人物",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——写实村落",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——古风生活",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——3D写实动物",
    "tone": "NEW CATEGORY",
    "count": 1
   }
@@ -7188,6 +7268,448 @@
    "thumb": "assets/thumb/A231.webp",
    "w": 900,
    "h": 504
+  },
+  {
+   "id": "A232",
+   "seq": "232",
+   "title": "科幻机甲·白蓝橙战锤斗篷",
+   "category": "角色设定——3D机甲（战锤斗篷）",
+   "kind": "角色设定",
+   "tone": "冷峻威严/暗含力量",
+   "palette": "白蓝主体+橙点缀+深灰背景",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "机甲",
+    "科幻",
+    "白蓝配色",
+    "战锤",
+    "披风",
+    "PBR"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "The background is a gradient of dark gray solid color, highlighting the subject. The center of the image is a science fiction mecha, mainly in white and blue, with orange details highlighting key areas (chest, joints). A black damaged cloak spreads with movement, adding an imposing sense. The mecha holds a large dark gray war hammer, standing upright, as if in a threatening combat readiness. The mechanical structure is precise, with sharp armor lines and a strong metallic texture. The style is realistic science fiction mecha model, with delicate painting, enhanced mechanical details through contrast of light and shadow, a cold and imposing atmosphere, full of dark power, bright colors, and smooth lines.",
+   "img": "assets/full/A232.webp",
+   "thumb": "assets/thumb/A232.webp",
+   "w": 1400,
+   "h": 781
+  },
+  {
+   "id": "A233",
+   "seq": "233",
+   "title": "科幻机甲玩具·红银黑多管炮长剑",
+   "category": "角色设定——3D机甲玩具（红银Gundam）",
+   "kind": "角色设定",
+   "tone": "冷峻科技/攻击性",
+   "palette": "红银黑+绿传感器",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "机甲玩具",
+    "科幻",
+    "红银黑",
+    "多管炮",
+    "长剑",
+    "Gundam",
+    "PBR"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Gray gradient background,focused subject,humanoid battle armor with red silver black color scheme,complex structure,exquisite details,strong metallic texture,green sensors embedded in the head,left hand holding a multi-barrel cannon aiming,right hand holding a long sword,legs apart in a combat pose,leaning forward,posture full of power and aggressiveness,realistic science fiction mechanical model style,similar to the Gundam series,sharp lines,distinct armor layers,atmosphere cool and imposing,strong sense of technology,as if about to engage in battle,3D toy (mecha),3D toy (mecha),\nNegative prompt: ng_deepnegative_v1_75t,(badhandv4:1.2),EasyNegative,(worst quality:2),\nSteps: 40,Size: 2272x2944,Seed: -1,Model: F.1-fp8 11G版, 20260206-1770344460531-0007, 3D机甲角色（玩具）,Sampler: Euler,useLcm: false,CFG scale: 6,Clip skip: undefined,",
+   "img": "assets/full/A233.webp",
+   "thumb": "assets/thumb/A233.webp",
+   "w": 1400,
+   "h": 781
+  },
+  {
+   "id": "A234",
+   "seq": "234",
+   "title": "科幻机甲·红甲BF-02巨剑",
+   "category": "角色设定——3D机甲（红甲BF-02）",
+   "kind": "角色设定",
+   "tone": "威严/科幻战斗",
+   "palette": "红黑银+深灰背景",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "机甲",
+    "科幻",
+    "红色主调",
+    "巨剑",
+    "BF-02",
+    "PBR"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "The main subject of the image is a sci-fi humanoid mecha with red as the dominant color,the body integrating black and silver mechanical structures with intricate and complex details. The mecha stands upright,with claw-like legs and a large sword-shaped weapon on its back,the body has markings and paint such as \"BF - 02\". The background is a deep gray solid color,highlighting the mecha as the main subject. The overall style is realistic,with a strong metallic texture,sharp and severe lines,creating an atmosphere of authority and a strong sci-fi combat feel. The colors are bright and the lines are smooth.,",
+   "img": "assets/full/A234.webp",
+   "thumb": "assets/thumb/A234.webp",
+   "w": 1400,
+   "h": 781
+  },
+  {
+   "id": "A235",
+   "seq": "235",
+   "title": "次世代古建场景·UE5硬表面",
+   "category": "场景——次世代古建",
+   "kind": "场景",
+   "tone": "宏大史诗",
+   "palette": "写实冷暖场景",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "场景",
+    "UE5",
+    "古建",
+    "斗拱飞檐",
+    "硬表面",
+    "体积光"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "()风格高度类似于虚幻引擎（UE5）等现代次世代游戏引擎的场景构建或电影级3D概念渲染。技术上，结合了精细的3D硬表面建模（传统古建、斗拱、飞檐）、高级光照系统（全局光照、物理级体积光/丁达尔效应）以及复杂的环境生成（高面数岩石、流体瀑布、大气散射与写实植被）。整体深刻贯彻了3D空间深度与立体感。",
+   "img": "assets/full/A235.webp",
+   "thumb": "assets/thumb/A235.webp",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "A236",
+   "seq": "236",
+   "title": "3D国风人物·头饰工艺肖像",
+   "category": "角色设定——3D国风人物",
+   "kind": "角色设定",
+   "tone": "空灵静谧华丽",
+   "palette": "东方传统+数字艺术",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "国风",
+    "人物",
+    "头饰",
+    "电影级光影",
+    "Octane",
+    "写实"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "这是一种高质量的3D写实渲染风格，融合了东方传统美学与现代数字艺术。画面具备电影级光影、极浅景深以及无瑕的肌肤质感，重点突出复杂的头饰工艺。利用镜头光晕和高光反射增强华丽感，呈现出空灵、静谧的视觉体验，类似Octane渲染器的高级肖像作品。",
+   "img": "assets/full/A236.webp",
+   "thumb": "assets/thumb/A236.webp",
+   "w": 787,
+   "h": 1400
+  },
+  {
+   "id": "A237",
+   "seq": "237",
+   "title": "超写实CG古风数字肖像",
+   "category": "人像——3D古风CG",
+   "kind": "人像",
+   "tone": "唯美精致空灵",
+   "palette": "高对比金属发饰+丝绸",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "CG",
+    "古风",
+    "数字肖像",
+    "SSS",
+    "发丝级",
+    "PBR"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "这是一种融合东方古典美学的超写实CG数字肖像风格。以高精度3D渲染或高级AI生成技术为基础，突出古风奇幻主题。核心技术特征包括：运用次表面散射（SSS）呈现通透肌肤，发丝级精细渲染，以及高对比度的PBR材质表现（华丽金属发饰与丝绸服饰）。背景采用强景深模糊有效突显主体，整体呈现唯美、精致且空灵的视觉效果。",
+   "img": "assets/full/A237.webp",
+   "thumb": "assets/thumb/A237.webp",
+   "w": 1376,
+   "h": 768
+  },
+  {
+   "id": "A238",
+   "seq": "238",
+   "title": "3D国风仙侠场景·古典园林",
+   "category": "场景——3D国风仙侠",
+   "kind": "场景",
+   "tone": "真实神秘史诗",
+   "palette": "朱红暖黄×青绿深蓝冷暖对比",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "国风",
+    "仙侠",
+    "古典园林",
+    "琉璃瓦",
+    "PBR",
+    "体积光"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "3d国风场景，深度融合了中国传统建筑美学与现代次世代渲染技术（如虚幻引擎5或Octane Render）。整体风格强调“东方仙侠”与古典园林的宏大叙事感，通过精密的物理级渲染（PBR）材质再现了琉璃瓦的细腻反光、红木的雕花质感以及自然岩石的粗糙肌理。画面大量运用光线追踪技术和全局光照，营造出极其逼真的体积光效果（如阳光穿透烟雾或树叶的丁达尔效应）和高保真的水面反射。在色彩表现上，建筑的高饱和度朱红与暖黄灯光，与自然环境的青绿、夜空的深蓝形成强烈的冷暖对比，构建出既极具真实感又充满神秘史诗氛围的视觉体验。",
+   "img": "assets/full/A238.webp",
+   "thumb": "assets/thumb/A238.webp",
+   "w": 1376,
+   "h": 768
+  },
+  {
+   "id": "A239",
+   "seq": "239",
+   "title": "复古写实人像·寸头脸部特写",
+   "category": "人像——复古写实",
+   "kind": "人像",
+   "tone": "怀旧高级",
+   "palette": "低饱和复古",
+   "model": "通用",
+   "tags": [
+    "摄影",
+    "人像",
+    "寸头",
+    "脸部特写",
+    "胶片颗粒",
+    "低饱和"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "（男，寸头，脸部特写）画面采用了高保真的摄影技术，精准还原了人物肤质与服装面料的真实物理细节。整体色调偏向低饱和度的复古感，配合轻微的胶片颗粒，营造出怀旧而高级的质感。",
+   "img": "assets/full/A239.webp",
+   "thumb": "assets/thumb/A239.webp",
+   "w": 1045,
+   "h": 1400
+  },
+  {
+   "id": "A240",
+   "seq": "240",
+   "title": "电影CG史诗巨兽",
+   "category": "插画——电影CG巨兽",
+   "kind": "插画",
+   "tone": "宏大史诗真实",
+   "palette": "材质物理还原",
+   "model": "通用",
+   "tags": [
+    "CG",
+    "电影",
+    "巨兽",
+    "数字绘画",
+    "MattePainting",
+    "巨物对比"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "写实电影cg，完美融合了史诗级奇幻与科幻巨兽设计。整体媒介表现为高度精细的数字绘画与 3D 渲染技术的结合（类似虚幻引擎或影视级 Matte Painting 技术）。画面通过极具视觉冲击力的巨物对比（巨大的生物/机械与微小的人类作为比例尺），配合大气透视（如雾气、风雪、沙尘）来营造宏大的史诗感与真实感。技术上强调对材质的极致物理还原，无论是怪物的毛发、外星甲壳、还是机械生锈的金属边缘，都展现出极高的逼真度与光影逻辑。",
+   "img": "assets/full/A240.webp",
+   "thumb": "assets/thumb/A240.webp",
+   "w": 1376,
+   "h": 768
+  },
+  {
+   "id": "A241",
+   "seq": "241",
+   "title": "3D国漫武侠仙侠角色",
+   "category": "角色设定——3D国漫武侠",
+   "kind": "角色设定",
+   "tone": "细腻写实史诗",
+   "palette": "金属光泽做旧",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "国漫",
+    "武侠",
+    "仙侠",
+    "东方史诗",
+    "PBR",
+    "盔甲"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "3d顶级游戏漫剧角色，主要聚焦于中国武侠、仙侠及东方史诗奇幻题材。其核心媒介为高度逼真的 3D 渲染（3D Render）与计算机生成图像（CGI），采用了行业顶尖的物理基础渲染（PBR）技术来表现复杂的材质细节。画面不仅强调人物面部特征的细腻与写实，更在服装与武器的设计上倾注了大量精力。盔甲的金属光泽、做旧痕迹",
+   "img": "assets/full/A241.webp",
+   "thumb": "assets/thumb/A241.webp",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "A242",
+   "seq": "242",
+   "title": "3D仙侠漫剧场景·楼阁神像",
+   "category": "场景——3D仙侠",
+   "kind": "场景",
+   "tone": "史诗游戏概念",
+   "palette": "幽暗室内×宏伟室外",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "仙侠",
+    "漫剧",
+    "楼阁神像",
+    "体积光",
+    "大气散射"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "3d仙侠漫剧场景，主要围绕中国传统建筑与仙侠/武侠奇幻世界观展开。整体媒介为纯3D数字艺术，重点突出了高度写实的物理渲染（PBR）技术。场景跨度极大，从充满微尘与强烈体积光（丁达尔效应）的幽暗室内书房，到依附于悬崖峭壁、瀑布与巨大神像之上的宏伟室外楼阁建筑群。技术手法上大量运用了3D全局光照、大气散射（环境雾气与云海）、景深控制以及复杂的3D多边形建模，展现出强烈的立体深度、电影级别的视觉张力以及极具史诗感的游戏概念设计氛围。",
+   "img": "assets/full/A242.webp",
+   "thumb": "assets/thumb/A242.webp",
+   "w": 1376,
+   "h": 768
+  },
+  {
+   "id": "A243",
+   "seq": "243",
+   "title": "写实外星科幻场景·巨物太空",
+   "category": "场景——外星科幻",
+   "kind": "场景",
+   "tone": "深邃孤寂震撼",
+   "palette": "天文光照+岩石金属冰面",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "外星",
+    "科幻",
+    "巨物感",
+    "太空",
+    "异星纪实",
+    "电影摄影"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "写实外星科幻场景，采用史诗般的构图比例，通过强烈的尺寸对比——极其微小的人类探险者或人造载具，与天空中极具压迫感、占据半壁江山的巨大天体（如木星、类地行星、月球）——营造出震撼的“巨物感”与深邃的太空孤寂感。光影处理达到了电影级的摄影标准，利用黄金时刻的侧逆光、大气漫反射以及真实的天文光照规律，结合岩石、金属、冰面等超高精度的表面纹理，创造出一种令人信服的、宛如实地拍摄的异星纪实摄影风格。",
+   "img": "assets/full/A243.webp",
+   "thumb": "assets/thumb/A243.webp",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "A244",
+   "seq": "244",
+   "title": "写实复古武侠人物",
+   "category": "角色设定——复古武侠人物",
+   "kind": "角色设定",
+   "tone": "复杂材质真实",
+   "palette": "丝绸金线棉麻",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "武侠",
+    "古装",
+    "丝绸刺绣",
+    "照片级",
+    "写实"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "写实复古武侠人物，完美呈现中国传统武侠及古装服饰的复杂细节、色彩与材质。影像高度强调用户要求的“写实”属性，从丝绸的反射光泽、棉麻的褶皱垂坠感，到复杂的金线刺绣、人物的面部毛发及皮肤纹理，皆实现了照片级的物理真实感",
+   "img": "assets/full/A244.webp",
+   "thumb": "assets/thumb/A244.webp",
+   "w": 1376,
+   "h": 768
+  },
+  {
+   "id": "A245",
+   "seq": "245",
+   "title": "写实传统村落农耕",
+   "category": "场景——写实村落",
+   "kind": "场景",
+   "tone": "岁月沉淀",
+   "palette": "风化木材斑驳石墙",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "写实",
+    "村落",
+    "古建筑",
+    "农耕",
+    "现场感"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "强烈的写实主义特征，致力于客观捕捉中国传统村落、古建筑及农耕生活的真实面貌。镜头下的场景未经过度修饰，通过精确记录风化的木材、斑驳的石墙、生动的家畜以及复杂的乡村建筑结构，传达出强烈的现场感与岁月沉淀的历史气息。",
+   "img": "assets/full/A245.webp",
+   "thumb": "assets/thumb/A245.webp",
+   "w": 1050,
+   "h": 1400
+  },
+  {
+   "id": "A246",
+   "seq": "246",
+   "title": "古风生活场景·电影级色彩",
+   "category": "场景——古风生活",
+   "kind": "场景",
+   "tone": "复古宁静东方诗意",
+   "palette": "低饱和青绿灰蓝大地色",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "古风",
+    "生活场景",
+    "色彩分级",
+    "对称构图",
+    "柔光"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "古风生活场景，采用了电影级别的色彩分级，强调低饱和度的青绿色、灰蓝色和大地色系，从而营造出一种复古、宁静且充满东方诗意的视觉基调。光影处理以柔和的自然漫反射光为主，例如阴天的散射光或透过树叶的斑驳光影，有效避免了生硬的高光溢出，使得画面温润细腻。景深控制极为严谨，通常将穿着传统服饰的人物或特定的古典建筑元素保持在清晰的焦点中，同时对背景中的树木、水面和远山进行适度且柔和的虚化，显著增强了画面的纵深感和空间层次。整体构图注重人与自然、人与古建筑的和谐交融，大量使用对称结构和框架式构图来突出古典韵味与静谧感。",
+   "img": "assets/full/A246.webp",
+   "thumb": "assets/thumb/A246.webp",
+   "w": 1400,
+   "h": 781
+  },
+  {
+   "id": "A247",
+   "seq": "247",
+   "title": "3D写实动物·PBR皮毛",
+   "category": "角色设定——3D写实动物",
+   "kind": "角色设定",
+   "tone": "极致物理真实",
+   "palette": "皮毛皮肤褶皱",
+   "model": "通用",
+   "tags": [
+    "3D",
+    "动物",
+    "PBR",
+    "皮毛",
+    "肌肉骨骼",
+    "写实"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "3d写实动物,采用了高精度的3D建模与PBR（基于物理的渲染）材质技术，极尽真实地还原了动物的皮毛、皮肤褶皱、肌肉骨骼以及角和牙齿的物理质感",
+   "img": "assets/full/A247.webp",
+   "thumb": "assets/thumb/A247.webp",
+   "w": 1400,
+   "h": 781
   }
  ]
 }
