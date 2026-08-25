@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 175,
+ "count": 190,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -350,6 +350,81 @@
   },
   {
    "name": "风格参考——美式真人",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——外星角斗士",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——外星骑士",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——赛博女神",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——沙漠神谕者",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——溺亡骑士",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——怪物猎人",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——角色立绘",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——概念道具",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "人像——写实男性",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——潮玩玩具",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——赛博神祇",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——外星大使",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——赛博格",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——科幻飞碟",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——生物概念",
    "tone": "NEW CATEGORY",
    "count": 1
   }
@@ -5564,6 +5639,382 @@
    "thumb": "assets/thumb/A176.webp",
    "w": 787,
    "h": 1400
+  },
+  {
+   "id": "A177",
+   "seq": "177",
+   "title": "史诗暗黑外星角斗士",
+   "category": "角色设定——外星角斗士",
+   "kind": "角色设定",
+   "tone": "史诗暗黑电影感",
+   "palette": "黑/青铜/灰烬灰/深绯红",
+   "model": "Midjourney",
+   "tags": [
+    "外星",
+    "角斗士",
+    "电影感",
+    "暗黑",
+    "科幻",
+    "竞技场"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Epic dark cinematic shot of a powerful grotesque alien gladiator with a massive muscular build, scarred grayish skin, brutal facial features and a savage expression, raising a huge sword high above his head while roaring in defiance, standing alone in the center of an enormous alien arena inspired by a Roman circus, surrounded by towering alien architecture, jagged stone structures, dark banners and a massive crowd in the background, front low-angle shot, dusty and smoky atmosphere, dramatic lighting, black, bronze, ash gray and deep crimson palette, shot on IMAX cameras, intense blockbuster sci-fi atmosphere, ultra-detailed armor, menacing presence, centered image --ar 16:9 --raw --preview",
+   "img": "assets/full/A177.webp",
+   "thumb": "assets/thumb/A177.webp",
+   "w": 1400,
+   "h": 784
+  },
+  {
+   "id": "A178",
+   "seq": "178",
+   "title": "教堂纹饰外星骑士",
+   "category": "角色设定——外星骑士",
+   "kind": "角色设定",
+   "tone": "暗黑肃穆奇幻",
+   "palette": "银灰/暗调",
+   "model": "Midjourney",
+   "tags": [
+    "外星",
+    "骑士",
+    "教堂铠甲",
+    "暗黑奇幻"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Dark cinematic shot of an ancient alien knight with silver-gray skin and elongated features, wearing cathedral-like armor covered in engraved symbols, standing alone in a vast hall made of black crystal while a dying star burns through the ceiling above him, frontal symmetrical composition, sharp rim lighting, black, silver, pale gold and cosmic red palette, shot on IMAX digital, solemn epic atmosphere, monumental sci-fi architecture, highly detailed armor --ar 16:9 --raw --preview",
+   "img": "assets/full/A178.webp",
+   "thumb": "assets/thumb/A178.webp",
+   "w": 1400,
+   "h": 784
+  },
+  {
+   "id": "A179",
+   "seq": "179",
+   "title": "白发红眼赛博女神",
+   "category": "角色设定——赛博女神",
+   "kind": "角色设定",
+   "tone": "空灵恐怖",
+   "palette": "白/红/黑",
+   "model": "Midjourney",
+   "tags": [
+    "赛博",
+    "女神",
+    "白发",
+    "红眼",
+    "生物机械"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "God-like feminine cyber being with long white hair, damaged white mask showing one red eye, torn organic tissue mixed with cybernetic plating and glowing red accents, long mechanical-organic tendrils, hovering dramatically over a neon city at night, strong low angle shot from below, atmospheric fog and lighting --chaos 50 --ar 16:9 --stylize 150 --hd --preview",
+   "img": "assets/full/A179.webp",
+   "thumb": "assets/thumb/A179.webp",
+   "w": 360,
+   "h": 202
+  },
+  {
+   "id": "A180",
+   "seq": "180",
+   "title": "沙漠盲眼神谕者",
+   "category": "角色设定——沙漠神谕者",
+   "kind": "角色设定",
+   "tone": "苍凉写实",
+   "palette": "哑光土色",
+   "model": "Midjourney",
+   "tags": [
+    "神谕者",
+    "沙漠",
+    "老者",
+    "奇幻"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Cinematic still, side-angle medium shot of a blind desert oracle, frail elderly figure, white clouded eyes, sun-scorched skin, layered dark robes and a carved bone staff clearly visible in both hands, standing in a solemn prophetic pose, set inside a half-buried ruined temple in a barren wasteland, surrounded by cracked pillars, drifting sand, ancient idols, torn banners and torch smoke, like a lost frame from a 1980s dark fantasy sword and sorcery film, as if captured from an actual movie scene, old-school practical effects, handmade armor and costume design, painted matte background, theatrical studio lighting, smoke machine atmosphere, dramatic backlight, deep shadows, gritty 35mm film still, analog film grain, dark gothic medieval horror tone, epic ominous atmosphere --ar 16:9 --raw --preview",
+   "img": "assets/full/A180.webp",
+   "thumb": "assets/thumb/A180.webp",
+   "w": 360,
+   "h": 202
+  },
+  {
+   "id": "A181",
+   "seq": "181",
+   "title": "溺亡骑士",
+   "category": "角色设定——溺亡骑士",
+   "kind": "角色设定",
+   "tone": "阴森不祥",
+   "palette": "锈蚀黑/幽绿",
+   "model": "Midjourney",
+   "tags": [
+    "溺亡骑士",
+    "亡灵",
+    "墓穴",
+    "暗黑奇幻"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Cinematic still, frontal full-body shot of a drowned knight, tall imposing build, pale waterlogged face, long wet hair, corroded black armor and a rusted longsword clearly visible in one hand, standing in a rigid ghostly pose, set on the deck of a wrecked medieval ship during a storm, surrounded by torn sails, broken masts, crashing waves, ropes, rain and distant lightning, like a lost frame from a 1980s dark fantasy sword and sorcery film, as if captured from an actual movie scene, old-school practical effects, handmade armor and costume design, painted matte background, theatrical studio lighting, smoke machine atmosphere, dramatic backlight, deep shadows, gritty 35mm film still, analog film grain, dark gothic medieval horror tone, epic ominous atmosphere --ar 16:9 --raw --preview",
+   "img": "assets/full/A181.webp",
+   "thumb": "assets/thumb/A181.webp",
+   "w": 1400,
+   "h": 784
+  },
+  {
+   "id": "A182",
+   "seq": "182",
+   "title": "雪原怪物猎人",
+   "category": "角色设定——怪物猎人",
+   "kind": "角色设定",
+   "tone": "冷冽硬核",
+   "palette": "冷蓝/暗调",
+   "model": "Midjourney",
+   "tags": [
+    "怪物猎人",
+    "毛领甲",
+    "巨斧",
+    "雪原"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Cinematic still, frontal full-body shot of a monster hunter, rugged face, short dark hair, scarred features, fur-lined dark armor and a massive silver axe clearly visible in one hand, standing alert in a defensive pose, set inside a ruined frozen monastery, surrounded by broken arches, claw marks on stone walls, drifting snow, icy mist and a vague beast silhouette in the distance, like a lost frame from a 1980s dark fantasy sword and sorcery film, as if captured from an actual movie scene, old-school practical effects, handmade armor and costume design, painted matte background, theatrical studio lighting, smoke machine atmosphere, dramatic backlight, deep shadows, gritty 35mm film still, analog film grain, dark gothic medieval horror tone, epic ominous atmosphere --ar 16:9 --raw --preview",
+   "img": "assets/full/A182.webp",
+   "thumb": "assets/thumb/A182.webp",
+   "w": 360,
+   "h": 202
+  },
+  {
+   "id": "A183",
+   "seq": "183",
+   "title": "青发街头青年角色立绘",
+   "category": "角色设定——角色立绘",
+   "kind": "角色设定",
+   "tone": "清爽街头",
+   "palette": "白/青绿/中性",
+   "model": "Midjourney",
+   "tags": [
+    "角色立绘",
+    "街头风",
+    "青年",
+    "设计参考"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Full character sheet, front view, full body, young slim guy with short lime-green hair and soft smirk, tanned skin with forearm tattoos, wearing oversized white cropped t-shirt with XX logo on chest, lavender drawstring shorts above the knee, white crew socks scrunched down, green and white chunky retro sneakers, holding a skateboard under one arm casually, sipping a boba tea with pink straw in the other hand, relaxed contrapposto stance with weight on one leg, surrounded by small floating creature companions a green slime blob with spiral eyes, a blue water spirit with a curly tail, a pink spiky crystal bird wrapped in dark origami armor, a yellow chubby cat-like blob with a boba cup on its head, white background, clean anime illustration style, soft shading with minimal outlines, pastel color palette with selective lime green lavender and teal accents, concept art, character design reference sheet --ar 3:4 --niji 7",
+   "img": "assets/full/A183.webp",
+   "thumb": "assets/thumb/A183.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A184",
+   "seq": "184",
+   "title": "断剑概念",
+   "category": "插画——概念道具",
+   "kind": "插画",
+   "tone": "极简",
+   "palette": "未指定",
+   "model": "Midjourney",
+   "tags": [
+    "断剑",
+    "道具",
+    "概念"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "broken sword\n\n--profile wya46hy",
+   "img": "assets/full/A184.webp",
+   "thumb": "assets/thumb/A184.webp",
+   "w": 544,
+   "h": 680
+  },
+  {
+   "id": "A185",
+   "seq": "185",
+   "title": "男人",
+   "category": "人像——写实男性",
+   "kind": "人像",
+   "tone": "通用",
+   "palette": "未指定",
+   "model": "Midjourney",
+   "tags": [
+    "男人",
+    "人像"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "男人 --chaos 10 --ar 9:16 --profile wya46hy --stylize 200",
+   "img": "assets/full/A185.webp",
+   "thumb": "assets/thumb/A185.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A186",
+   "seq": "186",
+   "title": "搪胶弓箭手潮玩",
+   "category": "角色设定——潮玩玩具",
+   "kind": "角色设定",
+   "tone": "潮玩质感",
+   "palette": "哑光/白底",
+   "model": "Midjourney",
+   "tags": [
+    "搪胶玩具",
+    "弓箭手",
+    "潮玩",
+    "收藏"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "vinyl designer toy figure, tall broad muscular archer, three quarter walking pose, left fist clenched at side, right arm slightly back, confident stride. Broad shoulders, thick arms, strong legs. Dark grey hair with silver streaks in high top knot tied with gold ring, shaved sides, short pointed goatee, sharp angular face, stern expression looking to the side, narrow dark eyes. Left arm: full sleeve tattoo shoulder to chest, intricate grey ink dragon and cloud design, arm bare. Right arm: silver and gold segmented armored gauntlet elbow to wrist, articulated finger guards, blue accent light at wrist. Diagonal arrow quiver over right shoulder, tan leather, blue strap, brass buckle, five arrows with blue fletching. Large ornate recurve bow in right hand, dark wood and silver limbs, blue grip, unstrung. Outfit: white open front kimono, left side off shoulder exposing tattoo, right side draped over gauntlet, pale blue and silver cloud scroll embroidery. Pale blue sash, braided blue rope cord with tassel. Tan leather belt pouch with gold clasp, small dark metal gourd on belt. Baggy white hakama pants, wide leg, gathered below knee, pale blue cloud hem patterns. Silver and gold segmented knee to ankle leg guards, gold trim, blue knee accents. Silver and gold split toe tabi boots. Smooth matte vinyl, stylized 3D, freshly unboxed. Flat frontal lighting, solid white background. --chaos 10 --ar 58:77 --profile qilq22f --stylize 250",
+   "img": "assets/full/A186.webp",
+   "thumb": "assets/thumb/A186.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A187",
+   "seq": "187",
+   "title": "赛博神祇",
+   "category": "角色设定——赛博神祇",
+   "kind": "角色设定",
+   "tone": "戏剧赛博朋克",
+   "palette": "蓝霓虹/多彩",
+   "model": "Midjourney",
+   "tags": [
+    "赛博",
+    "神祇",
+    "霓虹",
+    "赛博朋克"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "God-like cyber entity with short hair, blue glowing circuits fused with torn organic tissue on the torso, floating above a dense colorful cyberpunk cityscape at night, dramatic low angle from below, small woman in traditional Japanese clothing on a rooftop looking up, floating mechanical elements in the sky, cinematic volumetric lighting --chaos 50 --ar 16:9 --stylize 150 --hd --preview",
+   "img": "assets/full/A187.webp",
+   "thumb": "assets/thumb/A187.webp",
+   "w": 360,
+   "h": 202
+  },
+  {
+   "id": "A188",
+   "seq": "188",
+   "title": "四臂外星大使",
+   "category": "角色设定——外星大使",
+   "kind": "角色设定",
+   "tone": "威严庄重",
+   "palette": "生物发光",
+   "model": "Midjourney",
+   "tags": [
+    "外星",
+    "大使",
+    "四臂",
+    "生物发光"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Ancient alien ambassador with four arms and bioluminescent patterns, wearing intricate ceremonial armor, wise and regal expression, studio lighting, hyper detailed --chaos 30 --ar 16:9 --exp 20 --preview --hd --stylize 150",
+   "img": "assets/full/A188.webp",
+   "thumb": "assets/thumb/A188.webp",
+   "w": 1400,
+   "h": 784
+  },
+  {
+   "id": "A189",
+   "seq": "189",
+   "title": "全息面具男赛博格",
+   "category": "角色设定——赛博格",
+   "kind": "角色设定",
+   "tone": "写实胶片感",
+   "palette": "黑/蓝/白",
+   "model": "Midjourney",
+   "tags": [
+    "赛博格",
+    "全息面具",
+    "35mm",
+    "人像"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "full-body portrait of a male cyborg wearing a black coat and a blue holographic mask, against a white background. the image has a 35mm film-like appearance, with a realistic photographic style.",
+   "img": "assets/full/A189.webp",
+   "thumb": "assets/thumb/A189.webp",
+   "w": 360,
+   "h": 201
+  },
+  {
+   "id": "A190",
+   "seq": "190",
+   "title": "黑白飞碟摄影",
+   "category": "摄影——科幻飞碟",
+   "kind": "摄影",
+   "tone": "神秘不祥",
+   "palette": "黑白高反差",
+   "model": "Midjourney",
+   "tags": [
+    "飞碟",
+    "UFO",
+    "黑白",
+    "长曝光",
+    "摄影"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A high-contrast black and white photograph of a classic, metallic flying saucer hovering in pitch darkness. The UFO features segmented, glowing rectangular lights along its rim and a blindingly bright circular aperture underneath. A stark, conical tractor beam shines straight down, illuminating the silhouette of a solitary human figure suspended mid-air in the process of abduction. Shot on Ilford HP5 film stock, heavy film grain, deep shadows, moody atmospheric lighting, vintage 1950s sci-fi B-movie aesthetic --ar 1:1 --exp 50 --raw --stylize 50 --v 8.1",
+   "img": "assets/full/A190.webp",
+   "thumb": "assets/thumb/A190.webp",
+   "w": 680,
+   "h": 435
+  },
+  {
+   "id": "A191",
+   "seq": "191",
+   "title": "外星六足掠食者解剖",
+   "category": "插画——生物概念",
+   "kind": "插画",
+   "tone": "科学解剖",
+   "palette": "未指定",
+   "model": "Midjourney",
+   "tags": [
+    "外星生物",
+    "六足",
+    "解剖",
+    "概念"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Xenobiological hexapod predator with bilateral symmetry from a temperate planet. Powerful hind legs for jumping, four manipulator arms with fine manipulatory digits. Head with four stalked eyes and powerful mandibles. Internal skeleton made of carbon-fiber-like biopolymer. Scientific anatomy study",
+   "img": "assets/full/A191.webp",
+   "thumb": "assets/thumb/A191.webp",
+   "w": 360,
+   "h": 201
   }
  ]
 }
