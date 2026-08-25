@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 190,
+ "count": 230,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -16,7 +16,7 @@
   },
   {
    "name": "摄影——生活纪实",
-   "count": 2
+   "count": 3
   },
   {
    "name": "插画——古风仙侠",
@@ -48,7 +48,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 7
+   "count": 10
   },
   {
    "name": "人像——身份参考",
@@ -100,7 +100,7 @@
   },
   {
    "name": "插画——奇幻",
-   "count": 1
+   "count": 2
   },
   {
    "name": "场景——东方神幻",
@@ -132,11 +132,11 @@
   },
   {
    "name": "摄影——风光",
-   "count": 2
+   "count": 3
   },
   {
    "name": "风格参考——恐怖",
-   "count": 1
+   "count": 2
   },
   {
    "name": "摄影——产品静物",
@@ -148,7 +148,7 @@
   },
   {
    "name": "人像——写实人像",
-   "count": 2
+   "count": 3
   },
   {
    "name": "插画——科幻",
@@ -425,6 +425,141 @@
   },
   {
    "name": "插画——生物概念",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——日系御姐",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——日系少女",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——赛博少女",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——3D插画",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——科幻插画",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——胶片人像",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——创意人像",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——超现实",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——治愈系",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "3D——雕塑",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——超现实",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "插画——故障艺术",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——演奏者",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——Q版雕塑",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——绘本",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "人像——情侣",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "卡通——Q版",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "插画——高定插画",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "3D——卡通渲染",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "卡通——萌宠",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "海报——艺术海报",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——运动角色",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——科幻空间",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——奇幻",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "场景——暗黑奇幻",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "角色设定——超现实角色",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——建筑奇观",
    "tone": "NEW CATEGORY",
    "count": 1
   }
@@ -6015,6 +6150,1044 @@
    "thumb": "assets/thumb/A191.webp",
    "w": 360,
    "h": 201
+  },
+  {
+   "id": "A192",
+   "seq": "192",
+   "title": "日系御姐教师",
+   "category": "角色设定——日系御姐",
+   "kind": "角色设定",
+   "tone": "冷峻权威",
+   "palette": "深灰/白/黑板绿",
+   "model": "Midjourney",
+   "tags": [
+    "日系",
+    "御姐",
+    "教师",
+    "制服",
+    "教室",
+    "电影感"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A sophisticated and aloof imperial sister type Japanese woman with sharp features, wearing gold-rimmed glasses and a sleek high ponytail, dressed in a strict teacher's uniform consisting of a fitted dark gray blazer, white collared shirt, and knee-length pencil skirt with stockings, standing confidently on a classroom podium with one hand on her hip and the other pointing assertively at a chalkboard filled with complex mathematical equations, full-body shot from a low angle to emphasize her commanding height and presence, afternoon sunlight streaming through windows casting subtle shadows, vintage film grain effect, high detail, cold and authoritative vibe, intense professional atmosphere. --ar 3:4 --raw --profile 6v1x6yp ueiam84",
+   "img": "assets/full/A192.webp",
+   "thumb": "assets/thumb/A192.webp",
+   "w": 904,
+   "h": 1200
+  },
+  {
+   "id": "A193",
+   "seq": "193",
+   "title": "武侠男子冥想",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "空灵怀旧",
+   "palette": "青绿/粉青/薄雾",
+   "model": "Midjourney",
+   "tags": [
+    "武侠",
+    "电影感",
+    "湖畔",
+    "柳树",
+    "1990年代",
+    "胶片"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Cinematic movie still, vintage 1990s Chinese wuxia film aesthetic, backlit shot, soft silhouette of a lone East Asian man in a flowing black traditional hanfu, topknot hairstyle, sitting cross-legged on a rocky lakeshore with his back to the camera, meditating under a massive gnarled ancient willow tree with twisted sprawling branches and lush green leaves. Tall reeds and swaying grasses frame the foreground on both sides, soft hazy mist hovering over the calm lake surface, distant misty blue-green mountains fading into the dreamy sky, soft pink and teal gradient sky at dawn/dusk, ethereal atmospheric haze, diffused twilight light, tranquil and meditative mood, 35mm film texture, visible film grain, nostalgic retro filter, wide aspect ratio 16:9, shallow depth of field, soft focus on foreground reeds, hyper-detailed natural textures, moody ethereal atmosphere, --ar 16:9 --raw --v 7",
+   "img": "assets/full/A193.webp",
+   "thumb": "assets/thumb/A193.webp",
+   "w": 1400,
+   "h": 785
+  },
+  {
+   "id": "A194",
+   "seq": "194",
+   "title": "雨天JK少女",
+   "category": "角色设定——日系少女",
+   "kind": "角色设定",
+   "tone": "忧郁内省",
+   "palette": "冷蓝/街灯黄",
+   "model": "Midjourney",
+   "tags": [
+    "JK",
+    "少女",
+    "校服",
+    "雨",
+    "公交站",
+    "忧郁"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A shy JK girl with braids, wearing a white blouse and blue pleated skirt uniform, waiting at a bus stop in the rain under an umbrella, puddles reflecting streetlights, retro film grain, melancholic and introspective mood. --ar 3:4 --raw --profile 6v1x6yp ueiam84",
+   "img": "assets/full/A194.webp",
+   "thumb": "assets/thumb/A194.webp",
+   "w": 904,
+   "h": 1200
+  },
+  {
+   "id": "A195",
+   "seq": "195",
+   "title": "武侠剑客悬崖瀑布",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "雄浑苍凉",
+   "palette": "金橙/暖调",
+   "model": "Midjourney",
+   "tags": [
+    "武侠",
+    "电影感",
+    "悬崖",
+    "瀑布",
+    "夕阳",
+    "剑客"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "cinematic movie still, wuxia ancient Chinese aesthetic, silhouettes of two swordsmen standing on a grassy cliff facing a giant waterfall at golden hour, one with high topknot, one with traditional bun, wearing flowing hanfu robes, holding swords, backlit by warm sunset light, massive cascading waterfall glowing with golden-orange light, misty atmosphere, volumetric light rays through waterfall mist, foreground tall reeds and wild grasses swaying softly, shallow depth of field, foreground foliage out of focus, dramatic contrast, warm orange and golden tones, 35mm film grain, nostalgic wuxia film filter, moody ethereal atmosphere, cinematic composition --ar 16:9 --raw --v 7",
+   "img": "assets/full/A195.webp",
+   "thumb": "assets/thumb/A195.webp",
+   "w": 1400,
+   "h": 785
+  },
+  {
+   "id": "A196",
+   "seq": "196",
+   "title": "赛博朋克持刀少女",
+   "category": "角色设定——赛博少女",
+   "kind": "角色设定",
+   "tone": "凌厉神秘",
+   "palette": "霓虹彩/湿地面反光",
+   "model": "Midjourney",
+   "tags": [
+    "赛博朋克",
+    "少女",
+    "武士刀",
+    "东京",
+    "霓虹",
+    "雨夜"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A fierce short-haired Japanese girl with sharp features, wearing a light blue sailor school uniform with a pleated skirt and white collar accents, confidently holding a gleaming katana samurai sword in one hand, standing poised on a bustling Tokyo street at night under neon lights and rain-slicked pavement, surrounded by glowing signs, passing cars, and shadowy alleyways, dramatic cyberpunk atmosphere with reflections on wet surfaces, vintage film grain effect, high detail, intense and mysterious vibe, cinematic lighting. --ar 3:4 --raw --profile ueiam84",
+   "img": "assets/full/A196.webp",
+   "thumb": "assets/thumb/A196.webp",
+   "w": 904,
+   "h": 1200
+  },
+  {
+   "id": "A197",
+   "seq": "197",
+   "title": "武侠男子临海冥想",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "苍凉静谧",
+   "palette": "暖金/去饱和",
+   "model": "Midjourney",
+   "tags": [
+    "武侠",
+    "电影感",
+    "临海",
+    "松枝",
+    "夕阳",
+    "冥想"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "cinematic movie still, a lone East Asian man in traditional dark hanfu with topknot hairstyle, sitting cross-legged in meditation on a rocky cliffside, side profile gazing at the ocean, silhouetted against warm golden sunset glow, framing pine tree branches overhead, tall dry grasses swaying in the foreground, crashing waves and misty sea stacks in the background, moody atmospheric haze, dramatic backlighting, nostalgic 35mm film grain, 1990s Hong Kong wuxia film aesthetic, desaturated warm tones, shallow depth of field, serene yet melancholic atmosphere, wide aspect ratio --ar 16:9 --raw --v 7",
+   "img": "assets/full/A197.webp",
+   "thumb": "assets/thumb/A197.webp",
+   "w": 1400,
+   "h": 785
+  },
+  {
+   "id": "A198",
+   "seq": "198",
+   "title": "3D糖果屋",
+   "category": "插画——3D插画",
+   "kind": "插画",
+   "tone": "甜美梦幻",
+   "palette": "粉彩/糖果色",
+   "model": "Midjourney",
+   "tags": [
+    "3D",
+    "糖果屋",
+    "童趣",
+    "梦幻",
+    "粉色"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "现实主义，童趣，3D 渲染，中景，画面中央彩色糖果屋，墙面缀有糖霜纹路与彩色硬糖装饰，周围散落棉花糖、螺旋棒棒糖，柔和粉色渐变背景，整体可爱梦幻，色彩鲜艳，糖霜与糖果颗粒质感细腻，营造糖果童话世界。 --sref 3589434599   --profile svuas6g  --ar 9:16  --c 8  --q 2  --sw 320  --stylize 320  --sv 4",
+   "img": "assets/full/A198.webp",
+   "thumb": "assets/thumb/A198.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A199",
+   "seq": "199",
+   "title": "黑暗骑士与精灵",
+   "category": "插画——奇幻",
+   "kind": "插画",
+   "tone": "阴郁暗黑",
+   "palette": "暗调/烛光金",
+   "model": "Midjourney",
+   "tags": [
+    "奇幻",
+    "黑暗骑士",
+    "精灵",
+    "哥特",
+    "3D动画"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Epic fantasy cinematic video, slow-motion close-up of a faceless dark knight holding a delicate elven-like woman, wind gently blowing her hair and sheer white silk ribbons, subtle movement of floating dust particles in volumetric light, flickering candlelight in the background gothic hall, armor metal reflecting dim light, fabric flowing softly, 3D animation style, hyper-realistic textures, atmospheric depth, moody dark fantasy vibe, smooth cinematic motion blur.",
+   "img": "assets/full/A199.webp",
+   "thumb": "assets/thumb/A199.webp",
+   "w": 1400,
+   "h": 785
+  },
+  {
+   "id": "A200",
+   "seq": "200",
+   "title": "赛博朋克花卉",
+   "category": "插画——科幻插画",
+   "kind": "插画",
+   "tone": "未来冷艳",
+   "palette": "靛蓝/蓝粉",
+   "model": "Midjourney",
+   "tags": [
+    "赛博朋克",
+    "花卉",
+    "扁平",
+    "极简",
+    "渐变"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "赛博朋克花卉形态，由科技感的靛蓝色花瓣组成，花瓣呈现发光的蓝粉色渐变，背景是深靛蓝色色到浅色的渐变，整体造型极简优雅，带有未来主义的艺术感，扁平插画，蓝色艺术，极简，抽象，极简圆润的边缘，超现实主义，渐变的色彩，极简的造型，模糊的边缘，高斯模糊，动态模糊，颗粒感，弥散，超清画质。画面最底部居中放置纯白色极小精致的极细无衬线字体文字。--sref 1773258013  3133654114 --p ccuueol vlczi9f",
+   "img": "assets/full/A200.webp",
+   "thumb": "assets/thumb/A200.webp",
+   "w": 896,
+   "h": 1344
+  },
+  {
+   "id": "A201",
+   "seq": "201",
+   "title": "日系少女胶片肖像",
+   "category": "摄影——胶片人像",
+   "kind": "摄影",
+   "tone": "清冷梦幻",
+   "palette": "蓝调/去饱和",
+   "model": "Midjourney",
+   "tags": [
+    "日系",
+    "少女",
+    "胶片",
+    "柔光",
+    "蓝调",
+    "散景"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "close-up portrait photograph where face fills 2/3 of frame of a youthful 16-year-old Japanese girl during summer daytime overcast, completely flat diffused lighting with absolutely no sunlight, blue-tinted color palette creating dreamlike melancholic atmosphere, shot on vintage film camera, black mist 1/4 filter, slight motion blur, bokeh effect, soft focus, heavy film grain, extremely shallow depth of field with only eyes in perfect focus, Fujifilm Natura 1600, wistful expression with innocent fresh-faced quality, everyday candid moment, desaturated cool tones typical of cloudy day, photography capturing youth, 2024 setting --ar 9:16 --raw --profile c441kok afqtcjr --stylize 300 --v 7",
+   "img": "assets/full/A201.webp",
+   "thumb": "assets/thumb/A201.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A202",
+   "seq": "202",
+   "title": "光影鱼影人像",
+   "category": "摄影——创意人像",
+   "kind": "摄影",
+   "tone": "朦胧梦幻",
+   "palette": "棕黑/水色",
+   "model": "Midjourney",
+   "tags": [
+    "光影",
+    "人像",
+    "鱼",
+    "水中",
+    "印象派",
+    "胶片"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A masterful play of light and shadow. An extreme close-up where the woman's face is partly obscured by the dynamic, blurred shapes of slowly swimming tropical fish. Her visible eye makes a subtle, soft connection with the viewer. Intense, rippling light reflections create abstract patterns across her features. Dark brown and black tones with accents of aquatic colors. The texture of water and glass is palpable. A fusion of photorealism and artistic impressionism, filled with fine film grain and a dreamy, out-of-focus aesthetic. --ar 2:3 --style raw",
+   "img": "assets/full/A202.webp",
+   "thumb": "assets/thumb/A202.webp",
+   "w": 896,
+   "h": 1344
+  },
+  {
+   "id": "A203",
+   "seq": "203",
+   "title": "超现实网球场景",
+   "category": "摄影——超现实",
+   "kind": "摄影",
+   "tone": "极简超现实",
+   "palette": "蓝/低饱和",
+   "model": "Midjourney",
+   "tags": [
+    "超现实",
+    "网球",
+    "蓝天",
+    "极简",
+    "C4D"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A surreal digital image, a dynamic surreal scene, minimalist and sophisticated overall. The center of the image features a tennis court, a grassy surface, a surreal blue sky, high contrast, a spring day, no sun, Cinema 4D, OC, Fujifilm feel, and low saturation. --ar 9:16 --v 7",
+   "img": "assets/full/A203.webp",
+   "thumb": "assets/thumb/A203.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A204",
+   "seq": "204",
+   "title": "樱桃包女孩插画",
+   "category": "插画——治愈系",
+   "kind": "插画",
+   "tone": "轻松愉悦",
+   "palette": "鲜亮/大面积留白",
+   "model": "Midjourney",
+   "tags": [
+    "手绘",
+    "治愈",
+    "樱桃",
+    "童趣",
+    "绘本",
+    "留白"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "一个造型可爱的女孩，背着一个小巧的樱桃形状的包，整体充满童趣与创意。周围散落着很多樱桃。手绘插画，治愈系插画，颗粒感，笔触明显，肌理感，粗糙的纹理。绘本故事，大面积留白。幻想，梦境，轻松愉悦，夏加尔，米罗，抽象的--sref 1954728280 --p ccuueol vlczi9f",
+   "img": "assets/full/A204.webp",
+   "thumb": "assets/thumb/A204.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A205",
+   "seq": "205",
+   "title": "做旧兔子雕塑",
+   "category": "3D——雕塑",
+   "kind": "3D",
+   "tone": "清新童趣",
+   "palette": "石灰/绿意",
+   "model": "Midjourney",
+   "tags": [
+    "雕塑",
+    "兔子",
+    "做旧",
+    "园林",
+    "青铜鸟"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "一尊做旧风格的灰色兔子雕塑，呈慵懒躺姿，一只前腿抬起，腿上停着一只青铜色的小鸟。雕塑置于布满纹理的岩石上，背景是绿意朦胧的园林景观，光线明亮自然，整体氛围清新且富有童趣，细节刻画逼真，质感古朴。   --sref 78298173",
+   "img": "assets/full/A205.webp",
+   "thumb": "assets/thumb/A205.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A206",
+   "seq": "206",
+   "title": "粒子幽灵",
+   "category": "插画——超现实",
+   "kind": "插画",
+   "tone": "神秘未来",
+   "palette": "暗调/青绿",
+   "model": "Midjourney",
+   "tags": [
+    "超现实",
+    "幽灵",
+    "粒子",
+    "科技",
+    "青绿光"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Surreal notice: A cute ghost composed of a grid of luminous particles and with black hollow eyes creates a mysterious futuristic atmosphere in a tech-savvy scene with dark tones and puddles reflecting from the ground, using a turquoise light source.   --sref 3661625414  --p ccuueol vlczi",
+   "img": "assets/full/A206.webp",
+   "thumb": "assets/thumb/A206.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A207",
+   "seq": "207",
+   "title": "故障艺术",
+   "category": "插画——故障艺术",
+   "kind": "插画",
+   "tone": "数字失真",
+   "palette": "电子色",
+   "model": "Midjourney",
+   "tags": [
+    "故障",
+    "数字超现实",
+    "glitch"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "glitch-core, digital surrealism  --profile wo3cxcv",
+   "img": "assets/full/A207.webp",
+   "thumb": "assets/thumb/A207.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A208",
+   "seq": "208",
+   "title": "梦幻治愈场景",
+   "category": "插画——治愈系",
+   "kind": "插画",
+   "tone": "治愈柔和",
+   "palette": "柔和",
+   "model": "Midjourney",
+   "tags": [
+    "梦幻",
+    "治愈",
+    "场景"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A dreamy and healing scene  --sref 1694430546",
+   "img": "assets/full/A208.webp",
+   "thumb": "assets/thumb/A208.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A209",
+   "seq": "209",
+   "title": "舞台钢琴家",
+   "category": "角色设定——演奏者",
+   "kind": "角色设定",
+   "tone": "优雅",
+   "palette": "舞台光",
+   "model": "Midjourney",
+   "tags": [
+    "钢琴",
+    "舞台",
+    "演奏",
+    "音乐人"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "The pianist is playing on the stage  --sref 4252715442 1667944340  --p ccuueol vlczi9f",
+   "img": "assets/full/A209.webp",
+   "thumb": "assets/thumb/A209.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A210",
+   "seq": "210",
+   "title": "Q版陶瓷天使雕塑",
+   "category": "角色设定——Q版雕塑",
+   "kind": "角色设定",
+   "tone": "梦幻萌系",
+   "palette": "白/浅金/粉紫",
+   "model": "Midjourney",
+   "tags": [
+    "Q版",
+    "陶瓷雕塑",
+    "天使",
+    "羊毛毡",
+    "月亮船"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Clairy Laurence 风格，可爱陶瓷雕塑，梦幻风格Q版小天使，羊毛毡材质，白色主色浅金点缀，铜丝光环，欧根纱翅膀粉紫渐变，月亮船场景，星星亮片环绕，强化手工纹理和萌系氛围，身体内置铝丝骨架，可摆出坐姿、托腮等动作--sref 4252715442 1667944340  --p ccuueol vlczi9f",
+   "img": "assets/full/A210.webp",
+   "thumb": "assets/thumb/A210.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A211",
+   "seq": "211",
+   "title": "海景窗景",
+   "category": "摄影——风光",
+   "kind": "摄影",
+   "tone": "宁静",
+   "palette": "湛蓝/清新",
+   "model": "Midjourney",
+   "tags": [
+    "海景",
+    "窗户",
+    "极简",
+    "佳能EOS",
+    "倒影"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "一扇能看到海景的窗户，桌子上有一个巨大的画框框柱外面的景观。海面平静，湛蓝，波光粼粼。远处能看到另一艘船的身影。用佳能 EOS 相机拍摄的，极简风格",
+   "img": "assets/full/A211.webp",
+   "thumb": "assets/thumb/A211.webp",
+   "w": 896,
+   "h": 1344
+  },
+  {
+   "id": "A212",
+   "seq": "212",
+   "title": "马格里特风抽象",
+   "category": "插画——超现实",
+   "kind": "插画",
+   "tone": "哲思超现实",
+   "palette": "克制",
+   "model": "Midjourney",
+   "tags": [
+    "马格里特",
+    "超现实",
+    "抽象",
+    "环境科技"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "勒内・马格里特（René Magritte）风格的抽象艺术画作，环境与科技的议题",
+   "img": "assets/full/A212.webp",
+   "thumb": "assets/thumb/A212.webp",
+   "w": 896,
+   "h": 1344
+  },
+  {
+   "id": "A213",
+   "seq": "213",
+   "title": "2000年代派对抓拍",
+   "category": "摄影——生活纪实",
+   "kind": "摄影",
+   "tone": "诙谐怀旧",
+   "palette": "低饱和/彩灯",
+   "model": "Midjourney",
+   "tags": [
+    "生活",
+    "派对",
+    "抓拍",
+    "胶片",
+    "复古",
+    "幽默"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A candid, grainy snapshot from a 2000s house party. A guy in period-appropriate clothing spontaneously does a full split, his face showing pure exhilaration. The unexpected comedy comes from a cat immediately copying his pose beside him. The background is an out-of-focus mess of party chaos and colorful lights, encapsulating a hilarious and bizarre moment of human-animal connection. Shot with a vintage aesthetic, low saturation, and a retro filter. --style raw --ar 4:3",
+   "img": "assets/full/A213.webp",
+   "thumb": "assets/thumb/A213.webp",
+   "w": 1232,
+   "h": 928
+  },
+  {
+   "id": "A214",
+   "seq": "214",
+   "title": "Sophie Blackall风插画",
+   "category": "插画——绘本",
+   "kind": "插画",
+   "tone": "温情手绘",
+   "palette": "柔和",
+   "model": "Midjourney",
+   "tags": [
+    "绘本",
+    "Sophie Blackall",
+    "传统插画",
+    "8k"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Sophie Blackall style,Traditional_Influence illustration,8k, high_detail, hyper_quality --sref 3987773634",
+   "img": "assets/full/A214.webp",
+   "thumb": "assets/thumb/A214.webp",
+   "w": 896,
+   "h": 1344
+  },
+  {
+   "id": "A215",
+   "seq": "215",
+   "title": "校服情侣",
+   "category": "人像——情侣",
+   "kind": "人像",
+   "tone": "甜蜜浪漫",
+   "palette": "清新",
+   "model": "Midjourney",
+   "tags": [
+    "情侣",
+    "校服",
+    "浪漫",
+    "黑短发",
+    "可爱"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "一对恩爱的情侣一起享受浪漫的时刻。他们都格外迷人，迷人的笑容和闪闪发光的眼睛反映了他们对彼此的深情。可爱，黑色短发，身穿校服，留着一头齐肩的短发 --profile 4hl5jgf --stylize 1000 一对恩爱的情侣一起享受浪漫的时刻。他们都格外迷人，迷人的笑容和闪闪发光的眼睛反映了他们对彼此的深情。可爱，黑色短发，身穿校服，留着一头齐肩的短发 --profile 4hl5jgf --stylize 1000",
+   "img": "assets/full/A215.webp",
+   "thumb": "assets/thumb/A215.webp",
+   "w": 1400,
+   "h": 785
+  },
+  {
+   "id": "A216",
+   "seq": "216",
+   "title": "日系电影情侣",
+   "category": "人像——情侣",
+   "kind": "人像",
+   "tone": "甜蜜浪漫",
+   "palette": "日系柔和",
+   "model": "Midjourney",
+   "tags": [
+    "情侣",
+    "日系电影",
+    "校服",
+    "浪漫"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "日系电影，一对恩爱的情侣一起享受浪漫的时刻。他们都格外迷人，迷人的笑容和闪闪发光的眼睛反映了他们对彼此的深情。可爱，黑色短发，身穿校服，留着一头齐肩的短发 --profile 4hl5jgf  --v 6.1",
+   "img": "assets/full/A216.webp",
+   "thumb": "assets/thumb/A216.webp",
+   "w": 1400,
+   "h": 785
+  },
+  {
+   "id": "A217",
+   "seq": "217",
+   "title": "Q版小羊",
+   "category": "卡通——Q版",
+   "kind": "卡通",
+   "tone": "软萌治愈",
+   "palette": "粉绿/柔焦",
+   "model": "Midjourney",
+   "tags": [
+    "Q版",
+    "小羊",
+    "水彩",
+    "花环",
+    "逆光"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "梦幻Q版插画，小羊侧坐花环，圆脸粉腮红。绿眼映花影，粉鼻微翘，蓬松毛发金点。爪拨草间绿花黄蕊，背景虚化绿叶。逆光柔焦效果，水彩湿画法晕染--sref 3598594574  --p ccuueol vlczi9f",
+   "img": "assets/full/A217.webp",
+   "thumb": "assets/thumb/A217.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A218",
+   "seq": "218",
+   "title": "高定珍惜动物",
+   "category": "插画——高定插画",
+   "kind": "插画",
+   "tone": "唯美梦幻",
+   "palette": "高级灰/幻彩",
+   "model": "Midjourney",
+   "tags": [
+    "高定",
+    "梦幻",
+    "超现实",
+    "珍惜动物"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "高定插画，梦幻，唯美，超现实主义艺术，珍惜动物--sref 3220210935",
+   "img": "assets/full/A218.webp",
+   "thumb": "assets/thumb/A218.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A219",
+   "seq": "219",
+   "title": "高定大企鹅",
+   "category": "插画——高定插画",
+   "kind": "插画",
+   "tone": "唯美奇幻",
+   "palette": "幻彩",
+   "model": "Midjourney",
+   "tags": [
+    "高定",
+    "超现实",
+    "大企鹅",
+    "矿物晕染"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "高定插画，梦幻，唯美，矿物原料晕染，动态定格，超现实主义， 大企鹅，--sref 3220210935  --p ccuueol vlczi9f",
+   "img": "assets/full/A219.webp",
+   "thumb": "assets/thumb/A219.webp",
+   "w": 785,
+   "h": 1400
+  },
+  {
+   "id": "A220",
+   "seq": "220",
+   "title": "CGI白羊",
+   "category": "3D——卡通渲染",
+   "kind": "3D",
+   "tone": "柔软可爱",
+   "palette": "白/粉斑/暗背景",
+   "model": "Midjourney",
+   "tags": [
+    "CGI",
+    "白羊",
+    "树脂",
+    "粘土",
+    "萌系"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "一只由树脂制成、质地如粘土的超可爱 CGI 风格白羊躺着，身上戴着一朵黄色的小花。它又小又胖，很可爱。其光滑的白色身体带有淡淡的粉红色斑点，给人一种用粘土塑造而成的印象，在黑暗庄严的背景下显得格外柔软突出，就像黑暗中的甜蜜点缀。周围是一个简单的花园，笼罩在黑暗中，背景模糊，让羊群看起来更加可爱可爱。整个画面高清逼真，羊的眼睛眯成一条缝，呈现出满足和幸福的表情。， 4K， --sref 1893831247",
+   "img": "assets/full/A220.webp",
+   "thumb": "assets/thumb/A220.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A221",
+   "seq": "221",
+   "title": "史努比小狗",
+   "category": "卡通——萌宠",
+   "kind": "卡通",
+   "tone": "可爱",
+   "palette": "暖萌",
+   "model": "Midjourney",
+   "tags": [
+    "史努比",
+    "小狗",
+    "爱心眼",
+    "毛茸茸",
+    "萌"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "可爱的小狗史努比，毛茸茸的，两个爱心眼睛 --ar 3:4 --sref 680572301 --profile kzilt9y --stylize 1000 --v 6.1",
+   "img": "assets/full/A221.webp",
+   "thumb": "assets/thumb/A221.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A222",
+   "seq": "222",
+   "title": "情侣剪影海报",
+   "category": "海报——艺术海报",
+   "kind": "海报",
+   "tone": "迷幻梦幻",
+   "palette": "粉橙/暗调",
+   "model": "Midjourney",
+   "tags": [
+    "海报",
+    "情侣剪影",
+    "多重曝光",
+    "朦胧",
+    "梦核"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "海报设计视觉写意，夸张视角，朦胧，粉色，橙色氛围，近景模糊隐约情侣人像剪影与清晰远处场景的多重完美融合重叠，形成奇幻意境，动态模糊，迷幻，光影美学，朦胧学，多重曝光，暗调与高曝，拖影，失焦，近景失焦虚化，颗粒感，强烈的胶片颗粒感，抽象，漫延，梦核，光朦，大面积留白，摄影获奖作品，电影场景，超现实，高级感，杰作，模糊笔触英文信息解析点缀  --ar 3:4 --sref 3967386170 4157282216",
+   "img": "assets/full/A222.webp",
+   "thumb": "assets/thumb/A222.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A223",
+   "seq": "223",
+   "title": "男生拳击",
+   "category": "角色设定——运动角色",
+   "kind": "角色设定",
+   "tone": "力量",
+   "palette": "硬调",
+   "model": "Midjourney",
+   "tags": [
+    "拳击",
+    "男生",
+    "运动",
+    "力量"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "男生拳击 --sref 308227572",
+   "img": "assets/full/A223.webp",
+   "thumb": "assets/thumb/A223.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A224",
+   "seq": "224",
+   "title": "太空镜面",
+   "category": "场景——科幻空间",
+   "kind": "场景",
+   "tone": "虚实交织",
+   "palette": "冷调/镜面",
+   "model": "Midjourney",
+   "tags": [
+    "太空",
+    "飞船",
+    "镜面",
+    "超现实",
+    "反射"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "外太空，一个人，一艘飞船，地面是巨大镜面，天空与人物无限反射，真实与虚幻交织，抽象空间感，超现实景观 --sref 3505569089",
+   "img": "assets/full/A224.webp",
+   "thumb": "assets/thumb/A224.webp",
+   "w": 928,
+   "h": 1232
+  },
+  {
+   "id": "A225",
+   "seq": "225",
+   "title": "亚洲女人像",
+   "category": "人像——写实人像",
+   "kind": "人像",
+   "tone": "写实",
+   "palette": "自然",
+   "model": "Midjourney",
+   "tags": [
+    "亚洲",
+    "女人像",
+    "写实",
+    "肖像"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "亚洲女人像 --sref 1430290407",
+   "img": "assets/full/A225.webp",
+   "thumb": "assets/thumb/A225.webp",
+   "w": 896,
+   "h": 1344
+  },
+  {
+   "id": "A226",
+   "seq": "226",
+   "title": "食肉蝇群",
+   "category": "风格参考——恐怖",
+   "kind": "风格参考",
+   "tone": "压抑恐怖",
+   "palette": "红绿/暗",
+   "model": "Midjourney",
+   "tags": [
+    "恐怖",
+    "苍蝇",
+    "雨林",
+    "压迫",
+    "史诗"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A huge swarm of carnivorous flies forming a terrifying red and green cloud above the tropical rainforest, extremely oppressive atmosphere, sunlight breaking through dark clouds, epic cinematic shot, hyperrealistic, photorealistic, 8K, IMAX quality, dramatic lighting, ultra-detailed, wide aerial view --ar 16:9 --stylize 350 --weird 45",
+   "img": "assets/full/A226.webp",
+   "thumb": "assets/thumb/A226.webp",
+   "w": 1400,
+   "h": 785
+  },
+  {
+   "id": "A227",
+   "seq": "227",
+   "title": "极地极光阶梯",
+   "category": "场景——奇幻",
+   "kind": "场景",
+   "tone": "冷冽",
+   "palette": "冷月/极光",
+   "model": "Midjourney",
+   "tags": [
+    "极地",
+    "极光",
+    "浮空阶梯",
+    "水晶",
+    "梦境"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A polar landscape of snowfields and crystal cliffs lies under aurora, dominated by a colossal white staircase floating above the ice. It rises toward a luminous doorway hanging in open space, but its shadow reveals a circular palace seen from above. Small sled caravans approach, leaving tracks that curve around invisible architecture beneath the snow. Distant icebergs stand like monoliths, their reflections showing warm interior stair halls and balconies. Compose it as a wide cinematic shot with the staircase off-center beneath an immense sky. Lighting is pristine: cold moonlight, subtle aurora spill, sharp edges on crystal and frost, incredible clarity in snow texture, breath vapor, and hidden reflected geometry. --chaos 30 --ar 16:9 --profile skx15nm --stylize 700 --v 8",
+   "img": "assets/full/A227.webp",
+   "thumb": "assets/thumb/A227.webp",
+   "w": 900,
+   "h": 504
+  },
+  {
+   "id": "A228",
+   "seq": "228",
+   "title": "灰烬山谷面具",
+   "category": "场景——暗黑奇幻",
+   "kind": "场景",
+   "tone": "诡谲苍凉",
+   "palette": "灰烬/银瀑",
+   "model": "Midjourney",
+   "tags": [
+    "暗黑奇幻",
+    "灰烬",
+    "浮空面具",
+    "枯树",
+    "梦魇"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A moonless valley of ash stretches beneath a sky filled with colossal floating masks, each one cracked, expressionless, and leaking silver waterfalls from their hollow eyes. In the center of the valley stands a dead tree made of polished bone and black crystal, its branches holding dozens of tiny birdcages, each containing a different glowing moon phase. Beneath it, a pale horse with six legs sleeps motionless while smoke blooms from its mane into ghostly cities that vanish in the wind. Cloaked children with antlers stand in a circle around a pool of liquid darkness reflecting a bright daytime sky that does not exist above them. The terrain is covered in ruined statues half-buried in soft ash dunes, while distant mountains slowly open and close like breathing beasts. The mood is eerie, mythic, and melancholy, with surreal symbolism, painterly shadow detail, dream-horror elegance, cinematic composition, luminous accents, soft drifting particles, and an otherworldly stillness that feels both threatening and strangely beautiful. --chaos 30 --ar 16:9 --profile skx15nm --stylize 700 --v 8",
+   "img": "assets/full/A228.webp",
+   "thumb": "assets/thumb/A228.webp",
+   "w": 900,
+   "h": 504
+  },
+  {
+   "id": "A229",
+   "seq": "229",
+   "title": "小丑超现实肖像",
+   "category": "角色设定——超现实角色",
+   "kind": "角色设定",
+   "tone": "诡谲戏谑",
+   "palette": "戏剧光/丰富",
+   "model": "Midjourney",
+   "tags": [
+    "小丑",
+    "超现实",
+    "剧场",
+    "错视",
+    "象征"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A theatrical portrait of a jester-like surreal figure standing beneath spotlight darkness, dressed in elaborate garments patterned with checkerboards, eyes, ladders, and impossible stair motifs. Their costume seems tailored from flat graphic shapes, yet folds naturally into dimensional fabric. The face is divided into sections like hinged panels, each rotated slightly differently so the expression changes from angle to angle. A tall collar rises behind the head and forms a miniature stage set where tiny actors perform on balconies and ramps. One gloved hand presents a crystal sphere containing an upside-down city, while the other hand disappears into a painted doorway on the figure’s own chest. The background resembles a simple curtain until its shadows reveal additional hidden faces and architecture. The image should feel playful, eerie, clever, and visually dense, with surreal portrait drama, illusionistic costume design, polished detail, sharp theatrical lighting, rich symbolism, and a layered sense that the figure is both performer and stage, both person and perfectly constructed visual trick. --chaos 30 --ar 16:9 --profile skx15nm --stylize 700 --v 8",
+   "img": "assets/full/A229.webp",
+   "thumb": "assets/thumb/A229.webp",
+   "w": 360,
+   "h": 202
+  },
+  {
+   "id": "A230",
+   "seq": "230",
+   "title": "热带浮岛",
+   "category": "场景——奇幻",
+   "kind": "场景",
+   "tone": "奇妙宁静",
+   "palette": "翠绿/热带",
+   "model": "Midjourney",
+   "tags": [
+    "奇幻",
+    "浮岛",
+    "热带",
+    "悖论",
+    "梦境"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A tropical archipelago of impossible islands floats above a calm emerald ocean, each island connected by bridges that change height and angle depending on perspective. Palm groves grow along curved shorelines that loop back beneath themselves, while waterfalls pour from cliff edges into hanging spheres of water suspended midair before continuing downward into the sea. One island contains a ring-shaped mountain whose interior holds a second sunlit coastline, visible through mist. Another island casts a shadow shaped like a city. Sailboats glide across the ocean surface, but their wakes curve upward onto the sides of islands as if water remembers different gravity. In the distance, clouds form giant steps ascending into blue emptiness, carrying villages and lighthouses on their landings. The whole image should feel bright, wondrous, and strangely serene, with lush impossible geography, tropical color, clean reflections, atmospheric haze, dreamlike coherence, intricate environmental storytelling, panoramic scale, and an uplifting sense of paradise redesigned by illusion and visual paradox. --chaos 30 --ar 16:9 --profile skx15nm --stylize 700 --hd --v 8",
+   "img": "assets/full/A230.webp",
+   "thumb": "assets/thumb/A230.webp",
+   "w": 900,
+   "h": 504
+  },
+  {
+   "id": "A231",
+   "seq": "231",
+   "title": "沙漠巨构",
+   "category": "场景——建筑奇观",
+   "kind": "场景",
+   "tone": "恢弘奇迹",
+   "palette": "砂岩/黑玻璃/金",
+   "model": "Midjourney",
+   "tags": [
+    "沙漠",
+    "巨构",
+    "环宫",
+    "超现实",
+    "史诗"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A breathtaking desert megastructure stands alone beneath a blazing white sun, a vast ring-shaped palace of pale sandstone, black glass, and gold suspended above endless dunes by colossal sculpted columns. Within the central void hangs a floating garden of palms, fountains, and terraces, visible through the giant open ring. The camera composition should feel cinematic and monumental, a wide-angle hero shot from dune level with strong foreground shadow patterns leading the eye toward the impossible structure. The light should be immaculate and studio-like despite the harsh desert: sculpted highlights on every architectural edge, controlled shadow detail, subtle bounce from the sand, and ultra-clear visibility through warm dust in the air. Small caravans and reflective pools at the base add scale and contrast. The entire image should feel like a lost imperial wonder of impossible engineering, combining extreme detail, royal opulence, surreal physics, and a jaw-dropping sense of scale and clarity. --chaos 30 --ar 16:9 --profile skx15nm --stylize 700 --v 8",
+   "img": "assets/full/A231.webp",
+   "thumb": "assets/thumb/A231.webp",
+   "w": 900,
+   "h": 504
   }
  ]
 }
