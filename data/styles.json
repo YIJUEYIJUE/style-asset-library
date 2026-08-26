@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 272,
+ "count": 273,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -641,7 +641,7 @@
   {
    "name": "角色设定——3D写实动物",
    "tone": "NEW CATEGORY",
-   "count": 1
+   "count": 2
   },
   {
    "name": "角色设定——新中式机甲",
@@ -8474,6 +8474,34 @@
    "thumb": "assets/thumb/A273.webp",
    "w": 783,
    "h": 1400
+  },
+  {
+   "id": "A274",
+   "seq": "274",
+   "title": "超写实东方龙全身标本",
+   "category": "角色设定——3D写实动物",
+   "kind": "角色设定",
+   "tone": "",
+   "palette": "",
+   "model": "Midjourney",
+   "tags": [
+    "东方龙",
+    "超写实",
+    "生物标本",
+    "3D",
+    "鳞甲",
+    "皮毛",
+    "摄影"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "full-body photograph of an Eastern Chinese dragon, full length shot, 60-degree three-quarter side view, hyperrealistic biological anatomy, slender juvenile deer antlers, hyper-realistic biological eyes with visible crystalline lens, intricate iris patterns, realistic ocular wetness, long flowing dragon whiskers, flowing fur mane, coarse layered fur, individual hair strands, natural clumping at fur-scale junction, imbricated overlapping keeled scales, deep shadows in scale gaps, sharp specular highlights on scale ridges, micro radiating texture on scale surface, raised dorsal scales, flattened ventral scales, four visible limbs with four-toed claws, rough unpolished nails with minor environmental wear, isolated on pure white studio background, high contrast, soft directional studio lighting, ultra detailed, photorealistic, 8k, sharp focus, cinematic texture, biological specimen photography negative flat lighting, blurry scales, 2D flat, cartoon, anime, deformed limbs, extra claws, missing toes, messy fur, low resolution, watermark, text, distorted anatomy, extra limbs --chaos 15 --ar 16:9 --quality 2 --raw --stylize 60 --v 7",
+   "img": "assets/full/A274.webp",
+   "thumb": "assets/thumb/A274.webp",
+   "w": 1400,
+   "h": 785
   }
  ]
 }
