@@ -4195,7 +4195,7 @@
    "kind": "风格参考",
    "tone": "控制 gptimage2 输出质感",
    "palette": "——",
-   "model": "通用",
+   "model": "GPT-Image",
    "tags": [
     "提示词工程",
     "风格控制",
@@ -5018,7 +5018,7 @@
    "kind": "风格参考",
    "tone": "当代没骨写意人物、白绢载体",
    "palette": "绢白微暖 / 墨 / 淡彩",
-   "model": "gtp",
+   "model": "GPT-Image",
    "tags": [
     "风格参考",
     "国风",
@@ -5044,7 +5044,7 @@
    "kind": "风格参考",
    "tone": "现代东方装饰厚涂肖像",
    "palette": "瑰丽重彩 / 金线",
-   "model": "GPT",
+   "model": "GPT-Image",
    "tags": [
     "风格参考",
     "东方",
