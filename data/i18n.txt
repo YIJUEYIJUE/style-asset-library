@@ -813,3 +813,6 @@ Sophie Blackall风格、传统影响插画，8k高细节超品质。
 
 ## 1i6ztci zh
 一个女孩坐在树下。--chaos 30 --ar 3:4 --exp 30 --raw --sref 2116795492 --profile 1mw6efi --hd
+
+## 1a943lq zh
+门口的老妇人。傍晚的光线在她身后投下强烈但柔和的阴影。她穿着传统英国猎装，羊毛夹克和马裤。--ar 2:3 --stylize 50

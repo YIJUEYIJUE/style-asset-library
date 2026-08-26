@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 269,
+ "count": 270,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -56,7 +56,7 @@
   },
   {
    "name": "摄影——写实人像",
-   "count": 4
+   "count": 5
   },
   {
    "name": "摄影——特殊视角",
@@ -8395,6 +8395,31 @@
    "thumb": "assets/thumb/A270.webp",
    "w": 1047,
    "h": 1400
+  },
+  {
+   "id": "A271",
+   "seq": "271",
+   "title": "门廊老妇",
+   "category": "摄影——写实人像",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "",
+   "model": "Midjourney",
+   "tags": [
+    "写实人像",
+    "老妇",
+    "门廊",
+    "英国猎装"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "old woman in doorway. late day light casts a strong but soft shadow behind her. she is dressed as a traditional english hunter with wool jacket and breeches. --ar 2:3 --stylize 50",
+   "img": "assets/full/A271.webp",
+   "thumb": "assets/thumb/A271.webp",
+   "w": 896,
+   "h": 1344
   }
  ]
 }
