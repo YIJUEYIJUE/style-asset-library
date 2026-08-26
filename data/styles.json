@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 268,
+ "count": 269,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -471,7 +471,7 @@
   {
    "name": "插画——治愈系",
    "tone": "NEW CATEGORY",
-   "count": 2
+   "count": 3
   },
   {
    "name": "3D——雕塑",
@@ -8370,6 +8370,31 @@
    "thumb": "assets/thumb/A269.webp",
    "w": 960,
    "h": 1200
+  },
+  {
+   "id": "A270",
+   "seq": "270",
+   "title": "树下的女孩",
+   "category": "插画——治愈系",
+   "kind": "插画",
+   "tone": "",
+   "palette": "",
+   "model": "Midjourney",
+   "tags": [
+    "治愈系",
+    "少女",
+    "树下",
+    "插画"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "a girl sitting down under a tree --chaos 30 --ar 3:4 --exp 30 --raw --sref 2116795492 --profile 1mw6efi --hd",
+   "img": "assets/full/A270.webp",
+   "thumb": "assets/thumb/A270.webp",
+   "w": 1047,
+   "h": 1400
   }
  ]
 }
