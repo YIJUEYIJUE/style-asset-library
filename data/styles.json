@@ -751,7 +751,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#C5230F / #C31D0A / #EAD5C2",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -789,7 +789,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#E6D8C4 / #191917 / #463B2F",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -827,7 +827,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#F4F2E8 / #A05852 / #EBE7DF",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -865,7 +865,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#242B31 / #BFB6AC / #CCC2BA",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -897,7 +897,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#EFEFEE / #DBDCDC / #EDEDED",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -935,7 +935,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#535D55 / #C5BFB5 / #D0C8BE",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -973,7 +973,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#D5C5B7 / #3E362E / #4F453A",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -1005,7 +1005,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#20609F / #4A79A9 / #344357",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -1043,7 +1043,7 @@
    "kind": "海报排版",
    "tone": "",
    "palette": "#F2EBE0 / #938C80 / #EAE4D8",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "海报排版"
    ],
@@ -1252,7 +1252,7 @@
    "kind": "插画",
    "tone": "",
    "palette": "#BDC3CD / #485459 / #929BA2",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "插画",
     "古风",
@@ -4195,7 +4195,7 @@
    "kind": "风格参考",
    "tone": "控制 gptimage2 输出质感",
    "palette": "——",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "提示词工程",
     "风格控制",
@@ -5018,7 +5018,7 @@
    "kind": "风格参考",
    "tone": "当代没骨写意人物、白绢载体",
    "palette": "绢白微暖 / 墨 / 淡彩",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "风格参考",
     "国风",
@@ -5044,7 +5044,7 @@
    "kind": "风格参考",
    "tone": "现代东方装饰厚涂肖像",
    "palette": "瑰丽重彩 / 金线",
-   "model": "GPT-Image",
+   "model": "gpt2",
    "tags": [
     "风格参考",
     "东方",
