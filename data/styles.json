@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 270,
+ "count": 271,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -511,7 +511,7 @@
   {
    "name": "卡通——Q版",
    "tone": "NEW CATEGORY",
-   "count": 1
+   "count": 2
   },
   {
    "name": "插画——高定插画",
@@ -8420,6 +8420,32 @@
    "thumb": "assets/thumb/A271.webp",
    "w": 896,
    "h": 1344
+  },
+  {
+   "id": "A272",
+   "seq": "272",
+   "title": "暴躁码农耿鬼",
+   "category": "卡通——Q版",
+   "kind": "卡通",
+   "tone": "",
+   "palette": "",
+   "model": "Midjourney",
+   "tags": [
+    "Q版",
+    "耿鬼",
+    "码农",
+    "暴躁",
+    "插画"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Poster. Illustration. Little chibi and angry gengar being a software engineer is using the computer and cursing the code. --chaos 30 --ar 3:4 --exp 30 --raw --sref 2116795492 --profile ewz6eee --stylize 50 --hd",
+   "img": "assets/full/A272.webp",
+   "thumb": "assets/thumb/A272.webp",
+   "w": 1047,
+   "h": 1400
   }
  ]
 }
