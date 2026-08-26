@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 266,
+ "count": 267,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -727,6 +727,11 @@
    "name": "游戏——科幻武器道具",
    "tone": "NEW CATEGORY",
    "count": 3
+  },
+  {
+   "name": "插画——叙事插画",
+   "tone": "NEW CATEGORY",
+   "count": 1
   }
  ],
  "hero": [
@@ -8313,6 +8318,32 @@
    "thumb": "assets/thumb/A267.webp",
    "w": 1400,
    "h": 781
+  },
+  {
+   "id": "A268",
+   "seq": "268",
+   "title": "街头驻足的青年｜蓝绿冷调中的决定性瞬间",
+   "category": "插画——叙事插画",
+   "kind": "插画",
+   "tone": "疏离、私密",
+   "palette": "蓝绿冷调+暖光",
+   "model": "通用",
+   "tags": [
+    "街道",
+    "人物",
+    "叙事",
+    "插画",
+    "蓝绿调"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "A young person stopping still in the middle of a busy street, staring at their phone the instant good news lands, one hand rising halfway to their mouth, the blurred crowd flowing past around them, warm afternoon light, seen from the front with people streaking past, a private decisive moment amid the crowd, painterly illustration, fine grain, muted blue-green with warm light --ar 3:4 --profile eq9sgiy 532vi2i --stylize 250",
+   "img": "assets/full/A268.webp",
+   "thumb": "assets/thumb/A268.webp",
+   "w": 928,
+   "h": 1232
   }
  ]
 }
