@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 267,
+ "count": 268,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -48,7 +48,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 10
+   "count": 11
   },
   {
    "name": "人像——身份参考",
@@ -8344,6 +8344,32 @@
    "thumb": "assets/thumb/A268.webp",
    "w": 928,
    "h": 1232
+  },
+  {
+   "id": "A269",
+   "seq": "269",
+   "title": "秋日老钱风儿童棋局",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "",
+   "model": "Midjourney",
+   "tags": [
+    "老钱风",
+    "秋日",
+    "儿童",
+    "象棋",
+    "时尚摄影"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.08.26",
+   "note": "",
+   "prompt": "Photorealistic autumn scene in an old-money aesthetic: two elegantly dressed children aged 9-12 playing chess at a wooden table on the terrace of a historic country house. They wear classic wool sweaters, tailored blazers, crisp shirts, plaid skirts and trousers in burgundy, brown, beige and deep green. Golden autumn foliage, ivy and vintage garden furniture surround them, illuminated by soft morning light. A luxurious wooden chess set, cups of hot cocoa and a few fallen leaves sit on the table. An atmosphere of intellectual leisure, quiet elegance and family tradition. Natural poses and expressions, realistic skin texture, detailed fabrics, cinematic composition, warm film color grading, subtle grain, shallow depth of field, editorial fashion photography, Ralph Lauren campaign aesthetic, ultra-realistic, no text, no logos. --ar 4:5 --profile b6t8l1h",
+   "img": "assets/full/A269.webp",
+   "thumb": "assets/thumb/A269.webp",
+   "w": 960,
+   "h": 1200
   }
  ]
 }
