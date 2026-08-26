@@ -168,7 +168,7 @@ def main():
         if not shots:
             continue
         note = r["note"]
-        model = "GPT-Image" if re.search(r"GPT", note or "", re.I) else args.default_model
+        model = "gpt2" if re.search(r"GPT", note or "", re.I) else args.default_model
         items.append({
             "title": titles.get(str(r["row"])) or auto_title(r),
             "category": category,

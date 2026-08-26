@@ -6,7 +6,7 @@
  "kind": "海报排版",
  "tone": "",
  "palette": "#20609F / #4A79A9 / #344357",
- "model": "GPT-Image",
+ "model": "gpt2",
  "tags": [
   "海报排版"
  ],
