@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 273,
+ "count": 274,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -56,7 +56,7 @@
   },
   {
    "name": "摄影——写实人像",
-   "count": 5
+   "count": 6
   },
   {
    "name": "摄影——特殊视角",
@@ -8502,6 +8502,32 @@
    "thumb": "assets/thumb/A274.webp",
    "w": 1400,
    "h": 785
+  },
+  {
+   "id": "A275",
+   "seq": "275",
+   "title": "夏日花园午后人像",
+   "category": "摄影——写实人像",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "",
+   "model": "gpt2",
+   "tags": [
+    "写实人像",
+    "金色时刻",
+    "花园",
+    "生活方式",
+    "胶片感"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.08.30",
+   "note": "",
+   "prompt": "Ultra-realistic cinematic portrait of a young woman relaxing outdoors in a lush garden during golden hour, eyes gently closed with a peaceful smile, short slightly messy black bob haircut, thin round metal glasses, oversized olive-green linen shirt layered over a ribbed beige tank top, reclining comfortably in a wooden lounge chair, soft breeze moving her hair, warm golden sunlight illuminating her face, vibrant blue sky with fluffy white clouds, leafy branches framing the scene, creamy bokeh, natural skin texture, Kodak Portra 400 film look, subtle film grain, soft pastel greens and blues, Leica M11, Summilux 50mm f/1.4, shallow depth of field, editorial lifestyle photography, serene summer atmosphere, timeless nostalgic aesthetic, HDR, 8K.",
+   "img": "assets/full/A275.webp",
+   "thumb": "assets/thumb/A275.webp",
+   "w": 1400,
+   "h": 594
   }
  ]
 }
