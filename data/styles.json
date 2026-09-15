@@ -9201,7 +9201,7 @@
    "kind": "角色设定",
    "tone": "阳光爽朗坦荡",
    "palette": "深青灰常服+晴朗天光",
-   "model": "gpt2.5",
+   "model": "GPT 2 high",
    "tags": [
     "3D",
     "武侠",
