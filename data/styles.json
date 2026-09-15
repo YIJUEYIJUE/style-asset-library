@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 303,
+ "count": 304,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -641,7 +641,7 @@
   {
    "name": "角色设定——3D写实动物",
    "tone": "NEW CATEGORY",
-   "count": 3
+   "count": 4
   },
   {
    "name": "角色设定——新中式机甲",
@@ -9318,6 +9318,35 @@
    "thumb": "assets/thumb/A304.webp",
    "w": 900,
    "h": 504
+  },
+  {
+   "id": "A305",
+   "seq": "305",
+   "title": "黑甲四足魔兽｜冲锋型巨兽资产",
+   "category": "角色设定——3D写实动物",
+   "kind": "角色设定",
+   "tone": "凶悍重甲压迫感",
+   "palette": "炭黑装甲+暗红能量核心",
+   "model": "Midjourney",
+   "tags": [
+    "魔兽",
+    "生物设计",
+    "四足巨兽",
+    "暗黑奇幻",
+    "3D动画",
+    "装甲",
+    "PBR",
+    "UE5"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "One enormous armored quadrupedal demon beast, premium Chinese fantasy 3D animated feature film aesthetic, same creature family as black armored hunting beasts, massive muscular body, disproportionately powerful shoulders and forelegs, low broad head, two backward swept horns, thick layered charcoal-black shoulder armor, dark crimson energy core recessed beneath chest armor, subtle crimson light visible only through armor gaps, heavy clawed feet firmly planted, long armored tail, built for shoulder charges and ground slams, threatening animal anatomy rather than humanoid anatomy, full body three-quarter view, complete silhouette with clear space around all four legs, finely sculpted weathered armor, neutral light gray studio background, cinematic dimensional lighting, sharp creature asset reference, no active spell effects",
+   "img": "assets/full/A305.webp",
+   "thumb": "assets/thumb/A305.webp",
+   "w": 900,
+   "h": 600
   }
  ]
 }
