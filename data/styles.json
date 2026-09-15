@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 306,
+ "count": 307,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -656,7 +656,7 @@
   {
    "name": "摄影——电影感纪实",
    "tone": "NEW CATEGORY",
-   "count": 2
+   "count": 3
   },
   {
    "name": "角色设定——赛博朋克僵尸",
@@ -9403,6 +9403,35 @@
    "prompt": "An empty ancient Chinese suspended wooden corridor built along a towering mountain cliff at night, a perfectly clear central passage designed for a sword fight, rows of glowing red lanterns hanging beneath carved wooden beams, massive wooden pillars creating strong perspective lines, a colossal silver waterfall cascading immediately outside the right side of the corridor, wet dark timber floorboards, iron suspension chains along the open edge, drifting water mist entering through the lattice openings, distant mountain silhouettes and a bottomless cloud-filled ravine, several breakable railings and roof panels, premium theatrical 3D Chinese animation feature film environment, refined stylized realism, UE5-quality PBR materials, Lumen global illumination, Nanite-level geometry, volumetric waterfall spray, cinematic cool moonlight mixed with warm lantern light, physically accurate wet wood and metal, high-detail environment asset, wide cinematic composition, no characters --ar 16:9 --style raw --stylize 150 --chaos 5 --seed 314159 --no people, characters, warriors, animals, weapons, text, subtitles, logos, watermark, UI",
    "img": "assets/full/A307.webp",
    "thumb": "assets/thumb/A307.webp",
+   "w": 900,
+   "h": 504
+  },
+  {
+   "id": "A308",
+   "seq": "308",
+   "title": "江南晨市买菜｜古风纪实摄影",
+   "category": "摄影——电影感纪实",
+   "kind": "摄影",
+   "tone": "温暖自然生活感",
+   "palette": "灰蓝象牙茶绿+暖阳斑驳",
+   "model": "Midjourney",
+   "tags": [
+    "摄影",
+    "纪实",
+    "古风",
+    "江南古镇",
+    "市集",
+    "自然光",
+    "浅景深",
+    "群像"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "Cinematic documentary medium shot, ancient Jiangnan village market, morning. Four young Chinese women in dusty blue, ivory, and tea green cotton linen buying vegetables from an old farmer. One negotiates while holding fresh vegetables, another holds a woven bamboo basket of produce, the other two smile and chat naturally. Realistic interaction, not posing. Lively market: wooden stalls with green leaves, bamboo baskets, clay pots, old wooden signs, villagers in background, aged white walls, gray tile roofs. Sunlight filtering through leaves and wooden roofs, soft natural light patches, water droplets on vegetables. Translucent soft pink, fresh peach beige complexion, natural glowing skin, realistic texture. Historically accurate ancient Chinese hairstyles, simple low buns with wooden hairpins. Natural fabric wrinkles, realistic textile fibers, soft cinematic contrast, gentle shadow transitions. Canon EOS R5 RF50mm f1.2, shallow depth of field, natural bokeh, ultra realistic ancient life documentary photography.",
+   "img": "assets/full/A308.webp",
+   "thumb": "assets/thumb/A308.webp",
    "w": 900,
    "h": 504
   }
