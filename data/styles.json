@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 305,
+ "count": 306,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -104,7 +104,7 @@
   },
   {
    "name": "场景——东方神幻",
-   "count": 7
+   "count": 8
   },
   {
    "name": "角色设定——国风仙侠",
@@ -9374,6 +9374,35 @@
    "prompt": "A pack of ferocious quadrupedal demonic beasts, premium Chinese fantasy 3D animated feature film aesthetic, consistent creature species, muscular feline bodies, powerful canine jaws, charcoal-black overlapping armor plates, subtle dark crimson fissures between plates, backward swept short horns, four strong legs with clawed paws, long heavy tails, aggressive low hunting posture. One complete beast clearly visible in the foreground in three-quarter view, six matching beasts staggered behind it with clear spacing, readable anatomy and distinct silhouettes, every beast grounded, realistic weight within stylized 3D animation, finely sculpted armor and rough skin, cinematic dimensional lighting, neutral light gray studio background, full bodies visible, sharp focus, creature asset reference, no attack effects",
    "img": "assets/full/A306.webp",
    "thumb": "assets/thumb/A306.webp",
+   "w": 900,
+   "h": 504
+  },
+  {
+   "id": "A307",
+   "seq": "307",
+   "title": "夜雨悬空木廊剑斗场｜瀑布红灯笼",
+   "category": "场景——东方神幻",
+   "kind": "场景",
+   "tone": "冷月夜雨湿冷",
+   "palette": "冷蓝月夜+暖红灯笼",
+   "model": "Midjourney",
+   "tags": [
+    "场景",
+    "环境资产",
+    "仙侠",
+    "悬空木廊",
+    "瀑布夜景",
+    "UE5",
+    "PBR",
+    "剑斗场"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "An empty ancient Chinese suspended wooden corridor built along a towering mountain cliff at night, a perfectly clear central passage designed for a sword fight, rows of glowing red lanterns hanging beneath carved wooden beams, massive wooden pillars creating strong perspective lines, a colossal silver waterfall cascading immediately outside the right side of the corridor, wet dark timber floorboards, iron suspension chains along the open edge, drifting water mist entering through the lattice openings, distant mountain silhouettes and a bottomless cloud-filled ravine, several breakable railings and roof panels, premium theatrical 3D Chinese animation feature film environment, refined stylized realism, UE5-quality PBR materials, Lumen global illumination, Nanite-level geometry, volumetric waterfall spray, cinematic cool moonlight mixed with warm lantern light, physically accurate wet wood and metal, high-detail environment asset, wide cinematic composition, no characters --ar 16:9 --style raw --stylize 150 --chaos 5 --seed 314159 --no people, characters, warriors, animals, weapons, text, subtitles, logos, watermark, UI",
+   "img": "assets/full/A307.webp",
+   "thumb": "assets/thumb/A307.webp",
    "w": 900,
    "h": 504
   }
