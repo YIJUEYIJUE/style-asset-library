@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 304,
+ "count": 305,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -641,7 +641,7 @@
   {
    "name": "角色设定——3D写实动物",
    "tone": "NEW CATEGORY",
-   "count": 4
+   "count": 5
   },
   {
    "name": "角色设定——新中式机甲",
@@ -9347,6 +9347,35 @@
    "thumb": "assets/thumb/A305.webp",
    "w": 900,
    "h": 600
+  },
+  {
+   "id": "A306",
+   "seq": "306",
+   "title": "黑甲兽群狩猎阵列｜同族魔兽群像",
+   "category": "角色设定——3D写实动物",
+   "kind": "角色设定",
+   "tone": "凶悍群袭压迫感",
+   "palette": "炭黑装甲+雾白冷光",
+   "model": "Midjourney",
+   "tags": [
+    "魔兽",
+    "兽群",
+    "生物设计",
+    "四足巨兽",
+    "暗黑奇幻",
+    "3D动画",
+    "装甲",
+    "UE5"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "A pack of ferocious quadrupedal demonic beasts, premium Chinese fantasy 3D animated feature film aesthetic, consistent creature species, muscular feline bodies, powerful canine jaws, charcoal-black overlapping armor plates, subtle dark crimson fissures between plates, backward swept short horns, four strong legs with clawed paws, long heavy tails, aggressive low hunting posture. One complete beast clearly visible in the foreground in three-quarter view, six matching beasts staggered behind it with clear spacing, readable anatomy and distinct silhouettes, every beast grounded, realistic weight within stylized 3D animation, finely sculpted armor and rough skin, cinematic dimensional lighting, neutral light gray studio background, full bodies visible, sharp focus, creature asset reference, no attack effects",
+   "img": "assets/full/A306.webp",
+   "thumb": "assets/thumb/A306.webp",
+   "w": 900,
+   "h": 504
   }
  ]
 }
