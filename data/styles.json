@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 301,
+ "count": 302,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -641,7 +641,7 @@
   {
    "name": "角色设定——3D写实动物",
    "tone": "NEW CATEGORY",
-   "count": 2
+   "count": 3
   },
   {
    "name": "角色设定——新中式机甲",
@@ -9253,6 +9253,35 @@
    "prompt": "Dual form Chinese xianxia transforming weapon design sheet, no character. Two configurations side by side, clearly separated. LEFT   Spear form: ~2m slender spear, blackened silver gunmetal shaft, ancient Chinese cloud/wave engravings, translucent cyan crystalline spearhead, narrow aggressive blade, circular mechanical energy ring below spearhead, glowing cyan channels along shaft, transformation joints. RIGHT   Sniper Rifle form: same weapon mechanically unfolded; shaft becomes barrel/chassis; crystalline blade splits into circular muzzle energy focusing array; cyan crystal core exposed as power chamber; black silver panels unfold into receiver; skeletal shoulder stock; angular trigger; large rotating cyan energy rings at muzzle; fires concentrated celestial energy beam; engravings remain visible. Shared: blackened silver metal, cyan crystal core, engraved patterns. AAA game concept art, Unreal Engine PBR, cinematic CGI, scratched oxidized metal, luminous crystal, dark neutral studio background, orthographic three quarter view, fully visible, uncropped, ultra detailed 8K.",
    "img": "assets/full/A302.webp",
    "thumb": "assets/thumb/A302.webp",
+   "w": 1400,
+   "h": 783
+  },
+  {
+   "id": "A303",
+   "seq": "303",
+   "title": "烛龙·火山黑曜石巨龙全身设计",
+   "category": "角色设定——3D写实动物",
+   "kind": "角色设定",
+   "tone": "暗黑威严熔金",
+   "palette": "黑曜石鳞+熔金能量纹",
+   "model": "Midjourney",
+   "tags": [
+    "东方龙",
+    "烛龙",
+    "生物设计",
+    "暗色仙侠",
+    "3D动画",
+    "PBR",
+    "UE5",
+    "神兽"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "Colossal ancient Chinese Zhulong candle dragon, full body creature design, enormous wingless serpentine oriental dragon, gigantic scale far beyond buildings. Ancient black red armored scales layered like volcanic obsidian plates, deep crimson undertones, molten gold energy veins along spine and chest. Enormous curved ancient horns, long black mane, sharp oriental facial structure, elongated snout, ancient whiskers, massive claws, molten gold glowing eyes, mouth with dark red furnace energy. Thick dorsal spines along entire body, weathered cracked scales, dark crimson smoke and embers leaking from scale gaps. Chest core with faint molten gold glow beneath layered scales. Brutal and majestic divine beast presence. Dark xianxia premium 3D animation, cinematic CGI, Unreal Engine quality, hyper detailed PBR scales, obsidian volcanic materials, volumetric rim light, red gold internal glow, black studio environment, full body three quarter side view, clear silhouette, production ready, 8K.",
+   "img": "assets/full/A303.webp",
+   "thumb": "assets/thumb/A303.webp",
    "w": 1400,
    "h": 783
   }
