@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 302,
+ "count": 303,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -750,6 +750,11 @@
   },
   {
    "name": "游戏——仙侠武器道具",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "场景——奇幻战场",
    "tone": "NEW CATEGORY",
    "count": 1
   }
@@ -9284,6 +9289,35 @@
    "thumb": "assets/thumb/A303.webp",
    "w": 1400,
    "h": 783
+  },
+  {
+   "id": "A304",
+   "seq": "304",
+   "title": "草原战场环境资产｜双峰地标",
+   "category": "场景——奇幻战场",
+   "kind": "场景",
+   "tone": "辽阔史诗通透",
+   "palette": "青绿草原+暖金逆光",
+   "model": "Midjourney",
+   "tags": [
+    "场景",
+    "环境资产",
+    "草原战场",
+    "奇幻",
+    "3D动画",
+    "双峰地标",
+    "逆光",
+    "UE5"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "An expansive windswept grassland battlefield for a premium Chinese fantasy 3D animated feature film, cinematic environment asset, broad gently rolling terrain covered in short calf-high green grass, a low broken rocky ridge in the left foreground, one distinctive solitary weathered boulder in the middle ground, a shallow dry earthen gully running diagonally toward a broad open depression on the right, unobstructed ground suitable for fast combat, distant twin mountain peaks as a recognizable spatial landmark. Overcast sky pierced by angled warm sunlight, long directional shadows, sweeping wind patterns through the grass, cool cyan-green landscape balanced with restrained golden highlights, detailed stylized rock geometry and dimensional grass, subtle atmospheric depth, low wide camera angle, clear foreground middle ground and background, sharp readable terrain, epic scale without visual clutter, empty environment",
+   "img": "assets/full/A304.webp",
+   "thumb": "assets/thumb/A304.webp",
+   "w": 900,
+   "h": 504
   }
  ]
 }
