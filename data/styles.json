@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 300,
+ "count": 301,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -747,6 +747,11 @@
    "name": "插画——新中式神兽",
    "tone": "NEW CATEGORY",
    "count": 7
+  },
+  {
+   "name": "游戏——仙侠武器道具",
+   "tone": "NEW CATEGORY",
+   "count": 1
   }
  ],
  "hero": [
@@ -9221,6 +9226,35 @@
    "thumb": "assets/thumb/A301.webp",
    "w": 1400,
    "h": 583
+  },
+  {
+   "id": "A302",
+   "seq": "302",
+   "title": "仙侠双形态变形武器设计表",
+   "category": "游戏——仙侠武器道具",
+   "kind": "游戏",
+   "tone": "冷冽华丽晶体质感",
+   "palette": "黑银金属+青色水晶",
+   "model": "Midjourney",
+   "tags": [
+    "武器",
+    "概念设计",
+    "仙侠",
+    "双形态",
+    "长枪",
+    "狙击枪",
+    "UE5",
+    "PBR"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "Dual form Chinese xianxia transforming weapon design sheet, no character. Two configurations side by side, clearly separated. LEFT   Spear form: ~2m slender spear, blackened silver gunmetal shaft, ancient Chinese cloud/wave engravings, translucent cyan crystalline spearhead, narrow aggressive blade, circular mechanical energy ring below spearhead, glowing cyan channels along shaft, transformation joints. RIGHT   Sniper Rifle form: same weapon mechanically unfolded; shaft becomes barrel/chassis; crystalline blade splits into circular muzzle energy focusing array; cyan crystal core exposed as power chamber; black silver panels unfold into receiver; skeletal shoulder stock; angular trigger; large rotating cyan energy rings at muzzle; fires concentrated celestial energy beam; engravings remain visible. Shared: blackened silver metal, cyan crystal core, engraved patterns. AAA game concept art, Unreal Engine PBR, cinematic CGI, scratched oxidized metal, luminous crystal, dark neutral studio background, orthographic three quarter view, fully visible, uncropped, ultra detailed 8K.",
+   "img": "assets/full/A302.webp",
+   "thumb": "assets/thumb/A302.webp",
+   "w": 1400,
+   "h": 783
   }
  ]
 }
