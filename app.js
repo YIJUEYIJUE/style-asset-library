@@ -381,6 +381,9 @@
       const alt = altOf(a);
       let s = `## ${a.title}（${a.seq}）\n分类：${a.category} · 模型：${a.model || "通用"}\n\n${a.prompt || ""}`;
       if (alt.text) s += `\n\n### ${alt.label}\n${alt.text}`;
+      (a.shots || []).forEach((sh, k) => {
+        if (sh.prompt && sh.prompt !== a.prompt) s += `\n\n### ${sh.label || ("步骤 " + (k + 1))}\n${sh.prompt}`;
+      });
       if (a.note) s += `\n\n### 补充说明（不属于提示词）\n${a.note}`;
       return s;
     }).join("\n\n---\n\n");
@@ -409,7 +412,8 @@
     img.alt = a.title;
     img.style.maxWidth = `min(100%,${Math.round((s.w || 900) * 1.8)}px)`;
     const size = $("#mSize");
-    if (size) size.textContent = (s.w && s.h ? `${s.w}×${s.h}` : "") + (shots.length > 1 ? ` · 示例 ${shotIdx + 1}/${shots.length}` : "");
+    if (size) size.textContent = (s.w && s.h ? `${s.w}×${s.h}` : "") + (shots.length > 1 ? ` · 示例 ${shotIdx + 1}/${shots.length}` : "") + (s.label ? ` · ${s.label}` : "");
+    if (shots.some((x) => x.prompt)) setLang(promptLang);   // 分步条目：切示例图同步显示该步提示词
     const media = img.parentElement;
     if (media) media.classList.toggle("hasShots", shots.length > 1);
     if (lightboxOpen()) { const lbi = $("#lbImg"); if (lbi) lbi.src = s.img; }   // 放大看的时候也能直接换示例图
@@ -417,7 +421,7 @@
     if (box) {
       box.classList.toggle("show", shots.length > 1);
       box.innerHTML = shots.length > 1
-        ? shots.map((x, k) => `<button class="shotBtn${k === shotIdx ? " on" : ""}" data-shot="${k}" title="示例 ${k + 1}"><img src="${esc(x.thumb)}" alt="" loading="lazy" decoding="async"></button>`).join("")
+        ? shots.map((x, k) => `<button class="shotBtn${k === shotIdx ? " on" : ""}" data-shot="${k}" title="${esc(x.label || ("示例 " + (k + 1)))}"><img src="${esc(x.thumb)}" alt="" loading="lazy" decoding="async"></button>`).join("")
         : "";
     }
   }
@@ -466,18 +470,52 @@
         copyText(selected && selected.note ? String(selected.note) : "", "补充说明已复制");
       });
     }
+    if (!document.getElementById("mStepsWrap")) {
+      const w = document.createElement("div");
+      w.id = "mStepsWrap";
+      w.className = "stepsWrap";
+      pb.insertAdjacentElement("afterend", w);
+      w.addEventListener("click", (e) => {
+        const img = e.target.closest("[data-step]");
+        if (img) { e.stopPropagation(); showShot(Number(img.dataset.step)); openLightbox(); return; }
+        const cp = e.target.closest("[data-stepcopy]");
+        if (cp) { const s = shots[Number(cp.dataset.stepcopy)]; if (s && s.prompt) { e.stopPropagation(); copyText(s.prompt, "该步提示词已复制"); } }
+      });
+    }
+  }
+
+  function curShot() { return shots[shotIdx] || null; }
+
+  /* 分步工作流：图和提示词一对一，纵向排列可滚动 */
+  function renderSteps(a) {
+    const wrap = document.getElementById("mStepsWrap");
+    if (!wrap) return;
+    const list = (a.shots || []).map((s, k) => ({ ...s, k })).filter((s) => s.prompt);
+    wrap.classList.toggle("show", list.length > 0);
+    if (!list.length) { wrap.innerHTML = ""; return; }
+    wrap.innerHTML = `<div class="stepsTitle"><b>分步提示词</b><span class="stepsHint">图和提示词一对一，从上往下即完整流程</span></div>`
+      + list.map((s) => `
+        <div class="stepItem">
+          <div class="stepMedia"><img src="${esc(s.thumb || s.img)}" alt="${esc(s.label || "")}" loading="lazy" data-step="${s.k}"></div>
+          <div class="stepBody">
+            <div class="stepHead"><b>${esc(s.label || ("步骤 " + (s.k + 1)))}</b><button class="stepCopy" type="button" data-stepcopy="${s.k}">复制</button></div>
+            <pre class="stepPrompt">${esc(s.prompt)}</pre>
+          </div>
+        </div>`).join("");
   }
 
   function setLang(t) {
     const a = selected;
     const alt = altOf(a);
+    const cs = curShot();
+    if (cs && cs.prompt) t = "o";           // 分步提示词只提供原文，无中英对照
     if (t === "z" && !alt.text) t = "o";
     promptLang = t;
     const tabs = document.getElementById("mLangTabs");
     if (tabs) tabs.querySelectorAll("[data-t]").forEach((b) => b.classList.toggle("on", b.dataset.t === t));
     const pb = document.getElementById("mPrompt");
     if (!pb) return;
-    const txt = t === "z" ? alt.text : ((a && a.prompt) || "");
+    const txt = t === "z" ? alt.text : ((cs && cs.prompt) || (a && a.prompt) || "");
     pb.textContent = txt || "暂未补充提示词";
     pb.classList.toggle("empty", !txt);
     const ch = document.getElementById("mChars");
@@ -520,6 +558,7 @@
     const note = a.note ? String(a.note).trim() : "";
     if (nw) nw.classList.toggle("show", !!note);
     if (nb) nb.textContent = note;
+    renderSteps(a);
 
     const info = document.querySelector(".modalInfo");
     if (info) info.scrollTop = 0;               // 换风格时回到顶部，提示词始终在第一屏
@@ -769,6 +808,20 @@
 .noteCopy{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer;flex:0 0 auto}
 .noteCopy:hover{background:rgba(17,16,13,.05)}
 .noteBox{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#51493b;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;max-height:210px;overflow:auto}
+/* 分步工作流：图和提示词一对一纵向排，从上往下即完整流程 */
+.stepsWrap{display:none;margin:16px 0 0}
+.stepsWrap.show{display:block}
+.stepsTitle{display:flex;align-items:baseline;gap:8px;margin:0 0 4px}
+.stepsTitle b{font-size:11.5px;letter-spacing:.08em;color:#51493b;font-weight:600}
+.stepsHint{font-size:10.5px;color:#9a9182}
+.stepItem{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px;align-items:start;padding:12px 0;border-top:1px solid rgba(17,16,13,.1)}
+.stepMedia img{width:100%;border-radius:8px;cursor:zoom-in;display:block;background:rgba(17,16,13,.05)}
+.stepHead{display:flex;align-items:center;gap:8px;margin:0 0 6px}
+.stepHead b{font-size:12px;color:#11100d;font-weight:600}
+.stepCopy{appearance:none;-webkit-appearance:none;margin-left:auto;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer}
+.stepCopy:hover{background:rgba(17,16,13,.05)}
+.stepPrompt{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#3d372e;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;margin:0;max-height:260px;overflow:auto;font-family:inherit}
+@media (max-width:760px){ .stepItem{grid-template-columns:86px minmax(0,1fr);gap:9px} }
 .tag.lang{background:rgba(23,63,232,.1);color:#173fe8}
 /* 分类（只在网格库）：侧栏两级 + 900~1100px 之间也要有胶囊 */
 @media (max-width:1100px){ .catChips{display:flex} }
@@ -1002,6 +1055,8 @@
     // 复制跟随当前页签，并且永远不带补充说明
     $$("#copy").onclick = () => {
       if (!selected) return;
+      const s = curShot();
+      if (s && s.prompt) { copyText(s.prompt, "该步提示词已复制"); return; }
       const alt = altOf(selected);
       const zh = promptLang === "z" && alt.text;
       copyText(zh ? alt.text : (selected.prompt || ""), zh ? `${alt.label}已复制` : "Prompt 已复制");
