@@ -54,6 +54,33 @@ scripts/build_standalone.py  # 导出离线单文件版
 }
 ```
 
+**多步工作流条目（shots 每步绑定提示词）：**
+
+当一条风格的成图要跑两三步（如「文生图出概念 → 图生图 UE5 重绘 → 三视图展开」），
+`shots` 每一项额外挂 `label`（步骤名）与 `prompt`（该步完整提示词原文），图和提示词一一对应；
+详情页「分步提示词」区纵向展示、逐条复制，此时上方主提示词区自动隐藏。
+`note` 只写链路说明（第几步做什么），不重复堆提示词正文。
+
+```json
+"shots": [
+  { "img": "assets/full/A321.webp",   "label": "步骤① 文生图·枪械概念", "prompt": "步骤①完整提示词", "...": "..." },
+  { "img": "assets/full/A321-2.webp", "label": "步骤② UE5写实重绘",    "prompt": "步骤②完整提示词", "...": "..." },
+  { "img": "assets/full/A321-3.webp", "label": "步骤③ 三视图展开",    "prompt": "步骤③完整提示词", "...": "..." }
+]
+```
+
+入库用 `scripts/add_style.py`：
+
+```bash
+python3 scripts/add_style.py --image step1.png --prompt-file step1.txt \
+  --title "…（三步工作流）" --category "游戏——科幻武器道具" --kind "游戏" \
+  --shot-image step2.png --shot-label "步骤② UE5写实重绘" --shot-prompt-file step2.txt \
+  --shot-image step3.png --shot-label "步骤③ 三视图展开" --shot-prompt-file step3.txt
+```
+
+主图即步骤①；`--shot-*` 可重复，`--shot-label` 可缺省（自动「步骤②③…」），
+`--shot-prompt-file` 缺省整组继承主提示词；`--dry-run` 预演不落盘。
+
 **字段含义（每一条风格对象）：**
 
 | 字段 | 含义 | 必填 | 说明 / 用途 |

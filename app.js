@@ -492,6 +492,10 @@
     if (!wrap) return;
     const list = (a.shots || []).map((s, k) => ({ ...s, k })).filter((s) => s.prompt);
     wrap.classList.toggle("show", list.length > 0);
+    const info = document.querySelector(".modalInfo");
+    if (info) info.classList.toggle("hasSteps", list.length > 0);   // 有分步提示词时隐藏上方主提示词区，避免两份
+    const cb = $("#copy");
+    if (cb) cb.textContent = list.length > 0 ? "复制当前步" : "复制 Prompt";
     if (!list.length) { wrap.innerHTML = ""; return; }
     wrap.innerHTML = `<div class="stepsTitle"><b>分步提示词</b><span class="stepsHint">图和提示词一对一，从上往下即完整流程</span></div>`
       + list.map((s) => `
@@ -808,7 +812,8 @@
 .noteCopy{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer;flex:0 0 auto}
 .noteCopy:hover{background:rgba(17,16,13,.05)}
 .noteBox{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#51493b;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;max-height:210px;overflow:auto}
-/* 分步工作流：图和提示词一对一纵向排，从上往下即完整流程 */
+/* 分步工作流：图和提示词一对一纵向排，从上往下即完整流程；此时隐藏上方主提示词区 */
+.modalInfo.hasSteps .promptTitle,.modalInfo.hasSteps .promptBox{display:none}
 .stepsWrap{display:none;margin:16px 0 0}
 .stepsWrap.show{display:block}
 .stepsTitle{display:flex;align-items:baseline;gap:8px;margin:0 0 4px}
