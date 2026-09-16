@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 312,
+ "count": 313,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -48,7 +48,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 13
+   "count": 14
   },
   {
    "name": "人像——身份参考",
@@ -9581,6 +9581,36 @@
    "thumb": "assets/thumb/A313.webp",
    "w": 1400,
    "h": 788
+  },
+  {
+   "id": "A314",
+   "seq": "314",
+   "title": "后备箱内仰视对峙｜洛杉矶蓝色时刻实拍剧照",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "克制压迫·临场危险感",
+   "palette": "暮蓝天空+钠灯琥珀+尾灯暗红",
+   "model": "gpt2",
+   "tags": [
+    "摄影",
+    "电影感",
+    "实拍剧照",
+    "低角度仰视",
+    "宽银幕",
+    "蓝调时刻",
+    "黑色电影",
+    "胶片颗粒",
+    "洛杉矶"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.09.16",
+   "note": "",
+   "prompt": "- A grounded live-action frame set on a Los Angeles side street at blue hour. Two men in slightly worn dark suits stand over the open trunk of a parked sedan after placing something heavy inside; what they have loaded remains hidden below the frame. One man keeps a hand on the trunk lid and looks down in controlled silence, while the other turns his head toward a pair of approaching headlights at the far end of the street. The car is still idling, and they have only seconds before they must close the trunk and leave.\n\nDirector and visual reference: Christopher Nolan as the primary visual reference, drawing strongly from the physical urgency of *Dunkirk*, the intersecting spatial logic of *Inception*, and the weighty practical exposure of *Oppenheimer*; Quentin Tarantino is a secondary reference limited to the low-angle confrontation blocking, uncomfortable conversational pause, and latent threat between the two men.\n\nLighting and contrast signature: strong but physically motivated contrast from cool blue-hour skylight above, a weak amber sodium streetlamp crossing one side of the suits, dim red spill from the sedan’s tail lamps, and distant approaching headlights; faces move between readable midtones and dense natural shadow, while the trunk interior remains largely black and unresolved.\n\nColor and exposure signature: restrained twilight blue in the sky and street shadows, dirty amber on concrete and suit shoulders, muted human skin tones without glossy correction, firm midtones, protected headlights and streetlamp highlights, dense but materially readable blacks, no generic teal-and-orange blockbuster grade.\n\nLens and camera signature: an extreme floor-level upward view from a physically plausible camera position deep inside the trunk, using a grounded 28mm wide-angle perspective that exaggerates the near trunk edge and the men’s height while retaining the Los Angeles street geography behind them; contextual depth, slight focus falloff toward the distant street, a locked camera with subtle vibration from the idling engine.\n\nComposition and spatial signature: the trunk lid, rubber seal, latch and dark metal lip create an irregular frame around the image; the two men loom asymmetrically above the opening rather than posing symmetrically, one partially cut off by the trunk edge, while the approaching headlights form a secondary point of danger in the background. The hidden contents of the trunk control the men’s eyelines but are never revealed.\n\nForeground: the near-black trunk lining, scratched latch plate, rubber weather seal and underside of the raised trunk lid, close enough to fall partly out of focus.\nMidground: the two suited men leaning over the opening, their restrained gestures and unequal distance suggesting hierarchy rather than a staged hero pose.\nBackground: a recognizable but unglamorous Los Angeles street with low traffic storefronts, overhead utility lines, parked cars, faded curb paint and sparse evening traffic beneath the remaining blue sky.\n\nThe camera observes from inside the trunk at near-ground height. The extreme upward angle gives the men authority and danger, but their dominance comes from physical proximity, obstructed visibility and controlled behavior rather than exaggerated expressions. Wide 2.39:1 framing, with the trunk architecture enclosing the frame and the street continuing through the narrow gap between their bodies.\n\nNatural exposure, tactile 35mm film response, uneven fine grain, soft highlight roll-off, restrained halation around the real headlights, slight lens falloff, matte fabric and metal surfaces, minor vibration from the running car. The image feels like a tense transitional beat immediately before the trunk slams shut and the street disappears.\n\n**Avoid**\nposter composition, symmetrical hero pose, men looking directly at camera, fashion editorial styling, perfectly tailored suits, exaggerated gangster expressions, visible body or weapon in trunk, copied movie shot, artificial blue rim light, decorative neon, teal-and-orange grading, excessive lens flare, crushed featureless faces, HDR shadows, synthetic bokeh, waxy skin, glossy car commercial finish, CGI appearance",
+   "img": "assets/full/A314.webp",
+   "thumb": "assets/thumb/A314.webp",
+   "w": 1400,
+   "h": 585
   }
  ]
 }
