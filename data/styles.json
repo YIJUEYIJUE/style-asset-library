@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 331,
+ "count": 332,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -96,7 +96,7 @@
   },
   {
    "name": "摄影——复古胶片",
-   "count": 1
+   "count": 2
   },
   {
    "name": "插画——奇幻",
@@ -10413,6 +10413,33 @@
    "w": 1400,
    "h": 942,
    "zh": "一辆白色、带翻起式大灯的 1980 年代日本跑车，夜间行驶在东京高架高速公路上，长长的红色尾灯拖成光带，摩天楼灯光点点，从后方跟随的车上拍摄，轻微运动模糊，1980 年代日本摄影，富士彩色 35mm 胶片拍摄，粉、青绿与落日橙的柔和粉彩色调，细腻颗粒，灯光周围轻微 halation 光晕"
+  },
+  {
+   "id": "A334",
+   "seq": "334",
+   "title": "游艇甲板上的休闲阶级｜1970s 旅行杂志反转片",
+   "category": "摄影——复古胶片",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "",
+   "model": "gpt2",
+   "tags": [
+    "摄影",
+    "复古胶片",
+    "1970s",
+    "旅行",
+    "游艇"
+   ],
+   "aspect": "方图",
+   "hot": 60,
+   "updated": "2026.10.09",
+   "note": "",
+   "prompt": "people in striped shirts and white trousers relaxing on the teak deck of a classic yacht anchored in a deep blue Mediterranean bay, a rocky coast with white villas, 1970s travel magazine photograph of the leisure class, bright natural sunlight, saturated vintage color slide film, high vantage point showing the whole scene, medium format, crisp, relaxed elegance",
+   "img": "assets/full/A334.webp",
+   "thumb": "assets/thumb/A334.webp",
+   "w": 1261,
+   "h": 1247,
+   "zh": "穿着条纹衫与白色长裤的人们，在一艘停泊于深蓝色地中海海湾中的经典帆船柚木甲板上休憩，岸边是岩石海岸与白色别墅，1970 年代旅行杂志式的有闲阶级照片，明亮自然阳光，饱和的复古彩色反转片，高机位展现整个场景，中画幅，清晰锐利，松弛的优雅"
   }
  ]
 }
