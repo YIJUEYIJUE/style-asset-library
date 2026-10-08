@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 332,
+ "count": 333,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -60,7 +60,7 @@
   },
   {
    "name": "摄影——特殊视角",
-   "count": 2
+   "count": 3
   },
   {
    "name": "卡通——3D角色",
@@ -10440,6 +10440,33 @@
    "w": 1261,
    "h": 1247,
    "zh": "穿着条纹衫与白色长裤的人们，在一艘停泊于深蓝色地中海海湾中的经典帆船柚木甲板上休憩，岸边是岩石海岸与白色别墅，1970 年代旅行杂志式的有闲阶级照片，明亮自然阳光，饱和的复古彩色反转片，高机位展现整个场景，中画幅，清晰锐利，松弛的优雅"
+  },
+  {
+   "id": "A335",
+   "seq": "335",
+   "title": "后台幕布缝隙望向秀场｜35mm 高对比",
+   "category": "摄影——特殊视角",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "",
+   "model": "gpt2",
+   "tags": [
+    "摄影",
+    "特殊视角",
+    "时装秀",
+    "35mm胶片",
+    "高对比"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.10.09",
+   "note": "",
+   "prompt": "view from backstage through a gap in a black curtain onto a bright white runway, at its far end a dense wall of photographers with flashes firing all at once, blown-out light, a model's shoulder in the foreground out of focus, 35mm film, high contrast, grain",
+   "img": "assets/full/A335.webp",
+   "thumb": "assets/thumb/A335.webp",
+   "w": 1400,
+   "h": 933,
+   "zh": "从后台透过黑色幕布的一道缝隙望向明亮纯白的秀场T台，T台尽头是一堵密密麻麻的摄影师人墙，闪光灯同时爆闪，过曝的强光，前景是一条失焦的模特肩膀，35mm 胶片，高对比，颗粒感"
   }
  ]
 }
