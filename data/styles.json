@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 329,
+ "count": 330,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -466,7 +466,7 @@
   {
    "name": "摄影——超现实",
    "tone": "NEW CATEGORY",
-   "count": 1
+   "count": 2
   },
   {
    "name": "插画——治愈系",
@@ -10359,6 +10359,33 @@
    "thumb": "assets/thumb/A331.webp",
    "w": 1050,
    "h": 1400
+  },
+  {
+   "id": "A332",
+   "seq": "332",
+   "title": "气球吊起三人沙发｜亚利桑那拖车公园荒诞纪实",
+   "category": "摄影——超现实",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "",
+   "model": "gpt2",
+   "tags": [
+    "摄影",
+    "超现实",
+    "纪实",
+    "手机摄影",
+    "荒诞"
+   ],
+   "aspect": "竖图",
+   "hot": 60,
+   "updated": "2026.10.09",
+   "note": "",
+   "prompt": "DIRECTIVE:\nProduce one still that reads as an unpublished photograph taken by a working photographer. Optical capture, available physics, lived-in detail.\n\nSUBJECT:\nA three-seat floral couch, faded brown and orange 1980s upholstery with sagging cushions, floating about four meters above a trailer park lot under a huge tight cluster of roughly fifty large white weather balloons tied to its frame with mismatched cords. Three Arizona trailer park neighbors sit on it side by side, men in their forties and fifties: a heavy sunburnt man with a grey moustache, a wiry tanned man with a long goatee, a broad Mexican-American man with tattooed forearms.\nSun-bleached trucker caps, stretched tank tops and a faded gas station T-shirt, cargo shorts, cheap rubber flip-flops dangling from bare feet in the air. Each one holds a dented beer can.\nFlat, dead serious faces, slouched like men on a porch, each minding his own thing: one squints toward the low sun, one looks down his fishing line, one stares into his can.\n\nACTION / BEAT:\nThe couch hangs tilted a few degrees, tugging upward against a green garden hose stretched tight as a guitar string from the couch leg down to the trailer hitch ball of a rusty pickup. The hasty hose loop is halfway off the chrome ball, one more inch from sliding free. The wiry man fishes straight down with a rod, his line dropping toward an inflatable kiddie pool and passing close to a clothesline full of laundry. The broad man rests a wooden slingshot on his knees. A red cooler dangles under the couch on a rope like an anchor, a small portable grill is zip-tied to the armrest with a thin thread of smoke, and an aluminum ladder stands below, its top rung a full meter short of the couch. A scruffy tan mutt sits by the pickup bumper staring at the slipping hose loop.\nA caught moment.\n\nSCENE:\nA worn trailer park on the edge of the Arizona desert, single-wide trailers with sun-chalked aluminum siding.\nLate afternoon, dry heat, cloudless pale sky, sun low and hard.\nA 1990s pickup with oxidized paint and a cracked tail light, a half-deflated blue kiddie pool with a yellow duck float, a sagging clothesline with towels and a floral housedress, cracked asphalt patched with tar and oil stains, a dented trash barrel, dry weeds along a leaning chain-link fence, a saguaro and power lines far behind.\nA room or street that has already been used.\n\nCOMPOSITION:\nShot type: long zoom, full view of the floating couch, the balloon cluster and the pickup below it\nAngle: slight low, from the window of the trailer next door\nPlacement: off-center, couch and balloons in the upper left, pickup and dog in the lower right, the green hose cutting a diagonal between them, horizon tilted\nLook-room: right\nForeground: mild occlusion, a dusty aluminum window frame and a torn corner of insect screen blurring the left edge and the bottom of the frame\nCrop: handheld, slightly imperfect, the top balloons clipped by the frame edge.\n\nCAMERA PACK:\nBody: Google Pixel 9 Pro\nLens / zoom: 5x telephoto pushed to Super Res Zoom around 8x\nAperture or phone mode: default auto mode, shot in a hurry through the window\nFocus: sharp on the couch and the three men, natural falloff behind, the window frame soft and close\nFilm or sensor: computational RAW with zoom mush, oversharpened edges on the balloons and a little heat haze over the asphalt\n\nLIGHT:\nSource: low desert sun from the right side\nQuality: hard sun, raking and unflattering, long shadows\nColor temperature: warm late-afternoon daylight against a pale blue sky\nShadows follow that source.\n\nPHOTOGRAPHIC CHARACTER:\nVisible skin microtexture, pores, sunburn, faint uneven tone, slight facial asymmetry.\nFlyaway hairs. Fabric weave, seams, pills, dust, scuffs on the couch upholstery and the caps.\nMatte latex balloons with dusty, uneven surfaces and creases at the necks; kinked, sun-faded rubber on the hose; pitted chrome on the hitch ball.\nGrain or sensor texture that matches the camera pack.\nCatchlights only from the stated light.\nHighlights a little hot, shadows a little closed.\nCandid stance, catalog-unaware.",
+   "img": "assets/full/A332.webp",
+   "thumb": "assets/thumb/A332.webp",
+   "w": 1050,
+   "h": 1400,
+   "zh": "指令：\n生成一张静帧，读起来像一位职业摄影师拍下、尚未发表的照片。真实光学成像，符合现实物理，细节带生活痕迹。\n\n主体：\n一张三人座碎花沙发，1980 年代棕橙配色的褪色面料，坐垫已经塌陷，悬停在拖车营地场地上方约四米处，上面系着一大簇紧紧挤在一起、约五十个大型白色气象气球，用长短不一、不配套的绳索绑在沙发框架上。三位亚利桑那拖车营地的邻居并排坐在沙发上，都是四五十岁的男人：一个身材壮硕、皮肤晒伤、留灰色小胡子的男人；一个精瘦、肤色黝黑、留长山羊胡的男人；一个体格宽厚的墨西哥裔美国男人，前臂有纹身。\n晒得褪色的卡车司机帽，松垮变形的背心，一件褪色的加油站 T 恤，工装短裤，廉价的橡胶人字拖从悬空的赤脚上垂下来。每人手里捏着一个瘪了的啤酒罐。\n表情平板、极其严肃，像坐在自家门廊上那样瘫着，各自想着自己的事：一个朝着低垂的太阳眯眼，一个低头看着自己的鱼线，一个盯着自己的啤酒罐发呆。\n\n动作 / 节拍：\n沙发倾斜悬着几度，向上绷紧拉着一根绿色花园水管，水管像吉他弦一样绷直，从沙发腿一直连到一辆生锈皮卡的拖车球头上。草草套上的水管环已经有一半滑离镀铬球头，再滑一英寸就会完全脱落。精瘦的男人握着钓竿笔直向下垂钓，鱼线落向一个充气儿童泳池，擦过一条挂满衣物的晾衣绳。宽厚的男人把一把木质弹弓搁在膝盖上。一个红色保温箱用绳子吊在沙发下方，像船锚一样；一台小型便携烤炉用扎带绑在扶手上，冒着一缕细烟；下方立着一架铝制梯子，最上面一级离沙发还差整整一米。一条毛糙的浅棕色杂种狗坐在皮卡保险杠旁，盯着那个快要滑脱的水管环。\n一个被定格的瞬间。\n\n场景：\n亚利桑那沙漠边缘一处破旧的拖车营地，单宽拖车，铝制外墙被太阳晒得发白起皮。\n午后偏晚，干热，无云、浅淡的天空，太阳低而硬。\n一辆 1990 年代皮卡，车漆氧化，尾灯裂了；一个半瘪的蓝色儿童泳池，里面漂着一只黄色小鸭浮圈；一条下坠的晾衣绳，挂着毛巾和一件碎花家居裙；开裂的沥青路面用柏油修补过，还有油渍；一个凹陷的垃圾桶；倾斜的铁丝网围栏边枯草成片；远处一株萨瓜罗仙人掌和几条电线。\n一个已经被人用旧了的房间或街道。\n\n构图：\n景别：长焦变焦，完整呈现悬浮的沙发、气球簇与下方的皮卡\n角度：略微仰视，从隔壁拖车的窗户里拍\n位置：偏离中心，沙发和气球在左上，皮卡与狗在右下，绿色水管在两者之间切出一条对角线，地平线倾斜\n视线留白：右侧\n前景：轻度遮挡，积灰的铝制窗框和昆虫纱网的一角破损，使画面左缘和底部虚化\n裁切：手持感，略不完美，顶部的气球被画框边缘裁掉一部分。\n\n相机设定：\n机身：Google Pixel 9 Pro\n镜头 / 变焦：5 倍长焦推到约 8 倍 Super Res Zoom\n光圈或手机模式：默认自动模式，匆忙间隔着窗户拍摄\n对焦：沙发与三名男子清晰，向后自然衰减，窗框近处且柔\n胶片或传感器：计算 RAW，长焦糊感，气球边缘过度锐化，沥青上方有一点热浪扰动\n\n光线：\n光源：来自右侧的低角度沙漠太阳\n质感：硬光，斜射且不美化，长阴影\n色温：暖调午后日光，衬着浅蓝天空\n阴影遵循该光源方向。\n\n摄影特质：\n可见的皮肤微纹理、毛孔、晒伤、轻微不均匀的肤色、细微的面部不对称。\n飞散的碎发。织物纹理、缝线、起球、灰尘，沙发面料与帽子上的磨损痕迹。\n哑光乳胶气球，表面有灰、质地不均，颈部有褶皱；水管橡胶扭结、被太阳晒褪色；拖车球头镀铬层有麻点。\n与上述相机设定匹配的颗粒或传感器质感。\n高光只来自所述光源。\n高光略过曝，阴影略压暗。\n姿态自然不摆拍，不像是拍商品目录。"
   }
  ]
 }
