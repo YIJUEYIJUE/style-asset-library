@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 327,
+ "count": 328,
  "cats": [
   {
    "name": "海报排版——模板",
@@ -765,6 +765,11 @@
   },
   {
    "name": "摄影——东方玄幻",
+   "tone": "NEW CATEGORY",
+   "count": 1
+  },
+  {
+   "name": "摄影——航拍几何",
    "tone": "NEW CATEGORY",
    "count": 1
   }
@@ -10301,6 +10306,33 @@
    "w": 1400,
    "h": 1400,
    "zh": "日系动漫插画，1:1，对称构图，强景深。镜头正对双手，略微低角度。少年的双臂完全伸直，从肩膀直伸向镜头、肘部没有任何弯曲；强烈的透视缩短让前臂朝镜头方向越来越大，从两侧向中央汇聚。双手捧起一幅撕裂的画：拇指按住画面上缘的正面，手指从左下与右下两侧托住背面，双手完整入画。画纸被撕成两大块加若干碎片，仍然合在一起，微微弯曲，带折痕，一道撕裂口从左侧中部斜贯到右下。画中内容：夏日大海、淡蓝色天空与白色积云、海平线位于中上部、由深到亮的蓝色海水、白色浪花；一名黑发少年背对镜头站在浅滩里，背着黑色双肩包，穿白衬衫与深色长裤；右侧一名白发少年脸朝下倒在浪中。景深层级：双手与画锐利合焦；前臂逐渐柔化；身后的少年（浅灰白短发、低头、极简无五官的脸、白色短袖翻领衬衫、可见头部到腰部、头顶被画框裁切）强烈虚化；纯白背景完全失焦。从画纸到头部形成强烈纵深。柔和的正面漫射光，低对比，冷中性灰阴影，高调；只有画是蓝色的。左下角有一架蓝白色小纸飞机，底部有深灰色手写字「一人にさせたくない…」（不想留我一个人…）。忧郁、安静、苦乐参半的青春情绪。"
+  },
+  {
+   "id": "A330",
+   "seq": "330",
+   "title": "彩色盐田俯拍｜粉青赭几何色块",
+   "category": "摄影——航拍几何",
+   "kind": "摄影",
+   "tone": "",
+   "palette": "",
+   "model": "gpt2",
+   "tags": [
+    "摄影",
+    "航拍",
+    "俯拍",
+    "几何色块",
+    "盐田"
+   ],
+   "aspect": "横图",
+   "hot": 60,
+   "updated": "2026.10.09",
+   "note": "",
+   "prompt": "colorful salt evaporation ponds in pink, turquoise and ochre rectangles divided by thin white paths, no people, perfectly top-down aerial photograph shot from directly overhead, flattened graphic composition, repeating patterns, people as tiny pattern elements, crisp large-format detail, even bright daylight, bold flat color fields",
+   "img": "assets/full/A330.webp",
+   "thumb": "assets/thumb/A330.webp",
+   "w": 1400,
+   "h": 933,
+   "zh": "彩色的盐蒸发池，粉色、青绿色与赭黄色的矩形被细窄的白色池埂分隔开，画面中没有人物，完全垂直俯拍的航拍摄影，从正上方直接向下拍摄，扁平化的图形构图，重复的图案，人物作为微小的图案元素，锐利的大画幅细节，均匀明亮的日光，浓烈平涂的色块"
   }
  ]
 }
