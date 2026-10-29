@@ -191,7 +191,6 @@ def main():
         "model": args.model,
         "tags": tags or [args.category],
         "aspect": aspect,
-        "hot": 60,
         "updated": date.today().strftime("%Y.%m.%d"),
         "note": args.note,
         "prompt": prompt,

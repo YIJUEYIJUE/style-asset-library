@@ -179,7 +179,7 @@
     <div class="assetImg"><img src="${esc(a.thumb)}" alt="${esc(a.title)}" loading="lazy" decoding="async" width="${a.w || 400}" height="${a.h || 400}"></div>
     ${(a.shots && a.shots.length > 1) ? `<span class="shotCount">${a.shots.length} 图</span>` : ""}
     <span class="pickDot${picks.has(a.id) ? " on" : ""}" data-pick="${a.id}" title="加入挑选">✓</span>
-    <div class="assetMeta"><span>${a.seq} / ${esc((a.category || "").replace("——模板", "").replace("（收集）", ""))}</span><span>${a.hot ?? ""}°</span></div>
+    <div class="assetMeta"><span>${a.seq} / ${esc((a.category || "").replace("——排版模板", "").replace("——模板", "").replace("（收集）", ""))}</span></div>
     <h3>${esc(a.title)}</h3>
     <div class="tags">${(a.tags || []).slice(0, 2).map((t, i) => `<span class="tag${i ? " mint" : ""}">${esc(t)}</span>`).join("")}${altOf(a).text ? `<span class="tag lang">中英</span>` : ""}</div>
   </button>`;

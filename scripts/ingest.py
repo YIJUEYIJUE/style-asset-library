@@ -256,7 +256,6 @@ def main():
             "model": (it.get("model") or args.default_model).strip(),
             "tags": tags or [category],
             "aspect": "方图" if 0.9 <= ratio <= 1.1 else ("横图" if ratio > 1 else "竖图"),
-            "hot": int(it.get("hot", 60)),
             "updated": date.today().strftime("%Y.%m.%d"),
             "note": it.get("note", ""),
             "prompt": prompt,

@@ -4,7 +4,10 @@
 
 在线地址：`https://yijueyijue.github.io/style-asset-library/`
 
-> 当前数据：92 条风格 / 101 张示例图 / 40 个分类（`scripts/validate.py` 实时校验通过）。分类统一采用 `大类——子分类` 两级（如 `摄影——电影感`、`插画——古风仙侠`、`二次元——游戏角色`），展厅页面默认铺满全部、分类仅作标签。
+<!-- STATS:START -->
+> 当前数据：**333 条风格 / 353 张示例图 / 166 个分类**（图片 37.0 MB，最近更新 2026.10.09）—— 由 `scripts/gen_stats.py` 自动生成，`scripts/validate.py` 实时校验通过。
+<!-- STATS:END -->
+分类统一采用 `大类——子分类` 两级（如 `摄影——电影感`、`插画——古风仙侠`、`二次元——游戏角色`），展厅页面默认铺满全部、分类仅作标签。
 > 本文件是唯一权威 schema 与协作契约——其它 AI 或协作者按此文档增删字段、新增风格即可，无需额外说明。
 
 ## 目录结构
@@ -106,7 +109,7 @@ python3 scripts/add_style.py --image step1.png --prompt-file step1.txt \
 | `shots[]` | 多张示例图 | | 第二条起文件名 `A012-2.webp`；`shots[0]` = 封面 |
 | `srcHash` | 来源图 sha1 | | 用户手里**原始源图**的 SHA1 前 16 位。只在入库那一刻能算到，原始素材不落仓库，所以补不回来（A001–A092 有，之后没有） |
 | `imgHash` | 压后图 sha1 | ✅ | `assets/full/*.webp` 的 SHA1 前 16 位。**永远可重算，是去重的真正依据**；缺了 `validate.py` 会报错 |
-| `needsPrompt` | 待补提示词 | | `true` 表示还没填 `prompt` |
+| `needsPrompt` | 待补提示词 | | 只在 `prompt` 还是占位符时出现（值恒为 `true`）；历史批次残留的 `false` 已清理 |
 
 > 必填字段（`id` `title` `category` `prompt` `img` `thumb`）由 `scripts/validate.py` 强制校验，缺一个 CI 即报错；其余缺省时脚本会补默认值。
 > `zh` / `en` / `note` 三个字段可以不写在 `styles.json` 里，改放 `data/i18n.txt`（见下一节），前端会在运行时合并。
@@ -164,9 +167,12 @@ python3 scripts/merge_i18n.py                 # 把 zh / en / note 固化进 dat
 
 1. **先 `git pull` 拉线上最新**（含其他协作者/AI 的优化），再合并，避免覆盖他人成果。
 2. **入库**：`import_xlsx.py`（注意本机 safe-delete 坑，见上）或独立内存脚本；`scripts/validate.py` 通过。
+   新条目会自动带上 `imgHash`，重复图会被拦下（确属有意重复再加 `--force`）。
 3. **分类细分**：逐条通读提示词，按内容落到 `大类——子分类`；禁止整批塞一个大类名（硬约束见「浏览与筛选」）。
 4. **补 i18n 译文**：`python3 scripts/merge_i18n.py --check --all` 找出外文原版缺口，在 `data/i18n.txt` 补 `zh` 块至全覆盖。
-5. **推送**：`git push` → Actions 自动部署，约 1 分钟后线上生效；上线后核对 `count` / `cats` 数与本地一致。
+   **这一步 CI 会卡**：缺译文时 `validate.py` 非零退出，Actions 不会部署。
+5. **刷新统计**：`python3 scripts/gen_stats.py`（README 顶部的条数 / 张数 / 分类数由它生成，手改必过期）。
+6. **推送**：`git push` → Actions 自动部署，约 1 分钟后线上生效；上线后核对 `count` / `cats` 数与本地一致。
 
 ## 提示词怎么展示 / 协作契约
 

@@ -27,6 +27,8 @@ jobs:
         run: node --check app.js
       - name: Validate data
         run: python3 scripts/validate.py
+      - name: Check README stats are up to date
+        run: python3 scripts/gen_stats.py --check
 
   deploy:
     needs: validate
