@@ -198,6 +198,86 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
 .lightbox.show{display:flex}
 .lightbox img{max-width:97vw;max-height:95svh;object-fit:contain;border-radius:3px;box-shadow:0 30px 90px rgba(0,0,0,.6)}
 .lbHint{position:fixed;left:0;right:0;bottom:14px;text-align:center;font-family:var(--mono);font-size:10px;letter-spacing:.09em;color:rgba(246,239,226,.46);pointer-events:none}
+/* ---- 看片台 / 提示词 / 分步工作流样式（原为 app.js 运行时注入的 FIX_CSS，已回写骨架）---- */
+/* 看片台：信息栏自己滚动，提示词跟在标题下面并撑满剩余空间 */
+.modalInfo{display:flex;flex-direction:column;min-height:0;overflow:auto;overscroll-behavior:contain}
+.modalInfo>*{flex:0 0 auto}
+.modalInfo>.promptBox{flex:1 1 auto;max-height:none;min-height:132px}
+.modalMedia{overflow:hidden}
+@media (max-width:760px){
+  .modalCard{grid-template-columns:1fr;grid-template-rows:minmax(110px,.82fr) minmax(0,1.18fr) auto;max-height:93svh}
+  .modalMedia{max-height:none;min-height:0;padding:12px}
+  .modalInfo{padding:16px 16px 18px}
+  .modalInfo h2{font-size:23px;margin:6px 44px 8px 0}
+  .promptTitle{margin:12px 0 7px}
+  .promptTitle .hint{display:none}
+  .specs{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:12px 0 0}
+  .spec{padding:7px 9px}
+  .spec b{font-size:12px}
+}
+/* 提示词：原文 / 译文页签 + 字数 */
+.ptabs{display:none;align-items:center;gap:6px;margin:0 0 8px;flex-wrap:wrap}
+.ptabs.show{display:flex}
+.pt{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11.5px;letter-spacing:.02em;line-height:1.5;padding:4px 11px;border-radius:999px;cursor:pointer}
+.pt:hover{background:rgba(17,16,13,.05)}
+.pt.on{background:#11100d;border-color:#11100d;color:#fbf9f4}
+.ptabs.noalt .pt{display:none}
+.pchars{margin-left:auto;font-size:10.5px;letter-spacing:.04em;color:#9a9182;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;flex:0 0 auto}
+.promptBox.empty{color:#9a9182;font-style:italic}
+/* 补充说明：与提示词彻底分家，不进复制 */
+.noteWrap{display:none;margin:14px 0 0}
+.noteWrap.show{display:block}
+.noteTitle{display:flex;align-items:center;gap:8px;margin:0 0 6px}
+.noteTitle b{font-size:11.5px;letter-spacing:.08em;color:#51493b;font-weight:600}
+.noteHint{font-size:10.5px;color:#9a9182;flex:1 1 auto}
+.noteCopy{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer;flex:0 0 auto}
+.noteCopy:hover{background:rgba(17,16,13,.05)}
+.noteBox{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#51493b;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;max-height:210px;overflow:auto}
+/* 分步工作流：图和提示词一对一纵向排，从上往下即完整流程；此时隐藏上方主提示词区 */
+.modalInfo.hasSteps .promptTitle,.modalInfo.hasSteps .promptBox{display:none}
+.stepsWrap{display:none;margin:16px 0 0}
+.stepsWrap.show{display:block}
+.stepsTitle{display:flex;align-items:baseline;gap:8px;margin:0 0 4px}
+.stepsTitle b{font-size:11.5px;letter-spacing:.08em;color:#51493b;font-weight:600}
+.stepsHint{font-size:10.5px;color:#9a9182}
+.stepItem{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px;align-items:start;padding:12px 0;border-top:1px solid rgba(17,16,13,.1)}
+.stepMedia img{width:100%;border-radius:8px;cursor:zoom-in;display:block;background:rgba(17,16,13,.05)}
+.stepHead{display:flex;align-items:center;gap:8px;margin:0 0 6px}
+.stepHead b{font-size:12px;color:#11100d;font-weight:600}
+.stepCopy{appearance:none;-webkit-appearance:none;margin-left:auto;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer}
+.stepCopy:hover{background:rgba(17,16,13,.05)}
+.stepPrompt{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#3d372e;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;margin:0;max-height:260px;overflow:auto;font-family:inherit}
+@media (max-width:760px){ .stepItem{grid-template-columns:86px minmax(0,1fr);gap:9px} }
+.tag.lang{background:rgba(23,63,232,.1);color:#173fe8}
+/* 分类（只在网格库）：侧栏两级 + 900~1100px 之间也要有胶囊 */
+@media (max-width:1100px){ .catChips{display:flex} }
+.canvasChips{display:none !important}
+.catGroup{margin:0 0 2px}
+.catSubs{display:none}
+.catGroup.open .catSubs{display:block;margin:2px 0 10px 14px;padding-left:10px;border-left:1px solid rgba(17,16,13,.16)}
+/* 大类右下角的小箭头：合起来朝下，展开后朝上，一眼看出还能再点一次 */
+.cat.catKind{position:relative}
+.cat.catKind::after{content:"";position:absolute;right:15px;bottom:13px;width:7px;height:7px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(45deg);opacity:.4;transition:transform .2s ease,opacity .2s ease;pointer-events:none}
+.catGroup.open>.cat.catKind::after{transform:rotate(-135deg);opacity:.75}
+.catSub{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 10px;margin:2px 0;border:0;background:transparent;border-radius:9px;cursor:pointer;text-align:left;font:inherit;color:#51493b}
+.catSub b{font-weight:600;font-size:12.5px}
+.catSub i{font-style:normal;font-size:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#8a7d63}
+.catSub:hover{background:rgba(17,16,13,.055)}
+.catSub.active{background:rgba(23,63,232,.1);color:#173fe8}
+.catSub.active i{color:#173fe8}
+.chip i{font-style:normal;opacity:.5;font-size:.86em;margin-left:3px}
+.chip.sub{border-style:dashed}
+.chip.clearAll{border-style:dashed;opacity:.8}
+.chipSep{display:inline-flex;align-items:center;padding:0 1px;color:#8a7d63;font-size:12px;flex:0 0 auto}
+/* 图片没加载出来时给个说明，不要留一块灰底 */
+.imgFail{position:relative}
+.imgFail img{opacity:0}
+.imgFail::after{content:"图片缺失";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:.08em;color:#9a9182;background:repeating-linear-gradient(45deg,rgba(17,16,13,.045) 0 8px,transparent 8px 16px)}
+/* 键盘可达性 */
+.asset:focus-visible,.cat:focus-visible,.catSub:focus-visible,.chip:focus-visible,.pt:focus-visible,.noteCopy:focus-visible,.stripItem:focus-visible,.shotBtn:focus-visible,.openingCard:focus-visible{outline:2px solid #173fe8;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
+}
 </style>
 </head>
 <body>
@@ -230,7 +310,7 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
     </section>
   </main>
   <section class="library" id="library">
-    <header class="topbar"><div class="libBrand"><div class="brandPill">风格资产库</div></div><label class="search"><span>⌕</span><input id="search" placeholder="搜索标题 / 分类 / 风格 / 模型"></label><div class="libActions"><button class="miniBtn" id="pickBtn">挑选 0</button><button class="miniBtn" id="exportBtn">导出挑选</button><button class="miniBtn" id="canvasBtn">无限画布</button><button class="miniBtn dark" id="homeBtn">封面</button></div></header>
+    <header class="topbar"><div class="libBrand"><div class="brandPill">风格资产库</div></div><label class="search"><span>⌕</span><input id="search" aria-label="搜索标题、标签、提示词原文与中文译文" placeholder="搜索标题 / 分类 / 风格 / 模型"></label><div class="libActions"><button class="miniBtn" id="pickBtn">挑选 0</button><button class="miniBtn" id="exportBtn">导出挑选</button><button class="miniBtn" id="canvasBtn">无限画布</button><button class="miniBtn dark" id="homeBtn">封面</button></div></header>
     <aside class="side" style="display:none"><p class="sideLabel">Categories</p><div id="catList"></div></aside>
     <section class="content"><div class="contentHead"><h2 id="listTitle">全部资产</h2><p id="listSub"></p></div><div class="catChips" id="catChips" style="display:none"></div>
 <div class="filterBar" id="filterBar"></div>
@@ -239,9 +319,9 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
 </div>
 <section class="canvas" id="canvas"><div class="canvasStage"><div class="viewport" id="viewport"><div class="sphere" id="sphere"></div></div><div class="canvasTop"><div class="canvasTitle"><h2>展厅 · 无限画布</h2><p id="canvasSub">拖拽旋转 · 滚轮缩放 · 点击看提示词</p></div><div class="canvasTools"><button id="zoomOut" aria-label="缩小">−</button><button id="zoomIn" aria-label="放大">＋</button><button id="resetBtn">回到中心</button><button id="pickOnlyBtn">只看挑选</button><button class="dark" id="exitCanvas">返回资产库</button></div></div><div class="canvasChips" id="canvasChips" style="display:none"></div>
         <div class="canvasEmpty" id="canvasEmpty"></div><div class="hud">POS <span id="pos">0°, 0°</span> · ZOOM <span id="zoom">1.00×</span><br>拖拽旋转 / 滚轮缩放 / <span>0</span> 回中心 / 已挑选 <span id="hudPick">0</span></div></div></section>
-<div class="modal" id="modal"><article class="modalCard"><button class="close" id="close">×</button><div class="modalMedia"><img id="mImg" alt=""><button class="navArrow prev" id="mPrev" aria-label="上一条">‹</button><button class="navArrow next" id="mNext" aria-label="下一条">›</button><div class="mediaBar"><span id="mIndex"></span><span id="mSize"></span></div><div class="shots" id="mShots"></div></div><div class="modalInfo"><div class="kicker" id="mKicker"></div><h2 id="mTitle"></h2><div class="tags" id="mTags"></div><div class="pickRow"><button class="pickBig" id="mPick">＋ 加入挑选</button><button class="copy" id="copy">复制 Prompt</button></div><div class="specs"><div class="spec"><span>Category</span><b id="mCat"></b></div><div class="spec"><span>Model</span><b id="mModel"></b></div><div class="spec"><span>Palette</span><b id="mPal"></b></div><div class="spec"><span>Updated</span><b id="mUpdated"></b></div></div><div class="promptTitle"><b>Prompt / 使用说明</b><span class="hint">← → 换风格 · ↑ ↓ 换示例图 · F 挑选 · Esc 关闭</span></div><div class="promptBox" id="mPrompt"></div></div><div class="strip" id="mStrip"></div></article></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="看片台"><article class="modalCard"><button class="close" id="close">×</button><div class="modalMedia"><img id="mImg" alt=""><button class="navArrow prev" id="mPrev" aria-label="上一条">‹</button><button class="navArrow next" id="mNext" aria-label="下一条">›</button><div class="mediaBar"><span id="mIndex"></span><span id="mSize"></span></div><div class="shots" id="mShots"></div></div><div class="modalInfo"><div class="kicker" id="mKicker"></div><h2 id="mTitle"></h2><div class="tags" id="mTags"></div><div class="pickRow"><button class="pickBig" id="mPick">＋ 加入挑选</button><button class="copy" id="copy">复制 Prompt</button></div><div class="promptTitle"><b>Prompt / 使用说明</b><span class="hint">← → 换风格 · ↑ ↓ 换示例图 · F 挑选 · Esc 关闭</span></div><div class="promptBox" id="mPrompt"></div><div class="specs"><div class="spec"><span>Category</span><b id="mCat"></b></div><div class="spec"><span>Model</span><b id="mModel"></b></div><div class="spec"><span>Palette</span><b id="mPal"></b></div><div class="spec"><span>Updated</span><b id="mUpdated"></b></div></div></div><div class="strip" id="mStrip"></div></article></div>
 <div class="lightbox" id="lightbox"><img id="lbImg" alt=""><div class="lbHint">点任意处关闭 · ↑ ↓ 换示例图 · Esc 退出</div></div>
-<div class="toast" id="toast">已复制</div>
+<div class="toast" id="toast" role="status" aria-live="polite">已复制</div
 
 <div class="bootMsg" id="boot">正在载入资产库…</div>
 <script src="app.js" defer></script>

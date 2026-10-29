@@ -777,122 +777,20 @@
   }
 
   /* ---------- 布局修补（分类 UI 复位 + 看片台提示词可见 + 中英切换） ---------- */
-  const FIX_CSS = `
-/* 看片台：信息栏自己滚动，提示词跟在标题下面并撑满剩余空间 */
-.modalInfo{display:flex;flex-direction:column;min-height:0;overflow:auto;overscroll-behavior:contain}
-.modalInfo>*{flex:0 0 auto}
-.modalInfo>.promptBox{flex:1 1 auto;max-height:none;min-height:132px}
-.modalMedia{overflow:hidden}
-@media (max-width:760px){
-  .modalCard{grid-template-columns:1fr;grid-template-rows:minmax(110px,.82fr) minmax(0,1.18fr) auto;max-height:93svh}
-  .modalMedia{max-height:none;min-height:0;padding:12px}
-  .modalInfo{padding:16px 16px 18px}
-  .modalInfo h2{font-size:23px;margin:6px 44px 8px 0}
-  .promptTitle{margin:12px 0 7px}
-  .promptTitle .hint{display:none}
-  .specs{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:12px 0 0}
-  .spec{padding:7px 9px}
-  .spec b{font-size:12px}
-}
-/* 提示词：原文 / 译文页签 + 字数 */
-.ptabs{display:none;align-items:center;gap:6px;margin:0 0 8px;flex-wrap:wrap}
-.ptabs.show{display:flex}
-.pt{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11.5px;letter-spacing:.02em;line-height:1.5;padding:4px 11px;border-radius:999px;cursor:pointer}
-.pt:hover{background:rgba(17,16,13,.05)}
-.pt.on{background:#11100d;border-color:#11100d;color:#fbf9f4}
-.ptabs.noalt .pt{display:none}
-.pchars{margin-left:auto;font-size:10.5px;letter-spacing:.04em;color:#9a9182;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;flex:0 0 auto}
-.promptBox.empty{color:#9a9182;font-style:italic}
-/* 补充说明：与提示词彻底分家，不进复制 */
-.noteWrap{display:none;margin:14px 0 0}
-.noteWrap.show{display:block}
-.noteTitle{display:flex;align-items:center;gap:8px;margin:0 0 6px}
-.noteTitle b{font-size:11.5px;letter-spacing:.08em;color:#51493b;font-weight:600}
-.noteHint{font-size:10.5px;color:#9a9182;flex:1 1 auto}
-.noteCopy{appearance:none;-webkit-appearance:none;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer;flex:0 0 auto}
-.noteCopy:hover{background:rgba(17,16,13,.05)}
-.noteBox{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#51493b;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;max-height:210px;overflow:auto}
-/* 分步工作流：图和提示词一对一纵向排，从上往下即完整流程；此时隐藏上方主提示词区 */
-.modalInfo.hasSteps .promptTitle,.modalInfo.hasSteps .promptBox{display:none}
-.stepsWrap{display:none;margin:16px 0 0}
-.stepsWrap.show{display:block}
-.stepsTitle{display:flex;align-items:baseline;gap:8px;margin:0 0 4px}
-.stepsTitle b{font-size:11.5px;letter-spacing:.08em;color:#51493b;font-weight:600}
-.stepsHint{font-size:10.5px;color:#9a9182}
-.stepItem{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px;align-items:start;padding:12px 0;border-top:1px solid rgba(17,16,13,.1)}
-.stepMedia img{width:100%;border-radius:8px;cursor:zoom-in;display:block;background:rgba(17,16,13,.05)}
-.stepHead{display:flex;align-items:center;gap:8px;margin:0 0 6px}
-.stepHead b{font-size:12px;color:#11100d;font-weight:600}
-.stepCopy{appearance:none;-webkit-appearance:none;margin-left:auto;border:1px solid rgba(17,16,13,.16);background:transparent;color:#6b6152;font:inherit;font-size:11px;line-height:1.5;padding:3px 10px;border-radius:999px;cursor:pointer}
-.stepCopy:hover{background:rgba(17,16,13,.05)}
-.stepPrompt{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.72;color:#3d372e;background:rgba(17,16,13,.035);border-left:2px solid rgba(17,16,13,.2);border-radius:0 8px 8px 0;padding:10px 12px;margin:0;max-height:260px;overflow:auto;font-family:inherit}
-@media (max-width:760px){ .stepItem{grid-template-columns:86px minmax(0,1fr);gap:9px} }
-.tag.lang{background:rgba(23,63,232,.1);color:#173fe8}
-/* 分类（只在网格库）：侧栏两级 + 900~1100px 之间也要有胶囊 */
-@media (max-width:1100px){ .catChips{display:flex} }
-.canvasChips{display:none !important}
-.catGroup{margin:0 0 2px}
-.catSubs{display:none}
-.catGroup.open .catSubs{display:block;margin:2px 0 10px 14px;padding-left:10px;border-left:1px solid rgba(17,16,13,.16)}
-/* 大类右下角的小箭头：合起来朝下，展开后朝上，一眼看出还能再点一次 */
-.cat.catKind{position:relative}
-.cat.catKind::after{content:"";position:absolute;right:15px;bottom:13px;width:7px;height:7px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(45deg);opacity:.4;transition:transform .2s ease,opacity .2s ease;pointer-events:none}
-.catGroup.open>.cat.catKind::after{transform:rotate(-135deg);opacity:.75}
-.catSub{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 10px;margin:2px 0;border:0;background:transparent;border-radius:9px;cursor:pointer;text-align:left;font:inherit;color:#51493b}
-.catSub b{font-weight:600;font-size:12.5px}
-.catSub i{font-style:normal;font-size:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#8a7d63}
-.catSub:hover{background:rgba(17,16,13,.055)}
-.catSub.active{background:rgba(23,63,232,.1);color:#173fe8}
-.catSub.active i{color:#173fe8}
-.chip i{font-style:normal;opacity:.5;font-size:.86em;margin-left:3px}
-.chip.sub{border-style:dashed}
-.chip.clearAll{border-style:dashed;opacity:.8}
-.chipSep{display:inline-flex;align-items:center;padding:0 1px;color:#8a7d63;font-size:12px;flex:0 0 auto}
-/* 图片没加载出来时给个说明，不要留一块灰底 */
-.imgFail{position:relative}
-.imgFail img{opacity:0}
-.imgFail::after{content:"图片缺失";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:.08em;color:#9a9182;background:repeating-linear-gradient(45deg,rgba(17,16,13,.045) 0 8px,transparent 8px 16px)}
-/* 键盘可达性 */
-.asset:focus-visible,.cat:focus-visible,.catSub:focus-visible,.chip:focus-visible,.pt:focus-visible,.noteCopy:focus-visible,.stripItem:focus-visible,.shotBtn:focus-visible,.openingCard:focus-visible{outline:2px solid #173fe8;outline-offset:2px}
-@media (prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
-}
-`;
 
+  // 骨架（index.html）已经把该有的东西都摆好了：看片台样式在 <style> 里、
+  // aria 属性写在标签上、提示词块本来就排在规格卡片之前。
+  // 这里只留真正必须在运行时决定的两件事：视图切换后恢复显示，以及插入动态 UI。
   function applyLayoutFixes() {
-    if (!document.getElementById("salFix")) {
-      const st = document.createElement("style");
-      st.id = "salFix";
-      st.textContent = FIX_CSS;
-      document.head.appendChild(st);
-    }
-    // 网格库恢复分类；展厅（无限画布）保持「只有全部」，不放分类胶囊
+    // 从展厅切回网格库时恢复分类侧栏与分类胶囊（进入展厅时被隐藏了）
     [".side", "#catChips"].forEach((sel) => {
       const el = document.querySelector(sel);
       if (el && el.style.display === "none") el.style.display = "";
     });
     const cc = $("#canvasChips");
     if (cc) { cc.style.display = "none"; cc.innerHTML = ""; }
-    liftModalAboveCanvas();
-    // 无障碍：看片台是对话框，toast 要能被读屏播报
-    const md = $("#modal");
-    if (md) { md.setAttribute("role", "dialog"); md.setAttribute("aria-modal", "true"); md.setAttribute("aria-label", "看片台"); }
-    const ts = $("#toast");
-    if (ts) { ts.setAttribute("role", "status"); ts.setAttribute("aria-live", "polite"); }
-    const sb = $("#search");
-    if (sb) sb.setAttribute("aria-label", "搜索标题、标签、提示词原文与中文译文");
-    // 提示词块上移到标题/按钮下面，规格卡片挪到最后
-    const info = document.querySelector(".modalInfo");
-    if (info) {
-      const specs = info.querySelector(".specs");
-      const pt = info.querySelector(".promptTitle");
-      const pb = document.getElementById("mPrompt");
-      if (specs && pt && pb && pt.compareDocumentPosition(specs) & Node.DOCUMENT_POSITION_PRECEDING) {
-        info.insertBefore(pt, specs);
-        info.insertBefore(pb, specs);
-      }
-    }
-    ensurePromptUI();   // 页签与补充说明栏要在搜完位置之后插
+    liftModalAboveCanvas();   // 看片台要盖在展厅画布之上
+    ensurePromptUI();         // 语言页签 / 补充说明栏 / 分步区由这里插入
   }
 
   function bindCanvas() {
@@ -1017,6 +915,7 @@
   }
 
   function bind() {
+    let searchTimer = 0;          // 搜索防抖计时器（见下方 #search.oninput）
     // 图片 404 时给容器打标记，显示「图片缺失」而不是一块灰底
     document.addEventListener("error", (e) => {
       const img = e.target;
@@ -1035,7 +934,12 @@
     $$("#pickOnlyBtn").onclick = () => { onlyPicks = !onlyPicks; renderGrid(); };
     $$("#exportBtn").onclick = exportPicks;
     $$("#mPick").onclick = (e) => { e.stopPropagation(); if (selected) togglePick(selected.id); };
-    $$("#search").oninput = (e) => { q = e.target.value; renderGrid(); };
+    // 搜索防抖：连续敲字时只在停手后重渲一次（每敲一字全量重绘，上千条会卡）
+    $$("#search").oninput = (e) => {
+      q = e.target.value;
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(renderGrid, 160);
+    };
     $$("#catList").onclick = (e) => { const b = e.target.closest("[data-cat]"); if (b) pickCat(b.dataset.cat); };
     $$("#filterBar").onclick = (e) => {
       const b = e.target.closest(".chip"); if (!b) return;

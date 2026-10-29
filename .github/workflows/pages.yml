@@ -29,6 +29,8 @@ jobs:
         run: python3 scripts/validate.py
       - name: Check README stats are up to date
         run: python3 scripts/gen_stats.py --check
+      - name: Check i18n key algorithm parity (app.js vs merge_i18n.py)
+        run: python3 scripts/check_i18n_key_parity.py
 
   deploy:
     needs: validate
