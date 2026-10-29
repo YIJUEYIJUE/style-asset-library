@@ -7,6 +7,8 @@
     String(s || "").replace(/[&<>"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
 
   let assets = [], categories = [], heroIds = [], catTree = [];
+// 分片加载：首屏只拉 data/catalog.json（轻量目录），prompt / 译文 / 说明由分块后台补齐
+let chunkTotal = 0, chunksLoaded = 0;
   let current = "ALL", model = "ALL", q = "", selected = null, visible = [];
   let openKind = "";      // 侧栏当前展开的大类（手风琴，一次只开一个）
   let onlyPicks = false, moved = false;
@@ -175,14 +177,20 @@
   }
 
   /* ---------- grid ---------- */
-  const card = (a) => `<button class="asset${picks.has(a.id) ? " picked" : ""}" data-id="${a.id}">
+  // 分片加载时条目可能只有目录字段（没有 prompt / shots），
+  // 所以张数角标与「中英」标签都要能用目录里的 shotCount / hasAlt 兜底，避免首屏闪烁。
+  const card = (a) => {
+    const n = (a.shots && a.shots.length) || a.shotCount || 0;
+    const hasAlt = !!altOf(a).text || !!a.hasAlt;
+    return `<button class="asset${picks.has(a.id) ? " picked" : ""}" data-id="${a.id}">
     <div class="assetImg"><img src="${esc(a.thumb)}" alt="${esc(a.title)}" loading="lazy" decoding="async" width="${a.w || 400}" height="${a.h || 400}"></div>
-    ${(a.shots && a.shots.length > 1) ? `<span class="shotCount">${a.shots.length} 图</span>` : ""}
+    ${n > 1 ? `<span class="shotCount">${n} 图</span>` : ""}
     <span class="pickDot${picks.has(a.id) ? " on" : ""}" data-pick="${a.id}" title="加入挑选">✓</span>
     <div class="assetMeta"><span>${a.seq} / ${esc((a.category || "").replace("——排版模板", "").replace("——模板", "").replace("（收集）", ""))}</span></div>
     <h3>${esc(a.title)}</h3>
-    <div class="tags">${(a.tags || []).slice(0, 2).map((t, i) => `<span class="tag${i ? " mint" : ""}">${esc(t)}</span>`).join("")}${altOf(a).text ? `<span class="tag lang">中英</span>` : ""}</div>
+    <div class="tags">${(a.tags || []).slice(0, 2).map((t, i) => `<span class="tag${i ? " mint" : ""}">${esc(t)}</span>`).join("")}${hasAlt ? `<span class="tag lang">中英</span>` : ""}</div>
   </button>`;
+  };
 
   function renderGrid() {
     visible = list();
@@ -190,7 +198,9 @@
     const scope = onlyPicks ? "" : current === "ALL"
       ? `共 ${catCount()} 个分类 · `
       : current.startsWith(KIND) ? `大类 · ` : `${splitCat(current).kind} · `;
-    $("#listSub").textContent = `${scope}${visible.length} 个结果 · 点击卡片看大图与提示词，右上角 ✓ 加入挑选`;
+    const loading = (chunkTotal && chunksLoaded < chunkTotal)
+      ? ` · 提示词全文载入中 ${chunksLoaded}/${chunkTotal}` : "";
+    $("#listSub").textContent = `${scope}${visible.length} 个结果 · 点击卡片看大图与提示词，右上角 ✓ 加入挑选${loading}`;
     $("#grid").innerHTML = visible.length
       ? visible.map(card).join("")
       : `<p class="emptyState">${onlyPicks ? "挑选夹还是空的，先去卡片右上角点 ✓。" : "没有匹配的资产，换个关键词或清空筛选试试。"}</p>`;
@@ -374,8 +384,14 @@
       ta.remove();
     }
   }
-  function exportPicks() {
+  async function exportPicks() {
     if (!picks.size) { toast("挑选夹还是空的"); return; }
+    // 导出要带提示词全文，所以先把分块全部补齐再拼内容（已加载的块会直接跳过）
+    if (chunkTotal) {
+      for (let i = 0; i < chunkTotal; i++) await fetchChunk(i);
+      chunksLoaded = chunkTotal;
+      renderGrid();
+    }
     // 导出也要分开：提示词、译文、补充说明各自成段，不拌在一起
     const md = assets.filter((a) => picks.has(a.id)).map((a) => {
       const alt = altOf(a);
@@ -571,6 +587,22 @@
     $("#modal").classList.add("show");
     syncPicks();
     if (push) history.replaceState(null, "", `#${a.id}`);
+
+    // 分片加载时，这一条的提示词可能还没补齐（用户手快，分块还在路上）：
+    // 立刻把所在分块拉下来，补齐后重画提示词区与分步区。
+    if (chunkTotal && !String(a.prompt || "").trim() && typeof a.chunk === "number") {
+      fetchChunk(a.chunk).then(() => {
+        if (!selected || selected.id !== a.id) return;
+        ensurePromptUI();
+        const alt = altOf(a);
+        setLang(alt.text ? promptLang : "o");
+        const nwb = document.getElementById("mNoteWrap"), nbb = document.getElementById("mNote");
+        const nt = a.note ? String(a.note).trim() : "";
+        if (nwb) nwb.classList.toggle("show", !!nt);
+        if (nbb) nbb.textContent = nt;
+        renderSteps(a);
+      });
+    }
   }
   function openLightbox() {
     const s = shots[shotIdx];
@@ -1014,13 +1046,62 @@
     });
   }
 
+  /* ---------- 数据加载：轻量目录先出画面，全文分块后台补齐 ---------- */
+  // styles.json 仍是唯一权威数据源；catalog.json 与 chunks/ 是它的派生产物
+  // （由 scripts/split_data.py 生成）。目录拿不到时自动退回整包，功能不打折。
+  async function loadData() {
+    const inline = document.getElementById("data");   // 离线单文件构建：整包已内联
+    if (inline) {
+      const d = JSON.parse(inline.textContent);
+      assets = d.assets; categories = d.cats || []; heroIds = d.hero || [];
+      return;
+    }
+    try {
+      const r = await fetch("data/catalog.json", { cache: "no-cache" });
+      if (r.ok) {
+        const d = await r.json();
+        if (Array.isArray(d.assets) && d.assets.length) {
+          assets = d.assets; categories = d.cats || []; heroIds = d.hero || [];
+          chunkTotal = d.chunks || 0;
+          primeFullText();          // 不 await：先让列表画出来
+          return;
+        }
+      }
+    } catch (e) { /* 目录不可用，走下面的整包回退 */ }
+    const d = await (await fetch("data/styles.json", { cache: "no-cache" })).json();
+    assets = d.assets; categories = d.cats || []; heroIds = d.hero || [];
+  }
+
+  const chunkDone = new Set();
+  async function fetchChunk(i) {
+    if (chunkDone.has(i)) return true;
+    try {
+      const r = await fetch(`data/chunks/chunk-${String(i).padStart(3, "0")}.json`,
+                            { cache: "no-cache" });
+      if (!r.ok) return false;
+      const d = await r.json();
+      for (const f of (d.assets || [])) {
+        const a = byId(f.id);
+        if (a) Object.assign(a, f);   // 补齐重字段，不换对象，视图自动更新
+      }
+      chunkDone.add(i);
+      return true;
+    } catch (e) { return false; }
+  }
+
+  // 把 prompt / zh / en / note / shots 逐块补齐；每补一块重渲一次，
+  // 于是搜索范围（含提示词原文与译文）是渐进变全的
+  async function primeFullText() {
+    for (let i = 0; i < chunkTotal; i++) {
+      await fetchChunk(i);
+      chunksLoaded++;
+      renderGrid();
+    }
+  }
+
   async function boot() {
     try {
-      const inline = document.getElementById("data");   // offline single-file build
-      const d = inline
-        ? JSON.parse(inline.textContent)
-        : await (await fetch("data/styles.json", { cache: "no-cache" })).json();
-      assets = d.assets; categories = d.cats || []; heroIds = d.hero || [];
+      await loadData();
       if (!Array.isArray(assets)) throw new Error("bad");
       await loadI18n();   // 译文 / 补充说明覆盖层，拿不到也不影响主流程
       const liveIds = new Set(assets.map((a) => a.id));

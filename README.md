@@ -114,6 +114,23 @@ python3 scripts/add_style.py --image step1.png --prompt-file step1.txt \
 > 必填字段（`id` `title` `category` `prompt` `img` `thumb`）由 `scripts/validate.py` 强制校验，缺一个 CI 即报错；其余缺省时脚本会补默认值。
 > `zh` / `en` / `note` 三个字段可以不写在 `styles.json` 里，改放 `data/i18n.txt`（见下一节），前端会在运行时合并。
 
+### 数据分片：首屏只拉轻量目录
+
+`data/styles.json` 现在是 1.1 MB（主要是提示词正文），整包拉取会拖慢首屏。所以每次部署时
+`scripts/split_data.py` 会把它拆成两份**派生产物**：
+
+| 文件 | 内容 | 体积 | 谁生成 |
+| --- | --- | --- | --- |
+| `data/catalog.json` | 轻量目录：列表渲染与筛选要的字段（无 `prompt` / 译文 / 说明） | ~150 KB | CI 部署时现做 |
+| `data/chunks/chunk-NNN.json` | 每 40 条一份的完整字段（含 `prompt`） | 共 ~1 MB | 同上 |
+
+前端流程：先拉目录 → 立刻出列表、能按标题/标签/模型搜索 → 后台逐块补齐 `prompt`，
+补一块重渲一次，搜索范围随之扩大到提示词原文与译文（副标题会显示「提示词全文载入中 x/9」）。
+**目录拿不到时自动退回整包 `styles.json`**，功能不打折，只是回到原来的加载量。
+
+两个派生产物都**不进仓库**（已加进 `.gitignore`），所以不存在「入库后忘了重生成」的问题。
+本地预览想试分片效果，自己跑一次 `python3 scripts/split_data.py` 即可。
+
 ### 图片去重（按内容，不按文件名）
 
 同一张图换个文件名、重新导出后再入库，会被拦下。比对用两个哈希，任一命中即拦：

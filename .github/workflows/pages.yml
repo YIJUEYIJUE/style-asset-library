@@ -40,6 +40,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # 分片是 styles.json 的派生产物，每次部署现做，不进仓库（永不失同步）
+      - name: Build data shards
+        run: python3 scripts/split_data.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
