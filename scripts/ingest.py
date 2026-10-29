@@ -35,14 +35,17 @@ A cyberpunk oriental portrait, neon rim light, 85mm --ar 3:4 --v 6
 * 未填「配色」时自动取图片主色（十六进制）填入。
 """
 import argparse
-import hashlib
 import json
 import re
 import shutil
+import sys
 from datetime import date
 from pathlib import Path
 
 from PIL import Image, ImageOps
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import imghash  # noqa: E402  （与 add_style.py 共用同一套内容哈希口径）
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "styles.json"
@@ -110,12 +113,6 @@ def dominant_palette(im, k=3):
         r, g, b = pal[idx * 3: idx * 3 + 3] or (0, 0, 0)
         out.append(f"#{r:02X}{g:02X}{b:02X}")
     return " / ".join(out)
-
-
-def sha1_file(p):
-    h = hashlib.sha1()
-    h.update(Path(p).read_bytes())
-    return h.hexdigest()[:16]
 
 
 def reset_library(payload):
@@ -200,7 +197,7 @@ def main():
                 failed.append(f"{label}：没有对应提示词（用 --allow-missing-prompt 可强行入库）")
                 continue
             prompt = PENDING_PROMPT  # 占位，保证数据体检不报错
-        digest = sha1_file(srcs[0])
+        digest = imghash.sha1_file(srcs[0])
         if digest in seen_hash:
             skipped.append(label)
             continue
@@ -239,8 +236,9 @@ def main():
                 "thumb": f"assets/thumb/{stem}.webp",
                 "w": full.width,
                 "h": full.height,
+                "imgHash": imghash.sha1_file(FULL / f"{stem}.webp"),
             })
-            seen_hash.add(sha1_file(q))
+            seen_hash.add(imghash.sha1_file(q))
 
         tags = it.get("tags") or []
         if isinstance(tags, str):
@@ -267,6 +265,7 @@ def main():
             "w": shots[0]["w"],
             "h": shots[0]["h"],
             "shots": shots,
+            "imgHash": shots[0]["imgHash"],
             "srcHash": digest,
             "needsPrompt": prompt == PENDING_PROMPT,
         })

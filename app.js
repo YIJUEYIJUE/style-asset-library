@@ -1143,6 +1143,18 @@
     $("#boot").classList.add("hide");
     const hash = location.hash.replace("#", "").trim();
     if (hash && byId(hash)) { showLib(); detail(hash, false); }
+
+    // 站内改 hash（浏览器前进/后退、手改地址栏、点开分享链接）也要跟着切条目。
+    // detail(id, false) 与 closeDetail() 内部用的都是 replaceState，不会再派发
+    // hashchange，所以这里不会和自己打乒乓。
+    window.addEventListener("hashchange", () => {
+      const id = location.hash.replace("#", "").trim();
+      if (id && byId(id)) {
+        if (!selected || selected.id !== id) { showLib(); detail(id, false); }
+      } else if (!id && selected) {
+        closeDetail();
+      }
+    });
   }
 
   boot();

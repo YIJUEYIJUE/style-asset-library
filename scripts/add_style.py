@@ -23,14 +23,26 @@
   每张图的 prompt 存进 shots[i].prompt，详情页「分步提示词」区一对一展示。
 
   --dry-run 只打印将写入的内容，不改文件。
+
+图片去重（默认开启）
+--------------------
+按「图片内容」而不是文件名比对，与 scripts/imghash.py 同口径：
+  · srcHash = 源图文件的 SHA1 前 16 位
+  · imgHash = 压后 assets/full/*.webp 的 SHA1 前 16 位
+同一张图换个文件名、重新导出后再入库会被拦下并提示撞了哪一条；
+确实不是重复（比如同图配不同提示词的有意条目）就加 --force 强行入库。
 """
 import argparse
 import json
 import re
+import sys
 from datetime import date
 from pathlib import Path
 
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import imghash  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "styles.json"
@@ -77,6 +89,8 @@ def main():
     ap.add_argument("--shot-prompt-file", action="append", default=[],
                     help="对应示例图那一步的完整提示词文件（可重复，主图缺省用 --prompt）")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--force", action="store_true",
+                    help="图片与库内已有条目重复时仍强行入库")
     args = ap.parse_args()
 
     prompt = args.prompt
@@ -98,22 +112,52 @@ def main():
     assets = payload["assets"]
     aid, seq = next_id(assets)
 
+    # --- 内容哈希去重：先用源图跟库里比一轮，这一步不写任何文件 ---
+    hash_table = imghash.collect(assets)
+    src_hashes = []
+    for s in [args.image] + list(args.shot_image):
+        h = imghash.sha1_file(s) if Path(s).exists() else None
+        src_hashes.append(h)
+        hit = imghash.find_dup(hash_table, h)
+        if hit and not args.force:
+            raise SystemExit(
+                f"✗ {Path(s).name} 的内容与库内 {hit[1]} 完全一样（hash {hit[0]}）\n"
+                f"  确认它不是重复条目，就加 --force 强行入库")
+
     if args.dry_run:
         print(f"[dry-run] 将新增 {aid} 「{args.title}」 分类={args.category} kind={args.kind or '(tags[0])'}")
-        print(f"[dry-run] 主图 {args.image} → assets/full/{aid}.webp")
+        print(f"[dry-run] 主图 {args.image} → assets/full/{aid}.webp | srcHash {src_hashes[0]}")
         for i, (si, sp) in enumerate(zip(args.shot_image, args.shot_prompt_file), start=2):
             lab = args.shot_label[i - 2] if i - 2 < n_lab else f"步骤{chr(9312 + i - 1)}"
-            print(f"[dry-run] shot{i} {si} → assets/full/{aid}-{i}.webp | {lab} | prompt={sp or '(继承主提示词)'}")
+            print(f"[dry-run] shot{i} {si} → assets/full/{aid}-{i}.webp | {lab} | "
+                  f"prompt={sp or '(继承主提示词)'} | srcHash {src_hashes[i - 1]}")
         return
 
     FULL.mkdir(parents=True, exist_ok=True)
     THUMB.mkdir(parents=True, exist_ok=True)
+    written = []   # 重复时要撤销，避免留下垃圾文件
+
+    def guard(path, tag):
+        """压完的图再比一轮（源图被转码过时只有这一步能拦住）。"""
+        h = imghash.sha1_file(path)
+        hit = imghash.find_dup(hash_table, h)
+        if hit and not args.force:
+            for p in written:
+                p.unlink(missing_ok=True)
+            raise SystemExit(
+                f"✗ {tag} 压出的图与库内 {hit[1]} 完全一样（hash {hit[0]}），本次写入的文件已撤销\n"
+                f"  确认它不是重复条目，就加 --force 强行入库")
+        hash_table.setdefault(h, aid)
+        return h
 
     w, h = compress(args.image, FULL / f"{aid}.webp", THUMB / f"{aid}.webp")
+    written += [FULL / f"{aid}.webp", THUMB / f"{aid}.webp"]
+    main_hash = guard(FULL / f"{aid}.webp", f"主图 {Path(args.image).name}")
     shots = [{
         "img": f"assets/full/{aid}.webp",
         "thumb": f"assets/thumb/{aid}.webp",
         "w": w, "h": h,
+        "imgHash": main_hash,
         "prompt": prompt,
     }]
     if n_img:
@@ -121,10 +165,13 @@ def main():
     for i in range(n_img):
         lw, lh = compress(args.shot_image[i],
                           FULL / f"{aid}-{i + 2}.webp", THUMB / f"{aid}-{i + 2}.webp")
+        written += [FULL / f"{aid}-{i + 2}.webp", THUMB / f"{aid}-{i + 2}.webp"]
+        shot_hash = guard(FULL / f"{aid}-{i + 2}.webp", f"shot{i + 2} {Path(args.shot_image[i]).name}")
         shot = {
             "img": f"assets/full/{aid}-{i + 2}.webp",
             "thumb": f"assets/thumb/{aid}-{i + 2}.webp",
             "w": lw, "h": lh,
+            "imgHash": shot_hash,
             "label": args.shot_label[i] if i < n_lab else f"步骤{chr(0x2460 + i + 1)}",
             "prompt": (Path(args.shot_prompt_file[i]).read_text(encoding="utf-8").strip()
                        if i < n_pmt else prompt),
@@ -152,6 +199,8 @@ def main():
         "thumb": f"assets/thumb/{aid}.webp",
         "w": w,
         "h": h,
+        "srcHash": src_hashes[0],
+        "imgHash": main_hash,
     }
     if len(shots) > 1:
         entry["shots"] = shots
