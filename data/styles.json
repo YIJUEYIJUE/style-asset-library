@@ -7,16 +7,8 @@
    "count": 6
   },
   {
-   "name": "摄影——民国国风",
-   "count": 1
-  },
-  {
    "name": "摄影——生活纪实",
    "count": 3
-  },
-  {
-   "name": "插画——古风仙侠",
-   "count": 1
   },
   {
    "name": "摄影——手机摄影",
@@ -32,14 +24,10 @@
   },
   {
    "name": "摄影——日系胶片",
-   "count": 7
+   "count": 8
   },
   {
    "name": "海报——构成主义",
-   "count": 1
-  },
-  {
-   "name": "二次元——校园",
    "count": 1
   },
   {
@@ -52,7 +40,7 @@
   },
   {
    "name": "摄影——写实人像",
-   "count": 6
+   "count": 8
   },
   {
    "name": "摄影——特殊视角",
@@ -63,20 +51,12 @@
    "count": 2
   },
   {
-   "name": "角色设定——Agent",
-   "count": 1
-  },
-  {
    "name": "摄影——科幻",
-   "count": 3
+   "count": 4
   },
   {
    "name": "插画——日系动漫",
    "count": 2
-  },
-  {
-   "name": "风格参考——综合",
-   "count": 18
   },
   {
    "name": "摄影——建筑空间",
@@ -92,7 +72,7 @@
   },
   {
    "name": "摄影——复古胶片",
-   "count": 2
+   "count": 3
   },
   {
    "name": "插画——奇幻",
@@ -101,10 +81,6 @@
   {
    "name": "场景——东方神幻",
    "count": 8
-  },
-  {
-   "name": "角色设定——国风仙侠",
-   "count": 2
   },
   {
    "name": "风格参考——提示词工程",
@@ -116,7 +92,7 @@
   },
   {
    "name": "二次元——动漫角色",
-   "count": 4
+   "count": 5
   },
   {
    "name": "插画——极简",
@@ -128,7 +104,7 @@
   },
   {
    "name": "摄影——风光",
-   "count": 3
+   "count": 4
   },
   {
    "name": "风格参考——恐怖",
@@ -144,11 +120,11 @@
   },
   {
    "name": "人像——写实人像",
-   "count": 3
+   "count": 5
   },
   {
    "name": "插画——科幻",
-   "count": 1
+   "count": 2
   },
   {
    "name": "海报——电影海报",
@@ -223,15 +199,7 @@
    "count": 1
   },
   {
-   "name": "游戏——地图场景",
-   "count": 1
-  },
-  {
    "name": "摄影——艺术摄影",
-   "count": 1
-  },
-  {
-   "name": "场景——建筑空间",
    "count": 1
   },
   {
@@ -252,7 +220,7 @@
   {
    "name": "风格参考——国风古风人像",
    "tone": "NEW CATEGORY",
-   "count": 5
+   "count": 6
   },
   {
    "name": "风格参考——人像光学",
@@ -267,12 +235,7 @@
   {
    "name": "风格参考——电影摄影",
    "tone": "NEW CATEGORY",
-   "count": 3
-  },
-  {
-   "name": "风格参考——梦境人像",
-   "tone": "NEW CATEGORY",
-   "count": 1
+   "count": 4
   },
   {
    "name": "风格参考——超写实古风",
@@ -280,182 +243,7 @@
    "count": 4
   },
   {
-   "name": "风格参考——韩系柔焦",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——日系柔焦",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——上海美术电影",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——燕云十六州",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——藤本树",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——古风真人",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——现代都市",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——和平精英",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——香港电影",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——AI真人",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——3D国创",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——游戏CG",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——3D乙游",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "风格参考——美式真人",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——外星角斗士",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——外星骑士",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——赛博女神",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——沙漠神谕者",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——溺亡骑士",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——怪物猎人",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——角色立绘",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "插画——概念道具",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "人像——写实男性",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——潮玩玩具",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——赛博神祇",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——外星大使",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——赛博格",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "摄影——科幻飞碟",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "插画——生物概念",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——日系御姐",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——日系少女",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——赛博少女",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
    "name": "插画——3D插画",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "插画——科幻插画",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "摄影——胶片人像",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "摄影——创意人像",
    "tone": "NEW CATEGORY",
    "count": 1
   },
@@ -481,16 +269,6 @@
   },
   {
    "name": "插画——故障艺术",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——演奏者",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——Q版雕塑",
    "tone": "NEW CATEGORY",
    "count": 1
   },
@@ -530,16 +308,6 @@
    "count": 1
   },
   {
-   "name": "角色设定——运动角色",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "场景——科幻空间",
-   "tone": "NEW CATEGORY",
-   "count": 2
-  },
-  {
    "name": "场景——奇幻",
    "tone": "NEW CATEGORY",
    "count": 2
@@ -547,40 +315,10 @@
   {
    "name": "场景——暗黑奇幻",
    "tone": "NEW CATEGORY",
-   "count": 3
+   "count": 4
   },
   {
    "name": "角色设定——超现实角色",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "场景——建筑奇观",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——3D机甲（战锤斗篷）",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——3D机甲玩具（红银Gundam）",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——3D机甲（红甲BF-02）",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "场景——次世代古建",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——3D国风人物",
    "tone": "NEW CATEGORY",
    "count": 1
   },
@@ -590,49 +328,14 @@
    "count": 1
   },
   {
-   "name": "场景——3D国风仙侠",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "人像——复古写实",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "插画——电影CG巨兽",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——3D国漫武侠",
+   "name": "场景——3D仙侠",
    "tone": "NEW CATEGORY",
    "count": 2
   },
   {
-   "name": "场景——3D仙侠",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "场景——外星科幻",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——复古武侠人物",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "场景——写实村落",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
    "name": "场景——古风生活",
    "tone": "NEW CATEGORY",
-   "count": 1
+   "count": 2
   },
   {
    "name": "角色设定——3D写实动物",
@@ -640,89 +343,14 @@
    "count": 5
   },
   {
-   "name": "角色设定——新中式机甲",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——科幻机甲",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
    "name": "摄影——电影感纪实",
    "tone": "NEW CATEGORY",
    "count": 5
   },
   {
-   "name": "角色设定——赛博朋克僵尸",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——赛博朋克战士",
-   "tone": "NEW CATEGORY",
-   "count": 3
-  },
-  {
-   "name": "摄影——唯美人像",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "插画——赛博水墨新中式",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——古风敦煌",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "游戏——玄幻史诗场景",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——暗黑新中式男",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
    "name": "场景——玄幻巨物",
    "tone": "NEW CATEGORY",
    "count": 1
-  },
-  {
-   "name": "插画——国风幽冥",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——新中式男BJD",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——玄幻武侠中年",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "角色设定——古风帝王男主",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "摄影——复古胶片质感",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "游戏——科幻武器道具",
-   "tone": "NEW CATEGORY",
-   "count": 5
   },
   {
    "name": "插画——叙事插画",
@@ -745,34 +373,109 @@
    "count": 7
   },
   {
-   "name": "游戏——仙侠武器道具",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "场景——奇幻战场",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "游戏——暗黑道具",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "摄影——东方玄幻",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
-   "name": "摄影——航拍几何",
-   "tone": "NEW CATEGORY",
-   "count": 1
-  },
-  {
    "name": "海报——排版模板",
    "tone": "COLLECTION",
    "count": 11
+  },
+  {
+   "name": "摄影——国风人像",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "插画——国风幻想",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "角色设定——写实人物",
+   "tone": "NEW CATEGORY",
+   "count": 4
+  },
+  {
+   "name": "风格参考——sref 编号",
+   "tone": "NEW CATEGORY",
+   "count": 18
+  },
+  {
+   "name": "角色设定——国风武侠人物",
+   "tone": "NEW CATEGORY",
+   "count": 11
+  },
+  {
+   "name": "游戏——游戏场景",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "场景——建筑场景",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "风格参考——柔焦人像",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "风格参考——动漫动画风格",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "风格参考——游戏3D风格",
+   "tone": "NEW CATEGORY",
+   "count": 5
+  },
+  {
+   "name": "风格参考——真人摄影风格",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "角色设定——外星角色",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "角色设定——赛博朋克角色",
+   "tone": "NEW CATEGORY",
+   "count": 5
+  },
+  {
+   "name": "角色设定——奇幻角色",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "插画——概念设计",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "角色设定——潮玩手办",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "角色设定——日系人物",
+   "tone": "NEW CATEGORY",
+   "count": 2
+  },
+  {
+   "name": "场景——科幻场景",
+   "tone": "NEW CATEGORY",
+   "count": 3
+  },
+  {
+   "name": "角色设定——机甲",
+   "tone": "NEW CATEGORY",
+   "count": 8
+  },
+  {
+   "name": "游戏——武器道具",
+   "tone": "NEW CATEGORY",
+   "count": 7
   }
  ],
  "hero": [
@@ -1213,7 +916,7 @@
    "id": "A013",
    "seq": "013",
    "title": "民国名媛国风全身",
-   "category": "摄影——民国国风",
+   "category": "摄影——国风人像",
    "kind": "摄影",
    "tone": "",
    "palette": "#261C14 / #4D3A29 / #6E583E",
@@ -1283,7 +986,7 @@
    "id": "A015",
    "seq": "015",
    "title": "古风仙侠女性半身",
-   "category": "插画——古风仙侠",
+   "category": "插画——国风幻想",
    "kind": "插画",
    "tone": "",
    "palette": "#BDC3CD / #485459 / #929BA2",
@@ -1566,7 +1269,7 @@
    "id": "A023",
    "seq": "023",
    "title": "JK制服榻榻米躺拍",
-   "category": "二次元——校园",
+   "category": "二次元——动漫角色",
    "kind": "二次元",
    "tone": "",
    "palette": "#20271B / #5C5F56 / #424231",
@@ -1921,7 +1624,7 @@
    "id": "A033",
    "seq": "033",
    "title": "Agent Reyes角色设定",
-   "category": "角色设定——Agent",
+   "category": "角色设定——写实人物",
    "kind": "角色设定",
    "tone": "",
    "palette": "#0E1314 / #323B36 / #4E554E",
@@ -2059,7 +1762,7 @@
    "id": "A037",
    "seq": "037",
    "title": "最具电影感的超现实风格之一",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#141D1D / #4C5C5B / #242F2E",
@@ -2091,7 +1794,7 @@
    "id": "A038",
    "seq": "038",
    "title": "风格参考 A038",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#010101 / #000000 / #030101",
@@ -2187,7 +1890,7 @@
    "id": "A041",
    "seq": "041",
    "title": "这种 Midjourney 风格让人感觉像是来自另一个宇宙的失落 9",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#0C0E17 / #4F4F62 / #74748B",
@@ -2314,7 +2017,7 @@
    "id": "A045",
    "seq": "045",
    "title": "风格参考 A045",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#C1C875 / #051410 / #617387",
@@ -2346,7 +2049,7 @@
    "id": "A046",
    "seq": "046",
    "title": "风格参考 A046",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#7B684E / #5E8BBB / #3B6F88",
@@ -2378,7 +2081,7 @@
    "id": "A047",
    "seq": "047",
    "title": "风格参考 A047",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#1C5B3D / #1A5438 / #0E432D",
@@ -2442,7 +2145,7 @@
    "id": "A049",
    "seq": "049",
    "title": "风格参考 A049",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#2E569E / #1A4C97 / #F2F5F2",
@@ -2474,7 +2177,7 @@
    "id": "A050",
    "seq": "050",
    "title": "风格参考 A050",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#191A15 / #B7A49A / #0C0E0B",
@@ -2506,7 +2209,7 @@
    "id": "A051",
    "seq": "051",
    "title": "风格参考 A051",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#A0B0BC / #B0A7A3 / #D5C7C1",
@@ -2538,7 +2241,7 @@
    "id": "A052",
    "seq": "052",
    "title": "风格参考 A052",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#20251D / #5E7486 / #868D9D",
@@ -2602,7 +2305,7 @@
    "id": "A054",
    "seq": "054",
    "title": "风格参考 A054",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#01060C / #0B1D21 / #1A333A",
@@ -2737,7 +2440,7 @@
    "id": "A058",
    "seq": "058",
    "title": "宁姚｜剑来仙侠女剑修",
-   "category": "角色设定——国风仙侠",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "",
    "palette": "#2B3444 / #889FB7 / #ACC3D7",
@@ -2769,7 +2472,7 @@
    "id": "A059",
    "seq": "059",
    "title": "Lu Xueqi (陆雪琪), legendary cold swo",
-   "category": "角色设定——国风仙侠",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "",
    "palette": "#323D4A / #495E74 / #637B96",
@@ -2801,7 +2504,7 @@
    "id": "A060",
    "seq": "060",
    "title": "风格参考 A060",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "",
    "palette": "#166886 / #32968C / #BDA87C",
@@ -4389,7 +4092,7 @@
    "id": "A115",
    "seq": "115",
    "title": "白色虚空中的 47000 张照片",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "超现实概念艺术",
    "palette": "白/彩色",
@@ -4624,7 +4327,7 @@
    "id": "A124",
    "seq": "124",
    "title": "彭罗斯不可能三角混凝土",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "极逼真混凝土结构",
    "palette": "灰/混凝土",
@@ -4731,7 +4434,7 @@
    "id": "A128",
    "seq": "128",
    "title": "动漫插画转超写实照片",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "动漫转真实照片",
    "palette": "——",
@@ -4783,7 +4486,7 @@
    "id": "A130",
    "seq": "130",
    "title": "暗黑奇幻游戏地图全景",
-   "category": "游戏——地图场景",
+   "category": "游戏——游戏场景",
    "kind": "游戏",
    "tone": "暗黑奇幻游戏地图",
    "palette": "蓝黑/火山红",
@@ -4810,7 +4513,7 @@
    "id": "A131",
    "seq": "131",
    "title": "白色大理石天使 3D 雕塑",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "电影级 3D 数字渲染",
    "palette": "白/冰蓝",
@@ -4837,7 +4540,7 @@
    "id": "A132",
    "seq": "132",
    "title": "角色参考转电影超现实主体",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "角色转电影级主体",
    "palette": "——",
@@ -4863,7 +4566,7 @@
    "id": "A133",
    "seq": "133",
    "title": "戏剧面具超现实拼贴",
-   "category": "风格参考——综合",
+   "category": "风格参考——sref 编号",
    "kind": "风格参考",
    "tone": "超现实电影拼贴",
    "palette": "——",
@@ -4916,7 +4619,7 @@
    "id": "A135",
    "seq": "135",
    "title": "超宽都市立面连续长图",
-   "category": "场景——建筑空间",
+   "category": "场景——建筑场景",
    "kind": "场景",
    "tone": "超宽连续背景长图",
    "palette": "真实/生活化",
@@ -5308,7 +5011,7 @@
    "id": "A150",
    "seq": "150",
    "title": "梦境感竖屏人像模板",
-   "category": "风格参考——梦境人像",
+   "category": "风格参考——柔焦人像",
    "kind": "风格参考",
    "tone": "梦境感、凌晨残梦",
    "palette": "冷蓝 / 微光",
@@ -5569,7 +5272,7 @@
    "id": "A160",
    "seq": "160",
    "title": "韩系逆光柔焦模板",
-   "category": "风格参考——韩系柔焦",
+   "category": "风格参考——柔焦人像",
    "kind": "风格参考",
    "tone": "韩系唯美逆光柔焦",
    "palette": "暖逆光 / 柔焦",
@@ -5648,7 +5351,7 @@
    "id": "A163",
    "seq": "163",
    "title": "日系柔焦手机闪光模板",
-   "category": "风格参考——日系柔焦",
+   "category": "风格参考——柔焦人像",
    "kind": "风格参考",
    "tone": "日系复古柔焦手机闪光人像",
    "palette": "暖白窗光 / 柔焦",
@@ -5674,7 +5377,7 @@
    "id": "A164",
    "seq": "164",
    "title": "上海美术电影",
-   "category": "风格参考——上海美术电影",
+   "category": "风格参考——动漫动画风格",
    "kind": "风格参考",
    "tone": "1979 上海美术电影制片厂手绘赛璐珞；粗黑勾线、零渐变零阴影、大块高饱和平涂",
    "palette": "",
@@ -5701,7 +5404,7 @@
    "id": "A165",
    "seq": "165",
    "title": "燕云十六州",
-   "category": "风格参考——燕云十六州",
+   "category": "风格参考——游戏3D风格",
    "kind": "风格参考",
    "tone": "《燕云十六声》官方游戏内角色风格，AAA 级 3D 游戏渲染",
    "palette": "",
@@ -5728,7 +5431,7 @@
    "id": "A166",
    "seq": "166",
    "title": "藤本树",
-   "category": "风格参考——藤本树",
+   "category": "风格参考——动漫动画风格",
    "kind": "风格参考",
    "tone": "画师 uki atsuya 的漫画触发词风格",
    "palette": "",
@@ -5755,7 +5458,7 @@
    "id": "A167",
    "seq": "167",
    "title": "古风真人",
-   "category": "风格参考——古风真人",
+   "category": "风格参考——国风古风人像",
    "kind": "风格参考",
    "tone": "亚洲古装写实摄影；哑光无反光皮肤、小头比例、全年龄真实古装人物",
    "palette": "",
@@ -5782,7 +5485,7 @@
    "id": "A168",
    "seq": "168",
    "title": "现代都市",
-   "category": "风格参考——现代都市",
+   "category": "风格参考——真人摄影风格",
    "kind": "风格参考",
    "tone": "现代剧集亚洲真人；偶像剧调色、超柔散射光、顶级神颜、全年龄真实",
    "palette": "",
@@ -5809,7 +5512,7 @@
    "id": "A169",
    "seq": "169",
    "title": "和平精英",
-   "category": "风格参考——和平精英",
+   "category": "风格参考——游戏3D风格",
    "kind": "风格参考",
    "tone": "和平精英战术大逃杀；半写实 CG、AAA 实时游戏电影级渲染、UE5 式光照",
    "palette": "",
@@ -5836,7 +5539,7 @@
    "id": "A170",
    "seq": "170",
    "title": "香港电影",
-   "category": "风格参考——香港电影",
+   "category": "风格参考——电影摄影",
    "kind": "风格参考",
    "tone": "邵氏60年代港片；暖黄正色胶片、重颗粒、戏剧棚光、怀旧梦幻",
    "palette": "",
@@ -5889,7 +5592,7 @@
    "id": "A172",
    "seq": "172",
    "title": "AI真人",
-   "category": "风格参考——AI真人",
+   "category": "风格参考——真人摄影风格",
    "kind": "风格参考",
    "tone": "纪实写实（建议垫图）；人文纪实摄影、哑光定妆粉肌、超写实发丝",
    "palette": "",
@@ -5916,7 +5619,7 @@
    "id": "A173",
    "seq": "173",
    "title": "3D国创",
-   "category": "风格参考——3D国创",
+   "category": "风格参考——游戏3D风格",
    "kind": "风格参考",
    "tone": "3D 国风 CG、凡人修仙传 3D 风格",
    "palette": "",
@@ -5942,7 +5645,7 @@
    "id": "A174",
    "seq": "174",
    "title": "游戏CG",
-   "category": "风格参考——游戏CG",
+   "category": "风格参考——游戏3D风格",
    "kind": "风格参考",
    "tone": "中国 CG 雕塑脸标准、国风 CG、仙侠 3D 动画、UE5 路径追踪",
    "palette": "",
@@ -5969,7 +5672,7 @@
    "id": "A175",
    "seq": "175",
    "title": "3D乙游",
-   "category": "风格参考——3D乙游",
+   "category": "风格参考——游戏3D风格",
    "kind": "风格参考",
    "tone": "超写实 3D 二次元融合、半透明分层发丝、梦幻浪漫氛围",
    "palette": "",
@@ -5995,7 +5698,7 @@
    "id": "A176",
    "seq": "176",
    "title": "美式真人",
-   "category": "风格参考——美式真人",
+   "category": "风格参考——真人摄影风格",
    "kind": "风格参考",
    "tone": "ReelShort 短剧剧照；多元美国网剧卡司、写实白人顶级美学标准",
    "palette": "",
@@ -6022,7 +5725,7 @@
    "id": "A177",
    "seq": "177",
    "title": "史诗暗黑外星角斗士",
-   "category": "角色设定——外星角斗士",
+   "category": "角色设定——外星角色",
    "kind": "角色设定",
    "tone": "史诗暗黑电影感",
    "palette": "黑/青铜/灰烬灰/深绯红",
@@ -6050,7 +5753,7 @@
    "id": "A178",
    "seq": "178",
    "title": "教堂纹饰外星骑士",
-   "category": "角色设定——外星骑士",
+   "category": "角色设定——外星角色",
    "kind": "角色设定",
    "tone": "暗黑肃穆奇幻",
    "palette": "银灰/暗调",
@@ -6076,7 +5779,7 @@
    "id": "A179",
    "seq": "179",
    "title": "白发红眼赛博女神",
-   "category": "角色设定——赛博女神",
+   "category": "角色设定——赛博朋克角色",
    "kind": "角色设定",
    "tone": "空灵恐怖",
    "palette": "白/红/黑",
@@ -6103,7 +5806,7 @@
    "id": "A180",
    "seq": "180",
    "title": "沙漠盲眼神谕者",
-   "category": "角色设定——沙漠神谕者",
+   "category": "角色设定——奇幻角色",
    "kind": "角色设定",
    "tone": "苍凉写实",
    "palette": "哑光土色",
@@ -6129,7 +5832,7 @@
    "id": "A181",
    "seq": "181",
    "title": "溺亡骑士",
-   "category": "角色设定——溺亡骑士",
+   "category": "角色设定——奇幻角色",
    "kind": "角色设定",
    "tone": "阴森不祥",
    "palette": "锈蚀黑/幽绿",
@@ -6155,7 +5858,7 @@
    "id": "A182",
    "seq": "182",
    "title": "雪原怪物猎人",
-   "category": "角色设定——怪物猎人",
+   "category": "角色设定——奇幻角色",
    "kind": "角色设定",
    "tone": "冷冽硬核",
    "palette": "冷蓝/暗调",
@@ -6181,7 +5884,7 @@
    "id": "A183",
    "seq": "183",
    "title": "青发街头青年角色立绘",
-   "category": "角色设定——角色立绘",
+   "category": "角色设定——写实人物",
    "kind": "角色设定",
    "tone": "清爽街头",
    "palette": "白/青绿/中性",
@@ -6207,7 +5910,7 @@
    "id": "A184",
    "seq": "184",
    "title": "断剑概念",
-   "category": "插画——概念道具",
+   "category": "插画——概念设计",
    "kind": "插画",
    "tone": "极简",
    "palette": "未指定",
@@ -6232,7 +5935,7 @@
    "id": "A185",
    "seq": "185",
    "title": "男人",
-   "category": "人像——写实男性",
+   "category": "人像——写实人像",
    "kind": "人像",
    "tone": "通用",
    "palette": "未指定",
@@ -6255,7 +5958,7 @@
    "id": "A186",
    "seq": "186",
    "title": "搪胶弓箭手潮玩",
-   "category": "角色设定——潮玩玩具",
+   "category": "角色设定——潮玩手办",
    "kind": "角色设定",
    "tone": "潮玩质感",
    "palette": "哑光/白底",
@@ -6281,7 +5984,7 @@
    "id": "A187",
    "seq": "187",
    "title": "赛博神祇",
-   "category": "角色设定——赛博神祇",
+   "category": "角色设定——赛博朋克角色",
    "kind": "角色设定",
    "tone": "戏剧赛博朋克",
    "palette": "蓝霓虹/多彩",
@@ -6307,7 +6010,7 @@
    "id": "A188",
    "seq": "188",
    "title": "四臂外星大使",
-   "category": "角色设定——外星大使",
+   "category": "角色设定——外星角色",
    "kind": "角色设定",
    "tone": "威严庄重",
    "palette": "生物发光",
@@ -6333,7 +6036,7 @@
    "id": "A189",
    "seq": "189",
    "title": "全息面具男赛博格",
-   "category": "角色设定——赛博格",
+   "category": "角色设定——赛博朋克角色",
    "kind": "角色设定",
    "tone": "写实胶片感",
    "palette": "黑/蓝/白",
@@ -6359,7 +6062,7 @@
    "id": "A190",
    "seq": "190",
    "title": "黑白飞碟摄影",
-   "category": "摄影——科幻飞碟",
+   "category": "摄影——科幻",
    "kind": "摄影",
    "tone": "神秘不祥",
    "palette": "黑白高反差",
@@ -6386,7 +6089,7 @@
    "id": "A191",
    "seq": "191",
    "title": "外星六足掠食者解剖",
-   "category": "插画——生物概念",
+   "category": "插画——概念设计",
    "kind": "插画",
    "tone": "科学解剖",
    "palette": "未指定",
@@ -6412,7 +6115,7 @@
    "id": "A192",
    "seq": "192",
    "title": "日系御姐教师",
-   "category": "角色设定——日系御姐",
+   "category": "角色设定——日系人物",
    "kind": "角色设定",
    "tone": "冷峻权威",
    "palette": "深灰/白/黑板绿",
@@ -6468,7 +6171,7 @@
    "id": "A194",
    "seq": "194",
    "title": "雨天JK少女",
-   "category": "角色设定——日系少女",
+   "category": "角色设定——日系人物",
    "kind": "角色设定",
    "tone": "忧郁内省",
    "palette": "冷蓝/街灯黄",
@@ -6524,7 +6227,7 @@
    "id": "A196",
    "seq": "196",
    "title": "赛博朋克持刀少女",
-   "category": "角色设定——赛博少女",
+   "category": "角色设定——赛博朋克角色",
    "kind": "角色设定",
    "tone": "凌厉神秘",
    "palette": "霓虹彩/湿地面反光",
@@ -6633,7 +6336,7 @@
    "id": "A200",
    "seq": "200",
    "title": "赛博朋克花卉",
-   "category": "插画——科幻插画",
+   "category": "插画——科幻",
    "kind": "插画",
    "tone": "未来冷艳",
    "palette": "靛蓝/蓝粉",
@@ -6659,7 +6362,7 @@
    "id": "A201",
    "seq": "201",
    "title": "日系少女胶片肖像",
-   "category": "摄影——胶片人像",
+   "category": "摄影——日系胶片",
    "kind": "摄影",
    "tone": "清冷梦幻",
    "palette": "蓝调/去饱和",
@@ -6687,7 +6390,7 @@
    "id": "A202",
    "seq": "202",
    "title": "光影鱼影人像",
-   "category": "摄影——创意人像",
+   "category": "摄影——写实人像",
    "kind": "摄影",
    "tone": "朦胧梦幻",
    "palette": "棕黑/水色",
@@ -6872,7 +6575,7 @@
    "id": "A209",
    "seq": "209",
    "title": "舞台钢琴家",
-   "category": "角色设定——演奏者",
+   "category": "角色设定——写实人物",
    "kind": "角色设定",
    "tone": "优雅",
    "palette": "舞台光",
@@ -6898,7 +6601,7 @@
    "id": "A210",
    "seq": "210",
    "title": "Q版陶瓷天使雕塑",
-   "category": "角色设定——Q版雕塑",
+   "category": "角色设定——潮玩手办",
    "kind": "角色设定",
    "tone": "梦幻萌系",
    "palette": "白/浅金/粉紫",
@@ -7234,7 +6937,7 @@
    "id": "A223",
    "seq": "223",
    "title": "男生拳击",
-   "category": "角色设定——运动角色",
+   "category": "角色设定——写实人物",
    "kind": "角色设定",
    "tone": "力量",
    "palette": "硬调",
@@ -7259,7 +6962,7 @@
    "id": "A224",
    "seq": "224",
    "title": "太空镜面",
-   "category": "场景——科幻空间",
+   "category": "场景——科幻场景",
    "kind": "场景",
    "tone": "虚实交织",
    "palette": "冷调/镜面",
@@ -7445,7 +7148,7 @@
    "id": "A231",
    "seq": "231",
    "title": "沙漠巨构",
-   "category": "场景——建筑奇观",
+   "category": "场景——建筑场景",
    "kind": "场景",
    "tone": "恢弘奇迹",
    "palette": "砂岩/黑玻璃/金",
@@ -7472,7 +7175,7 @@
    "id": "A232",
    "seq": "232",
    "title": "科幻机甲·白蓝橙战锤斗篷",
-   "category": "角色设定——3D机甲（战锤斗篷）",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "冷峻威严/暗含力量",
    "palette": "白蓝主体+橙点缀+深灰背景",
@@ -7501,7 +7204,7 @@
    "id": "A233",
    "seq": "233",
    "title": "科幻机甲玩具·红银黑多管炮长剑",
-   "category": "角色设定——3D机甲玩具（红银Gundam）",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "冷峻科技/攻击性",
    "palette": "红银黑+绿传感器",
@@ -7531,7 +7234,7 @@
    "id": "A234",
    "seq": "234",
    "title": "科幻机甲·红甲BF-02巨剑",
-   "category": "角色设定——3D机甲（红甲BF-02）",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "威严/科幻战斗",
    "palette": "红黑银+深灰背景",
@@ -7560,7 +7263,7 @@
    "id": "A235",
    "seq": "235",
    "title": "次世代古建场景·UE5硬表面",
-   "category": "场景——次世代古建",
+   "category": "场景——建筑场景",
    "kind": "场景",
    "tone": "宏大史诗",
    "palette": "写实冷暖场景",
@@ -7588,7 +7291,7 @@
    "id": "A236",
    "seq": "236",
    "title": "3D国风人物·头饰工艺肖像",
-   "category": "角色设定——3D国风人物",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "空灵静谧华丽",
    "palette": "东方传统+数字艺术",
@@ -7644,7 +7347,7 @@
    "id": "A238",
    "seq": "238",
    "title": "3D国风仙侠场景·古典园林",
-   "category": "场景——3D国风仙侠",
+   "category": "场景——3D仙侠",
    "kind": "场景",
    "tone": "真实神秘史诗",
    "palette": "朱红暖黄×青绿深蓝冷暖对比",
@@ -7672,7 +7375,7 @@
    "id": "A239",
    "seq": "239",
    "title": "复古写实人像·寸头脸部特写",
-   "category": "人像——复古写实",
+   "category": "人像——写实人像",
    "kind": "人像",
    "tone": "怀旧高级",
    "palette": "低饱和复古",
@@ -7699,7 +7402,7 @@
    "id": "A240",
    "seq": "240",
    "title": "电影CG史诗巨兽",
-   "category": "插画——电影CG巨兽",
+   "category": "插画——概念设计",
    "kind": "插画",
    "tone": "宏大史诗真实",
    "palette": "材质物理还原",
@@ -7726,7 +7429,7 @@
    "id": "A241",
    "seq": "241",
    "title": "3D国漫武侠仙侠角色",
-   "category": "角色设定——3D国漫武侠",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "细腻写实史诗",
    "palette": "金属光泽做旧",
@@ -7781,7 +7484,7 @@
    "id": "A243",
    "seq": "243",
    "title": "写实外星科幻场景·巨物太空",
-   "category": "场景——外星科幻",
+   "category": "场景——科幻场景",
    "kind": "场景",
    "tone": "深邃孤寂震撼",
    "palette": "天文光照+岩石金属冰面",
@@ -7809,7 +7512,7 @@
    "id": "A244",
    "seq": "244",
    "title": "写实复古武侠人物",
-   "category": "角色设定——复古武侠人物",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "复杂材质真实",
    "palette": "丝绸金线棉麻",
@@ -7836,7 +7539,7 @@
    "id": "A245",
    "seq": "245",
    "title": "写实传统村落农耕",
-   "category": "场景——写实村落",
+   "category": "场景——古风生活",
    "kind": "场景",
    "tone": "岁月沉淀",
    "palette": "风化木材斑驳石墙",
@@ -7917,7 +7620,7 @@
    "id": "A248",
    "seq": "248",
    "title": "新中式神性机甲法相｜Art Nouveau 圣坛主视觉",
-   "category": "角色设定——新中式机甲",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "神秘奢华中式",
    "palette": "玉白/青铜/金",
@@ -7943,7 +7646,7 @@
    "id": "A249",
    "seq": "249",
    "title": "深空守护者机甲｜失落文明存档者",
-   "category": "角色设定——科幻机甲",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "孤独神秘",
    "palette": "金属冷调",
@@ -8021,7 +7724,7 @@
    "id": "A252",
    "seq": "252",
    "title": "机械僵尸生物｜赛博朋克恐怖 VFX",
-   "category": "角色设定——赛博朋克僵尸",
+   "category": "角色设定——赛博朋克角色",
    "kind": "角色设定",
    "tone": "粗粝绿光",
    "palette": "绿/白/黑",
@@ -8048,7 +7751,7 @@
    "id": "A253",
    "seq": "253",
    "title": "赛博朋克机械战士｜等离子蓝电",
-   "category": "角色设定——赛博朋克战士",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "强对比明暗",
    "palette": "深红/金/蓝",
@@ -8074,7 +7777,7 @@
    "id": "A254",
    "seq": "254",
    "title": "窗边红木书桌少女读信｜自然光人像",
-   "category": "摄影——唯美人像",
+   "category": "摄影——写实人像",
    "kind": "摄影",
    "tone": "柔光青紫辉光",
    "palette": "红木/浅蓝/百合白",
@@ -8100,7 +7803,7 @@
    "id": "A255",
    "seq": "255",
    "title": "赛博水墨新中式魅魔少女｜粒子消散",
-   "category": "插画——赛博水墨新中式",
+   "category": "插画——国风幻想",
    "kind": "插画",
    "tone": "冷白",
    "palette": "银箔岩彩/暗粉",
@@ -8126,7 +7829,7 @@
    "id": "A256",
    "seq": "256",
    "title": "敦煌风清冷少年｜面部特写",
-   "category": "角色设定——古风敦煌",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "暗金梦核",
    "palette": "黑灰/云母光泽",
@@ -8152,7 +7855,7 @@
    "id": "A257",
    "seq": "257",
    "title": "东方战神御穷奇｜黑雾巨龙特效",
-   "category": "游戏——玄幻史诗场景",
+   "category": "游戏——游戏场景",
    "kind": "游戏",
    "tone": "黑白对比",
    "palette": "黑/银白/青铜",
@@ -8178,7 +7881,7 @@
    "id": "A258",
    "seq": "258",
    "title": "暗黑妖冶中式男子｜单凤眼特写",
-   "category": "角色设定——暗黑新中式男",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "朦胧暗黑",
    "palette": "金/暗",
@@ -8230,7 +7933,7 @@
    "id": "A260",
    "seq": "260",
    "title": "古风幽冥美人与紫焰巨猫｜国风写实",
-   "category": "插画——国风幽冥",
+   "category": "插画——国风幻想",
    "kind": "插画",
    "tone": "柔光邪魅",
    "palette": "蓝紫/花瓣",
@@ -8256,7 +7959,7 @@
    "id": "A261",
    "seq": "261",
    "title": "新中式黑狐环抱男子｜BJD特写",
-   "category": "角色设定——新中式男BJD",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "朦胧迷幻",
    "palette": "黑/红/发光",
@@ -8282,7 +7985,7 @@
    "id": "A262",
    "seq": "262",
    "title": "玄天宗峰主斥责｜玄幻武侠中景",
-   "category": "角色设定——玄幻武侠中年",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "暗调沉稳",
    "palette": "黑/红木/灰",
@@ -8308,7 +8011,7 @@
    "id": "A263",
    "seq": "263",
    "title": "清冷禁欲古风帝王｜雪夜宫阙",
-   "category": "角色设定——古风帝王男主",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "冷调柔光",
    "palette": "黑金/玄色",
@@ -8334,7 +8037,7 @@
    "id": "A264",
    "seq": "264",
    "title": "复古胶片柔光人像｜浅景深漫反射",
-   "category": "摄影——复古胶片质感",
+   "category": "摄影——复古胶片",
    "kind": "摄影",
    "tone": "低饱和复古",
    "palette": "大地色/青灰",
@@ -8360,7 +8063,7 @@
    "id": "A265",
    "seq": "265",
    "title": "次世代科幻手枪｜白灰黑金属 CGI",
-   "category": "游戏——科幻武器道具",
+   "category": "游戏——武器道具",
    "kind": "游戏",
    "tone": "冷金属",
    "palette": "白/灰/黑",
@@ -8387,7 +8090,7 @@
    "id": "A266",
    "seq": "266",
    "title": "科幻爆能枪｜银白青蓝能量",
-   "category": "游戏——科幻武器道具",
+   "category": "游戏——武器道具",
    "kind": "游戏",
    "tone": "冷金属发光",
    "palette": "银白/青蓝/黄",
@@ -8414,7 +8117,7 @@
    "id": "A267",
    "seq": "267",
    "title": "橙黑科幻能量武器｜蓝色能量核",
-   "category": "游戏——科幻武器道具",
+   "category": "游戏——武器道具",
    "kind": "游戏",
    "tone": "冷金属",
    "palette": "橙/黑/蓝",
@@ -9318,7 +9021,7 @@
    "id": "A301",
    "seq": "301",
    "title": "江湖抱拳保重｜3D武侠正片截帧",
-   "category": "角色设定——3D国漫武侠",
+   "category": "角色设定——国风武侠人物",
    "kind": "角色设定",
    "tone": "阳光爽朗坦荡",
    "palette": "深青灰常服+晴朗天光",
@@ -9347,7 +9050,7 @@
    "id": "A302",
    "seq": "302",
    "title": "仙侠双形态变形武器设计表",
-   "category": "游戏——仙侠武器道具",
+   "category": "游戏——武器道具",
    "kind": "游戏",
    "tone": "冷冽华丽晶体质感",
    "palette": "黑银金属+青色水晶",
@@ -9407,7 +9110,7 @@
    "id": "A304",
    "seq": "304",
    "title": "草原战场环境资产｜双峰地标",
-   "category": "场景——奇幻战场",
+   "category": "场景——暗黑奇幻",
    "kind": "场景",
    "tone": "辽阔史诗通透",
    "palette": "青绿草原+暖金逆光",
@@ -9930,7 +9633,7 @@
    "id": "A320",
    "seq": "320",
    "title": "科幻维京长剑｜武器概念设计",
-   "category": "游戏——科幻武器道具",
+   "category": "游戏——武器道具",
    "kind": "游戏",
    "tone": "",
    "palette": "",
@@ -9954,7 +9657,7 @@
    "id": "A321",
    "seq": "321",
    "title": "赛博朋克左轮｜武器全身/细节/三视图",
-   "category": "游戏——科幻武器道具",
+   "category": "游戏——武器道具",
    "kind": "游戏",
    "tone": "",
    "palette": "",
@@ -10006,7 +9709,7 @@
    "id": "A322",
    "seq": "322",
    "title": "枯木发光面具｜暗黑道具概念",
-   "category": "游戏——暗黑道具",
+   "category": "游戏——武器道具",
    "kind": "游戏",
    "tone": "",
    "palette": "",
@@ -10049,7 +9752,7 @@
    "id": "A323",
    "seq": "323",
    "title": "东方玄幻人物特写｜乾坤圈与朱红薄纱·暖光朦胧",
-   "category": "摄影——东方玄幻",
+   "category": "摄影——国风人像",
    "kind": "摄影",
    "tone": "",
    "palette": "",
@@ -10099,7 +9802,7 @@
    "id": "A325",
    "seq": "325",
    "title": "烬｜盲眼白发机甲老兵（3D国漫）",
-   "category": "角色设定——赛博朋克战士",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "",
    "palette": "",
@@ -10166,7 +9869,7 @@
    "id": "A327",
    "seq": "327",
    "title": "主角异星｜蓝发机甲剑士特写",
-   "category": "角色设定——赛博朋克战士",
+   "category": "角色设定——机甲",
    "kind": "角色设定",
    "tone": "",
    "palette": "",
@@ -10190,7 +9893,7 @@
    "id": "A328",
    "seq": "328",
    "title": "环形平台塔基｜琥珀灯光科幻建筑群（21:9）",
-   "category": "场景——科幻空间",
+   "category": "场景——科幻场景",
    "kind": "场景",
    "tone": "",
    "palette": "",
@@ -10240,7 +9943,7 @@
    "id": "A330",
    "seq": "330",
    "title": "彩色盐田俯拍｜粉青赭几何色块",
-   "category": "摄影——航拍几何",
+   "category": "摄影——风光",
    "kind": "摄影",
    "tone": "",
    "palette": "",
