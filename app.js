@@ -1068,7 +1068,12 @@ let chunkTotal = 0, chunksLoaded = 0;
         }
       }
     } catch (e) { /* 目录不可用，走下面的整包回退 */ }
-    const d = await (await fetch("data/styles.json", { cache: "no-cache" })).json();
+    let d;
+    try {
+      d = await (await fetch("data/styles.json", { cache: "no-cache" })).json();
+    } catch (e) {
+      d = await (await fetch("data/styles.json", { cache: "no-cache" })).json(); // 慢网重试一次
+    }
     assets = d.assets; categories = d.cats || []; heroIds = d.hero || [];
   }
 
@@ -1128,6 +1133,7 @@ let chunkTotal = 0, chunksLoaded = 0;
     $("#boot").classList.add("hide");
     const hash = location.hash.replace("#", "").trim();
     if (hash && byId(hash)) { showLib(); detail(hash, false); }
+    else if (hash && !byId(hash)) toast("该条目已不存在或链接有误");
 
     // 站内改 hash（浏览器前进/后退、手改地址栏、点开分享链接）也要跟着切条目。
     // detail(id, false) 与 closeDetail() 内部用的都是 replaceState，不会再派发
@@ -1136,6 +1142,8 @@ let chunkTotal = 0, chunksLoaded = 0;
       const id = location.hash.replace("#", "").trim();
       if (id && byId(id)) {
         if (!selected || selected.id !== id) { showLib(); detail(id, false); }
+      } else if (id && !byId(id)) {
+        toast("该条目已不存在或链接有误");
       } else if (!id && selected) {
         closeDetail();
       }

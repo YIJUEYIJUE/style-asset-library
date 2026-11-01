@@ -101,7 +101,7 @@ python3 scripts/add_style.py --image step1.png --prompt-file step1.txt \
 | `updated` | 更新日期 | | `YYYY.MM.DD` |
 | `prompt` | 提示词原文 | ✅ | **原文照录不改写**；看片台全文展示，一键复制。**里面不允许混入备注/说明** |
 | `zh` | 中文译文 | | 英文 `prompt` 对应的中文；有它看片台就出「原文 / 中文译文」页签 |
-| `en` | 英文译文 | | 中文 `prompt` 对应的英文，与 `zh` 对称 |
+| `en` | 英文译文 | | 中文 `prompt` 对应的英文；机制已就绪（i18n.txt 写 `## <key> en` 块），当前未启用、无存量 |
 | `note` | 补充说明 | | 参数 / 适用场景 / 来源；**不属于提示词**，看片台单独一栏，复制提示词时不带它 |
 | `img` | 详情大图路径 | ✅ | `assets/full/A012.webp` |
 | `thumb` | 缩略图路径 | ✅ | `assets/thumb/A012.webp` |
