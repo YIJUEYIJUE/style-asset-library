@@ -105,6 +105,7 @@ python3 scripts/add_style.py --image step1.png --prompt-file step1.txt \
 | `note` | 补充说明 | | 参数 / 适用场景 / 来源；**不属于提示词**，看片台单独一栏，复制提示词时不带它 |
 | `img` | 详情大图路径 | ✅ | `assets/full/A012.webp` |
 | `thumb` | 缩略图路径 | ✅ | `assets/thumb/A012.webp` |
+| `shots[]` | 多张示例图 | | 第二条起文件名 `A012-2.webp`；`shots[0]` = 封面 |
 | `w` / `h` | 大图宽高 | | 像素 |
 | `shots[]` | 多张示例图 | | 第二条起文件名 `A012-2.webp`；`shots[0]` = 封面 |
 | `srcHash` | 来源图 sha1 | | 用户手里**原始源图**的 SHA1 前 16 位。只在入库那一刻能算到，原始素材不落仓库，所以补不回来（A001–A092 有，之后没有） |
