@@ -1101,6 +1101,11 @@ let chunkTotal = 0, chunksLoaded = 0;
       await fetchChunk(i);
       chunksLoaded++;
       renderGrid();
+      // 慢网深链：详情先于所在 chunk 打开时 prompt/图是空占位，补齐后重渲一次自愈
+      if (selected && !selected.prompt) {
+        const a = byId(selected.id);
+        if (a && a.prompt) detail(selected.id, false);
+      }
     }
   }
 
