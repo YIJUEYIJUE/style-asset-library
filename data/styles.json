@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 358,
+ "count": 360,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 38
+   "count": 40
   },
   {
    "name": "人像——身份参考",
@@ -10891,6 +10891,70 @@
    "srcHash": "242e173948711ea6",
    "imgHash": "bb888322fd16ae67",
    "zh": "画面主体与环境置景核心元素：东亚青年男女群像，前景背影人物，中心短发女性，白衬衫少年，棕色衬衫少年，灰色工装衬衫青年，指向性手势，森林树木与茂密植被\n美学调性：青春成长剧情 / 悬疑 drama / 复古年代电影质感 / 约1960至1970年代 / 午后 / 室外\n具体置景：林地与城市郊野森林丨粗壮树干，交错枝条，浓密阔叶植物，自然林间空地，复古日常服装，群体对峙式站位\n视听摄影与美学工业镜头构图：2.10:1 / 电影宽银幕实拍格式 / 中景至中近景群像 / 平视机位略带低角度感 / 约50mm镜头，T2.8至T4浅景深 / 前景遮挡与越肩构图，中心人物视觉锚定，三分法，多层次纵深构图\n色彩光影：橄榄绿，深森林绿，暖棕色，米白色与低饱和蓝色的自然复古调色 / 斑驳树影光，柔和高光，适度反差，电影级自然主义光影 / 午后低角度太阳光穿过树冠形成的间接自然光与局部反射光\n后期特效：无明显数字特效，轻微胶片颗粒，柔和高光晕染，自然景深，轻度复古调色 / 电影胶片模拟与实拍摄影质感，柔和动态范围，细腻肤色还原\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：东亚青年少年群像、虚化前景背影、中央短发女性、白衬衫少年、棕衬衫少年、灰工装衬衫青年、指向手势、密林植被与树干\n调性风格：青春成长剧 / 悬疑剧 / 年代片质感 / 约1960-1970年代 / 午后 / 室外\n置景设计：林地与城市郊野森林 | 粗壮树干、交错枝条、浓密阔叶、自然林间空地、低调复古日常服装、对峙式群像站位\n\n【电影摄影与技术规格 / 镜头与构图】\n\n镜头与构图：2.10:1 / 真人电影年代片格式 / 中景至中近景群像 / 平视略低角度 / 约50mm镜头、T2.8至T4光圈 / 前景遮挡+越肩构图、中央视觉锚定、三分法、多层次纵深\n光影与色彩：橄榄绿、深森林绿、暖棕、米白与低饱和蓝的自然复古调色 / 斑驳树影、柔和高光、适度反差、电影自然主义 / 午后低角度阳光穿树冠+局部反射补光\n后期特效：无明显数字特效，轻微胶片颗粒、柔和高光晕染、自然景深、克制复古调色 / 胶片模拟+实景拍摄质感、柔和动态范围、细腻肤色"
+  },
+  {
+   "id": "A361",
+   "seq": "361",
+   "title": "乡村院落赤膊青年群像｜80年代社会写实",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "土黄×灰砖暖调·午后自然光·35mm胶片质感",
+   "palette": "土黄+灰砖+米白+暗绿+肤色",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "社会写实",
+    "80年代",
+    "乡村",
+    "群像",
+    "院落",
+    "胶片质感",
+    "2.05:1"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "三明治结构（上画面 1258×601 + 中文白字 + 英文暗字增强）。中文段 2 处丨（通道丨x1125、为主丨x1118）均像素独立全高竖判定为真丨，与英文段 2 处「|」对应。字级仲裁两处：「对活动线」（活：氵偏旁，非话/讠）、「带有轻微」（A2 漏字）。英文段标题无括号连排照录。声称 2.05:1（画面 2.093，照录）。",
+   "prompt": "画面主体与环境置景核心元素：五名年轻中国男性、赤裸上身的健壮男子、身穿白色背心的青年、手持木板的青年、围观交谈的人群、老式摩托车、灰砖院墙、乡村院落、树木与旧民居\n美学调性：现实主义剧情片 / 1980年代中国乡村社会背景 / 午后至傍晚前 / 室外\n具体置景：乡村居民院落与狭窄砖墙通道丨青灰色老砖墙、斑驳墙面、旧式门窗、红色墙面标语或告示、金属水管、树荫、老式摩托车、木板、简朴服装与生活杂物视听摄影与美学工业镜头构图：约2.05:1宽银幕比例 / 写实电影摄影格式 / 中景至中近景群像 / 平视机位，略带近距离观察感 / 约35毫米至50毫米焦距，约f/4至f/5.6 / 群像式层次构图、前中后景交错、人物视线形成对活动线、砖墙线条制造框景与纵深\n色彩光影：土黄、灰砖、米白、暗绿与肤色构成的低饱和暖色调 / 自然主义柔和光效，带有轻微高光压缩与胶片颗粒质感 / 午后低角度阳光、树叶间隙形成的斑驳光、环境反射光与砖墙反光\n后期特效：无明显数字特效，以真实环境质感、自然景深、轻微胶片颗粒和柔和色彩分级为主丨写实摄影机渲染质感，模拟35毫米胶片或高品质数字电影摄影，保留皮肤纹理、砖墙磨损与自然阴影细节\n\nCinematic Elements & Setting\nCore Visuals: Five young Chinese men, shirtless athletic man, young man in a white tank top, man holding a wooden board, group conversation, vintage motorcycle, gray brick courtyard walls, rural compound, trees and old residential buildings\nTonal Style: Social realist drama / 1980s rural China / Late afternoon / Exterior\nSet Design: Rural residential courtyard and narrow brick-walled passage | Weathered gray brick walls, aged masonry, old doors and windows, faded red wall notice or signage, exposed metal piping, leafy shade, vintage motorcycle, wooden board, plain period clothing and modest household detailsCinematic Photography & Tech Specification\nCamera & Framing: Approximately 2.05:1 widescreen aspect ratio / Live-action cinematic realism / Medium to medium-close group shot / Eye-level camera with an intimate observational angle / Approximately 35mm to 50mm lens at around f/4 to f/5.6 / Layered ensemble composition, overlapping foreground and middle-ground figures, eyelines creating conversational movement, brick walls forming natural framing and depth\nLighting & Color: Muted warm palette of ochre, weathered gray, ivory, dark green and natural skin tones / Soft naturalistic lighting with gentle highlight roll-off and subtle film-grain character / Low-angle late-afternoon sunlight, dappled light filtered through leaves, ambient bounce light and warm reflection from the brick walls\nPost-VFX: No obvious digital visual effects; emphasis on authentic environmental texture, natural depth of field, subtle film grain and restrained color grading | Photorealistic live-action render quality with a 35mm film or high-end digital cinema look, preserving skin texture, masonry wear and natural shadow detail",
+   "img": "assets/full/A361.webp",
+   "thumb": "assets/thumb/A361.webp",
+   "w": 1258,
+   "h": 601,
+   "srcHash": "f0562e3afa3d9617",
+   "imgHash": "e4e6ee9045c050e4",
+   "zh": "画面主体与环境置景核心元素：五名年轻中国男性、赤裸上身的健壮青年、白背心青年、持木板青年、群体对话、复古摩托车、灰砖院墙、乡村院落、树木与旧民居\n美学调性：现实主义剧情片 / 约1980年代中国乡村 / 午后 / 室外\n具体置景：乡村居民院落与狭窄砖墙通道丨青灰色老砖墙、斑驳墙面、旧式木门与门框、晾衣绳与悬挂衣物、杂物堆放、复古摩托车、地面尘土与碎石\n视听摄影与美学工业镜头构图：约2.05:1宽银幕 / 写实真人电影摄影 / 中景群像构图 / 平视机位 / 约35毫米镜头，约f/4至f/5.6 / 群像式层次构图、前中后景交错、人物视线形成对活动线、砖墙线条制造框景与纵深\n色彩光影：土黄、灰砖、米白、暗绿与肤色构成的低饱和暖色调 / 自然主义柔和光效，带有轻微高光压缩与胶片颗粒质感 / 午后低角度阳光、树叶间隙光与反射光\n后期特效：无明显数字特效，轻微胶片颗粒和柔和色彩分级为主丨写实摄影机渲染质感，模拟35毫米胶片或高端数字电影外观，保留皮肤纹理、砖石磨损与自然阴影细节\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：五名中国青年、赤膊健壮者、白背心者、持木板者、群像对话、复古摩托、灰砖院墙、乡村院落、树木旧居\n调性风格：社会写实剧 / 约1980年代中国乡村 / 午后 / 室外\n置景设计：乡村居民院落+窄砖墙通道 | 青灰老砖墙、斑驳墙面、旧木门、晾衣绳衣物、杂物、复古摩托、尘土碎石地面\n\n【电影摄影与技术规格 / 镜头与构图】\n\n镜头与构图：约2.05:1宽银幕 / 写实真人电影摄影 / 中景群像 / 平视机位 / 约35毫米镜头、约f/4-f/5.6 / 群像层次、前中后景交错、人物视线对活动线、砖墙框景与纵深\n光影与色彩：土黄、灰砖、米白、暗绿与肤色的低饱和暖调 / 自然主义柔光、轻微高光压缩+胶片颗粒 / 午后低角度阳光+树叶间隙光与反射\n后期特效：无明显数字特效，轻微胶片颗粒+柔和色彩分级 | 写实摄影机渲染质感、35mm胶片或高端数字电影外观、保留肤质砖石纹理与自然阴影"
+  },
+  {
+   "id": "A362",
+   "seq": "362",
+   "title": "站台背包旅客与母子｜阴天家庭剧情剧照",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "低饱和冷灰蓝×褐·阴天柔光·ARRI Alexa质感",
+   "palette": "冷灰+蓝灰+褐色+黄色点缀+绿色点缀",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "家庭剧情",
+    "车站",
+    "旅客",
+    "母子",
+    "阴天",
+    "群像",
+    "1.85:1"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "三明治结构（上画面 1259×675 + 中文白字 + 英文暗字增强）。标题「置景」第 7 战字模判定（罒头+直目框；A2 读「背景景」为幻觉多字，快问「背景」第 8 次误报）。中文段 1 处丨（站台丨x643）像素独立全高竖判定+英文段对应「|」双遍一致。英文段标题□符号归位【】（A350/A359 同款第 3 形态）。ARRI Alexa 混排照录。声称 1.85:1（画面 1.865，照录）。",
+   "prompt": "【画面主体与环境置景】核心元素：中年男性旅客与大型黑色背包，中年女性抱着幼儿，穿蓝色针织帽与棕色冬装的幼儿，城市铁路站台，铁轨与高架站棚，接触网电线与电线杆，远处通信塔与水塔\n美学调性：现实主义家庭剧情片 / 当代约2020年代 / 阴天白昼 / 室外\n具体置景：城市铁路车站站台丨混凝土站台、黄色盲道警示带、多股铁轨、对向站台、高架雨棚、灰色钢柱、铁路接触网、信号与电力设施、远处低层城市建筑、通信塔和屋顶水塔\n【视听摄影与美学工业】\n镜头构图：约1.85:1 / 写实真人电影摄影 / 中远景至中景群像 / 平视机位，略带侧面观察角度 / 约50毫米标准镜头，约f/4至f/5.6，中等景深，人物清晰、背景适度虚化 / 三分法构图、前景人物与站台结构形成视觉锚点、铁轨与顶棚线条构成引导线、开放式留白指向画面右侧\n色彩光影：低饱和冷灰、蓝灰与褐色为主，服装中的黄色和绿色作为局部暖色点缀 / 阴天自然主义柔光、低对比度、柔和阴影、轻微空气透视 / 厚云层漫射日光，辅以站台棚下环境反射光，无明显人工光源\n后期特效：无明显视觉特效，以真实场景记录为主，轻微景深控制、自然空气雾感与细腻胶片颗粒 / 写实数字电影调色质感，接近ARRI Alexa自然动态范围与电影级调色，不使用CG渲染感\n\n【Cinematic Elements & Setting】\nCore Visuals: Middle-aged male traveler with a large black backpack, middle-aged woman carrying a young child, child wearing a blue knitted beanie and brown winter clothing, urban railway platform, elevated station canopy, multiple train tracks, overhead catenary wires, utility poles, distant communications tower and rooftop water tank\nTonal Style: Realist family drama / Contemporary, approximately the 2020s / Overcast daytime / Exterior\nSet Design: Urban railway station platform | Concrete platform, yellow tactile safety strip, multiple parallel tracks, opposite platform, elevated rain canopies, gray steel columns, overhead railway electrification, railway utility equipment, low-rise city buildings, communications tower, rooftop water tank【Cinematic Photography & Tech Specification】Camera & Framing: Approximately 1.85:1 aspect ratio / Live-action cinematic realism / Medium-long group shot transitioning into a medium shot / Eye-level camera with a slightly observational side angle / Approximately 50mm standard lens at around f/4 to f/5.6, moderate depth of field with sharp subjects and gently softened background / Rule of thirds, foreground subjects used as visual anchors, rails and canopy structures forming leading lines, open negative space directing attention toward the right side of frame\nLighting & Color: Desaturated cool gray, blue-gray, and muted brown palette with small warm yellow and green accents from the clothing / Overcast naturalistic soft light, low contrast, gentle shadows, subtle atmospheric perspective / Diffused daylight through thick cloud cover, supported by ambient reflected light beneath the platform canopy, with no prominent artificial source\nPost-VFX: No conspicuous visual effects; primarily practical location photography with controlled depth of field, subtle atmospheric haze, and fine film grain / Photorealistic digital-cinema grading resembling ARRI Alexa dynamic range and restrained cinematic color science, without a synthetic CG-rendered appearance",
+   "img": "assets/full/A362.webp",
+   "thumb": "assets/thumb/A362.webp",
+   "w": 1259,
+   "h": 675,
+   "srcHash": "1b923ef44e5b91d6",
+   "imgHash": "d3e610819ccec945",
+   "zh": "【画面主体与环境置景】核心元素：中年男性旅客与大型黑色背包，中年女性抱着幼儿，穿蓝色针织帽与棕色冬装的幼儿，城市铁路站台，铁轨与高架站棚，接触网电线与电线杆，远处通信塔与水塔\n美学调性：现实主义家庭剧情片 / 当代约2020年代 / 阴天白昼 / 室外\n具体置景：城市铁路车站站台丨混凝土站台、黄色盲道警示带、多股铁轨、对向站台、高架雨棚、灰色钢柱、铁路接触网、信号与电力设施、远处低层城市建筑、通信塔和屋顶水塔\n【视听摄影与美学工业】\n镜头构图：约1.85:1 / 写实真人电影摄影 / 中远景至中景群像 / 平视机位，略带侧面观察角度 / 约50毫米标准镜头，约f/4至f/5.6，中等景深，人物清晰、背景适度虚化 / 三分法构图、前景人物与站台结构形成视觉锚点、铁轨与顶棚线条构成引导线、开放式留白指向画面右侧\n色彩光影：低饱和冷灰、蓝灰与褐色为主，服装中的黄色和绿色作为局部暖色点缀 / 阴天自然主义柔光、低对比度、柔和阴影、轻微空气透视 / 厚云层漫射日光，辅以站台棚下环境反射光，无明显人工光源\n后期特效：无明显视觉特效，以真实场景记录为主，轻微景深控制、自然空气雾感与细腻胶片颗粒 / 写实数字电影调色质感，接近ARRI Alexa自然动态范围与电影级调色，不使用CG渲染感\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：中年男性旅客与黑色大背包、抱幼儿的中年女性、蓝针织帽棕冬装幼儿、城市铁路站台、铁轨与高架棚、接触网与电线杆、远处通信塔与水塔\n调性风格：写实家庭剧情 / 约当代2020年代 / 阴天白昼 / 室外\n置景设计：城市铁路车站站台 | 混凝土站台、黄色盲道、多股铁轨、对向站台、高架雨棚、灰钢柱、接触网、信号电力设施、低层城市建筑、通信塔与水塔\n\n【电影摄影与技术规格 / 镜头与构图】\n\n镜头与构图：约1.85:1 / 写实真人电影 / 中远景至中景群像 / 平视略侧观察 / 约50毫米标准镜头、f/4-f/5.6、中等景深（人物清晰背景虚化）/ 三分法、前景人物+站台结构锚点、铁轨顶棚引导线、开放留白指右\n光影与色彩：低饱和冷灰、蓝灰与褐色，服装黄绿局部暖色点缀 / 阴天自然主义柔光、低对比、柔和阴影、轻微空气透视 / 厚云漫射日光+棚下环境反射光，无人工光源\n后期特效：无明显视觉特效，真实场景记录 / 轻微景深控制、自然空气雾感、细腻胶片颗粒 | 写实数字电影调色、ARRI Alexa 动态范围与电影级调色、无 CG 渲染感"
   }
  ]
 }
