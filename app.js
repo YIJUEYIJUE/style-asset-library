@@ -105,7 +105,7 @@ let chunkTotal = 0, chunksLoaded = 0;
   function splitBilingual(s) {
     if (!s) return null;
     const paras = String(s).split(/\n\n+/).map((x) => x.trim()).filter(Boolean);
-    if (paras.length < 3) return null;
+    if (paras.length < 2) return null;
     const kinds = paras.map(paraLang);
     for (let k = 1; k < paras.length; k++) {
       const head = kinds.slice(0, k), tail = kinds.slice(k);

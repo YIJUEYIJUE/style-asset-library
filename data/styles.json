@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 344,
+ "count": 345,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 24
+   "count": 25
   },
   {
    "name": "人像——身份参考",
@@ -10441,6 +10441,37 @@
    "srcHash": "fdb44f9bdc1a1839",
    "imgHash": "7b725d58b869bcad",
    "zh": "【画面主体与环境置景】\n核心元素：黑色复古轿车,多名身穿深色服装的男性,背影女性,二战时期欧洲城市氛围,湿润石砌后巷,悬挂晾晒衣物,旧木椅\n美学调性：历史剧情片 / 战时悬疑惊悚 / 1940年代至1950年代初期 / 阴天白昼 / 室外\n具体置景：旧欧洲城市狭窄石砌后巷|粗粝花岗岩墙面,斑驳灰泥,密集窗洞,高处交错晾衣绳,白色与深色衣物,老式金属排水管,湿润不平整石板路,墙边两把旧木椅,后方天井与建筑连廊,具有战时贫困感的生活化陈设\n\n【视听摄影与美学工业】\n镜头构图：2.20:1 / 写实电影摄影与历史剧情片美学 / 中远景群像 / 平视机位略低于胸部高度 / 约35毫米镜头,中等景深,约f/5.6至f/8 / 居中对称构图,引导线,前景框景,中央主体强调,纵深分层场面调度\n色彩光影：低饱和蓝灰与炭黑色调,柔和棕色石墙,深绿黑色汽车,低饱和奶白色晾衣点缀 / 柔和阴郁自然光,低反差,湿面反光,轻微胶片颗粒质感 / 主光源为开阔天空与远处天井漫射的阴天日光,辅以石墙与湿地面的冷色反射光\n后期特效：极少量视觉特效,以实景年代汽车,湿地反光与自然环境细节为主 / 电影级数字调色,模拟胶片颗粒,写实材质渲染\n\n【电影元素与置景】\n核心视觉：复古黑色轿车,一群深色服装的男性,背影女性,二战时期欧洲城市氛围,湿润石砌后巷,悬挂衣物,木椅\n调性风格：历史剧情片 / 战时悬疑惊悚 / 1940年代至1950年代初期 / 阴天白昼 / 室外\n置景设计：旧欧洲石砌后巷 | 粗粝花岗岩砌体,风化灰泥,狭窄窗洞,交错晾衣绳,米白与深色衣物,老式金属排水管,不平整湿润石板路面,两把旧木椅,远处庭院与建筑连廊,朴素的战时生活细节\n\n【电影摄影与技术规格】\n镜头与构图：2.20:1 / 真实感电影摄影与历史剧情片美学 / 中远景群像 / 平视机位略低于胸部高度 / 约35mm镜头,中等景深,约f/5.6至f/8 / 居中对称构图,引导线,前景框景,中央主体强调,纵深分层场面调度\n光影与色彩：低饱和蓝灰与炭黑色调,柔和棕色石墙,深绿黑色汽车,低饱和奶白晾衣点缀 / 柔和阴郁自然光,低反差,湿面反光,细腻胶片颗粒质感 / 主光为开阔天空与远处天井漫射的阴天日光,辅以石墙与湿地面的冷色反射\n后期特效：极少量视觉特效,以实景年代汽车,湿地反光与自然环境细节为主 / 电影级数字调色,模拟胶片颗粒,写实材质渲染"
+  },
+  {
+   "id": "A347",
+   "seq": "347",
+   "title": "风中剑客近景｜武侠电影特写肖像静帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "青橙冷暖对比·柔和侧逆光·电影级HDR",
+   "palette": "冷蓝天空+暖金肤色+深红剑鞘",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "武侠",
+    "特写肖像",
+    "剑客",
+    "85mm",
+    "青橙对比",
+    "天空负空间"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.03",
+   "note": "",
+   "prompt": "画面主体与环境置景核心元素：年轻东亚男性剑客，飘动的黑色长发，古代中式武侠服饰，肩后佩剑，雕花\n剑柄与深红剑鞘，冷峻凝视，蓝色天空美学调性：武侠电影 / 中国古代架空时代 / 黄昏前后 / 室外具体置景：开阔\n天空下的户外武侠场景 |极简背景、无建筑与城市元素、蓝天负空间、人物肩部服装纹理、红黑雕花剑鞘、金属装饰剑柄、自然风吹\n动发丝视听摄影与美学工业镜头构图：2.35:1宽银幕比例 / 写实电影摄影与古装武侠视觉格式 / 近景至特写肖像\n/略微仰拍、接近视线高度 / 约85毫米中长焦镜头、约f/2.0浅景深 / 面部居中构图、剑身形成右上方对角线、主体填\n充画面、天空负空间与视觉引导线色彩光影：冷蓝天空与暖金肤色的青橙对比、低饱和自然色调 / 柔和侧逆光、细腻轮廓光、局部\n高光与轻微阴影反差 / 低角度自然太阳光作为主光，天空散射光作为环境补光后期特效：微风动态、发丝飞扬、轻微空气透视与自\n然景深效果 / 写实数字中间片质感、电影级HDR调色、细腻胶片颗粒、无明显奇幻特效或人工合成痕迹\n\nCinematic Elements & SettingCore Visuals: Young East Asian swordsman, windblown black hair, ancient Chinese wuxia costume, sword resting over the shoulder,\nhilt and deep red scabbard, stoic gaze, blue skyTonal Style: Wuxia cinema / Fictionalized ancient China / Late afternoon approaching dusk / ExteriorSet Des\nwuxia environment beneath a vast sky | Minimal background, no architecture or urban elements, blue-sky negative space, textured shoulder costume, red-and-b\nscabbard, metallic ornamental sword hilt, wind-swept hairCinematic Photography & Tech SpecificationCamera & Framing: 2.35:1 widescreen aspect ratio / Photo\ncinematic live-action and period-wuxia format / Close-up to tight portrait close-up / Slight low angle near eye level / Approximately 85mm medium-telephoto\napproximately f/2.0 with shallow depth of field / Centered facial composition, sword forming an upper-right diagonal, subject filling the frame, sky negati\ndirectional leading lineLighting & Color: Cool blue sky contrasted with warm golden skin tones, restrained cyan-orange palette and natural saturation / Sof\ndelicate rim light, selective highlights and moderate shadow contrast / Low-angle natural sunlight as key light with diffuse skylight as ambient fillPost-V\nmotion, flying hair strands, gentle atmospheric perspective and natural depth-of-field effects / Photorealistic digital-intermediate finish, cinematic HDR\nfilm grain, no obvious fantasy VFX or artificial compositing",
+   "img": "assets/full/A347.webp",
+   "thumb": "assets/thumb/A347.webp",
+   "w": 1259,
+   "h": 539,
+   "srcHash": "9022d777317d3ccc",
+   "imgHash": "9a05ef9ae6c00b09",
+   "zh": "画面主体与环境置景核心元素：年轻东亚男性剑客，飘动的黑色长发，古代中式武侠服饰，肩后佩剑，雕花剑柄与深红剑鞘，冷峻凝视，蓝色天空\n美学调性：武侠电影 / 中国古代架空时代 / 黄昏前后 / 室外\n具体置景：开阔天空下的户外武侠场景 | 极简背景、无建筑与城市元素、蓝天负空间、人物肩部服装纹理、红黑雕花剑鞘、金属装饰剑柄、自然风吹动发丝\n\n视听摄影与美学工业镜头构图：2.35:1宽银幕比例 / 写实电影摄影与古装武侠视觉格式 / 近景至特写肖像 / 略微仰拍、接近视线高度 / 约85毫米中长焦镜头、约f/2.0浅景深 / 面部居中构图、剑身形成右上方对角线、主体填充画面、天空负空间与视觉引导线\n色彩光影：冷蓝天空与暖金肤色的青橙对比、低饱和自然色调 / 柔和侧逆光、细腻轮廓光、局部高光与轻微阴影反差 / 低角度自然太阳光作为主光，天空散射光作为环境补光\n后期特效：微风动态、发丝飞扬、轻微空气透视与自然景深效果 / 写实数字中间片质感、电影级HDR调色、细腻胶片颗粒、无明显奇幻特效或人工合成痕迹\n\n电影元素与置景核心视觉：年轻东亚剑客，风吹黑色长发，古代中式武侠服饰，肩后佩剑，雕花剑柄与深红剑鞘，冷峻凝视，蓝天\n调性风格：武侠电影 / 中国古代架空时代 / 黄昏前后 / 室外\n置景设计：广阔天空下的户外武侠场景 | 极简背景，无建筑与城市元素，蓝天负空间，人物肩部服装纹理，红黑雕花剑鞘，金属装饰剑柄，自然风吹发丝\n\n电影摄影与技术规格镜头与构图：2.35:1宽银幕比例 / 真实电影摄影与古装武侠格式 / 近景至紧凑特写 / 略低角度接近视线高度 / 约85mm中长焦镜头，约f/2.0浅景深 / 面部居中构图，剑身形成右上方对角线，主体填充画面，天空负空间与方向性引导线\n光影与色彩：冷蓝天空与暖金肤色对比，克制的青橙色板 / 柔和侧逆光，细腻轮廓光，局部高光与适度阴影反差 / 低角度自然阳光作主光，漫射天光作环境补光\n后期特效：微风动态，飞扬发丝，轻微大气透视与自然景深效果 / 真实感数字中间片质感，电影级HDR调色，细腻胶片颗粒，无明显奇幻特效或人工合成痕迹"
   }
  ]
 }
