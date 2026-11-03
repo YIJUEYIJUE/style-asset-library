@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 350,
+ "count": 351,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 30
+   "count": 31
   },
   {
    "name": "人像——身份参考",
@@ -10630,6 +10630,39 @@
    "srcHash": "4e1e36e2da201f12",
    "imgHash": "19654599188861aa",
    "zh": "画面主体与环境置景核心元素：舞狮表演者，lion dance performers（舞狮表演者），骑摩托车的人，motorcycle rider（摩托车骑手），中式老街，traditional Chinese street（传统中式街巷），哥特式教堂钟楼，Gothic church tower（哥特式教堂塔楼），红灯笼，red lanterns（红灯笼），电线与电线杆，overhead wires and utility poles（架空电线与电线杆）\n美学调性：都市文化剧情片 / 当代2010年代至2020年代 / 上午至午后 / 室外\n具体置景：历史文化街区与中西建筑混合街巷丨两侧红砖与灰砖老建筑、青灰色中式瓦檐、木质店铺门面、密集架空电线、混凝土电线杆、红色春节灯笼、街边盆栽、摩托车、远处行人、散落鞭炮碎屑、中央哥特式石砖教堂塔楼与中式飞檐屋顶\n视听摄影与美学工业镜头构图：约 4:3 / 写实电影剧照与数字摄影 / 远景至大全景 / 平视机位 / 约35毫米焦距，约f/8中等偏小光圈 / 中央透视构图、引导线构图、框景构图、近似对称布局与前中后景层次\n色彩光影：青灰、砖红、暗褐与灯笼金红的低饱和复古色调 / 自然主义电影光、轻微雾化漫射与柔和阴影 / 午后自然日光，来自画面左上方的侧前方太阳光，并结合大气反射光\n后期特效：轻微空气透视、薄雾、烟尘与高光柔化，无明显数字特效 / 写实数字中间片质感，接近高动态范围摄影与轻度胶片调色，保留建筑纹理和自然颗粒感\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：舞狮表演者、骑摩托车的人、中式老街、哥特式教堂钟楼、红灯笼、架空电线与电线杆\n调性风格：都市文化剧情片与纪录片写实 / 当代2010年代至2020年代 / 上午至午后 / 室外\n置景设计：历史文化街区与中西建筑混合街巷 / 两侧红砖与灰砖低层老建筑、风化的青灰瓦檐、传统翘檐、木质店面、密集架空电线、混凝土电线杆、节庆红灯笼、盆栽、摩托车、远处行人、散落鞭炮碎屑、中央哥特式石砖教堂塔楼与中式翘檐屋顶\n\n【电影摄影与技术规格】\n\n镜头与构图：约4:3 / 写实真人电影剧照与数字摄影 / 远景至大全景 / 平视机位 / 约35毫米镜头、约f/8中等偏小光圈 / 中央透视、引导线、自然框中框结构、近似对称平衡与前中背景分层\n光影与色彩：低饱和青灰、风化砖棕、炭黑与鲜艳的节庆红、微妙金色点缀 / 自然主义电影日光、大气漫射与软边阴影 / 午后阳光从左前上方射入，天光环境补光与城市反光\n后期特效：轻微大气透视、薄雾、烟状漫射与克制的高光晕染，无明显数字特效 / 写实数字中间片质感、高动态范围细节、温和的胶片调色，自然保留建筑纹理"
+  },
+  {
+   "id": "A353",
+   "seq": "353",
+   "title": "红色醒狮头套特写｜老巷节庆纪实",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "青蓝灰×朱红金翠冷暖对比·阴天漫射·纪实电影",
+   "palette": "青蓝灰+朱红+金色+翠绿+红褐砖色",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "醒狮",
+    "舞狮",
+    "老巷",
+    "节庆",
+    "纪实",
+    "浅景深",
+    "特写",
+    "4:3"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "三明治结构同前批（上画面 1259×708 + 中文白字 + 英文暗字区）。标题「置景」经像素字模仲裁（罒头+直结构，非「背」——快问/A 版/VLM 三读均误报「背景」，第 4 次像素翻案）；中文段分隔符为汉字「丨」（x771-772 全高竖笔，同 A352）；英文段标题用半角「[]」（像素：5px 窄方括号+间距，非【】）；英文两处「|」双遍 OCR 稳定（与中文丨对应）；连字符「-」半角（E2 的 en-dash 为误读）。断词 costume / f/2.8 合并。无右缘截断。",
+   "prompt": "【画面主体与环境置景】 核心元素：红色醒狮头套，Red Chinese lion dance costume（中国舞狮服饰），金色刺绣与彩色装饰，另一只部分入画的醒狮，砖墙与狭窄巷道 /\n美学调性：文化节庆纪实电影、城市民俗摄影 / 当代时代背景 / 白天 / 室外\n具体置景：老城区后巷或砖砌城市街道丨斑驳灰砖墙、红褐色砖柱、裸露电线、墙面管道、低矮屋檐、混凝土地面、传统醒狮表演道具与服装细节\n【视听摄影与美学工业】\n镜头构图：约4:3比例 / 写实电影剧照与纪实摄影格式 / 近景至中近景 / 略低机位、接近视线高度 / 约35至50毫米镜头、浅景深、约f/2.8至f/4光圈 / 三分法结合对角线构图，主体位于画面中央偏右，醒狮头部占据视觉中心，背景压缩并虚化\n色彩光影：青蓝灰背景与鲜艳朱红、金色、翠绿形成冷暖对比 / 阴天漫射光、柔和低反差光效、轻微电影级色彩分级 / 主要光源为户外自然天光与城市环境反射光，墙面产生微弱冷色反光\n后期特效：无明显数字视觉特效，以真实羽毛、织物、金属刺绣和手工彩绘质感为主丨写实摄影渲染质感，细腻材质细节，浅景深背景分离，轻度胶片颗粒与青橙色电影调色，非CGI观感\n\n[Cinematic Elements & Setting]\nCore Visuals: Red Chinese lion dance head and costume, Chinese lion dance costume, gold embroidery and multicolored ornamentation, partially visible second lion costume, weathered brick wall and narrow alley /\nTonal Style: Cultural festival documentary cinema, urban folk photography / Contemporary era / Daytime / Exterior\nSet Design: Historic urban back alley or brick-lined city street | Weathered gray masonry, red-brown brick columns, exposed electrical cables, wall conduits, low roof eaves, concrete pavement, traditional lion-dance performance costume and hand-crafted props [Cinematic Photography & Tech Specification]\nCamera & Framing: Approximately 4:3 aspect ratio / Photorealistic cinematic still and documentary photography / Close-up to medium close-up / Slight low-angle camera near eye level / Approximately 35-50mm lens, shallow depth of field, approximately f/2.8-f/4 aperture / Rule of thirds combined with diagonal composition, subject positioned center-right, lion head dominating the visual center, compressed and defocused background /\nLighting & Color: Teal-blue and gray background contrasted with vivid vermilion red, gold, and emerald green / Overcast diffused daylight, soft low-contrast lighting, subtle cinematic color grading / Natural outdoor skylight and reflected urban ambient light, with faint cool bounce from the masonry /\nPost-VFX: No obvious digital visual effects, emphasizing authentic feathers, fabric, metallic embroidery, and hand-painted surface detail | Photorealistic rendering character, detailed material texture, shallow-depth background separation, restrained film grain and teal-orange cinematic grade, non-CGI documentary appearance",
+   "img": "assets/full/A353.webp",
+   "thumb": "assets/thumb/A353.webp",
+   "w": 1259,
+   "h": 708,
+   "srcHash": "be3e2d639840e202",
+   "imgHash": "c46ee7f2b801b61e",
+   "zh": "【画面主体与环境置景】 核心元素：红色醒狮头套，Red Chinese lion dance costume（中国舞狮服饰），金色刺绣与彩色装饰，另一只部分入画的醒狮，砖墙与狭窄巷道 /\n美学调性：文化节庆纪实电影、城市民俗摄影 / 当代时代背景 / 白天 / 室外\n具体置景：老城区后巷或砖砌城市街道丨斑驳灰砖墙、红褐色砖柱、裸露电线、墙面管道、低矮屋檐、混凝土地面、传统醒狮表演道具与服装细节\n【视听摄影与美学工业】\n镜头构图：约4:3比例 / 写实电影剧照与纪实摄影格式 / 近景至中近景 / 略低机位、接近视线高度 / 约35至50毫米镜头、浅景深、约f/2.8至f/4光圈 / 三分法结合对角线构图，主体位于画面中央偏右，醒狮头部占据视觉中心，背景压缩并虚化 /\n色彩光影：青蓝灰背景与鲜艳朱红、金色、翠绿形成冷暖对比 / 阴天漫射光、柔和低反差光效、轻微电影级色彩分级 / 主要光源为户外自然天光与城市环境反射光，墙面产生微弱冷色反光 /\n后期特效：无明显数字视觉特效，以真实羽毛、织物、金属刺绣和手工彩绘质感为主丨写实摄影渲染质感，细腻材质细节，浅景深背景分离，轻度胶片颗粒与青橙色电影调色，非CGI观感\n\n【电影元素与置景】\n\n核心视觉：红色醒狮头套与中国舞狮服饰、金色刺绣与彩色装饰、部分入画的第二只醒狮、斑驳砖墙与窄巷\n调性风格：文化节庆纪实电影、城市民俗摄影 / 当代时代背景 / 白天 / 室外\n置景设计：老城区后巷或砖砌城市街道 / 斑驳灰砖墙、红褐砖柱、裸露电线、墙面管道、低矮屋檐、混凝土地面、传统醒狮道具与服装细节\n\n【电影摄影与技术规格】\n\n镜头与构图：约4:3 / 写实电影剧照与纪实摄影 / 近景至中近景 / 略低机位近视线高度 / 约35-50毫米镜头、浅景深、约f/2.8-f/4光圈 / 三分法+对角线构图，主体中偏右，狮头占视觉中心，背景压缩虚化\n光影与色彩：青蓝灰背景对比鲜艳朱红、金色、翠绿（冷暖对比） / 阴天漫射、柔和低反差、轻微电影调色 / 户外自然天光+城市环境反射光，墙面微弱冷色反弹\n后期特效：无明显数字特效，强调真实羽毛、织物、金属刺绣与手绘细节 | 写实渲染质感、细腻材质、浅景深背景分离、轻度胶片颗粒与青橙电影调色，非CGI观感"
   }
  ]
 }
