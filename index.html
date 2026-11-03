@@ -208,12 +208,15 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
 .promptTitle .biQuick.on{display:inline-flex}
 .promptTitle .biQuick.on ~ .hint{display:none}
 .modalInfo.hasSteps .biQuick{display:none!important}
-.biHead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 0 6px}
+.biHead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px;flex:0 0 auto}
 .biHead b{font-size:12px;letter-spacing:.04em;opacity:.75}
 .biCopy{font-size:11px;padding:3px 12px;border:1px solid rgba(17,16,13,.28);border-radius:999px;background:transparent;color:inherit;cursor:pointer;font-family:inherit}
 .biCopy:active{background:rgba(17,16,13,.08)}
-.biText{white-space:pre-wrap;font:inherit;line-height:1.82;margin:0 0 16px}
-.biText:last-child{margin-bottom:0}
+/* 双语原版：promptBox 退化为双框容器，中/英各自独立成框（各有边框、各自滚动、各自复制） */
+.promptBox.bi{background:none;border:none;padding:0;display:flex;flex-direction:column;gap:10px}
+.modalInfo>.promptBox.bi{height:310px;max-height:none;min-height:0;flex:0 0 auto}
+.biBox{flex:1 1 0;min-height:0;display:flex;flex-direction:column;border:1px solid rgba(17,16,13,.15);border-radius:14px;background:rgba(255,248,235,.86);padding:10px 14px;overflow:hidden}
+.biText{flex:1 1 auto;min-height:0;overflow:auto;white-space:pre-wrap;font:inherit;line-height:1.8;margin:0}
 .modalMedia{overflow:hidden}
 @media (max-width:760px){
   .modalCard{grid-template-columns:1fr;grid-template-rows:minmax(110px,.82fr) minmax(0,1.18fr) auto;max-height:93svh}

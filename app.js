@@ -115,8 +115,8 @@ let chunkTotal = 0, chunksLoaded = 0;
     }
     return null;
   }
-  function biBlock(k, label, text) {
-    return `<div class="biHead"><b>${esc(label)} · ${text.length} 字</b><button class="biCopy" type="button" data-bicopy="${k}">复制</button></div><pre class="biText">${esc(text)}</pre>`;
+  function biBoxBlock(k, label, text) {
+    return `<div class="biBox"><div class="biHead"><b>${esc(label)} · ${text.length} 字</b><button class="biCopy" type="button" data-bicopy="${k}">复制</button></div><div class="biText">${esc(text)}</div></div>`;
   }
 
   /* ---------- 挑选夹（本地保存） ---------- */
@@ -579,8 +579,10 @@ let chunkTotal = 0, chunksLoaded = 0;
     const txt = t === "z" ? alt.text : ((cs && cs.prompt) || (a && a.prompt) || "");
     const bi = (t === "o" && (!cs || !cs.prompt)) ? splitBilingual(txt) : null;
     if (bi) {
-      pb.innerHTML = biBlock("zh", "中文原版", bi.zh) + biBlock("en", "English", bi.en);
+      pb.classList.add("bi");
+      pb.innerHTML = biBoxBlock("zh", "中文原版", bi.zh) + biBoxBlock("en", "English", bi.en);
     } else {
+      pb.classList.remove("bi");
       pb.textContent = txt || "暂未补充提示词";
     }
     const bq = document.getElementById("mBiQuick");   // 双语原版：复制按钮置顶，打开即可点，不用滚进文本区找
