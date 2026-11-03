@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 338,
+ "count": 339,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 18
+   "count": 19
   },
   {
    "name": "人像——身份参考",
@@ -10255,6 +10255,37 @@
    "srcHash": "caf6607572d8f0b3",
    "imgHash": "fc980e3d5797e0ab",
    "zh": "【画面主体与环境置景】\n核心元素：三名成年人物, 前景站立的中年男性, 双手掩面的年轻女性, 手持折扇的中年男性, 拥挤杂乱的居住空间, 鱼缸, 衣物与杂物堆叠, 压抑的人际关系\n美学调性：社会现实主义 / 当代家庭剧情 / 2010年代至2020年代 / 白天 / 室内\n具体置景：狭小老旧住宅卧室或起居室 | 木门与金属门锁, 门后悬挂的大量衣物, 墙面置物架, 塑料收纳袋, 叠放的书本与文件, 杂乱床铺, 床边取暖器, 鱼缸, 折叠椅, 帆布包, 家庭生活杂物与旧家具\n\n【视听摄影与美学工业】\n镜头构图：约1.90比1 / 写实电影摄影格式 / 中远景群像 / 平视机位, 略带旁观式视角 / 约35毫米镜头, 约f/4光圈 / 三分法与前中后景层次构图, 前景人物形成遮挡和视觉引导, 人物群体横向分布\n色彩光影：低饱和暖棕与米黄色调, 混合灰绿和深木色 / 柔和自然主义光效, 轻微阴郁与压迫感 / 室内环境散射光, 可能来自窗户的自然光与顶部暖色灯光\n后期特效：无明显视觉特效, 以真实生活质感和自然摄影为主 / 写实数字摄影调色, 轻微胶片颗粒, 低对比度高光控制, 近似ARRI电影摄影机的自然肤色与纪录片渲染质感\n\n【电影元素与置景】\n核心视觉：三名成年人, 前景站立的中年男性, 掩面而痛苦难堪的年轻女性, 手持折扇的中年男性, 拥挤杂乱的居住空间, 鱼缸, 堆叠的衣物与生活用品, 紧张压抑的人际氛围\n调性风格：社会现实主义 / 当代家庭剧情 / 2010年代至2020年代 / 白天 / 室内\n置景设计：狭小老旧公寓的卧室或起居室 | 木门与金属门闩, 门后悬挂的衣物, 墙面置物架, 塑料收纳袋, 叠放的书本与文件, 杂乱床铺, 便携取暖器, 鱼缸, 折叠椅, 帆布包, 旧家具与日常居家杂物\n\n【电影摄影与技术规格】\n镜头与构图：约1.90:1 / 真人电影写实感 / 中远景群像镜头 / 平视旁观式机位 / 约35毫米镜头, 约f/4光圈 / 三分法配合前、中、后景层次, 前景人物形成遮挡与视觉引导, 人物群体横向分布\n光影与色彩：低饱和暖棕、米黄、灰绿与深木色调 / 柔和自然主义照明, 带有沉郁压抑的家庭氛围 / 漫射窗光混合顶部暖色实用光源\n后期特效：无明显视觉特效, 以真实生活质感为先 / 写实数字电影调色, 轻微胶片颗粒, 克制的对比度, 受控的高光, 自然肤色, ARRI式纪录片渲染质感"
+  },
+  {
+   "id": "A341",
+   "seq": "341",
+   "title": "小卖部店主点烟｜市井纪实电影静帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "低饱和暖灰·平视中近景·纪实质感",
+   "palette": "青灰+米beige+木棕·红烟盒点缀",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "社会现实主义",
+    "市井",
+    "室内",
+    "杂货店",
+    "纪实",
+    "50mm"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.03",
+   "note": "",
+   "prompt": "【画面主体与环境置景】\n核心元素：中年男性店主，点燃香烟的手部动作，红色香烟盒，手表，背景中的店员，饮料货架，冰柜，零食与日用品\n美学调性：社会现实主义 / 当代城市生活，约2010年代至2020年代 / 白天 / 室内\n具体置景：社区杂货店或小型便利店 | 白色立式饮料冰柜、密集陈列的酒水与饮料货架、零食盒、瓶装调味品、墙面宣传海报、悬挂电风扇、收银台杂物、背景工作人员与生活化商品陈设\n\n【视听摄影与美学工业】\n镜头构图：约1.89:1宽银幕比例 / 写实电影静帧与纪实摄影格式 / 中近景，主体胸部以上 / 平视机位，略带正面侧身角度 / 约50毫米标准镜头，约f/2.8至f/4光圈 / 中央主体结合三分法，前中后景分层，利用货架形成纵深与框景\n色彩光影：低饱和青灰、米beige与木棕色调，红色香烟盒作为视觉强调 / 柔和自然写实光，轻微阴影与低反差质感 / 店铺入口或窗户透入的白昼环境光、室内顶部荧光灯、冰柜与货架的漫反射补光\n后期特效：无明显视觉特效，保留真实烟雾与生活环境细节 | 数字电影摄影质感，轻微颗粒、自然景深、纪实级色彩校正与真实材质渲染\n\n【Cinematic Elements & Setting】\nCore Visuals: Middle-aged male shopkeeper, lighting a cigarette, red cigarette pack, wristwatch, background worker, beverage shelves, refrigerator, snacks and household goods\nTonal Style: Social realism / contemporary urban life, approximately the 2010s to 2020s / Daytime / Interior\nSet Design: Neighborhood grocery shop or small convenience store | White upright beverage refrigerator, densely stocked liquor and beverage shelves, snack boxes, bottled condiments, wall posters, hanging electric fan, cluttered checkout counter, background worker, and lived-in retail merchandise\n\n【Cinematic Photography & Tech Specification】\nCamera & Framing: Approximately 1.89:1 widescreen aspect ratio / Photorealistic cinematic still and documentary photography format / Medium close-up, framed from the chest upward / Eye-level camera with a slightly frontal three-quarter angle / Approximately 50mm standard lens, around f/2.8 to f/4 aperture / Center-weighted subject placement combined with the rule of thirds, layered foreground, midground, and background, with shelves creating depth and natural framing\nLighting & Color: Muted teal-gray, beige, and wood-brown palette with the red cigarette pack as a visual accent / Soft naturalistic lighting, gentle shadows, and low-contrast realism / Daylight entering from the storefront or window, overhead fluorescent lighting, and diffuse reflections from the refrigerator and shelves\nPost-VFX: No apparent visual effects; authentic cigarette smoke and everyday environmental detail preserved | Digital cinema texture with subtle grain, natural depth of field, documentary-style color grading, and realistic material rendering",
+   "img": "assets/full/A341.webp",
+   "thumb": "assets/thumb/A341.webp",
+   "w": 1259,
+   "h": 666,
+   "srcHash": "1a53e7def6816383",
+   "imgHash": "231fb6c12f49da3c",
+   "zh": "【画面主体与环境置景】\n核心元素：中年男性店主，点燃香烟的手部动作，红色香烟盒，手表，背景中的店员，饮料货架，冰柜，零食与日用品\n美学调性：社会现实主义 / 当代城市生活，约2010年代至2020年代 / 白天 / 室内\n具体置景：社区杂货店或小型便利店 | 白色立式饮料冰柜、密集陈列的酒水与饮料货架、零食盒、瓶装调味品、墙面宣传海报、悬挂电风扇、收银台杂物、背景工作人员与生活化商品陈设\n\n【视听摄影与美学工业】\n镜头构图：约1.89:1宽银幕比例 / 写实电影静帧与纪实摄影格式 / 中近景，主体胸部以上 / 平视机位，略带正面侧身角度 / 约50毫米标准镜头，约f/2.8至f/4光圈 / 中央主体结合三分法，前中后景分层，利用货架形成纵深与框景\n色彩光影：低饱和青灰、米beige与木棕色调，红色香烟盒作为视觉强调 / 柔和自然写实光，轻微阴影与低反差质感 / 店铺入口或窗户透入的白昼环境光、室内顶部荧光灯、冰柜与货架的漫反射补光\n后期特效：无明显视觉特效，保留真实烟雾与生活环境细节 | 数字电影摄影质感，轻微颗粒、自然景深、纪实级色彩校正与真实材质渲染\n\n【电影元素与置景】\n核心视觉：中年男性店主，点烟动作，红色香烟盒，手表，背景店员，饮料货架，冰柜，零食与日用品\n调性风格：社会现实主义 / 当代城市生活，约2010年代至2020年代 / 白天 / 室内\n置景设计：社区杂货店或小型便利店 | 白色立式饮料冰柜、密集陈列的酒水与饮料货架、零食盒、瓶装调味品、墙面海报、悬挂电扇、杂乱的收银台、背景工作人员与生活化的零售商品陈列\n\n【电影摄影与技术规格】\n镜头与构图：约1.89:1宽银幕比例 / 真实感电影静帧与纪实摄影格式 / 中近景，取景至胸部以上 / 平视机位，略带正面四分之三侧身角度 / 约50毫米标准镜头，约f/2.8至f/4光圈 / 中央主体结合三分法，前、中、后景分层，利用货架营造纵深与自然框景\n光影与色彩：低饱和青灰、米beige与木棕色调，红色香烟盒作为视觉强调 / 柔和自然写实光，轻微阴影与低反差质感 / 店铺入口或窗户透入的白昼光、室内顶部荧光灯、冰柜与货架的漫反射补光\n后期特效：无明显视觉特效，保留真实烟雾与生活环境细节 | 数字电影质感，轻微颗粒，自然景深，纪实级调色与真实材质渲染"
   }
  ]
 }
