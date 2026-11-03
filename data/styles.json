@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 357,
+ "count": 358,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 37
+   "count": 38
   },
   {
    "name": "人像——身份参考",
@@ -10858,6 +10858,39 @@
    "srcHash": "aff187f49339fff0",
    "imgHash": "62c59d2188ee3c54",
    "zh": "【画面主体与环境置景】核心元素：微笑的东亚少女，smiling East Asian teenage girl 微笑的东亚少女，双马尾发型，red patterned dress 红色印花连衣裙，深绿色树叶前景，柔焦庭院背景\n美学调性：成长剧情片 / 当代现实主义背景 / 黄金时刻傍晚 / 室外\n具体置景：住宅庭院或花园丨米黄色天空与浅色外墙形成简洁背景，画面右侧及边缘由浓密阔叶植物自然遮幅，少女穿着红白印花服装，环境陈设极简并突出人物情绪\n【视听摄影与美学工业】\n镜头构图：约2.05:1宽画幅 / 电影级数字影像与柔和胶片化调色 / 特写人像镜头 / 平视略低机位正面视角 / 约50毫米镜头，f/2.0至f/2.8浅景深 / 中央对称构图，植物前景框景，大面积留白与背景虚化\n色彩光影：暖金色、蜂蜜黄、橄榄绿、低饱和红色调 / 柔和自然主义黄金时刻光效，低对比度与温暖肤色 / 傍晚低角度太阳光、天空漫反射环境光、树叶反射补光\n后期特效：无明显人工特效，自然浅景深散景与轻微空气透视丨电影胶片仿真质感，细腻颗粒、柔和高光滚降、低反差数字电影调色\n\n【电影元素与置景】\n\n核心视觉：微笑东亚少女、双马尾、红色印花连衣裙、深绿前景树叶、柔焦花园背景\n调性风格：成长剧情片 / 当代现实主义 / 黄金时刻傍晚 / 室外\n置景设计：住宅庭院或花园 | 极简米色天空与浅色外墙背景，右侧及边缘浓密阔叶自然框景，红白印花服装，陈设极简以突出人物情绪\n\n【电影摄影与技术规格】\n\n镜头与构图：约2.05:1宽画幅 / 电影级数字影像+柔和胶片化调色 / 特写人像 / 平视略低正面视角 / 约50毫米镜头、f/2.0-f/2.8浅景深 / 中央对称构图、植物前景框景、大面积留白与背景虚化\n光影与色彩：暖金、蜂蜜黄、橄榄绿、低饱和红 / 柔和自然黄金时刻光、低对比+温暖肤色 / 傍晚低角度阳光、漫射天光、树叶反弹补光\n后期特效：无明显人工特效，自然浅景深散景+轻微空气透视 | 胶片仿真质感、细腻颗粒、柔和高光滚降、低反差数字电影调色"
+  },
+  {
+   "id": "A360",
+   "seq": "360",
+   "title": "森林青年群像对峙｜60年代青春悬疑剧照",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "橄榄绿×深林绿·斑驳树影·复古胶片质感",
+   "palette": "橄榄绿+深森林绿+暖棕+米白+低饱和蓝",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "青春",
+    "群像",
+    "悬疑",
+    "森林",
+    "60年代",
+    "复古",
+    "越肩构图",
+    "2.10:1"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "三明治结构（上画面 1259×602 + 中文白字 + 英文暗字增强）。中文段仅 1 处丨/|分歧经像素独立全高竖判定为真「丨」（行2 x756，两侧空）；英文段对应「|」双遍一致。英文段标题无括号连排形态照录（A352 系）。中文段「悬疑 drama」中英混排照录。T2.8至T4 为 T 值光圈照录。声称 2.10:1（画面 2.091，照录）。无右缘截断。",
+   "prompt": "画面主体与环境置景核心元素：东亚青年男女群像， 前景背影人物， 中心短发女性， 白衬衫少年， 棕色衬衫少年， 灰色工装衬衫青年， 指向性手势， 森林树木与茂密植被\n美学调性： 青春成长剧情 / 悬疑 drama / 复古年代电影质感 / 约1960至1970年代 / 午后 / 室外\n具体置景： 林地与城市郊野森林丨粗壮树干， 交错枝条， 浓密阔叶植物， 自然林间空地， 复古日常服装， 群体对峙式站位\n视听摄影与美学工业镜头构图： 2.10:1 / 电影宽银幕实拍格式 / 中景至中近景群像 / 平视机位略带低角度感 / 约50mm镜头， T2.8至T4浅景深 / 前景遮挡与越肩构图， 中心人物视觉锚定， 三分法， 多层次纵深构图\n色彩光影： 橄榄绿， 深森林绿， 暖棕色， 米白色与低饱和蓝色的自然复古调色 / 斑驳树影光， 柔和高光， 适度反差， 电影级自然主义光影 / 午后低角度太阳光穿过树冠形成的间接自然光与局部反射光\n后期特效： 无明显数字特效， 轻微胶片颗粒， 柔和高光晕染， 自然景深， 轻度复古调色 / 电影胶片模拟与实拍摄影质感， 柔和动态范围， 细腻肤色还原\n\nCinematic Elements & Setting\nCore Visuals: East Asian group of young adults and teenagers, out-of-focus foreground figure seen from behind, central short-haired woman, boy in a white shirt, boy in a brown shirt, young man in a gray work shirt, pointing gesture, dense woodland vegetation and tree trunks\nTonal Style: Coming-of-age drama / mystery drama / period-film sensibility / approximately 1960s to 1970s / afternoon / exterior\nSet Design: Woodland and suburban forest clearing | Large tree trunks, tangled branches, dense broadleaf foliage, natural forest opening, understated vintage everyday clothing, confrontational group arrangementCinematic Photography & Tech Specification\nCamera & Framing: 2.10:1 aspect ratio / live-action cinematic period-film format / medium to medium close-up group shot / eye-level camera with a subtle low-angle impression / approximately 50mm lens, T2.8 to T4 aperture / foreground occlusion and over-the-shoulder framing, central visual anchor, rule of thirds, layered depth composition\nLighting & Color: Olive green, deep forest green, warm brown, ivory white, and muted blue naturalistic palette / dappled sunlight, soft highlights, moderate contrast, cinematic naturalism / indirect late-afternoon sunlight filtering through the tree canopy with localized reflected fill\nPost-VFX: No obvious digital effects, subtle film grain, gentle highlight bloom, natural depth of field, restrained vintage color grade / film-emulation and photographed-on-location texture, soft dynamic range, nuanced skin-tone rendering",
+   "img": "assets/full/A360.webp",
+   "thumb": "assets/thumb/A360.webp",
+   "w": 1259,
+   "h": 602,
+   "srcHash": "242e173948711ea6",
+   "imgHash": "bb888322fd16ae67",
+   "zh": "画面主体与环境置景核心元素：东亚青年男女群像，前景背影人物，中心短发女性，白衬衫少年，棕色衬衫少年，灰色工装衬衫青年，指向性手势，森林树木与茂密植被\n美学调性：青春成长剧情 / 悬疑 drama / 复古年代电影质感 / 约1960至1970年代 / 午后 / 室外\n具体置景：林地与城市郊野森林丨粗壮树干，交错枝条，浓密阔叶植物，自然林间空地，复古日常服装，群体对峙式站位\n视听摄影与美学工业镜头构图：2.10:1 / 电影宽银幕实拍格式 / 中景至中近景群像 / 平视机位略带低角度感 / 约50mm镜头，T2.8至T4浅景深 / 前景遮挡与越肩构图，中心人物视觉锚定，三分法，多层次纵深构图\n色彩光影：橄榄绿，深森林绿，暖棕色，米白色与低饱和蓝色的自然复古调色 / 斑驳树影光，柔和高光，适度反差，电影级自然主义光影 / 午后低角度太阳光穿过树冠形成的间接自然光与局部反射光\n后期特效：无明显数字特效，轻微胶片颗粒，柔和高光晕染，自然景深，轻度复古调色 / 电影胶片模拟与实拍摄影质感，柔和动态范围，细腻肤色还原\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：东亚青年少年群像、虚化前景背影、中央短发女性、白衬衫少年、棕衬衫少年、灰工装衬衫青年、指向手势、密林植被与树干\n调性风格：青春成长剧 / 悬疑剧 / 年代片质感 / 约1960-1970年代 / 午后 / 室外\n置景设计：林地与城市郊野森林 | 粗壮树干、交错枝条、浓密阔叶、自然林间空地、低调复古日常服装、对峙式群像站位\n\n【电影摄影与技术规格 / 镜头与构图】\n\n镜头与构图：2.10:1 / 真人电影年代片格式 / 中景至中近景群像 / 平视略低角度 / 约50mm镜头、T2.8至T4光圈 / 前景遮挡+越肩构图、中央视觉锚定、三分法、多层次纵深\n光影与色彩：橄榄绿、深森林绿、暖棕、米白与低饱和蓝的自然复古调色 / 斑驳树影、柔和高光、适度反差、电影自然主义 / 午后低角度阳光穿树冠+局部反射补光\n后期特效：无明显数字特效，轻微胶片颗粒、柔和高光晕染、自然景深、克制复古调色 / 胶片模拟+实景拍摄质感、柔和动态范围、细腻肤色"
   }
  ]
 }
