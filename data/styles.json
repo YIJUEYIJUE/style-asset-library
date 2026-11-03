@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 351,
+ "count": 352,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 31
+   "count": 32
   },
   {
    "name": "人像——身份参考",
@@ -10663,6 +10663,38 @@
    "srcHash": "be3e2d639840e202",
    "imgHash": "c46ee7f2b801b61e",
    "zh": "【画面主体与环境置景】 核心元素：红色醒狮头套，Red Chinese lion dance costume（中国舞狮服饰），金色刺绣与彩色装饰，另一只部分入画的醒狮，砖墙与狭窄巷道 /\n美学调性：文化节庆纪实电影、城市民俗摄影 / 当代时代背景 / 白天 / 室外\n具体置景：老城区后巷或砖砌城市街道丨斑驳灰砖墙、红褐色砖柱、裸露电线、墙面管道、低矮屋檐、混凝土地面、传统醒狮表演道具与服装细节\n【视听摄影与美学工业】\n镜头构图：约4:3比例 / 写实电影剧照与纪实摄影格式 / 近景至中近景 / 略低机位、接近视线高度 / 约35至50毫米镜头、浅景深、约f/2.8至f/4光圈 / 三分法结合对角线构图，主体位于画面中央偏右，醒狮头部占据视觉中心，背景压缩并虚化 /\n色彩光影：青蓝灰背景与鲜艳朱红、金色、翠绿形成冷暖对比 / 阴天漫射光、柔和低反差光效、轻微电影级色彩分级 / 主要光源为户外自然天光与城市环境反射光，墙面产生微弱冷色反光 /\n后期特效：无明显数字视觉特效，以真实羽毛、织物、金属刺绣和手工彩绘质感为主丨写实摄影渲染质感，细腻材质细节，浅景深背景分离，轻度胶片颗粒与青橙色电影调色，非CGI观感\n\n【电影元素与置景】\n\n核心视觉：红色醒狮头套与中国舞狮服饰、金色刺绣与彩色装饰、部分入画的第二只醒狮、斑驳砖墙与窄巷\n调性风格：文化节庆纪实电影、城市民俗摄影 / 当代时代背景 / 白天 / 室外\n置景设计：老城区后巷或砖砌城市街道 / 斑驳灰砖墙、红褐砖柱、裸露电线、墙面管道、低矮屋檐、混凝土地面、传统醒狮道具与服装细节\n\n【电影摄影与技术规格】\n\n镜头与构图：约4:3 / 写实电影剧照与纪实摄影 / 近景至中近景 / 略低机位近视线高度 / 约35-50毫米镜头、浅景深、约f/2.8-f/4光圈 / 三分法+对角线构图，主体中偏右，狮头占视觉中心，背景压缩虚化\n光影与色彩：青蓝灰背景对比鲜艳朱红、金色、翠绿（冷暖对比） / 阴天漫射、柔和低反差、轻微电影调色 / 户外自然天光+城市环境反射光，墙面微弱冷色反弹\n后期特效：无明显数字特效，强调真实羽毛、织物、金属刺绣与手绘细节 | 写实渲染质感、细腻材质、浅景深背景分离、轻度胶片颗粒与青橙电影调色，非CGI观感"
+  },
+  {
+   "id": "A354",
+   "seq": "354",
+   "title": "老杂货铺店主｜怀旧市井生活剧照",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "温暖复古·黄褐+灰绿·窗光自然主义·ARRI质感",
+   "palette": "黄褐色+灰绿色+木质棕+低饱和红蓝",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "市井",
+    "杂货铺",
+    "怀旧",
+    "生活流",
+    "窗光",
+    "室内",
+    "ARRI"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "三明治结构（上画面+中文白字+英文暗字增强）。原文形态：标题无【】连排照录；中文段纯中文+技术词（约50毫米、f4至f5.6、ARRI、Filmic LUT）；中文段「丨」2 处（全角竖线照录）与英文段「|」1 处对应；8 处全角/半角逗号分歧经像素二维形态判定（左上高位逗点+右下捺=全角「，」）。约1.45:1 声称（接近3比2，画面实 1.777，照录）。断词无。无右缘截断。",
+   "prompt": "画面主体与环境置景核心元素： 年长东亚男性店主， 老式杂货铺柜台， 货架与包装商品， 老式微波炉与冰箱， 玻璃展示柜， 绿植， 恐龙摆件， 药瓶与生活用品\n美学调性： 生活剧情片 / 怀旧现实主义 / 当代晚20世纪至21世纪初 / 白天 / 室内\n具体置景： 老城区社区杂货店或小型药材生活用品店丨木质开放货架、密集堆叠的彩色商品盒、老式家用电器、玻璃柜台、算盘或收银设备、塑料药瓶、透明玻璃瓶、盆栽、塑料恐龙玩具、木制储物柜与朴素墙面\n视听摄影与美学工业镜头构图： 约1.45比1，接近3比2 / 写实电影剧照、数字电影摄影 / 中景至中远景 / 平视机位， 略带自然俯视感 / 约50毫米标准镜头， 约f4至f5.6 / 三分法构图， 人物位于右侧视觉重点， 左侧家电与货架形成平衡， 前景玻璃柜台制造层次\n色彩光影： 黄褐色、灰绿色、木质棕色与低饱和红蓝包装色， 整体温暖复古 / 柔和自然主义光效， 低对比度， 轻微阴影包裹与细腻皮肤纹理 / 侧向窗光或门口日光为主， 辅以室内暖色环境光与微弱顶灯\n后期特效： 无明显视觉特效， 保持真实生活质感丨电影化数字调色、轻微胶片颗粒、自然景深、柔和高光滚降、写实纹理渲染， 接近ARRI数字摄影与Filmic LUT质感\n\nCinematic Elements & Setting\nCore Visuals: Elderly East Asian male shopkeeper, vintage neighborhood shop counter, densely stocked shelves, old microwave and refrigerator, glass display case, potted plant, dinosaur figurine, medicine bottles and household goods\nTonal Style: Slice-of-life drama / Nostalgic social realism / Contemporary, late 20th to early 21st century / Daytime / Interior\nSet Design: Old neighborhood grocery or small household-and-medicine shop | Wooden open shelving, tightly stacked colorful product boxes, dated domestic appliances, glass counter, abacus or cash-register equipment, plastic medicine containers, transparent glass bottles, potted greenery, toy dinosaur, wooden storage cabinet, plain aging walls\nCinematic Photography & Tech Specification\nCamera & Framing: Approximately 1.45:1, close to 3:2 / Photorealistic cinematic still, digital cinema format / Medium to medium-wide shot / Eye-level camera with a subtle natural downward perspective / Approximately 50mm standard lens at roughly f4 to f5.6 / Rule of thirds, subject positioned on the right, appliances and shelving balancing the left side, foreground glass counter creating layered depth\nLighting & Color: Warm ochre, muted sage green, wood brown, and subdued red-and-blue packaging accents / Soft naturalistic lighting, low contrast, gentle shadow wrap, detailed facial texture / Side window light or daylight from an open entrance as the key source, supported by warm ambient interior illumination and a faint overhead practical\nPost-VFX: No obvious visual effects, restrained documentary realism / Filmic digital color grade, subtle grain, natural depth of field, soft highlight roll-off, realistic material rendering with an ARRI digital-cinema and filmic-LUT character",
+   "img": "assets/full/A354.webp",
+   "thumb": "assets/thumb/A354.webp",
+   "w": 1258,
+   "h": 708,
+   "srcHash": "0a411333efd1eba0",
+   "imgHash": "ef6201cfd14c3b07",
+   "zh": "画面主体与环境置景核心元素：年长东亚男性店主，老式杂货铺柜台，货架与包装商品，老式微波炉与冰箱，玻璃展示柜，绿植，恐龙摆件，药瓶与生活用品\n美学调性：生活剧情片 / 怀旧现实主义 / 当代晚20世纪至21世纪初 / 白天 / 室内\n具体置景：老城区社区杂货店或小型药材生活用品店丨木质开放货架、密集堆叠的彩色商品盒、老式家用电器、玻璃柜台、算盘或收银设备、塑料药瓶、透明玻璃瓶、盆栽、塑料恐龙玩具、木制储物柜与朴素墙面\n视听摄影与美学工业镜头构图：约1.45比1，接近3比2 / 写实电影剧照、数字电影摄影 / 中景至中远景 / 平视机位，略带自然俯视感 / 约50毫米标准镜头，约f4至f5.6 / 三分法构图，人物位于右侧视觉重点，左侧家电与货架形成平衡，前景玻璃柜台制造层次\n色彩光影：黄褐色、灰绿色、木质棕色与低饱和红蓝包装色，整体温暖复古 / 柔和自然主义光效，低对比度，轻微阴影包裹与细腻皮肤纹理 / 侧向窗光或门口日光为主，辅以室内暖色环境光与微弱顶灯\n后期特效：无明显视觉特效，保持真实生活质感丨电影化数字调色、轻微胶片颗粒、自然景深、柔和高光滚降、写实纹理渲染，接近ARRI数字摄影与Filmic LUT质感\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：年长东亚男性店主、老式杂货铺柜台、密集货架、老微波炉与冰箱、玻璃展示柜、盆栽、恐龙摆件、药瓶与生活用品\n调性风格：生活剧情片 / 怀旧社会现实主义 / 当代偏晚20世纪至21世纪初 / 白天 / 室内\n置景设计：老城区社区杂货店或小型药材生活用品店 | 木质开放货架、密集堆叠的彩色商品盒、老式家用电器、玻璃柜台、算盘或收银设备、塑料药瓶、透明玻璃瓶、盆栽、塑料恐龙玩具、木制储物柜与朴素墙面\n\n【电影摄影与技术规格】\n\n镜头与构图：约1.45:1，接近3:2 / 写实电影剧照、数字电影格式 / 中景至中远景 / 平视机位略带自然俯视 / 约50毫米标准镜头，约f4至f5.6 / 三分法构图，人物位于右侧视觉重点，左侧家电与货架平衡，前景玻璃柜台制造层次\n光影与色彩：黄褐、灰绿、木棕与低饱和红蓝包装色，整体温暖复古 / 柔和自然主义光效、低对比度、轻微阴影包裹与细腻面部纹理 / 侧窗光或门口日光为主，室内暖色环境光+微弱顶灯\n后期特效：无明显视觉特效，克制的纪录片式写实 / 电影化数字调色、轻微胶片颗粒、自然景深、柔和高光滚降、写实材质渲染，ARRI数字电影+Filmic LUT 质感"
   }
  ]
 }
