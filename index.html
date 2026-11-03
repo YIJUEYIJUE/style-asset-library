@@ -199,10 +199,10 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
 .lightbox img{max-width:97vw;max-height:95svh;object-fit:contain;border-radius:3px;box-shadow:0 30px 90px rgba(0,0,0,.6)}
 .lbHint{position:fixed;left:0;right:0;bottom:14px;text-align:center;font-family:var(--mono);font-size:10px;letter-spacing:.09em;color:rgba(246,239,226,.46);pointer-events:none}
 /* ---- 看片台 / 提示词 / 分步工作流样式（原为 app.js 运行时注入的 FIX_CSS，已回写骨架）---- */
-/* 看片台：信息栏自己滚动，提示词跟在标题下面并撑满剩余空间 */
+/* 看片台：信息栏自己滚动，提示词区按视口比例给高度（长文区内滚动，不再被 flex 收缩压扁） */
 .modalInfo{display:flex;flex-direction:column;min-height:0;overflow:auto;overscroll-behavior:contain}
 .modalInfo>*{flex:0 0 auto}
-.modalInfo>.promptBox{flex:1 1 auto;max-height:none;min-height:132px}
+.modalInfo>.promptBox{flex:0 0 auto;max-height:clamp(240px,46svh,560px);min-height:132px}
 .modalMedia{overflow:hidden}
 @media (max-width:760px){
   .modalCard{grid-template-columns:1fr;grid-template-rows:minmax(110px,.82fr) minmax(0,1.18fr) auto;max-height:93svh}
