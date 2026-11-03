@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 349,
+ "count": 350,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 29
+   "count": 30
   },
   {
    "name": "人像——身份参考",
@@ -10598,6 +10598,38 @@
    "srcHash": "120bbfb4d09a2cfe",
    "imgHash": "7d00f4ff66a925e2",
    "zh": "画面主体与环境置景 / 核心元素：白马与缰绳，white horse 白马，华服围观人群，period-dressed crowd 古装人群，豹纹披风人物，leopard-pattern cloak 豹纹斗篷，马夫，horse handler 牵马者，唐风官民服饰，Tang-style period costumes 唐风服装，古代宫殿庭院，imperial palace courtyard 宫苑广场，众人仰望的场外事件，off-screen spectacle 场外奇观\n美学调性：历史史诗剧情片 / 中国唐代风格的古代背景 / 日落前的傍晚金色时刻 / 室外\n具体置景：皇家宫殿庭院与仪式广场 | 深色木柱、雕花斗拱、灰色筒瓦屋檐、朱褐色殿门、石阶、成排侍从与官民群众、色彩丰富的丝绸袍服、发髻冠帽、珠钗首饰、折扇、白马鞍具与皮革缰绳\n电影摄影与美学工业 / 镜头构图：2.30:1超宽画幅 / 高预算历史史诗电影质感、变形宽银幕摄影 / 中近景群像广角构图 / 平视略低机位 / 约35毫米镜头、f/4浅中景深 / 白马居中主导构图、前中后景密集分层、建筑横向框景、三分法人物分布与群体视线引导\n色彩光影：琥珀金、赭石棕、砖红、深木褐、奶油白与低饱和青灰 / 温暖自然主义电影光、柔和逆侧光、金色轮廓光、适度阴影层次 / 低角度夕阳、天空漫反射、宫殿立面反光与环境补光\n后期特效：写实无缝人群扩展、轻微空气尘粒、细腻胶片颗粒、柔和高光晕染与电影级综合色彩 / 数字电影中间片调色、真实布料毛发细节、摄影级CG辅助与高预算古装大片渲染质感\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：白马、皮革笼头与缰绳、古装人群、豹纹斗篷、牵马者、唐风官民、皇城宫苑、众人仰望场外奇观的集体视线\n调性风格：历史史诗剧 / 唐风架空古代中国 / 傍晚金色时刻 / 室外\n置景设计：皇城宫苑与仪式广场 | 深色木柱、雕花斗拱、灰瓦屋檐、朱褐色殿门、石阶、密集排布的官民、彩色丝绸袍服、传统冠帽发饰、珠钗、折扇、马具与皮革缰绳\n\n【电影摄影与技术规格】\n\n镜头与构图：2.30:1超宽画幅 / 高预算历史史诗电影格式、变形宽银幕观感 / 中近景群像 / 平视略低机位 / 约35毫米镜头、f/4适中浅景深 / 白马居中主导、前中背景密集分层、建筑横向框景、三分法布位、汇聚的群体视线\n光影与色彩：琥珀金、赭石棕、砖红、深木褐、奶油白、低饱和青灰 / 温暖自然主义电影光、柔和逆侧光、金色轮廓光、可控阴影层次 / 低角度夕阳、漫射天光、宫殿立面反光与环境补光\n后期特效：写实无缝人群扩展、轻微空气浮尘、细腻胶片颗粒、柔和高光晕染、电影级统一调色 / 数字中间片质感、真实布料毛发细节、含蓄CG增补、高预算历史大片渲染美学"
+  },
+  {
+   "id": "A352",
+   "seq": "352",
+   "title": "舞狮骑摩托穿老街｜中西混搭市井剧照",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "低饱和复古·青灰+砖红+灯笼金红·自然日光",
+   "palette": "青灰+砖红+暗褐+灯笼金红",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "市井",
+    "舞狮",
+    "老街",
+    "中西合璧",
+    "红灯笼",
+    "哥特钟楼",
+    "4:3"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "本图为三明治结构：上画面（1258×708）+ 中文段（白字）+ 英文段（暗色字，位于图底部区域，OCR 时需低阈值）。原文形态：段标题无【】、直接连排（照录）；中文段为「中文，英文（中文注）」混排；中文段分隔符实为汉字「丨」（U+4E28，像素级 y 向全高贯通判定），非全角「｜」；英文段 architecture 后分隔符经像素判定（斜向块）为「/」非「|」。断词 street / red 合并。无右缘裁切损伤。",
+   "prompt": "画面主体与环境置景核心元素：舞狮表演者，lion dance performers（舞狮表演者），骑摩托车的人，motorcycle rider（摩托车骑手），中式老街，traditional Chinese street（传统中式街巷），哥特式教堂钟楼，Gothic church tower（哥特式教堂塔楼），红灯笼，red lanterns（红灯笼），电线与电线杆，overhead wires and utility poles（架空电线与电线杆）\n美学调性：都市文化剧情片 / 当代2010年代至2020年代 / 上午至午后 / 室外\n具体置景：历史文化街区与中西建筑混合街巷丨两侧红砖与灰砖老建筑、青灰色中式瓦檐、木质店铺门面、密集架空电线、混凝土电线杆、红色春节灯笼、街边盆栽、摩托车、远处行人、散落鞭炮碎屑、中央哥特式石砖教堂塔楼与中式飞檐屋顶\n视听摄影与美学工业镜头构图：约 4:3 / 写实电影剧照与数字摄影 / 远景至大全景 / 平视机位 / 约35毫米焦距，约f/8中等偏小光圈 / 中央透视构图、引导线构图、框景构图、近似对称布局与前中后景层次\n色彩光影：青灰、砖红、暗褐与灯笼金红的低饱和复古色调 / 自然主义电影光、轻微雾化漫射与柔和阴影 / 午后自然日光，来自画面左上方的侧前方太阳光，并结合大气反射光\n后期特效：轻微空气透视、薄雾、烟尘与高光柔化，无明显数字特效 / 写实数字中间片质感，接近高动态范围摄影与轻度胶片调色，保留建筑纹理和自然颗粒感\n\nCinematic Elements & Setting\nCore Visuals: lion dance performers, motorcycle rider, traditional Chinese street, Gothic church tower, red lanterns, overhead wires and utility poles\nTonal Style: urban cultural drama and documentary realism / contemporary 2010s to 2020s / late morning to afternoon / exterior\nSet Design: historic cultural neighborhood with mixed Chinese and Western architecture / red-brick and gray-brick low-rise buildings, weathered gray tile roofs, traditional upturned eaves, wooden storefronts, dense overhead utility cables, concrete poles, festive red lanterns, potted plants, parked and moving scooters, distant pedestrians, scattered firecracker debris, and a central Gothic stone-brick church tower topped with Chinese architectural roof ornaments\nCinematic Photography & Tech Specification\nCamera & Framing: approximately 4:3 / photorealistic live-action cinematic still and digital photography / wide shot to extreme wide shot / eye-level camera angle / approximately 35mm lens at around f/8 / centered perspective, leading lines, natural frame-within-frame structure, near-symmetrical balance, and layered foreground, midground, and background depth\nLighting & Color: muted teal-gray, weathered brick brown, charcoal, and vivid ceremonial red with subtle golden accents / naturalistic cinematic daylight, atmospheric diffusion, and soft-edged shadows / afternoon sunlight entering from the upper left front side, supported by ambient sky fill and reflected urban light\nPost-VFX: subtle atmospheric perspective, haze, smoke-like diffusion, and restrained highlight bloom with no obvious digital effects / realistic digital intermediate texture with high-dynamic-range detail, gentle filmic color grading, and naturally preserved architectural texture",
+   "img": "assets/full/A352.webp",
+   "thumb": "assets/thumb/A352.webp",
+   "w": 1258,
+   "h": 708,
+   "srcHash": "4e1e36e2da201f12",
+   "imgHash": "19654599188861aa",
+   "zh": "画面主体与环境置景核心元素：舞狮表演者，lion dance performers（舞狮表演者），骑摩托车的人，motorcycle rider（摩托车骑手），中式老街，traditional Chinese street（传统中式街巷），哥特式教堂钟楼，Gothic church tower（哥特式教堂塔楼），红灯笼，red lanterns（红灯笼），电线与电线杆，overhead wires and utility poles（架空电线与电线杆）\n美学调性：都市文化剧情片 / 当代2010年代至2020年代 / 上午至午后 / 室外\n具体置景：历史文化街区与中西建筑混合街巷丨两侧红砖与灰砖老建筑、青灰色中式瓦檐、木质店铺门面、密集架空电线、混凝土电线杆、红色春节灯笼、街边盆栽、摩托车、远处行人、散落鞭炮碎屑、中央哥特式石砖教堂塔楼与中式飞檐屋顶\n视听摄影与美学工业镜头构图：约 4:3 / 写实电影剧照与数字摄影 / 远景至大全景 / 平视机位 / 约35毫米焦距，约f/8中等偏小光圈 / 中央透视构图、引导线构图、框景构图、近似对称布局与前中后景层次\n色彩光影：青灰、砖红、暗褐与灯笼金红的低饱和复古色调 / 自然主义电影光、轻微雾化漫射与柔和阴影 / 午后自然日光，来自画面左上方的侧前方太阳光，并结合大气反射光\n后期特效：轻微空气透视、薄雾、烟尘与高光柔化，无明显数字特效 / 写实数字中间片质感，接近高动态范围摄影与轻度胶片调色，保留建筑纹理和自然颗粒感\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：舞狮表演者、骑摩托车的人、中式老街、哥特式教堂钟楼、红灯笼、架空电线与电线杆\n调性风格：都市文化剧情片与纪录片写实 / 当代2010年代至2020年代 / 上午至午后 / 室外\n置景设计：历史文化街区与中西建筑混合街巷 / 两侧红砖与灰砖低层老建筑、风化的青灰瓦檐、传统翘檐、木质店面、密集架空电线、混凝土电线杆、节庆红灯笼、盆栽、摩托车、远处行人、散落鞭炮碎屑、中央哥特式石砖教堂塔楼与中式翘檐屋顶\n\n【电影摄影与技术规格】\n\n镜头与构图：约4:3 / 写实真人电影剧照与数字摄影 / 远景至大全景 / 平视机位 / 约35毫米镜头、约f/8中等偏小光圈 / 中央透视、引导线、自然框中框结构、近似对称平衡与前中背景分层\n光影与色彩：低饱和青灰、风化砖棕、炭黑与鲜艳的节庆红、微妙金色点缀 / 自然主义电影日光、大气漫射与软边阴影 / 午后阳光从左前上方射入，天光环境补光与城市反光\n后期特效：轻微大气透视、薄雾、烟状漫射与克制的高光晕染，无明显数字特效 / 写实数字中间片质感、高动态范围细节、温和的胶片调色，自然保留建筑纹理"
   }
  ]
 }
