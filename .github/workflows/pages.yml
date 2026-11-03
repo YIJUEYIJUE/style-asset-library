@@ -31,6 +31,8 @@ jobs:
         run: python3 scripts/gen_stats.py --check
       - name: Check i18n key algorithm parity (app.js vs merge_i18n.py)
         run: python3 scripts/check_i18n_key_parity.py
+      - name: Check i18n orphan blocks (prompt changed without remounting translations)
+        run: python3 scripts/merge_i18n.py --check --all --strict
 
   deploy:
     needs: validate

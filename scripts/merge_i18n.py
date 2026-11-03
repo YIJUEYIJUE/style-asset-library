@@ -135,6 +135,7 @@ def main() -> int:
     ap.add_argument("--check", action="store_true", help="只体检，不写回 styles.json")
     ap.add_argument("--all", action="store_true", help="体检时列出全部缺口，不截断")
     ap.add_argument("--key", help="算一段提示词的覆盖层键并退出")
+    ap.add_argument("--strict", action="store_true", help="体检时把孤儿块（key 挂不上任何风格）当错误，非零退出——CI 用")
     args = ap.parse_args()
 
     if args.key:
@@ -223,6 +224,9 @@ def main() -> int:
 
     if args.check:
         print("· --check：未写文件")
+        if args.strict and orphan:
+            print(f"!! --strict：{len(orphan)} 组孤儿块未挂载，CI 拦截（修正 i18n.txt 块头或还原被改的 prompt）")
+            return 1
         return 0 if not dup_full and not blocked else 1
     if not any(wrote.values()):
         print("· 没有需要写入的内容，styles.json 未改动")

@@ -17,6 +17,8 @@ index.html            # 页面骨架 + 样式（~26 KB）
 app.js                # 全部交互逻辑
 data/styles.json      # 唯一数据源：每条风格一个对象
 data/i18n.txt         # 中英对照 / 补充说明覆盖层（按提示词内容挂载，不按 id）
+data/catalog.json     # 【生成物】首屏轻量目录，由 split_data.py 产出，勿手改
+data/chunks/          # 【生成物】提示词分片，部署时现做（.gitignore，勿手改勿提交）
 assets/full/A001.webp # 详情大图
 assets/thumb/A001.webp# 列表缩略图（520px）
 scripts/import_xlsx.py       # 【常用】图片 zip + 表格 xlsx → 一步入库
@@ -167,6 +169,7 @@ python3 scripts/add_style.py --image step1.png --prompt-file step1.txt \
 - `key` = `fnv1a32(提示词去标点后转小写的前 120 字)` 的 base36，算法在 `app.js` 的 `i18nKey()` 与 `scripts/merge_i18n.py` 的 `i18n_key()` 里，**两边必须同步修改**。
 - 算一段提示词的 key：`python3 scripts/merge_i18n.py --key "提示词全文"`。
 - 四条规矩：正文任何一行都不能以 `## ` 开头；只翻译不改写（参数、权重、`--ar` 之类原样保留）；只有 `zh`/`en` 会进中英切换，`note` 永远单独一栏；key 对不上就静静降级（网页照常显示原文）。
+- **第五条（血泪条款）：改动任何条目的 `prompt` 前后，必须跑 `python3 scripts/merge_i18n.py --check --all --strict`**——prompt 一变指纹就变，已挂的译文块会变孤儿（警告不报错、页面该条译文静默失效）。A036 曾因此失配两天。若 `--strict` 非零退出：要么把 i18n.txt 的旧块头换成新 key（`--key "新prompt"` 算），要么不要改 prompt。
 
 体检与合并：
 
@@ -209,6 +212,10 @@ python3 scripts/merge_i18n.py                 # 把 zh / en / note 固化进 dat
   **协作硬约束（由另一个 AI 定为站点规范）**：任何批次入库了英文/外文原版提示词，都必须同步在 `data/i18n.txt` 挂对应的 `zh` 块，
   否则看片台的「中文译文」页签会为空。入库后务必跑 `python3 scripts/merge_i18n.py --check --all` 核对缺口，
   把缺的译文块补完再推（见下方「新增批次的必做清单」）。
+- **双语原版条目**（同一张图作者直接给了中文原版 + 英文原版两份提示词，如 A340）：两份**都是原件，全在 `prompt` 里原样照存**——
+  中文段在前、英文段在后、空行分隔，各自完整，绝不砍掉任何一份、绝不翻译改写。zh 译文块 = 中文段原样 + 英文段翻成中文的全文。
+  前端会自动识别这种「前全中文段 + 后全英文段」的干净分界，原文页签渲染成中文/English 两个独立框、各自带复制按钮（见 `splitBilingual()`）；
+  中文 prompt 内嵌英文术语的交错形态不会被误切，照普通条目展示。首条样例：A340（Z Image Turbo）。
 - 数据全在 `data/styles.json` + `data/i18n.txt` 两个文件里，本 README 即 schema 权威文档；其它 AI 或人按上面「字段含义」增删字段、跑 `scripts/validate.py` 校验、再 `git push` 即可。
 
 看片台的五条硬规定（改样式 / 改交互时别破坏，破坏了就是「点进去看不到提示词」）：
