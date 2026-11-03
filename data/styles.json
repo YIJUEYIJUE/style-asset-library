@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 347,
+ "count": 348,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 27
+   "count": 28
   },
   {
    "name": "人像——身份参考",
@@ -10534,6 +10534,38 @@
    "srcHash": "4ebc65e2ad6f5df9",
    "imgHash": "529b4936d09bae47",
    "zh": "【画面主体与环境置景】\n\n核心元素：古装东方男性侠客、古装东方女性、两人近距离对视、男性束发与胡须、女性盘发、传统布衣、紧张而亲密的情绪交流、山野背景\n美学调性：武侠剧情 / 中国古代架空时代，约宋元时期质感 / 蓝调黄昏 / 室外\n具体置景：山林与高地荒野 | 模糊的深色山峦、远处起伏的自然地形、无现代建筑、简朴古代服饰、粗织围巾与发饰\n\n【视听摄影与美学工业】\n\n镜头构图：2.35:1宽银幕比例 / 电影写实摄影格式、数字电影模拟胶片质感 / 特写至大特写，双人面部近距离构图 / 平视机位，略带侧面肖像角度 / 约85至100毫米中长焦，浅景深，约f/1.4至f/2.0 / 对称式对视构图、双主体平衡、面部占据画面主体、背景负空间与视线轴线强化情绪张力\n色彩光影：冷蓝青色环境色与温暖琥珀肤色形成冷暖对比 / 低调自然主义光效、柔和轮廓光、局部高光与深阴影 / 低角度夕阳或暮光暖光作为主光，蓝天环境光补光，细微侧逆光勾勒发丝轮廓\n后期特效：无明显数字视觉特效，真实皮肤纹理、自然景深、轻微大气透视与电影感调色 / 数字电影摄影配胶片仿真颗粒、柔和高光溢出、低对比度阴影与写实合成质感\n\n【电影元素与置景】\n\n核心视觉：古装东方男性武侠主角、古装东方女性主角、两人亲密对视、男性束发与胡须、女性传统盘发、时代布衣、克制的情绪张力、山野荒野\n调性风格：武侠剧情 / 架空古代中国，宋至元时期质感 / 蓝调黄昏 / 室外\n置景设计：山野与高地乡村景观 | 柔和的山脊、远处自然地形、无现代建筑、简朴的历史服饰、粗织围巾与传统发饰\n\n【电影摄影与技术规格】\n\n镜头与构图：2.35:1宽银幕比例 / 电影级实拍摄影配胶片仿真质感 / 特写至大特写双人面部构图 / 平视机位略带侧面角度 / 约85至100毫米中长焦镜头，浅景深，约f/1.4至f/2.0 / 对称式对视构图、双主体平衡、面部占据画面主体、负空间与共享视线强化张力\n光影与色彩：冷蓝青环境色与暖琥珀肤色形成对比 / 低调自然主义布光、柔和轮廓光、选择性深阴影 / 低角度暖色夕阳光为主光，蓝天环境光补光，细微侧逆光勾勒发丝\n后期特效：无明显数字特效，自然皮肤纹理、自然景深、轻微大气透视与电影感调色 / 数字电影摄影配胶片仿真颗粒、柔和克制的反差与写实合成质感"
+  },
+  {
+   "id": "A350",
+   "seq": "350",
+   "title": "蓝袍骑士入宫城｜唐宋黄昏史诗全景",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "暖金琥珀+褐木色·日落逆光·史诗VFX合成",
+   "palette": "暖金琥珀+褐木+冷蓝服装点缀+朱红立柱",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "武侠",
+    "古装史诗",
+    "全景",
+    "唐宋",
+    "宫城",
+    "日落逆光",
+    "消失点构图"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "原图（作者分享截图）英文段标题括号在 OCR 中被误读为 □ 符号（图形上即【】），已归位；末词 composoting 为 OCR 形近误读，修正为 compositing；另有跨行断词 ancient 合并、中英混排（white horse（白马）等）为原文风格照录。本图无右缘裁切损伤。",
+   "prompt": "【画面主体与环境置景】\n\n核心元素：蓝袍束发骑士, white horse（白马）, 三名策马来客, ancient Chinese townspeople（中国古代市民）, 宫城街道, 木构楼阁, 远景宫殿\n美学调性：历史史诗 / 古装武侠剧情 / 中国古代架空王朝或唐宋风格 / 黄昏日落 / 室外\n具体置景：古代皇城商业街与宫殿前庭 | 两侧高耸的深色木构二层楼阁、飞檐瓦顶、朱红立柱、连续木栏、悬挂宫灯、石板主街、人群摊贩、马匹与鞍具、街道尽头的重檐宫殿\n\n【视听摄影与美学工业】\n\n镜头构图：2.22:1 / 电影级写实古装史诗影像 / 大全景至全景 / 低机位后侧三四视角 / 约28毫米广角镜头，f/4景深 / 中央消失点、强引导线、框景构图、前景主体压画面左侧三分之一、近中远景分层\n色彩光影：暖金琥珀与褐木色主调，蓝色服装形成冷暖对比 / 日落逆光与柔和环境漫反射，轻度体积空气感 / 低角度夕阳、天空散射光、建筑阴影反光、悬挂灯笼暖光\n后期特效：历史场景数字延展、CGI人群与建筑补景、微妙大气透视、电影级综合色彩分级 |高端写实数字电影渲染质感，具备大制作古装史诗VFX合成风格\n\n【Cinematic Elements & Setting】\n\nCore Visuals: blue-robed topknot rider, white horse, three mounted arrivals, ancient Chinese townspeople, imperial city street, timber pavilion buildings, distant palace\nTonal Style: historical epic / costume wuxia drama / fictional ancient Chinese dynasty with Tang-Song visual influence / sunset dusk / exterior\nSet Design: ancient imperial market street and palace forecourt | tall dark timber two-story pavilions on both sides, upturned tiled eaves, vermilion columns, continuous wooden balconies, hanging lanterns, stone-paved avenue, vendors and pedestrians, horses with tack, double-eaved palace at the vanishing point\n【Cinematic Photography & Tech Specification】\n\nCamera & Framing: 2.22:1 / cinematic photoreal historical-epic format / wide establishing shot to full shot / low-angle rear three-quarter view / approximately 28mm wide-angle lens, f/4 depth of field / central vanishing point, strong leading lines, architectural frame-within-frame composition, foreground hero placed on the left third, layered foreground-midground-background depth\nLighting & Color: warm golden amber and weathered brown timber palette, contrasted by cool blue costume accents / sunset backlighting with soft ambient bounce and subtle atmospheric volume / low-angle setting sun, diffuse skylight, reflected architectural shadow fill, warm hanging-lantern illumination\nPost-VFX: digital historical set extension, CGI crowd and architectural augmentation, subtle atmospheric perspective, cinematic color grading | premium photoreal digital-cinema rendering with large-scale period-epic VFX compositing",
+   "img": "assets/full/A350.webp",
+   "thumb": "assets/thumb/A350.webp",
+   "w": 1259,
+   "h": 564,
+   "srcHash": "c4d19a6af2a2c7db",
+   "imgHash": "0801b1a8f33b6d34",
+   "zh": "【画面主体与环境置景】\n\n核心元素：蓝袍束发骑士, white horse（白马）, 三名策马来客, ancient Chinese townspeople（中国古代市民）, 宫城街道, 木构楼阁, 远景宫殿\n美学调性：历史史诗 / 古装武侠剧情 / 中国古代架空时代王朝或唐宋风格 / 黄昏日落 / 室外\n具体置景：古代皇城商业街与宫殿前庭 | 两侧高耸的深色木构二层楼阁、飞檐瓦顶、朱红立柱、连续木栏、悬挂宫灯、石板主街、人群摊贩、马匹与鞍具、街道尽头的重檐宫殿\n\n【视听摄影与美学工业】\n\n镜头构图：2.22:1 / 电影级写实古装史诗影像 / 大全景至全景 / 低机位后侧三四视角 / 约28毫米广角镜头，f/4景深 / 中央消失点、强引导线、框景构图、前景主体压画面左侧三分之一、近中远景分层\n色彩光影：暖金琥珀与褐木色主调，蓝色服装形成冷暖对比 / 日落逆光与柔和环境漫反射，轻度体积空气感 / 低角度夕阳、天空散射光、建筑阴影反光、悬挂灯笼暖光\n后期特效：历史场景数字延展、CGI人群与建筑补景、微妙大气透视、电影级综合色彩分级 | 高端写实数字电影渲染质感，具备大制作古装史诗VFX合成风格\n\n【电影元素与置景】\n\n核心视觉：蓝袍束发骑士、白马、三名骑马来客、中国古代市民、皇城街道、木构楼阁建筑、远景宫殿\n调性风格：历史史诗 / 古装武侠剧 / 架空中国古代王朝，唐宋视觉影响 / 日落黄昏 / 室外\n置景设计：古代皇城市场街与宫殿前庭 | 两侧高耸深色木构二层楼阁、翘檐瓦顶、朱红立柱、连续木栏、悬挂灯笼、石板主街、摊贩与行人、马匹与鞍具、消失点处的重檐宫殿\n\n【电影摄影与技术规格】\n\n镜头与构图：2.22:1 / 电影级写实历史史诗格式 / 大全景至全景 / 低机位后侧四分之三视角 / 约28毫米广角镜头，f/4景深 / 中央消失点、强引导线、建筑框中框构图、前景主角置于左侧三分之一、前中背景分层\n光影与色彩：暖金琥珀与风化褐木主色，冷蓝服装点缀形成对比 / 日落逆光配柔和环境反弹与轻微大气体积感 / 低角度落日、漫射天光、建筑阴影反射补光、悬挂灯笼暖光\n后期特效：历史场景数字延展、CGI人群与建筑增补、微妙大气透视、电影级调色 | 高端写实数字电影渲染，大制作古装史诗VFX合成质感"
   }
  ]
 }
