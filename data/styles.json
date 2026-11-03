@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 345,
+ "count": 346,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 25
+   "count": 26
   },
   {
    "name": "人像——身份参考",
@@ -10472,6 +10472,37 @@
    "srcHash": "9022d777317d3ccc",
    "imgHash": "9a05ef9ae6c00b09",
    "zh": "画面主体与环境置景核心元素：年轻东亚男性剑客，飘动的黑色长发，古代中式武侠服饰，肩后佩剑，雕花剑柄与深红剑鞘，冷峻凝视，蓝色天空\n美学调性：武侠电影 / 中国古代架空时代 / 黄昏前后 / 室外\n具体置景：开阔天空下的户外武侠场景 | 极简背景、无建筑与城市元素、蓝天负空间、人物肩部服装纹理、红黑雕花剑鞘、金属装饰剑柄、自然风吹动发丝\n\n视听摄影与美学工业镜头构图：2.35:1宽银幕比例 / 写实电影摄影与古装武侠视觉格式 / 近景至特写肖像 / 略微仰拍、接近视线高度 / 约85毫米中长焦镜头、约f/2.0浅景深 / 面部居中构图、剑身形成右上方对角线、主体填充画面、天空负空间与视觉引导线\n色彩光影：冷蓝天空与暖金肤色的青橙对比、低饱和自然色调 / 柔和侧逆光、细腻轮廓光、局部高光与轻微阴影反差 / 低角度自然太阳光作为主光，天空散射光作为环境补光\n后期特效：微风动态、发丝飞扬、轻微空气透视与自然景深效果 / 写实数字中间片质感、电影级HDR调色、细腻胶片颗粒、无明显奇幻特效或人工合成痕迹\n\n电影元素与置景核心视觉：年轻东亚剑客，风吹黑色长发，古代中式武侠服饰，肩后佩剑，雕花剑柄与深红剑鞘，冷峻凝视，蓝天\n调性风格：武侠电影 / 中国古代架空时代 / 黄昏前后 / 室外\n置景设计：广阔天空下的户外武侠场景 | 极简背景，无建筑与城市元素，蓝天负空间，人物肩部服装纹理，红黑雕花剑鞘，金属装饰剑柄，自然风吹发丝\n\n电影摄影与技术规格镜头与构图：2.35:1宽银幕比例 / 真实电影摄影与古装武侠格式 / 近景至紧凑特写 / 略低角度接近视线高度 / 约85mm中长焦镜头，约f/2.0浅景深 / 面部居中构图，剑身形成右上方对角线，主体填充画面，天空负空间与方向性引导线\n光影与色彩：冷蓝天空与暖金肤色对比，克制的青橙色板 / 柔和侧逆光，细腻轮廓光，局部高光与适度阴影反差 / 低角度自然阳光作主光，漫射天光作环境补光\n后期特效：微风动态，飞扬发丝，轻微大气透视与自然景深效果 / 真实感数字中间片质感，电影级HDR调色，细腻胶片颗粒，无明显奇幻特效或人工合成痕迹"
+  },
+  {
+   "id": "A348",
+   "seq": "348",
+   "title": "凤冠红嫁衣与双面侍卫｜东方奇幻武侠静帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "暗红冷银对照·戏剧性低调光影·夜雾仪式感",
+   "palette": "深红+酒红+黑+冷蓝灰+银+暖橙点光",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "东方奇幻",
+    "武侠",
+    "古装",
+    "对称构图",
+    "85mm",
+    "夜戏"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.03",
+   "note": "原图（作者分享截图）右缘有裁切，英文段每行行尾若干字符被切掉，共 6 处按语义补全：palette / depth of field / Lighting & Color: Desaturated deep red / lights from / warm / cinematic。中文原版与英文主体未受影响，复制使用无碍。",
+   "prompt": "画面主体与环境置景\n\n核心元素：古代中国贵族女子、银色华丽头冠、红色刺绣嫁衣、面容冷峻的蒙面护卫、金属面具、暗红色斗篷、古装武侠人物、悬浮光尘\n美学调性：东方历史奇幻 / 武侠悬疑 / 古装宫廷剧 / 中国古代架空时代 / 夜晚 / 室外\n具体置景：古代宫殿庭院或仪式场地 | 暗色石墙或木质建筑背景、模糊的暖色灯火、中央人物仪式性站位、两名护卫左右对称排列、深红与黑色布幔、金属铠甲与面具、朦胧夜雾\n视听摄影与美学工业\n\n镜头构图：约1.85:1 / 写实电影感数字摄影、古装奇幻美术风格 / 中近景，主体呈胸像至半身构图 / 正面平视机位 / 约85毫米中长焦镜头，浅景深，约f/2.0光圈 / 中央对称构图、三分法辅助、前中后景分层、主体居中突出\n色彩光影：深红、酒红、黑色、冷蓝灰与银色为主，暖橙色点光作对比 / 低调戏剧性光影、明暗对照、柔和轮廓光、背景散景 / 冷色月光或大型柔光源作为主光，前方柔和补光，远处火盆、灯笼或烛火形成暖色实景光\n后期特效：浅景深散景、空气雾化、微粒与光尘漂浮、柔和高光泛光、金属饰品高光增强、轻微电影颗粒与色彩分级 / 写实高端数字电影渲染质感，接近虚幻引擎或V-Ray的写实材质表现，细腻皮肤纹理与自然景深\n\nCinematic Elements & Setting\n\nCore Visuals: Ancient Chinese noblewoman, ornate silver bridal headdress, red embroidered ceremonial robe, masked guards, metal crimson cloaks, historical wuxia characters, floating luminous particles\nTonal Style: Eastern historical fantasy / wuxia mystery / imperial costume drama / Chinese era / nighttime / exterior\nSet Design: Ancient palace courtyard or ceremonial outdoor venue | Dark stone or timber architecture in the background, b firelight, ritualistic central staging, two guards arranged symmetrically on the left and right, deep crimson drapery, metal armor and masks, atmospheric n mist\nCinematic Photography & Tech Specification\n\nCamera & Framing: Approximately 1.85:1 aspect ratio / Photorealistic digital cinema with historical-fantasy palette / Medium close-up, framed from the chest to the upper torso / Straight-on eye-level camera angle / Approximately 85mm portrait telephoto lens, shallow depth of field, f/2.0 aperture / Centered symmetrical composition, subtle rule of thirds, layered foreground-midground-background depth, central subject emphasisLighting & Color: Desaturated deep red, crimson, burgundy, black, cool blue-gray, and silver with contrasting warm orange accents / Low-key dramatic lighting, chiaroscuro contrast, soft edge lights from background practicals / Cool moonlight or a large diffused soft source as key light, gentle frontal fill, distant braziers, lanterns, or candlelight as warm sources\nPost-VFX: Shallow-focus bokeh, atmospheric haze, floating dust and glowing particles, soft highlight bloom, enhanced metallic sparkle, subtle cinematic color grading / High-end photorealistic digital cinema render, comparable to Unreal Engine or V-Ray material realism, with refined skin texture and natural rendering",
+   "img": "assets/full/A348.webp",
+   "thumb": "assets/thumb/A348.webp",
+   "w": 1259,
+   "h": 702,
+   "srcHash": "de3438c666541782",
+   "imgHash": "7294581ec21d6614",
+   "zh": "画面主体与环境置景\n\n核心元素：古代中国贵族女子、银色华丽头冠、红色刺绣嫁衣、面容冷峻的蒙面护卫、金属面具、暗红色斗篷、古装武侠人物、悬浮光尘\n美学调性：东方历史奇幻 / 武侠悬疑 / 古装宫廷剧 / 中国古代架空时代 / 夜晚 / 室外\n具体置景：古代宫殿庭院或仪式场地 | 暗色石墙或木质建筑背景、模糊的暖色灯火、中央人物仪式性站位、两名护卫左右对称排列、深红与黑色布幔、金属铠甲与面具、朦胧夜雾\n\n视听摄影与美学工业\n\n镜头构图：约1.85:1 / 写实电影感数字摄影、古装奇幻美术风格 / 中近景，主体呈胸像至半身构图 / 正面平视机位 / 约85毫米中长焦镜头，浅景深，约f/2.0光圈 / 中央对称构图、三分法辅助、前中后景分层、主体居中突出\n色彩光影：深红、酒红、黑色、冷蓝灰与银色为主，暖橙色点光作对比 / 低调戏剧性光影、明暗对照、柔和轮廓光、背景实用光源 / 冷色月光或大型柔光源作为主光，前方柔和补光，远处火盆、灯笼或烛火作为暖色光源\n后期特效：浅焦散景、大气雾感、悬浮尘埃与发光粒子、柔和高光晕光、增强的金属光泽、细腻的电影感调色 / 高端写实数字电影渲染，接近Unreal Engine或V-Ray的材质真实感，配以精致的皮肤纹理与自然渲染\n\n电影元素与置景\n\n核心视觉：古代中国贵族女子、华丽银质嫁衣头冠、红色刺绣礼服、戴面具的护卫、金属铠甲与暗红斗篷、历史武侠人物、悬浮发光粒子\n调性风格：东方历史奇幻 / 武侠悬疑 / 宫廷古装剧 / 中国古代架空时代 / 夜晚 / 室外\n置景设计：古代宫殿庭院或仪式性室外场地 | 背景为深色石材或木质建筑、模糊的火光、中央仪式性站位、左右对称排列的两名护卫、深红布幔、金属铠甲与面具、大气夜雾\n\n电影摄影与技术规格\n\n镜头与构图：约1.85:1画幅 / 历史奇幻风格的真实感数字电影 / 中近景，取景自胸部至上半身 / 正面平视机位 / 约85毫米人像中长焦镜头，浅景深，约f/2.0光圈 / 中央对称构图，三分法辅助，前中后景分层纵深，中央主体突出\n光影与色彩：低饱和的深红、酒红、黑色、冷蓝灰与银色，暖橙色点缀形成对比 / 低调戏剧性布光、明暗对照、柔和轮廓光、背景实用光源 / 冷色月光或大型柔光箱作主光，正面柔和补光，远处火盆、灯笼或烛火作暖色光源\n后期特效：浅焦散景、大气雾感、悬浮尘埃与发光粒子、柔和高光溢光、增强的金属闪光、细腻电影感调色 / 高端写实数字电影渲染，媲美Unreal Engine或V-Ray的材质真实感，配精致皮肤纹理与自然渲染"
   }
  ]
 }
