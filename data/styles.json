@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 354,
+ "count": 355,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 34
+   "count": 35
   },
   {
    "name": "人像——身份参考",
@@ -10760,6 +10760,39 @@
    "srcHash": "c83d087bbdc08415",
    "imgHash": "1e0e1ac5b99b5f3a",
    "zh": "【画面主体与环境置景】核心元素：古代中国女武者或贵族女性、三名背对镜头的侍从或同伴、东方宫廷服饰、中央多层檐角香炉塔、青铜祭器、香案、石阶、木质殿堂、红色立柱、格栅窗、散落花瓣\n美学调性：历史武侠／架空古代中国王朝时代／白昼偏阴的午后／室外，开放式寺庙或宫殿庭院\n具体置景：东方宗教建筑庭院、青石铺地与多级台阶、雕刻石基、朱红木柱、深色木门、格栅窗、中央多层香炉塔、青铜大型香炉、香案、祭祀器皿、花瓣、远处朦胧殿宇\n【视听摄影与美学工业】\n镜头构图：约1.93:1宽银幕比例／写实电影级历史剧艺术格式／中远景群像构图，前景人物背影形成框景，中景主体人物清晰突出／平视机位，略带正面纪实视角／约50mm标准镜头，约f/2.8浅景深／中心构图、前景遮挡框景、对称建筑线条、视觉引导线与层次递进\n色彩光影：低饱和青灰、墨黑、暗棕与朱红为主，辅以暗金和玉绿色／柔和漫射光、轻微阴翳、烟雾中的体积光、人物面部自然补光／阴天环境天光、殿宇反射光、香火与烛火形成的微弱暖色光源\n后期特效：香烟雾气、空气透视、轻微体积雾、柔和高光扩散、电影级景深与颗粒质感／写实数字合成与物理光照渲染，接近高端历史电影调色和虚幻引擎影视级渲染质感\n\n【电影元素与置景】\n\n核心视觉：古代中国女武者或贵族女性、三名背影侍从、东方宫廷服饰、中央多层香炉塔、青铜祭器、香案、石阶、木殿、朱红立柱、格窗、散落花瓣\n调性风格：历史武侠剧／架空中国古代王朝／阴天白昼午后／室外开放式寺庙或宫殿庭院\n置景设计：东方宗教建筑庭院 / 青石铺地与多级台阶、雕刻石基、朱红木柱、深色木门、格窗、中央多层香炉塔、大型青铜香炉、祭器、花瓣、远景朦胧殿宇\n\n【电影摄影与技术规格】\n\n镜头与构图：约1.93:1宽银幕／写实真人历史剧格式／中远景群像、虚化前景背影框景衬托清晰中景主体／平视机位、克制的正面观察视角／约50mm标准镜头、约f/2.8浅景深／中心构图、前景遮挡自然框景、建筑对称、层次递进与引导线\n光影与色彩：低饱和青灰、炭黑、暗棕、朱红、暗金与玉绿／柔和漫射光、低阴影对比、香烟中的体积光、面部自然补光／阴天天光、庭院反射光、香烛微暖光\n后期特效：香烟、空气透视、轻微体积雾、克制高光晕染、电影级景深与细颗粒／写实数字合成+物理光照渲染，高端历史电影调色与虚幻引擎级影视渲染"
+  },
+  {
+   "id": "A357",
+   "seq": "357",
+   "title": "牧羊人赶羊群过土院｜乡土纪实剧照",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "低饱和土色×羊毛白·阴天漫射·自然主义纪实",
+   "palette": "土色+羊毛白+赭褐+沙色+暗红+灰蓝",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "乡土",
+    "纪实",
+    "牧羊人",
+    "羊群",
+    "土坯",
+    "高原",
+    "门框构图",
+    "2:1"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "三明治结构（上画面 1259×623 + 中文白字 + 英文暗字增强）。本单仲裁：1) 「约2:1」无小数点（A2 版 2.1:1 为误读，超高倍四读确认）；2) 「村落庭院丨」的丨为真实竖线（x1058 独立全高竖与院字分离，A2 半角|为误读）——与 A356 顿号误读案例相反，本单是真丨，需逐单像素验证；3) 斜杠为半角「 / 」（行宽约束+VLM 一致，区别于 A356 的全角／）；4) 沙 beige 英文混排照录。声称 2:1 与画面 2.021 吻合。无右缘截断。",
+   "prompt": "画面主体与环境置景核心元素：牧羊人、羊群、木棍、红色外套、蓝色手套、土坯废墟、荒凉山谷、远山公路\n美学调性：乡土社会现实主义 / 当代纪实剧情片 / 21世纪当代乡村 / 白昼阴天 / 室外\n具体置景：高原山地村落庭院丨前景密集白色绵羊与带弯角的公羊、牧羊人手持木棍驱赶羊群、两侧残破土坯墙与裸露石块、低矮夯土院墙、远处公路、干燥荒地、疏植被、层叠褐色山脉\n视听摄影与美学工业镜头构图：约2:1宽画幅 / 写实电影摄影与自然主义纪实影像 / 中远景至广角群像景别 / 平视机位，略带现场观察感 / 约50毫米标准镜头，约f4光圈，中等景深 / 门框式构图、前中后景分层、前景羊群形成视觉重量、中央偏右主体、两侧墙体构成框景与引导线\n色彩光影：低饱和土色与自然羊毛白，赭褐色、沙 beige、暗红和灰蓝色调 / 阴天漫射光、柔和低反差、轻微空气透视 / 主要光源为厚云层过滤的自然天光，辅以地面与土墙反射光\n后期特效：无明显视觉特效，保留真实毛发、尘土与墙体纹理 / 电影级写实调色，真实摄影质感，轻微胶片颗粒与自然景深，无明显CG渲染痕迹\n\nCinematic Elements & Setting\nCore Visuals: shepherd, flock of sheep, wooden staff, red coat, blue gloves, ruined adobe walls, barren mountain valley, distant road\nTonal Style: rural social realism / contemporary documentary drama / 21st-century rural present / overcast daytime / exterior\nSet Design: highland mountain village courtyard | dense foreground flock of white sheep and horned rams, shepherd herding with a wooden staff, crumbling adobe walls with exposed stones, low earthen boundary wall, distant paved road, dry soil, sparse vegetation, layered brown mountains\nCinematic Photography & Tech Specification\nCamera & Framing: approximately 2:1 widescreen aspect ratio / photorealistic cinematic naturalism and documentary film format / medium-wide to wide group shot / eye-level observational camera angle / approximately 50mm standard lens at around f4 aperture with moderate depth of field / doorway framing, layered foreground-midground-background composition, flock creating foreground visual mass, subject placed slightly right of center, opposing walls forming a natural frame and leading lines\nLighting & Color: low-saturation earth tones with wool white, ochre brown, sand beige, muted red, and gray-blue accents / soft overcast diffused light, low contrast, gentle atmospheric perspective / primary source is cloud-filtered natural daylight with subtle bounce from the ground and adobe walls\nPost-VFX: no visible visual effects, authentic wool, dust, and adobe textures preserved / cinematic photorealistic color grading, natural photographic texture, subtle film grain and organic depth of field, no apparent CGI rendering",
+   "img": "assets/full/A357.webp",
+   "thumb": "assets/thumb/A357.webp",
+   "w": 1259,
+   "h": 623,
+   "srcHash": "3c2ed85ec1ea6938",
+   "imgHash": "6eb6f674266c4be3",
+   "zh": "画面主体与环境置景核心元素：牧羊人、羊群、木棍、红色外套、蓝色手套、土坯废墟、荒凉山谷、远山公路\n美学调性：乡土社会现实主义 / 当代纪实剧情片 / 21世纪当代乡村 / 白昼阴天 / 室外\n具体置景：高原山地村落庭院丨前景密集白色绵羊与带弯角的公羊、牧羊人手持木棍驱赶羊群、两侧残破土坯墙与裸露石块、低矮夯土院墙、远处公路、干燥荒地、疏植被、层叠褐色山脉\n视听摄影与美学工业镜头构图：约2:1宽画幅 / 写实电影摄影与自然主义纪实影像 / 中远景至广角群像景别 / 平视机位，略带现场观察感 / 约50毫米标准镜头，约f4光圈，中等景深 / 门框式构图、前中后景分层、前景羊群形成视觉重量、中央偏右主体、两侧墙体构成框景与引导线\n色彩光影：低饱和土色与自然羊毛白，赭褐色、沙 beige、暗红和灰蓝色调 / 阴天漫射光、柔和低反差、轻微空气透视 / 主要光源为厚云层过滤的自然天光，辅以地面与土墙反射光\n后期特效：无明显视觉特效，保留真实毛发、尘土与墙体纹理 / 电影级写实调色，真实摄影质感，轻微胶片颗粒与自然景深，无明显CG渲染痕迹\n\n【电影元素与置景 / 核心视觉】\n\n核心视觉：牧羊人、羊群、木棍、红色外套、蓝色手套、土坯废墟、荒凉山谷、远处公路\n调性风格：乡土社会现实主义 / 当代纪实剧情片 / 21世纪当代乡村 / 阴天白昼 / 室外\n置景设计：高原山地村落庭院 | 前景密集白羊与带角公羊、牧羊人持棍驱赶羊群、两侧残破土坯墙与裸石、低矮夯土院墙、远处铺装路、干土、疏植被、层叠褐色山脉\n\n【电影摄影与技术规格 / 镜头与构图】\n\n镜头与构图：约2:1宽画幅 / 照相写实电影自然主义与纪录片格式 / 中远景至广角群像 / 平视观察机位 / 约50毫米标准镜头、约f4光圈、中等景深 / 门框式构图、前中背景分层、羊群构成前景视觉重量、主体略偏右、两侧墙体形成自然框与引导线\n光影与色彩：低饱和土色配羊毛白、赭褐、沙色、暗红与灰蓝点缀 / 阴天柔漫射光、低对比、轻微大气透视 / 云层过滤自然天光为主，地面与土墙微弱反弹补光\n后期特效：无可见视觉特效，保留真实羊毛、尘土与土坯纹理 / 电影级写实调色、自然摄影质感、轻微胶片颗粒与自然景深，无明显CG渲染"
   }
  ]
 }
