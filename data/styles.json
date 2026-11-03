@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 346,
+ "count": 347,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 26
+   "count": 27
   },
   {
    "name": "人像——身份参考",
@@ -10503,6 +10503,37 @@
    "srcHash": "de3438c666541782",
    "imgHash": "7294581ec21d6614",
    "zh": "画面主体与环境置景\n\n核心元素：古代中国贵族女子、银色华丽头冠、红色刺绣嫁衣、面容冷峻的蒙面护卫、金属面具、暗红色斗篷、古装武侠人物、悬浮光尘\n美学调性：东方历史奇幻 / 武侠悬疑 / 古装宫廷剧 / 中国古代架空时代 / 夜晚 / 室外\n具体置景：古代宫殿庭院或仪式场地 | 暗色石墙或木质建筑背景、模糊的暖色灯火、中央人物仪式性站位、两名护卫左右对称排列、深红与黑色布幔、金属铠甲与面具、朦胧夜雾\n\n视听摄影与美学工业\n\n镜头构图：约1.85:1 / 写实电影感数字摄影、古装奇幻美术风格 / 中近景，主体呈胸像至半身构图 / 正面平视机位 / 约85毫米中长焦镜头，浅景深，约f/2.0光圈 / 中央对称构图、三分法辅助、前中后景分层、主体居中突出\n色彩光影：深红、酒红、黑色、冷蓝灰与银色为主，暖橙色点光作对比 / 低调戏剧性光影、明暗对照、柔和轮廓光、背景实用光源 / 冷色月光或大型柔光源作为主光，前方柔和补光，远处火盆、灯笼或烛火作为暖色光源\n后期特效：浅焦散景、大气雾感、悬浮尘埃与发光粒子、柔和高光晕光、增强的金属光泽、细腻的电影感调色 / 高端写实数字电影渲染，接近Unreal Engine或V-Ray的材质真实感，配以精致的皮肤纹理与自然渲染\n\n电影元素与置景\n\n核心视觉：古代中国贵族女子、华丽银质嫁衣头冠、红色刺绣礼服、戴面具的护卫、金属铠甲与暗红斗篷、历史武侠人物、悬浮发光粒子\n调性风格：东方历史奇幻 / 武侠悬疑 / 宫廷古装剧 / 中国古代架空时代 / 夜晚 / 室外\n置景设计：古代宫殿庭院或仪式性室外场地 | 背景为深色石材或木质建筑、模糊的火光、中央仪式性站位、左右对称排列的两名护卫、深红布幔、金属铠甲与面具、大气夜雾\n\n电影摄影与技术规格\n\n镜头与构图：约1.85:1画幅 / 历史奇幻风格的真实感数字电影 / 中近景，取景自胸部至上半身 / 正面平视机位 / 约85毫米人像中长焦镜头，浅景深，约f/2.0光圈 / 中央对称构图，三分法辅助，前中后景分层纵深，中央主体突出\n光影与色彩：低饱和的深红、酒红、黑色、冷蓝灰与银色，暖橙色点缀形成对比 / 低调戏剧性布光、明暗对照、柔和轮廓光、背景实用光源 / 冷色月光或大型柔光箱作主光，正面柔和补光，远处火盆、灯笼或烛火作暖色光源\n后期特效：浅焦散景、大气雾感、悬浮尘埃与发光粒子、柔和高光溢光、增强的金属闪光、细腻电影感调色 / 高端写实数字电影渲染，媲美Unreal Engine或V-Ray的材质真实感，配精致皮肤纹理与自然渲染"
+  },
+  {
+   "id": "A349",
+   "seq": "349",
+   "title": "侠客与佳人对视｜宋元质感武侠特写静帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "蓝调黄昏·冷暖肤色对照·胶片仿真颗粒",
+   "palette": "冷蓝青+暖琥珀肤+深色山影",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "武侠",
+    "特写",
+    "双人",
+    "对视",
+    "宋元质感",
+    "蓝调黄昏"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "原图（作者分享截图）右缘有裁切，英文段若干行尾字符被切，共 6 处按语义补全：Wuxia drama /（行尾）、Photography & Tech（标题）、approximately、selective、close-up、digital VFX, natural。另有 1 处错位括号【】按语义归位到段标题。中文原版完整未受影响。",
+   "prompt": "【画面主体与环境置景】\n\n核心元素：古装东方男性侠客、古装东方女性、两人近距离对视、男性束发与胡须、女性盘发、传统布衣、紧张而亲密的情绪交流、山野背景\n美学调性：武侠剧情 / 中国古代架空时代，约宋元时期质感 / 蓝调黄昏 /室外\n具体置景：山林与高地荒野 | 模糊的深色山峦、远处起伏的自然地形、无现代建筑、简朴古代服饰、粗织围巾与发饰\n\n【视听摄影与美学工业】\n镜头构图：2.35:1宽银幕比例 / 电影写实摄影格式、数字电影模拟胶片质感 / 特写至大特写，双人面部近距离构图 / 平视机位，略带侧面肖像角度 / 约85至100毫米中长焦，浅景深，约f/1.4至f/2.0 / 对称式对视构图、双主体平衡、面部占据画面主体、背景负空间与视线轴线强化情绪张力\n色彩光影：冷蓝青色环境色与温暖琥珀肤色形冷暖对比 / 低调自然主义光效、柔和轮廓光、局部高光与深阴影 / 低角度夕阳或暮光暖光作为主光，蓝色天空环境光作为填充光，轻微侧逆光勾勒发丝\n后期特效：无明显数字特效，以真实肤质、自然景深、轻微空气透视与电影级调色为主 / 数字电影摄影结合胶片仿真颗粒、柔和高光溢出、低对比度阴影与写实合成质感\n\n【Cinematic Elements & Setting】\n\nCore Visuals: Ancient Chinese male martial-arts protagonist, ancient Chinese female protagonist, two characters in intimate contact, tied-back male hair and beard, female traditional updo, period cloth garments, restrained emotional tension, mountainous wilderness\nTonal Style: Wuxia drama / Fictionalized ancient China with Song to Yuan period texture / blue hour dusk / Exterior\nSet Design: Mountain wilderness and elevated rural landscape | Soft mountain ridges, distant natural terrain, no modern structures, humble historical clothing, coarse woven scarf and traditional hair ornaments\n\n【Cinematic Photography & Tech Specification】\nCamera & Framing: 2.35:1 widescreen aspect ratio / cinematic live-action photography with film-emulation texture / close-up to extreme close-up two-person facial framing / eye-level camera with slight profile angles / approximately 85 to 100mm medium-telephoto lens, shallow depth of field, approximately f/2.0 aperture / balanced opposing faces, near-symmetrical eye-line composition, faces dominating the frame, negative space and shared sightline amplifying tension\nLighting & Color: cool blue and cyan ambient palette contrasted with warm amber skin tones / low-key naturalistic lighting, soft edge light, selective deep shadows / low-angle warm sunset or dusk key light with blue sky ambience as fill, subtle side backlight defining the hair\nPost-VFX: No obvious digital VFX, natural skin texture, natural depth of field, mild atmospheric perspective and cinematic color grading / digital cinema photography with film-emulation grain, soft restrained contrast and photorealistic compositing texture",
+   "img": "assets/full/A349.webp",
+   "thumb": "assets/thumb/A349.webp",
+   "w": 1258,
+   "h": 539,
+   "srcHash": "4ebc65e2ad6f5df9",
+   "imgHash": "529b4936d09bae47",
+   "zh": "【画面主体与环境置景】\n\n核心元素：古装东方男性侠客、古装东方女性、两人近距离对视、男性束发与胡须、女性盘发、传统布衣、紧张而亲密的情绪交流、山野背景\n美学调性：武侠剧情 / 中国古代架空时代，约宋元时期质感 / 蓝调黄昏 / 室外\n具体置景：山林与高地荒野 | 模糊的深色山峦、远处起伏的自然地形、无现代建筑、简朴古代服饰、粗织围巾与发饰\n\n【视听摄影与美学工业】\n\n镜头构图：2.35:1宽银幕比例 / 电影写实摄影格式、数字电影模拟胶片质感 / 特写至大特写，双人面部近距离构图 / 平视机位，略带侧面肖像角度 / 约85至100毫米中长焦，浅景深，约f/1.4至f/2.0 / 对称式对视构图、双主体平衡、面部占据画面主体、背景负空间与视线轴线强化情绪张力\n色彩光影：冷蓝青色环境色与温暖琥珀肤色形成冷暖对比 / 低调自然主义光效、柔和轮廓光、局部高光与深阴影 / 低角度夕阳或暮光暖光作为主光，蓝天环境光补光，细微侧逆光勾勒发丝轮廓\n后期特效：无明显数字视觉特效，真实皮肤纹理、自然景深、轻微大气透视与电影感调色 / 数字电影摄影配胶片仿真颗粒、柔和高光溢出、低对比度阴影与写实合成质感\n\n【电影元素与置景】\n\n核心视觉：古装东方男性武侠主角、古装东方女性主角、两人亲密对视、男性束发与胡须、女性传统盘发、时代布衣、克制的情绪张力、山野荒野\n调性风格：武侠剧情 / 架空古代中国，宋至元时期质感 / 蓝调黄昏 / 室外\n置景设计：山野与高地乡村景观 | 柔和的山脊、远处自然地形、无现代建筑、简朴的历史服饰、粗织围巾与传统发饰\n\n【电影摄影与技术规格】\n\n镜头与构图：2.35:1宽银幕比例 / 电影级实拍摄影配胶片仿真质感 / 特写至大特写双人面部构图 / 平视机位略带侧面角度 / 约85至100毫米中长焦镜头，浅景深，约f/1.4至f/2.0 / 对称式对视构图、双主体平衡、面部占据画面主体、负空间与共享视线强化张力\n光影与色彩：冷蓝青环境色与暖琥珀肤色形成对比 / 低调自然主义布光、柔和轮廓光、选择性深阴影 / 低角度暖色夕阳光为主光，蓝天环境光补光，细微侧逆光勾勒发丝\n后期特效：无明显数字特效，自然皮肤纹理、自然景深、轻微大气透视与电影感调色 / 数字电影摄影配胶片仿真颗粒、柔和克制的反差与写实合成质感"
   }
  ]
 }
