@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 341,
+ "count": 342,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 21
+   "count": 22
   },
   {
    "name": "人像——身份参考",
@@ -10348,6 +10348,37 @@
    "srcHash": "c8ed8ed7ad85c298",
    "imgHash": "108cc2c42f513515",
    "zh": "【画面主体与环境置景】\n核心元素：高密度城市住宅区, 远处高层公寓, 雪覆盖的红砖建筑, 屋顶烟囱与天线, 中央建筑火灾, 巨型黑灰色烟柱, 橙色火焰与火星\n美学调性：灾难电影 / 当代城市时代背景 / 阴冷白昼 / 室外\n具体置景：城市住宅区与高层公寓群 | 前景为积雪覆盖的红砖公寓屋顶、窗户、烟囱、空调外机和天线, 中景为密集低层住宅建筑, 远景为朦胧高层楼群, 中央建筑持续燃烧并释放浓烟\n\n【视听摄影与美学工业】\n镜头构图：约1.85:1 / 写实电影摄影、数字电影质感 / 大远景、城市建立镜头 / 平视略高机位, 仿佛从屋顶或高层建筑拍摄 / 约50毫米标准广角端、约f/8中小光圈, 整体景深较深 / 三分法、前中后景分层、中央烟柱形成视觉轴线、低位地平线与对称城市天际线\n色彩光影：低饱和冷蓝灰与灰绿色为主, 辅以火焰橙色对比 / 阴天漫射光、雾霾遮蔽、低反差压抑光效、火焰局部高光 / 厚重云层散射的自然天光与火灾产生的橙红色自发光\n后期特效：数字烟雾模拟、体积云与体积烟、火焰粒子、飞散火星、远景大气透视、雪雾增强 / 写实灾难片CGI质感, 基于物理的体积渲染与电影级数字合成, 接近Unreal Engine或Houdini烟火特效风格\n\n【电影元素与置景】\n核心视觉：高密度城市住宅区, 远处高层公寓塔楼, 雪覆盖的红砖建筑, 屋顶烟囱与天线, 中央建筑火灾, 巨型黑灰色烟柱, 橙色火焰与火星\n调性风格：灾难电影 / 当代城市时代背景 / 阴冷白昼 / 室外\n置景设计：密集住宅城市景观 | 前景为积雪覆盖的红砖公寓屋顶（含窗户、烟囱、空调外机与天线）; 中景为分层低层住宅楼群; 远景为朦胧高层建筑; 中央建筑被大火吞没并释放浓烟\n\n【电影摄影与技术规格】\n镜头与构图：约1.85:1 / 真实感数字电影格式 / 大远景建立镜头 / 平视至略高的屋顶制高点 / 约50毫米标准至广角镜头, 约f/8深景深 / 三分法, 前中后景分层纵深, 中央烟柱作为主导视觉轴线, 低地平线与均衡的城市天际线\n光影与色彩：低饱和冷蓝灰与灰绿色调, 火焰橙光形成对比 / 阴天漫射光, 大气雾霾, 低反差压抑光效, 火焰局部高光 / 厚重云层散射的自然天光加橙红色火焰自发光\n后期特效：数字烟雾模拟, 体积云与体积烟, 火焰粒子, 飞散火星, 大气透视, 雪雾增强 / 写实灾难片CGI, 基于物理的体积渲染与电影级数字合成, 接近Unreal Engine或Houdini烟火特效"
+  },
+  {
+   "id": "A344",
+   "seq": "344",
+   "title": "少年骑行回头望｜地中海乡村成长电影静帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "暖金时段逆光·低饱和南欧色系·胶片质感",
+   "palette": "暖棕+橄榄绿+麦秆金+石灰米",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "成长片",
+    "乡村",
+    "骑行",
+    "地中海",
+    "黄金时段",
+    "2.35:1"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.03",
+   "note": "",
+   "prompt": "【画面主体与环境置景】\n核心元素：骑自行车的少年，少年侧脸微笑，复古单车，乡村农田，石砌矮墙，远处山丘，果树与农作物，地中海乡野景观\n美学调性：成长电影 / 现实主义乡村剧情 / 当代或无明确年代的欧洲乡村时代背景 / 午后至傍晚 / 室外\n具体置景：乡村农田与山谷场景 | 前景为粗粝的天然石砌矮墙，中景是干燥土壤、低矮农作物、果树与木桩，远景为起伏的棕绿色丘陵、零散民居与乡间道路，整体呈现南欧或地中海农业村落质感\n\n【视听摄影与美学工业】\n镜头构图：2.35:1宽银幕比例 / 写实电影摄影、横向宽银幕格式、轻微模拟胶片质感 / 中景至中近景 / 侧面平视机位，略带轻微低角度感，镜头与骑行者平行跟拍 / 约50mm等效焦距，约f/4光圈，主体清晰、背景适度柔化但保留环境信息 / 三分法构图、人物位于右侧三分线，左侧保留大面积环境负空间，石墙与田垄形成水平线和引导线\n色彩光影：低饱和暖棕、橄榄绿、麦秆金与石灰米色 / 自然主义黄金时段光效，柔和暖光、轻微逆光轮廓与温和阴影 / 低角度午后太阳作为主光源，天空漫反射作为补光，石墙与土地产生自然反射光\n后期特效：无明显数字视觉特效，以真实环境摄影为主，轻微运动跟焦与自然动态模糊 / 写实电影级数字调色，模拟35毫米胶片颗粒、柔和高光 roll-off、轻微镜头晕光与自然景深，接近ARRI Alexa或胶片扫描质感\n\n【Cinematic Elements & Setting】\nCore Visuals: teenage boy riding a bicycle, smiling side profile, vintage bicycle, rural farmland, rough stone wall, distant hills, orchard trees and crops, Mediterranean countryside landscape\nTonal Style: coming-of-age drama / naturalistic rural cinema / contemporary or deliberately timeless European countryside / late afternoon approaching golden hour / exterior\nSet Design: rural agricultural valley and Mediterranean village outskirts | foreground rough dry-stone masonry wall, cultivated fields, dry soil, low crops, scattered orchard trees, wooden stakes, distant farmhouses, winding rural tracks, layered brown-green hills and sparse countryside architecture\n\n【Cinematic Photography & Tech Specification】\nCamera & Framing: 2.35:1 widescreen aspect ratio / live-action cinematic realism with subtle analog film character / medium to medium-close tracking shot / eye-level side-profile camera with a slight low-angle impression, moving parallel to the cyclist / approximately 50mm equivalent lens, around f/4 aperture, subject separation with environmental background retention / rule of thirds, subject placed on the right vertical third, generous negative space to the left, horizontal stone wall and field rows creating leading lines\nLighting & Color: muted warm earth tones, olive green, straw gold and limestone beige / naturalistic golden-hour lighting with soft warmth, gentle contour highlights and restrained shadows / low-angle afternoon sun as the key light, diffused sky fill, and natural bounce from the stone wall and dry ground\nPost-VFX: no apparent digital visual effects, primarily practical location photography with subtle tracking motion blur / cinematic digital grade emulating 35mm film grain, soft highlight roll-off, restrained lens flare and natural depth of field, resembling an ARRI Alexa or scanned-film texture",
+   "img": "assets/full/A344.webp",
+   "thumb": "assets/thumb/A344.webp",
+   "w": 1258,
+   "h": 535,
+   "srcHash": "0e5ef4e21cedb103",
+   "imgHash": "ed1dd64596dbfd02",
+   "zh": "【画面主体与环境置景】\n核心元素：骑复古自行车的少年, 回头微笑的侧脸, 石砌矮墙, 乡村农田与山谷, 果树与农作物\n美学调性：成长题材剧情片 / 自然主义乡村电影 / 当代或刻意模糊时代感的欧洲乡村 / 傍晚接近黄金时段 / 室外\n具体置景：乡村农田与山谷场景|前景为粗粝的天然石砌矮墙，中景是干燥土壤、低矮农作物、果树与木桩，远景为起伏的棕绿色丘陵、零散民居与乡间道路，整体呈现南欧或地中海农业村落质感\n\n【视听摄影与美学工业】\n镜头构图：2.35:1宽银幕比例 / 写实电影摄影、横向宽银幕格式、轻微模拟胶片质感 / 中景至中近景 / 侧面平视机位，略带轻微低角度感，镜头与骑行者平行跟拍 / 约50mm等效焦距，约f/4光圈，主体清晰、背景适度柔化但保留环境信息 / 三分法构图、人物位于右侧三分线，左侧保留大面积环境负空间，石墙与田垄形成水平线和引导线\n色彩光影：低饱和暖棕、橄榄绿、麦秆金与石灰米色 / 自然主义黄金时段光效，柔和暖光、轻微逆光轮廓与温和阴影 / 低角度午后太阳作为主光源，天空反射光作为补光，石墙与土地产生自然反射光\n后期特效：无明显数字视觉特效，以真实环境摄影为主，轻微运动聚焦与自然动态模糊 / 写实电影级数字调色，模拟35毫米胶片颗粒、柔和高光 roll-off、轻微镜头晕光与自然景深，接近ARRI Alexa或胶片扫描质感\n\n【电影元素与置景】\n核心视觉：骑自行车的少年，微笑侧脸，复古自行车，乡村农田，粗粝石墙，远景丘陵，果树与农作物，地中海乡村景观\n调性风格：成长题材剧情片 / 自然主义乡村电影 / 当代或刻意模糊时代感的欧洲乡村 / 傍晚接近黄金时段 / 室外\n置景设计：乡村农业山谷与地中海村庄外围 | 前景为粗粝干砌石墙、耕作农田、干燥土壤、低矮作物、零星果树与木桩，远景农舍、蜿蜒乡间小路、分层的棕绿色丘陵与稀疏乡村建筑\n\n【电影摄影与技术规格】\n镜头与构图：2.35:1宽银幕比例 / 真人电影写实感带轻微模拟胶片质感 / 中景至中近景跟拍镜头 / 平视侧脸机位带轻微低角度感，与骑行者平行移动 / 约50mm等效焦距，约f/4光圈，主体分离同时保留环境背景 / 三分法构图，人物置于右侧竖三分线，左侧留出大面积负空间，横向石墙与田垄形成引导线\n光影与色彩：低饱和暖土色调、橄榄绿、麦秆金与石灰米色 / 自然主义黄金时段光线，柔和暖感、轻微轮廓高光与克制阴影 / 低角度午后阳光作主光，天空漫射补光，石墙与干燥地面产生自然反弹光\n后期特效：无明显数字视觉特效，以实景拍摄为主，带轻微跟拍运动模糊 / 电影级数字调色模拟 35 毫米胶片颗粒、柔和的高光 roll-off、克制的镜头晕光与自然景深，接近 ARRI Alexa 或胶片扫描质感"
   }
  ]
 }
