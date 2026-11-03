@@ -202,7 +202,12 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
 /* 看片台：信息栏自己滚动，提示词区按视口比例给高度（长文区内滚动，不再被 flex 收缩压扁） */
 .modalInfo{display:flex;flex-direction:column;min-height:0;overflow:auto;overscroll-behavior:contain}
 .modalInfo>*{flex:0 0 auto}
-.modalInfo>.promptBox{flex:0 0 auto;max-height:clamp(240px,46svh,560px);min-height:132px}
+.modalInfo>.promptBox{flex:0 0 auto;max-height:310px;min-height:132px}
+.promptTitle{gap:8px}
+.promptTitle .biQuick{display:none;align-items:center;gap:6px;flex:0 0 auto}
+.promptTitle .biQuick.on{display:inline-flex}
+.promptTitle .biQuick.on ~ .hint{display:none}
+.modalInfo.hasSteps .biQuick{display:none!important}
 .biHead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 0 6px}
 .biHead b{font-size:12px;letter-spacing:.04em;opacity:.75}
 .biCopy{font-size:11px;padding:3px 12px;border:1px solid rgba(17,16,13,.28);border-radius:999px;background:transparent;color:inherit;cursor:pointer;font-family:inherit}
@@ -325,7 +330,7 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
 </div>
 <section class="canvas" id="canvas"><div class="canvasStage"><div class="viewport" id="viewport"><div class="sphere" id="sphere"></div></div><div class="canvasTop"><div class="canvasTitle"><h2>展厅 · 无限画布</h2><p id="canvasSub">拖拽旋转 · 滚轮缩放 · 点击看提示词</p></div><div class="canvasTools"><button id="zoomOut" aria-label="缩小">−</button><button id="zoomIn" aria-label="放大">＋</button><button id="resetBtn">回到中心</button><button id="pickOnlyBtn">只看挑选</button><button class="dark" id="exitCanvas">返回资产库</button></div></div><div class="canvasChips" id="canvasChips" style="display:none"></div>
         <div class="canvasEmpty" id="canvasEmpty"></div><div class="hud">POS <span id="pos">0°, 0°</span> · ZOOM <span id="zoom">1.00×</span><br>拖拽旋转 / 滚轮缩放 / <span>0</span> 回中心 / 已挑选 <span id="hudPick">0</span></div></div></section>
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="看片台"><article class="modalCard"><button class="close" id="close">×</button><div class="modalMedia"><img id="mImg" alt=""><button class="navArrow prev" id="mPrev" aria-label="上一条">‹</button><button class="navArrow next" id="mNext" aria-label="下一条">›</button><div class="mediaBar"><span id="mIndex"></span><span id="mSize"></span></div><div class="shots" id="mShots"></div></div><div class="modalInfo"><div class="kicker" id="mKicker"></div><h2 id="mTitle"></h2><div class="tags" id="mTags"></div><div class="pickRow"><button class="pickBig" id="mPick">＋ 加入挑选</button><button class="copy" id="copy">复制 Prompt</button></div><div class="promptTitle"><b>Prompt / 使用说明</b><span class="hint">← → 换风格 · ↑ ↓ 换示例图 · F 挑选 · Esc 关闭</span></div><div class="promptBox" id="mPrompt"></div><div class="specs"><div class="spec"><span>Category</span><b id="mCat"></b></div><div class="spec"><span>Model</span><b id="mModel"></b></div><div class="spec"><span>Palette</span><b id="mPal"></b></div><div class="spec"><span>Updated</span><b id="mUpdated"></b></div></div></div><div class="strip" id="mStrip"></div></article></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="看片台"><article class="modalCard"><button class="close" id="close">×</button><div class="modalMedia"><img id="mImg" alt=""><button class="navArrow prev" id="mPrev" aria-label="上一条">‹</button><button class="navArrow next" id="mNext" aria-label="下一条">›</button><div class="mediaBar"><span id="mIndex"></span><span id="mSize"></span></div><div class="shots" id="mShots"></div></div><div class="modalInfo"><div class="kicker" id="mKicker"></div><h2 id="mTitle"></h2><div class="tags" id="mTags"></div><div class="pickRow"><button class="pickBig" id="mPick">＋ 加入挑选</button><button class="copy" id="copy">复制 Prompt</button></div><div class="promptTitle"><b>Prompt / 使用说明</b><span class="biQuick" id="mBiQuick"></span><span class="hint">← → 换风格 · ↑ ↓ 换示例图 · F 挑选 · Esc 关闭</span></div><div class="promptBox" id="mPrompt"></div><div class="specs"><div class="spec"><span>Category</span><b id="mCat"></b></div><div class="spec"><span>Model</span><b id="mModel"></b></div><div class="spec"><span>Palette</span><b id="mPal"></b></div><div class="spec"><span>Updated</span><b id="mUpdated"></b></div></div></div><div class="strip" id="mStrip"></div></article></div>
 <div class="lightbox" id="lightbox"><img id="lbImg" alt=""><div class="lbHint">点任意处关闭 · ↑ ↓ 换示例图 · Esc 退出</div></div>
 <div class="toast" id="toast" role="status" aria-live="polite">已复制</div>
 
