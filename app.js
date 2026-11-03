@@ -93,6 +93,32 @@ let chunkTotal = 0, chunksLoaded = 0;
     return { text: "", label: "中文译文" };
   }
 
+  /* 中英双语原版识别：仅当提示词呈「前段全中文 + 后段全英文」的干净分界时切分
+     （如 A340 双语原版各两段）。中文 prompt 内嵌英文术语（A336 等）为交错形态，
+     切不出干净分界 → 返回 null，走原样展示，老条目零影响。 */
+  function paraLang(p) {
+    const hz = (p.match(/[\u4e00-\u9fff]/g) || []).length;
+    if (hz >= 8) return "zh";
+    const en = (p.match(/[A-Za-z]/g) || []).length;
+    return en >= 30 ? "en" : "mix";
+  }
+  function splitBilingual(s) {
+    if (!s) return null;
+    const paras = String(s).split(/\n\n+/).map((x) => x.trim()).filter(Boolean);
+    if (paras.length < 3) return null;
+    const kinds = paras.map(paraLang);
+    for (let k = 1; k < paras.length; k++) {
+      const head = kinds.slice(0, k), tail = kinds.slice(k);
+      if (head.includes("zh") && tail.includes("en") && !head.includes("en") && !tail.includes("zh")) {
+        return { zh: paras.slice(0, k).join("\n\n"), en: paras.slice(k).join("\n\n") };
+      }
+    }
+    return null;
+  }
+  function biBlock(k, label, text) {
+    return `<div class="biHead"><b>${esc(label)} · ${text.length} 字</b><button class="biCopy" type="button" data-bicopy="${k}">复制</button></div><pre class="biText">${esc(text)}</pre>`;
+  }
+
   /* ---------- 挑选夹（本地保存） ---------- */
   let picks = new Set();
   try { picks = new Set(JSON.parse(localStorage.getItem("sal.picks") || "[]")); } catch (e) {}
@@ -486,6 +512,18 @@ let chunkTotal = 0, chunksLoaded = 0;
         copyText(selected && selected.note ? String(selected.note) : "", "补充说明已复制");
       });
     }
+    if (!pb.dataset.biBound) {
+      pb.dataset.biBound = "1";
+      pb.addEventListener("click", (e) => {
+        const b = e.target.closest("[data-bicopy]");
+        if (!b || !selected) return;
+        e.stopPropagation();
+        const bi = splitBilingual(selected.prompt || "");
+        if (!bi) return;
+        const zh = b.dataset.bicopy === "zh";
+        copyText(zh ? bi.zh : bi.en, zh ? "中文原版已复制" : "English 原版已复制");
+      });
+    }
     if (!document.getElementById("mStepsWrap")) {
       const w = document.createElement("div");
       w.id = "mStepsWrap";
@@ -536,10 +574,15 @@ let chunkTotal = 0, chunksLoaded = 0;
     const pb = document.getElementById("mPrompt");
     if (!pb) return;
     const txt = t === "z" ? alt.text : ((cs && cs.prompt) || (a && a.prompt) || "");
-    pb.textContent = txt || "暂未补充提示词";
+    const bi = (t === "o" && (!cs || !cs.prompt)) ? splitBilingual(txt) : null;
+    if (bi) {
+      pb.innerHTML = biBlock("zh", "中文原版", bi.zh) + biBlock("en", "English", bi.en);
+    } else {
+      pb.textContent = txt || "暂未补充提示词";
+    }
     pb.classList.toggle("empty", !txt);
     const ch = document.getElementById("mChars");
-    if (ch) ch.textContent = txt ? `${txt.length} 字` : "";
+    if (ch) ch.textContent = txt ? (bi ? `${bi.zh.length}+${bi.en.length} 字` : `${txt.length} 字`) : "";
     const cp = $("#copy");
     if (cp) cp.title = t === "z" ? `复制${alt.label}（不含补充说明）` : "复制提示词原文（不含补充说明）";
   }

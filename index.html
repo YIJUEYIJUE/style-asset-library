@@ -203,6 +203,12 @@ h1{margin:22px 0 18px;font-family:var(--serif);font-size:clamp(58px,7.4vw,112px)
 .modalInfo{display:flex;flex-direction:column;min-height:0;overflow:auto;overscroll-behavior:contain}
 .modalInfo>*{flex:0 0 auto}
 .modalInfo>.promptBox{flex:0 0 auto;max-height:clamp(240px,46svh,560px);min-height:132px}
+.biHead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 0 6px}
+.biHead b{font-size:12px;letter-spacing:.04em;opacity:.75}
+.biCopy{font-size:11px;padding:3px 12px;border:1px solid rgba(17,16,13,.28);border-radius:999px;background:transparent;color:inherit;cursor:pointer;font-family:inherit}
+.biCopy:active{background:rgba(17,16,13,.08)}
+.biText{white-space:pre-wrap;font:inherit;line-height:1.82;margin:0 0 16px}
+.biText:last-child{margin-bottom:0}
 .modalMedia{overflow:hidden}
 @media (max-width:760px){
   .modalCard{grid-template-columns:1fr;grid-template-rows:minmax(110px,.82fr) minmax(0,1.18fr) auto;max-height:93svh}
