@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 342,
+ "count": 343,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 22
+   "count": 23
   },
   {
    "name": "人像——身份参考",
@@ -10379,6 +10379,37 @@
    "srcHash": "0e5ef4e21cedb103",
    "imgHash": "ed1dd64596dbfd02",
    "zh": "【画面主体与环境置景】\n核心元素：骑复古自行车的少年, 回头微笑的侧脸, 石砌矮墙, 乡村农田与山谷, 果树与农作物\n美学调性：成长题材剧情片 / 自然主义乡村电影 / 当代或刻意模糊时代感的欧洲乡村 / 傍晚接近黄金时段 / 室外\n具体置景：乡村农田与山谷场景|前景为粗粝的天然石砌矮墙，中景是干燥土壤、低矮农作物、果树与木桩，远景为起伏的棕绿色丘陵、零散民居与乡间道路，整体呈现南欧或地中海农业村落质感\n\n【视听摄影与美学工业】\n镜头构图：2.35:1宽银幕比例 / 写实电影摄影、横向宽银幕格式、轻微模拟胶片质感 / 中景至中近景 / 侧面平视机位，略带轻微低角度感，镜头与骑行者平行跟拍 / 约50mm等效焦距，约f/4光圈，主体清晰、背景适度柔化但保留环境信息 / 三分法构图、人物位于右侧三分线，左侧保留大面积环境负空间，石墙与田垄形成水平线和引导线\n色彩光影：低饱和暖棕、橄榄绿、麦秆金与石灰米色 / 自然主义黄金时段光效，柔和暖光、轻微逆光轮廓与温和阴影 / 低角度午后太阳作为主光源，天空反射光作为补光，石墙与土地产生自然反射光\n后期特效：无明显数字视觉特效，以真实环境摄影为主，轻微运动聚焦与自然动态模糊 / 写实电影级数字调色，模拟35毫米胶片颗粒、柔和高光 roll-off、轻微镜头晕光与自然景深，接近ARRI Alexa或胶片扫描质感\n\n【电影元素与置景】\n核心视觉：骑自行车的少年，微笑侧脸，复古自行车，乡村农田，粗粝石墙，远景丘陵，果树与农作物，地中海乡村景观\n调性风格：成长题材剧情片 / 自然主义乡村电影 / 当代或刻意模糊时代感的欧洲乡村 / 傍晚接近黄金时段 / 室外\n置景设计：乡村农业山谷与地中海村庄外围 | 前景为粗粝干砌石墙、耕作农田、干燥土壤、低矮作物、零星果树与木桩，远景农舍、蜿蜒乡间小路、分层的棕绿色丘陵与稀疏乡村建筑\n\n【电影摄影与技术规格】\n镜头与构图：2.35:1宽银幕比例 / 真人电影写实感带轻微模拟胶片质感 / 中景至中近景跟拍镜头 / 平视侧脸机位带轻微低角度感，与骑行者平行移动 / 约50mm等效焦距，约f/4光圈，主体分离同时保留环境背景 / 三分法构图，人物置于右侧竖三分线，左侧留出大面积负空间，横向石墙与田垄形成引导线\n光影与色彩：低饱和暖土色调、橄榄绿、麦秆金与石灰米色 / 自然主义黄金时段光线，柔和暖感、轻微轮廓高光与克制阴影 / 低角度午后阳光作主光，天空漫射补光，石墙与干燥地面产生自然反弹光\n后期特效：无明显数字视觉特效，以实景拍摄为主，带轻微跟拍运动模糊 / 电影级数字调色模拟 35 毫米胶片颗粒、柔和的高光 roll-off、克制的镜头晕光与自然景深，接近 ARRI Alexa 或胶片扫描质感"
+  },
+  {
+   "id": "A345",
+   "seq": "345",
+   "title": "海滨少年与自行车｜复古成长片海堤静帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "灰绿海天·复古暖灰·柔和阴天光",
+   "palette": "灰绿+米白+暗红点缀+深蓝",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "成长片",
+    "海滨",
+    "复古",
+    "自行车",
+    "1950s",
+    "阴天光"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.03",
+   "note": "",
+   "prompt": "画面主体与环境置景\n核心元素： 少年男孩， 海滨石墙， 自行车与车包， 海浪与礁石， 复古夏装， 少年男孩 Young teenage boy（年轻少年男孩）， 海滨自行车 Seaside bicycle（海滨自行车）\n美学调性： 成长题材电影 / 复古年代剧情片 / 约1950至1960年代 / 午后偏傍晚 / 室外\n具体置景： 海滨步道与防波堤｜粗粝的花岗岩海堤、临海石墙、潮湿礁石、开阔海面、低矮白色浪花、老式深蓝色自行车、皮革车包、金属挡泥板、简洁复古男装\n\n\n视听摄影与美学工业\n镜头构图： 2.73:1超宽银幕比例 / 电影感写实摄影 / 中远景与全身景结合 / 平视正面机位 / 约40至50毫米标准广角镜头， 约 f/5.6至f/8 / 三分法、水平线构图、前景主体与右侧自行车形成视觉平衡、海平面作为横向分割线\n色彩光影： 低饱和复古棕褐、灰蓝与沙黄色调 / 自然主义暖色侧光、柔和反差、轻微胶片褪色质感 / 午后低角度阳光作为主光， 天空漫反射作为环境补光， 海面反光形成微弱轮廓光\n后期特效： 无明显数字视觉特效， 轻微大气雾化与海浪细节增强 / 复古电影胶片颗粒、模拟光化学调色、自然景深、写实摄影渲染质感\n\n\nCinematic Elements & Setting\nCore Visuals: Teenage boy, seaside stone seawall, vintage bicycle with leather bag, ocean waves and rocks, retro summer clothing, Young teenage boy, Seaside bicycle\nTonal Style: Coming-of-age drama / Period film / Approximately the 1950s to 1960s / Late afternoon / Exterior\nSet Design: Seaside promenade and breakwater | Rough granite seawall, weathered stone blocks, wet coastal rocks, open ocean horizon, low white surf, vintage dark-blue bicycle, leather bicycle bag, metal fenders, understated retro menswear\n\n\nCinematic Photography & Tech Specification\nCamera & Framing: 2.73:1 ultra-widescreen aspect ratio / Photorealistic cinematic still / Medium-long shot combined with full-body framing / Eye-level frontal camera angle / Approximately 40-50mm standard-wide lens at f/5.6-f/8 / Rule of thirds, strong horizontal layering, visual balance between the boy and bicycle, ocean horizon used as a lateral dividing line\nLighting & Color: Desaturated vintage palette of warm brown, muted blue-gray, and sandy yellow / Naturalistic warm side lighting, soft contrast, subtle faded-film texture / Low-angle afternoon sunlight as the key light, diffuse skylight as ambient fill, gentle ocean bounce creating a restrained rim highlight\nPost-VFX: No obvious digital visual effects, with subtle atmospheric haze and enhanced wave texture / Photochemical vintage film grading, fine film grain, natural depth of field, photorealistic cinematic rendering",
+   "img": "assets/full/A345.webp",
+   "thumb": "assets/thumb/A345.webp",
+   "w": 1258,
+   "h": 535,
+   "srcHash": "b4e448469132190a",
+   "imgHash": "e72f1f38fcd4941b",
+   "zh": "画面主体与环境置景\n核心元素：少年男孩，海滨石墙，自行车与车包，海浪与礁石，复古夏装，少年男孩 Young teenage boy（年轻少年男孩），海滨自行车 Seaside bicycle（海滨自行车）\n美学调性：成长题材电影 / 复古年代剧情片 / 约1950至1960年代 / 午后偏傍晚 / 室外\n具体置景：海滨步道与防波堤｜粗粝的花岗岩海堤、临海石墙、潮湿礁石、开阔海面、低矮白色浪花、老式深蓝色自行车、皮革车包、金属挡泥板、简洁复古男装\n\n视听摄影与美学工业\n镜头构图：2.73:1超宽银幕比例 / 电影感写实摄影 / 中远景与全身景结合 / 平视正面机位 / 约40至50毫米标准广角镜头，约 f/5.6至f/8 / 三分法、水平线构图、前景主体与右侧自行车形成视觉平衡、海平面作为横向分割线\n色彩光影：低饱和复古暖棕、灰蓝与沙黄 / 自然主义暖侧光，柔和反差、轻微褪色胶片质感 / 低角度午后阳光作主光，天空漫射作环境补光，海面反弹光形成克制的轮廓高光\n后期特效：无明显数字视觉特效，带轻微大气雾感与增强的海浪质感 / 光化学复古胶片调色、细腻颗粒、自然景深、写实电影感渲染\n\n电影元素与置景\n核心视觉：少年男孩，海滨石砌防波堤，带皮质挎包的复古自行车，海浪与礁石，复古夏装\n调性风格：成长题材剧情片 / 年代片 / 约1950至1960年代 / 午后偏傍晚 / 室外\n置景设计：海滨步道与防波堤 | 粗粝的花岗岩海堤、风化石块、潮湿海岸礁石、开阔海平线、低矮白色浪花、复古深蓝色自行车、皮质车包、金属挡泥板、低调复古男装\n\n电影摄影与技术规格\n镜头与构图：2.73:1超宽银幕比例 / 真实感电影静帧 / 中远景结合全身取景 / 平视正面机位 / 约40-50mm标准广角镜头，f/5.6-f/8 / 三分法，强水平分层，少年与自行车形成视觉平衡，海平线作为横向分割线\n光影与色彩：低饱和复古色调——暖棕、灰蓝与沙黄 / 自然主义暖侧光，柔和反差，轻微褪色胶片质感 / 低角度午后阳光作主光，漫射天光作环境补光，柔和海面反弹光形成克制的轮廓高光\n后期特效：无明显数字视觉特效，带轻微大气雾感与增强的海浪质感 / 光化学复古胶片调色，细腻颗粒，自然景深，写实电影感渲染"
   }
  ]
 }
