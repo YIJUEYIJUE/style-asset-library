@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 337,
+ "count": 338,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 17
+   "count": 18
   },
   {
    "name": "人像——身份参考",
@@ -10224,6 +10224,37 @@
    "h": 788,
    "srcHash": "1c2ef0c28e9e28be",
    "imgHash": "f0f9410ee51a5acb"
+  },
+  {
+   "id": "A340",
+   "seq": "340",
+   "title": "蜗居三人掩面｜现实主义家庭剧定帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "低饱和暖棕·旁观式平视·纪录片渲染",
+   "palette": "暖棕+米黄+灰绿+深木色",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "现实主义",
+    "家庭剧",
+    "群像",
+    "室内",
+    "生活流",
+    "ARRI质感"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.03",
+   "note": "",
+   "prompt": "【画面主体与环境置景】\n核心元素：三名成年人物, 前景站立的中年男性, 双手掩面的年轻女性, 手持折扇的中年男性, 拥挤杂乱的居住空间, 鱼缸, 衣物与杂物堆叠, 压抑的人际关系\n美学调性：社会现实主义 / 当代家庭剧情 / 2010年代至2020年代 / 白天 / 室内\n具体置景：狭小老旧住宅卧室或起居室 | 木门与金属门锁, 门后悬挂的大量衣物, 墙面置物架, 塑料收纳袋, 叠放的书本与文件, 杂乱床铺, 床边取暖器, 鱼缸, 折叠椅, 帆布包, 家庭生活杂物与旧家具\n\n【视听摄影与美学工业】\n镜头构图：约1.90比1 / 写实电影摄影格式 / 中远景群像 / 平视机位, 略带旁观式视角 / 约35毫米镜头, 约f/4光圈 / 三分法与前中后景层次构图, 前景人物形成遮挡和视觉引导, 人物群体横向分布\n色彩光影：低饱和暖棕与米黄色调, 混合灰绿和深木色 / 柔和自然主义光效, 轻微阴郁与压迫感 / 室内环境散射光, 可能来自窗户的自然光与顶部暖色灯光\n后期特效：无明显视觉特效, 以真实生活质感和自然摄影为主 / 写实数字摄影调色, 轻微胶片颗粒, 低对比度高光控制, 近似ARRI电影摄影机的自然肤色与纪录片渲染质感\n\n【Cinematic Elements & Setting】\nCore Visuals: Three adults, a middle-aged man standing in the foreground, a distressed young woman covering her face, a middle-aged man holding a folding fan, cramped cluttered living quarters, fish tank, piled clothing and household objects, tense interpersonal atmosphere\nTonal Style: Social realism / Contemporary domestic drama / 2010s to 2020s / Daytime / Interior\nSet Design: Small old apartment bedroom or living room | Wooden door with metal latch, clothing hanging behind the door, wall-mounted shelves, plastic storage bags, stacked books and documents, cluttered bed, portable radiator, fish tank, folding chairs, canvas bags, worn furniture and everyday domestic debris\n\n【Cinematic Photography & Tech Specification】\nCamera & Framing: Approximately 1.90:1 / Live-action cinematic realism / Medium-wide ensemble shot / Eye-level observational camera angle / Approximately 35mm lens, around f/4 aperture / Rule of thirds with layered foreground, middle ground, and background, foreground figure used as an occluding visual guide, horizontally distributed group composition\nLighting & Color: Desaturated warm brown, beige, muted gray-green, and dark wood palette / Soft naturalistic illumination with a subdued, oppressive domestic mood / Diffused window daylight mixed with warm overhead practical lighting\nPost-VFX: No visible visual effects, prioritizing authentic lived-in realism / Photorealistic digital cinema grade with subtle film grain, restrained contrast, controlled highlights, natural skin tones, and an ARRI-style documentary rendering character",
+   "img": "assets/full/A340.webp",
+   "thumb": "assets/thumb/A340.webp",
+   "w": 1258,
+   "h": 660,
+   "srcHash": "caf6607572d8f0b3",
+   "imgHash": "fc980e3d5797e0ab",
+   "zh": "【画面主体与环境置景】\n核心元素：三名成年人物, 前景站立的中年男性, 双手掩面的年轻女性, 手持折扇的中年男性, 拥挤杂乱的居住空间, 鱼缸, 衣物与杂物堆叠, 压抑的人际关系\n美学调性：社会现实主义 / 当代家庭剧情 / 2010年代至2020年代 / 白天 / 室内\n具体置景：狭小老旧住宅卧室或起居室 | 木门与金属门锁, 门后悬挂的大量衣物, 墙面置物架, 塑料收纳袋, 叠放的书本与文件, 杂乱床铺, 床边取暖器, 鱼缸, 折叠椅, 帆布包, 家庭生活杂物与旧家具\n\n【视听摄影与美学工业】\n镜头构图：约1.90比1 / 写实电影摄影格式 / 中远景群像 / 平视机位, 略带旁观式视角 / 约35毫米镜头, 约f/4光圈 / 三分法与前中后景层次构图, 前景人物形成遮挡和视觉引导, 人物群体横向分布\n色彩光影：低饱和暖棕与米黄色调, 混合灰绿和深木色 / 柔和自然主义光效, 轻微阴郁与压迫感 / 室内环境散射光, 可能来自窗户的自然光与顶部暖色灯光\n后期特效：无明显视觉特效, 以真实生活质感和自然摄影为主 / 写实数字摄影调色, 轻微胶片颗粒, 低对比度高光控制, 近似ARRI电影摄影机的自然肤色与纪录片渲染质感\n\n【电影元素与置景】\n核心视觉：三名成年人, 前景站立的中年男性, 掩面而痛苦难堪的年轻女性, 手持折扇的中年男性, 拥挤杂乱的居住空间, 鱼缸, 堆叠的衣物与生活用品, 紧张压抑的人际氛围\n调性风格：社会现实主义 / 当代家庭剧情 / 2010年代至2020年代 / 白天 / 室内\n置景设计：狭小老旧公寓的卧室或起居室 | 木门与金属门闩, 门后悬挂的衣物, 墙面置物架, 塑料收纳袋, 叠放的书本与文件, 杂乱床铺, 便携取暖器, 鱼缸, 折叠椅, 帆布包, 旧家具与日常居家杂物\n\n【电影摄影与技术规格】\n镜头与构图：约1.90:1 / 真人电影写实感 / 中远景群像镜头 / 平视旁观式机位 / 约35毫米镜头, 约f/4光圈 / 三分法配合前、中、后景层次, 前景人物形成遮挡与视觉引导, 人物群体横向分布\n光影与色彩：低饱和暖棕、米黄、灰绿与深木色调 / 柔和自然主义照明, 带有沉郁压抑的家庭氛围 / 漫射窗光混合顶部暖色实用光源\n后期特效：无明显视觉特效, 以真实生活质感为先 / 写实数字电影调色, 轻微胶片颗粒, 克制的对比度, 受控的高光, 自然肤色, ARRI式纪录片渲染质感"
   }
  ]
 }
