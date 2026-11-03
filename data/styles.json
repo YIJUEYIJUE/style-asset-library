@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 340,
+ "count": 341,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 20
+   "count": 21
   },
   {
    "name": "人像——身份参考",
@@ -10317,6 +10317,37 @@
    "srcHash": "c5ce7c8f57fecf62",
    "imgHash": "0046b7eab14cbb90",
    "zh": "画面主体与环境置景\n核心元素：一群亚洲男性，紧密围拢的人群，中央年轻男子，对峙与压迫感，被控制住的肢体动作，休闲街头服装，鹰纹印花T恤，年长男性侧脸\n美学调性：社会现实主义剧情片 / 犯罪惊悚 / 当代晚2010年代至2020年代 / 白天或时间不明确的室内时段 / 室内\n具体置景：狭窄的电梯或机构走廊 | 米黄色墙面，金属门板，墙面控制面板，拥挤的人体层次，低调朴素的城市室内环境，缺乏装饰的封闭空间\n\n视听摄影与美学工业\n镜头构图：约1.90:1宽银幕比例 / 真人实拍电影剧照格式 / 中近景与群像中景结合 / 平视机位，略接近肩部高度 / 约35毫米广角至标准镜头，约f/2.8浅景深 / 前景遮挡与多层次框景，中央人物视觉聚焦，环形包围式构图，非对称平衡\n色彩光影：低饱和橄榄绿，土黄，棕褐与灰黑色调 / 温暖压抑的自然主义光效，柔和阴影，局部面部高光，轻微反差 / 室内顶灯与荧光灯混合光，墙面反射光，近距离环境补光\n后期特效：无明显数字视觉特效，轻微胶片颗粒，真实皮肤纹理，自然景深与暗部保留 / 电影级数字调色质感，写实摄影渲染，低饱和高细节影像风格\n\n电影元素与置景\n核心视觉：一群亚洲男性，紧密围拢的人群，中央年轻男子，对峙与心理压迫，被克制的肢体语言，休闲街头服饰，鹰纹印花T恤，年长男性侧脸\n调性风格：社会现实主义剧情片 / 犯罪惊悚 / 当代晚2010年代至2020年代 / 白天或时间不明确的室内时段 / 室内\n置景设计：狭窄的电梯或机构走廊 | 米黄色墙面，金属门板，墙面控制面板，拥挤的人体层次，低调朴素的城市室内环境，缺乏装饰的封闭空间\n\n电影摄影与技术规格\n镜头与构图：约1.90:1宽银幕比例 / 真人实拍电影剧照格式 / 中近景与群像中景结合 / 平视机位，略接近肩部高度 / 约35毫米广角至标准镜头，约f/2.8浅景深 / 前景遮挡与多层次框景，中央人物视觉聚焦，环形包围式构图，非对称平衡\n光影与色彩：低饱和橄榄绿、土黄、棕褐与灰黑色调 / 温暖压抑的自然主义光效，柔和阴影，局部面部高光，轻微反差 / 室内顶灯与荧光灯混合光，墙面反射光，近距离环境补光\n后期特效：无明显数字视觉特效，轻微胶片颗粒，真实皮肤纹理，自然景深与暗部保留 / 电影级数字调色质感，写实摄影渲染，低饱和高细节影像风格"
+  },
+  {
+   "id": "A343",
+   "seq": "343",
+   "title": "雪城火灾烟柱｜灾难电影大远景定帧",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "冷蓝灰雾霾·橙焰对比·低反差压抑",
+   "palette": "冷蓝灰+灰绿+橙红火焰",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "灾难片",
+    "城市",
+    "雪景",
+    "大远景",
+    "建立镜头",
+    "CGI烟火"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.03",
+   "note": "",
+   "prompt": "【画面主体与环境置景】\n核心元素：高密度城市住宅区， 远处高层公寓, 雪覆盖的红砖建筑, 屋顶烟囱与天线, 中央建筑火灾, 巨型黑灰色烟柱, 橙色火焰\n与火星\n美学调性：灾难电影 / 当代城市时代背景 / 阴冷白昼 / 室外\n具体置景：城市住宅区与高层公寓群 | 前景为积雪覆盖的红砖公寓屋顶、窗户、烟囱、空调外机和天线，中景为密集低层住宅建\n筑，远景为朦胧高层楼群，中央建筑持续燃烧并释放浓烟\n\n【视听摄影与美学工业】\n镜头构图：约1.85:1 / 写实电影摄影、数字电影质感 / 大远景、城市建立镜头 / 平视略高机位，仿佛从屋顶或高层建筑拍摄 /\n约50毫米标准广角端、约f/8中小光圈，整体景深较深 / 三分法、前中后景分层、中央烟柱形成视觉轴线、低位地平线与对称城市\n天际线\n色彩光影：低饱和冷蓝灰与灰绿色为主，辅以火焰橙色对比 / 阴天漫射光、雾霾遮蔽、低反差压抑光效、火焰局部高光 / 厚重云\n层散射的自然天光与火灾产生的橙红色自发光\n后期特效：数字烟雾模拟、体积云与体积烟、火焰粒子、飞散火星、远景大气透视、雪雾增强 / 写实灾难片CGI质感，基于物理的\n体积渲染与电影级数字合成，接近Unreal Engine或Houdini烟火特效风格\n\n【Cinematic Elements & Setting】\nCore Visuals: dense urban residential district, distant high-rise apartment towers, snow-covered red-brick buildings, rooftop chimneys and antennas,\ncentral building fire, massive black-gray smoke plume, orange flames and embers\nTonal Style: disaster film / contemporary urban era / cold overcast daytime / exterior\nSet Design: dense residential cityscape | foreground snow-covered red-brick apartment rooftops with windows, chimneys, air-conditioning units and\nantennas; layered midground low-rise housing blocks; hazy background high-rises; a central building engulfed in fire and emitting heavy smoke\n\n【Cinematic Photography & Tech Specification】\nCamera & Framing: approximately 1.85:1 / photorealistic digital cinema format / extreme wide establishing shot / eye-level to slightly elevated rooftop\nvantage point / approximately 50mm normal-to-wide lens, around f/8 for deep focus / rule of thirds, layered foreground-midground-background depth,\ncentered smoke plume as the dominant visual axis, low horizon and balanced urban skyline\nLighting & Color: desaturated cold blue-gray and muted green-gray palette with contrasting orange firelight / overcast diffuse illumination, atmospheric\nhaze, low-contrast oppressive lighting, localized hot highlights from the flames / scattered natural daylight through heavy cloud cover plus orange-red\npractical fire glow\nPost-VFX: digital smoke simulation, volumetric clouds and smoke, flame particles, flying embers, atmospheric perspective, enhanced snow haze /\nphotorealistic disaster-film CGI, physically based volumetric rendering and cinematic digital compositing, resembling Unreal Engine or Houdini\nfire-and-smoke effects",
+   "img": "assets/full/A343.webp",
+   "thumb": "assets/thumb/A343.webp",
+   "w": 1259,
+   "h": 680,
+   "srcHash": "c8ed8ed7ad85c298",
+   "imgHash": "108cc2c42f513515",
+   "zh": "【画面主体与环境置景】\n核心元素：高密度城市住宅区, 远处高层公寓, 雪覆盖的红砖建筑, 屋顶烟囱与天线, 中央建筑火灾, 巨型黑灰色烟柱, 橙色火焰与火星\n美学调性：灾难电影 / 当代城市时代背景 / 阴冷白昼 / 室外\n具体置景：城市住宅区与高层公寓群 | 前景为积雪覆盖的红砖公寓屋顶、窗户、烟囱、空调外机和天线, 中景为密集低层住宅建筑, 远景为朦胧高层楼群, 中央建筑持续燃烧并释放浓烟\n\n【视听摄影与美学工业】\n镜头构图：约1.85:1 / 写实电影摄影、数字电影质感 / 大远景、城市建立镜头 / 平视略高机位, 仿佛从屋顶或高层建筑拍摄 / 约50毫米标准广角端、约f/8中小光圈, 整体景深较深 / 三分法、前中后景分层、中央烟柱形成视觉轴线、低位地平线与对称城市天际线\n色彩光影：低饱和冷蓝灰与灰绿色为主, 辅以火焰橙色对比 / 阴天漫射光、雾霾遮蔽、低反差压抑光效、火焰局部高光 / 厚重云层散射的自然天光与火灾产生的橙红色自发光\n后期特效：数字烟雾模拟、体积云与体积烟、火焰粒子、飞散火星、远景大气透视、雪雾增强 / 写实灾难片CGI质感, 基于物理的体积渲染与电影级数字合成, 接近Unreal Engine或Houdini烟火特效风格\n\n【电影元素与置景】\n核心视觉：高密度城市住宅区, 远处高层公寓塔楼, 雪覆盖的红砖建筑, 屋顶烟囱与天线, 中央建筑火灾, 巨型黑灰色烟柱, 橙色火焰与火星\n调性风格：灾难电影 / 当代城市时代背景 / 阴冷白昼 / 室外\n置景设计：密集住宅城市景观 | 前景为积雪覆盖的红砖公寓屋顶（含窗户、烟囱、空调外机与天线）; 中景为分层低层住宅楼群; 远景为朦胧高层建筑; 中央建筑被大火吞没并释放浓烟\n\n【电影摄影与技术规格】\n镜头与构图：约1.85:1 / 真实感数字电影格式 / 大远景建立镜头 / 平视至略高的屋顶制高点 / 约50毫米标准至广角镜头, 约f/8深景深 / 三分法, 前中后景分层纵深, 中央烟柱作为主导视觉轴线, 低地平线与均衡的城市天际线\n光影与色彩：低饱和冷蓝灰与灰绿色调, 火焰橙光形成对比 / 阴天漫射光, 大气雾霾, 低反差压抑光效, 火焰局部高光 / 厚重云层散射的自然天光加橙红色火焰自发光\n后期特效：数字烟雾模拟, 体积云与体积烟, 火焰粒子, 飞散火星, 大气透视, 雪雾增强 / 写实灾难片CGI, 基于物理的体积渲染与电影级数字合成, 接近Unreal Engine或Houdini烟火特效"
   }
  ]
 }
