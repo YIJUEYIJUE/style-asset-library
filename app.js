@@ -514,7 +514,7 @@ let chunkTotal = 0, chunksLoaded = 0;
     }
     if (!pb.dataset.biBound) {
       pb.dataset.biBound = "1";
-      const biCopyHandler = (e) => {
+      pb.addEventListener("click", (e) => {
         const b = e.target.closest("[data-bicopy]");
         if (!b || !selected) return;
         e.stopPropagation();
@@ -522,10 +522,7 @@ let chunkTotal = 0, chunksLoaded = 0;
         if (!bi) return;
         const zh = b.dataset.bicopy === "zh";
         copyText(zh ? bi.zh : bi.en, zh ? "中文原版已复制" : "English 原版已复制");
-      };
-      pb.addEventListener("click", biCopyHandler);
-      const bq = document.getElementById("mBiQuick");
-      if (bq) bq.addEventListener("click", biCopyHandler);
+      });
     }
     if (!document.getElementById("mStepsWrap")) {
       const w = document.createElement("div");
@@ -584,16 +581,6 @@ let chunkTotal = 0, chunksLoaded = 0;
     } else {
       pb.classList.remove("bi");
       pb.textContent = txt || "暂未补充提示词";
-    }
-    const bq = document.getElementById("mBiQuick");   // 双语原版：复制按钮置顶，打开即可点，不用滚进文本区找
-    if (bq) {
-      if (bi) {
-        bq.innerHTML = `<button class="biCopy" type="button" data-bicopy="zh">复制中文</button><button class="biCopy" type="button" data-bicopy="en">复制 English</button>`;
-        bq.classList.add("on");
-      } else {
-        bq.innerHTML = "";
-        bq.classList.remove("on");
-      }
     }
     pb.classList.toggle("empty", !txt);
     const ch = document.getElementById("mChars");
