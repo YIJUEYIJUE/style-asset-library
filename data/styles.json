@@ -1,6 +1,6 @@
 {
  "version": 1,
- "count": 353,
+ "count": 354,
  "cats": [
   {
    "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
   },
   {
    "name": "摄影——电影感",
-   "count": 33
+   "count": 34
   },
   {
    "name": "人像——身份参考",
@@ -10728,6 +10728,38 @@
    "srcHash": "97a1f0fe91e82b7d",
    "imgHash": "9d98eedfd3930f2c",
    "zh": "【画面主体与环境置景】核心元素：古装奇幻女战士，female historical-fantasy warrior（古装奇幻女战士），黑色长发，金色刺绣长袍，多层金属项链，宽幅皮革腰带，华丽金属腰饰，东方古建筑，红木宫门，琉璃瓦屋檐\n美学调性：历史奇幻 / 中国古代架空时代，参考唐宋宫廷美学 / 黄昏晚下午 / 室外\n具体置景：东方宫殿或寺院庭院丨深红色木质建筑、对称宫门、金色雕饰、传统琉璃瓦屋檐、暗色石阶、木质格栅门窗、远处朦胧的宫殿结构与少量传统灯具\n【视听摄影与美学工业】\n镜头构图：约2.05:1宽银幕比例 / 写实电影真人摄影、变形宽银幕质感 / 中景至中近景，人物取景至腰部 / 略微低机位、接近视线高度 / 约85mm中长焦、约f/2.0浅景深 / 中央对称构图、垂直居中、建筑轴线引导、主体突出、背景选择性虚化\n色彩光影：琥珀金、古铜色、深红棕与青绿色阴影的低饱和东方电影调色 / 柔和漫射光、轮廓光与浅景深散景 / 黄昏自然斜射阳光为主，辅以宫殿檐下暖色灯笼或反射光\n后期特效：轻微空气透视、细微尘埃颗粒、自然镜头散景、柔和高光晕染、轻度胶片颗粒 / 写实数字中间片调色与电影级HDR渲染质感，低CG痕迹、高细节服装材质表现\n\n【电影元素与置景】\n\n核心视觉：奇幻女战士、黑色长发、金色刺绣长袍、多层金属项链、宽幅皮革腰带、华丽金属腰饰、中式建筑群、朱红宫门、琉璃瓦屋顶\n调性风格：历史奇幻、风格化中国古代宫廷美学（唐宋参考）/ 架空前现代中国 / 傍晚金色时刻 / 室外\n置景设计：中式宫殿或寺院庭院 | 深红木构建筑、对称宫门、金色雕饰、传统琉璃瓦、暗色石阶、木格门、柔焦宫殿远景与传统灯笼\n\n【电影摄影与技术规格】\n\n镜头与构图：约2.05:1宽银幕 / 真人电影摄影、变形宽银幕质感 / 中景至中近景（至腰部）/ 略低机位近视线高度 / 约85mm中长焦、约f/2.0浅景深 / 中央对称构图、垂直居中、建筑轴线引导、主体突出、背景选择性虚化\n光影与色彩：琥珀金、古铜、深红棕与青绿阴影的低饱和东方调色 / 柔和漫射光、微妙轮廓光与浅景深散景 / 傍晚自然侧光为主，宫殿灯笼暖光与建筑反光辅助\n后期特效：轻微空气透视、细尘埃、自然镜头散景、克制高光晕染、细腻胶片颗粒 / 写实数字中间片调色+电影级HDR渲染，低CG痕迹、高细节服装材质渲染"
+  },
+  {
+   "id": "A356",
+   "seq": "356",
+   "title": "女武者香炉祭典｜阴翳古殿武侠群像",
+   "category": "摄影——电影感",
+   "kind": "摄影",
+   "tone": "低饱和青灰×朱红暗金·阴天漫射·香烟体积光",
+   "palette": "青灰+墨黑+暗棕+朱红+暗金+玉绿",
+   "model": "Z Image Turbo",
+   "tags": [
+    "摄影",
+    "电影感",
+    "历史武侠",
+    "群像",
+    "香炉",
+    "祭典",
+    "宫殿",
+    "体积光",
+    "1.93:1"
+   ],
+   "aspect": "横图",
+   "updated": "2026.11.04",
+   "note": "三明治结构（上画面 1259×649 + 中文白字 + 英文暗字增强）。本单四类仲裁：1) 标题「置景」第 6 战字模判定（罒+直）；2) 分隔斜杠经像素判定为全角「／」12 处（占满行高 85% 的斜线，非半角/）；3) 「庭院、青石」实为顿号——**A1/A2 双 OCR 均误读为竖线（丨/｜），像素斜点形态翻案**——顿号在低分辨率下易被误读为竖线，此后「丨」一律像素验证；4) 「阴翳」羽字头确认。英文段 ⬜ 符号归位为【】（小字号【像素特征：竖+左突横）。声称 1.93:1 与画面 1.940 吻合。无右缘截断。",
+   "prompt": "【画面主体与环境置景】核心元素：古代中国女武者或贵族女性、三名背对镜头的侍从或同伴、东方宫廷服饰、中央多层檐角香炉塔、青铜祭器、香案、石阶、木质殿堂、红色立柱、格栅窗、散落花瓣\n美学调性：历史武侠／架空古代中国王朝时代／白昼偏阴的午后／室外，开放式寺庙或宫殿庭院\n具体置景：东方宗教建筑庭院、青石铺地与多级台阶、雕刻石基、朱红木柱、深色木门、格栅窗、中央多层香炉塔、青铜大型香炉、香案、祭祀器皿、花瓣、远处朦胧殿宇\n【视听摄影与美学工业】\n镜头构图：约1.93:1宽银幕比例／写实电影级历史剧艺术格式／中远景群像构图，前景人物背影形成框景，中景主体人物清晰突出／平视机位，略带正面纪实视角／约50mm标准镜头，约f/2.8浅景深／中心构图、前景遮挡框景、对称建筑线条、视觉引导线与层次递进\n色彩光影：低饱和青灰、墨黑、暗棕与朱红为主，辅以暗金和玉绿色／柔和漫射光、轻微阴翳、烟雾中的体积光、人物面部自然补光／阴天环境天光、殿宇反射光、香火与烛火形成的微弱暖色光源\n后期特效：香烟雾气、空气透视、轻微体积雾、柔和高光扩散、电影级景深与颗粒质感／写实数字合成与物理光照渲染，接近高端历史电影调色和虚幻引擎影视级渲染质感\n\n【Cinematic Elements & Setting】\nCore Visuals: Ancient Chinese female warrior or noblewoman, three attendants or companions seen from behind, historical East Asian court costumes, central multi-tiered incense burner pavilion, bronze ritual vessels, altar table, stone steps, wooden temple hall, vermilion pillars, lattice windows, scattered flower petals\nTonal Style: Historical wuxia drama / Fictionalized ancient Chinese dynastic era / Overcast daytime afternoon / Exterior, open-air temple or palace courtyard\nSet Design: East Asian religious architectural courtyard | Blue-gray stone paving and tiered steps, carved stone bases, vermilion wooden pillars, dark timber doors, lattice windows, central multi-tiered incense burner pavilion, large bronze censer, ritual altar objects, flower petals, hazy temple structures in the background【Cinematic Photography & Tech Specification】\nCamera & Framing: Approximately 1.93:1 widescreen aspect ratio / Photorealistic live-action historical drama format / Medium-long ensemble shot with out-of-focus foreground backs framing the sharply defined central subject / Eye-level camera with a restrained frontal observational angle / Approximately 50mm standard lens at around f/2.8 / Centered composition, foreground occlusion as natural framing, architectural symmetry, layered depth, and leading lines\nLighting & Color: Desaturated blue-gray, charcoal black, dark brown, vermilion, muted gold, and jade-green palette / Soft diffused illumination, subdued shadow contrast, volumetric light through incense smoke, and gentle natural facial fill / Overcast skylight, reflected courtyard light, with faint warm incense and candlelight accents\nPost-VFX: Incense smoke, atmospheric perspective, subtle volumetric haze, restrained highlight bloom, cinematic depth of field, and fine film grain / Photorealistic digital compositing with physically based lighting, resembling premium historical cinema color grading and Unreal Engine-style cinematic rendering",
+   "img": "assets/full/A356.webp",
+   "thumb": "assets/thumb/A356.webp",
+   "w": 1259,
+   "h": 649,
+   "srcHash": "c83d087bbdc08415",
+   "imgHash": "1e0e1ac5b99b5f3a",
+   "zh": "【画面主体与环境置景】核心元素：古代中国女武者或贵族女性、三名背对镜头的侍从或同伴、东方宫廷服饰、中央多层檐角香炉塔、青铜祭器、香案、石阶、木质殿堂、红色立柱、格栅窗、散落花瓣\n美学调性：历史武侠／架空古代中国王朝时代／白昼偏阴的午后／室外，开放式寺庙或宫殿庭院\n具体置景：东方宗教建筑庭院、青石铺地与多级台阶、雕刻石基、朱红木柱、深色木门、格栅窗、中央多层香炉塔、青铜大型香炉、香案、祭祀器皿、花瓣、远处朦胧殿宇\n【视听摄影与美学工业】\n镜头构图：约1.93:1宽银幕比例／写实电影级历史剧艺术格式／中远景群像构图，前景人物背影形成框景，中景主体人物清晰突出／平视机位，略带正面纪实视角／约50mm标准镜头，约f/2.8浅景深／中心构图、前景遮挡框景、对称建筑线条、视觉引导线与层次递进\n色彩光影：低饱和青灰、墨黑、暗棕与朱红为主，辅以暗金和玉绿色／柔和漫射光、轻微阴翳、烟雾中的体积光、人物面部自然补光／阴天环境天光、殿宇反射光、香火与烛火形成的微弱暖色光源\n后期特效：香烟雾气、空气透视、轻微体积雾、柔和高光扩散、电影级景深与颗粒质感／写实数字合成与物理光照渲染，接近高端历史电影调色和虚幻引擎影视级渲染质感\n\n【电影元素与置景】\n\n核心视觉：古代中国女武者或贵族女性、三名背影侍从、东方宫廷服饰、中央多层香炉塔、青铜祭器、香案、石阶、木殿、朱红立柱、格窗、散落花瓣\n调性风格：历史武侠剧／架空中国古代王朝／阴天白昼午后／室外开放式寺庙或宫殿庭院\n置景设计：东方宗教建筑庭院 / 青石铺地与多级台阶、雕刻石基、朱红木柱、深色木门、格窗、中央多层香炉塔、大型青铜香炉、祭器、花瓣、远景朦胧殿宇\n\n【电影摄影与技术规格】\n\n镜头与构图：约1.93:1宽银幕／写实真人历史剧格式／中远景群像、虚化前景背影框景衬托清晰中景主体／平视机位、克制的正面观察视角／约50mm标准镜头、约f/2.8浅景深／中心构图、前景遮挡自然框景、建筑对称、层次递进与引导线\n光影与色彩：低饱和青灰、炭黑、暗棕、朱红、暗金与玉绿／柔和漫射光、低阴影对比、香烟中的体积光、面部自然补光／阴天天光、庭院反射光、香烛微暖光\n后期特效：香烟、空气透视、轻微体积雾、克制高光晕染、电影级景深与细颗粒／写实数字合成+物理光照渲染，高端历史电影调色与虚幻引擎级影视渲染"
   }
  ]
 }
