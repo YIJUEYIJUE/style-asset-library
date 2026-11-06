@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 364,
+  "count": 371,
   "cats": [
     {
       "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
     },
     {
       "name": "摄影——电影感",
-      "count": 44
+      "count": 51
     },
     {
       "name": "人像——身份参考",
@@ -11005,6 +11005,188 @@
       "srcHash": "31c829b01214068f",
       "imgHash": "14e18eb26fec6068",
       "zh": "画面主体与环境置景核心元素： 年轻东亚女性, Young East Asian woman （年轻东亚女性）, 黑色马尾与凌乱刘海, 米白色蓬松纤维外套, 红色印花围巾, 干枯麦田美学调性： 现实主义剧情片 / 当代背景, 约2010年代至2020年代 / 白天 / 室外具体置景： 乡野农田 | 延伸至远处的金褐色干草或麦田, 低矮模糊的田野背景, 无明显人工建筑与道具, 营造朴素自然的乡村环境视听摄影与美学工业镜头构图： 16:9 / 电影级真人实拍画面 / 近景至中近景肖像 / 平视机位, 略微正面侧向拍摄 / 约85mm中长焦, 约f/2.8浅景深 / 三分法构图, 人物置于右侧, 左侧保留大面积负空间, 视线引导与背景虚化突出面部色彩光影： 低饱和土黄色、麦秆金色、米白色与暗红色组成的暖褐色调 / 阴天漫射光与柔和写实光影, 低对比度, 自然肤色 / 大面积云层过滤的自然日光, 辅以环境反射光后期特效： 无明显视觉特效, 保留真实皮肤纹理、发丝与服装纤维细节 / 写实电影调色, 轻微胶片颗粒, 柔和高光 roll-off, 浅景深光学质感\n\n【电影元素与置景】\n核心视觉： 年轻东亚女性, Young East Asian woman （年轻东亚女性）, 黑色马尾与凌乱刘海, 米白色蓬松纤维外套, 红色印花围巾, 干枯麦田\n调性风格：现实主义剧情片 / 当代背景, 约2010年代至2020年代 / 白天 / 室外\n置景设计：乡野农田 | 延伸至远处的金褐色干草或麦田, 低矮模糊的田野背景, 无明显人工建筑与道具, 营造朴素自然的乡村环境视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 电影级真人实拍画面 / 近景至中近景肖像 / 平视机位, 略微正面侧向拍摄 / 约85mm中长焦, 约f/2.8浅景深 / 三分法构图, 人物置于右侧, 左侧保留大面积负空间, 视线引导与背景虚化突出面部\n光影与色彩：低饱和土黄色、麦秆金色、米白色与暗红色组成的暖褐色调 / 阴天漫射光与柔和写实光影, 低对比度, 自然肤色 / 大面积云层过滤的自然日光, 辅以环境反射光\n后期视效：无明显视觉特效, 保留真实皮肤纹理、发丝与服装纤维细节 / 写实电影调色, 轻微胶片颗粒, 柔和高光 roll-off, 浅景深光学质感"
+    },
+    {
+      "id": "A367",
+      "seq": "367",
+      "title": "江南水乡拱桥｜古装剧情片雨雾大远景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "水乡",
+        "古装",
+        "雨雾"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后单独放大双遍核读）。版式：带【】标题＋三联式中英混排。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 江南水乡古镇, Ancient Jiangnan canal town 古代江南运河市镇, 大型木质拱桥, Weathered wooden arch bridge 风化木拱桥, 乌篷游船, Covered wooden canal boats 乌篷船, 古装行人, Period-costumed pedestrians 古装行人, 油纸伞, Oiled-paper umbrellas 油纸伞, 垂柳, Weeping willow 垂柳, 临河木构民居, Riverside timber houses 临河木屋, 远景楼阁塔楼, Distant Chinese pavilion tower 远景中式塔楼美学调性： 历史古装剧情片 / 古代中国江南背景, 偏明清视觉意象 / 阴雨白昼 / 室外具体置景： 古代水乡运河集镇 | 横跨画面的斑驳深色木拱桥, 灰黑色筒瓦屋顶, 沿河木质栈道, 临水商铺与民居, 停泊及穿行的木制篷船, 船篷与桨橹, 桥上与码头的古装人物, 彩色油纸伞, 悬垂柳枝, 远处小石桥, 楼阁塔楼, 龙头与潮湿水面【视听摄影与美学工业】镜头构图： 2.39:1 / 写实电影宽银幕 / 历史史诗质感 / 大远景与环境建立镜头 / 平视略低机位、运河岸边观察视角 / 约28毫米广角镜头、f/5.6至f/8深景深 / 拱桥作为天然框景与顶部视觉拱门, 运河形成引导线, 前中后景分层, 近似三分法平衡构图色彩光影： 低饱和苔绿、灰褐木色、青灰瓦色与浑浊水绿, 少量赭黄和面暖色点缀 / 阴天漫射柔光、雨雾氛围光、低反差电影光影 / 被厚云遮蔽的自然日光, 天空环境光, 水面反射光, 局部室内暖色实用灯光后期特效： 细腻雨雾大气透视、湿润材质高光、水面涟漪与反射、轻度胶片颗粒, 历史场景数字延展 / 高端写实CG环境合成与数字哑光绘景质感, 偏虚幻引擎电影级实时渲染或传统VFX合成风格\n\nCinematic Elements & Setting: Core Visuals: Ancient Jiangnan canal town, weathered wooden arch bridge, covered wooden canal boats, period-costumed pedestrians, oiled-paper umbrellas, weeping willow, riverside timber houses, distant Chinese pavilion towerTonal Style: Historical period drama / Ancient Chinese Jiangnan setting with Ming-Qing visual sensibility / Overcast rainy daytime / ExteriorSet Design: Ancient canal market town | A massive weathered dark-wood arch bridge spanning the frame, gray curved tile roofs, timber waterfront walkways, riverside shops and dwellings, moving and moored covered wooden boats, canopies and oars, period pedestrians on the bridge and docks, colored paper umbrellas, cascading willow branches, a distant stone bridge, pavilion towers, red lanterns, and rain-darkened canal waterCinematic Photography & Tech SpecificationCamera & Framing: 2.39:1 / Photorealistic widescreen historical cinema / Extreme wide establishing shot / Eye-level to subtly low-angle canal-bank perspective / Approximately 28mm wide-angle lens, f/5.6 to f/8 deep focus / The arch bridge functions as a natural frame and upper visual arch; the canal creates leading lines, layered foreground, midground, and background use a balanced near-rule-of-thirds compositionLighting & Color: Desaturated moss green, gray-brown timber, blue-gray roof tiles, and muted water green, accented by spare ochre and warm umbrella tones / Soft overcast diffusion, rain-haze atmospheric lighting, low-contrast cinematic illumination / Cloud-filtered daylight, skylight ambiance, canal-water bounce, and subtle warm practical interior mirror lightPost-VFX: Fine rain haze and atmospheric perspective, wet-surface specular detail, water ripples and reflections, restrained film grain, historical environment extension / Premium photoreal CG compositing and digital matte-painting texture, with a cinematic Unreal Engine-style real-time render or traditional VFX composite finish",
+      "img": "assets/full/A367.webp",
+      "thumb": "assets/thumb/A367.webp",
+      "w": 1196,
+      "h": 537,
+      "srcHash": "57e8d0f8a241dc57",
+      "imgHash": "4f28921a9a312f2d",
+      "zh": "【画面主体与环境置景】核心元素： 江南水乡古镇, Ancient Jiangnan canal town 古代江南运河市镇, 大型木质拱桥, Weathered wooden arch bridge 风化木拱桥, 乌篷游船, Covered wooden canal boats 乌篷船, 古装行人, Period-costumed pedestrians 古装行人, 油纸伞, Oiled-paper umbrellas 油纸伞, 垂柳, Weeping willow 垂柳, 临河木构民居, Riverside timber houses 临河木屋, 远景楼阁塔楼, Distant Chinese pavilion tower 远景中式塔楼美学调性： 历史古装剧情片 / 古代中国江南背景, 偏明清视觉意象 / 阴雨白昼 / 室外具体置景： 古代水乡运河集镇 | 横跨画面的斑驳深色木拱桥, 灰黑色筒瓦屋顶, 沿河木质栈道, 临水商铺与民居, 停泊及穿行的木制篷船, 船篷与桨橹, 桥上与码头的古装人物, 彩色油纸伞, 悬垂柳枝, 远处小石桥, 楼阁塔楼, 龙头与潮湿水面【视听摄影与美学工业】镜头构图： 2.39:1 / 写实电影宽银幕 / 历史史诗质感 / 大远景与环境建立镜头 / 平视略低机位、运河岸边观察视角 / 约28毫米广角镜头、f/5.6至f/8深景深 / 拱桥作为天然框景与顶部视觉拱门, 运河形成引导线, 前中后景分层, 近似三分法平衡构图色彩光影： 低饱和苔绿、灰褐木色、青灰瓦色与浑浊水绿, 少量赭黄和面暖色点缀 / 阴天漫射柔光、雨雾氛围光、低反差电影光影 / 被厚云遮蔽的自然日光, 天空环境光, 水面反射光, 局部室内暖色实用灯光后期特效： 细腻雨雾大气透视、湿润材质高光、水面涟漪与反射、轻度胶片颗粒, 历史场景数字延展 / 高端写实CG环境合成与数字哑光绘景质感, 偏虚幻引擎电影级实时渲染或传统VFX合成风格\n\n【电影元素与置景】\n核心视觉： 江南水乡古镇, Ancient Jiangnan canal town 古代江南运河市镇, 大型木质拱桥, Weathered wooden arch bridge 风化木拱桥, 乌篷游船, Covered wooden canal boats 乌篷船, 古装行人, Period-costumed pedestrians 古装行人, 油纸伞, Oiled-paper umbrellas 油纸伞, 垂柳, Weeping willow 垂柳, 临河木构民居, Riverside timber houses 临河木屋, 远景楼阁塔楼, Distant Chinese pavilion tower 远景中式塔楼\n调性风格：历史古装剧情片 / 古代中国江南背景, 偏明清视觉意象 / 阴雨白昼 / 室外\n置景设计：古代水乡运河集镇 | 横跨画面的斑驳深色木拱桥, 灰黑色筒瓦屋顶, 沿河木质栈道, 临水商铺与民居, 停泊及穿行的木制篷船, 船篷与桨橹, 桥上与码头的古装人物, 彩色油纸伞, 悬垂柳枝, 远处小石桥, 楼阁塔楼, 龙头与潮湿水面\n\n【电影摄影与技术规格】\n镜头与构图：2.39:1 / 写实电影宽银幕 / 历史史诗质感 / 大远景与环境建立镜头 / 平视略低机位、运河岸边观察视角 / 约28毫米广角镜头、f/5.6至f/8深景深 / 拱桥作为天然框景与顶部视觉拱门, 运河形成引导线, 前中后景分层, 近似三分法平衡构图\n光影与色彩：低饱和苔绿、灰褐木色、青灰瓦色与浑浊水绿, 少量赭黄和面暖色点缀 / 阴天漫射柔光、雨雾氛围光、低反差电影光影 / 被厚云遮蔽的自然日光, 天空环境光, 水面反射光, 局部室内暖色实用灯光\n后期视效：细腻雨雾大气透视、湿润材质高光、水面涟漪与反射、轻度胶片颗粒, 历史场景数字延展 / 高端写实CG环境合成与数字哑光绘景质感, 偏虚幻引擎电影级实时渲染或传统VFX合成风格"
+    },
+    {
+      "id": "A368",
+      "seq": "368",
+      "title": "红砖里弄骑车青年｜怀旧成长片后跟镜头",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "成长片",
+        "红砖",
+        "后跟"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后单独放大双遍核读）。版式：三联式中英混排（含「中文翻译为」夹注）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景 / 核心元素： 骑自行车的青年男子, young man on a bicycle 中文翻译为骑车青年, 幽静的绿荫庭院, tree-shaded courtyard 中文翻译为林荫庭院, 历史红砖住宅, historic red-brick residences 中文翻译为老式红砖住宅, 茂密乔木与灌木, lush trees and shrubs 中文翻译为浓密绿植美学调性： 怀旧成长剧情片, nostalgic coming-of-age drama / 当代城市生活背景与历史建筑社区 / 午后至傍晚前的金色日光时段 / 室外具体置景： 历史住宅院落与里弄通道 | 红砖立面、拱形门洞、石质窗套、二层阳台、尽头拱廊与深色木门、狭长水泥步道、成排大树、低矮灌木、热带阔叶植物、小型木质长椅、行车、墙面管线与空调外机视听摄影与美学工业 / 镜头构图： 约2.05:1宽画幅 / 写实电影长片格式 / 胶片感数字摄影 / 全景至中远景 / 平视后跟视角 / 约35毫米广角至标准广角镜头, f/4至f/5.6的中等景深 / 中央消失点构图、道路引导线、树干与建筑形成自然框景、近似轴对称平衡构图色彩光影： 暖琥珀金、砖红、深橄榄绿与低饱和暗影 / 柔和自然主义电影光, 斑驳树影, 高光柔化, 温暖怀旧调色 / 午后低角度直射阳光、树冠过滤的漫射天光、环境反射光后期特效： 无显性特效, 以细腻的电影级综合色彩、轻微高光光晕、柔和对比和自然纹理为主 / 写实实拍质感, 电影胶片模拟与高动态范围数字中间片调色\n\nCinematic Elements & Setting : Core Visuals: young man riding a bicycle, tree-shaded residential courtyard, historic red-brick apartment buildings, mature tree trunks, dense shrubs and tropical foliageTonal Style: nostalgic coming-of-age drama / quiet urban slice-of-life cinema / contemporary setting within a historic residential enclave / late-afternoon golden daylight / ExteriorSet Design: Historic residential courtyard and pedestrian lane | weathered red-brick facades, arched doorways, stone window trims, upper-floor balcony, distant covered archway and dark wooden doors, narrow concrete path, mature trees, layered hedges, broadleaf plants, small wooden bench, bicycle, exposed utility pipes and wall-mounted air-conditioning unitsCinematic Photography & Tech SpecificationCamera & Framing: approximately 2.05:1 widescreen aspect ratio / live-action cinematic realism with subtle filmic texture / wide shot to medium-long shot / eye-level rear view / approximately 35mm wide-normal lens, f/4 to f/5.6 medium depth of field / central vanishing-point composition, leading lines, organic tree-and-architecture framing, near-symmetrical balanceLighting & Color: warm amber gold, brick red, deep olive green, restrained shadow tones / soft naturalistic cinematic lighting, dappled leaf shadows, gentle highlight roll-off, nostalgic warm grade / low-angle afternoon sunlight, canopy-filtered diffuse skylight, ambient bounce lightPost-VFX: no overt visual effects / refined cinematic color grading, subtle highlight bloom, soft contrast, and natural texture / photorealistic live-action finish with film-emulation color science and high-dynamic-range digital intermediate grading",
+      "img": "assets/full/A368.webp",
+      "thumb": "assets/thumb/A368.webp",
+      "w": 1258,
+      "h": 603,
+      "srcHash": "1dfd8f6b5fdcfc82",
+      "imgHash": "b25d8a02fb78e9c3",
+      "zh": "画面主体与环境置景 / 核心元素： 骑自行车的青年男子, young man on a bicycle 中文翻译为骑车青年, 幽静的绿荫庭院, tree-shaded courtyard 中文翻译为林荫庭院, 历史红砖住宅, historic red-brick residences 中文翻译为老式红砖住宅, 茂密乔木与灌木, lush trees and shrubs 中文翻译为浓密绿植美学调性： 怀旧成长剧情片, nostalgic coming-of-age drama / 当代城市生活背景与历史建筑社区 / 午后至傍晚前的金色日光时段 / 室外具体置景： 历史住宅院落与里弄通道 | 红砖立面、拱形门洞、石质窗套、二层阳台、尽头拱廊与深色木门、狭长水泥步道、成排大树、低矮灌木、热带阔叶植物、小型木质长椅、行车、墙面管线与空调外机视听摄影与美学工业 / 镜头构图： 约2.05:1宽画幅 / 写实电影长片格式 / 胶片感数字摄影 / 全景至中远景 / 平视后跟视角 / 约35毫米广角至标准广角镜头, f/4至f/5.6的中等景深 / 中央消失点构图、道路引导线、树干与建筑形成自然框景、近似轴对称平衡构图色彩光影： 暖琥珀金、砖红、深橄榄绿与低饱和暗影 / 柔和自然主义电影光, 斑驳树影, 高光柔化, 温暖怀旧调色 / 午后低角度直射阳光、树冠过滤的漫射天光、环境反射光后期特效： 无显性特效, 以细腻的电影级综合色彩、轻微高光光晕、柔和对比和自然纹理为主 / 写实实拍质感, 电影胶片模拟与高动态范围数字中间片调色\n\n【电影元素与置景】\n核心视觉：： 骑自行车的青年男子, young man on a bicycle 中文翻译为骑车青年, 幽静的绿荫庭院, tree-shaded courtyard 中文翻译为林荫庭院, 历史红砖住宅, historic red-brick residences 中文翻译为老式红砖住宅, 茂密乔木与灌木, lush trees and shrubs 中文翻译为浓密绿植\n调性风格：怀旧成长剧情片, nostalgic coming-of-age drama / 当代城市生活背景与历史建筑社区 / 午后至傍晚前的金色日光时段 / 室外\n置景设计：历史住宅院落与里弄通道 | 红砖立面、拱形门洞、石质窗套、二层阳台、尽头拱廊与深色木门、狭长水泥步道、成排大树、低矮灌木、热带阔叶植物、小型木质长椅、行车、墙面管线与空调外机视听摄影与美学工业 /\n\n【电影摄影与技术规格】\n镜头与构图：约2.05:1宽画幅 / 写实电影长片格式 / 胶片感数字摄影 / 全景至中远景 / 平视后跟视角 / 约35毫米广角至标准广角镜头, f/4至f/5.6的中等景深 / 中央消失点构图、道路引导线、树干与建筑形成自然框景、近似轴对称平衡构图\n光影与色彩：暖琥珀金、砖红、深橄榄绿与低饱和暗影 / 柔和自然主义电影光, 斑驳树影, 高光柔化, 温暖怀旧调色 / 午后低角度直射阳光、树冠过滤的漫射天光、环境反射光\n后期视效：无显性特效, 以细腻的电影级综合色彩、轻微高光光晕、柔和对比和自然纹理为主 / 写实实拍质感, 电影胶片模拟与高动态范围数字中间片调色"
+    },
+    {
+      "id": "A369",
+      "seq": "369",
+      "title": "秋林自行车后座｜80年代年代剧情片跟拍",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "年代剧",
+        "秋林",
+        "双人"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后单独放大双遍核读）。版式：带【】标题连排。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 骑自行车的中国成年男性, 坐在自行车后座的中国成年女性, 老式通勤自行车, 深色工装与鸭舌帽, 秋季落叶树林, 前景掠过的树干美学调性： 年代剧情片 / 中国乡村改革开放初期至20世纪80年代的质感 / 午后至傍晚金色时刻 / 室外具体置景： 乡间林地小径 | 高大树干、稀疏的秋叶枝丫、枯黄野草、落叶地面、林间土路、朴素复古服装、银色弯把老式自行车【视听摄影与美学工业】镜头构图： 约2.06:1 / 电影宽银幕写实时代剧画幅 / 双人中近景 / 平视跟拍机位 / 约35毫米广角镜头、f/2.8至f/4浅景深 / 主体置于右侧三分线、前中后景分层、前景遮挡与运动模糊引导视线色彩光影： 低饱和土黄、橄榄绿、深靛蓝与暖褐色调 / 自然主义柔和逆侧光、复古胶片式低对比光影 / 穿过树冠的暖阳、天空漫射光、地面反射补光后期特效： 实拍运动模糊、浅景深散景、轻微空气透视、细腻胶片颗粒与复古调色 / 写实数字摄影结合35毫米胶片模拟质感, 无明显CG特效\n\nCinematic Elements & Setting: Core Visuals: Chinese adult man riding a bicycle, Chinese adult woman on the rear seat, vintage commuter bicycle, dark workwear and flat cap, autumn woodland, motion-blurred foreground tree trunksTonal Style: period drama / rural China with an early reform-era to 1980s visual character / late afternoon golden hour / exteriorSet Design: rural woodland trail | tall tree trunks, sparse autumn branches, dry yellow grass, fallen leaves, narrow dirt path, modest period work clothing, silver vintage bicycle with curved handlebarsCinematic Photography & Tech SpecificationCamera & Framing: approximately 2.06:1 / cinematic widescreen naturalistic period-film format / medium two-shot / eye-level tracking angle / approximately 35mm lens at f/2.8 to f/4 with selective shallow focus / subjects on the right third, layered foreground-midground-background depth, foreground occlusion and motion blur as leading cuesLighting & Color: muted ochre, olive green, deep indigo, and warm umber palette / naturalistic soft back-side lighting with low-contrast vintage-film treatment / warm sunlight filtering through the canopy, diffused skylight, subtle ground bouncePost-VFX: practical motion blur, shallow-focus bokeh, light atmospheric perspective, restrained grain and retro color grading | photoreal digital cinematography with a 35mm film-emulation finish; no overt CGI",
+      "img": "assets/full/A369.webp",
+      "thumb": "assets/thumb/A369.webp",
+      "w": 1259,
+      "h": 602,
+      "srcHash": "e5f2674434f83e4e",
+      "imgHash": "8b3cf76f5d9e1ef4",
+      "zh": "【画面主体与环境置景】核心元素： 骑自行车的中国成年男性, 坐在自行车后座的中国成年女性, 老式通勤自行车, 深色工装与鸭舌帽, 秋季落叶树林, 前景掠过的树干美学调性： 年代剧情片 / 中国乡村改革开放初期至20世纪80年代的质感 / 午后至傍晚金色时刻 / 室外具体置景： 乡间林地小径 | 高大树干、稀疏的秋叶枝丫、枯黄野草、落叶地面、林间土路、朴素复古服装、银色弯把老式自行车【视听摄影与美学工业】镜头构图： 约2.06:1 / 电影宽银幕写实时代剧画幅 / 双人中近景 / 平视跟拍机位 / 约35毫米广角镜头、f/2.8至f/4浅景深 / 主体置于右侧三分线、前中后景分层、前景遮挡与运动模糊引导视线色彩光影： 低饱和土黄、橄榄绿、深靛蓝与暖褐色调 / 自然主义柔和逆侧光、复古胶片式低对比光影 / 穿过树冠的暖阳、天空漫射光、地面反射补光后期特效： 实拍运动模糊、浅景深散景、轻微空气透视、细腻胶片颗粒与复古调色 / 写实数字摄影结合35毫米胶片模拟质感, 无明显CG特效\n\n【电影元素与置景】\n核心视觉： 骑自行车的中国成年男性, 坐在自行车后座的中国成年女性, 老式通勤自行车, 深色工装与鸭舌帽, 秋季落叶树林, 前景掠过的树干\n调性风格：年代剧情片 / 中国乡村改革开放初期至20世纪80年代的质感 / 午后至傍晚金色时刻 / 室外\n置景设计：乡间林地小径 | 高大树干、稀疏的秋叶枝丫、枯黄野草、落叶地面、林间土路、朴素复古服装、银色弯把老式自行车\n\n【电影摄影与技术规格】\n镜头与构图：约2.06:1 / 电影宽银幕写实时代剧画幅 / 双人中近景 / 平视跟拍机位 / 约35毫米广角镜头、f/2.8至f/4浅景深 / 主体置于右侧三分线、前中后景分层、前景遮挡与运动模糊引导视线\n光影与色彩：低饱和土黄、橄榄绿、深靛蓝与暖褐色调 / 自然主义柔和逆侧光、复古胶片式低对比光影 / 穿过树冠的暖阳、天空漫射光、地面反射补光\n后期视效：实拍运动模糊、浅景深散景、轻微空气透视、细腻胶片颗粒与复古调色 / 写实数字摄影结合35毫米胶片模拟质感, 无明显CG特效"
+    },
+    {
+      "id": "A370",
+      "seq": "370",
+      "title": "圆桌敬酒群像｜90年代怀旧宴席剧照",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "宴席",
+        "群像",
+        "怀旧"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后单独放大双遍核读）。版式：带【】标题＋中英对译夹注。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 围桌敬酒的中国青年男女, Chinese friends toasting at a banquet （中国朋友聚餐饮酒）, 红色碎花裙双辫年轻女性, young woman in a red floral dress with braided hair （红裙双辫女性）, 微笑男性宾客, smiling male diners （笑着的男性宾客）, 碰杯酒盏, clinking stemmed liquor glasses （碰杯的高脚酒杯）, 绿色玻璃酒瓶, green glass liquor bottle （绿色玻璃酒瓶）, 中式宴席菜肴与陶制酒壶, Chinese banquet dishes and ceramic wine pitchers （中式菜肴与陶壶）美学调性： 怀旧现实主义剧情片 / 中国改革开放后至1990年代早期 / 夜晚 / 室内具体置景： 中式餐馆包间或家庭宴会厅 | 米黄色墙面与浅色窗帘, 拥挤的圆桌宴席, 木质餐椅, 白瓷菜盘, 棕色陶制酒壶, 桌面热菜与酒水, 背景虚化的其他食客【视听摄影与美学工业】镜头构图： 约2.06:1宽画幅 / 复古胶片与实拍电影风格 / 中近景群像镜头 / 平视机位 / 约35mm广角镜头, T2.8浅景深 / 环形群像构图, 前景手臂与酒杯形成框景, 中心人物视觉锚点, 左右人物平衡色彩光影： 琥珀金黄、橄榄绿、陶土棕与砖红色调 / 温暖柔和、低反差的室内写实布光 / 顶部钨丝灯、暖色餐厅环境灯与柔和反射补光后期特效： 无显著CG特效, 轻微酒杯反光与自然景深虚化 / 35毫米胶片颗粒、柔和高光、复古暖色电影调色与轻微镜头晕光质感\n\nCinematic Elements & Setting: Core Visuals: Chinese friends toasting at a banquet, young woman in a red floral dress with braided hair, smiling male diners, clinking stemmed liquor glasses, green glass liquor bottle, Chinese banquet dishes and ceramic wine pitchersTonal Style: nostalgic social-realist drama / post-Reform-era China to early 1990s / night / interiorSet Design: Chinese restaurant private dining room or family banquet hall | cream-yellow walls and pale curtains, a crowded round-table feast, wooden dining chairs, white porcelain plates, brown ceramic wine pitchers, shared hot dishes and liquor, softly blurred diners in the backgroundCinematic Photography & Tech SpecificationCamera & Framing: approximately 2.06:1 widescreen / vintage photochemical realist cinema / medium group close shot / eye-level angle / approximately 35mm wide lens at T2.8 with shallow depth of field / circular ensemble composition, foreground arms and glasses create a natural frame, centered heroine as visual anchor, balanced figures on both sidesLighting & Color: amber-gold, olive green, earth brown, and brick red palette / warm, soft, low-contrast practical realism / overhead tungsten fixtures, warm restaurant ambient light, and soft bounced fillPost-VFX: no overt CGI, natural glass reflections and depth-of-field blur | 35mm film-grain texture, gentle highlight roll-off, nostalgic warm cinematic grade, subtle lens bloom",
+      "img": "assets/full/A370.webp",
+      "thumb": "assets/thumb/A370.webp",
+      "w": 1259,
+      "h": 603,
+      "srcHash": "a634b520a5dc09c0",
+      "imgHash": "1d28dcc117299e32",
+      "zh": "【画面主体与环境置景】核心元素： 围桌敬酒的中国青年男女, Chinese friends toasting at a banquet （中国朋友聚餐饮酒）, 红色碎花裙双辫年轻女性, young woman in a red floral dress with braided hair （红裙双辫女性）, 微笑男性宾客, smiling male diners （笑着的男性宾客）, 碰杯酒盏, clinking stemmed liquor glasses （碰杯的高脚酒杯）, 绿色玻璃酒瓶, green glass liquor bottle （绿色玻璃酒瓶）, 中式宴席菜肴与陶制酒壶, Chinese banquet dishes and ceramic wine pitchers （中式菜肴与陶壶）美学调性： 怀旧现实主义剧情片 / 中国改革开放后至1990年代早期 / 夜晚 / 室内具体置景： 中式餐馆包间或家庭宴会厅 | 米黄色墙面与浅色窗帘, 拥挤的圆桌宴席, 木质餐椅, 白瓷菜盘, 棕色陶制酒壶, 桌面热菜与酒水, 背景虚化的其他食客【视听摄影与美学工业】镜头构图： 约2.06:1宽画幅 / 复古胶片与实拍电影风格 / 中近景群像镜头 / 平视机位 / 约35mm广角镜头, T2.8浅景深 / 环形群像构图, 前景手臂与酒杯形成框景, 中心人物视觉锚点, 左右人物平衡色彩光影： 琥珀金黄、橄榄绿、陶土棕与砖红色调 / 温暖柔和、低反差的室内写实布光 / 顶部钨丝灯、暖色餐厅环境灯与柔和反射补光后期特效： 无显著CG特效, 轻微酒杯反光与自然景深虚化 / 35毫米胶片颗粒、柔和高光、复古暖色电影调色与轻微镜头晕光质感\n\n【电影元素与置景】\n核心视觉： 围桌敬酒的中国青年男女, Chinese friends toasting at a banquet （中国朋友聚餐饮酒）, 红色碎花裙双辫年轻女性, young woman in a red floral dress with braided hair （红裙双辫女性）, 微笑男性宾客, smiling male diners （笑着的男性宾客）, 碰杯酒盏, clinking stemmed liquor glasses （碰杯的高脚酒杯）, 绿色玻璃酒瓶, green glass liquor bottle （绿色玻璃酒瓶）, 中式宴席菜肴与陶制酒壶, Chinese banquet dishes and ceramic wine pitchers （中式菜肴与陶壶）\n调性风格：怀旧现实主义剧情片 / 中国改革开放后至1990年代早期 / 夜晚 / 室内\n置景设计：中式餐馆包间或家庭宴会厅 | 米黄色墙面与浅色窗帘, 拥挤的圆桌宴席, 木质餐椅, 白瓷菜盘, 棕色陶制酒壶, 桌面热菜与酒水, 背景虚化的其他食客\n\n【电影摄影与技术规格】\n镜头与构图：约2.06:1宽画幅 / 复古胶片与实拍电影风格 / 中近景群像镜头 / 平视机位 / 约35mm广角镜头, T2.8浅景深 / 环形群像构图, 前景手臂与酒杯形成框景, 中心人物视觉锚点, 左右人物平衡\n光影与色彩：琥珀金黄、橄榄绿、陶土棕与砖红色调 / 温暖柔和、低反差的室内写实布光 / 顶部钨丝灯、暖色餐厅环境灯与柔和反射补光\n后期视效：无显著CG特效, 轻微酒杯反光与自然景深虚化 / 35毫米胶片颗粒、柔和高光、复古暖色电影调色与轻微镜头晕光质感"
+    },
+    {
+      "id": "A371",
+      "seq": "371",
+      "title": "砖墙前仰望人群｜社会现实主义群像",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "群像",
+        "社会写实",
+        "砖墙"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后单独放大双遍核读）。版式：无【】连排。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 一群中国成年男女, 群体注视与仰望, 克制而紧张的面部表情, 深色夹克与工装服, 旧砖墙美学调性： 社会现实主义剧情片 / 当代中国, 约2000年代至2010年代 / 白天 / 室外具体置景： 城市老旧居民区巷道或院落 | 风化灰黑砖墙, 不规则砖缝, 斑驳墙面, 拥挤站立的人群, 朴素日常服装, 无明显装饰的生活化环境视听摄影与美学工业镜头构图： 约3:2画幅 / 写实真人电影摄影 / 中景至中近景群像 / 平视机位 / 约50毫米标准镜头, 约f/5.6中等光圈 / 紧密群像构图, 多层次前中后景排列, 中心聚焦与视觉平衡, 边缘人物局部裁切色彩光影： 低饱和蓝灰、炭黑、暗棕与褪红色调 / 阴郁克制的自然主义柔光, 低反差但保留面部纹理 / 阴天环境光与墙面反射光, 弱化人工补光后期特效： 几乎无视觉特效, 轻微电影级降饱和与冷色调色, 真实皮肤纹理与胶片式颗粒质感 / 数字电影摄影结合胶片化调色, 写实渲染质感, 无CG合成感\n\nCinematic Elements & SettingCore Visuals: Group of Chinese adults, collective upward gaze, restrained and tense facial expressions, dark jackets and workwear, weathered brick wallTonal Style: Social-realist drama / Contemporary China, approximately the 2000s to 2010s / Daytime / ExteriorSet Design: Old urban residential alley or courtyard | Aged gray-black brick wall, irregular mortar lines, weathered masonry, tightly packed standing crowd, modest everyday clothing, unadorned lived-in environmentCinematic Photography & Tech SpecificationCamera & Framing: Approximately 3.2 aspect ratio / Live-action realist cinema / Medium to medium-close group shot / Eye-level camera angle / Approximately 50mm standard lens, medium aperture around f/5.6 / Dense ensemble composition, layered foreground-midground-background arrangement, centered visual balance, partial cropping of edge figuresLighting & Color: Desaturated blue-gray, charcoal, dark brown, and faded red palette / Gloomy restrained naturalistic soft light with low contrast and preserved facial texture / Overcast ambient daylight with subtle reflected light from the brick wall and minimal artificial fillPost-VFX: Virtually no visual effects, subtle cinematic desaturation and cool-toned color grading, realistic skin texture with fine film-like grain / Digital cinema photography with film-emulation grading, grounded photorealistic rendering and no visible CGI compositing",
+      "img": "assets/full/A371.webp",
+      "thumb": "assets/thumb/A371.webp",
+      "w": 1024,
+      "h": 708,
+      "srcHash": "14a06bb51a5f76e3",
+      "imgHash": "a0e5ce2e1ef9cfa5",
+      "zh": "画面主体与环境置景核心元素： 一群中国成年男女, 群体注视与仰望, 克制而紧张的面部表情, 深色夹克与工装服, 旧砖墙美学调性： 社会现实主义剧情片 / 当代中国, 约2000年代至2010年代 / 白天 / 室外具体置景： 城市老旧居民区巷道或院落 | 风化灰黑砖墙, 不规则砖缝, 斑驳墙面, 拥挤站立的人群, 朴素日常服装, 无明显装饰的生活化环境视听摄影与美学工业镜头构图： 约3:2画幅 / 写实真人电影摄影 / 中景至中近景群像 / 平视机位 / 约50毫米标准镜头, 约f/5.6中等光圈 / 紧密群像构图, 多层次前中后景排列, 中心聚焦与视觉平衡, 边缘人物局部裁切色彩光影： 低饱和蓝灰、炭黑、暗棕与褪红色调 / 阴郁克制的自然主义柔光, 低反差但保留面部纹理 / 阴天环境光与墙面反射光, 弱化人工补光后期特效： 几乎无视觉特效, 轻微电影级降饱和与冷色调色, 真实皮肤纹理与胶片式颗粒质感 / 数字电影摄影结合胶片化调色, 写实渲染质感, 无CG合成感\n\n【电影元素与置景】\n核心视觉： 一群中国成年男女, 群体注视与仰望, 克制而紧张的面部表情, 深色夹克与工装服, 旧砖墙\n调性风格：社会现实主义剧情片 / 当代中国, 约2000年代至2010年代 / 白天 / 室外\n置景设计：城市老旧居民区巷道或院落 | 风化灰黑砖墙, 不规则砖缝, 斑驳墙面, 拥挤站立的人群, 朴素日常服装, 无明显装饰的生活化环境视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：约3:2画幅 / 写实真人电影摄影 / 中景至中近景群像 / 平视机位 / 约50毫米标准镜头, 约f/5.6中等光圈 / 紧密群像构图, 多层次前中后景排列, 中心聚焦与视觉平衡, 边缘人物局部裁切\n光影与色彩：低饱和蓝灰、炭黑、暗棕与褪红色调 / 阴郁克制的自然主义柔光, 低反差但保留面部纹理 / 阴天环境光与墙面反射光, 弱化人工补光\n后期视效：几乎无视觉特效, 轻微电影级降饱和与冷色调色, 真实皮肤纹理与胶片式颗粒质感 / 数字电影摄影结合胶片化调色, 写实渲染质感, 无CG合成感"
+    },
+    {
+      "id": "A372",
+      "seq": "372",
+      "title": "民俗巡游旗幡｜民族志纪录片节庆群像",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "民俗",
+        "节庆",
+        "纪录片"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后单独放大双遍核读）。版式：带【】标题连排。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 民俗仪式参与者、身穿银色传统服饰的男性、手持红色金色祭祀旗幡的女性、佩戴红色绥带与绿色围巾的群众、传统祈福旗伞、节庆人群美学调性： 民族志纪录片 / 当代背景, 约2010至2020年代 / 白天或阴天散射光时段 / 室外民俗节庆现场具体置景： 传统民俗仪式场景 | 密集人群、红金色祈福旗伞、刺绣绥带、金色流苏、彩色飘带、银色反光服饰、深色建筑或庙会背景, 节庆巡游道具【视听摄影与美学工业】镜头构图： 约1.45:1 / 写实纪实摄影格式 / 中近景至近景群像 / 平视机位, 略带侧面观察角度 / 约50至70毫米中长焦, 约f/4至f/5.6 / 前景人物形成视觉层次, 主体集中于画面中央与右侧, 利用旗幡和人物动作形成对角线, 引导视线并采用自然遮挡构图色彩光影： 高饱和红金色节庆主调, 辅以翠绿、银灰与深黑 / 真实自然光与柔和纪实光效, 局部高光反射明显 / 阴天环境散射光, 现场自然天光与周围反光材质补光后期特效： 无明显数字视觉特效, 保留真实人物肤理、织物纹理与现场运动感 / 真实摄影质感, 轻度纪录片调色, 非CG渲染, 接近电影级数字摄影原片\n\nCinematic Elements & Setting: Core Visuals: Ethnographic festival participants, man in reflective silver ceremonial clothing, woman holding red and gold ritual banners, crowd wearing red sashes and green scarves, traditional prayer umbrellas, cultural processionTonal Style: Ethnographic documentary / Contemporary era, approximately the 2010s to 2020s / Daytime or overcast daylight / Exterior folk-festival settingSet Design: Traditional folk-ritual procession | Dense crowd, red-and-gold prayer umbrellas, embroidered ceremonial sashes, gold tassels, colorful ribbons, reflective silver garments, dark temple-fair architecture or covered street background, ceremonial parade propsCinematic Photography & Tech SpecificationCamera & Framing: Approximately 1.45:1 / Photorealistic documentary photography / Medium close-up to close-up group framing / Eye-level camera with a slight side-observation angle / Approximately 50-70mm medium-telephoto lens, around f/4-f/5.6 aperture / Layered foreground subjects, central and right-weighted composition, diagonal lines created by banners and gestures, eye-trace guidance, natural occlusionLighting & Color: High-saturation ceremonial red and gold palette with emerald green, silver-gray, and deep black accents / Naturalistic documentary lighting with soft ambient illumination and localized reflective highlights / Overcast skylight, available daylight, and bounce light from metallic and satin materialsPost-VFX: No visible digital visual effects; authentic skin texture, textile detail, and documentary motion preserved / Photographic realism with restrained documentary color grading, non-CG cinematic digital-camera texture",
+      "img": "assets/full/A372.webp",
+      "thumb": "assets/thumb/A372.webp",
+      "w": 1025,
+      "h": 709,
+      "srcHash": "5dbb347bc017edd2",
+      "imgHash": "aa2ea7a7df79a864",
+      "zh": "【画面主体与环境置景】核心元素： 民俗仪式参与者、身穿银色传统服饰的男性、手持红色金色祭祀旗幡的女性、佩戴红色绥带与绿色围巾的群众、传统祈福旗伞、节庆人群美学调性： 民族志纪录片 / 当代背景, 约2010至2020年代 / 白天或阴天散射光时段 / 室外民俗节庆现场具体置景： 传统民俗仪式场景 | 密集人群、红金色祈福旗伞、刺绣绥带、金色流苏、彩色飘带、银色反光服饰、深色建筑或庙会背景, 节庆巡游道具【视听摄影与美学工业】镜头构图： 约1.45:1 / 写实纪实摄影格式 / 中近景至近景群像 / 平视机位, 略带侧面观察角度 / 约50至70毫米中长焦, 约f/4至f/5.6 / 前景人物形成视觉层次, 主体集中于画面中央与右侧, 利用旗幡和人物动作形成对角线, 引导视线并采用自然遮挡构图色彩光影： 高饱和红金色节庆主调, 辅以翠绿、银灰与深黑 / 真实自然光与柔和纪实光效, 局部高光反射明显 / 阴天环境散射光, 现场自然天光与周围反光材质补光后期特效： 无明显数字视觉特效, 保留真实人物肤理、织物纹理与现场运动感 / 真实摄影质感, 轻度纪录片调色, 非CG渲染, 接近电影级数字摄影原片\n\n【电影元素与置景】\n核心视觉： 民俗仪式参与者、身穿银色传统服饰的男性、手持红色金色祭祀旗幡的女性、佩戴红色绥带与绿色围巾的群众、传统祈福旗伞、节庆人群\n调性风格：民族志纪录片 / 当代背景, 约2010至2020年代 / 白天或阴天散射光时段 / 室外民俗节庆现场\n置景设计：传统民俗仪式场景 | 密集人群、红金色祈福旗伞、刺绣绥带、金色流苏、彩色飘带、银色反光服饰、深色建筑或庙会背景, 节庆巡游道具\n\n【电影摄影与技术规格】\n镜头与构图：约1.45:1 / 写实纪实摄影格式 / 中近景至近景群像 / 平视机位, 略带侧面观察角度 / 约50至70毫米中长焦, 约f/4至f/5.6 / 前景人物形成视觉层次, 主体集中于画面中央与右侧, 利用旗幡和人物动作形成对角线, 引导视线并采用自然遮挡构图\n光影与色彩：高饱和红金色节庆主调, 辅以翠绿、银灰与深黑 / 真实自然光与柔和纪实光效, 局部高光反射明显 / 阴天环境散射光, 现场自然天光与周围反光材质补光\n后期视效：无明显数字视觉特效, 保留真实人物肤理、织物纹理与现场运动感 / 真实摄影质感, 轻度纪录片调色, 非CG渲染, 接近电影级数字摄影原片"
+    },
+    {
+      "id": "A373",
+      "seq": "373",
+      "title": "夜空烟花与屋顶｜都市庆典电影大远景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "烟花",
+        "夜景",
+        "大远景"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后单独放大双遍核读）。版式：带【】标题连排。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 夜空中的多重烟花爆炸, 城市建筑群, 低层住宅与屋顶剪影, 烟雾与火花颗粒, 远处高层公寓亮窗, 底部植物剪影美学调性： 都市庆典电影 / 当代21世纪 / 深夜 / 室外具体置景： 城市住宅区夜景 | 前景为低层砖结构住宅、斜屋顶、金属门与深色植物剪影, 中景为密集城市建筑, 背景为带有零散亮窗的高层公寓, 天空布满烟花轨迹、爆裂火花与扩散烟雾【视听摄影与美学工业】镜头构图： 约1.36:1 / 写实数字电影摄影静帧 / 大远景与城市环境建立镜头 / 平视微仰拍 / 约35mm广角至标准焦段, 约f/4至f/5.6 / 三分法构图、前景剪影框景、烟花视觉引导线、上方大面积负空间色彩光影： 深蓝与青灰夜色搭配暖金色烟花 / 低照度高反差、烟雾漫反射、亮部柔和辉光 / 烟花爆炸光为主光源, 远处建筑窗光与微弱城市环境光为辅助光源后期特效： 真实烟花轨迹、爆炸火花、悬浮颗粒、烟雾层次与轻微镜头辉光 / 写实数字摄影质感, 电影级色彩分级, 自然大气散射与高光溢出, 无明显CG渲染痕迹\n\nCinematic Elements & Setting : Core Visuals: Multiple fireworks bursting across the night sky, urban apartment blocks, silhouetted low-rise residences and rooftops, drifting smoke and incandescent spark particles, distant high-rise windows, silhouetted foreground vegetationTonal Style: Urban celebration drama and cinematic documentary realism / Contemporary 21st century / Deep night / ExteriorSet Design: Urban residential neighborhood | Foreground low-rise brick buildings, sloped roofs, metal gate and dark plant silhouettes; midground dense city structures; background high-rise apartment towers with scattered lit windows; sky filled with fireworks trails, explosive sparks and expanding smoke cloudsCinematic Photography & Tech SpecificationCamera & Framing: Approximately 1.36:1 aspect ratio / Photorealistic digital cinema still / Extreme wide establishing shot with environmental emphasis / Eye-level with a subtle low-angle tilt toward the sky / Approximately 35mm wide-to-normal lens, around f/4 to f/5.6 / Rule of thirds, silhouetted foreground framing, fireworks-led visual lines, generous upper negative spaceLighting & Color: Deep navy and blue-gray night palette contrasted with warm gold and ivory fireworks / Low-light high-contrast cinematography with diffused smoke bounce and soft highlight bloom / Firework bursts as the primary light source, distant apartment windows and faint urban ambient light as secondary sourcesPost-VFX: Practical-looking fireworks trails, explosive sparks, suspended particles, layered smoke and restrained optical bloom / Photorealistic digital-camera rendering, cinematic color grading, natural atmospheric scattering and controlled highlight roll-off, with no obvious CGI appearance",
+      "img": "assets/full/A373.webp",
+      "thumb": "assets/thumb/A373.webp",
+      "w": 966,
+      "h": 672,
+      "srcHash": "c78f68deb8f2a9b1",
+      "imgHash": "34b7b54bc940e589",
+      "zh": "【画面主体与环境置景】核心元素： 夜空中的多重烟花爆炸, 城市建筑群, 低层住宅与屋顶剪影, 烟雾与火花颗粒, 远处高层公寓亮窗, 底部植物剪影美学调性： 都市庆典电影 / 当代21世纪 / 深夜 / 室外具体置景： 城市住宅区夜景 | 前景为低层砖结构住宅、斜屋顶、金属门与深色植物剪影, 中景为密集城市建筑, 背景为带有零散亮窗的高层公寓, 天空布满烟花轨迹、爆裂火花与扩散烟雾【视听摄影与美学工业】镜头构图： 约1.36:1 / 写实数字电影摄影静帧 / 大远景与城市环境建立镜头 / 平视微仰拍 / 约35mm广角至标准焦段, 约f/4至f/5.6 / 三分法构图、前景剪影框景、烟花视觉引导线、上方大面积负空间色彩光影： 深蓝与青灰夜色搭配暖金色烟花 / 低照度高反差、烟雾漫反射、亮部柔和辉光 / 烟花爆炸光为主光源, 远处建筑窗光与微弱城市环境光为辅助光源后期特效： 真实烟花轨迹、爆炸火花、悬浮颗粒、烟雾层次与轻微镜头辉光 / 写实数字摄影质感, 电影级色彩分级, 自然大气散射与高光溢出, 无明显CG渲染痕迹\n\n【电影元素与置景】\n核心视觉： 夜空中的多重烟花爆炸, 城市建筑群, 低层住宅与屋顶剪影, 烟雾与火花颗粒, 远处高层公寓亮窗, 底部植物剪影\n调性风格：都市庆典电影 / 当代21世纪 / 深夜 / 室外\n置景设计：城市住宅区夜景 | 前景为低层砖结构住宅、斜屋顶、金属门与深色植物剪影, 中景为密集城市建筑, 背景为带有零散亮窗的高层公寓, 天空布满烟花轨迹、爆裂火花与扩散烟雾\n\n【电影摄影与技术规格】\n镜头与构图：约1.36:1 / 写实数字电影摄影静帧 / 大远景与城市环境建立镜头 / 平视微仰拍 / 约35mm广角至标准焦段, 约f/4至f/5.6 / 三分法构图、前景剪影框景、烟花视觉引导线、上方大面积负空间\n光影与色彩：深蓝与青灰夜色搭配暖金色烟花 / 低照度高反差、烟雾漫反射、亮部柔和辉光 / 烟花爆炸光为主光源, 远处建筑窗光与微弱城市环境光为辅助光源\n后期视效：真实烟花轨迹、爆炸火花、悬浮颗粒、烟雾层次与轻微镜头辉光 / 写实数字摄影质感, 电影级色彩分级, 自然大气散射与高光溢出, 无明显CG渲染痕迹"
     }
   ]
 }
