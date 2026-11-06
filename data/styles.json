@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 382,
+  "count": 389,
   "cats": [
     {
       "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
     },
     {
       "name": "摄影——电影感",
-      "count": 62
+      "count": 69
     },
     {
       "name": "人像——身份参考",
@@ -11474,6 +11474,195 @@
       "srcHash": "a87cd732ae1e1d23",
       "imgHash": "cef59ef68c027f5b",
       "zh": "【画面主体与环境置景】核心元素： 两名东亚男性武侠角色, 黑衣铠甲武士, 长发头带, 黑色头巾, 传统中式服饰, 古典庭院, 秋季红枫, 青瓦建筑, 蓝色帷幔, 石阶与灯笼美学调性： 历史武侠 / 中国古代架空时代, 偏明代至前现代东方风格 / 白昼偏午后 / 室外具体置景： 传统中式宫殿或武侠宅院庭院 | 青灰色琉璃瓦屋檐、朱红木柱、深色木格门窗、中央石阶、蓝黑色垂帘、石灯笼、庭院铺石、散落红枫叶、两侧红枫树 | 远处山水与建筑轮廓【视听摄影与美学工业】镜头构图： 约1.94:1宽银幕比例 / 写实真人电影格式, 历史武侠电影质感 / 双人中近景, 中景至胸像构图 / 平视机位, 正面略带低机位稳定感 / 约50mm标准镜头, 约f/2.8至f/4, 主体清晰、背景浅景深虚化 / 中轴对称与平衡构图, 双主体分置左右, 中央建筑形成视觉引导线色彩光影： 低饱和冷灰黑与暗青色为主, 辅以红枫橙红和朱红建筑形成互补色对比 / 阴天柔光、低对比度、电影级柔和轮廓光 / 主要光源为自然天空散射光, 辅以庭院环境反射光与微弱侧向补光后期特效： 极少量环境雾化、景深虚化、自然颗粒与电影级色彩分级, 无明显超自然特效 / 非CG主导的写实数字电影质感, 细腻材质纹理, 类似高端实拍摄影与数字中间片调色\n\n【电影元素与置景】\n核心视觉： 两名东亚男性武侠角色, 黑衣铠甲武士, 长发头带, 黑色头巾, 传统中式服饰, 古典庭院, 秋季红枫, 青瓦建筑, 蓝色帷幔, 石阶与灯笼\n调性风格：历史武侠 / 中国古代架空时代, 偏明代至前现代东方风格 / 白昼偏午后 / 室外\n置景设计：传统中式宫殿或武侠宅院庭院 | 青灰色琉璃瓦屋檐、朱红木柱、深色木格门窗、中央石阶、蓝黑色垂帘、石灯笼、庭院铺石、散落红枫叶、两侧红枫树 | 远处山水与建筑轮廓\n\n【电影摄影与技术规格】\n镜头与构图：约1.94:1宽银幕比例 / 写实真人电影格式, 历史武侠电影质感 / 双人中近景, 中景至胸像构图 / 平视机位, 正面略带低机位稳定感 / 约50mm标准镜头, 约f/2.8至f/4, 主体清晰、背景浅景深虚化 / 中轴对称与平衡构图, 双主体分置左右, 中央建筑形成视觉引导线\n光影与色彩：低饱和冷灰黑与暗青色为主, 辅以红枫橙红和朱红建筑形成互补色对比 / 阴天柔光、低对比度、电影级柔和轮廓光 / 主要光源为自然天空散射光, 辅以庭院环境反射光与微弱侧向补光\n后期视效：极少量环境雾化、景深虚化、自然颗粒与电影级色彩分级, 无明显超自然特效 / 非CG主导的写实数字电影质感, 细腻材质纹理, 类似高端实拍摄影与数字中间片调色"
+    },
+    {
+      "id": "A385",
+      "seq": "385",
+      "title": "深空飞碟舰队｜科幻电影超宽建立镜头",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "科幻",
+        "太空",
+        "飞碟",
+        "CGI"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：无【】连排，顿号分隔。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 多艘未来感飞碟形宇宙飞船、编队飞行的小型飞行器、巨型行星弧面、外太空星域、行星大气层边缘美学调性： 科幻电影 / 未来太空时代 / 深夜或无昼夜外太空时段 / 室外真空环境具体置景： 深空轨道空间 | 黑色无垠宇宙、稀疏星点、右侧占据大面积的灰蓝色岩质行星、明亮的大气层轮廓光、不同距离和尺寸排列的银灰色飞碟舰队视听摄影与美学工业镜头构图： 2.39:1宽银幕比例 / 远景建立镜头 / 太空轨道侧向斜视机位、近似水平视角 / 三分法构图、右侧主体分布、左侧大面积负空间、前中后景层次色彩光影： 黑色、炭灰、银白与冷灰蓝为主的低饱和冷色调 / 高反差低调照明、轮廓光与局部高光、深空黑位 / 行星反射光、远处恒星点光、飞船自发光舷窗与引擎灯后期特效： 高精度太空合成、飞船金属反射、行星大气散射、微弱星尘与镜头光晕、景深与尺度透视效果 / 好莱坞级写实CGI与数字合成质感，物理真实渲染、电影级HDR细节\n\nCinematic Elements & SettingCore Visuals: Futuristic saucer-shaped spacecraft, small escort craft in formation, massive planetary limb, deep-space star field, atmospheric planetary edgeTonal Style: Science fiction film / Far-future spacefaring era / Deep night or timeless outer-space period / Exterior vacuum environmentSet Design: Deep-space orbital region | Vast black space, sparse stars, a gray-blue rocky planet occupying the right side, luminous atmospheric rim light, a fleet of silver-gray saucer ships arranged across foreground, middle ground, and backgroundCinematic Photography & Tech SpecificationCamera & Framing: 2.39:1 widescreen aspect ratio / Photorealistic cinematic CGI format / Extreme wide establishing shot / Oblique side-on orbital camera angle with an almost level horizon / Rule of thirds, right-weighted planetary mass, expansive negative space on the left, layered foreground-to-background scaleLighting & Color: Low-saturation cool palette of black, charcoal, silver-white, and cold gray-blue / High-contrast low-key lighting with rim light and selective specular highlights / Reflected planetary light, distant pinpoint starlight, and practical-looking spacecraft windows and engine lightsPost-VFX: High-detail space compositing, metallic spacecraft reflections, planetary atmospheric scattering, subtle star dust and lens flare, depth-of-field and scale-perspective effects / Hollywood-grade photorealistic CGI and digital compositing with physically based rendering and cinematic HDR detail",
+      "img": "assets/full/A385.webp",
+      "thumb": "assets/thumb/A385.webp",
+      "w": 1259,
+      "h": 531,
+      "srcHash": "d070b1c608451998",
+      "imgHash": "3b5e2889014e55b0",
+      "zh": "画面主体与环境置景核心元素： 多艘未来感飞碟形宇宙飞船、编队飞行的小型飞行器、巨型行星弧面、外太空星域、行星大气层边缘美学调性： 科幻电影 / 未来太空时代 / 深夜或无昼夜外太空时段 / 室外真空环境具体置景： 深空轨道空间 | 黑色无垠宇宙、稀疏星点、右侧占据大面积的灰蓝色岩质行星、明亮的大气层轮廓光、不同距离和尺寸排列的银灰色飞碟舰队视听摄影与美学工业镜头构图： 2.39:1宽银幕比例 / 远景建立镜头 / 太空轨道侧向斜视机位、近似水平视角 / 三分法构图、右侧主体分布、左侧大面积负空间、前中后景层次色彩光影： 黑色、炭灰、银白与冷灰蓝为主的低饱和冷色调 / 高反差低调照明、轮廓光与局部高光、深空黑位 / 行星反射光、远处恒星点光、飞船自发光舷窗与引擎灯后期特效： 高精度太空合成、飞船金属反射、行星大气散射、微弱星尘与镜头光晕、景深与尺度透视效果 / 好莱坞级写实CGI与数字合成质感，物理真实渲染、电影级HDR细节\n\n【电影元素与置景】\n核心视觉： 多艘未来感飞碟形宇宙飞船、编队飞行的小型飞行器、巨型行星弧面、外太空星域、行星大气层边缘\n调性风格：科幻电影 / 未来太空时代 / 深夜或无昼夜外太空时段 / 室外真空环境\n置景设计：深空轨道空间 | 黑色无垠宇宙、稀疏星点、右侧占据大面积的灰蓝色岩质行星、明亮的大气层轮廓光、不同距离和尺寸排列的银灰色飞碟舰队视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：2.39:1宽银幕比例 / 远景建立镜头 / 太空轨道侧向斜视机位、近似水平视角 / 三分法构图、右侧主体分布、左侧大面积负空间、前中后景层次\n光影与色彩：黑色、炭灰、银白与冷灰蓝为主的低饱和冷色调 / 高反差低调照明、轮廓光与局部高光、深空黑位 / 行星反射光、远处恒星点光、飞船自发光舷窗与引擎灯\n后期视效：高精度太空合成、飞船金属反射、行星大气散射、微弱星尘与镜头光晕、景深与尺度透视效果 / 好莱坞级写实CGI与数字合成质感，物理真实渲染、电影级HDR细节"
+    },
+    {
+      "id": "A386",
+      "seq": "386",
+      "title": "山地公路边的老人与白色厢式车｜公路剧情片",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "公路片",
+        "乡土写实",
+        "老人",
+        "车辆"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：无【】连排 + 中英夹注（elderly Asian man (年长亚洲男性)）；英文词 roadside 被硬折行拆成 ro/adsid e，已合并。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 白色越野厢式车, elderly Asian man (年长亚洲男性), 灰白短发, 深灰绿色工作夹克, 山地针叶林, 层叠山脉, 车内方向盘, 车载小风扇, 后视镜与挡风玻璃美学调性： 公路剧情片 / 乡土现实主义 / 当代二十一世纪 / 白天阴天 / 室外为主, 兼具车辆内部可见空间具体置景： 偏远山地公路 roadside | 白色老式 utility vehicle, 打开的驾驶侧车门或侧窗, 黑色方向盘, 仪表台, 雨刷器, 侧后视镜, 车内小型电风扇, 挡风玻璃贴纸, 茂密针叶林, 野生灌木, 远处雾霭山脉视听摄影与美学工业镜头构图： 16:9 / 写实电影剧照格式 / 中广景 / 平视侧前方三分之四机位 / 三分法构图, 人物位于左下三分之一, 车辆形成从右上至左下的斜向引导线, 前景遮挡与远景层叠制造纵深色彩光影： 低饱和青绿色、森林绿、灰蓝色与冷白色调 / 阴天漫射光, 柔和低反差, 轻微自然阴影 / 厚重云层过滤的环境天光后期特效： 无明显数字特效, 保留自然空气透视、远山雾霭与玻璃反射 | 电影级写实摄影质感, 细腻胶片颗粒, 真实材质纹理, 轻微去饱和与自然调色, 无CGI渲染感\n\nCinematic Elements & SettingCore Visuals: White utility vehicle, elderly Asian man, short gray-white hair, dark gray-green work jacket, mountainous conifer forest, layered mountain ridges, steering wheel, dashboard-mounted fan, side mirror and windshieldTonal Style: Contemplative road drama / rural naturalism / contemporary 21st century / overcast daytime / primarily exterior with the vehicle interior visibleSet Design: Remote mountain roadside | Aging white utility vehicle, open driver-side door or side window, black steering wheel, dashboard, windshield wipers, side mirror, compact car fan, windshield stickers, dense conifer trees, wild roadside shrubs, misty mountain ranges in the distanceCinematic Photography & Tech SpecificationCamera & Framing: 16:9 / photorealistic cinematic still / medium-wide shot / eye-level three-quarter side angle / rule of thirds, subject placed in the lower-left third, vehicle body forming a strong diagonal leading line from upper right to lower left, foreground occlusion and layered background depthLighting & Color: forest green, cool gray-blue, and off-white palette / soft low-contrast overcast diffusion with gentle natural shadows / filtered ambient daylight through a heavy cloud layerPost-VFX: No overt digital effects, natural atmospheric perspective, distant mountain haze and subtle glass reflections preserved / cinematic photorealism, fine film grain, detailed material texture, restrained desaturation and natural color grading, no synthetic CGI appearance",
+      "img": "assets/full/A386.webp",
+      "thumb": "assets/thumb/A386.webp",
+      "w": 1258,
+      "h": 709,
+      "srcHash": "1d3cf9977c04835b",
+      "imgHash": "b69415377d105ec3",
+      "zh": "画面主体与环境置景核心元素： 白色越野厢式车, elderly Asian man (年长亚洲男性), 灰白短发, 深灰绿色工作夹克, 山地针叶林, 层叠山脉, 车内方向盘, 车载小风扇, 后视镜与挡风玻璃美学调性： 公路剧情片 / 乡土现实主义 / 当代二十一世纪 / 白天阴天 / 室外为主, 兼具车辆内部可见空间具体置景： 偏远山地公路 roadside | 白色老式 utility vehicle, 打开的驾驶侧车门或侧窗, 黑色方向盘, 仪表台, 雨刷器, 侧后视镜, 车内小型电风扇, 挡风玻璃贴纸, 茂密针叶林, 野生灌木, 远处雾霭山脉视听摄影与美学工业镜头构图： 16:9 / 写实电影剧照格式 / 中广景 / 平视侧前方三分之四机位 / 三分法构图, 人物位于左下三分之一, 车辆形成从右上至左下的斜向引导线, 前景遮挡与远景层叠制造纵深色彩光影： 低饱和青绿色、森林绿、灰蓝色与冷白色调 / 阴天漫射光, 柔和低反差, 轻微自然阴影 / 厚重云层过滤的环境天光后期特效： 无明显数字特效, 保留自然空气透视、远山雾霭与玻璃反射 | 电影级写实摄影质感, 细腻胶片颗粒, 真实材质纹理, 轻微去饱和与自然调色, 无CGI渲染感\n\n【电影元素与置景】\n核心视觉： 白色越野厢式车, elderly Asian man (年长亚洲男性), 灰白短发, 深灰绿色工作夹克, 山地针叶林, 层叠山脉, 车内方向盘, 车载小风扇, 后视镜与挡风玻璃\n调性风格：公路剧情片 / 乡土现实主义 / 当代二十一世纪 / 白天阴天 / 室外为主, 兼具车辆内部可见空间\n置景设计：偏远山地公路 roadside | 白色老式 utility vehicle, 打开的驾驶侧车门或侧窗, 黑色方向盘, 仪表台, 雨刷器, 侧后视镜, 车内小型电风扇, 挡风玻璃贴纸, 茂密针叶林, 野生灌木, 远处雾霭山脉视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 写实电影剧照格式 / 中广景 / 平视侧前方三分之四机位 / 三分法构图, 人物位于左下三分之一, 车辆形成从右上至左下的斜向引导线, 前景遮挡与远景层叠制造纵深\n光影与色彩：低饱和青绿色、森林绿、灰蓝色与冷白色调 / 阴天漫射光, 柔和低反差, 轻微自然阴影 / 厚重云层过滤的环境天光\n后期视效：无明显数字特效, 保留自然空气透视、远山雾霭与玻璃反射 | 电影级写实摄影质感, 细腻胶片颗粒, 真实材质纹理, 轻微去饱和与自然调色, 无CGI渲染感"
+    },
+    {
+      "id": "A387",
+      "seq": "387",
+      "title": "高架桥堵车车流｜都市现实主义蓝调时刻",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "都市",
+        "交通",
+        "蓝调时刻",
+        "纪实"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：无【】连排，逗号与顿号混用；「潮湿沥青路面与远市交通设施」经局部放大复核为原文照录（英文对应 distant metropolitan transport infrastructure），非漏字。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 绿色城市公交车, 黄色出租车, 密集私家车流, 公交车司机与乘客, 中文电子线路牌, 立交桥护栏, 道路交通标志, 车灯与车顶空调设备美学调性： 都市现实主义 / 交通惊悚片与社会纪实剧情片 / 当代中国城市, 约2010年代至2020年代 / 黄昏蓝调时刻 / 室外具体置景： 城市高架道路或跨江桥梁 | 多车道拥堵车流、金属隔离护栏、绿色公交车、黄色出租车、银灰色轿车、车顶空调机组、中文公交线路牌、道路指示牌、潮湿沥青路面与远市交通设施视听摄影与美学工业镜头构图： 1.85:1 / 电影级写实摄影 / 中远景至远景, 前景车辆形成压迫性遮挡 / 略高机位, 接近高架桥观察视角 / 多层次纵深构图、中央聚焦、道路引导线、前中后景叠加色彩光影： 冷蓝灰主色调, 绿色与黄色车辆形成局部高饱和对比 / 阴天黄昏与蓝调时刻的低反差自然光, 车灯制造局部高光与光晕 / 天空漫射光、环境反射光、公交车与汽车前灯、远处城市路灯后期特效： 轻微景深虚化、车灯高光光晕、玻璃反射与湿路面反光、自然运动模糊、真实交通密度增强 / 电影级写实调色, 光学长焦压缩质感, 低饱和蓝绿色阴影, 非CGI纪实渲染风格\n\nCinematic Elements & SettingCore Visuals: Green city buses, yellow taxis, dense private-car traffic, bus drivers and passengers, Chinese electronic route displays, elevated-road barriers, urban traffic signs, headlights and roof air-conditioning unitsTonal Style: Urban realism / Traffic thriller and social-realist drama / Contemporary urban China, approximately the 2010s to 2020s / Blue-hour dusk / ExteriorSet Design: Elevated urban roadway or bridge approach | Heavy multi-lane congestion, metal divider barriers, green public buses, yellow taxis, silver-gray sedans, rooftop HVAC units, Chinese bus route signage, overhead directional signs, damp asphalt and distant metropolitan transport infrastructureCinematic Photography & Tech SpecificationCamera & Framing: 1.85:1 / Photorealistic cinematic format / Medium-long shot to wide shot, with foreground vehicles creating obstructive pressure / Slightly elevated camera angle resembling an observation position from an overpass / Layered depth composition, centered visual focus, leading road lines, overlapping foreground, middle ground, and backgroundLighting & Color: Cool blue-gray palette with selective saturated green and yellow vehicle accents / Overcast dusk and blue-hour low-contrast natural lighting with headlights producing localized highlights and bloom / Diffused skylight, ambient reflected light, practical headlights, and distant urban streetlightsPost-VFX: Subtle depth-of-field blur, headlight bloom, windshield reflections, wet-road reflections, natural motion blur, and realistic traffic-density enhancement / Photoreal cinematic color grading, optical telephoto compression, desaturated blue-green shadows, non-CGI documentary rendering style",
+      "img": "assets/full/A387.webp",
+      "thumb": "assets/thumb/A387.webp",
+      "w": 1258,
+      "h": 683,
+      "srcHash": "14388c44578a31f8",
+      "imgHash": "2a87ec9543ebec60",
+      "zh": "画面主体与环境置景核心元素： 绿色城市公交车, 黄色出租车, 密集私家车流, 公交车司机与乘客, 中文电子线路牌, 立交桥护栏, 道路交通标志, 车灯与车顶空调设备美学调性： 都市现实主义 / 交通惊悚片与社会纪实剧情片 / 当代中国城市, 约2010年代至2020年代 / 黄昏蓝调时刻 / 室外具体置景： 城市高架道路或跨江桥梁 | 多车道拥堵车流、金属隔离护栏、绿色公交车、黄色出租车、银灰色轿车、车顶空调机组、中文公交线路牌、道路指示牌、潮湿沥青路面与远市交通设施视听摄影与美学工业镜头构图： 1.85:1 / 电影级写实摄影 / 中远景至远景, 前景车辆形成压迫性遮挡 / 略高机位, 接近高架桥观察视角 / 多层次纵深构图、中央聚焦、道路引导线、前中后景叠加色彩光影： 冷蓝灰主色调, 绿色与黄色车辆形成局部高饱和对比 / 阴天黄昏与蓝调时刻的低反差自然光, 车灯制造局部高光与光晕 / 天空漫射光、环境反射光、公交车与汽车前灯、远处城市路灯后期特效： 轻微景深虚化、车灯高光光晕、玻璃反射与湿路面反光、自然运动模糊、真实交通密度增强 / 电影级写实调色, 光学长焦压缩质感, 低饱和蓝绿色阴影, 非CGI纪实渲染风格\n\n【电影元素与置景】\n核心视觉： 绿色城市公交车, 黄色出租车, 密集私家车流, 公交车司机与乘客, 中文电子线路牌, 立交桥护栏, 道路交通标志, 车灯与车顶空调设备\n调性风格：都市现实主义 / 交通惊悚片与社会纪实剧情片 / 当代中国城市, 约2010年代至2020年代 / 黄昏蓝调时刻 / 室外\n置景设计：城市高架道路或跨江桥梁 | 多车道拥堵车流、金属隔离护栏、绿色公交车、黄色出租车、银灰色轿车、车顶空调机组、中文公交线路牌、道路指示牌、潮湿沥青路面与远市交通设施视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：1.85:1 / 电影级写实摄影 / 中远景至远景, 前景车辆形成压迫性遮挡 / 略高机位, 接近高架桥观察视角 / 多层次纵深构图、中央聚焦、道路引导线、前中后景叠加\n光影与色彩：冷蓝灰主色调, 绿色与黄色车辆形成局部高饱和对比 / 阴天黄昏与蓝调时刻的低反差自然光, 车灯制造局部高光与光晕 / 天空漫射光、环境反射光、公交车与汽车前灯、远处城市路灯\n后期视效：轻微景深虚化、车灯高光光晕、玻璃反射与湿路面反光、自然运动模糊、真实交通密度增强 / 电影级写实调色, 光学长焦压缩质感, 低饱和蓝绿色阴影, 非CGI纪实渲染风格"
+    },
+    {
+      "id": "A388",
+      "seq": "388",
+      "title": "七名高中男生毕业合影｜青春成长群像",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "校园",
+        "青春",
+        "群像",
+        "毕业照"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：带【】标题连排 + 中英夹注；high-school 被硬折行拆成 hi/gh-school，已合并。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 七名东亚高中男学生, seven East Asian male high-school students (七名东亚高中男学生), 白色短袖校服衬衫, 浅蓝色校服长裤, 校徽, 集体毕业照式合影, 站立与蹲坐交错队形, 青春友谊群像美学调性： 青春成长电影 / 当代校园时代背景, 约2010年代至2020年代 / 傍晚黄金时段 / 室外具体置景： 校园体育场 | 红色塑胶跑道, 绿色人工草坪, 白色跑道线, 远处运动场围栏, 混凝土围墙, 彩色涂鸦墙, 树木背景, 球场照明杆, 校园运动设施【视听摄影与美学工业】镜头构图： 1.85:1 / 写实电影剧照、数字电影摄影、自然主义肖像风格 / 中广角群像景别 / 正面平视机位, 轻微低机位感 / 中央对称构图、三角形人物编排、前后景层次、水平线平衡、主体居中色彩光影： 暖金色与橙红色为主, 辅以浅蓝与草绿色的青春清新色调 / 柔和自然光、低对比度电影感、轻微背景虚化 / 傍晚低角度太阳光作为主光, 侧前方暖阳与环境反射光作为辅助光后期特效： 无明显视觉特效, 真实摄影质感, 轻微镜头景深与自然散景、细腻胶片式色彩调色 | 数字电影摄影渲染质感, 柔和亮光、自然肤色、轻微电影颗粒感\n\nCinematic Elements & Setting: Core Visuals: Seven East Asian male high-school students, white short-sleeve school uniform shirts, pale blue school trousers, school emblem, graduation-photo-style group portrait, staggered standing and crouching formation, youthful friendship ensembleTonal Style: Coming-of-age teen drama / Contemporary school era, approximately the 2010s-2020s / Late afternoon golden hour / ExteriorSet Design: School athletic field | Red rubber running track, green artificial turf, white lane marks, distant sports fencing, concrete perimeter wall, colorful graffiti mural, leafy trees, stadium light pole, school sports facilitiesCinematic Photography & Tech SpecificationCamera & Framing: 1.85:1 / Photorealistic cinematic still, digital cinema photography, naturalistic portrait style / Medium-wide group shot / Frontal eye-level camera with a subtle low-angle impression / Centered symmetrical composition, triangular arrangement of figures, layered foreground and background, balanced horizontal line, centralized subjectsLighting & Color: Warm golden and terracotta-orange palette with youthful pale-blue and grass-green accents / Soft natural illumination, low-contrast cinematic grading, gentle background separation / Low-angle late-afternoon sunlight as the key light, warm front-side sunlight and ambient bounce light as fillPost-VFX: No visible visual effects, authentic photographic texture, subtle depth of field and natural bokeh, delicate film-style color grading / Digital cinema rendering, soft highlights, natural skin tones, slight cinematic film grain",
+      "img": "assets/full/A388.webp",
+      "thumb": "assets/thumb/A388.webp",
+      "w": 1258,
+      "h": 683,
+      "srcHash": "1b65c3a08589e042",
+      "imgHash": "83778b2581760bb2",
+      "zh": "【画面主体与环境置景】核心元素： 七名东亚高中男学生, seven East Asian male high-school students (七名东亚高中男学生), 白色短袖校服衬衫, 浅蓝色校服长裤, 校徽, 集体毕业照式合影, 站立与蹲坐交错队形, 青春友谊群像美学调性： 青春成长电影 / 当代校园时代背景, 约2010年代至2020年代 / 傍晚黄金时段 / 室外具体置景： 校园体育场 | 红色塑胶跑道, 绿色人工草坪, 白色跑道线, 远处运动场围栏, 混凝土围墙, 彩色涂鸦墙, 树木背景, 球场照明杆, 校园运动设施【视听摄影与美学工业】镜头构图： 1.85:1 / 写实电影剧照、数字电影摄影、自然主义肖像风格 / 中广角群像景别 / 正面平视机位, 轻微低机位感 / 中央对称构图、三角形人物编排、前后景层次、水平线平衡、主体居中色彩光影： 暖金色与橙红色为主, 辅以浅蓝与草绿色的青春清新色调 / 柔和自然光、低对比度电影感、轻微背景虚化 / 傍晚低角度太阳光作为主光, 侧前方暖阳与环境反射光作为辅助光后期特效： 无明显视觉特效, 真实摄影质感, 轻微镜头景深与自然散景、细腻胶片式色彩调色 | 数字电影摄影渲染质感, 柔和亮光、自然肤色、轻微电影颗粒感\n\n【电影元素与置景】\n核心视觉： 七名东亚高中男学生, seven East Asian male high-school students (七名东亚高中男学生), 白色短袖校服衬衫, 浅蓝色校服长裤, 校徽, 集体毕业照式合影, 站立与蹲坐交错队形, 青春友谊群像\n调性风格：青春成长电影 / 当代校园时代背景, 约2010年代至2020年代 / 傍晚黄金时段 / 室外\n置景设计：校园体育场 | 红色塑胶跑道, 绿色人工草坪, 白色跑道线, 远处运动场围栏, 混凝土围墙, 彩色涂鸦墙, 树木背景, 球场照明杆, 校园运动设施\n\n【电影摄影与技术规格】\n镜头与构图：1.85:1 / 写实电影剧照、数字电影摄影、自然主义肖像风格 / 中广角群像景别 / 正面平视机位, 轻微低机位感 / 中央对称构图、三角形人物编排、前后景层次、水平线平衡、主体居中\n光影与色彩：暖金色与橙红色为主, 辅以浅蓝与草绿色的青春清新色调 / 柔和自然光、低对比度电影感、轻微背景虚化 / 傍晚低角度太阳光作为主光, 侧前方暖阳与环境反射光作为辅助光\n后期视效：无明显视觉特效, 真实摄影质感, 轻微镜头景深与自然散景、细腻胶片式色彩调色 | 数字电影摄影渲染质感, 柔和亮光、自然肤色、轻微电影颗粒感"
+    },
+    {
+      "id": "A389",
+      "seq": "389",
+      "title": "梯田黑狗｜自然纪录片乡野生态",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "自然纪录片",
+        "梯田",
+        "乡野",
+        "黑狗"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：带【】标题连排；【视听摄影与美学工业】被硬折行拆成两行，已合并。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 黑色犬只、层叠式梯田、茂密野草与灌木、湿润泥土、前景高草、浅水溪流、热带山地植被美学调性： 自然纪录片 / 乡野生态剧情 / 当代未特定时代 / 白昼阴天 / 室外具体置景： 热带或亚热带山地梯田 | 多层狭长草坡、裸露土埂、野生藤蔓、芒草丛、密集灌木、前景虚化草叶、底部浅溪与湿润水面【视听摄影与美学工业】镜头构图： 16:9 / 写实电影摄影与自然纪录片影像 / 远景全景 / 平视机位 / 横向层叠构图、三分法、主体置于画面中右区域、前景遮挡制造景深层次色彩光影： 低饱和冷绿色与深森林绿、灰绿色、湿土棕色 / 阴天漫射光、柔和低反差、潮湿空气质感 / 厚重云层自然光、环境散射光后期特效： 无明显数字视觉特效, 仅有自然景深、前景运动模糊与轻微电影级色彩分级 | 写实摄影级渲染、自然纹理保留、湿润生态环境的高细节数字影像质感\n\nCinematic Elements & Setting: Core Visuals: black dog, layered rice-terrace landscape, dense wild grasses and shrubs, damp soil, foreground reeds, shallow stream, lush tropical mountain vegetationTonal Style: nature documentary / atmospheric rural drama / contemporary or unspecified era / overcast daytime / exteriorSet Design: tropical or subtropical mountain terraces | steeped grass embankments, exposed earthen ridges, tangled vines, tall pampas-like grasses, dense undergrowth, blurred foreground blades, shallow water stream and wet reflective groundCinematic Photography & Tech SpecificationCamera & Framing: 16:9 / naturalistic cinematic photography and documentary realism / wide long shot / eye-level camera angle / layered horizontal terrace composition, rule of thirds, subject positioned in the center-right area, foreground occlusion creating depthLighting & Color: desaturated cool greens, deep forest green, gray-green tones, muted earthy brown / soft overcast diffusion, low contrast, humid atmospheric texture / thick-cloud daylight and ambient environmental bouncePost-VFX: no apparent digital visual effects, with natural depth of field, subtle foreground motion blur, and restrained cinematic color grading / photorealistic documentary render quality, detailed organic textures, humid ecological realism",
+      "img": "assets/full/A389.webp",
+      "thumb": "assets/thumb/A389.webp",
+      "w": 1259,
+      "h": 709,
+      "srcHash": "ed8ba3674629ae3e",
+      "imgHash": "d3485cf6278d1f72",
+      "zh": "【画面主体与环境置景】核心元素： 黑色犬只、层叠式梯田、茂密野草与灌木、湿润泥土、前景高草、浅水溪流、热带山地植被美学调性： 自然纪录片 / 乡野生态剧情 / 当代未特定时代 / 白昼阴天 / 室外具体置景： 热带或亚热带山地梯田 | 多层狭长草坡、裸露土埂、野生藤蔓、芒草丛、密集灌木、前景虚化草叶、底部浅溪与湿润水面【视听摄影与美学工业】镜头构图： 16:9 / 写实电影摄影与自然纪录片影像 / 远景全景 / 平视机位 / 横向层叠构图、三分法、主体置于画面中右区域、前景遮挡制造景深层次色彩光影： 低饱和冷绿色与深森林绿、灰绿色、湿土棕色 / 阴天漫射光、柔和低反差、潮湿空气质感 / 厚重云层自然光、环境散射光后期特效： 无明显数字视觉特效, 仅有自然景深、前景运动模糊与轻微电影级色彩分级 | 写实摄影级渲染、自然纹理保留、湿润生态环境的高细节数字影像质感\n\n【电影元素与置景】\n核心视觉： 黑色犬只、层叠式梯田、茂密野草与灌木、湿润泥土、前景高草、浅水溪流、热带山地植被\n调性风格：自然纪录片 / 乡野生态剧情 / 当代未特定时代 / 白昼阴天 / 室外\n置景设计：热带或亚热带山地梯田 | 多层狭长草坡、裸露土埂、野生藤蔓、芒草丛、密集灌木、前景虚化草叶、底部浅溪与湿润水面\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 写实电影摄影与自然纪录片影像 / 远景全景 / 平视机位 / 横向层叠构图、三分法、主体置于画面中右区域、前景遮挡制造景深层次\n光影与色彩：低饱和冷绿色与深森林绿、灰绿色、湿土棕色 / 阴天漫射光、柔和低反差、潮湿空气质感 / 厚重云层自然光、环境散射光\n后期视效：无明显数字视觉特效, 仅有自然景深、前景运动模糊与轻微电影级色彩分级 | 写实摄影级渲染、自然纹理保留、湿润生态环境的高细节数字影像质感"
+    },
+    {
+      "id": "A390",
+      "seq": "390",
+      "title": "地下棋牌室抽烟男子｜犯罪黑色电影",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "犯罪",
+        "黑色电影",
+        "室内",
+        "烟雾"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：带【】标题连排 + 三联式中英混排（中文词, English term (中文注)）；Cigarette、围桌而坐的男性群体等跨行断词已合并，行首孤立逗号归位。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 抽烟的亚洲男性, Smoking Asian man (抽烟的亚洲男性), 花衬衫与亚麻背心, Floral shirt and linen vest (花衬衫与亚麻背心), 烟雾, Cigarette smoke (香烟烟雾), 围桌而坐的男性群体, Men gathered around a table (围桌而坐的男性群体), 老旧室内空间, Decayed interior (破败室内空间) 美学调性： 犯罪剧情 / 黑色电影 / 1990年代至21世纪初的社会现实主义时代背景 / 白天或无明确时间的封闭室内时段 / 室内具体置景： 破旧后室、地下棋牌室或非正式聚会场所 | 剥落的青绿色墙漆、裸露磨损的门框、深色木桌、旧抽屉柜、悬挂的深红色布料、桌面上的纸牌或杂物、老式监视器或医疗显示器、玻璃杯与小型瓶罐、围桌交谈的男性配角【视听摄影与美学工业】镜头构图： 16:9 / 电影级写实摄影 / 中景至中近景 / 平视机位, 略带轻微低角度压迫感 / 三分法构图、前中后景分层、左侧门框形成引导线、烟雾横向延展制造视觉动势、主体与背景人物形成空间对照色彩光影： 低饱和青绿色与灰褐色主调, 辅以暗红色服饰和肤色暖调 / 阴郁、硬朗、具有体积感的侧逆光与低调照明 / 室内顶部冷色环境光、侧面窗光或门口自然光、局部暖色实用灯光与烟雾中的散射光后期特效： 真实香烟烟雾、空气透视、轻微颗粒、自然景深、低调高对比度电影调色、柔和高光晕染 / 现场实拍质感, 物理真实光照与写实电影级数字中间片风格, 无明显CG渲染痕迹\n\nCinematic Elements & Setting: Core Visuals: Smoking Asian man, floral shirt and linen vest, cigarette smoke, men gathered around a table, decayed interior, tense facial expression, layered background figuresTonal Style: Crime drama, neo-noir social realism / late 1990s to early 2000s period atmosphere / daytime or indeterminate enclosed-room hours / InteriorSet Design: Back room, underground gambling room, or informal meeting venue | Peeling teal-green plaster, worn exposed doorframe, dark wooden table, aged drawer cabinet, hanging burgundy cloth, scattered cards and tabletop objects, obsolete monitor or medical-style display, small bottles and drinking glasses, men seated around the tableCinematic Photography & Tech SpecificationCamera & Framing: 16:9 aspect ratio / live-action cinematic realism / medium shot to medium close-up / eye-level camera with a subtly oppressive low-angle impression / rule of thirds, layered foreground-middle-ground-background depth, left-side doorframe used as a leading line, horizontal smoke movement creating visual flow, protagonist contrasted against the background groupLighting & Color: Desaturated teal-green, gray-brown, muted charcoal, dark burgundy, and restrained warm skin tones / moody low-key lighting with hard directional side light, backlight, and atmospheric diffusion / cool overhead ambient light, natural window or doorway side light, localized warm practical light, smoke catching scattered lightPost-VFX: Practical cigarette smoke, atmospheric perspective, subtle film grain, natural shallow depth of field, restrained highlight bloom, low-key high-contrast cinematic color grade / photorealistic live-action finish with physically plausible lighting and digital-intermediate film texture, no obvious CGI rendering",
+      "img": "assets/full/A390.webp",
+      "thumb": "assets/thumb/A390.webp",
+      "w": 1258,
+      "h": 708,
+      "srcHash": "e56163f5ec7b58da",
+      "imgHash": "22d0a48ba223f40a",
+      "zh": "【画面主体与环境置景】核心元素： 抽烟的亚洲男性, Smoking Asian man (抽烟的亚洲男性), 花衬衫与亚麻背心, Floral shirt and linen vest (花衬衫与亚麻背心), 烟雾, Cigarette smoke (香烟烟雾), 围桌而坐的男性群体, Men gathered around a table (围桌而坐的男性群体), 老旧室内空间, Decayed interior (破败室内空间) 美学调性： 犯罪剧情 / 黑色电影 / 1990年代至21世纪初的社会现实主义时代背景 / 白天或无明确时间的封闭室内时段 / 室内具体置景： 破旧后室、地下棋牌室或非正式聚会场所 | 剥落的青绿色墙漆、裸露磨损的门框、深色木桌、旧抽屉柜、悬挂的深红色布料、桌面上的纸牌或杂物、老式监视器或医疗显示器、玻璃杯与小型瓶罐、围桌交谈的男性配角【视听摄影与美学工业】镜头构图： 16:9 / 电影级写实摄影 / 中景至中近景 / 平视机位, 略带轻微低角度压迫感 / 三分法构图、前中后景分层、左侧门框形成引导线、烟雾横向延展制造视觉动势、主体与背景人物形成空间对照色彩光影： 低饱和青绿色与灰褐色主调, 辅以暗红色服饰和肤色暖调 / 阴郁、硬朗、具有体积感的侧逆光与低调照明 / 室内顶部冷色环境光、侧面窗光或门口自然光、局部暖色实用灯光与烟雾中的散射光后期特效： 真实香烟烟雾、空气透视、轻微颗粒、自然景深、低调高对比度电影调色、柔和高光晕染 / 现场实拍质感, 物理真实光照与写实电影级数字中间片风格, 无明显CG渲染痕迹\n\n【电影元素与置景】\n核心视觉： 抽烟的亚洲男性, Smoking Asian man (抽烟的亚洲男性), 花衬衫与亚麻背心, Floral shirt and linen vest (花衬衫与亚麻背心), 烟雾, Cigarette smoke (香烟烟雾), 围桌而坐的男性群体, Men gathered around a table (围桌而坐的男性群体), 老旧室内空间, Decayed interior (破败室内空间)\n调性风格：犯罪剧情 / 黑色电影 / 1990年代至21世纪初的社会现实主义时代背景 / 白天或无明确时间的封闭室内时段 / 室内\n置景设计：破旧后室、地下棋牌室或非正式聚会场所 | 剥落的青绿色墙漆、裸露磨损的门框、深色木桌、旧抽屉柜、悬挂的深红色布料、桌面上的纸牌或杂物、老式监视器或医疗显示器、玻璃杯与小型瓶罐、围桌交谈的男性配角\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 电影级写实摄影 / 中景至中近景 / 平视机位, 略带轻微低角度压迫感 / 三分法构图、前中后景分层、左侧门框形成引导线、烟雾横向延展制造视觉动势、主体与背景人物形成空间对照\n光影与色彩：低饱和青绿色与灰褐色主调, 辅以暗红色服饰和肤色暖调 / 阴郁、硬朗、具有体积感的侧逆光与低调照明 / 室内顶部冷色环境光、侧面窗光或门口自然光、局部暖色实用灯光与烟雾中的散射光\n后期视效：真实香烟烟雾、空气透视、轻微颗粒、自然景深、低调高对比度电影调色、柔和高光晕染 / 现场实拍质感, 物理真实光照与写实电影级数字中间片风格, 无明显CG渲染痕迹"
+    },
+    {
+      "id": "A391",
+      "seq": "391",
+      "title": "草原骑兵群像｜中世纪历史战争史诗",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "历史史诗",
+        "草原",
+        "骑兵",
+        "群像"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：无【】连排，逗号与顿号混用。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 草原骑兵群, 蒙古或中亚游牧战士, 骑马武士, 皮毛帽, 铆钉皮甲, 弓箭, 马匹, 山丘草原, 英雄式领骑者美学调性： 历史史诗 / 中世纪至前近代欧亚草原时代, 约13至15世纪 / 白昼, 午后 / 室外具体置景： 开阔草原与缓坡地形 | 多名骑兵并列推进, 深棕色战马占据前景, 马具与缰绳清晰可见, 战士穿着毛皮饰边的黑褐色铆钉皮甲, 背负箭袋与长弓, 背景为稀疏树列、起伏草丘和远处高地, 整体无现代建筑与机械元素视听摄影与美学工业镜头构图： 约2.35:1宽银幕比例 / 写实电影摄影与历史战争史诗格式 / 中近景至中景群像, 前景马匹形成压迫感 / 略低机位, 接近骑兵视线高度并带有英雄化仰视效果 / 约50毫米标准电影镜头, 约f/5.6至f/8, 中等景深 / 横向群像构图与前景遮挡, 中央领骑者作为视觉焦点, 利用骑兵队列形成层次、对角线与三分法平衡色彩光影： 低饱和土色调, 棕褐色、橄榄绿、炭黑、皮毛米白与冷淡天蓝 / 自然主义硬光与轻微电影化柔化, 金属和皮革具有克制高光, 人物面部保留粗糙纹理 / 午后太阳直射, 辅以天空环境光和地面反射光, 主要光源为高位自然阳光后期特效： 写实历史场景增强, 细腻毛发、皮革、金属铆钉与马匹肌理, 轻微空气透视与尘埃质感, 无明显魔幻特效 | 电影级写实渲染质感, 接近ARRI Alexa实拍、ACES色彩管理与高端数字中间片调色, 真实材质PBR与自然景深模拟\n\nCinematic Elements & SettingCore Visuals: Mounted steppe cavalry, Mongolian or Central Asian nomadic warriors, horsemen, fur hats, riveted leather armor, bows and arrows, horses, rolling grassland, heroic lead riderTonal Style: Historical epic / Medieval to pre-modern Eurasian steppe era, approximately 13th to 15th century / Daytime, afternoon / ExteriorSet Design: Open grassland and rolling hillside terrain | A formation of mounted warriors riding side by side, dark brown horses dominating the foreground, visible bridles and reins, warriors wearing dark riveted leather armor trimmed with fur, quivers and longbows, sparse tree lines and distant elevated hills in the background, with no modern architecture or machineryCinematic Photography & Tech SpecificationCamera & Framing: Approximately 2.35:1 widescreen aspect ratio / Live-action cinematic historical-war-epic format / Medium close group shot transitioning into a medium shot, with horses creating foreground pressure / Slight low-angle camera position near rider eye level, producing a restrained heroic elevation / Approximately 50mm standard cinema lens, around f/5.6 to f/8, moderate depth of field / Horizontal ensemble composition with foreground occlusion, the central lead rider as the visual anchor, using cavalry alignment for depth, diagonals, and balanced rule-of-thirds placementLighting & Color: Desaturated earthy palette of brown, ochre, olive green, charcoal black, fur beige, and muted sky blue / Naturalistic hard daylight softened by cinematic diffusion, with controlled highlights on metal and leather and tactile facial texture / High-angle afternoon sunlight supported by ambient sky fill and ground bounce, with direct natural sunlight as the primary sourcePost-VFX: Photorealistic historical-scene enhancement detailed for fur, riveted metal, horse hair, and organic surface textures, subtle atmospheric perspective and restrained dust particles, with no overt fantastical effects / High-end live-action realism resembling ARRI Alexa capture, ACES color management, cinematic digital intermediate grading, physically based materials, and natural depth-of-field simulation",
+      "img": "assets/full/A391.webp",
+      "thumb": "assets/thumb/A391.webp",
+      "w": 1259,
+      "h": 531,
+      "srcHash": "09f6b8444bad6753",
+      "imgHash": "42dbe394d341cfe0",
+      "zh": "画面主体与环境置景核心元素： 草原骑兵群, 蒙古或中亚游牧战士, 骑马武士, 皮毛帽, 铆钉皮甲, 弓箭, 马匹, 山丘草原, 英雄式领骑者美学调性： 历史史诗 / 中世纪至前近代欧亚草原时代, 约13至15世纪 / 白昼, 午后 / 室外具体置景： 开阔草原与缓坡地形 | 多名骑兵并列推进, 深棕色战马占据前景, 马具与缰绳清晰可见, 战士穿着毛皮饰边的黑褐色铆钉皮甲, 背负箭袋与长弓, 背景为稀疏树列、起伏草丘和远处高地, 整体无现代建筑与机械元素视听摄影与美学工业镜头构图： 约2.35:1宽银幕比例 / 写实电影摄影与历史战争史诗格式 / 中近景至中景群像, 前景马匹形成压迫感 / 略低机位, 接近骑兵视线高度并带有英雄化仰视效果 / 约50毫米标准电影镜头, 约f/5.6至f/8, 中等景深 / 横向群像构图与前景遮挡, 中央领骑者作为视觉焦点, 利用骑兵队列形成层次、对角线与三分法平衡色彩光影： 低饱和土色调, 棕褐色、橄榄绿、炭黑、皮毛米白与冷淡天蓝 / 自然主义硬光与轻微电影化柔化, 金属和皮革具有克制高光, 人物面部保留粗糙纹理 / 午后太阳直射, 辅以天空环境光和地面反射光, 主要光源为高位自然阳光后期特效： 写实历史场景增强, 细腻毛发、皮革、金属铆钉与马匹肌理, 轻微空气透视与尘埃质感, 无明显魔幻特效 | 电影级写实渲染质感, 接近ARRI Alexa实拍、ACES色彩管理与高端数字中间片调色, 真实材质PBR与自然景深模拟\n\n【电影元素与置景】\n核心视觉： 草原骑兵群, 蒙古或中亚游牧战士, 骑马武士, 皮毛帽, 铆钉皮甲, 弓箭, 马匹, 山丘草原, 英雄式领骑者\n调性风格：历史史诗 / 中世纪至前近代欧亚草原时代, 约13至15世纪 / 白昼, 午后 / 室外\n置景设计：开阔草原与缓坡地形 | 多名骑兵并列推进, 深棕色战马占据前景, 马具与缰绳清晰可见, 战士穿着毛皮饰边的黑褐色铆钉皮甲, 背负箭袋与长弓, 背景为稀疏树列、起伏草丘和远处高地, 整体无现代建筑与机械元素视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：约2.35:1宽银幕比例 / 写实电影摄影与历史战争史诗格式 / 中近景至中景群像, 前景马匹形成压迫感 / 略低机位, 接近骑兵视线高度并带有英雄化仰视效果 / 约50毫米标准电影镜头, 约f/5.6至f/8, 中等景深 / 横向群像构图与前景遮挡, 中央领骑者作为视觉焦点, 利用骑兵队列形成层次、对角线与三分法平衡\n光影与色彩：低饱和土色调, 棕褐色、橄榄绿、炭黑、皮毛米白与冷淡天蓝 / 自然主义硬光与轻微电影化柔化, 金属和皮革具有克制高光, 人物面部保留粗糙纹理 / 午后太阳直射, 辅以天空环境光和地面反射光, 主要光源为高位自然阳光\n后期视效：写实历史场景增强, 细腻毛发、皮革、金属铆钉与马匹肌理, 轻微空气透视与尘埃质感, 无明显魔幻特效 | 电影级写实渲染质感, 接近ARRI Alexa实拍、ACES色彩管理与高端数字中间片调色, 真实材质PBR与自然景深模拟"
     }
   ]
 }
