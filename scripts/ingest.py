@@ -284,7 +284,7 @@ def main():
     payload["hero"] = (wide or [a["id"] for a in assets])[:6]
     payload["count"] = len(assets)
 
-    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"✓ 新增 {added} 条，库内共 {len(assets)} 条，分类 {len(payload['cats'])} 个")
     if skipped:

@@ -215,7 +215,7 @@ def main():
         payload["cats"].append({"name": args.category, "tone": "NEW CATEGORY", "count": counts[args.category]})
     payload["count"] = len(assets)
 
-    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     n_steps = len(shots)
     extra = f"（含 {n_steps} 步示例图/提示词）" if n_steps > 1 else ""
     print(f"✓ 已添加 {aid} 「{args.title}」（共 {len(assets)} 条）{extra}")

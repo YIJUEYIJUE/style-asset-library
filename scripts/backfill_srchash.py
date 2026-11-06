@@ -80,7 +80,7 @@ def main() -> int:
     if not filled:
         print("· 没有需要回填的内容，styles.json 未改动")
         return 0
-    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"· 已回填 {filled} 处 imgHash 并写回 {DATA.relative_to(ROOT)}"
           f"（记得 python3 scripts/validate.py 再推）")
     return 0

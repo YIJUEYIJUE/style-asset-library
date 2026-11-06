@@ -231,7 +231,7 @@ def main() -> int:
     if not any(wrote.values()):
         print("· 没有需要写入的内容，styles.json 未改动")
         return 0
-    STYLES.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    STYLES.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"· 已写回 {STYLES.relative_to(ROOT)}（记得 python3 scripts/validate.py 再推）")
     return 0
 

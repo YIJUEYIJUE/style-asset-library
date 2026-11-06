@@ -181,7 +181,7 @@ def main():
         })
 
     manifest = work / "manifest.json"
-    manifest.write_text(json.dumps({"items": items}, ensure_ascii=False, indent=1), encoding="utf-8")
+    manifest.write_text(json.dumps({"items": items}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"· 已写清单 {manifest.relative_to(ROOT)}：{len(items)} 条 / {sum(len(i['images']) for i in items)} 张")
 
     if args.dry_run:
