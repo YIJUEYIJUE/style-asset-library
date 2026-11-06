@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 371,
+  "count": 374,
   "cats": [
     {
       "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
     },
     {
       "name": "摄影——电影感",
-      "count": 51
+      "count": 54
     },
     {
       "name": "人像——身份参考",
@@ -11187,6 +11187,84 @@
       "srcHash": "c78f68deb8f2a9b1",
       "imgHash": "34b7b54bc940e589",
       "zh": "【画面主体与环境置景】核心元素： 夜空中的多重烟花爆炸, 城市建筑群, 低层住宅与屋顶剪影, 烟雾与火花颗粒, 远处高层公寓亮窗, 底部植物剪影美学调性： 都市庆典电影 / 当代21世纪 / 深夜 / 室外具体置景： 城市住宅区夜景 | 前景为低层砖结构住宅、斜屋顶、金属门与深色植物剪影, 中景为密集城市建筑, 背景为带有零散亮窗的高层公寓, 天空布满烟花轨迹、爆裂火花与扩散烟雾【视听摄影与美学工业】镜头构图： 约1.36:1 / 写实数字电影摄影静帧 / 大远景与城市环境建立镜头 / 平视微仰拍 / 约35mm广角至标准焦段, 约f/4至f/5.6 / 三分法构图、前景剪影框景、烟花视觉引导线、上方大面积负空间色彩光影： 深蓝与青灰夜色搭配暖金色烟花 / 低照度高反差、烟雾漫反射、亮部柔和辉光 / 烟花爆炸光为主光源, 远处建筑窗光与微弱城市环境光为辅助光源后期特效： 真实烟花轨迹、爆炸火花、悬浮颗粒、烟雾层次与轻微镜头辉光 / 写实数字摄影质感, 电影级色彩分级, 自然大气散射与高光溢出, 无明显CG渲染痕迹\n\n【电影元素与置景】\n核心视觉： 夜空中的多重烟花爆炸, 城市建筑群, 低层住宅与屋顶剪影, 烟雾与火花颗粒, 远处高层公寓亮窗, 底部植物剪影\n调性风格：都市庆典电影 / 当代21世纪 / 深夜 / 室外\n置景设计：城市住宅区夜景 | 前景为低层砖结构住宅、斜屋顶、金属门与深色植物剪影, 中景为密集城市建筑, 背景为带有零散亮窗的高层公寓, 天空布满烟花轨迹、爆裂火花与扩散烟雾\n\n【电影摄影与技术规格】\n镜头与构图：约1.36:1 / 写实数字电影摄影静帧 / 大远景与城市环境建立镜头 / 平视微仰拍 / 约35mm广角至标准焦段, 约f/4至f/5.6 / 三分法构图、前景剪影框景、烟花视觉引导线、上方大面积负空间\n光影与色彩：深蓝与青灰夜色搭配暖金色烟花 / 低照度高反差、烟雾漫反射、亮部柔和辉光 / 烟花爆炸光为主光源, 远处建筑窗光与微弱城市环境光为辅助光源\n后期视效：真实烟花轨迹、爆炸火花、悬浮颗粒、烟雾层次与轻微镜头辉光 / 写实数字摄影质感, 电影级色彩分级, 自然大气散射与高光溢出, 无明显CG渲染痕迹"
+    },
+    {
+      "id": "A374",
+      "seq": "374",
+      "title": "未来战机驾驶舱｜科幻惊悚过肩中远景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "科幻",
+        "驾驶舱",
+        "过肩"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，英文段单独增强放大后逐行转录，首行完整）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 未来战斗机飞行员, 穿戴紫色透明面罩与战术飞行头盔的飞行员, 高科技驾驶舱, 航空控制面板, 全息警告界面, 山地险峰, 暴风云层美学调性： 科幻惊悚 / 近未来航空时代 / 白天阴天 / 室内具体置景： 军用或实验型飞行器驾驶舱 | 黑色金属仪表台、环线式驾驶座、操纵杆、多块数字显示屏、黄色警告符号、低空与失压警报文字、导航雷达、座舱框架、舷窗外的崎岖山脉与浓重云层视听摄影与美学工业镜头构图： 约2.39:1 / 电影宽银幕写实摄影 / 中广角过肩中远景 / 平视机位, 摄像机位于飞行员后方偏左 / 24毫米广角镜头, 约f/4, 适度景深 / 三分法构图、引导线构图、前景框景、中心视觉聚焦与层次递进色彩光影： 冷青灰与深蓝主色, 辅以琥珀黄和橙色仪表光 / 阴天漫射光结合低调高反差科幻光效 / 主要光源为舷窗外阴云天光、驾驶舱显示屏自发光、黄色警示灯与橙色控制面板灯光后期特效： 透明HUD叠加、全息界面、屏幕反射、玻璃高光、环境雾气、远景云层增强、细微镜头光晕与数字影像合成 / 写实电影级数字中间片与高精度实时渲染质感, 接近Unreal Engine或Octane的硬表面科幻渲染\n\nCinematic Elements & SettingCore Visuals: futuristic fighter pilot, pilot wearing a purple-tinted transparent visor and tactical flight helmet, high-tech cockpit, aircraft control consoles, holographic warning interface, jagged mountain peaks, storm cloudsTonal Style: science-fiction thriller / near-future aviation era / overcast daytime / interiorSet Design: military or experimental aircraft cockpit | dark metal instrument panels, enclosed pilot seat, flight controls, multiple digital displays, yellow warning symbols, low-altitude and loss-of-pressure alerts, navigation radar, cockpit framing, rugged mountains and dense storm clouds visible through the canopyCinematic Photography & Tech SpecificationCamera & Framing: approximately 2.39:1 / cinematic widescreen photorealism / medium-wide over-the-shoulder shot / eye-level camera positioned behind and slightly left of the pilot / 24mm wide-angle lens, approximately f/4, moderate depth of field / rule of thirds, leading lines, foreground framing, centered visual emphasis with layered depthLighting & Color: cold cyan-gray and deep navy palette accented by amber yellow and orange instrument lights / overcast diffused light combined with low-key, high-contrast science-fiction illumination / primary sources are the cloudy daylight through the canopy, self-emissive cockpit displays, yellow warning lights, and orange control-panel illuminationPost-VFX: transparent HUD overlays, holographic interfaces, screen reflections, canopy highlights, atmospheric haze, enhanced distant storm clouds, subtle lens bloom, and digital compositing / photorealistic feature-film digital intermediate with high-fidelity real-time rendering, resembling Unreal Engine or Octane hard-surface science-fiction rendering",
+      "img": "assets/full/A374.webp",
+      "thumb": "assets/thumb/A374.webp",
+      "w": 1258,
+      "h": 530,
+      "srcHash": "43160a20e4dcd839",
+      "imgHash": "78b156d24897e8b9",
+      "zh": "画面主体与环境置景核心元素： 未来战斗机飞行员, 穿戴紫色透明面罩与战术飞行头盔的飞行员, 高科技驾驶舱, 航空控制面板, 全息警告界面, 山地险峰, 暴风云层美学调性： 科幻惊悚 / 近未来航空时代 / 白天阴天 / 室内具体置景： 军用或实验型飞行器驾驶舱 | 黑色金属仪表台、环线式驾驶座、操纵杆、多块数字显示屏、黄色警告符号、低空与失压警报文字、导航雷达、座舱框架、舷窗外的崎岖山脉与浓重云层视听摄影与美学工业镜头构图： 约2.39:1 / 电影宽银幕写实摄影 / 中广角过肩中远景 / 平视机位, 摄像机位于飞行员后方偏左 / 24毫米广角镜头, 约f/4, 适度景深 / 三分法构图、引导线构图、前景框景、中心视觉聚焦与层次递进色彩光影： 冷青灰与深蓝主色, 辅以琥珀黄和橙色仪表光 / 阴天漫射光结合低调高反差科幻光效 / 主要光源为舷窗外阴云天光、驾驶舱显示屏自发光、黄色警示灯与橙色控制面板灯光后期特效： 透明HUD叠加、全息界面、屏幕反射、玻璃高光、环境雾气、远景云层增强、细微镜头光晕与数字影像合成 / 写实电影级数字中间片与高精度实时渲染质感, 接近Unreal Engine或Octane的硬表面科幻渲染\n\n【电影元素与置景】\n核心视觉： 未来战斗机飞行员, 穿戴紫色透明面罩与战术飞行头盔的飞行员, 高科技驾驶舱, 航空控制面板, 全息警告界面, 山地险峰, 暴风云层\n调性风格：科幻惊悚 / 近未来航空时代 / 白天阴天 / 室内\n置景设计：军用或实验型飞行器驾驶舱 | 黑色金属仪表台、环线式驾驶座、操纵杆、多块数字显示屏、黄色警告符号、低空与失压警报文字、导航雷达、座舱框架、舷窗外的崎岖山脉与浓重云层视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：约2.39:1 / 电影宽银幕写实摄影 / 中广角过肩中远景 / 平视机位, 摄像机位于飞行员后方偏左 / 24毫米广角镜头, 约f/4, 适度景深 / 三分法构图、引导线构图、前景框景、中心视觉聚焦与层次递进\n光影与色彩：冷青灰与深蓝主色, 辅以琥珀黄和橙色仪表光 / 阴天漫射光结合低调高反差科幻光效 / 主要光源为舷窗外阴云天光、驾驶舱显示屏自发光、黄色警示灯与橙色控制面板灯光\n后期视效：透明HUD叠加、全息界面、屏幕反射、玻璃高光、环境雾气、远景云层增强、细微镜头光晕与数字影像合成 / 写实电影级数字中间片与高精度实时渲染质感, 接近Unreal Engine或Octane的硬表面科幻渲染"
+    },
+    {
+      "id": "A375",
+      "seq": "375",
+      "title": "古装女子侧脸｜历史剧情片暖烛光特写",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "古装",
+        "侧脸",
+        "特写"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，英文段单独增强放大后逐行转录，首行完整）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 东亚女性侧脸肖像, 古装女性, 深色盘发, 细长金属耳坠, 棕黑色传统长袍, 内敛沉思的神情, 模糊暖色室内背景美学调性： 历史剧情片 / 古代东亚或中国古装时代 / 夜晚或黄昏氛围 / 室内具体置景： 古典室内空间 | 暗红色木质墙面或屏风, 深色家具轮廓, 暖色烛光或灯笼光斑, 极简背景陈设, 大面积虚化空间【视听摄影与美学工业】镜头构图： 2.39:1宽银幕比例 / 电影级写实真人影像, 变形宽银幕质感 / 特写至大特写 / 平视侧面肖像机位 / 约85毫米中长焦镜头, T1.8大光圈 / 三分法构图, 人物位于右侧, 左侧留白, 侧脸轮廓线引导视线, 浅景深突出面部色彩光影： 琥珀棕, 焦糖色, 深褐色, 暗红色的暖色低饱和调色 / 低调柔和的明暗对比, 电影式明暗光, 细腻面部渐变, 背景高光柔化 / 侧前方暖色烛光或油灯光源, 背景实景灯笼散射光, 微弱环境反光后期特效： 自然主义视觉效果, 浅景深散景, 柔和高光晕染, 轻微胶片颗粒, 细腻皮肤纹理, 无明显数字特效 / 电影级数字中间片调色, 写实摄影渲染质感, 柔和镜头光晕与高光滚降\n\nCinematic Elements & Setting: Core Visuals: East Asian woman in profile, period-costume female character, dark pinned-up hair, delicate long metal earring, dark brown traditional robe, restrained contemplative expression, softly blurred warm interior backgroundTonal Style: Historical drama, period character drama / Ancient East Asian or Chinese historical era / Evening or dusk atmosphere / InteriorSet Design: Classical interior room | Dark reddish wooden wall or screen, indistinct dark furniture silhouettes, warm candlelight or lantern glow, minimal period furnishings, spacious defocused backgroundCinematic Photography & Tech SpecificationCamera & Framing: 2.39:1 widescreen aspect ratio / Live-action cinematic realism with anamorphic widescreen character / Close-up to extreme close-up / Eye-level side-profile camera angle / Approximately 85mm short-telephoto lens, T1.8 wide aperture / Rule of thirds, subject positioned on the right, generous negative space on the left, profile contour guiding the eye, shallow depth of field isolating the faceLighting & Color: Amber brown, caramel, deep umber, and dark red warm low-saturation palette / Low-key soft contrast, cinematic chiaroscuro, delicate facial gradation, softened background highlights / Warm side-front candle or oil-lamp key light, diffused practical lantern glow in the background, subtle ambient bounce lightPost-VFX: Naturalistic visual effects, shallow-focus bokeh, gentle highlight bloom, fine film grain, detailed natural skin texture, no obvious digital effects / Film-grade digital intermediate color grading, photorealistic cinematic rendering, soft lens flare and smooth highlight roll-off",
+      "img": "assets/full/A375.webp",
+      "thumb": "assets/thumb/A375.webp",
+      "w": 1258,
+      "h": 530,
+      "srcHash": "8cc395b72f6af954",
+      "imgHash": "13188535f993de5f",
+      "zh": "【画面主体与环境置景】核心元素： 东亚女性侧脸肖像, 古装女性, 深色盘发, 细长金属耳坠, 棕黑色传统长袍, 内敛沉思的神情, 模糊暖色室内背景美学调性： 历史剧情片 / 古代东亚或中国古装时代 / 夜晚或黄昏氛围 / 室内具体置景： 古典室内空间 | 暗红色木质墙面或屏风, 深色家具轮廓, 暖色烛光或灯笼光斑, 极简背景陈设, 大面积虚化空间【视听摄影与美学工业】镜头构图： 2.39:1宽银幕比例 / 电影级写实真人影像, 变形宽银幕质感 / 特写至大特写 / 平视侧面肖像机位 / 约85毫米中长焦镜头, T1.8大光圈 / 三分法构图, 人物位于右侧, 左侧留白, 侧脸轮廓线引导视线, 浅景深突出面部色彩光影： 琥珀棕, 焦糖色, 深褐色, 暗红色的暖色低饱和调色 / 低调柔和的明暗对比, 电影式明暗光, 细腻面部渐变, 背景高光柔化 / 侧前方暖色烛光或油灯光源, 背景实景灯笼散射光, 微弱环境反光后期特效： 自然主义视觉效果, 浅景深散景, 柔和高光晕染, 轻微胶片颗粒, 细腻皮肤纹理, 无明显数字特效 / 电影级数字中间片调色, 写实摄影渲染质感, 柔和镜头光晕与高光滚降\n\n【电影元素与置景】\n核心视觉： 东亚女性侧脸肖像, 古装女性, 深色盘发, 细长金属耳坠, 棕黑色传统长袍, 内敛沉思的神情, 模糊暖色室内背景\n调性风格：历史剧情片 / 古代东亚或中国古装时代 / 夜晚或黄昏氛围 / 室内\n置景设计：古典室内空间 | 暗红色木质墙面或屏风, 深色家具轮廓, 暖色烛光或灯笼光斑, 极简背景陈设, 大面积虚化空间\n\n【电影摄影与技术规格】\n镜头与构图：2.39:1宽银幕比例 / 电影级写实真人影像, 变形宽银幕质感 / 特写至大特写 / 平视侧面肖像机位 / 约85毫米中长焦镜头, T1.8大光圈 / 三分法构图, 人物位于右侧, 左侧留白, 侧脸轮廓线引导视线, 浅景深突出面部\n光影与色彩：琥珀棕, 焦糖色, 深褐色, 暗红色的暖色低饱和调色 / 低调柔和的明暗对比, 电影式明暗光, 细腻面部渐变, 背景高光柔化 / 侧前方暖色烛光或油灯光源, 背景实景灯笼散射光, 微弱环境反光\n后期视效：自然主义视觉效果, 浅景深散景, 柔和高光晕染, 轻微胶片颗粒, 细腻皮肤纹理, 无明显数字特效 / 电影级数字中间片调色, 写实摄影渲染质感, 柔和镜头光晕与高光滚降"
+    },
+    {
+      "id": "A376",
+      "seq": "376",
+      "title": "山村学童上学路｜现实主义纪录片大全景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "乡村",
+        "学童",
+        "纪录片"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，英文段单独增强放大后逐行转录，首行完整）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 乡村儿童、背书包的学童、山地村民、传统石砌民居、青瓦屋顶、古老拱门、乡间小路、荷花池、繁茂植被、森林山坡、薄雾美学调性： 乡土剧情片 / 现实主义纪录电影 / 当代背景, 保留传统村落建筑风貌 / 清晨或上午 / 室外具体置景： 山地传统村落 | 石墙木梁民居、深色青瓦屋顶、拱形石门、木质门窗、临街石阶、藤蔓植物、乡村菜园、荷叶与野花、简易棚屋、现代彩钢屋顶建筑、远处浓密山林与雾气【视听摄影与美学工业】镜头构图： 16:9 / 写实电影摄影、自然主义纪实影像 / 大全景至全景 / 平视机位, 略微俯视的远距离观察视角 / 前景植物与儿童、中景村落建筑、后景山林形成多层空间, 乡间小路作为引导线, 视觉重心位于右侧传统建筑与下方行走人物色彩光影： 自然绿色、石材灰褐、青瓦深灰色与儿童服装的鲜艳红蓝色形成对比 / 阴天漫射光结合薄雾中的柔和体积光 / 云层散射的自然日光、山谷反射光与建筑表面的柔和环境光后期特效： 真实大气雾效、轻微体积光、自然景深、低强度胶片颗粒与写实色彩分级 / 电影级数字摄影质感, HDR自然动态范围, 接近ARRI Alexa的柔和高光与纪录片式真实渲染\n\nCinematic Elements & Setting: Core Visuals: Rural schoolchildren with backpacks, mountain villagers, traditional stone houses, dark tiled roofs, ancient arched stone gate, village pathway, lotus pond, lush vegetation, forested hillside, atmospheric mistTonal Style: Rural drama / Realist documentary cinema / Contemporary setting with preserved historic village architecture / Morning or early forenoon / ExteriorSet Design: Mountain village settlement | Stone-and-timber houses, weathered dark ceramic tile roofs, arched masonry entrance, wooden doors and windows, stone steps, climbing vines, vegetable garden, lotus leaves and wildflowers, simple roadside shelters, modern corrugated-metal-roof buildings, dense mist-covered woodland in the backgroundCinematic Photography & Tech SpecificationCamera & Framing: 16:9 / Live-action cinematic realism with naturalistic documentary format / Extreme wide shot to wide shot / Eye-level camera with a slightly elevated observational viewpoint / Layered foreground, middle ground, and background depth: the village path creates leading lines, with the traditional architecture on the right balanced by the walking children in the lower frameLighting & Color: Natural forest greens, slate-gray and brown masonry, slate-green ceramic roof tiles, contrasted by vivid red and blue clothing / Soft overcast diffusion blended with gentle volumetric light through the mist / Cloud-filtered daylight, valley bounce light, and soft ambient reflection from the stone buildingsPost-VFX: Photoreal atmospheric mist, subtle volumetric rays, restrained depth of field, light film grain, and natural cinematic color grading / Cinema-grade digital-camera rendering with HDR natural dynamic range, soft ARRI Alexa-style highlights, and documentary realism",
+      "img": "assets/full/A376.webp",
+      "thumb": "assets/thumb/A376.webp",
+      "w": 1258,
+      "h": 709,
+      "srcHash": "ae533f3eb74eb91b",
+      "imgHash": "7724978f62154dfa",
+      "zh": "【画面主体与环境置景】核心元素： 乡村儿童、背书包的学童、山地村民、传统石砌民居、青瓦屋顶、古老拱门、乡间小路、荷花池、繁茂植被、森林山坡、薄雾美学调性： 乡土剧情片 / 现实主义纪录电影 / 当代背景, 保留传统村落建筑风貌 / 清晨或上午 / 室外具体置景： 山地传统村落 | 石墙木梁民居、深色青瓦屋顶、拱形石门、木质门窗、临街石阶、藤蔓植物、乡村菜园、荷叶与野花、简易棚屋、现代彩钢屋顶建筑、远处浓密山林与雾气【视听摄影与美学工业】镜头构图： 16:9 / 写实电影摄影、自然主义纪实影像 / 大全景至全景 / 平视机位, 略微俯视的远距离观察视角 / 前景植物与儿童、中景村落建筑、后景山林形成多层空间, 乡间小路作为引导线, 视觉重心位于右侧传统建筑与下方行走人物色彩光影： 自然绿色、石材灰褐、青瓦深灰色与儿童服装的鲜艳红蓝色形成对比 / 阴天漫射光结合薄雾中的柔和体积光 / 云层散射的自然日光、山谷反射光与建筑表面的柔和环境光后期特效： 真实大气雾效、轻微体积光、自然景深、低强度胶片颗粒与写实色彩分级 / 电影级数字摄影质感, HDR自然动态范围, 接近ARRI Alexa的柔和高光与纪录片式真实渲染\n\n【电影元素与置景】\n核心视觉： 乡村儿童、背书包的学童、山地村民、传统石砌民居、青瓦屋顶、古老拱门、乡间小路、荷花池、繁茂植被、森林山坡、薄雾\n调性风格：乡土剧情片 / 现实主义纪录电影 / 当代背景, 保留传统村落建筑风貌 / 清晨或上午 / 室外\n置景设计：山地传统村落 | 石墙木梁民居、深色青瓦屋顶、拱形石门、木质门窗、临街石阶、藤蔓植物、乡村菜园、荷叶与野花、简易棚屋、现代彩钢屋顶建筑、远处浓密山林与雾气\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 写实电影摄影、自然主义纪实影像 / 大全景至全景 / 平视机位, 略微俯视的远距离观察视角 / 前景植物与儿童、中景村落建筑、后景山林形成多层空间, 乡间小路作为引导线, 视觉重心位于右侧传统建筑与下方行走人物\n光影与色彩：自然绿色、石材灰褐、青瓦深灰色与儿童服装的鲜艳红蓝色形成对比 / 阴天漫射光结合薄雾中的柔和体积光 / 云层散射的自然日光、山谷反射光与建筑表面的柔和环境光\n后期视效：真实大气雾效、轻微体积光、自然景深、低强度胶片颗粒与写实色彩分级 / 电影级数字摄影质感, HDR自然动态范围, 接近ARRI Alexa的柔和高光与纪录片式真实渲染"
     }
   ]
 }
