@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 361,
+  "count": 364,
   "cats": [
     {
       "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
     },
     {
       "name": "摄影——电影感",
-      "count": 41
+      "count": 44
     },
     {
       "name": "人像——身份参考",
@@ -10927,6 +10927,84 @@
       "srcHash": "b8e94c3260985841",
       "imgHash": "b75d3294b51a7f19",
       "zh": "画面主体与环境置景核心元素： 未来主义超大型都市, 外星入侵飞船, 巨型科幻高塔, 城市大规模爆炸, 火焰与浓烟, 受灾建筑群, 远景海岸线美学调性： 科幻灾难电影 / 遥远未来时代 / 黄昏至日落时分 / 室外具体置景：未来都市天际线 | 密集摩天大楼、垂直城市结构、巨型尖塔式建筑、悬浮外星母舰、远处海岸与城市低空区域、燃烧的楼顶、坍塌街区、遍布城市的火灾与烟柱视听摄影与美学工业镜头构图： 约2.75:1超宽银幕比例 / 数字电影概念艺术与高端视觉特效合成 / 超大全景航拍 / 高位俯视视角 / 约24毫米广角镜头，约f/8深景深 / 三分法构图、前中后景分层、中央视觉锚点、对角线城市透视与尺度对比色彩光影： 焦橙色、熔金色与烟黑色为主，辅以冷青灰阴影 / 史诗灾难式高对比光影、体积烟雾与火焰反射 / 低角度夕阳、城市火焰、爆炸闪光、建筑窗光与飞船冷色边缘光后期特效： 大规模城市毁灭、爆炸火球、冲击波、火星飞溅、浓密体积烟云、燃烧建筑、悬浮飞船与大气透视 / 好莱坞级数字合成质感，物理模拟火焰与烟雾，电影级HDR渲染、细节丰富的CGI城市资产与真实感环境遮蔽\n\n【电影元素与置景】\n核心视觉：未来主义超级大都市, 外星入侵飞船, 巨型科幻高塔, 大范围城市爆炸, 火焰与浓烟, 受损的高层街区, 远处海岸线\n调性风格：科幻灾难电影 / 遥远未来时代 / 日落至黄昏 / 外景\n置景设计：未来主义大都市天际线 | 密集的摩天楼群, 垂直城市结构, 纪念碑式针状高塔, 悬浮的外星母舰, 远处海岸低地, 燃烧的楼顶, 坍塌的城市街区, 大范围火灾与高耸烟柱\n\n【电影摄影与技术规格】\n镜头与构图：约2.75:1超宽银幕画幅 / 带高端VFX合成的数字电影概念艺术 / 极广航拍定场镜头 / 高位俯瞰视角 / 约24毫米广角镜头, 约f/8深景深 / 三分法构图, 前中后景分层, 中央视觉锚点, 对角线城市透视与宏大体量尺度对比\n光影与色彩：焦橙色、熔金色与烟黑色为主, 辅以冷青灰阴影 / 带体积雾与反射火光的高对比史诗灾难布光 / 低角度夕阳, 城市火焰, 爆炸闪光, 亮着灯的窗户, 以及来自飞船的冷色轮廓光\n后期视效：大规模城市毁灭, 爆炸火球, 冲击波, 飞散余烬, 浓密体积烟, 燃烧建筑, 悬浮飞船与大气透视 / 好莱坞级数字合成, 物理模拟火焰与烟雾, 电影级HDR渲染, 细节丰富的CGI城市资产与真实感环境遮蔽"
+    },
+    {
+      "id": "A364",
+      "seq": "364",
+      "title": "月洞门汉服女子｜明清古装剧庭院中远景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "古装",
+        "庭院",
+        "写实"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后双遍核读）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按无【】连排版式照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 身着深红色传统汉服的年轻女子、古典中式圆月门、竹林、假山、石板庭院、紫色花丛、雕花木门、黑色陶瓷大缸美学调性： 历史古装剧 / 中国古代背景，偏明清审美 / 白天、庭院日间 / 室内门厅与室外庭院的过渡空间具体置景： 传统中式宅院 | 深色雕花木质门框与对开门、圆形月洞门、灰泥墙面、格栅窗、青石地面、竹林、叠石假山、庭院台阶、木质厢房、黑色陶瓷花器、紫色庭院花卉视听摄影与美学工业镜头构图： 1.87:1宽银幕比例 / 写实电影摄影、历史剧影像格式 / 全身中远景 / 平视正面机位 / 约50毫米标准镜头，约f/4中等光圈，主体清晰且背景保留层次 / 中轴对称构图、框中框构图、圆形门洞作为视觉引导、主体居中色彩光影： 低饱和墨绿色、深棕色、灰青色与酒红色主调，紫色花卉作为点缀 / 自然主义柔和光、局部明暗对比、庭院树影形成斑驳光斑 / 阴天或柔和日光从门洞与庭院方向进入，辅以竹叶间的散射天光后期特效： 无明显数字视觉特效，保留真实植物、石材与织物质感 | 写实实拍质感，低对比度电影调色，轻微胶片颗粒与自然景深，不依赖特定渲染引擎\n\nCinematic Elements & SettingCore Visuals: Young woman in a deep crimson traditional Hanfu, classical Chinese moon gate, bamboo grove, ornamental rocks, stone courtyard, purple flowers, carved wooden doors, black ceramic urnTonal Style: Historical period drama with wuxia-inspired Chinese aesthetics / Ancient China, visually inspired by the Ming to Qing period / Daytime courtyard scene / Transitional interior-to-exterior spaceset Design: Traditional Chinese courtyard residence | Dark carved wooden doorway and double doors, circular moon gate, weathered gray plaster walls, geometric lattice windows, blue-gray stone paving, bamboo grove, scholar's rocks, courtyard steps, timber annex building, black ceramic vessel, purple flowering plantsCinematic Photography & Tech SpecificationCamera & Framing: 1.87:1 widescreen aspect ratio / Photorealistic live-action historical drama format / Full-body medium-long shot / Eye-level frontal camera angle / Approximately 50mm standard lens at around f/4, moderate depth of field with the subject sharp and the background readable / Central axial symmetry, frame-within-a-frame composition, circular doorway as a leading shape, subject centeredLighting & Color: Desaturated dark green, deep brown, gray-blue, and wine-red palette with purple floral accents / Soft naturalistic lighting, restrained chiaroscuro, dappled shadow patterns from foliage / Diffused daylight entering from the courtyard and doorway, with scattered sky light filtered through bamboo leavesPost-VFX: No prominent digital visual effects; authentic plant, stone, wood, and textile textures / Photorealistic live-action finish, low-contrast cinematic color grade, subtle film grain and natural depth of field; no specific render engine required",
+      "img": "assets/full/A364.webp",
+      "thumb": "assets/thumb/A364.webp",
+      "w": 1259,
+      "h": 673,
+      "srcHash": "70605dc8b2d20a05",
+      "imgHash": "2fdd448e6fb9bd33",
+      "zh": "画面主体与环境置景核心元素： 身着深红色传统汉服的年轻女子、古典中式圆月门、竹林、假山、石板庭院、紫色花丛、雕花木门、黑色陶瓷大缸美学调性： 历史古装剧 / 中国古代背景，偏明清审美 / 白天、庭院日间 / 室内门厅与室外庭院的过渡空间具体置景： 传统中式宅院 | 深色雕花木质门框与对开门、圆形月洞门、灰泥墙面、格栅窗、青石地面、竹林、叠石假山、庭院台阶、木质厢房、黑色陶瓷花器、紫色庭院花卉视听摄影与美学工业镜头构图： 1.87:1宽银幕比例 / 写实电影摄影、历史剧影像格式 / 全身中远景 / 平视正面机位 / 约50毫米标准镜头，约f/4中等光圈，主体清晰且背景保留层次 / 中轴对称构图、框中框构图、圆形门洞作为视觉引导、主体居中色彩光影： 低饱和墨绿色、深棕色、灰青色与酒红色主调，紫色花卉作为点缀 / 自然主义柔和光、局部明暗对比、庭院树影形成斑驳光斑 / 阴天或柔和日光从门洞与庭院方向进入，辅以竹叶间的散射天光后期特效： 无明显数字视觉特效，保留真实植物、石材与织物质感 | 写实实拍质感，低对比度电影调色，轻微胶片颗粒与自然景深，不依赖特定渲染引擎\n\n【电影元素与置景】\n核心视觉： 身着深红色传统汉服的年轻女子、古典中式圆月门、竹林、假山、石板庭院、紫色花丛、雕花木门、黑色陶瓷大缸\n调性风格：历史古装剧 / 中国古代背景，偏明清审美 / 白天、庭院日间 / 室内门厅与室外庭院的过渡空间\n置景设计：传统中式宅院 | 深色雕花木质门框与对开门、圆形月洞门、灰泥墙面、格栅窗、青石地面、竹林、叠石假山、庭院台阶、木质厢房、黑色陶瓷花器、紫色庭院花卉视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：1.87:1宽银幕比例 / 写实电影摄影、历史剧影像格式 / 全身中远景 / 平视正面机位 / 约50毫米标准镜头，约f/4中等光圈，主体清晰且背景保留层次 / 中轴对称构图、框中框构图、圆形门洞作为视觉引导、主体居中\n光影与色彩：低饱和墨绿色、深棕色、灰青色与酒红色主调，紫色花卉作为点缀 / 自然主义柔和光、局部明暗对比、庭院树影形成斑驳光斑 / 阴天或柔和日光从门洞与庭院方向进入，辅以竹叶间的散射天光\n后期视效：无明显数字视觉特效，保留真实植物、石材与织物质感 | 写实实拍质感，低对比度电影调色，轻微胶片颗粒与自然景深，不依赖特定渲染引擎"
+    },
+    {
+      "id": "A365",
+      "seq": "365",
+      "title": "雪原独行者｜生存剧情片高寒荒原大全景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "雪原",
+        "生存剧情",
+        "大全景"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后双遍核读）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按无【】连排版式照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 孤身男性徒步者、深色冬装、积雪荒原、侵蚀沟壑、裸露岩石、枯黄野草、远处起伏山丘美学调性： 生存剧情片 / 当代现实时代 / 冬日下下午 / 室外具体置景： 偏远高寒山地荒原 | 天然风蚀地貌、泥土断层、积雪覆盖的斜坡、碎石、裸露岩壁、稀疏枯草、蜿蜒土路，无人工建筑与现代设施视听摄影与美学工业镜头构图： 约2.02:1宽银幕比例 / 写实电影摄影格式 / 远景与大全景 / 平视机位，略带低机位感 / 约70毫米中长焦，约f/8至f/11 / 三分法构图、引导线构图、中央偏下人物锚点、前中后景纵深层次色彩光影： 冷蓝灰与土褐色主调，辅以暗绿色与雪地高光 / 冬季硬朗自然光、强烈明暗对比、清晰阴影、低饱和纪实质感 / 低角度冬日太阳侧光，天空环境光与雪地反射光作为辅助光源后期特效： 无明显视觉特效，以真实雪地、岩石与地形细节为主 / 写实电影级数字调色，细腻高动态范围、自然纹理、轻微胶片颗粒，无明显CG渲染痕迹\n\nCinematic Elements & SettingCore Visuals: Solitary male hiker, dark winter clothing, snow-covered wasteland, eroded ravines, exposed rocks, dry yellow grass, rolling barren hillsTonal Style: Survival drama / Contemporary era / Winter afternoon / ExteriorSet Design: Remote alpine badlands and natural ravine | Wind-eroded terrain, exposed soil strata, snow-dusted slopes, scattered stones, rugged rock faces, sparse dead grass, winding dirt path, no buildings or modern infrastructureCinematic Photography & Tech SpecificationCamera & Framing: Approximately 2.02:1 widescreen aspect ratio / Live-action photorealistic cinematic format / Wide shot to extreme wide shot / Eye-level camera with a subtle low-angle impression / Approximately 70mm medium telephoto lens at around f/8 to f/11 / Rule of thirds, leading-line composition, slightly low central subject anchor, layered foreground, midground, and background depthLighting & Color: Cool blue-gray and earth-brown palette with muted green accents and bright snow highlights / Hard natural winter sunlight, strong contrast, defined shadows, desaturated documentary realism / Low-angle winter sun as side light, with ambient sky illumination and snow bounce as fillPost-VFX: No obvious visual effects; emphasis on authentic snow, rock, and terrain detail / Photorealistic cinematic color grading with high dynamic range, natural surface texture, and subtle film grain, without visible CGI rendering",
+      "img": "assets/full/A365.webp",
+      "thumb": "assets/thumb/A365.webp",
+      "w": 1258,
+      "h": 624,
+      "srcHash": "e59c5ff2d6ad17ef",
+      "imgHash": "f84913b47f831cad",
+      "zh": "画面主体与环境置景核心元素： 孤身男性徒步者、深色冬装、积雪荒原、侵蚀沟壑、裸露岩石、枯黄野草、远处起伏山丘美学调性： 生存剧情片 / 当代现实时代 / 冬日下下午 / 室外具体置景： 偏远高寒山地荒原 | 天然风蚀地貌、泥土断层、积雪覆盖的斜坡、碎石、裸露岩壁、稀疏枯草、蜿蜒土路，无人工建筑与现代设施视听摄影与美学工业镜头构图： 约2.02:1宽银幕比例 / 写实电影摄影格式 / 远景与大全景 / 平视机位，略带低机位感 / 约70毫米中长焦，约f/8至f/11 / 三分法构图、引导线构图、中央偏下人物锚点、前中后景纵深层次色彩光影： 冷蓝灰与土褐色主调，辅以暗绿色与雪地高光 / 冬季硬朗自然光、强烈明暗对比、清晰阴影、低饱和纪实质感 / 低角度冬日太阳侧光，天空环境光与雪地反射光作为辅助光源后期特效： 无明显视觉特效，以真实雪地、岩石与地形细节为主 / 写实电影级数字调色，细腻高动态范围、自然纹理、轻微胶片颗粒，无明显CG渲染痕迹\n\n【电影元素与置景】\n核心视觉： 孤身男性徒步者、深色冬装、积雪荒原、侵蚀沟壑、裸露岩石、枯黄野草、远处起伏山丘\n调性风格：生存剧情片 / 当代现实时代 / 冬日下下午 / 室外\n置景设计：偏远高寒山地荒原 | 天然风蚀地貌、泥土断层、积雪覆盖的斜坡、碎石、裸露岩壁、稀疏枯草、蜿蜒土路，无人工建筑与现代设施视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：约2.02:1宽银幕比例 / 写实电影摄影格式 / 远景与大全景 / 平视机位，略带低机位感 / 约70毫米中长焦，约f/8至f/11 / 三分法构图、引导线构图、中央偏下人物锚点、前中后景纵深层次\n光影与色彩：冷蓝灰与土褐色主调，辅以暗绿色与雪地高光 / 冬季硬朗自然光、强烈明暗对比、清晰阴影、低饱和纪实质感 / 低角度冬日太阳侧光，天空环境光与雪地反射光作为辅助光源\n后期视效：无明显视觉特效，以真实雪地、岩石与地形细节为主 / 写实电影级数字调色，细腻高动态范围、自然纹理、轻微胶片颗粒，无明显CG渲染痕迹"
+    },
+    {
+      "id": "A366",
+      "seq": "366",
+      "title": "麦田少女回望｜现实主义剧情片近景肖像",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "肖像",
+        "麦田",
+        "现实主义"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字，暗区按 (L-55)*3+25 增强后双遍核读）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；按库内先例去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按无【】连排版式照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 年轻东亚女性, Young East Asian woman （年轻东亚女性）, 黑色马尾与凌乱刘海, 米白色蓬松纤维外套, 红色印花围巾, 干枯麦田美学调性： 现实主义剧情片 / 当代背景, 约2010年代至2020年代 / 白天 / 室外具体置景： 乡野农田 | 延伸至远处的金褐色干草或麦田, 低矮模糊的田野背景, 无明显人工建筑与道具, 营造朴素自然的乡村环境视听摄影与美学工业镜头构图： 16:9 / 电影级真人实拍画面 / 近景至中近景肖像 / 平视机位, 略微正面侧向拍摄 / 约85mm中长焦, 约f/2.8浅景深 / 三分法构图, 人物置于右侧, 左侧保留大面积负空间, 视线引导与背景虚化突出面部色彩光影： 低饱和土黄色、麦秆金色、米白色与暗红色组成的暖褐色调 / 阴天漫射光与柔和写实光影, 低对比度, 自然肤色 / 大面积云层过滤的自然日光, 辅以环境反射光后期特效： 无明显视觉特效, 保留真实皮肤纹理、发丝与服装纤维细节 / 写实电影调色, 轻微胶片颗粒, 柔和高光 roll-off, 浅景深光学质感\n\nCinematic Elements & SettingCore Visuals: Young East Asian woman, black ponytail with loose bangs, off-white shaggy fiber coat, red patterned scarf, dry wheat fieldTonal Style: Realist character drama / Contemporary era, approximately the 2010s to 2020s / Daytime / ExteriorSet Design: Rural agricultural field | Expansive golden-brown dry grass or wheat field, softly blurred distant farmland, no prominent buildings or props, understated natural countryside environmentCinematic Photography & Tech SpecificationCamera & Framing: 16:9 / Live-action cinematic film still / Close-up to medium close-up portrait / Eye-level, slightly frontal three-quarter angle / Approximately 85mm short telephoto lens at around f/2.8 / Rule of thirds, subject positioned on the right with generous negative space on the left, gaze direction and shallow focus emphasizing the faceLighting & Color: Muted oat, wheat gold, ivory, and dark red with a warm sepia-brown palette / Soft overcast diffusion, naturalistic low-contrast modeling, restrained highlights and realistic skin tones / Cloud-filtered natural daylight with ambient environmental bouncePost-VFX: No visible visual effects; authentic skin, hair, and textile detail preserved / Photorealistic cinematic grade, subtle film grain, soft highlight roll-off, optical shallow-depth-of-field texture",
+      "img": "assets/full/A366.webp",
+      "thumb": "assets/thumb/A366.webp",
+      "w": 1259,
+      "h": 706,
+      "srcHash": "31c829b01214068f",
+      "imgHash": "14e18eb26fec6068",
+      "zh": "画面主体与环境置景核心元素： 年轻东亚女性, Young East Asian woman （年轻东亚女性）, 黑色马尾与凌乱刘海, 米白色蓬松纤维外套, 红色印花围巾, 干枯麦田美学调性： 现实主义剧情片 / 当代背景, 约2010年代至2020年代 / 白天 / 室外具体置景： 乡野农田 | 延伸至远处的金褐色干草或麦田, 低矮模糊的田野背景, 无明显人工建筑与道具, 营造朴素自然的乡村环境视听摄影与美学工业镜头构图： 16:9 / 电影级真人实拍画面 / 近景至中近景肖像 / 平视机位, 略微正面侧向拍摄 / 约85mm中长焦, 约f/2.8浅景深 / 三分法构图, 人物置于右侧, 左侧保留大面积负空间, 视线引导与背景虚化突出面部色彩光影： 低饱和土黄色、麦秆金色、米白色与暗红色组成的暖褐色调 / 阴天漫射光与柔和写实光影, 低对比度, 自然肤色 / 大面积云层过滤的自然日光, 辅以环境反射光后期特效： 无明显视觉特效, 保留真实皮肤纹理、发丝与服装纤维细节 / 写实电影调色, 轻微胶片颗粒, 柔和高光 roll-off, 浅景深光学质感\n\n【电影元素与置景】\n核心视觉： 年轻东亚女性, Young East Asian woman （年轻东亚女性）, 黑色马尾与凌乱刘海, 米白色蓬松纤维外套, 红色印花围巾, 干枯麦田\n调性风格：现实主义剧情片 / 当代背景, 约2010年代至2020年代 / 白天 / 室外\n置景设计：乡野农田 | 延伸至远处的金褐色干草或麦田, 低矮模糊的田野背景, 无明显人工建筑与道具, 营造朴素自然的乡村环境视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 电影级真人实拍画面 / 近景至中近景肖像 / 平视机位, 略微正面侧向拍摄 / 约85mm中长焦, 约f/2.8浅景深 / 三分法构图, 人物置于右侧, 左侧保留大面积负空间, 视线引导与背景虚化突出面部\n光影与色彩：低饱和土黄色、麦秆金色、米白色与暗红色组成的暖褐色调 / 阴天漫射光与柔和写实光影, 低对比度, 自然肤色 / 大面积云层过滤的自然日光, 辅以环境反射光\n后期视效：无明显视觉特效, 保留真实皮肤纹理、发丝与服装纤维细节 / 写实电影调色, 轻微胶片颗粒, 柔和高光 roll-off, 浅景深光学质感"
     }
   ]
 }
