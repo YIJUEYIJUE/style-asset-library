@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 374,
+  "count": 382,
   "cats": [
     {
       "name": "时尚——服装展示",
@@ -32,7 +32,7 @@
     },
     {
       "name": "摄影——电影感",
-      "count": 54
+      "count": 62
     },
     {
       "name": "人像——身份参考",
@@ -11265,6 +11265,215 @@
       "srcHash": "ae533f3eb74eb91b",
       "imgHash": "7724978f62154dfa",
       "zh": "【画面主体与环境置景】核心元素： 乡村儿童、背书包的学童、山地村民、传统石砌民居、青瓦屋顶、古老拱门、乡间小路、荷花池、繁茂植被、森林山坡、薄雾美学调性： 乡土剧情片 / 现实主义纪录电影 / 当代背景, 保留传统村落建筑风貌 / 清晨或上午 / 室外具体置景： 山地传统村落 | 石墙木梁民居、深色青瓦屋顶、拱形石门、木质门窗、临街石阶、藤蔓植物、乡村菜园、荷叶与野花、简易棚屋、现代彩钢屋顶建筑、远处浓密山林与雾气【视听摄影与美学工业】镜头构图： 16:9 / 写实电影摄影、自然主义纪实影像 / 大全景至全景 / 平视机位, 略微俯视的远距离观察视角 / 前景植物与儿童、中景村落建筑、后景山林形成多层空间, 乡间小路作为引导线, 视觉重心位于右侧传统建筑与下方行走人物色彩光影： 自然绿色、石材灰褐、青瓦深灰色与儿童服装的鲜艳红蓝色形成对比 / 阴天漫射光结合薄雾中的柔和体积光 / 云层散射的自然日光、山谷反射光与建筑表面的柔和环境光后期特效： 真实大气雾效、轻微体积光、自然景深、低强度胶片颗粒与写实色彩分级 / 电影级数字摄影质感, HDR自然动态范围, 接近ARRI Alexa的柔和高光与纪录片式真实渲染\n\n【电影元素与置景】\n核心视觉： 乡村儿童、背书包的学童、山地村民、传统石砌民居、青瓦屋顶、古老拱门、乡间小路、荷花池、繁茂植被、森林山坡、薄雾\n调性风格：乡土剧情片 / 现实主义纪录电影 / 当代背景, 保留传统村落建筑风貌 / 清晨或上午 / 室外\n置景设计：山地传统村落 | 石墙木梁民居、深色青瓦屋顶、拱形石门、木质门窗、临街石阶、藤蔓植物、乡村菜园、荷叶与野花、简易棚屋、现代彩钢屋顶建筑、远处浓密山林与雾气\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 写实电影摄影、自然主义纪实影像 / 大全景至全景 / 平视机位, 略微俯视的远距离观察视角 / 前景植物与儿童、中景村落建筑、后景山林形成多层空间, 乡间小路作为引导线, 视觉重心位于右侧传统建筑与下方行走人物\n光影与色彩：自然绿色、石材灰褐、青瓦深灰色与儿童服装的鲜艳红蓝色形成对比 / 阴天漫射光结合薄雾中的柔和体积光 / 云层散射的自然日光、山谷反射光与建筑表面的柔和环境光\n后期视效：真实大气雾效、轻微体积光、自然景深、低强度胶片颗粒与写实色彩分级 / 电影级数字摄影质感, HDR自然动态范围, 接近ARRI Alexa的柔和高光与纪录片式真实渲染"
+    },
+    {
+      "id": "A377",
+      "seq": "377",
+      "title": "环形轨道空间站残骸爆炸｜科幻灾难超宽大全景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "科幻",
+        "灾难",
+        "太空",
+        "CGI"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：无【】连排，中英夹注混排、半角逗号分隔。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 环形轨道空间站残骸, 爆炸火球, 飞散的金属碎片, 地球曲面, 云层与海陆地貌, 太阳风格的轨道环境美学调性： 科幻灾难片 / 近未来时代背景 / 白昼轨道时段 / 室外太空环境具体置景： 近地轨道空间站外部 | 巨型环形舱段, 断裂的桁架结构, 太阳能板与机械天线, 外露的设备舱, 破损金属蒙皮, 喷射器组件, 漂浮碎片与地球背景【视听摄影与美学工业】镜头构图： 2.76:1超宽银幕比例 / 写实CG电影格式 / IMAX级数字摄影质感 / 超大全景 / 斜俯拍轨道视角, 三分之四高位观察角度 / 约24mm广角镜头, 约f/8深景深 / 对角线构图, 中心爆炸视觉焦点, 环形结构形成引导线与框架, 动态失衡构图色彩光影： 深蓝地球与冷灰金属对比炽烈橙黄火焰的冷暖互补调色 / 高反差灾难电影光效, 强烈爆炸逆光, 金属高光与局部剪影 / 太阳直射光, 爆炸火光, 火星自发光与地球大气反射光后期特效： 大规模轨道爆炸, 火焰烟尘, 冲击波, 熔融金属, 飞散碎片, 火星粒子, 体积云与镜头辉光 / 基于物理渲染的高细节写实CGI, 电影级合成, 体积光, 粒子模拟, HDR光照与真实金属材质质感\n\nCinematic Elements & SettingCore Visuals: Ring-shaped orbital space station wreckage, Orbital Ring Space Station Debris, massive explosion fireball, Explosive Fireball, flying metal fragments, Shattered metal Debris in Earth orbit , Earth Horizon , cloudy systems and visible atmospheres Orbital Environment Tonal Style: Science-fiction disaster action / Near-future era / Daylight in low Earth orbit / Exterior open spaceSet Design: Exterior orbital space-station environment | Geometric circular habitat modules, ruptured truss structures, damaged solar panels and antenna arrays, exposed machinery, debris from metal orbital engine assemblies, orbiting wreckage, Earth and atmospheric cloudscape in the backgroundCinematic Photography & Tech SpecificationCamera & Framing: 2.76:1 ultra-widescreen aspect ratio / Photorealistic cinematic CGI & VFX-grade digital film format / Extreme wide shot / Oblique high-angle orbital viewpoint, three-quarter top-down perspective / Approximately 24mm wide-angle lens set at around f/8 for deep focus / Dynamic diagonal composition, explosion as the central focal point, circular station structure forming leading lines and natural framing, Deliberately unbalanced center of massLighting & Color: Deep Earth blues and cool metallic grays contrasted with blazing orange-yellow fireball, complementary cool-warm disaster palette / High-contrast disaster-film lighting, intense explosive backlight, hard specular highlights and localized silhouettes / Direct sunlight, explosion fire front, emissive sparks, and reflected atmospheric light from EarthPost-VFX: Large-scale orbital explosion VFX and smoke simulation, shockwave distortion, molten metal debris fields, sparks, volumetric clouds, atmospheric haze and lens bloom / Physically based photorealistic CGI with cinematic compositing, volumetric lighting, particle simulation, HDR illumination, realistic metal shaders and high-detail destruction rendering",
+      "img": "assets/full/A377.webp",
+      "thumb": "assets/thumb/A377.webp",
+      "w": 1259,
+      "h": 457,
+      "srcHash": "bc911c7559e3732a",
+      "imgHash": "36c6ca07d1cb318f",
+      "zh": "画面主体与环境置景核心元素： 环形轨道空间站残骸, 爆炸火球, 飞散的金属碎片, 地球曲面, 云层与海陆地貌, 太阳风格的轨道环境美学调性： 科幻灾难片 / 近未来时代背景 / 白昼轨道时段 / 室外太空环境具体置景： 近地轨道空间站外部 | 巨型环形舱段, 断裂的桁架结构, 太阳能板与机械天线, 外露的设备舱, 破损金属蒙皮, 喷射器组件, 漂浮碎片与地球背景【视听摄影与美学工业】镜头构图： 2.76:1超宽银幕比例 / 写实CG电影格式 / IMAX级数字摄影质感 / 超大全景 / 斜俯拍轨道视角, 三分之四高位观察角度 / 约24mm广角镜头, 约f/8深景深 / 对角线构图, 中心爆炸视觉焦点, 环形结构形成引导线与框架, 动态失衡构图色彩光影： 深蓝地球与冷灰金属对比炽烈橙黄火焰的冷暖互补调色 / 高反差灾难电影光效, 强烈爆炸逆光, 金属高光与局部剪影 / 太阳直射光, 爆炸火光, 火星自发光与地球大气反射光后期特效： 大规模轨道爆炸, 火焰烟尘, 冲击波, 熔融金属, 飞散碎片, 火星粒子, 体积云与镜头辉光 / 基于物理渲染的高细节写实CGI, 电影级合成, 体积光, 粒子模拟, HDR光照与真实金属材质质感\n\n【电影元素与置景】\n核心视觉： 环形轨道空间站残骸, 爆炸火球, 飞散的金属碎片, 地球曲面, 云层与海陆地貌, 太阳风格的轨道环境\n调性风格：科幻灾难片 / 近未来时代背景 / 白昼轨道时段 / 室外太空环境\n置景设计：近地轨道空间站外部 | 巨型环形舱段, 断裂的桁架结构, 太阳能板与机械天线, 外露的设备舱, 破损金属蒙皮, 喷射器组件, 漂浮碎片与地球背景\n\n【电影摄影与技术规格】\n镜头与构图：2.76:1超宽银幕比例 / 写实CG电影格式 / IMAX级数字摄影质感 / 超大全景 / 斜俯拍轨道视角, 三分之四高位观察角度 / 约24mm广角镜头, 约f/8深景深 / 对角线构图, 中心爆炸视觉焦点, 环形结构形成引导线与框架, 动态失衡构图\n光影与色彩：深蓝地球与冷灰金属对比炽烈橙黄火焰的冷暖互补调色 / 高反差灾难电影光效, 强烈爆炸逆光, 金属高光与局部剪影 / 太阳直射光, 爆炸火光, 火星自发光与地球大气反射光\n后期视效：大规模轨道爆炸, 火焰烟尘, 冲击波, 熔融金属, 飞散碎片, 火星粒子, 体积云与镜头辉光 / 基于物理渲染的高细节写实CGI, 电影级合成, 体积光, 粒子模拟, HDR光照与真实金属材质质感"
+    },
+    {
+      "id": "A378",
+      "seq": "378",
+      "title": "草原骑兵军阵｜中世纪战争史诗大全景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "战争史诗",
+        "草原",
+        "骑兵"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：无【】连排，顿号分隔。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 长发骑马战士、棕色战马、长矛、远方整齐排列的骑兵军阵、草原丘陵、荒草与阴沉天空美学调性： 历史战争史诗 / 中世纪欧亚草原时代, 约公元13至15世纪 / 白昼阴天 / 室外具体置景： 开阔草原战场 | 枯黄长草、低矮起伏丘陵、远方骑兵编队、马匹与长矛、零散旗帜、皮革马鞍、粗布斗篷、荒凉无现代设施的战场环境视听摄影与美学工业镜头构图： 16:9 / 写实真人电影格式, 历史史诗摄影 / 中远景结合大全景, 前景主体占据画面左侧, 远方军阵形成纵深 / 背后越肩视角, 略带低机位仰拍 / 约50毫米标准镜头, 约f/8中等偏深景深 / 三分法构图、前景框景、长矛对角线引导线、主体与远方军阵形成空间层次色彩光影： 低饱和灰褐色、土黄色与冷青灰色调 / 阴天漫射光、柔和低反差、压抑苍凉的自然主义光影 / 厚重云层过滤的自然天光, 辅以地面反射光后期特效： 轻微大气雾化、远景空气透视、尘土与细微颗粒质感、自然景深 / 高写实数字电影调色, 接近ARRI Alexa电影机质感, 柔和胶片颗粒与真实HDR细节\n\nCinematic Elements & SettingCore Visuals: Long-haired mounted warrior, brown warhorse, long spear, distant cavalry formation, open grassland battlefield, rolling hills, dry grass, overcast skyTonal Style: Historical war epic / Medieval Eurasian steppe era, approximately 13th to 15th century / Overcast daytime / ExteriorSet Design: Open steppe battlefield | Dry yellow grass, low rolling hills, organized distant cavalry, horses and spears, scattered standards, leather saddles, coarse woven cloaks, barren pre-modern battlefield with no contemporary structuresCinematic Photography & Tech SpecificationCamera & Framing: 16:9 / Live-action historical epic format / Medium-long shot blended with a wide establishing shot, foreground rider occupying the left side while the army recedes in the rear / Three-quarter over-the-shoulder view with a subtle low-angle perspective / Approximately 50mm standard lens, around f/8 for moderately deep focus / Rule of thirds, foreground framing, diagonal spear leading line, layered depth between rider, cavalry, hills and skyLighting & Color: Desaturated grey-brown, earth-yellow and cool blue-gray palette / Overcast, diffused lighting, soft contrast, restrained naturalistic realism, heavy and solemn mood / Daylight filtered through dense cloud cover with subtle ground bouncePost-VFX: Subtle atmospheric haze, distant aerial perspective, fine dust and restrained film-grain texture / High-realism digital cinema grade with an ARRI Alexa-like image character, muted filmic color science and natural HDR detail",
+      "img": "assets/full/A378.webp",
+      "thumb": "assets/thumb/A378.webp",
+      "w": 1259,
+      "h": 709,
+      "srcHash": "10af817b5297fdc7",
+      "imgHash": "8919e5612abb16a5",
+      "zh": "画面主体与环境置景核心元素： 长发骑马战士、棕色战马、长矛、远方整齐排列的骑兵军阵、草原丘陵、荒草与阴沉天空美学调性： 历史战争史诗 / 中世纪欧亚草原时代, 约公元13至15世纪 / 白昼阴天 / 室外具体置景： 开阔草原战场 | 枯黄长草、低矮起伏丘陵、远方骑兵编队、马匹与长矛、零散旗帜、皮革马鞍、粗布斗篷、荒凉无现代设施的战场环境视听摄影与美学工业镜头构图： 16:9 / 写实真人电影格式, 历史史诗摄影 / 中远景结合大全景, 前景主体占据画面左侧, 远方军阵形成纵深 / 背后越肩视角, 略带低机位仰拍 / 约50毫米标准镜头, 约f/8中等偏深景深 / 三分法构图、前景框景、长矛对角线引导线、主体与远方军阵形成空间层次色彩光影： 低饱和灰褐色、土黄色与冷青灰色调 / 阴天漫射光、柔和低反差、压抑苍凉的自然主义光影 / 厚重云层过滤的自然天光, 辅以地面反射光后期特效： 轻微大气雾化、远景空气透视、尘土与细微颗粒质感、自然景深 / 高写实数字电影调色, 接近ARRI Alexa电影机质感, 柔和胶片颗粒与真实HDR细节\n\n【电影元素与置景】\n核心视觉： 长发骑马战士、棕色战马、长矛、远方整齐排列的骑兵军阵、草原丘陵、荒草与阴沉天空\n调性风格：历史战争史诗 / 中世纪欧亚草原时代, 约公元13至15世纪 / 白昼阴天 / 室外\n置景设计：开阔草原战场 | 枯黄长草、低矮起伏丘陵、远方骑兵编队、马匹与长矛、零散旗帜、皮革马鞍、粗布斗篷、荒凉无现代设施的战场环境视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 写实真人电影格式, 历史史诗摄影 / 中远景结合大全景, 前景主体占据画面左侧, 远方军阵形成纵深 / 背后越肩视角, 略带低机位仰拍 / 约50毫米标准镜头, 约f/8中等偏深景深 / 三分法构图、前景框景、长矛对角线引导线、主体与远方军阵形成空间层次\n光影与色彩：低饱和灰褐色、土黄色与冷青灰色调 / 阴天漫射光、柔和低反差、压抑苍凉的自然主义光影 / 厚重云层过滤的自然天光, 辅以地面反射光\n后期视效：轻微大气雾化、远景空气透视、尘土与细微颗粒质感、自然景深 / 高写实数字电影调色, 接近ARRI Alexa电影机质感, 柔和胶片颗粒与真实HDR细节"
+    },
+    {
+      "id": "A379",
+      "seq": "379",
+      "title": "坡地巷口蹲坐男孩｜韩国都市社会写实",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "都市",
+        "社会写实",
+        "巷道"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：带【】标题 + 三联式中英混排（中文词, English term (中文注)）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 蹲坐在路边台阶上的男孩, Crouching boy (蹲坐男孩), 老旧白色小型货车, Old white compact van (老旧白色小型货车), 韩国城市住宅街区, Korean urban residential neighborhood (韩国城市住宅街区), 远处现代高层建筑群, Distant modern high-rise skyline (远处现代高层天际线), 红砖围墙与住宅, Red-brick walls and houses (红砖围墙与住宅), 密集电线与电线杆, Dense overhead wires and utility poles (密集架空电线与电线杆) 美学调性： 社会现实主义 / 都市生活剧情 / 当代时期, 约2010年代至2020年代 / 午后 / 室外具体置景： 韩国城市坡地住宅巷道 | 破损混凝土路面、多个井盖与排水沟、红砖矮墙、白色铁艺大门、红色坡屋顶住宅、老旧白色厢式货车、密集架空电缆、绿地与广告牌、卫星天线、绿灌木、远处玻璃幕墙城市天际线【视听摄影与美学工业】镜头构图： 2.39:1 / 电影级宽银幕写实摄影, 轻微变形宽银幕质感 / 全景环境中景, 男孩为中近景主体 / 接近人眼高度的平视机位, 轻微俯视街道 / 三分法构图、对角线引导线、道路纵深构图、前中后景分层色彩光影： 温暖自然色调, 砖红色、灰色混凝土、绿色植被与蓝灰天空形成对比 / 高反差自然日光, 清晰硬阴影与真实街景质感 / 午后低角度太阳光, 从画面左侧及上方斜向照射, 辅以天空环境光后期特效： 无明显视觉特效, 保持纪实摄影真实性 | 电影级自然色彩分级、真实材质细节、轻微胶片颗粒对比度、自然景深与高动态范围渲染\n\nCinematic Elements & Setting: Core Visuals: Crouching boy, Old white compact van, Korean urban residential neighborhood, Distant modern high-rise skyline, Red-brick walls and houses, Dense overhead wires and utility polesTonal Style: Social realism / Urban slice-of-life drama / Contemporary period, approximately the 2010s to 2020s / Afternoon / ExteriorSet Design: Korean hillside residential alley | Cracked concrete roadway and drainage covers, street signage, satellite dish, leafy shrubs, and a distant skyline of glass office towers, red-roofed homes, weathered white minivan, dense overhead utility cables, utility poles, white perimeter walls, white iron gatesCinematic Photography & Tech SpecificationCamera & Framing: 2.39:1 / Cinematic widescreen photorealism with a subtle anamorphic sensibility / Wide environmental medium shot with the boy as a medium-close focal subject / Near eye-level camera with a slight downward view into the sloping street / Rule of thirds, diagonal grading, deep street perspective, and layered foreground, middle ground, and background compositionLighting & Color: Warm natural palette with brick red, concrete gray, vegetation green, and blue-gray sky contrasts / High-contrast natural daylight with defined hard shadows and documentary street realism / Low-angle afternoon sunlight entering diagonally from the upper left, balanced by diffuse skylightPost-VFX: No visible visual effects, grounded documentary realism / Cinematic natural color grading, controlled physical textures, restrained filmic contrast, natural depth of field, and high-dynamic-range rendering",
+      "img": "assets/full/A379.webp",
+      "thumb": "assets/thumb/A379.webp",
+      "w": 1259,
+      "h": 531,
+      "srcHash": "33e75ed6a8a9a69f",
+      "imgHash": "d8ddf790a623622c",
+      "zh": "【画面主体与环境置景】核心元素： 蹲坐在路边台阶上的男孩, Crouching boy (蹲坐男孩), 老旧白色小型货车, Old white compact van (老旧白色小型货车), 韩国城市住宅街区, Korean urban residential neighborhood (韩国城市住宅街区), 远处现代高层建筑群, Distant modern high-rise skyline (远处现代高层天际线), 红砖围墙与住宅, Red-brick walls and houses (红砖围墙与住宅), 密集电线与电线杆, Dense overhead wires and utility poles (密集架空电线与电线杆) 美学调性： 社会现实主义 / 都市生活剧情 / 当代时期, 约2010年代至2020年代 / 午后 / 室外具体置景： 韩国城市坡地住宅巷道 | 破损混凝土路面、多个井盖与排水沟、红砖矮墙、白色铁艺大门、红色坡屋顶住宅、老旧白色厢式货车、密集架空电缆、绿地与广告牌、卫星天线、绿灌木、远处玻璃幕墙城市天际线【视听摄影与美学工业】镜头构图： 2.39:1 / 电影级宽银幕写实摄影, 轻微变形宽银幕质感 / 全景环境中景, 男孩为中近景主体 / 接近人眼高度的平视机位, 轻微俯视街道 / 三分法构图、对角线引导线、道路纵深构图、前中后景分层色彩光影： 温暖自然色调, 砖红色、灰色混凝土、绿色植被与蓝灰天空形成对比 / 高反差自然日光, 清晰硬阴影与真实街景质感 / 午后低角度太阳光, 从画面左侧及上方斜向照射, 辅以天空环境光后期特效： 无明显视觉特效, 保持纪实摄影真实性 | 电影级自然色彩分级、真实材质细节、轻微胶片颗粒对比度、自然景深与高动态范围渲染\n\n【电影元素与置景】\n核心视觉： 蹲坐在路边台阶上的男孩, Crouching boy (蹲坐男孩), 老旧白色小型货车, Old white compact van (老旧白色小型货车), 韩国城市住宅街区, Korean urban residential neighborhood (韩国城市住宅街区), 远处现代高层建筑群, Distant modern high-rise skyline (远处现代高层天际线), 红砖围墙与住宅, Red-brick walls and houses (红砖围墙与住宅), 密集电线与电线杆, Dense overhead wires and utility poles (密集架空电线与电线杆)\n调性风格：社会现实主义 / 都市生活剧情 / 当代时期, 约2010年代至2020年代 / 午后 / 室外\n置景设计：韩国城市坡地住宅巷道 | 破损混凝土路面、多个井盖与排水沟、红砖矮墙、白色铁艺大门、红色坡屋顶住宅、老旧白色厢式货车、密集架空电缆、绿地与广告牌、卫星天线、绿灌木、远处玻璃幕墙城市天际线\n\n【电影摄影与技术规格】\n镜头与构图：2.39:1 / 电影级宽银幕写实摄影, 轻微变形宽银幕质感 / 全景环境中景, 男孩为中近景主体 / 接近人眼高度的平视机位, 轻微俯视街道 / 三分法构图、对角线引导线、道路纵深构图、前中后景分层\n光影与色彩：温暖自然色调, 砖红色、灰色混凝土、绿色植被与蓝灰天空形成对比 / 高反差自然日光, 清晰硬阴影与真实街景质感 / 午后低角度太阳光, 从画面左侧及上方斜向照射, 辅以天空环境光\n后期视效：无明显视觉特效, 保持纪实摄影真实性 | 电影级自然色彩分级、真实材质细节、轻微胶片颗粒对比度、自然景深与高动态范围渲染"
+    },
+    {
+      "id": "A380",
+      "seq": "380",
+      "title": "板甲骑士与龙形石雕｜历史奇幻森林中近景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "历史奇幻",
+        "骑士",
+        "森林"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：无【】连排 + 中英对译夹注。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景核心元素： 中世纪全身板甲骑士, armored medieval knight (中世纪铠甲骑士), 深棕色战马, warhorse (战马), 红白菱格纹盾牌, heraldic shield (纹章盾牌), 长矛, lance (骑枪), 雕刻龙形石像, dragon stone statue (龙形石雕), 茂密古树林美学调性： 历史奇幻 / 中世纪晚期至文艺复兴前期 / 白天 / 室外具体置景： 魔幻森林遗迹或古物理林间圣坛 | 高大阔叶树、浓密灌木、藤蔓枝叶、苔藓覆盖的巨型龙形石雕、骑士马具、金属铠甲、皮革缰绳、盾牌与长矛, 共同构成中古奇幻世界观视听摄影与美学工业镜头构图： 16:9 / 写实电影数字摄影, 历史奇幻实景质感 / 中景至中近景, 突出骑士、战马与盾牌 / 略低机位仰拍, 强化骑士威严与压迫感 / 约50毫米标准镜头, 约f/4光圈, 中等景深 / 三分法构图, 骑士与战马占据右侧主体, 龙形石像位于左侧形成视觉对照, 前景遮挡与背景层次制造纵深色彩光影： 低饱和森林绿、深棕、铁灰、暗红与象牙白的中古色调 / 柔和自然光、树叶间斑驳光斑、轻微阴天漫反射 / 主要光源为白昼天空光与穿透树冠的自然阳光, 辅以柔和环境反光后期特效： 以实拍道具、真实铠甲与石雕为核心, 辅以轻度环境合成、色彩分级和细节增强, 无明显夸张魔法特效 / 写实电影级数字渲染质感, 倾向物理真实材质、自然景深与高动态范围渲染, 未指向特定渲染引擎\n\nCinematic Elements & SettingCore Visuals: Armored medieval knight, deep-brown warhorse, red-and-ivory heraldic shield, lance, sculpted dragon stone statue, dense ancient woodland, leafy back and polished leaf motifs Tonal Style: Historical fantasy / Late medieval to pre-Renaissance era / Daytime / ExteriorSet Design: Enchanted forest ruin or ancient woodland shrine | Tall broadleaf trees, dense undergrowth, tangled vines, moss-covered dragon monument or ancient statue, period saddle and bridle, leather straps, steel armor, heraldic shield and upright lance establishing a grounded medieval-fantasy worldCinematic Photography & Tech SpecificationCamera & Framing: 16:9 aspect ratio / Live-action digital cinema with a grounded period-fantasy realism / Medium to medium-close shot emphasizing the knight and horse / Slight low-angle view enhancing the knight's height / Approximately 50mm standard lens, around f/4 aperture, moderate depth of field / Rule of thirds, with the knight and horse dominating the right side while the dragon statue balances the left, using foreground occlusion and layered woodland depthLighting & Color: Muted forest green, dark brown, iron gray, weathered red, and ivory palette / Soft naturalistic lighting with dappled canopy shadows and gentle overcast diffusion / Primary illumination from daytime skylight and sunlight filtering through the tree canopy, supported by subtle environmental bouncePost-VFX: Practical armor, real horse, physical shield, lance, and costume set dressing supported by restrained environmental compositing, color grading and texture enhancement, no overt magical VFX / Photoreal cinematic rendering with physically believable materials, natural depth of field, and high-dynamic-range detail, with no specific render engine indicated",
+      "img": "assets/full/A380.webp",
+      "thumb": "assets/thumb/A380.webp",
+      "w": 1258,
+      "h": 709,
+      "srcHash": "9119b10d31620cad",
+      "imgHash": "89c323dc9c1849bb",
+      "zh": "画面主体与环境置景核心元素： 中世纪全身板甲骑士, armored medieval knight (中世纪铠甲骑士), 深棕色战马, warhorse (战马), 红白菱格纹盾牌, heraldic shield (纹章盾牌), 长矛, lance (骑枪), 雕刻龙形石像, dragon stone statue (龙形石雕), 茂密古树林美学调性： 历史奇幻 / 中世纪晚期至文艺复兴前期 / 白天 / 室外具体置景： 魔幻森林遗迹或古物理林间圣坛 | 高大阔叶树、浓密灌木、藤蔓枝叶、苔藓覆盖的巨型龙形石雕、骑士马具、金属铠甲、皮革缰绳、盾牌与长矛, 共同构成中古奇幻世界观视听摄影与美学工业镜头构图： 16:9 / 写实电影数字摄影, 历史奇幻实景质感 / 中景至中近景, 突出骑士、战马与盾牌 / 略低机位仰拍, 强化骑士威严与压迫感 / 约50毫米标准镜头, 约f/4光圈, 中等景深 / 三分法构图, 骑士与战马占据右侧主体, 龙形石像位于左侧形成视觉对照, 前景遮挡与背景层次制造纵深色彩光影： 低饱和森林绿、深棕、铁灰、暗红与象牙白的中古色调 / 柔和自然光、树叶间斑驳光斑、轻微阴天漫反射 / 主要光源为白昼天空光与穿透树冠的自然阳光, 辅以柔和环境反光后期特效： 以实拍道具、真实铠甲与石雕为核心, 辅以轻度环境合成、色彩分级和细节增强, 无明显夸张魔法特效 / 写实电影级数字渲染质感, 倾向物理真实材质、自然景深与高动态范围渲染, 未指向特定渲染引擎\n\n【电影元素与置景】\n核心视觉： 中世纪全身板甲骑士, armored medieval knight (中世纪铠甲骑士), 深棕色战马, warhorse (战马), 红白菱格纹盾牌, heraldic shield (纹章盾牌), 长矛, lance (骑枪), 雕刻龙形石像, dragon stone statue (龙形石雕), 茂密古树林\n调性风格：历史奇幻 / 中世纪晚期至文艺复兴前期 / 白天 / 室外\n置景设计：魔幻森林遗迹或古物理林间圣坛 | 高大阔叶树、浓密灌木、藤蔓枝叶、苔藓覆盖的巨型龙形石雕、骑士马具、金属铠甲、皮革缰绳、盾牌与长矛, 共同构成中古奇幻世界观视听摄影与美学工业\n\n【电影摄影与技术规格】\n镜头与构图：16:9 / 写实电影数字摄影, 历史奇幻实景质感 / 中景至中近景, 突出骑士、战马与盾牌 / 略低机位仰拍, 强化骑士威严与压迫感 / 约50毫米标准镜头, 约f/4光圈, 中等景深 / 三分法构图, 骑士与战马占据右侧主体, 龙形石像位于左侧形成视觉对照, 前景遮挡与背景层次制造纵深\n光影与色彩：低饱和森林绿、深棕、铁灰、暗红与象牙白的中古色调 / 柔和自然光、树叶间斑驳光斑、轻微阴天漫反射 / 主要光源为白昼天空光与穿透树冠的自然阳光, 辅以柔和环境反光\n后期视效：以实拍道具、真实铠甲与石雕为核心, 辅以轻度环境合成、色彩分级和细节增强, 无明显夸张魔法特效 / 写实电影级数字渲染质感, 倾向物理真实材质、自然景深与高动态范围渲染, 未指向特定渲染引擎"
+    },
+    {
+      "id": "A381",
+      "seq": "381",
+      "title": "女宇航员与坠毁飞船｜科幻冒险超宽中景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "科幻",
+        "宇航员",
+        "坠毁"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：带【】标题连排 + 中英夹注。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 身穿白灰色未来科技宇航服的年轻女性, Young female astronaut in a white-gray futuristic spacesuit (身穿白灰色未来科技宇航服的年轻女性), 坠毁的巨型宇宙飞船残骸, 失控燃烧的火焰, 绿色植被与灌木, 烟雾与金属碎片美学调性： 科幻冒险 / 近未来时代 / 黄昏, 傍晚 / 室外具体置景： 坠毁飞船遗址与荒废温室生态区 | 巨型倾斜金属船体、破裂舱门、外露结构梁、燃烧残骸、橙色火焰、灰色烟尘、密集灌木、藤蔓与野生植物、宇航服胸前编号标识与橙色臂章【视听摄影与美学工业】镜头构图： 2.77:1超宽银幕比例 / 写实电影真人实拍格式 / 中近景至中景, 人物约腰部以上 / 略微低机位平视, 形成坚毅与英雄感 / 50毫米电影镜头, 约f/2.8浅景深 / 中央人物构图、前景植物遮挡框架、三分法辅助、背景飞船斜线引导视线、前中后景分层色彩光影： 冷灰蓝与森林绿色为基底, 橙金色火焰和夕阳作为对比色 / 电影级自然光、强烈轮廓光、局部火焰闪烁光、柔和环境填充光 / 低角度夕阳、燃烧火焰、烟尘反射光与天空散射光后期特效： 写实火焰、动态烟雾、飞散火星、热浪折射、轻微镜头光晕与景深虚化 / 高端写实CG合成质感、接近虚幻引擎电影级实时渲染与实拍素材融合, 金属材质和火焰照明具有物理真实感\n\nCinematic Elements & Setting: Core Visuals: young female astronaut in a white-gray futuristic spacesuit, crashed massive spacecraft wreckage, burning fire, green shrubs and vegetation, smoke and exposed metal debrisTonal Style: Science-fiction adventure / Near-future era / Late afternoon or dusk / ExteriorSet Design: Crashed spacecraft site blended with an overgrown ecological greenhouse zone | Massive tilted metal hull, ruptured hatches, exposed structural beams, burning wreckage, orange flames, gray smoke, dense shrubs, vines, wild plants, chest identification code, orange arm patch and technical suit detailsCinematic Photography & Tech SpecificationCamera & Framing: 2.77:1 ultra-widescreen aspect ratio / Live-action photorealistic cinema format / Medium close-up to medium shot / Approximately the waist upward / slightly low-angle eye-level perspective / 50mm cinema lens at approximately f/2.8 / Centered figure composition / Foreground foliage framing, supporting use of thirds, diagonal spacecraft line directing the eye / Layered foreground, midground and background depthLighting & Color: Cool gray-blue and forest green base palette with contrasting orange-gold firelight and sunset / Cinematic naturalistic lighting, strong rim light, localized flickering fire light and soft ambient fill / Low-angle setting sun, burning flames, smoke-reflected light and diffused sky illuminationPost-VFX: Photorealistic flames, volumetric smoke, flying embers, heat-haze refraction, subtle lens flare and shallow-depth-of-field bokeh / High-end photorealistic CGI compositing with Unreal Engine-style cinematic real-time rendering blended with live-action footage, physically convincing metal materials and fire illumination",
+      "img": "assets/full/A381.webp",
+      "thumb": "assets/thumb/A381.webp",
+      "w": 1258,
+      "h": 457,
+      "srcHash": "ddf8e9b4d4416280",
+      "imgHash": "5cb51c33354c2009",
+      "zh": "【画面主体与环境置景】核心元素： 身穿白灰色未来科技宇航服的年轻女性, Young female astronaut in a white-gray futuristic spacesuit (身穿白灰色未来科技宇航服的年轻女性), 坠毁的巨型宇宙飞船残骸, 失控燃烧的火焰, 绿色植被与灌木, 烟雾与金属碎片美学调性： 科幻冒险 / 近未来时代 / 黄昏, 傍晚 / 室外具体置景： 坠毁飞船遗址与荒废温室生态区 | 巨型倾斜金属船体、破裂舱门、外露结构梁、燃烧残骸、橙色火焰、灰色烟尘、密集灌木、藤蔓与野生植物、宇航服胸前编号标识与橙色臂章【视听摄影与美学工业】镜头构图： 2.77:1超宽银幕比例 / 写实电影真人实拍格式 / 中近景至中景, 人物约腰部以上 / 略微低机位平视, 形成坚毅与英雄感 / 50毫米电影镜头, 约f/2.8浅景深 / 中央人物构图、前景植物遮挡框架、三分法辅助、背景飞船斜线引导视线、前中后景分层色彩光影： 冷灰蓝与森林绿色为基底, 橙金色火焰和夕阳作为对比色 / 电影级自然光、强烈轮廓光、局部火焰闪烁光、柔和环境填充光 / 低角度夕阳、燃烧火焰、烟尘反射光与天空散射光后期特效： 写实火焰、动态烟雾、飞散火星、热浪折射、轻微镜头光晕与景深虚化 / 高端写实CG合成质感、接近虚幻引擎电影级实时渲染与实拍素材融合, 金属材质和火焰照明具有物理真实感\n\n【电影元素与置景】\n核心视觉： 身穿白灰色未来科技宇航服的年轻女性, Young female astronaut in a white-gray futuristic spacesuit (身穿白灰色未来科技宇航服的年轻女性), 坠毁的巨型宇宙飞船残骸, 失控燃烧的火焰, 绿色植被与灌木, 烟雾与金属碎片\n调性风格：科幻冒险 / 近未来时代 / 黄昏, 傍晚 / 室外\n置景设计：坠毁飞船遗址与荒废温室生态区 | 巨型倾斜金属船体、破裂舱门、外露结构梁、燃烧残骸、橙色火焰、灰色烟尘、密集灌木、藤蔓与野生植物、宇航服胸前编号标识与橙色臂章\n\n【电影摄影与技术规格】\n镜头与构图：2.77:1超宽银幕比例 / 写实电影真人实拍格式 / 中近景至中景, 人物约腰部以上 / 略微低机位平视, 形成坚毅与英雄感 / 50毫米电影镜头, 约f/2.8浅景深 / 中央人物构图、前景植物遮挡框架、三分法辅助、背景飞船斜线引导视线、前中后景分层\n光影与色彩：冷灰蓝与森林绿色为基底, 橙金色火焰和夕阳作为对比色 / 电影级自然光、强烈轮廓光、局部火焰闪烁光、柔和环境填充光 / 低角度夕阳、燃烧火焰、烟尘反射光与天空散射光\n后期视效：写实火焰、动态烟雾、飞散火星、热浪折射、轻微镜头光晕与景深虚化 / 高端写实CG合成质感、接近虚幻引擎电影级实时渲染与实拍素材融合, 金属材质和火焰照明具有物理真实感"
+    },
+    {
+      "id": "A382",
+      "seq": "382",
+      "title": "校园制服女生过肩双人｜青春悬疑中近景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "校园",
+        "青春",
+        "过肩双人"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：分行带【】标题版式（中英文均以字段标题分行）。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "画面主体与环境置景\n核心元素： 身穿校服的年轻女学生, 长直黑发, 神情紧张而专注, 与她交谈的另一名学生 (前景虚焦), 红色格纹制服, 校徽, 对话中的双人场景\n美学调性： 青春剧情 / 校园悬疑氛围 / 当代背景 / 白天或室内日光时段 (具体时刻不明) / 室内\n具体置景： 校园室内空间, 可能为教室或走廊入口 | 浅米色墙面、木质门板、门框与朴素校舍环境, 前景人物肩部构成遮挡, 未见显著道具\n视听摄影与美学工业\n镜头构图： 约2.20:1 / 真人电影摄影, 写实数字影像 / 中近景, 过肩双人镜头 / 平视机位 / 中长焦观感, 约50–85mm, 浅景深, 光圈估计约f/2–f/2.8 / 三分法, 焦点落在画面右侧女学生, 左侧虚焦前景形成框景与视线引导\n色彩光影： 低饱和暖褐, 米色与深黑为主, 酒红色点缀 / 柔和自然主义布光, 低反差, 浅柔阴影 / 室内漫射环境光, 辅以柔和暖色实景灯光, 具体灯具不可见\n后期特效： 无明显视觉特效, 以写实摄影为主 | 自然肤质与轻微胶片质感, 电影级调色, 非可见CG渲染画面\n\n【Cinematic Elements & Setting】\nCore Visuals: female student in school uniform, long straight black hair, tense and attentive expression, second student seen out of focus in the foreground, red plaid uniform, school crest, two-person conversation\nTonal Style: Youth drama, tense school mystery atmosphere / contemporary era / daytime or indoor daylight (exact time unspecified) / Interior\nSet Design: Indoor campus space, possibly a classroom or corridor entrance / Plain beige walls, wooden door panel and frame, understated school surroundings; foreground shoulder and collar of another student creating a prominent occlusion visible\n【Cinematic Photography & Tech Specification】\nCamera & Framing: Approximately 2.20:1 / Live-action cinematography, realist digital image / medium close-up, over-the-shoulder two-shot / eye-level angle / medium-telephoto look, approximately 50-85mm, shallow depth of field, estimated f/2-f/2.8 / rule of thirds, focus on the female student at frame right, with the blurred foreground figure creating framing and guiding the eye\nLighting & Color: Muted warm brown, beige and deep black with burgundy accents / Soft naturalistic, low-contrast lighting with gentle shadows / diffused ambient interior light with soft warm practical fixtures not visible\nPost-VFX: No obvious visual effects, primarily realist cinematography / Natural skin texture and subtle film-like finish, cinematic color grading, no visible CGI render style",
+      "img": "assets/full/A382.webp",
+      "thumb": "assets/thumb/A382.webp",
+      "w": 1257,
+      "h": 571,
+      "srcHash": "1e70232501e560d8",
+      "imgHash": "792466d7fa3b038b",
+      "zh": "画面主体与环境置景\n核心元素： 身穿校服的年轻女学生, 长直黑发, 神情紧张而专注, 与她交谈的另一名学生 (前景虚焦), 红色格纹制服, 校徽, 对话中的双人场景\n美学调性： 青春剧情 / 校园悬疑氛围 / 当代背景 / 白天或室内日光时段 (具体时刻不明) / 室内\n具体置景： 校园室内空间, 可能为教室或走廊入口 | 浅米色墙面、木质门板、门框与朴素校舍环境, 前景人物肩部构成遮挡, 未见显著道具\n视听摄影与美学工业\n镜头构图： 约2.20:1 / 真人电影摄影, 写实数字影像 / 中近景, 过肩双人镜头 / 平视机位 / 中长焦观感, 约50–85mm, 浅景深, 光圈估计约f/2–f/2.8 / 三分法, 焦点落在画面右侧女学生, 左侧虚焦前景形成框景与视线引导\n色彩光影： 低饱和暖褐, 米色与深黑为主, 酒红色点缀 / 柔和自然主义布光, 低反差, 浅柔阴影 / 室内漫射环境光, 辅以柔和暖色实景灯光, 具体灯具不可见\n后期特效： 无明显视觉特效, 以写实摄影为主 | 自然肤质与轻微胶片质感, 电影级调色, 非可见CG渲染画面\n\n【电影元素与置景】\n核心视觉： 身穿校服的年轻女学生, 长直黑发, 神情紧张而专注, 与她交谈的另一名学生 (前景虚焦), 红色格纹制服, 校徽, 对话中的双人场景\n调性风格： 青春剧情 / 校园悬疑氛围 / 当代背景 / 白天或室内日光时段 (具体时刻不明) / 室内\n置景设计： 校园室内空间, 可能为教室或走廊入口 | 浅米色墙面、木质门板、门框与朴素校舍环境, 前景人物肩部构成遮挡, 未见显著道具\n\n【电影摄影与技术规格】\n镜头与构图： 约2.20:1 / 真人电影摄影, 写实数字影像 / 中近景, 过肩双人镜头 / 平视机位 / 中长焦观感, 约50–85mm, 浅景深, 光圈估计约f/2–f/2.8 / 三分法, 焦点落在画面右侧女学生, 左侧虚焦前景形成框景与视线引导\n光影与色彩： 低饱和暖褐, 米色与深黑为主, 酒红色点缀 / 柔和自然主义布光, 低反差, 浅柔阴影 / 室内漫射环境光, 辅以柔和暖色实景灯光, 具体灯具不可见\n后期视效： 无明显视觉特效, 以写实摄影为主 | 自然肤质与轻微胶片质感, 电影级调色, 非可见CG渲染画面"
+    },
+    {
+      "id": "A383",
+      "seq": "383",
+      "title": "长椅上的男学生｜青春剧情片夜暮中景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "校园",
+        "青春",
+        "长椅"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：分行带【】标题版式；中文段后半（【视听摄影与美学工业】起）与英文段同处暗字区，转录时按内容分层归位。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】\n核心元素： 年轻男性学生, young male student (年轻男性学生), 深色校服西装, 红色领带, 校徽与名牌, 木质长椅, 砖墙与现代建筑立面\n美学调性： 青春剧情片 / 当代背景 / 夜晚或昏暗傍晚 (具体时刻不确定) / 室外\n具体置景： 校园公共区域 | 学生独自坐在木质长椅上, 背景为虚化的砖墙, 玻璃与灰色建筑立面, 地面边缘可见少量绿植\n【视听摄影与美学工业】\n镜头构图： 约2.20:1 / 写实电影摄影 / 中景 (腰部以上) / 平视机位 / 焦距与光圈无法仅凭画面确定, 呈现中长焦浅景深观感 / 主体偏右, 左侧大面积留白, 长椅形成水平引导线\n色彩光影： 低饱和冷青灰与暗部, 辅以暖棕色木椅和砖墙 / 克制的低调光、柔和明暗反差与浅景深 / 侧后方暖色人工灯光勾勒头发与轮廓, 环境冷色漫射光填充\n后期特效： 无明显可见视觉特效, 主要为写实调色与背景虚化 / 自然电影摄影质感, 未能确定具体渲染引擎或后期技术\n\n【Cinematic Elements & Setting】\nCore Visuals: Young male student, dark school uniform blazer, red tie, school crest and name badge, wooden bench, brick wall and modern building facade\nTonal Style: Youth drama / Contemporary setting / Night or dim dusk / Exact time uncertain / Exterior\nSet Design: Campus public area | Student seated alone on a wooden bench, softly blurred brickwork, glass and gray architectural surfaces behind him, with a small amount of greenery near the ground\n\n【Cinematic Photography & Tech Specification】\nCamera & Framing: Approximately 2.20:1 / Live-action cinematic photography / Medium shot (framed roughly from the waist up) / Eye-level angle / Focal length and aperture cannot be determined from the image; medium-telephoto, shallow-depth-of-field impression / Subject placed on the right with broad negative space on the left; bench edge forming a strong horizontal line\nLighting & Color: Muted cool teal-gray shadows with warm brown wood and brick accents / Restrained low-key lighting, soft contrast and shallow depth of field / Warm artificial sidelight or backlight on hair and edges, balanced by cool ambient fill\nPost-VFX: No obvious visible VFX; primarily realist color grading and background defocus / Naturalistic cinematic image texture; specific render engine or post-production method cannot be determined",
+      "img": "assets/full/A383.webp",
+      "thumb": "assets/thumb/A383.webp",
+      "w": 1258,
+      "h": 571,
+      "srcHash": "2ef084a9350d5cdd",
+      "imgHash": "bac4baeb8c1c9ec6",
+      "zh": "【画面主体与环境置景】\n核心元素： 年轻男性学生, young male student (年轻男性学生), 深色校服西装, 红色领带, 校徽与名牌, 木质长椅, 砖墙与现代建筑立面\n美学调性： 青春剧情片 / 当代背景 / 夜晚或昏暗傍晚 (具体时刻不确定) / 室外\n具体置景： 校园公共区域 | 学生独自坐在木质长椅上, 背景为虚化的砖墙, 玻璃与灰色建筑立面, 地面边缘可见少量绿植\n【视听摄影与美学工业】\n镜头构图： 约2.20:1 / 写实电影摄影 / 中景 (腰部以上) / 平视机位 / 焦距与光圈无法仅凭画面确定, 呈现中长焦浅景深观感 / 主体偏右, 左侧大面积留白, 长椅形成水平引导线\n色彩光影： 低饱和冷青灰与暗部, 辅以暖棕色木椅和砖墙 / 克制的低调光、柔和明暗反差与浅景深 / 侧后方暖色人工灯光勾勒头发与轮廓, 环境冷色漫射光填充\n后期特效： 无明显可见视觉特效, 主要为写实调色与背景虚化 / 自然电影摄影质感, 未能确定具体渲染引擎或后期技术\n\n【电影元素与置景】\n核心视觉： 年轻男性学生, young male student (年轻男性学生), 深色校服西装, 红色领带, 校徽与名牌, 木质长椅, 砖墙与现代建筑立面\n调性风格： 青春剧情片 / 当代背景 / 夜晚或昏暗傍晚 (具体时刻不确定) / 室外\n置景设计： 校园公共区域 | 学生独自坐在木质长椅上, 背景为虚化的砖墙, 玻璃与灰色建筑立面, 地面边缘可见少量绿植\n\n【电影摄影与技术规格】\n镜头与构图： 约2.20:1 / 写实电影摄影 / 中景 (腰部以上) / 平视机位 / 焦距与光圈无法仅凭画面确定, 呈现中长焦浅景深观感 / 主体偏右, 左侧大面积留白, 长椅形成水平引导线\n光影与色彩： 低饱和冷青灰与暗部, 辅以暖棕色木椅和砖墙 / 克制的低调光、柔和明暗反差与浅景深 / 侧后方暖色人工灯光勾勒头发与轮廓, 环境冷色漫射光填充\n后期视效： 无明显可见视觉特效, 主要为写实调色与背景虚化 / 自然电影摄影质感, 未能确定具体渲染引擎或后期技术"
+    },
+    {
+      "id": "A384",
+      "seq": "384",
+      "title": "庭院双人对峙｜历史武侠中近景",
+      "category": "摄影——电影感",
+      "kind": "摄影",
+      "tone": "",
+      "palette": "",
+      "model": "Z Image Turbo",
+      "tags": [
+        "武侠",
+        "庭院",
+        "双人"
+      ],
+      "aspect": "横图",
+      "updated": "2026.11.06",
+      "note": "三明治结构分享截图（画面 + 中文白字 + 英文暗字；英文段按 (L-55)*3+25 增强放大后单独核读）。版式：带【】标题连排。双语原版两段全文照录进 prompt，中文段在前、空行分隔；去掉平台标签「AI生图提示词：」，窄栏硬折行断词合并，字段黏连按原文排版照录不归一。模型按版式推断为 Z Image Turbo，用户本次未口述。",
+      "prompt": "【画面主体与环境置景】核心元素： 两名东亚男性武侠角色, 黑衣铠甲武士, 长发头带, 黑色头巾, 传统中式服饰, 古典庭院, 秋季红枫, 青瓦建筑, 蓝色帷幔, 石阶与灯笼美学调性： 历史武侠 / 中国古代架空时代, 偏明代至前现代东方风格 / 白昼偏午后 / 室外具体置景： 传统中式宫殿或武侠宅院庭院 | 青灰色琉璃瓦屋檐、朱红木柱、深色木格门窗、中央石阶、蓝黑色垂帘、石灯笼、庭院铺石、散落红枫叶、两侧红枫树 | 远处山水与建筑轮廓【视听摄影与美学工业】镜头构图： 约1.94:1宽银幕比例 / 写实真人电影格式, 历史武侠电影质感 / 双人中近景, 中景至胸像构图 / 平视机位, 正面略带低机位稳定感 / 约50mm标准镜头, 约f/2.8至f/4, 主体清晰、背景浅景深虚化 / 中轴对称与平衡构图, 双主体分置左右, 中央建筑形成视觉引导线色彩光影： 低饱和冷灰黑与暗青色为主, 辅以红枫橙红和朱红建筑形成互补色对比 / 阴天柔光、低对比度、电影级柔和轮廓光 / 主要光源为自然天空散射光, 辅以庭院环境反射光与微弱侧向补光后期特效： 极少量环境雾化、景深虚化、自然颗粒与电影级色彩分级, 无明显超自然特效 / 非CG主导的写实数字电影质感, 细腻材质纹理, 类似高端实拍摄影与数字中间片调色\n\nCinematic Elements & Setting: Core Visuals: Two East Asian male wuxia characters, black-clad armored warrior, long-haired fighter with a headband, black headscarf, traditional Chinese robes, classical courtyard, autumn red maple leaves, gray-tiled architecture, blue drapery, stone steps and lanternsTonal Style: Historical wuxia drama / Fictional ancient China with a late-imperial to early modern East Asian aesthetic / Daytime, late afternoon light / ExteriorSet Design: Traditional Chinese palace or martial-arts residence courtyard | Gray-green glazed tiles, vermilion wooden pillars, dark wooden lattice doors, central stone steps, deep blue-black curtains, stone lanterns, paved courtyard, fallen red maple leaves, maple trees on both sides, distant landscape and architectural silhouettesCinematic Photography & Tech SpecificationCamera & Framing: Approximately 1.94:1 widescreen aspect ratio / Photorealistic live-action historical wuxia format / Medium two-shot, framed from the torso upward / Eye-level camera with a subtle grounded low-angle presence / Approximately 50mm standard lens, around f/2.8 to f/4, sharp subjects with shallow background depth of field / Centered and balanced composition, two subjects positioned symmetrically on the left and right, central architecture creating leading linesLighting & Color: Desaturated charcoal black, cool gray and deep teal palette with contrasting autumn orange-red maple leaves and vermilion architecture / Soft overcast daylight, low contrast, gentle cinematic edge definition / Natural diffused sky light as the key source, supported by courtyard bounce light and subtle lateral fillPost-VFX: Minimal atmospheric haze, shallow-depth-of-field treatment, natural film grain and cinematic color grading, no visible supernatural effects / Non-CG-dominant photorealistic digital cinema texture with detailed costume and architectural materials, resembling high-end live-action cinematography and digital intermediate grading",
+      "img": "assets/full/A384.webp",
+      "thumb": "assets/thumb/A384.webp",
+      "w": 1258,
+      "h": 651,
+      "srcHash": "a87cd732ae1e1d23",
+      "imgHash": "cef59ef68c027f5b",
+      "zh": "【画面主体与环境置景】核心元素： 两名东亚男性武侠角色, 黑衣铠甲武士, 长发头带, 黑色头巾, 传统中式服饰, 古典庭院, 秋季红枫, 青瓦建筑, 蓝色帷幔, 石阶与灯笼美学调性： 历史武侠 / 中国古代架空时代, 偏明代至前现代东方风格 / 白昼偏午后 / 室外具体置景： 传统中式宫殿或武侠宅院庭院 | 青灰色琉璃瓦屋檐、朱红木柱、深色木格门窗、中央石阶、蓝黑色垂帘、石灯笼、庭院铺石、散落红枫叶、两侧红枫树 | 远处山水与建筑轮廓【视听摄影与美学工业】镜头构图： 约1.94:1宽银幕比例 / 写实真人电影格式, 历史武侠电影质感 / 双人中近景, 中景至胸像构图 / 平视机位, 正面略带低机位稳定感 / 约50mm标准镜头, 约f/2.8至f/4, 主体清晰、背景浅景深虚化 / 中轴对称与平衡构图, 双主体分置左右, 中央建筑形成视觉引导线色彩光影： 低饱和冷灰黑与暗青色为主, 辅以红枫橙红和朱红建筑形成互补色对比 / 阴天柔光、低对比度、电影级柔和轮廓光 / 主要光源为自然天空散射光, 辅以庭院环境反射光与微弱侧向补光后期特效： 极少量环境雾化、景深虚化、自然颗粒与电影级色彩分级, 无明显超自然特效 / 非CG主导的写实数字电影质感, 细腻材质纹理, 类似高端实拍摄影与数字中间片调色\n\n【电影元素与置景】\n核心视觉： 两名东亚男性武侠角色, 黑衣铠甲武士, 长发头带, 黑色头巾, 传统中式服饰, 古典庭院, 秋季红枫, 青瓦建筑, 蓝色帷幔, 石阶与灯笼\n调性风格：历史武侠 / 中国古代架空时代, 偏明代至前现代东方风格 / 白昼偏午后 / 室外\n置景设计：传统中式宫殿或武侠宅院庭院 | 青灰色琉璃瓦屋檐、朱红木柱、深色木格门窗、中央石阶、蓝黑色垂帘、石灯笼、庭院铺石、散落红枫叶、两侧红枫树 | 远处山水与建筑轮廓\n\n【电影摄影与技术规格】\n镜头与构图：约1.94:1宽银幕比例 / 写实真人电影格式, 历史武侠电影质感 / 双人中近景, 中景至胸像构图 / 平视机位, 正面略带低机位稳定感 / 约50mm标准镜头, 约f/2.8至f/4, 主体清晰、背景浅景深虚化 / 中轴对称与平衡构图, 双主体分置左右, 中央建筑形成视觉引导线\n光影与色彩：低饱和冷灰黑与暗青色为主, 辅以红枫橙红和朱红建筑形成互补色对比 / 阴天柔光、低对比度、电影级柔和轮廓光 / 主要光源为自然天空散射光, 辅以庭院环境反射光与微弱侧向补光\n后期视效：极少量环境雾化、景深虚化、自然颗粒与电影级色彩分级, 无明显超自然特效 / 非CG主导的写实数字电影质感, 细腻材质纹理, 类似高端实拍摄影与数字中间片调色"
     }
   ]
 }
